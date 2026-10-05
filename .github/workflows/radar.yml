@@ -1,0 +1,82 @@
+name: Radar de licitaciones (cada hora)
+
+on:
+  schedule:
+    # Cada hora, al minuto 7 (GitHub puede atrasar unos minutos las ejecuciones programadas).
+    - cron: "7 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "radar/**"
+      - "config/**"
+      - "docs/index.html"
+      - ".github/workflows/radar.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        run: python -m unittest discover -s tests -t .
+
+      - name: Revisar Mercado Público y Compra Ágil
+        id: radar
+        continue-on-error: true
+        env:
+          MERCADO_PUBLICO_TICKET: ${{ secrets.MERCADO_PUBLICO_TICKET }}
+        run: python -m radar.monitor
+
+      - name: Guardar datos en el repositorio
+        run: |
+          git config user.name "radar-aereo[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data data
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+            exit 0
+          fi
+          git commit -q -m "Datos del radar $(date -u +%Y-%m-%dT%H:%MZ)"
+          for intento in 1 2 3; do
+            git pull -q --rebase && git push -q && exit 0
+            sleep $((intento * 5))
+          done
+          exit 1
+
+      - name: Preparar sitio
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Fallar si el radar no pudo revisar ninguna fuente
+        if: steps.radar.outcome == 'failure'
+        run: |
+          echo "::error::El radar no pudo consultar Mercado Público. Revisa el secreto MERCADO_PUBLICO_TICKET y el log del paso anterior."
+          exit 1
+
+  publicar:
+    needs: radar
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
