@@ -218,7 +218,7 @@ class TestCompraAgil(unittest.TestCase):
             busqueda_ca={
                 "dron": [ca_item("100-1-COT26", "Compra de dron para fiscalización")],
                 # El buscador también devuelve resultados que no son de drones.
-                "RPA": [ca_item("200-1-COT26", "Licencias de software"), ca_item("300-1-COT26", "Equipos varios")],
+                "RPAS": [ca_item("200-1-COT26", "Licencias de software"), ca_item("300-1-COT26", "Equipos varios")],
             },
             detalles_ca={
                 "100-1-COT26": {**ca_item("100-1-COT26", "Compra de dron para fiscalización"), "descripcion": "Dron DJI"},
@@ -258,6 +258,16 @@ class TestCompraAgil(unittest.TestCase):
         self.assertFalse(datos["fuentes"]["compra_agil"]["ok"])
         self.assertIn("Ninguna búsqueda", datos["fuentes"]["compra_agil"]["mensaje"])
         self.assertEqual([i["id"] for i in datos["items"]], ["CA:1"])
+
+    def test_reevalua_lo_guardado_con_terminos_vigentes(self):
+        previos = {"items": [
+            {"id": "CA:7", "fuente": "compra_agil", "codigo": "7", "nombre": "Solución tipo RPA dirección de tecnología",
+             "estado": "abierta", "terminos": ["RPA / RPAS"]},
+            {"id": "CA:8", "fuente": "compra_agil", "codigo": "8", "nombre": "Equipos", "descripcion": "Dron con cámara",
+             "estado": "abierta", "terminos": ["Viejo"]},
+        ]}
+        datos, _ = crear_radar(ApiFalsa(), previos=previos).ejecutar()
+        self.assertEqual([(i["id"], i["terminos"]) for i in datos["items"]], [("CA:8", ["Dron"])])
 
     def test_cierre_por_fecha(self):
         previos = {

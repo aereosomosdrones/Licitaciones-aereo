@@ -58,10 +58,10 @@ class Config:
     # Compra Ágil
     dias_ventana_compra_agil = 45
     max_paginas_compra_agil = 8  # páginas de 10 resultados por término
-    barrido_completo_horas = 12  # entre barridos completos solo se piden cambios recientes
+    barrido_completo_horas = 24  # entre barridos completos solo se piden cambios recientes
     max_detalles_compra_agil = 120
     # General
-    presupuesto_segundos = 25 * 60  # tiempo máximo para pedir detalles en una ejecución
+    presupuesto_segundos = 10 * 60  # tiempo máximo pidiendo detalles, por fuente y ejecución
     dias_retencion = 180  # se olvidan procesos cerrados hace más de esto
 
 
@@ -270,8 +270,10 @@ class Radar:
         fallidas: list[str] = []
         consultas = self.dicc.consultas_compra_agil
         for n, consulta in enumerate(consultas):
+            t0 = self.reloj()
             try:
                 resultados = self.ca.buscar(consulta, max_paginas=self.cfg.max_paginas_compra_agil, **filtros)
+                log.info("Compra Ágil: '%s' → %s resultados (%.0f s)", consulta, len(resultados), self.reloj() - t0)
             except CuotaAgotada:
                 fallidas.extend(consultas[n:])
                 self.limitada = True
@@ -290,6 +292,7 @@ class Radar:
 
         detalles = 0
         descartadas = self.cache["ca_descartadas"]
+        self.inicio = self.reloj()  # el presupuesto de detalles empieza después de las búsquedas
         for codigo, bruto in encontrados.items():
             base = compra_agil_desde_listado(bruto)
             previo = self.items.get(base["id"])
@@ -345,6 +348,7 @@ class Radar:
         self.errores_detalle = 0
         self.limitada = False
         self.advertencias = []
+        self.inicio = self.reloj()
         try:
             resumen = funcion()
             return {
@@ -361,6 +365,19 @@ class Radar:
         except (ErrorAPI, OSError) as e:
             log.error("%s: %s", nombre, e)
             return {"ok": False, "mensaje": str(e)[:300], "ultima_ok": previo.get("ultima_ok")}
+
+    def _reevaluar(self) -> None:
+        """Aplica los términos vigentes a todo lo guardado: si se corrige config/terminos.json,
+        los procesos que ya no coinciden desaparecen y las etiquetas se actualizan."""
+        for id_, item in list(self.items.items()):
+            terminos = self._terminos(item)
+            if not terminos:
+                log.info("Ya no coincide con los términos: %s %s", item.get("codigo"), (item.get("nombre") or "")[:80])
+                del self.items[id_]
+                self.nuevas = [n for n in self.nuevas if n != id_]
+            else:
+                item["terminos"] = terminos
+                item["categorias"] = self.dicc.categorias(terminos)
 
     def _cierre_por_fecha(self) -> None:
         for item in self.items.values():
@@ -381,6 +398,7 @@ class Radar:
             "licitaciones": self._ejecutar_fuente("licitaciones", self.lic, self.revisar_licitaciones),
             "compra_agil": self._ejecutar_fuente("compra_agil", self.ca, self.revisar_compra_agil),
         }
+        self._reevaluar()
         self._cierre_por_fecha()
         self._podar()
         items = sorted(
