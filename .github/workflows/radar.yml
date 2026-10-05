@@ -26,6 +26,8 @@ jobs:
   radar:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    outputs:
+      pages: ${{ steps.pages.outcome }}
     steps:
       - uses: actions/checkout@v4
 
@@ -59,7 +61,15 @@ jobs:
           done
           exit 1
 
-      - name: Preparar sitio
+      # Si GitHub Pages no está activado (Settings → Pages → Source: GitHub Actions)
+      # la publicación se omite sin marcar la ejecución como fallida.
+      - name: Comprobar GitHub Pages
+        id: pages
+        continue-on-error: true
+        uses: actions/configure-pages@v5
+
+      - name: Subir sitio
+        if: steps.pages.outcome == 'success'
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
@@ -67,12 +77,12 @@ jobs:
       - name: Fallar si el radar no pudo revisar ninguna fuente
         if: steps.radar.outcome == 'failure'
         run: |
-          echo "::error::El radar no pudo consultar Mercado Público. Revisa el secreto MERCADO_PUBLICO_TICKET y el log del paso anterior."
+          echo "::error::El radar no pudo consultar Mercado Público. Revisa el secreto MERCADO_PUBLICO_TICKET y el log del paso 'Revisar Mercado Público y Compra Ágil'."
           exit 1
 
   publicar:
     needs: radar
-    if: ${{ !cancelled() }}
+    if: ${{ !cancelled() && needs.radar.outputs.pages == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
