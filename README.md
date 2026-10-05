@@ -62,6 +62,15 @@ Custom domain* y crea el registro CNAME en el DNS de aereo.cl.
 > GitHub puede retrasar unos minutos las ejecuciones programadas. Los commits horarios del
 > radar mantienen el repositorio activo, así que el cron no se desactiva por inactividad.
 
+## Diseño y acceso
+
+- El dashboard usa el sistema de diseño de aereo.cl (repo `aereo-web`: `partials/chrome.css` y
+  `assets/aereo-ui.css`): amarillo `#ECE31D`, Big Shoulders Display + Roboto + Roboto Mono
+  (copiadas en `docs/assets/fonts/`) y sombras duras negras.
+- En Netlify (proyecto `aereo-licitaciones`, licitaciones.aereo.cl) el sitio está protegido con
+  la contraseña de visitantes de Netlify (*Project configuration → Access & security → Visitor
+  access*). Los datos de `docs/data/licitaciones.json` son información pública de Mercado Público.
+
 ## Publicar en Netlify (en tu web)
 
 El repo incluye [`netlify.toml`](netlify.toml): publica la carpeta `docs/` sin compilar nada.
