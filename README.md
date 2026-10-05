@@ -26,10 +26,11 @@ Cada hora, [`.github/workflows/radar.yml`](.github/workflows/radar.yml) ejecuta 
    sigue se refrescan cada 6 h hasta que se adjudican, quedan desiertas o se revocan.
 2. **Compra Ágil** (API v2): consulta el buscador oficial con cada término y verifica cada
    resultado contra los patrones (si no aparece en el nombre, revisa la descripción y los
-   productos solicitados). Barrido completo de los últimos 45 días cada 12 h y, entre medio,
+   productos solicitados). Barrido completo de los últimos 45 días una vez al día y, entre medio,
    solo los cambios recientes, para cuidar la cuota del ticket.
 3. Guarda el resultado en [`docs/data/licitaciones.json`](docs/data/licitaciones.json)
-   (hace commit en el repo, así queda historial) y publica el dashboard en GitHub Pages.
+   (hace commit en el repo, así queda historial). El dashboard publicado en Netlify
+   (licitaciones.aereo.cl) lee ese archivo directamente desde GitHub.
 
 El dashboard ([`docs/index.html`](docs/index.html), HTML estático sin dependencias) muestra:
 
@@ -48,19 +49,14 @@ El dashboard ([`docs/index.html`](docs/index.html), HTML estático sin dependenc
 2. **Guardarlo como secreto** del repositorio: *Settings → Secrets and variables → Actions →
    New repository secret*, nombre `MERCADO_PUBLICO_TICKET`.
    No lo pegues en el código ni en issues.
-3. **Activar GitHub Pages**: *Settings → Pages → Build and deployment → Source:
-   **GitHub Actions***. (En repos privados Pages requiere plan Team/Pro; si no lo tienes,
-   ve la opción local más abajo o haz público el repo.)
-4. **Mergear a `main`**: las ejecuciones programadas de GitHub Actions solo corren en la rama
-   principal. Luego, en *Actions → Radar de licitaciones → Run workflow*, lánzalo una vez a
-   mano para no esperar a la siguiente hora.
+3. **Mergear a `main`** y, en *Actions → Radar de licitaciones → Run workflow*, lanzarlo una
+   vez a mano.
 
-El dashboard quedará en `https://<organización>.github.io/<repositorio>/`. Para servirlo bajo
-un subdominio propio (p. ej. `licitaciones.aereo.cl`), configúralo en *Settings → Pages →
-Custom domain* y crea el registro CNAME en el DNS de aereo.cl.
-
-> GitHub puede retrasar unos minutos las ejecuciones programadas. Los commits horarios del
-> radar mantienen el repositorio activo, así que el cron no se desactiva por inactividad.
+> **Disparo horario.** GitHub no garantiza las ejecuciones programadas por `cron` (en este repo
+> no llegaron a dispararse). Por eso cada ejecución termina con el job `relanzar`, que espera
+> hasta el minuto 5 de la hora siguiente y lanza la próxima revisión, salvo que ya exista otra
+> ejecución más reciente (la del cron o la de un push). Si la cadena se corta (p. ej. GitHub
+> cancela una ejecución), basta con un *Run workflow* manual para retomarla.
 
 ## Diseño y acceso
 
