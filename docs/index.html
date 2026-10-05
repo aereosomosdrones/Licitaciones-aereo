@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Radar de Licitaciones · Aéreo</title>
+<!-- Copia de los datos que el radar actualiza cada hora en GitHub. Si se puede leer (repositorio
+     público), el dashboard la usa aunque el sitio se haya publicado una sola vez (p. ej. en Netlify). -->
+<meta name="radar-datos" content="https://raw.githubusercontent.com/aereosomosdrones/Licitaciones-aereo/main/docs/data/licitaciones.json">
 <meta name="description" content="Licitaciones y Compras Ágiles de Mercado Público relacionadas con drones, RPAS y servicios aéreos. Se actualiza cada hora.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b1f3a'/%3E%3Cg fill='none' stroke='%2366b5ff' stroke-width='2.5'%3E%3Ccircle cx='9' cy='9' r='4'/%3E%3Ccircle cx='23' cy='9' r='4'/%3E%3Ccircle cx='9' cy='23' r='4'/%3E%3Ccircle cx='23' cy='23' r='4'/%3E%3Cpath d='M12 12l8 8M20 12l-8 8'/%3E%3C/g%3E%3C/svg%3E">
 <style>
@@ -303,6 +306,7 @@ footer .terms-list { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 10p
 (() => {
   "use strict";
   const DATA_URL = "data/licitaciones.json";
+  const REMOTE_URL = document.querySelector('meta[name="radar-datos"]')?.content;
   const POLL_MS = 10 * 60 * 1000; // consulta si hay datos nuevos cada 10 min (el radar corre cada hora)
   const PAGE = 40;
   const TZ = "America/Santiago";
@@ -363,9 +367,15 @@ footer .terms-list { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 10p
   // ---------- Carga ----------
   async function load(silent) {
     try {
-      const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const next = await res.json();
+      // Se usa la copia más reciente entre la publicada junto al sitio y la de GitHub.
+      const get = url => fetch(`${url}?t=${Date.now()}`, { cache: "no-store" }).then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      });
+      const results = await Promise.allSettled([DATA_URL, REMOTE_URL].filter(Boolean).map(get));
+      const ok = results.filter(r => r.status === "fulfilled" && r.value?.generado).map(r => r.value);
+      if (!ok.length) throw results[0].reason || new Error("sin datos");
+      const next = ok.reduce((a, b) => (new Date(b.generado) > new Date(a.generado) ? b : a));
       const prevIds = data ? new Set(data.items.map(i => i.id)) : null;
       const changed = !data || next.generado !== data.generado;
       data = next;
@@ -437,6 +447,10 @@ footer .terms-list { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 10p
       const last = f.ultima_ok ? ` Última revisión exitosa: ${fmtDate.format(new Date(f.ultima_ok))}.` : "";
       return `<div class="alert err" role="alert"><span aria-hidden="true">⚠</span><div><strong>${label}: no se pudo revisar en la última ejecución</strong>${esc(f.mensaje)}${last} Se muestran los últimos datos conocidos.</div></div>`;
     }).join("");
+    Object.entries(names).forEach(([k, label]) => {
+      const adv = fuentes[k]?.ok && fuentes[k].advertencias;
+      if (adv && adv.length) $("#alerts").insertAdjacentHTML("beforeend", `<div class="alert"><span aria-hidden="true">ℹ</span><div><strong>${label}: revisión parcial en la última ejecución</strong>${esc(adv.join(" · "))}</div></div>`);
+    });
     const pend = fuentes.licitaciones?.pendientes_por_revisar;
     if (pend > 0) {
       $("#alerts").insertAdjacentHTML("beforeend", `<div class="alert"><span aria-hidden="true">ℹ</span><div><strong>Revisión en profundidad en progreso</strong>Quedan ${fmtNum.format(pend)} licitaciones activas por revisar en su descripción e ítems (las que mencionan drones en el nombre ya están incluidas). Se completan en las próximas ejecuciones horarias.</div></div>`);

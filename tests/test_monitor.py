@@ -156,6 +156,62 @@ class TestLicitaciones(unittest.TestCase):
         self.assertEqual(datos["fuentes"]["licitaciones"]["pendientes_por_revisar"], 8)
 
 
+class TestLimites(unittest.TestCase):
+    def test_429_en_detalles_conserva_lo_avanzado(self):
+        api = ApiFalsa(
+            activas=[lic_resumen("1-1-LE26", "COMPRA DE DRON"), lic_resumen("2-2-LE26", "ASEO"), lic_resumen("3-3-LE26", "UAV")],
+            detalles_lic={"1-1-LE26": lic_detalle("1-1-LE26", "COMPRA DE DRON")},
+        )
+        llamadas = {"detalles": 0}
+
+        def con_limite(url, headers=None):
+            if "codigo=" in url:
+                llamadas["detalles"] += 1
+                if llamadas["detalles"] > 1:
+                    raise urllib.error.HTTPError(url, 429, "Too Many", {}, None)
+            return api(url, headers)
+
+        datos, cache = crear_radar(con_limite).ejecutar()
+        lic = datos["fuentes"]["licitaciones"]
+        self.assertTrue(lic["ok"])
+        self.assertIn("429", lic["advertencias"][0])
+        self.assertEqual(lic["pendientes_por_revisar"], 1)
+        # Se guardan la que tiene detalle y la que coincide solo por nombre.
+        self.assertEqual({i["codigo"] for i in datos["items"]}, {"1-1-LE26", "3-3-LE26"})
+        self.assertEqual(cache["lic_revisadas"], ["1-1-LE26"])
+
+    def test_429_transitorio_se_reintenta(self):
+        respuestas = [urllib.error.HTTPError("u", 429, "Too Many", {}, None), {"ok": 1}]
+        esperas = []
+
+        def obtener(url, headers=None):
+            r = respuestas.pop(0)
+            if isinstance(r, Exception):
+                raise r
+            return r
+
+        http = ClienteHTTP(obtener=obtener, dormir=esperas.append, pausa=0)
+        self.assertEqual(http.get("https://x"), {"ok": 1})
+        self.assertIn(15, esperas)
+
+    def test_busqueda_fallida_no_detiene_las_demas(self):
+        api = ApiFalsa(busqueda_ca={"drones": [ca_item("5-1-COT26", "Dron agrícola")]},
+                       detalles_ca={"5-1-COT26": ca_item("5-1-COT26", "Dron agrícola")})
+
+        def con_timeout(url, headers=None):
+            if "q=dron&" in url:
+                raise urllib.error.HTTPError(url, 504, "Timeout", {}, None)
+            return api(url, headers)
+
+        datos, cache = crear_radar(con_timeout).ejecutar()
+        ca = datos["fuentes"]["compra_agil"]
+        self.assertTrue(ca["ok"])
+        self.assertIn("dron", ca["advertencias"][0])
+        self.assertEqual([i["codigo"] for i in datos["items"]], ["5-1-COT26"])
+        # La ventana incremental no avanza para no perder lo que no respondió.
+        self.assertIsNone(cache["ca_ultima_ejecucion_ok"])
+
+
 class TestCompraAgil(unittest.TestCase):
     def test_verifica_resultados_del_buscador(self):
         api = ApiFalsa(
@@ -200,7 +256,7 @@ class TestCompraAgil(unittest.TestCase):
 
         datos, _ = crear_radar(sin_cuota, previos=previos).ejecutar()
         self.assertFalse(datos["fuentes"]["compra_agil"]["ok"])
-        self.assertIn("429", datos["fuentes"]["compra_agil"]["mensaje"])
+        self.assertIn("Ninguna búsqueda", datos["fuentes"]["compra_agil"]["mensaje"])
         self.assertEqual([i["id"] for i in datos["items"]], ["CA:1"])
 
     def test_cierre_por_fecha(self):
