@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-05T21:29:52+00:00",
- "proxima_actualizacion": "2026-10-05T22:29:52+00:00",
+ "generado": "2026-10-05T22:27:14+00:00",
+ "proxima_actualizacion": "2026-10-05T23:27:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-05T21:29:52+00:00",
+   "ultima_ok": "2026-10-05T22:27:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4447,
+   "revisadas": 4430,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 3985
+   "pendientes_por_revisar": 3851
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-05T21:29:52+00:00",
+   "ultima_ok": "2026-10-05T22:27:14+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -192,7 +192,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-05T21:29:52+00:00",
+   "ultima_actualizacion": "2026-10-05T22:27:14+00:00",
    "detalle_actualizado": "2026-10-05T18:28:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -283,7 +283,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-05T21:29:52+00:00",
+   "ultima_actualizacion": "2026-10-05T22:27:14+00:00",
    "detalle_actualizado": "2026-10-05T18:28:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -552,7 +552,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-05T21:29:52+00:00",
+   "ultima_actualizacion": "2026-10-05T22:27:14+00:00",
    "detalle_actualizado": "2026-10-05T18:23:32+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -587,7 +587,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-05T21:29:52+00:00",
+   "ultima_actualizacion": "2026-10-05T22:27:14+00:00",
    "detalle_actualizado": "2026-10-05T18:28:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -619,7 +619,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-05T21:29:52+00:00",
+   "ultima_actualizacion": "2026-10-05T22:27:14+00:00",
    "detalle_actualizado": "2026-10-05T18:28:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -651,7 +651,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-05T21:29:52+00:00",
+   "ultima_actualizacion": "2026-10-05T22:27:14+00:00",
    "detalle_actualizado": "2026-10-05T18:28:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -683,7 +683,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-05T21:29:52+00:00",
+   "ultima_actualizacion": "2026-10-05T22:27:14+00:00",
    "detalle_actualizado": "2026-10-05T18:28:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
