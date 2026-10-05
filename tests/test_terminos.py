@@ -39,7 +39,7 @@ class TestDeteccion(unittest.TestCase):
     def test_terminos_derivados(self):
         self.assertDetecta("Levantamiento aerofotogramétrico sector rural", "Fotogrametría / ortomosaico")
         self.assertDetecta("Generación de ortomosaico y curvas de nivel", "Fotogrametría / ortomosaico")
-        self.assertDetecta("Levantamiento LiDAR cuenca", "LiDAR aéreo")
+        self.assertDetecta("Levantamiento LiDAR cuenca", "LiDAR")
         self.assertDetecta("Servicio de filmación aérea aniversario comunal", "Servicios aéreos")
         self.assertDetecta("Inspección con dron de techumbres", "Servicios aéreos")
 
@@ -58,7 +58,7 @@ class TestDeteccion(unittest.TestCase):
         self.assertEqual(DICC.buscar("RPA automatización robótica de procesos y dron"), ["Dron"])
 
     def test_categorias(self):
-        self.assertEqual(DICC.categorias(["Dron", "LiDAR aéreo"]), ["derivado", "nucleo"])
+        self.assertEqual(DICC.categorias(["Dron", "LiDAR"]), ["derivado", "nucleo"])
 
 
 if __name__ == "__main__":

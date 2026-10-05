@@ -20,7 +20,13 @@
         "automation anywhere",
         "power automate",
         "bots de software",
-        "robot de software"
+        "robot de software",
+        "solucion tipo rpa",
+        "licencias rpa",
+        "software rpa",
+        "rpa de software",
+        "direccion de tecnologia",
+        "automatizar procesos"
       ]
     },
     {
@@ -70,7 +76,7 @@
       "patron": "aerofotogrametri|fotogrametri.{0,40}(aere|dron|rpas?|uav|vuelo)|ortomosaico|ortofoto|modelo digital de (elevacion|terreno|superficie).{0,60}(aere|dron|vuelo)"
     },
     {
-      "etiqueta": "LiDAR aéreo",
+      "etiqueta": "LiDAR",
       "categoria": "derivado",
       "patron": "\\blidar\\b"
     },
@@ -83,27 +89,19 @@
   "consultas_compra_agil": [
     "dron",
     "drones",
-    "drone",
     "RPAS",
-    "RPA",
     "UAV",
     "VANT",
     "aeronave no tripulada",
-    "aeronave pilotada a distancia",
     "multirrotor",
-    "cuadricoptero",
     "DJI",
     "antidrones",
-    "fotogrametria",
     "aerofotogrametria",
     "ortomosaico",
-    "ortofoto",
     "LiDAR",
     "fotografia aerea",
     "filmacion aerea",
-    "inspeccion aerea",
     "levantamiento aereo",
-    "termografia aerea",
     "multiespectral"
   ]
 }

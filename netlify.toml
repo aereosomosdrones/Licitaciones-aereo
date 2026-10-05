@@ -7,7 +7,7 @@
   # directamente desde GitHub (ver <meta name="radar-datos"> en docs/index.html).
   # Para republicar también con cada actualización de datos, define la variable de
   # entorno RADAR_PUBLICAR_DATOS=si en Netlify.
-  ignore = "[ \"$RADAR_PUBLICAR_DATOS\" != \"si\" ] && git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)docs/data' ':(exclude)data'"
+  ignore = "[ \"$RADAR_PUBLICAR_DATOS\" != \"si\" ] && [ -n \"$CACHED_COMMIT_REF\" ] && [ \"$CACHED_COMMIT_REF\" != \"$COMMIT_REF\" ] && git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)docs/data' ':(exclude)data'"
 
 [[headers]]
   for = "/data/*"
