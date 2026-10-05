@@ -1,5 +1,5 @@
 {
-  "_ayuda": "Los patrones son expresiones regulares que se aplican sobre el texto normalizado (minúsculas y sin tildes). 'excluir_si' descarta la coincidencia de ESE término cuando el texto contiene alguna de esas frases. 'consultas_compra_agil' son las palabras que se envían al buscador de Compra Ágil (parámetro q); los resultados se verifican después contra los patrones.",
+  "_ayuda": "Los patrones son expresiones regulares que se aplican sobre el texto normalizado (minúsculas y sin tildes). 'excluir_si' descarta la coincidencia de ESE término cuando el texto contiene alguna de esas frases. 'consultas_compra_agil' son las palabras que se envían al buscador de Compra Ágil (parámetro q); los resultados se verifican después contra los patrones. El buscador de Compra Ágil trata varias palabras como 'cualquiera de ellas', por eso solo se usan palabras sueltas y precisas.",
   "terminos": [
     {
       "etiqueta": "Dron",
@@ -89,19 +89,18 @@
   "consultas_compra_agil": [
     "dron",
     "drones",
+    "drone",
     "RPAS",
     "UAV",
     "VANT",
-    "aeronave no tripulada",
     "multirrotor",
+    "cuadricoptero",
     "DJI",
     "antidrones",
     "aerofotogrametria",
     "ortomosaico",
+    "fotogrametria",
     "LiDAR",
-    "fotografia aerea",
-    "filmacion aerea",
-    "levantamiento aereo",
     "multiespectral"
   ]
 }

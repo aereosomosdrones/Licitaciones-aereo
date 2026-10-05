@@ -275,8 +275,10 @@ class ApiCompraAgil:
             raise ErrorAPI(f"API Compra Ágil: {errores[0].get('mensaje', 'error')}")
         return datos.get("payload") if isinstance(datos, dict) and "payload" in datos else datos
 
-    def buscar(self, q: str, max_paginas: int = 5, **filtros: str) -> list[dict]:
+    def buscar(self, q: str, max_paginas: int = 5, **filtros: str) -> tuple[list[dict], bool]:
+        """Resultados de la búsqueda y si quedaron páginas sin leer (truncado)."""
         items: list[dict] = []
+        total_paginas = 0
         for pagina in range(1, max_paginas + 1):
             params = {
                 "q": q,
@@ -290,7 +292,7 @@ class ApiCompraAgil:
             total_paginas = (payload.get("paginacion") or {}).get("total_paginas") or 0
             if pagina >= total_paginas:
                 break
-        return items
+        return items, total_paginas > max_paginas
 
     def detalle(self, codigo: str) -> dict | None:
         return self._get(f"{URL_COMPRA_AGIL}/{urllib.parse.quote(codigo)}")

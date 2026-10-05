@@ -246,6 +246,26 @@ class TestCompraAgil(unittest.TestCase):
         self.assertTrue(all("cambio_desde=" in u for u in api.urls if u.split("?")[0].endswith("/compra-agil")))
         self.assertFalse(any(u.endswith("/200-1-COT26") for u in api.urls))
 
+    def test_divide_la_ventana_si_la_api_no_alcanza_a_responder(self):
+        api = ApiFalsa(busqueda_ca={"dron": [ca_item("9-1-COT26", "Dron")]}, detalles_ca={"9-1-COT26": ca_item("9-1-COT26", "Dron")})
+        ventanas = []
+
+        def lenta(url, headers=None):
+            q = dict(urllib.parse.parse_qsl(urllib.parse.urlparse(url).query))
+            if q.get("q") == "dron":
+                desde = datetime.fromisoformat(q["publicado_desde"].replace("Z", "+00:00"))
+                hasta = datetime.fromisoformat(q["publicado_hasta"].replace("Z", "+00:00"))
+                if hasta - desde > timedelta(days=12):
+                    raise urllib.error.HTTPError(url, 504, "Timeout", {}, None)
+                ventanas.append(hasta - desde)
+            return api(url, headers)
+
+        datos, _ = crear_radar(lenta).ejecutar()
+        self.assertTrue(datos["fuentes"]["compra_agil"]["ok"])
+        self.assertEqual(datos["fuentes"]["compra_agil"]["advertencias"], [])
+        self.assertEqual(len(ventanas), 4)  # 45 días → 4 tramos de ~11 días
+        self.assertIn("CA:9-1-COT26", {i["id"] for i in datos["items"]})
+
     def test_cuota_agotada_no_borra_datos(self):
         previos = {"items": [{"id": "CA:1", "fuente": "compra_agil", "codigo": "1", "nombre": "Dron", "estado": "abierta", "terminos": ["Dron"]}]}
 
