@@ -60,6 +60,7 @@ class Config:
     max_paginas_compra_agil = 8  # páginas de 10 resultados por término
     barrido_completo_horas = 24  # entre barridos completos solo se piden cambios recientes
     max_detalles_compra_agil = 120
+    presupuesto_busquedas_segundos = 15 * 60
     # General
     presupuesto_segundos = 10 * 60  # tiempo máximo pidiendo detalles, por fuente y ejecución
     dias_retencion = 180  # se olvidan procesos cerrados hace más de esto
@@ -248,6 +249,35 @@ class Radar:
 
     # ----------------------------------------------------------- compra ágil
 
+    def _buscar_ventana(self, consulta: str, campo: str, desde: datetime, hasta: datetime, nivel: int = 0) -> list[dict]:
+        """Busca en [desde, hasta]. Si la API no alcanza a responder (504) o hay más
+        resultados de los que se leen, divide la ventana de fechas en dos y repite."""
+        z = lambda f: _iso(f).replace("+00:00", "Z")
+        divisible = hasta - desde > timedelta(hours=12) and nivel < 6
+        if self.reloj() - self._inicio_busquedas > self.cfg.presupuesto_busquedas_segundos:
+            raise ErrorAPI("sin tiempo para completar la búsqueda")
+        try:
+            items, truncado = self.ca.buscar(
+                consulta,
+                max_paginas=self.cfg.max_paginas_compra_agil,
+                **{f"{campo}_desde": z(desde), f"{campo}_hasta": z(hasta)},
+            )
+        except CuotaAgotada:
+            raise
+        except ErrorAPI:
+            # Ante errores se divide poco (hasta 8 tramos): si la API está caída no
+            # tiene sentido multiplicar los intentos.
+            if not divisible or nivel >= 3:
+                raise
+            items, truncado = [], True
+        if truncado and divisible:
+            medio = desde + (hasta - desde) / 2
+            log.info("Compra Ágil: '%s' dividiendo %s → %s", consulta, z(desde)[:10], z(hasta)[:10])
+            return self._buscar_ventana(consulta, campo, desde, medio, nivel + 1) + self._buscar_ventana(
+                consulta, campo, medio, hasta, nivel + 1
+            )
+        return items
+
     def revisar_compra_agil(self) -> dict:
         ultimo_completo = _parse(self.cache.get("ca_ultimo_barrido_completo"))
         ultima_ok = _parse(self.cache.get("ca_ultima_ejecucion_ok"))
@@ -257,22 +287,23 @@ class Radar:
             or self.ahora - ultimo_completo > timedelta(hours=self.cfg.barrido_completo_horas)
         )
         if completo:
-            filtros = {"publicado_desde": _iso(self.ahora - timedelta(days=self.cfg.dias_ventana_compra_agil)).replace("+00:00", "Z")}
+            campo, desde = "publicado", self.ahora - timedelta(days=self.cfg.dias_ventana_compra_agil)
         else:
-            desde = ultima_ok - timedelta(minutes=30)
-            filtros = {
-                "cambio_desde": _iso(desde).replace("+00:00", "Z"),
-                "cambio_hasta": _iso(self.ahora).replace("+00:00", "Z"),
-            }
+            campo, desde = "cambio", ultima_ok - timedelta(minutes=30)
         log.info("Compra Ágil: barrido %s", "completo" if completo else "incremental")
 
         encontrados: dict[str, dict] = {}
         fallidas: list[str] = []
         consultas = self.dicc.consultas_compra_agil
+        self._inicio_busquedas = self.reloj()
         for n, consulta in enumerate(consultas):
+            if self.reloj() - self._inicio_busquedas > self.cfg.presupuesto_busquedas_segundos:
+                log.warning("Compra Ágil: sin tiempo para las búsquedas restantes")
+                fallidas.extend(consultas[n:])
+                break
             t0 = self.reloj()
             try:
-                resultados = self.ca.buscar(consulta, max_paginas=self.cfg.max_paginas_compra_agil, **filtros)
+                resultados = self._buscar_ventana(consulta, campo, desde, self.ahora)
                 log.info("Compra Ágil: '%s' → %s resultados (%.0f s)", consulta, len(resultados), self.reloj() - t0)
             except CuotaAgotada:
                 fallidas.extend(consultas[n:])
@@ -431,9 +462,9 @@ def main(argv: list[str] | None = None) -> int:
         log.error("Falta la variable de entorno MERCADO_PUBLICO_TICKET (pídelo en https://www.chilecompra.cl/api/).")
 
     # La API de Licitaciones limita las consultas seguidas (HTTP 429): se espacian más.
-    http = ClienteHTTP(pausa=1.2)
+    http = ClienteHTTP(pausa=2.0)
     api_lic = ApiLicitaciones(ticket, http) if ticket and args.solo != "compra_agil" else None
-    api_ca = ApiCompraAgil(ticket, ClienteHTTP(reintentos=2)) if ticket and args.solo != "licitaciones" else None
+    api_ca = ApiCompraAgil(ticket, ClienteHTTP(reintentos=1)) if ticket and args.solo != "licitaciones" else None
 
     radar = Radar(
         Diccionario.desde_archivo(args.terminos),
