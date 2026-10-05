@@ -62,6 +62,24 @@ Custom domain* y crea el registro CNAME en el DNS de aereo.cl.
 > GitHub puede retrasar unos minutos las ejecuciones programadas. Los commits horarios del
 > radar mantienen el repositorio activo, así que el cron no se desactiva por inactividad.
 
+## Publicar en Netlify (en tu web)
+
+El repo incluye [`netlify.toml`](netlify.toml): publica la carpeta `docs/` sin compilar nada.
+
+1. En <https://app.netlify.com> → **Add new project → Import an existing project → GitHub**
+   y elige `Licitaciones-aereo`. Deja los valores que propone (publish directory `docs`,
+   sin build command) y pulsa **Deploy**.
+2. **Domain management → Add a domain**: por ejemplo `licitaciones.aereo.cl`, y crea en el
+   DNS de aereo.cl el registro CNAME que Netlify indique. También se puede incrustar en una
+   página de aereo.cl con `<iframe src="https://licitaciones.aereo.cl" style="width:100%;height:100vh;border:0"></iframe>`.
+
+Las publicaciones de Netlify consumen créditos (15 por publicación en el plan gratis), así que
+**los commits horarios de datos no republican el sitio**: la página lee los datos frescos
+directamente desde GitHub (`<meta name="radar-datos">` en `docs/index.html`). Eso requiere que
+el repositorio sea **público** (el ticket sigue protegido como secreto). Con el repo privado,
+define en Netlify la variable `RADAR_PUBLICAR_DATOS=si` para republicar con cada actualización
+(solo conviene en cuentas antiguas de Netlify con minutos de build).
+
 ## Ejecutar localmente
 
 ```bash

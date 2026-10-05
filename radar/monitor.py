@@ -53,11 +53,11 @@ CAMPOS_TEXTO = ("nombre", "descripcion")
 
 class Config:
     # Licitaciones
-    max_detalles_licitaciones = 250  # detalles de licitaciones nuevas por ejecución
+    max_detalles_licitaciones = 120  # detalles de licitaciones nuevas por ejecución
     refrescar_seguidas_horas = 6  # cada cuánto se refresca el detalle de las ya detectadas
     # Compra Ágil
     dias_ventana_compra_agil = 45
-    max_paginas_compra_agil = 5
+    max_paginas_compra_agil = 8  # páginas de 10 resultados por término
     barrido_completo_horas = 12  # entre barridos completos solo se piden cambios recientes
     max_detalles_compra_agil = 120
     # General
@@ -123,11 +123,15 @@ class Radar:
         self.fuentes_previas = datos_previos.get("fuentes", {})
         self.nuevas: list[str] = []
         self.errores_detalle = 0
+        self.limitada = False  # la API respondió 429: no pedir más detalles en esta fuente
+        self.advertencias: list[str] = []
         self.sin_ticket = api_licitaciones is None and api_compra_agil is None
 
     # ------------------------------------------------------------ utilidades
 
     def _con_tiempo(self) -> bool:
+        if self.limitada:
+            return False
         return self.reloj() - self.inicio < self.cfg.presupuesto_segundos
 
     def _terminos(self, item: dict) -> list[str]:
@@ -156,8 +160,12 @@ class Radar:
         """Un detalle que falla no debe detener la revisión del resto."""
         try:
             return api.detalle(codigo)
-        except CuotaAgotada:
-            raise
+        except CuotaAgotada as e:
+            # Se conserva lo avanzado; lo pendiente se revisa en la próxima ejecución.
+            self.limitada = True
+            self.advertencias.append(str(e))
+            log.warning("%s", e)
+            return None
         except ErrorAPI as e:
             self.errores_detalle += 1
             log.warning("No se pudo obtener el detalle de %s: %s", codigo, e)
@@ -259,10 +267,26 @@ class Radar:
         log.info("Compra Ágil: barrido %s", "completo" if completo else "incremental")
 
         encontrados: dict[str, dict] = {}
-        for consulta in self.dicc.consultas_compra_agil:
-            for bruto in self.ca.buscar(consulta, max_paginas=self.cfg.max_paginas_compra_agil, **filtros):
+        fallidas: list[str] = []
+        consultas = self.dicc.consultas_compra_agil
+        for n, consulta in enumerate(consultas):
+            try:
+                resultados = self.ca.buscar(consulta, max_paginas=self.cfg.max_paginas_compra_agil, **filtros)
+            except CuotaAgotada:
+                fallidas.extend(consultas[n:])
+                self.limitada = True
+                break
+            except ErrorAPI as e:
+                log.warning("Compra Ágil: búsqueda '%s' falló: %s", consulta, e)
+                fallidas.append(consulta)
+                continue
+            for bruto in resultados:
                 if bruto.get("codigo"):
                     encontrados[bruto["codigo"]] = bruto
+        if fallidas and len(fallidas) == len(consultas):
+            raise ErrorAPI("Ninguna búsqueda de Compra Ágil respondió (la API puede estar caída o limitando consultas).")
+        if fallidas:
+            self.advertencias.append(f"{len(fallidas)} de {len(consultas)} búsquedas no respondieron: {', '.join(fallidas[:6])}")
 
         detalles = 0
         descartadas = self.cache["ca_descartadas"]
@@ -298,6 +322,9 @@ class Radar:
         self.cache["ca_descartadas"] = {
             c: v for c, v in descartadas.items() if (_parse(v.get("visto")) or self.ahora) > limite
         }
+        if fallidas:
+            # No avanzar la ventana incremental: lo que no respondió se vuelve a pedir.
+            return {"revisadas": len(encontrados), "detalles_consultados": detalles, "modo": "completo" if completo else "incremental"}
         self.cache["ca_ultima_ejecucion_ok"] = _iso(self.ahora)
         if completo:
             self.cache["ca_ultimo_barrido_completo"] = _iso(self.ahora)
@@ -316,6 +343,8 @@ class Radar:
                 return {**previo, "ok": False, "mensaje": "Falta el ticket de Mercado Público (MERCADO_PUBLICO_TICKET)."}
             return previo or {"ok": False, "mensaje": "No revisada aún."}
         self.errores_detalle = 0
+        self.limitada = False
+        self.advertencias = []
         try:
             resumen = funcion()
             return {
@@ -323,6 +352,7 @@ class Radar:
                 "mensaje": "OK",
                 "ultima_ok": _iso(self.ahora),
                 "errores_detalle": self.errores_detalle,
+                "advertencias": self.advertencias,
                 **resumen,
             }
         except CuotaAgotada as e:
@@ -382,9 +412,10 @@ def main(argv: list[str] | None = None) -> int:
     if not ticket:
         log.error("Falta la variable de entorno MERCADO_PUBLICO_TICKET (pídelo en https://www.chilecompra.cl/api/).")
 
-    http = ClienteHTTP()
+    # La API de Licitaciones limita las consultas seguidas (HTTP 429): se espacian más.
+    http = ClienteHTTP(pausa=1.2)
     api_lic = ApiLicitaciones(ticket, http) if ticket and args.solo != "compra_agil" else None
-    api_ca = ApiCompraAgil(ticket, ClienteHTTP()) if ticket and args.solo != "licitaciones" else None
+    api_ca = ApiCompraAgil(ticket, ClienteHTTP(reintentos=2)) if ticket and args.solo != "licitaciones" else None
 
     radar = Radar(
         Diccionario.desde_archivo(args.terminos),

@@ -93,16 +93,21 @@ class ClienteHTTP:
         pausa: float = 0.5,
         reintentos: int = 3,
         dormir: Callable[[float], None] = time.sleep,
+        esperas_429: tuple[float, ...] = (15, 45),
     ):
         self._obtener = obtener
         self.pausa = pausa
         self.reintentos = reintentos
+        self.esperas_429 = esperas_429
         self._dormir = dormir
         self.llamadas = 0
 
     def get(self, url: str, headers: dict[str, str] | None = None) -> Any:
         ultimo_error: Exception | None = None
-        for intento in range(1, self.reintentos + 1):
+        esperas_429 = list(self.esperas_429)
+        intento = 0
+        while intento < self.reintentos:
+            intento += 1
             if self.llamadas:
                 self._dormir(self.pausa)
             self.llamadas += 1
@@ -111,7 +116,19 @@ class ClienteHTTP:
             except urllib.error.HTTPError as e:
                 cuerpo = getattr(e, "cuerpo", "")
                 if e.code == 429:
-                    raise CuotaAgotada("Cuota de la API agotada (HTTP 429). Se reintentará en la próxima ejecución.")
+                    # Límite de solicitudes: se espera (Retry-After si viene) y se reintenta
+                    # sin contar como intento fallido; si persiste, se avisa al llamador.
+                    if not esperas_429:
+                        raise CuotaAgotada("La API limitó las consultas (HTTP 429). Se continuará en la próxima ejecución.")
+                    espera = esperas_429.pop(0)
+                    try:
+                        espera = min(120.0, max(espera, float(e.headers.get("Retry-After") or 0)))
+                    except (TypeError, ValueError, AttributeError):
+                        pass
+                    log.warning("HTTP 429: esperando %.0f s", espera)
+                    self._dormir(espera)
+                    intento -= 1
+                    continue
                 if e.code in (401, 403):
                     raise ErrorAPI(f"Ticket rechazado (HTTP {e.code}). Revisa el secreto MERCADO_PUBLICO_TICKET.")
                 if e.code == 404:
@@ -242,7 +259,9 @@ def licitacion_desde_detalle(d: dict) -> dict:
 
 
 class ApiCompraAgil:
-    def __init__(self, ticket: str, http: ClienteHTTP, tamano_pagina: int = 50):
+    # Con 50 resultados por página la pasarela de la API responde 504 (timeout);
+    # con 10 responde en pocos segundos.
+    def __init__(self, ticket: str, http: ClienteHTTP, tamano_pagina: int = 10):
         self.ticket = ticket
         self.http = http
         self.tamano_pagina = tamano_pagina

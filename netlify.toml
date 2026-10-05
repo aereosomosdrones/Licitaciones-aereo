@@ -1,0 +1,15 @@
+# Publicación del dashboard en Netlify (sin paso de compilación).
+[build]
+  publish = "docs"
+  command = ""
+  # Los commits horarios del radar solo cambian los datos: no se republica el sitio
+  # (cada publicación consume créditos de Netlify). El dashboard lee los datos frescos
+  # directamente desde GitHub (ver <meta name="radar-datos"> en docs/index.html).
+  # Para republicar también con cada actualización de datos, define la variable de
+  # entorno RADAR_PUBLICAR_DATOS=si en Netlify.
+  ignore = "[ \"$RADAR_PUBLICAR_DATOS\" != \"si\" ] && git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)docs/data' ':(exclude)data'"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "no-cache"
