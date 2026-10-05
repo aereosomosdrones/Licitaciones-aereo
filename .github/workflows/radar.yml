@@ -2,7 +2,8 @@ name: Radar de licitaciones (cada hora)
 
 on:
   schedule:
-    # Cada hora, al minuto 7 (GitHub puede atrasar unos minutos las ejecuciones programadas).
+    # Cada hora, al minuto 7 (GitHub puede atrasar o saltarse ejecuciones programadas;
+    # el job "relanzar" de abajo cubre ese caso).
     - cron: "7 * * * *"
   workflow_dispatch:
   push:
@@ -10,24 +11,21 @@ on:
     paths:
       - "radar/**"
       - "config/**"
-      - "docs/index.html"
       - ".github/workflows/radar.yml"
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: radar
-  cancel-in-progress: false
+  actions: write
 
 jobs:
   radar:
     runs-on: ubuntu-latest
     timeout-minutes: 45
-    outputs:
-      pages: ${{ steps.pages.outcome }}
+    # Una sola revisión a la vez. Va en el job (no en el workflow) para que la espera
+    # del job "relanzar" no bloquee a otras ejecuciones.
+    concurrency:
+      group: radar
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
 
@@ -61,32 +59,41 @@ jobs:
           done
           exit 1
 
-      # Si GitHub Pages no está activado (Settings → Pages → Source: GitHub Actions)
-      # la publicación se omite sin marcar la ejecución como fallida.
-      - name: Comprobar GitHub Pages
-        id: pages
-        continue-on-error: true
-        uses: actions/configure-pages@v5
-
-      - name: Subir sitio
-        if: steps.pages.outcome == 'success'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
       - name: Fallar si el radar no pudo revisar ninguna fuente
         if: steps.radar.outcome == 'failure'
         run: |
           echo "::error::El radar no pudo consultar Mercado Público. Revisa el secreto MERCADO_PUBLICO_TICKET y el log del paso 'Revisar Mercado Público y Compra Ágil'."
           exit 1
 
-  publicar:
+  # GitHub no garantiza las ejecuciones programadas (en este repo no se dispararon).
+  # Este job espera hasta el minuto 5 de la hora siguiente y lanza la próxima revisión,
+  # salvo que ya exista otra ejecución creada después de esta (p. ej. la del cron o un
+  # push), para no duplicar. Si la cadena se corta, basta con "Run workflow" una vez.
+  relanzar:
     needs: radar
-    if: ${{ !cancelled() && needs.radar.outputs.pages == 'success' }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 75
     steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Esperar hasta la próxima hora
+        run: |
+          ahora=$(date -u +%s)
+          proxima=$(( (ahora / 3600 + 1) * 3600 + 300 ))
+          espera=$(( proxima - ahora ))
+          echo "Próxima revisión: $(date -u -d @$proxima +%H:%M) UTC (en $((espera / 60)) min)"
+          sleep $espera
+
+      - name: Lanzar la próxima revisión
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          creada=$(gh run view ${{ github.run_id }} --json createdAt -q .createdAt)
+          posteriores=$(gh run list --workflow radar.yml --limit 10 --json databaseId,createdAt \
+            -q "[.[] | select(.databaseId != ${{ github.run_id }} and .createdAt > \"$creada\")] | length")
+          if [ "$posteriores" -gt 0 ]; then
+            echo "Ya hay una ejecución más reciente; no se relanza."
+            exit 0
+          fi
+          gh workflow run radar.yml --ref main
+          echo "Próxima revisión lanzada."
