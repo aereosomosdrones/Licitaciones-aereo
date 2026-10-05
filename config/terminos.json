@@ -1,0 +1,109 @@
+{
+  "_ayuda": "Los patrones son expresiones regulares que se aplican sobre el texto normalizado (minúsculas y sin tildes). 'excluir_si' descarta la coincidencia de ESE término cuando el texto contiene alguna de esas frases. 'consultas_compra_agil' son las palabras que se envían al buscador de Compra Ágil (parámetro q); los resultados se verifican después contra los patrones.",
+  "terminos": [
+    {
+      "etiqueta": "Dron",
+      "categoria": "nucleo",
+      "patron": "\\bdron(es)?\\b|\\bdrones?\\b|\\bdrone\\b"
+    },
+    {
+      "etiqueta": "RPA / RPAS",
+      "categoria": "nucleo",
+      "patron": "\\brpas?\\b",
+      "excluir_si": [
+        "automatizacion robotica",
+        "automatizacion de procesos",
+        "robotic process",
+        "process automation",
+        "uipath",
+        "blue prism",
+        "automation anywhere",
+        "power automate",
+        "bots de software",
+        "robot de software"
+      ]
+    },
+    {
+      "etiqueta": "UAV / UAS",
+      "categoria": "nucleo",
+      "patron": "\\buavs?\\b|\\bsuas\\b|\\buas\\b.{0,40}(aere|vuelo|dron|aeronave)"
+    },
+    {
+      "etiqueta": "VANT",
+      "categoria": "nucleo",
+      "patron": "\\bvants?\\b"
+    },
+    {
+      "etiqueta": "Aeronave no tripulada",
+      "categoria": "nucleo",
+      "patron": "aeronaves? (no tripulad|pilotad[oa]s? a distancia|piloteada[s]? a distancia|remotamente pilotad|piloteada[s]? remotamente|pilotad[oa]s? remotamente)|sistemas? aereos? no tripulados?|vehiculos? aereos? no tripulados?"
+    },
+    {
+      "etiqueta": "Multirrotor",
+      "categoria": "nucleo",
+      "patron": "cuadricoptero|cuadrirrotor|multirrotor|multi rotor|multicoptero|hexacoptero|octocoptero|ala fija vtol|\\bvtol\\b"
+    },
+    {
+      "etiqueta": "Marcas (DJI, Autel…)",
+      "categoria": "nucleo",
+      "patron": "\\bdji\\b|\\bmavic\\b|\\bmatrice\\b|\\bzenmuse\\b|\\bagras\\b|\\bphantom 4\\b|\\bautel (evo|robotics|alpha|dragonfish)|\\bparrot anafi\\b|\\bsensefly\\b|\\bwingtra\\b|\\bskydio\\b|\\bxag\\b",
+      "excluir_si": [
+        "osmo",
+        "ronin",
+        "dji mic",
+        "pocket 3"
+      ]
+    },
+    {
+      "etiqueta": "Credencial / piloto",
+      "categoria": "nucleo",
+      "patron": "credencial(es)?.{0,40}(dron|rpas?|uav|aeronave)|piloto(s)? (de |a )?(dron|rpas?|uav|aeronaves? no tripulad|distancia)|piloto(s)? remoto|operador(es)? de (dron|rpas?|uav)|\\bdan[ -]?151\\b"
+    },
+    {
+      "etiqueta": "Antidrones",
+      "categoria": "nucleo",
+      "patron": "anti ?drones?|antidron|contra ?drones?|inhibidor(es)? de (senal )?drones?|neutralizacion de drones?"
+    },
+    {
+      "etiqueta": "Fotogrametría / ortomosaico",
+      "categoria": "derivado",
+      "patron": "aerofotogrametri|fotogrametri.{0,40}(aere|dron|rpas?|uav|vuelo)|ortomosaico|ortofoto|modelo digital de (elevacion|terreno|superficie).{0,60}(aere|dron|vuelo)"
+    },
+    {
+      "etiqueta": "LiDAR aéreo",
+      "categoria": "derivado",
+      "patron": "\\blidar\\b"
+    },
+    {
+      "etiqueta": "Servicios aéreos",
+      "categoria": "derivado",
+      "patron": "(filmacion|grabacion|fotografia|fotografias|imagenes|video|videos|inspeccion|inspecciones|termografia|levantamiento|levantamientos|topografia|monitoreo|vigilancia|fumigacion|pulverizacion|aplicacion|mapeo|cartografia|patrullaje|reconocimiento|registro|sobrevuelo|captura de imagenes) (aere[oa]s?|con (dron|rpas?|uav))|vuelos? (fotogrametric|de dron|con dron|no tripulad)|imagenes multiespectrales|camara multiespectral|camara termica.{0,40}(dron|aere|rpas?)"
+    }
+  ],
+  "consultas_compra_agil": [
+    "dron",
+    "drones",
+    "drone",
+    "RPAS",
+    "RPA",
+    "UAV",
+    "VANT",
+    "aeronave no tripulada",
+    "aeronave pilotada a distancia",
+    "multirrotor",
+    "cuadricoptero",
+    "DJI",
+    "antidrones",
+    "fotogrametria",
+    "aerofotogrametria",
+    "ortomosaico",
+    "ortofoto",
+    "LiDAR",
+    "fotografia aerea",
+    "filmacion aerea",
+    "inspeccion aerea",
+    "levantamiento aereo",
+    "termografia aerea",
+    "multiespectral"
+  ]
+}

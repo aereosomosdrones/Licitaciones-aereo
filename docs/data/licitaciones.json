@@ -1,0 +1,67 @@
+{
+ "generado": "2026-10-05T17:47:36+00:00",
+ "proxima_actualizacion": "2026-10-05T18:47:36+00:00",
+ "intervalo_minutos": 60,
+ "fuentes": {
+  "licitaciones": {
+   "ok": false,
+   "mensaje": "Falta el ticket de Mercado Público (MERCADO_PUBLICO_TICKET)."
+  },
+  "compra_agil": {
+   "ok": false,
+   "mensaje": "Falta el ticket de Mercado Público (MERCADO_PUBLICO_TICKET)."
+  }
+ },
+ "terminos": [
+  {
+   "etiqueta": "Dron",
+   "categoria": "nucleo"
+  },
+  {
+   "etiqueta": "RPA / RPAS",
+   "categoria": "nucleo"
+  },
+  {
+   "etiqueta": "UAV / UAS",
+   "categoria": "nucleo"
+  },
+  {
+   "etiqueta": "VANT",
+   "categoria": "nucleo"
+  },
+  {
+   "etiqueta": "Aeronave no tripulada",
+   "categoria": "nucleo"
+  },
+  {
+   "etiqueta": "Multirrotor",
+   "categoria": "nucleo"
+  },
+  {
+   "etiqueta": "Marcas (DJI, Autel…)",
+   "categoria": "nucleo"
+  },
+  {
+   "etiqueta": "Credencial / piloto",
+   "categoria": "nucleo"
+  },
+  {
+   "etiqueta": "Antidrones",
+   "categoria": "nucleo"
+  },
+  {
+   "etiqueta": "Fotogrametría / ortomosaico",
+   "categoria": "derivado"
+  },
+  {
+   "etiqueta": "LiDAR aéreo",
+   "categoria": "derivado"
+  },
+  {
+   "etiqueta": "Servicios aéreos",
+   "categoria": "derivado"
+  }
+ ],
+ "nuevas_en_esta_ejecucion": [],
+ "items": []
+}
