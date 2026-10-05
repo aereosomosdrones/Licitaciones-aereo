@@ -1,15 +1,17 @@
 {
- "generado": "2026-10-05T18:13:21+00:00",
- "proxima_actualizacion": "2026-10-05T19:13:21+00:00",
+ "generado": "2026-10-05T18:23:32+00:00",
+ "proxima_actualizacion": "2026-10-05T19:23:32+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": false,
-   "mensaje": "Falta el ticket de Mercado Público (MERCADO_PUBLICO_TICKET)."
+   "mensaje": "Cuota de la API agotada (HTTP 429). Se reintentará en la próxima ejecución.",
+   "ultima_ok": null
   },
   "compra_agil": {
    "ok": false,
-   "mensaje": "Falta el ticket de Mercado Público (MERCADO_PUBLICO_TICKET)."
+   "mensaje": "HTTP 504: {\"message\": \"Endpoint request timed out\"}",
+   "ultima_ok": null
   }
  },
  "terminos": [
@@ -62,6 +64,41 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
- "items": []
+ "nuevas_en_esta_ejecucion": [
+  "LIC:1036569-13-LP26"
+ ],
+ "items": [
+  {
+   "id": "LIC:1036569-13-LP26",
+   "fuente": "licitacion",
+   "codigo": "1036569-13-LP26",
+   "nombre": "ADQUISICIÓN AERONAVES NO TRIPULADAS RPAS PDI ÑUBLE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-13T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1036569-13-LP26",
+   "descripcion": "El Gobierno Regional de Ñuble requiere apoyar la labor de la Policía de Investigación de Chile mediante la adquisición de equipamiento tecnológico para las unidades especializadas de la Región policial de Ñuble, con equipos que permitan una vigilancia y control desde el aire, a fin de optimizar la labor investigativa de la aludida institución.\r\nPROGRAMA DE INVERSIONES",
+   "organismo": "GOBIERNO REGIONAL DE ÑUBLE",
+   "unidad": "División de Administración y Finanzas",
+   "region": "Región del Ñuble",
+   "comuna": "Chillán",
+   "fecha_publicacion": "2026-09-22T17:20:12-03:00",
+   "fecha_adjudicacion": "2026-11-27T15:02:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — AERONAVE NO TRIPULADA RPAS"
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-05T18:23:32+00:00",
+   "detalle_actualizado": "2026-10-05T18:23:32+00:00",
+   "primera_deteccion": "2026-10-05T18:23:32+00:00"
+  }
+ ]
 }
