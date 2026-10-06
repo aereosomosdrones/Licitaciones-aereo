@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-06T16:05:12+00:00",
- "proxima_actualizacion": "2026-10-06T17:05:12+00:00",
+ "generado": "2026-10-06T17:05:11+00:00",
+ "proxima_actualizacion": "2026-10-06T18:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T16:05:12+00:00",
+   "ultima_ok": "2026-10-06T17:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4502,
-   "detalles_consultados": 121,
-   "pendientes_por_revisar": 1593
+   "revisadas": 4521,
+   "detalles_consultados": 120,
+   "pendientes_por_revisar": 1501
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T16:05:12+00:00",
-   "errores_detalle": 2,
+   "ultima_ok": "2026-10-06T17:05:11+00:00",
+   "errores_detalle": 3,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 8,
-   "detalles_consultados": 7,
+   "revisadas": 10,
+   "detalles_consultados": 9,
    "modo": "incremental"
   }
  },
@@ -76,34 +76,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:1238167-284-COT26"
+ ],
  "items": [
-  {
-   "id": "CA:4085-457-COT26",
-   "fuente": "compra_agil",
-   "codigo": "4085-457-COT26",
-   "nombre": "ADQUISICIÓN DE DRONE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-05T13:52:00-03:00",
-   "fecha_cierre": "2026-10-06T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-05T13:55:00.770Z",
-   "organismo": "I MUNICIPALIDAD DE LONGAVI",
-   "unidad": "Depto. de Secplan",
-   "region": "Región del Maule ",
-   "monto": 1350000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=4085-457-COT26",
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-05T20:10:04+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
-  },
   {
    "id": "LIC:2952-16-LE26",
    "fuente": "licitacion",
@@ -132,7 +108,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -224,9 +200,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
-   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
+  },
+  {
+   "id": "CA:1238167-284-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1238167-284-COT26",
+   "nombre": "ARRIENDO DRONE FESTIVAL DE VERANO 2027",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-06T13:27:00-03:00",
+   "fecha_cierre": "2026-10-07T13:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-06 13:30",
+   "organismo": "FUNDACION MUNICIPAL DE CULTURA DE PROVIDENCIA",
+   "unidad": "Administración y finanzas",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1200000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1238167-284-COT26",
+   "descripcion": "Se solicita cotización de arriendo de drone para Festival de Verano 2027 según especificaciones descritas dentro de la ficha técnica adjunta. Oferentes deben adjuntar cotización anteriormente mencionada y/o cualquier otro tipo de documento que sea solicitado dentro de la misma ficha técnica. Fecha y lugar de entrega deben ser los especificados en la información técnica adjunta. En caso de fuerza mayor las actividades pueden ser reprogramadas.",
+   "direccion_entrega": "Av. Nueva Providencia 1995",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Cámaras aéreas — Se solicita cotización de arriendo de drone para Festival de Verano 2027 según especificaciones descritas dentro de la ficha técnica adjunta. Oferentes deben adjuntar cotización anteriormente mencionada y/o cualquier otro tipo de documento que sea solicitado dentro de la misma ficha técnica. Fecha y lugar de entrega deben ser los especificados en la información técnica adjunta. En caso de fuerza mayor las actividades pueden ser reprogramadas."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
+   "primera_deteccion": "2026-10-06T17:05:11+00:00"
   },
   {
    "id": "LIC:3760-4-LE26",
@@ -256,7 +265,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -350,7 +359,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -358,7 +367,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-06T16:05:12+00:00"
+   "detalle_actualizado": "2026-10-06T17:05:11+00:00"
   },
   {
    "id": "CA:1079659-430-COT26",
@@ -528,8 +537,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
-   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -556,7 +565,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
@@ -564,7 +573,7 @@
    "productos": [
     "Aeronave de reconocimiento o vigilancia — REQUERIMINETO CONFORME ANEXO ADJUNTO."
    ],
-   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
    "cambio_estado": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -629,7 +638,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -667,7 +676,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -702,7 +711,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -733,7 +742,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T13:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -765,7 +774,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -797,7 +806,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -829,7 +838,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -862,7 +871,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -894,7 +903,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -2976,7 +2985,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se prioriza proveedor que presente cotización formal adjunta con el total del requerimiento, el valor sea el menor y el tiempo de entrega sea el menor. Se adjunta requerimiento (contacto Juan Fuentealba profesionaladministracion@quillon.cl)",
    "direccion_entrega": "18 de septiembre 250",
@@ -2986,7 +2995,7 @@
     "Baterías recargables — baterias radio vhf alta capacidad dep 450",
     "Servicio de reparación de equipo de fabricación — servicio mantención dron matrice 30T y estacion de bateria BS30"
    ],
-   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
    "cambio_estado": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -3922,7 +3931,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
@@ -3957,7 +3966,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-06T15:00:37+00:00"
   },
@@ -3994,6 +4003,33 @@
    "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
+  },
+  {
+   "id": "CA:4085-457-COT26",
+   "fuente": "compra_agil",
+   "codigo": "4085-457-COT26",
+   "nombre": "ADQUISICIÓN DE DRONE",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-05T13:52:00-03:00",
+   "fecha_cierre": "2026-10-06T14:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-06T14:05:00.333Z",
+   "organismo": "I MUNICIPALIDAD DE LONGAVI",
+   "unidad": "Depto. de Secplan",
+   "region": "Región del Maule ",
+   "monto": 1350000.0,
+   "moneda": "CLP",
+   "ofertas": 10,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=4085-457-COT26",
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "cambio_estado": "2026-10-06T17:05:11+00:00"
   }
  ]
 }
