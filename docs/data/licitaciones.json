@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-06T12:05:11+00:00",
- "proxima_actualizacion": "2026-10-06T13:05:11+00:00",
+ "generado": "2026-10-06T13:05:13+00:00",
+ "proxima_actualizacion": "2026-10-06T14:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T12:05:11+00:00",
+   "ultima_ok": "2026-10-06T13:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4396,
+   "revisadas": 4412,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 1924
+   "pendientes_por_revisar": 1829
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T12:05:11+00:00",
+   "ultima_ok": "2026-10-06T13:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 1,
-   "detalles_consultados": 1,
+   "revisadas": 2,
+   "detalles_consultados": 2,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:299-27-LE26"
+ ],
  "items": [
   {
    "id": "CA:5416-692-COT26",
@@ -134,7 +136,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
@@ -192,7 +194,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -283,7 +285,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -377,7 +379,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -385,7 +387,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-06T12:05:11+00:00"
+   "detalle_actualizado": "2026-10-06T13:05:13+00:00"
   },
   {
    "id": "CA:1079659-430-COT26",
@@ -586,7 +588,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -624,7 +626,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -659,9 +661,40 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
+  },
+  {
+   "id": "LIC:299-27-LE26",
+   "fuente": "licitacion",
+   "codigo": "299-27-LE26",
+   "nombre": "SERV  COBERTURA FOTOGRAFICA Y AUDIOVISUAL IND XIV",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-14T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=299-27-LE26",
+   "descripcion": "CONTRATACION DE UN SERVICIO DE COBERTURA FOTOGRAFICA Y AUDIOVISUAL PARA LOS JUEGOS BINACIONALES DE LA ARAUCANIA Y PARA ARAUCANIA",
+   "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+   "unidad": "I.N.D. REGION XIV",
+   "region": "Región de Los Ríos",
+   "comuna": "Valdivia",
+   "fecha_publicacion": "2026-10-06T09:10:59-03:00",
+   "fecha_adjudicacion": "2026-10-20T18:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Servicios de fotografía aérea — Servicio de cobertura fotografica y audiovisual para los juegos binacionales, segun bases adjuntas, rex 650."
+   ],
+   "terminos": [
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado"
+   ],
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
+   "detalle_actualizado": "2026-10-06T13:05:13+00:00",
+   "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
   {
    "id": "LIC:1288419-8-LE26",
@@ -691,7 +724,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -723,7 +756,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -755,7 +788,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -787,7 +820,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -3829,11 +3862,11 @@
    "fuente": "compra_agil",
    "codigo": "5955-460-COT26",
    "nombre": "BATERIA DE DRON",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-01T09:13:00-03:00",
    "fecha_cierre": "2026-10-05T12:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-05 12:35",
+   "fecha_ultimo_cambio": "2026-10-06 09:30",
    "organismo": "I MUNICIPALIDAD DE LAGO RANCO",
    "unidad": "ADQUISICIONES II",
    "region": "Región de Los Ríos",
@@ -3848,7 +3881,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-05T20:10:04+00:00",
+   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
@@ -3857,7 +3890,8 @@
     "Baterías recargables — Bateria inteligente de vuelo para Dron DJI Mavic 3, según esepcificaciones y caracteristicas técnicas adjuntas solicidas",
     "Cargadores de baterías — Hub de carga para Dron DJI Mavic 3, según esepcificaciones y caracteristicas técnicas adjuntas solicidas"
    ],
-   "detalle_actualizado": "2026-10-05T20:10:04+00:00"
+   "detalle_actualizado": "2026-10-06T13:05:13+00:00",
+   "cambio_estado": "2026-10-06T13:05:13+00:00"
   }
  ]
 }
