@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-06T18:05:12+00:00",
- "proxima_actualizacion": "2026-10-06T19:05:12+00:00",
+ "generado": "2026-10-06T19:05:13+00:00",
+ "proxima_actualizacion": "2026-10-06T20:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T18:05:12+00:00",
+   "ultima_ok": "2026-10-06T19:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4446,
+   "revisadas": 4438,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 1370
+   "pendientes_por_revisar": 1280
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T18:05:12+00:00",
-   "errores_detalle": 3,
+   "ultima_ok": "2026-10-06T19:05:13+00:00",
+   "errores_detalle": 4,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 10,
-   "detalles_consultados": 9,
+   "revisadas": 12,
+   "detalles_consultados": 11,
    "modo": "incremental"
   }
  },
@@ -76,41 +76,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:4291-52-L126"
+ ],
  "items": [
-  {
-   "id": "CA:1238177-108-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1238177-108-COT26",
-   "nombre": "CAPACITACION CURSO DE VUELO NOCTURNO",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-01T15:50:00-03:00",
-   "fecha_cierre": "2026-10-06T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-01T15:55:00.730Z",
-   "organismo": "ASOCIACION DE MUNICIPIOS METROPOLITANOS PARA LA SE",
-   "unidad": "PROYECTO SEGURIDAD PROVIDENCIA",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1500000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1238177-108-COT26",
-   "descripcion": "Curso de capacitación en operaciones de vuelo nocturno VNOC para operadores RPAS, se adjunta documento con requerimiento técnico.-",
-   "direccion_entrega": "ALFEREZ REAL 936",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Capacitación a empleados — Curso de capacitación en operaciones de vuelo nocturno VNOC para operadores RPAS 2 participantes, se adjunta documento con requerimiento técnico.-"
-   ],
-   "terminos": [
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-05T20:10:04+00:00",
-   "detalle_actualizado": "2026-10-05T18:56:09+00:00",
-   "primera_deteccion": "2026-10-05T18:56:09+00:00"
-  },
   {
    "id": "CA:780724-74-COT26",
    "fuente": "compra_agil",
@@ -166,8 +135,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
-   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
+   "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -199,8 +168,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
-   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
+   "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-06T17:05:11+00:00"
   },
   {
@@ -231,7 +200,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -325,7 +294,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -333,7 +302,44 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-06T18:05:12+00:00"
+   "detalle_actualizado": "2026-10-06T19:05:13+00:00"
+  },
+  {
+   "id": "CA:612-191-COT26",
+   "fuente": "compra_agil",
+   "codigo": "612-191-COT26",
+   "nombre": "Compra de estación base RTK, kit de trípode con poste topográfico y plataforma de aterrizaje plegable, compatibles e interoperables con el dron institucional del Servicio",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-09-29T16:42:00-03:00",
+   "fecha_cierre": "2026-10-08T11:13:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-06 16:00",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "Servicio Agricola y Ganadero (SAG central)",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 2800000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=612-191-COT26",
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "En el marco del Proyecto BID 2026, el SAG requiere equipamiento para fortalecer la operación de drones institucionales: estación base RTK, kit de trípode con poste topográfico, bolso y plataforma de aterrizaje. Los equipos deberán ser compatibles e interoperables con el dron DJI Matrice 400 existente, permitiendo posicionamiento centimétrico mediante correcciones GNSS en tiempo real y apoyando la detección y seguimiento de plagas y enfermedades fitozoosanitarias.",
+   "direccion_entrega": "Avenida Alameda Libertador Bernardo O´Higgins 886, piso 10, Santiago.",
+   "plazo_entrega_dias": 4,
+   "productos": [
+    "Receptores GPS — Estación base multifuncional de posicionamiento GNSS-RTK (Real-Time Kinematic), que entregue correcciones diferenciales en tiempo real para posicionamiento de precisión centimétrica. Deberá ser plenamente compatible e interoperable con el dron DJI Matrice 400 actualmente utilizado por el Servicio; el oferente deberá acreditar dicha compatibilidad. Especificaciones mínimas en anexo 1",
+    "Trípodes — Kit de trípode con poste topográfico (con sistema de autobloqueo y bloqueo seguro) y bolso de transporte, compatibles con la estación base RTK ofertada. Especificaciones mínimas en anexo 1",
+    "Campo de aterrizaje — Plataforma de aterrizaje amplia y plegable, apta y compatible para el dron institucional del Servicio. Especificaciones mínimas en anexo 1"
+   ],
+   "detalle_actualizado": "2026-10-06T19:05:13+00:00",
+   "cambio_estado": "2026-10-06T19:05:13+00:00"
   },
   {
    "id": "CA:1079659-430-COT26",
@@ -503,8 +509,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
-   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
+   "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -531,7 +537,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
@@ -539,7 +545,7 @@
    "productos": [
     "Aeronave de reconocimiento o vigilancia — REQUERIMINETO CONFORME ANEXO ADJUNTO."
    ],
-   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "cambio_estado": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -577,6 +583,41 @@
    "detalle_actualizado": "2026-10-05T20:10:04+00:00"
   },
   {
+   "id": "LIC:4291-52-L126",
+   "fuente": "licitacion",
+   "codigo": "4291-52-L126",
+   "nombre": "Servicios de fotografía para XI Fiesta de la Ciencia, \"Antofagasta fuente de conocimiento universal\"",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-13T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4291-52-L126",
+   "descripcion": "Servicio de registro fotográfico para la Fiesta de la Ciencia “Antofagasta, fuente de conocimiento universal”, a realizarse los días 15 y 16 de noviembre de 2026. Se requiere cobertura fotográfica de ambas jornadas, con entrega de 300 fotografías editadas, incluyendo registro de los 30 stands y al menos 20 fotografías aéreas. El servicio deberá considerar experiencia acreditada, licencia vigente de piloto de dron y certificado de inhabilidad para trabajar con menores.",
+   "organismo": "UNIVERSIDAD DE ANTOFAGASTA",
+   "unidad": "Universidad de Antofagasta",
+   "region": "Región de Antofagasta",
+   "comuna": "Antofagasta",
+   "fecha_publicacion": "2026-10-01T09:28:11-03:00",
+   "fecha_adjudicacion": "2026-10-28T15:01:00-03:00",
+   "monto": 1200000.0,
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Servicios Audio Visuales — Entrega de 300 fotografías editadas: 50 del 15 de noviembre, antes de las 23:59 h del mismo día 50 del 16 de noviembre, antes de las 23:59 h y 200 restantes, dentro de los 4 días hábiles posteriores al evento."
+   ],
+   "terminos": [
+    "Dron",
+    "Credencial / piloto",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
+   "detalle_actualizado": "2026-10-06T19:05:13+00:00",
+   "primera_deteccion": "2026-10-06T19:05:13+00:00"
+  },
+  {
    "id": "LIC:1036569-13-LP26",
    "fuente": "licitacion",
    "codigo": "1036569-13-LP26",
@@ -604,7 +645,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -642,7 +683,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -677,7 +718,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -708,8 +749,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
-   "detalle_actualizado": "2026-10-06T13:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
+   "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
   {
@@ -740,7 +781,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -772,7 +813,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -804,7 +845,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -837,7 +878,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -869,7 +910,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -2951,7 +2992,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se prioriza proveedor que presente cotización formal adjunta con el total del requerimiento, el valor sea el menor y el tiempo de entrega sea el menor. Se adjunta requerimiento (contacto Juan Fuentealba profesionaladministracion@quillon.cl)",
    "direccion_entrega": "18 de septiembre 250",
@@ -2961,7 +3002,7 @@
     "Baterías recargables — baterias radio vhf alta capacidad dep 450",
     "Servicio de reparación de equipo de fabricación — servicio mantención dron matrice 30T y estacion de bateria BS30"
    ],
-   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "cambio_estado": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -3450,42 +3491,6 @@
    "detalle_actualizado": "2026-10-05T18:56:09+00:00"
   },
   {
-   "id": "CA:612-191-COT26",
-   "fuente": "compra_agil",
-   "codigo": "612-191-COT26",
-   "nombre": "Compra de estación base RTK, kit de trípode con poste topográfico y plataforma de aterrizaje plegable, compatibles e interoperables con el dron institucional del Servicio",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-09-29T16:42:00-03:00",
-   "fecha_cierre": "2026-10-01T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-01T12:10:01.490Z",
-   "organismo": "SERVICIO AGRICOLA Y GANADERO",
-   "unidad": "Servicio Agricola y Ganadero (SAG central)",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 2800000.0,
-   "moneda": "CLP",
-   "ofertas": 3,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=612-191-COT26",
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-05T20:10:04+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "descripcion": "En el marco del Proyecto BID 2026, el SAG requiere equipamiento para fortalecer la operación de drones institucionales: estación base RTK, kit de trípode con poste topográfico, bolso y plataforma de aterrizaje. Los equipos deberán ser compatibles e interoperables con el dron DJI Matrice 400 existente, permitiendo posicionamiento centimétrico mediante correcciones GNSS en tiempo real y apoyando la detección y seguimiento de plagas y enfermedades fitozoosanitarias.",
-   "direccion_entrega": "Avenida Alameda Libertador Bernardo O´Higgins 886, piso 10, Santiago.",
-   "plazo_entrega_dias": 4,
-   "productos": [
-    "Receptores GPS — Estación base multifuncional de posicionamiento GNSS-RTK (Real-Time Kinematic), que entregue correcciones diferenciales en tiempo real para posicionamiento de precisión centimétrica. Deberá ser plenamente compatible e interoperable con el dron DJI Matrice 400 actualmente utilizado por el Servicio; el oferente deberá acreditar dicha compatibilidad. Especificaciones mínimas en anexo 1",
-    "Trípodes — Kit de trípode con poste topográfico (con sistema de autobloqueo y bloqueo seguro) y bolso de transporte, compatibles con la estación base RTK ofertada. Especificaciones mínimas en anexo 1",
-    "Campo de aterrizaje — Plataforma de aterrizaje amplia y plegable, apta y compatible para el dron institucional del Servicio. Especificaciones mínimas en anexo 1"
-   ],
-   "detalle_actualizado": "2026-10-05T18:56:09+00:00"
-  },
-  {
    "id": "CA:2013-1458-COT26",
    "fuente": "compra_agil",
    "codigo": "2013-1458-COT26",
@@ -3897,7 +3902,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
@@ -3932,7 +3937,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-06T15:00:37+00:00"
   },
@@ -3993,7 +3998,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-06T17:05:11+00:00"
   },
@@ -4028,6 +4033,40 @@
    "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
+  },
+  {
+   "id": "CA:1238177-108-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1238177-108-COT26",
+   "nombre": "CAPACITACION CURSO DE VUELO NOCTURNO",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-01T15:50:00-03:00",
+   "fecha_cierre": "2026-10-06T16:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-06T16:10:00.960Z",
+   "organismo": "ASOCIACION DE MUNICIPIOS METROPOLITANOS PARA LA SE",
+   "unidad": "PROYECTO SEGURIDAD PROVIDENCIA",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1500000.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1238177-108-COT26",
+   "descripcion": "Curso de capacitación en operaciones de vuelo nocturno VNOC para operadores RPAS, se adjunta documento con requerimiento técnico.-",
+   "direccion_entrega": "ALFEREZ REAL 936",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Capacitación a empleados — Curso de capacitación en operaciones de vuelo nocturno VNOC para operadores RPAS 2 participantes, se adjunta documento con requerimiento técnico.-"
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T19:05:13+00:00",
+   "detalle_actualizado": "2026-10-05T18:56:09+00:00",
+   "primera_deteccion": "2026-10-05T18:56:09+00:00",
+   "cambio_estado": "2026-10-06T19:05:13+00:00"
   }
  ]
 }
