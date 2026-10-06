@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-06T13:05:13+00:00",
- "proxima_actualizacion": "2026-10-06T14:05:13+00:00",
+ "generado": "2026-10-06T14:05:12+00:00",
+ "proxima_actualizacion": "2026-10-06T15:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T13:05:13+00:00",
+   "ultima_ok": "2026-10-06T14:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4412,
+   "revisadas": 4438,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 1829
+   "pendientes_por_revisar": 1750
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T13:05:13+00:00",
-   "errores_detalle": 0,
+   "ultima_ok": "2026-10-06T14:05:12+00:00",
+   "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 2,
-   "detalles_consultados": 2,
+   "revisadas": 3,
+   "detalles_consultados": 3,
    "modo": "incremental"
   }
  },
@@ -77,7 +77,7 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "LIC:299-27-LE26"
+  "LIC:1437-16-LE26"
  ],
  "items": [
   {
@@ -136,7 +136,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
    "detalle_actualizado": "2026-10-06T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
@@ -194,8 +194,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
-   "detalle_actualizado": "2026-10-06T07:05:18+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -285,8 +285,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
-   "detalle_actualizado": "2026-10-06T07:05:18+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -379,7 +379,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -387,7 +387,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-06T13:05:13+00:00"
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00"
   },
   {
    "id": "CA:1079659-430-COT26",
@@ -588,8 +588,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
-   "detalle_actualizado": "2026-10-06T07:05:18+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -626,8 +626,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
-   "detalle_actualizado": "2026-10-06T07:05:18+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
@@ -661,8 +661,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
-   "detalle_actualizado": "2026-10-06T07:05:18+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -692,7 +692,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
    "detalle_actualizado": "2026-10-06T13:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -724,8 +724,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
-   "detalle_actualizado": "2026-10-06T07:05:18+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -756,8 +756,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
-   "detalle_actualizado": "2026-10-06T07:05:18+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -788,9 +788,42 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
    "detalle_actualizado": "2026-10-06T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
+  },
+  {
+   "id": "LIC:1437-16-LE26",
+   "fuente": "licitacion",
+   "codigo": "1437-16-LE26",
+   "nombre": "ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-19T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1437-16-LE26",
+   "descripcion": "ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE, ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC. SEGUN BASES ADMINISTRATIVAS, REQUERIMIENTOS TECNICOS Y OTROS ANEXOS ADJUNTOS A LA PROPUESTA.",
+   "organismo": "I MUNICIPALIDAD DE LLANQUIHUE",
+   "unidad": "Ilustre Municipalidad de Llanquihue",
+   "region": "Región de los Lagos",
+   "comuna": "Llanquihue",
+   "fecha_publicacion": "2026-10-06T10:12:44-03:00",
+   "fecha_adjudicacion": "2026-11-30T21:00:00-03:00",
+   "monto": 25000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE, ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC. SEGUN BASES, REQUERIMIENTOS TECNICOS Y OTROS ANEXOS."
+   ],
+   "terminos": [
+    "Dron",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
+   "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
    "id": "LIC:2405-145-LR26",
@@ -820,8 +853,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
-   "detalle_actualizado": "2026-10-06T07:05:18+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -2917,11 +2950,11 @@
    "fuente": "compra_agil",
    "codigo": "1030177-72-COT26",
    "nombre": "Adquisición de Bateria para Radios VHF y Servicio de Mantención de Dron - Administración Municipal",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-09-24T09:57:00-03:00",
    "fecha_cierre": "2026-09-25T10:15:00-03:00",
-   "fecha_ultimo_cambio": "2026-09-25 10:20",
+   "fecha_ultimo_cambio": "2026-10-06 10:35",
    "organismo": "ILUSTRE MUNICIPALIDAD DE QUILLON",
    "unidad": "ADMINISTRACIÓN MUNICIPAL",
    "region": "Región del Ñuble",
@@ -2936,7 +2969,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-05T20:10:04+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se prioriza proveedor que presente cotización formal adjunta con el total del requerimiento, el valor sea el menor y el tiempo de entrega sea el menor. Se adjunta requerimiento (contacto Juan Fuentealba profesionaladministracion@quillon.cl)",
    "direccion_entrega": "18 de septiembre 250",
@@ -2946,7 +2979,8 @@
     "Baterías recargables — baterias radio vhf alta capacidad dep 450",
     "Servicio de reparación de equipo de fabricación — servicio mantención dron matrice 30T y estacion de bateria BS30"
    ],
-   "detalle_actualizado": "2026-10-05T20:10:04+00:00"
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
+   "cambio_estado": "2026-10-06T14:05:12+00:00"
   },
   {
    "id": "CA:1079659-411-COT26",
@@ -3866,13 +3900,13 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-01T09:13:00-03:00",
    "fecha_cierre": "2026-10-05T12:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-06 09:30",
+   "fecha_ultimo_cambio": "2026-10-06T09:30:00.720Z",
    "organismo": "I MUNICIPALIDAD DE LAGO RANCO",
    "unidad": "ADQUISICIONES II",
    "region": "Región de Los Ríos",
    "monto": 500000.0,
    "moneda": "CLP",
-   "ofertas": 2,
+   "ofertas": 4,
    "url": "https://buscador.mercadopublico.cl/ficha?code=5955-460-COT26",
    "terminos": [
     "Dron",
@@ -3881,7 +3915,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T13:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
