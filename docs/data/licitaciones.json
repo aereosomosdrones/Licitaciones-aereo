@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-06T22:05:13+00:00",
- "proxima_actualizacion": "2026-10-06T23:05:13+00:00",
+ "generado": "2026-10-06T23:05:12+00:00",
+ "proxima_actualizacion": "2026-10-07T00:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T22:05:13+00:00",
+   "ultima_ok": "2026-10-06T23:05:12+00:00",
    "errores_detalle": 1,
    "advertencias": [],
    "revisadas": 4541,
-   "detalles_consultados": 121,
-   "pendientes_por_revisar": 1067
+   "detalles_consultados": 120,
+   "pendientes_por_revisar": 958
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T22:05:13+00:00",
+   "ultima_ok": "2026-10-06T23:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:5067-142-L126"
+ ],
  "items": [
   {
    "id": "CA:780724-74-COT26",
@@ -198,7 +200,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -512,6 +514,44 @@
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
   },
   {
+   "id": "LIC:5067-142-L126",
+   "fuente": "licitacion",
+   "codigo": "5067-142-L126",
+   "nombre": "92438 Adquirir equipamiento tecnológico cc102",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-09T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5067-142-L126",
+   "descripcion": "Adquirir equipamiento tecnológico y audiovisual para actividadesinstitucionales de registro fotográfico, producción audiovisual, inspección en terreno, monitoreo y difusión de actividades asociadas a los objetivos del proyecto",
+   "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+   "unidad": "Universidad de Santiago de Chile",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago",
+   "fecha_publicacion": "2026-10-02T17:12:21-03:00",
+   "fecha_adjudicacion": "2026-11-08T18:00:00-03:00",
+   "monto": 3500000.0,
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Teléfonos celulares — Teléfono celular",
+    "Cámaras aéreas — Kit compuesto por UN (1) Drone y TRES (3) tarjetas de memoria de 256 GB",
+    "Artículo de cámara — Cámara Fotográfica",
+    "Cargas electrónicas — Batería de respaldo Producto referencia",
+    "Kits de cámara — Sistema de grabación y audio ",
+    "Micrófonos — KIT Micrófono inalámbrico con estabilizador para celular",
+    "Conjuntos o bandejas de dispositivos de almacenamiento — Almacenamiento y respaldo de información digital"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T23:05:12+00:00",
+   "primera_deteccion": "2026-10-06T23:05:12+00:00"
+  },
+  {
    "id": "CA:1079486-179-COT26",
    "fuente": "compra_agil",
    "codigo": "1079486-179-COT26",
@@ -611,7 +651,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -643,7 +683,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -681,7 +721,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -716,7 +756,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -747,7 +787,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -779,7 +819,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -811,7 +851,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -843,7 +883,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T22:05:13+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -876,7 +916,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -909,7 +949,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T21:05:10+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -941,7 +981,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-06T23:05:12+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
