@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-06T11:05:09+00:00",
- "proxima_actualizacion": "2026-10-06T12:05:09+00:00",
+ "generado": "2026-10-06T12:05:11+00:00",
+ "proxima_actualizacion": "2026-10-06T13:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T11:05:09+00:00",
+   "ultima_ok": "2026-10-06T12:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4406,
+   "revisadas": 4396,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 2048
+   "pendientes_por_revisar": 1924
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T11:05:09+00:00",
+   "ultima_ok": "2026-10-06T12:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 0,
-   "detalles_consultados": 0,
+   "revisadas": 1,
+   "detalles_consultados": 1,
    "modo": "incremental"
   }
  },
@@ -79,40 +79,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "CA:1388961-170-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1388961-170-COT26",
-   "nombre": "176.-ADQUISICIÓN DE PÓLIZA DE SEGURO PARA DRONES MARCA DJI",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-09-25T12:06:00-03:00",
-   "fecha_cierre": "2026-10-06T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-09-30T16:45:00.680Z",
-   "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
-   "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1025407.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1388961-170-COT26",
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-05T20:10:04+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
-   "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
-   "plazo_entrega_dias": 7,
-   "productos": [
-    "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
-   ],
-   "detalle_actualizado": "2026-10-05T18:56:09+00:00"
-  },
-  {
    "id": "CA:5416-692-COT26",
    "fuente": "compra_agil",
    "codigo": "5416-692-COT26",
@@ -168,7 +134,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
@@ -226,7 +192,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -317,7 +283,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -386,6 +352,40 @@
     "Capacitación a empleados — CURSO DE OPEERADOR DE DRON, SEGUN BASES TECNICAS ADJUNTAS."
    ],
    "detalle_actualizado": "2026-10-05T20:10:04+00:00"
+  },
+  {
+   "id": "CA:1388961-170-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1388961-170-COT26",
+   "nombre": "176.-ADQUISICIÓN DE PÓLIZA DE SEGURO PARA DRONES MARCA DJI",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-09-25T12:06:00-03:00",
+   "fecha_cierre": "2026-10-08T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-06 09:00",
+   "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
+   "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1025407.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1388961-170-COT26",
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
+   "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
+   "plazo_entrega_dias": 7,
+   "productos": [
+    "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
+   ],
+   "detalle_actualizado": "2026-10-06T12:05:11+00:00"
   },
   {
    "id": "CA:1079659-430-COT26",
@@ -586,7 +586,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -624,7 +624,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -659,7 +659,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -691,7 +691,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -723,7 +723,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -755,7 +755,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -787,7 +787,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T11:05:09+00:00",
+   "ultima_actualizacion": "2026-10-06T12:05:11+00:00",
    "detalle_actualizado": "2026-10-06T07:05:18+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
