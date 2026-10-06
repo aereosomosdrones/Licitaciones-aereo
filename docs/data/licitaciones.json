@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-06T14:05:12+00:00",
- "proxima_actualizacion": "2026-10-06T15:05:12+00:00",
+ "generado": "2026-10-06T15:00:37+00:00",
+ "proxima_actualizacion": "2026-10-06T16:00:37+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T14:05:12+00:00",
+   "ultima_ok": "2026-10-06T15:00:37+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4438,
+   "revisadas": 4483,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 1750
+   "pendientes_por_revisar": 1677
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T14:05:12+00:00",
+   "ultima_ok": "2026-10-06T15:00:37+00:00",
    "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 3,
-   "detalles_consultados": 3,
+   "revisadas": 7,
+   "detalles_consultados": 6,
    "modo": "incremental"
   }
  },
@@ -77,69 +77,10 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "LIC:1437-16-LE26"
+  "CA:1106-40-COT26",
+  "CA:2755-326-COT26"
  ],
  "items": [
-  {
-   "id": "CA:5416-692-COT26",
-   "fuente": "compra_agil",
-   "codigo": "5416-692-COT26",
-   "nombre": "DRON",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-02T12:15:00-03:00",
-   "fecha_cierre": "2026-10-06T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-02T12:20:00.917Z",
-   "organismo": "UNIVERSIDAD DE LA SERENA",
-   "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
-   "region": "Región de Coquimbo ",
-   "monto": 2100000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5416-692-COT26",
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-05T20:10:04+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
-  },
-  {
-   "id": "LIC:1448380-4-LE26",
-   "fuente": "licitacion",
-   "codigo": "1448380-4-LE26",
-   "nombre": "SISTEMA DE AERONAVE TRIPULADA POR CONTROL REMOTO",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-06T12:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1448380-4-LE26",
-   "descripcion": "El objetivo de la presente adquisición es fortalecer las capacidades técnicas y operativas del Plan de Investigación y Desarrollo I+D del Proyecto ITP CORFO “Observatorio Nacional de Peligros Geológicos y Mineros”, mediante la incorporación de un sistema RPAS DJI Matrice 4E y sus componentes asociados, destinado a la captura, levantamiento y generación de información geoespacial de alta resolución.",
-   "organismo": "SERVICIO NACIONAL DE GEOLOGIA Y MINERIA",
-   "unidad": "CONVENIO CORFO",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Providencia",
-   "fecha_publicacion": "2026-09-22T08:33:45-03:00",
-   "fecha_adjudicacion": "2026-10-23T17:30:00-03:00",
-   "monto": 12000000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Sistemas de guiar al avión — SISTEMA DE AERONAVE TRIPULADA POR CONTROL REMOTO, O DRON (RPAS MULTISENSOR)"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-06T09:05:12+00:00",
-   "primera_deteccion": "2026-10-06T02:05:12+00:00"
-  },
   {
    "id": "CA:4085-457-COT26",
    "fuente": "compra_agil",
@@ -194,7 +135,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -258,6 +199,39 @@
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
+   "id": "CA:1106-40-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1106-40-COT26",
+   "nombre": "ADQUISICIÓN DE MATERIALES E INSUMOS (PLATAFORMAS DE ATERRIZAJE PARA DRON) , DANDO CUMPLIMIENTO A LOS TERMINOS DE REFERENCIA ADJUNTOS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-06T11:41:00-03:00",
+   "fecha_cierre": "2026-10-07T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-06 11:45",
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+   "unidad": "Dirección de Vialidad - RM - Dirección Regional",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 120000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1106-40-COT26",
+   "descripcion": "•\tPlataforma de aterrizaje para dron. \n•\tDiseño plegable. \n•\tDiámetro de 110 cm. \n•\tPeso aproximado de 510 gramos. \n•\tFabricada en tela Oxford 210D. \n•\tEmpaque compuesto por bolsa de transporte, tira reflectante, tres (3) clavijas de tierra y plataforma.\n\nADJUNTAR FICHA TECNICA, CATALOGO O ESPECIFICACIONES TECNICAS DE LOS PRODUCTOS OFERTADOS",
+   "direccion_entrega": "Calle Bombero Salas 1351, 5to Piso",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Montajes del tren de aterrizaje — \n•\tPlataforma de aterrizaje para dron. \n•\tDiseño plegable. \n•\tDiámetro de 110 cm. \n•\tPeso aproximado de 510 gramos. \n•\tFabricada en tela Oxford 210D. \n•\tEmpaque compuesto por bolsa de transporte, tira reflectante, tres (3) clavijas de tierra y plataforma.\n\nadjuntar junto a su oferta:\n?\tFicha técnica o catálogo del producto ofertado; o\n?\tEspecificación técnica emitida por el fabricante.\n?\tGarantías. \n"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "detalle_actualizado": "2026-10-06T15:00:37+00:00",
+   "primera_deteccion": "2026-10-06T15:00:37+00:00"
+  },
+  {
    "id": "LIC:3760-4-LE26",
    "fuente": "licitacion",
    "codigo": "3760-4-LE26",
@@ -285,7 +259,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -379,7 +353,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -387,7 +361,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-06T14:05:12+00:00"
+   "detalle_actualizado": "2026-10-06T15:00:37+00:00"
   },
   {
    "id": "CA:1079659-430-COT26",
@@ -527,6 +501,76 @@
    "primera_deteccion": "2026-10-05T20:10:04+00:00"
   },
   {
+   "id": "CA:2755-326-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2755-326-COT26",
+   "nombre": "BATERIAS Y HELICES PARA DRON PARA EL PROYECTO SOLUCIONES ESTRATEGICOS FOLIO 1261",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-06T11:36:00-03:00",
+   "fecha_cierre": "2026-10-09T11:40:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-06 11:40",
+   "organismo": "I MUNICIPALIDAD DE SAN ANTONIO",
+   "unidad": "IMunicipalidad de San Antonio",
+   "region": "Región de Valparaíso ",
+   "monto": 1535604.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2755-326-COT26",
+   "descripcion": "ADQUISISION BATERIAS Y HELICES PARA DRON PARA EL PROYECTO SOLUCIONES ESTRATEGICAS.\nSE ADJUNTA FICHA TECNICA. NO SE ACEPTARAN OFERTAS SIN COTIZACION ADJUNTA",
+   "direccion_entrega": "AVENIDA RAMON BARROS LUCO N° 1881",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — HÉLICES MAATRICE 4T SERIES, SEGUN FICHA TECNICA ADJUNTA",
+    "Aviones objetivo o de reconocimiento — BATERIA MATRICE 4T SERIES, SEGUN FICHA TECNICA ADJUNTA"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "detalle_actualizado": "2026-10-06T15:00:37+00:00",
+   "primera_deteccion": "2026-10-06T15:00:37+00:00"
+  },
+  {
+   "id": "CA:1079486-179-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1079486-179-COT26",
+   "nombre": "ADQUISICIÓN DE ACCESORIOS PARA DRONES, DE CARGO DE LA SECCIÓN RPAS DE LA 5TA. COM. COP ATACAMA.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-09-21T12:50:00-03:00",
+   "fecha_cierre": "2026-10-09T15:35:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-06 11:30",
+   "organismo": "SECCIÓN COMPRAS III ZONA",
+   "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS ATACAMA",
+   "region": "Región de Atacama ",
+   "monto": 766400.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1079486-179-COT26",
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "CONFORME ANEXO ADJUNTO.",
+   "direccion_entrega": "AVDA. COPAYAPU N°3302",
+   "plazo_entrega_dias": 7,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — REQUERIMINETO CONFORME ANEXO ADJUNTO."
+   ],
+   "detalle_actualizado": "2026-10-06T15:00:37+00:00",
+   "cambio_estado": "2026-10-06T15:00:37+00:00"
+  },
+  {
    "id": "CA:622847-12-COT26",
    "fuente": "compra_agil",
    "codigo": "622847-12-COT26",
@@ -588,7 +632,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -626,7 +670,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -661,7 +705,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -692,7 +736,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T13:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -724,7 +768,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -756,7 +800,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -788,7 +832,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -821,7 +865,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -853,7 +897,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -2850,40 +2894,6 @@
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
-   "id": "CA:1079486-179-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1079486-179-COT26",
-   "nombre": "ADQUISICIÓN DE ACCESORIOS PARA DRONES, DE CARGO DE LA SECCIÓN RPAS DE LA 5TA. COM. COP ATACAMA.",
-   "estado": "adjudicada",
-   "estado_glosa": "Proveedor seleccionado",
-   "fecha_publicacion": "2026-09-21T12:50:00-03:00",
-   "fecha_cierre": "2026-09-24T17:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-09-28T17:30:00.267Z",
-   "organismo": "SECCIÓN COMPRAS III ZONA",
-   "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS ATACAMA",
-   "region": "Región de Atacama ",
-   "monto": 766400.0,
-   "moneda": "CLP",
-   "ofertas": 3,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1079486-179-COT26",
-   "terminos": [
-    "Dron",
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-05T20:10:04+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "descripcion": "CONFORME ANEXO ADJUNTO.",
-   "direccion_entrega": "AVDA. COPAYAPU N°3302",
-   "plazo_entrega_dias": 7,
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — REQUERIMINETO CONFORME ANEXO ADJUNTO."
-   ],
-   "detalle_actualizado": "2026-10-05T18:56:09+00:00"
-  },
-  {
    "id": "CA:5617-8-COT26",
    "fuente": "compra_agil",
    "codigo": "5617-8-COT26",
@@ -2969,7 +2979,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se prioriza proveedor que presente cotización formal adjunta con el total del requerimiento, el valor sea el menor y el tiempo de entrega sea el menor. Se adjunta requerimiento (contacto Juan Fuentealba profesionaladministracion@quillon.cl)",
    "direccion_entrega": "18 de septiembre 250",
@@ -2979,7 +2989,7 @@
     "Baterías recargables — baterias radio vhf alta capacidad dep 450",
     "Servicio de reparación de equipo de fabricación — servicio mantención dron matrice 30T y estacion de bateria BS30"
    ],
-   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -3915,7 +3925,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
@@ -3926,6 +3936,67 @@
    ],
    "detalle_actualizado": "2026-10-06T13:05:13+00:00",
    "cambio_estado": "2026-10-06T13:05:13+00:00"
+  },
+  {
+   "id": "CA:5416-692-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5416-692-COT26",
+   "nombre": "DRON",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-02T12:15:00-03:00",
+   "fecha_cierre": "2026-10-06T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-06T12:05:01.147Z",
+   "organismo": "UNIVERSIDAD DE LA SERENA",
+   "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
+   "region": "Región de Coquimbo ",
+   "monto": 2100000.0,
+   "moneda": "CLP",
+   "ofertas": 16,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5416-692-COT26",
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "cambio_estado": "2026-10-06T15:00:37+00:00"
+  },
+  {
+   "id": "LIC:1448380-4-LE26",
+   "fuente": "licitacion",
+   "codigo": "1448380-4-LE26",
+   "nombre": "SISTEMA DE AERONAVE TRIPULADA POR CONTROL REMOTO",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-06T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1448380-4-LE26",
+   "descripcion": "El objetivo de la presente adquisición es fortalecer las capacidades técnicas y operativas del Plan de Investigación y Desarrollo I+D del Proyecto ITP CORFO “Observatorio Nacional de Peligros Geológicos y Mineros”, mediante la incorporación de un sistema RPAS DJI Matrice 4E y sus componentes asociados, destinado a la captura, levantamiento y generación de información geoespacial de alta resolución.",
+   "organismo": "SERVICIO NACIONAL DE GEOLOGIA Y MINERIA",
+   "unidad": "CONVENIO CORFO",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Providencia",
+   "fecha_publicacion": "2026-09-22T08:33:45-03:00",
+   "fecha_adjudicacion": "2026-10-23T17:30:00-03:00",
+   "monto": 12000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Sistemas de guiar al avión — SISTEMA DE AERONAVE TRIPULADA POR CONTROL REMOTO, O DRON (RPAS MULTISENSOR)"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "detalle_actualizado": "2026-10-06T09:05:12+00:00",
+   "primera_deteccion": "2026-10-06T02:05:12+00:00"
   }
  ]
 }
