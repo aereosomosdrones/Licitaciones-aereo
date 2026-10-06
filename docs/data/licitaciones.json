@@ -1,25 +1,25 @@
 {
- "generado": "2026-10-06T00:44:16+00:00",
- "proxima_actualizacion": "2026-10-06T01:44:16+00:00",
+ "generado": "2026-10-06T01:05:15+00:00",
+ "proxima_actualizacion": "2026-10-06T02:05:15+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T00:44:16+00:00",
+   "ultima_ok": "2026-10-06T01:05:15+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4408,
+   "revisadas": 4407,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 3478
+   "pendientes_por_revisar": 3357
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T00:44:16+00:00",
+   "ultima_ok": "2026-10-06T01:05:15+00:00",
    "errores_detalle": 0,
    "advertencias": [
-    "2 de 15 búsquedas no respondieron: drones, ortomosaico"
+    "1 de 15 búsquedas no respondieron: drones"
    ],
    "revisadas": 0,
    "detalles_consultados": 0,
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:1375753-39-LE26"
+ ],
  "items": [
   {
    "id": "CA:1388961-170-COT26",
@@ -192,7 +194,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T00:44:16+00:00",
+   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -283,7 +285,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T00:44:16+00:00",
+   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -552,9 +554,47 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T00:44:16+00:00",
+   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
+  },
+  {
+   "id": "LIC:1375753-39-LE26",
+   "fuente": "licitacion",
+   "codigo": "1375753-39-LE26",
+   "nombre": "Adquisición de equipos informaticos SLEP Los Andes",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-13T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1375753-39-LE26",
+   "descripcion": "Fortalecer las capacidades tecnológicas y operativas del Servicio Local de Educación Pública de Los Andes mediante la adquisición de equipamiento informático, audiovisual, de almacenamiento y seguridad, destinado a apoyar la gestión administrativa, las actividades institucionales, el resguardo de información y la continuidad operativa del Servicio.",
+   "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LOS ANDES",
+   "unidad": "COMPRAS Y LICITACIONES",
+   "region": "Región de Valparaíso",
+   "comuna": "Santiago",
+   "fecha_publicacion": "2026-10-01T12:50:22-03:00",
+   "fecha_adjudicacion": "2026-11-13T16:16:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Notebook, laptop o computador portátil excepto Tablet PC — Notebook gama 1 proc. Intel i3 ryzen3, 8gb\r\nram, ssd 512 o superior",
+    "Monitores de pantalla táctil — Monitor 24”",
+    "Servidores — Servidor",
+    "Impresoras de chorro de tinta — Impresora Portatil térmica con insumos",
+    "Proyectores multimedia — Proyectores tiro corto",
+    "Proyectores multimedia — Proyectores tiro normal",
+    "Aviones objetivo o de reconocimiento — Drone",
+    "Discos duros — SSD externo 1TB"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
+   "detalle_actualizado": "2026-10-06T01:05:15+00:00",
+   "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
    "id": "LIC:3149-25-LE26",
@@ -587,7 +627,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T00:44:16+00:00",
+   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -619,7 +659,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T00:44:16+00:00",
+   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -651,7 +691,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T00:44:16+00:00",
+   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -683,7 +723,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T00:44:16+00:00",
+   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
