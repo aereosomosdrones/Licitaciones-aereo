@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-06T01:05:15+00:00",
- "proxima_actualizacion": "2026-10-06T02:05:15+00:00",
+ "generado": "2026-10-06T02:05:12+00:00",
+ "proxima_actualizacion": "2026-10-06T03:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T01:05:15+00:00",
+   "ultima_ok": "2026-10-06T02:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 4407,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 3357
+   "pendientes_por_revisar": 3238
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T01:05:15+00:00",
+   "ultima_ok": "2026-10-06T02:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -77,7 +77,7 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "LIC:1375753-39-LE26"
+  "LIC:1448380-4-LE26"
  ],
  "items": [
   {
@@ -141,6 +141,40 @@
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
+   "id": "LIC:1448380-4-LE26",
+   "fuente": "licitacion",
+   "codigo": "1448380-4-LE26",
+   "nombre": "SISTEMA DE AERONAVE TRIPULADA POR CONTROL REMOTO",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-06T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1448380-4-LE26",
+   "descripcion": "El objetivo de la presente adquisición es fortalecer las capacidades técnicas y operativas del Plan de Investigación y Desarrollo I+D del Proyecto ITP CORFO “Observatorio Nacional de Peligros Geológicos y Mineros”, mediante la incorporación de un sistema RPAS DJI Matrice 4E y sus componentes asociados, destinado a la captura, levantamiento y generación de información geoespacial de alta resolución.",
+   "organismo": "SERVICIO NACIONAL DE GEOLOGIA Y MINERIA",
+   "unidad": "CONVENIO CORFO",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Providencia",
+   "fecha_publicacion": "2026-09-22T08:33:45-03:00",
+   "fecha_adjudicacion": "2026-10-23T17:30:00-03:00",
+   "monto": 12000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Sistemas de guiar al avión — SISTEMA DE AERONAVE TRIPULADA POR CONTROL REMOTO, O DRON (RPAS MULTISENSOR)"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T02:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T02:05:12+00:00",
+   "primera_deteccion": "2026-10-06T02:05:12+00:00"
+  },
+  {
    "id": "CA:4085-457-COT26",
    "fuente": "compra_agil",
    "codigo": "4085-457-COT26",
@@ -194,7 +228,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
+   "ultima_actualizacion": "2026-10-06T02:05:12+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -285,7 +319,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
+   "ultima_actualizacion": "2026-10-06T02:05:12+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -554,7 +588,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
+   "ultima_actualizacion": "2026-10-06T02:05:12+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -592,7 +626,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
+   "ultima_actualizacion": "2026-10-06T02:05:12+00:00",
    "detalle_actualizado": "2026-10-06T01:05:15+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -627,7 +661,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
+   "ultima_actualizacion": "2026-10-06T02:05:12+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -659,7 +693,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
+   "ultima_actualizacion": "2026-10-06T02:05:12+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -691,7 +725,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
+   "ultima_actualizacion": "2026-10-06T02:05:12+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -723,7 +757,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T01:05:15+00:00",
+   "ultima_actualizacion": "2026-10-06T02:05:12+00:00",
    "detalle_actualizado": "2026-10-06T00:44:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
