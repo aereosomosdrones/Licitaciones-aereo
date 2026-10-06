@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-06T15:00:37+00:00",
- "proxima_actualizacion": "2026-10-06T16:00:37+00:00",
+ "generado": "2026-10-06T16:05:12+00:00",
+ "proxima_actualizacion": "2026-10-06T17:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T15:00:37+00:00",
+   "ultima_ok": "2026-10-06T16:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4483,
-   "detalles_consultados": 120,
-   "pendientes_por_revisar": 1677
+   "revisadas": 4502,
+   "detalles_consultados": 121,
+   "pendientes_por_revisar": 1593
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T15:00:37+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-06T16:05:12+00:00",
+   "errores_detalle": 2,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 7,
-   "detalles_consultados": 6,
+   "revisadas": 8,
+   "detalles_consultados": 7,
    "modo": "incremental"
   }
  },
@@ -76,10 +76,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:1106-40-COT26",
-  "CA:2755-326-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "items": [
   {
    "id": "CA:4085-457-COT26",
@@ -135,7 +132,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -227,8 +224,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
-   "detalle_actualizado": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -259,7 +256,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -353,7 +350,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -361,7 +358,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-06T15:00:37+00:00"
+   "detalle_actualizado": "2026-10-06T16:05:12+00:00"
   },
   {
    "id": "CA:1079659-430-COT26",
@@ -531,8 +528,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
-   "detalle_actualizado": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -559,7 +556,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
@@ -567,7 +564,7 @@
    "productos": [
     "Aeronave de reconocimiento o vigilancia — REQUERIMINETO CONFORME ANEXO ADJUNTO."
    ],
-   "detalle_actualizado": "2026-10-06T15:00:37+00:00",
+   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "cambio_estado": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -632,7 +629,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -670,7 +667,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -705,7 +702,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -736,7 +733,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T13:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -768,7 +765,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -800,7 +797,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -832,8 +829,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
-   "detalle_actualizado": "2026-10-06T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -865,7 +862,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -897,7 +894,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -2979,7 +2976,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se prioriza proveedor que presente cotización formal adjunta con el total del requerimiento, el valor sea el menor y el tiempo de entrega sea el menor. Se adjunta requerimiento (contacto Juan Fuentealba profesionaladministracion@quillon.cl)",
    "direccion_entrega": "18 de septiembre 250",
@@ -2989,7 +2986,7 @@
     "Baterías recargables — baterias radio vhf alta capacidad dep 450",
     "Servicio de reparación de equipo de fabricación — servicio mantención dron matrice 30T y estacion de bateria BS30"
    ],
-   "detalle_actualizado": "2026-10-06T15:00:37+00:00",
+   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "cambio_estado": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -3925,7 +3922,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
@@ -3960,7 +3957,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-06T15:00:37+00:00"
   },
@@ -3970,7 +3967,7 @@
    "codigo": "1448380-4-LE26",
    "nombre": "SISTEMA DE AERONAVE TRIPULADA POR CONTROL REMOTO",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_cierre": "2026-10-06T12:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1448380-4-LE26",
    "descripcion": "El objetivo de la presente adquisición es fortalecer las capacidades técnicas y operativas del Plan de Investigación y Desarrollo I+D del Proyecto ITP CORFO “Observatorio Nacional de Peligros Geológicos y Mineros”, mediante la incorporación de un sistema RPAS DJI Matrice 4E y sus componentes asociados, destinado a la captura, levantamiento y generación de información geoespacial de alta resolución.",
@@ -3994,8 +3991,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T15:00:37+00:00",
-   "detalle_actualizado": "2026-10-06T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-06T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   }
  ]
