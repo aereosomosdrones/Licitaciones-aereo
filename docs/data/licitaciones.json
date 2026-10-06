@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-06T17:05:11+00:00",
- "proxima_actualizacion": "2026-10-06T18:05:11+00:00",
+ "generado": "2026-10-06T18:05:12+00:00",
+ "proxima_actualizacion": "2026-10-06T19:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T17:05:11+00:00",
+   "ultima_ok": "2026-10-06T18:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4521,
+   "revisadas": 4446,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 1501
+   "pendientes_por_revisar": 1370
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-06T17:05:11+00:00",
+   "ultima_ok": "2026-10-06T18:05:12+00:00",
    "errores_detalle": 3,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -76,42 +76,8 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:1238167-284-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "LIC:2952-16-LE26",
-   "fuente": "licitacion",
-   "codigo": "2952-16-LE26",
-   "nombre": "CURSO FUNDAMENTOS MANT. Y REP. RPAS MULTIROROTOR",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-06T15:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2952-16-LE26",
-   "descripcion": "LA NECESIDAD DE CONTRATAR EL CURSO DE FUNDAMENTOS PARA MANTENIMIENTO Y REPARACIÓN DE RPAS MULTIROTOR, SEGÚN ESPECIFICACIONES TÉCNICAS MENCIONADAS EN \"ANEXO A\" ADJUNTO.",
-   "organismo": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA",
-   "unidad": "ARSENAL NAVAL TALCAHUANO",
-   "region": "Región del Biobío",
-   "comuna": "Talcahuano",
-   "fecha_publicacion": "2026-09-24T13:59:58-03:00",
-   "fecha_adjudicacion": "2026-10-16T16:30:00-03:00",
-   "monto": 75000.0,
-   "moneda": "USD",
-   "tipo": "LE",
-   "productos": [
-    "Sistemas de manipulación de munición de aeronaves — CURSO DE FUNDAMENTOS PARA MANTENIMIENTO Y REPARACIÓN DE RPAS MULTIROTOR"
-   ],
-   "terminos": [
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
-  },
   {
    "id": "CA:1238177-108-COT26",
    "fuente": "compra_agil",
@@ -200,8 +166,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -233,8 +199,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
    "primera_deteccion": "2026-10-06T17:05:11+00:00"
   },
   {
@@ -265,7 +231,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -359,7 +325,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -367,7 +333,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-06T17:05:11+00:00"
+   "detalle_actualizado": "2026-10-06T18:05:12+00:00"
   },
   {
    "id": "CA:1079659-430-COT26",
@@ -537,8 +503,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -556,7 +522,7 @@
    "region": "Región de Atacama ",
    "monto": 766400.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=1079486-179-COT26",
    "terminos": [
     "Dron",
@@ -565,7 +531,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
@@ -573,7 +539,7 @@
    "productos": [
     "Aeronave de reconocimiento o vigilancia — REQUERIMINETO CONFORME ANEXO ADJUNTO."
    ],
-   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
+   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
    "cambio_estado": "2026-10-06T15:00:37+00:00"
   },
   {
@@ -638,7 +604,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -676,7 +642,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -711,7 +677,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -742,7 +708,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T13:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -774,7 +740,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -806,7 +772,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -838,7 +804,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T16:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -871,7 +837,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -903,7 +869,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "detalle_actualizado": "2026-10-06T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -2985,7 +2951,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se prioriza proveedor que presente cotización formal adjunta con el total del requerimiento, el valor sea el menor y el tiempo de entrega sea el menor. Se adjunta requerimiento (contacto Juan Fuentealba profesionaladministracion@quillon.cl)",
    "direccion_entrega": "18 de septiembre 250",
@@ -2995,7 +2961,7 @@
     "Baterías recargables — baterias radio vhf alta capacidad dep 450",
     "Servicio de reparación de equipo de fabricación — servicio mantención dron matrice 30T y estacion de bateria BS30"
    ],
-   "detalle_actualizado": "2026-10-06T17:05:11+00:00",
+   "detalle_actualizado": "2026-10-06T18:05:12+00:00",
    "cambio_estado": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -3931,7 +3897,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
@@ -3966,7 +3932,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-06T15:00:37+00:00"
   },
@@ -4027,9 +3993,41 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-06T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-06T17:05:11+00:00"
+  },
+  {
+   "id": "LIC:2952-16-LE26",
+   "fuente": "licitacion",
+   "codigo": "2952-16-LE26",
+   "nombre": "CURSO FUNDAMENTOS MANT. Y REP. RPAS MULTIROROTOR",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-06T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2952-16-LE26",
+   "descripcion": "LA NECESIDAD DE CONTRATAR EL CURSO DE FUNDAMENTOS PARA MANTENIMIENTO Y REPARACIÓN DE RPAS MULTIROTOR, SEGÚN ESPECIFICACIONES TÉCNICAS MENCIONADAS EN \"ANEXO A\" ADJUNTO.",
+   "organismo": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA",
+   "unidad": "ARSENAL NAVAL TALCAHUANO",
+   "region": "Región del Biobío",
+   "comuna": "Talcahuano",
+   "fecha_publicacion": "2026-09-24T13:59:58-03:00",
+   "fecha_adjudicacion": "2026-10-16T16:30:00-03:00",
+   "monto": 75000.0,
+   "moneda": "USD",
+   "tipo": "LE",
+   "productos": [
+    "Sistemas de manipulación de munición de aeronaves — CURSO DE FUNDAMENTOS PARA MANTENIMIENTO Y REPARACIÓN DE RPAS MULTIROTOR"
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-06T17:05:11+00:00",
+   "detalle_actualizado": "2026-10-06T14:05:12+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00"
   }
  ]
 }
