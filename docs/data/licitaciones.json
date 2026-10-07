@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-07T11:05:11+00:00",
- "proxima_actualizacion": "2026-10-07T12:05:11+00:00",
+ "generado": "2026-10-07T12:05:10+00:00",
+ "proxima_actualizacion": "2026-10-07T13:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T11:05:11+00:00",
+   "ultima_ok": "2026-10-07T12:05:10+00:00",
    "errores_detalle": 1,
    "advertencias": [],
-   "revisadas": 4540,
-   "detalles_consultados": 4,
+   "revisadas": 4558,
+   "detalles_consultados": 31,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T11:05:11+00:00",
-   "errores_detalle": 0,
+   "ultima_ok": "2026-10-07T12:05:10+00:00",
+   "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 1,
-   "detalles_consultados": 1,
+   "revisadas": 2,
+   "detalles_consultados": 2,
    "modo": "incremental"
   }
  },
@@ -78,32 +78,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:780724-74-COT26",
-   "fuente": "compra_agil",
-   "codigo": "780724-74-COT26",
-   "nombre": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-02T10:01:00-03:00",
-   "fecha_cierre": "2026-10-07T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-02T10:05:01.477Z",
-   "organismo": "ILUSTRE TERCER TRIBUNAL AMBIENTAL",
-   "unidad": "Ilustre Tercer Tribunal Ambiental",
-   "region": "Región de Los Ríos",
-   "monto": 400000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=780724-74-COT26",
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-06T21:05:10+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
-  },
   {
    "id": "CA:1106-40-COT26",
    "fuente": "compra_agil",
@@ -198,7 +172,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -545,8 +519,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
   {
@@ -649,7 +623,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T08:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -681,7 +655,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -719,7 +693,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -754,7 +728,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -785,7 +759,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T08:05:11+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -817,7 +791,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -849,7 +823,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -881,8 +855,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -914,7 +888,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -947,7 +921,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -979,7 +953,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -1011,7 +985,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1734,7 +1708,7 @@
    "estado_glosa": "Cancelada",
    "fecha_publicacion": "2026-09-04T10:19:00-04:00",
    "fecha_cierre": "2026-09-07T07:55:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-07 00:05",
+   "fecha_ultimo_cambio": "2026-10-07T00:05:01.937Z",
    "organismo": "Educación",
    "unidad": "UNIDAD DE COMPRAS - P02",
    "region": "Región Metropolitana de Santiago",
@@ -1748,7 +1722,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL LICEO POLIVALENTE EL LLANO DE MAIPÚ DIRECCIÓN LAS ACACIAS #535, MAIPÚ REQUIERE ADQ. BATERIAS DRON //SERÁ CAUSAL DE INADMISIBILIDAD NO ADJUNTAR COTIZACIÓN NI IMAGENES DE REFERENCIA DE LOS PRODUCTOS SOLICITADOS",
    "direccion_entrega": "LAS ACACIAS #535",
@@ -4200,8 +4174,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
-   "detalle_actualizado": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
@@ -4296,6 +4270,40 @@
    "detalle_actualizado": "2026-10-05T18:56:09+00:00",
    "primera_deteccion": "2026-10-05T18:56:09+00:00",
    "cambio_estado": "2026-10-06T19:05:13+00:00"
+  },
+  {
+   "id": "CA:780724-74-COT26",
+   "fuente": "compra_agil",
+   "codigo": "780724-74-COT26",
+   "nombre": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-02T10:01:00-03:00",
+   "fecha_cierre": "2026-10-07T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-07 09:05",
+   "organismo": "ILUSTRE TERCER TRIBUNAL AMBIENTAL",
+   "unidad": "Ilustre Tercer Tribunal Ambiental",
+   "region": "Región de Los Ríos",
+   "monto": 400000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=780724-74-COT26",
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
+   "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Seguros contra accidentes — CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado."
+   ],
+   "detalle_actualizado": "2026-10-07T12:05:10+00:00",
+   "cambio_estado": "2026-10-07T12:05:10+00:00"
   }
  ]
 }
