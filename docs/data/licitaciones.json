@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-07T00:34:33+00:00",
- "proxima_actualizacion": "2026-10-07T01:34:33+00:00",
+ "generado": "2026-10-07T01:05:09+00:00",
+ "proxima_actualizacion": "2026-10-07T02:05:09+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T00:34:33+00:00",
+   "ultima_ok": "2026-10-07T01:05:09+00:00",
    "errores_detalle": 1,
    "advertencias": [],
    "revisadas": 4541,
    "detalles_consultados": 120,
-   "pendientes_por_revisar": 721
+   "pendientes_por_revisar": 602
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T00:34:33+00:00",
+   "ultima_ok": "2026-10-07T01:05:09+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -198,7 +198,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -545,7 +545,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T23:05:12+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -649,7 +649,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -681,7 +681,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -719,7 +719,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -754,7 +754,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -785,7 +785,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T19:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -817,7 +817,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -849,7 +849,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -881,7 +881,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T22:05:13+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -914,7 +914,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -947,7 +947,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T21:05:10+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -979,7 +979,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T00:34:33+00:00",
+   "ultima_actualizacion": "2026-10-07T01:05:09+00:00",
    "detalle_actualizado": "2026-10-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
