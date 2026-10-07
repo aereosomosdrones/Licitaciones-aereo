@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-07T12:05:10+00:00",
- "proxima_actualizacion": "2026-10-07T13:05:10+00:00",
+ "generado": "2026-10-07T13:05:11+00:00",
+ "proxima_actualizacion": "2026-10-07T14:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T12:05:10+00:00",
+   "ultima_ok": "2026-10-07T13:05:11+00:00",
    "errores_detalle": 1,
    "advertencias": [],
-   "revisadas": 4558,
-   "detalles_consultados": 31,
+   "revisadas": 4581,
+   "detalles_consultados": 37,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T12:05:10+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-07T13:05:11+00:00",
+   "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
    "revisadas": 2,
-   "detalles_consultados": 2,
+   "detalles_consultados": 1,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:4113-55-LE26"
+ ],
  "items": [
   {
    "id": "CA:1106-40-COT26",
@@ -172,7 +174,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -519,7 +521,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -623,7 +625,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T08:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -655,7 +657,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -693,7 +695,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -728,7 +730,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -759,7 +761,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T08:05:11+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -791,7 +793,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -823,7 +825,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -855,7 +857,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -888,7 +890,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -921,7 +923,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -953,9 +955,53 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
+  },
+  {
+   "id": "LIC:4113-55-LE26",
+   "fuente": "licitacion",
+   "codigo": "4113-55-LE26",
+   "nombre": "ADQ. EQUIPOS AUDIOVISUALES Y DE COMUNICACIONES",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-19T15:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4113-55-LE26",
+   "descripcion": "La presente adquisición tiene por objetivo dotar a la Municipalidad de Melipeuco de equipos audiovisuales y de comunicaciones adecuados para fortalecer y mejorar la transmisión, registro y difusión de actividades institucionales, tales como sesiones de Concejo Municipal, actividades municipales y espacios de comunicación radial.",
+   "organismo": "ILUSTRE MUNICIPALIDAD MELIPEUCO",
+   "unidad": "Finanzas",
+   "region": "Región de la Araucanía",
+   "comuna": "Melipeuco",
+   "fecha_publicacion": "2026-10-07T09:13:44-03:00",
+   "fecha_adjudicacion": "2026-10-21T10:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Videocámaras portátiles — Videocámara Similar o superior a Sony PXW-Z90V 4K HDR",
+    "Videocámaras digitales — Videocámara Similar o superior a Canon Vixia HF G70 UHD 4K",
+    "Aviones objetivo o de reconocimiento — Drone Similar o superior a DJI mini 4 pro-fly more combo plus\r\n(DJI RC 2)",
+    "Atriles de pie — Tripode Similar o superior a Benro KH25P",
+    "Routers de red — Switcher Similar o superior a FeelWorld Livepro L2 plus 4x HDMI\r\ny pantalla 5.5\"",
+    "Micrófonos — Micrófono Similar o superior a Shure MV7 para Podcast-negro",
+    "Cable de telecomunicaciones — Cable HDMI Similar o superior a Kramer 7.60 M 1080p C-HM/HM-25",
+    "Equipo de comunicación de datos de radiofrecuencia — Sistema Intercom  Similar o similar a Intercom Saramonic WiTalk-WT5S\r\npara 5 usuarios",
+    "Diodos emisores de luz (LED) — Luz led magnética Similar o superior a Ulanzi LT010 para teléfonos",
+    "Cable de comunicaciones exterior de planta — Cable en espiral Similar o superior a Atomos MicroHDMI a HDMI 30 a 45\r\ncm",
+    "Luces proyectantes — Kit 2x Similar o superior a Leds Viltrox VL-S192T-45W",
+    "Micrófonos de voz para computador — Micrófono condensador USB-С Similar o superior a Tasman TM250U",
+    "Tarjetas inteligentes — Tarjeta MicroSD 128 GB Similar o superior a Sandisk Extreme Pro UHS-I C10"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "detalle_actualizado": "2026-10-07T13:05:11+00:00",
+   "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
   {
    "id": "LIC:2405-145-LR26",
@@ -985,7 +1031,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1722,7 +1768,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL LICEO POLIVALENTE EL LLANO DE MAIPÚ DIRECCIÓN LAS ACACIAS #535, MAIPÚ REQUIERE ADQ. BATERIAS DRON //SERÁ CAUSAL DE INADMISIBILIDAD NO ADJUNTAR COTIZACIÓN NI IMAGENES DE REFERENCIA DE LOS PRODUCTOS SOLICITADOS",
    "direccion_entrega": "LAS ACACIAS #535",
@@ -4294,7 +4340,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
@@ -4302,7 +4348,7 @@
    "productos": [
     "Seguros contra accidentes — CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado."
    ],
-   "detalle_actualizado": "2026-10-07T12:05:10+00:00",
+   "detalle_actualizado": "2026-10-07T13:05:11+00:00",
    "cambio_estado": "2026-10-07T12:05:10+00:00"
   }
  ]
