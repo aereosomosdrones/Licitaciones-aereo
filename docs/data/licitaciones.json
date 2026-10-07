@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-07T14:05:15+00:00",
- "proxima_actualizacion": "2026-10-07T15:05:15+00:00",
+ "generado": "2026-10-07T14:26:39+00:00",
+ "proxima_actualizacion": "2026-10-07T15:26:39+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T14:05:15+00:00",
+   "ultima_ok": "2026-10-07T14:26:39+00:00",
    "errores_detalle": 1,
    "advertencias": [],
-   "revisadas": 4612,
-   "detalles_consultados": 38,
+   "revisadas": 4624,
+   "detalles_consultados": 14,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T14:05:15+00:00",
+   "ultima_ok": "2026-10-07T14:26:39+00:00",
    "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
    "revisadas": 6,
-   "detalles_consultados": 5,
+   "detalles_consultados": 4,
    "modo": "incremental"
   }
  },
@@ -76,10 +76,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:2427-1125-COT26",
-  "CA:657-88-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "items": [
   {
    "id": "CA:1106-40-COT26",
@@ -175,7 +172,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -303,7 +300,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T14:05:15+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -312,7 +309,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — REVISAR REFERENCIAS TECNICAS CON EL DETALLE"
    ],
-   "detalle_actualizado": "2026-10-07T14:05:15+00:00"
+   "detalle_actualizado": "2026-10-07T14:26:39+00:00"
   },
   {
    "id": "CA:612-191-COT26",
@@ -517,8 +514,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
-   "detalle_actualizado": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "detalle_actualizado": "2026-10-07T14:26:39+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00"
   },
   {
@@ -590,7 +587,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -678,7 +675,7 @@
    "region": "Región Aysén del General Carlos Ibáñez del Campo",
    "monto": 5252000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=657-88-COT26",
    "descripcion": "El SERVIU Región de Aysén por medio de su Plan de Gestión de Calidad requiere adquirir un equipamiento tecnológico tipo Drone y sus accesorios específicos para abastecer las necesidades de la Unidad de Suelos de la institución, de acuerdo con el listado y especificaciones técnicas detalladas en el presente proceso. Los productos deberán ser entregados en dependencias del SERVIU Región de Aysén, segundo piso del edificio ubicado en calle Ramón Freire N°5, comuna de Coyhaique.",
    "direccion_entrega": "Ramón Freire N° 5, Coyhaique",
@@ -693,8 +690,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
-   "detalle_actualizado": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "detalle_actualizado": "2026-10-07T14:26:39+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00"
   },
   {
@@ -728,7 +725,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T14:05:15+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -760,7 +757,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -798,7 +795,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -833,7 +830,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -864,7 +861,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T14:05:15+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -896,7 +893,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -928,7 +925,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -960,7 +957,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -993,7 +990,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -1026,7 +1023,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -1058,7 +1055,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -1102,7 +1099,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T13:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -1134,7 +1131,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1871,7 +1868,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL LICEO POLIVALENTE EL LLANO DE MAIPÚ DIRECCIÓN LAS ACACIAS #535, MAIPÚ REQUIERE ADQ. BATERIAS DRON //SERÁ CAUSAL DE INADMISIBILIDAD NO ADJUNTAR COTIZACIÓN NI IMAGENES DE REFERENCIA DE LOS PRODUCTOS SOLICITADOS",
    "direccion_entrega": "LAS ACACIAS #535",
@@ -4388,7 +4385,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "detalle_actualizado": "2026-10-05T18:56:09+00:00",
    "primera_deteccion": "2026-10-05T18:56:09+00:00",
    "cambio_estado": "2026-10-07T14:05:15+00:00"
@@ -4402,7 +4399,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-02T10:01:00-03:00",
    "fecha_cierre": "2026-10-07T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-07 09:05",
+   "fecha_ultimo_cambio": "2026-10-07T09:05:01.957Z",
    "organismo": "ILUSTRE TERCER TRIBUNAL AMBIENTAL",
    "unidad": "Ilustre Tercer Tribunal Ambiental",
    "region": "Región de Los Ríos",
@@ -4416,7 +4413,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
