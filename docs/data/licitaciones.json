@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-07T13:05:11+00:00",
- "proxima_actualizacion": "2026-10-07T14:05:11+00:00",
+ "generado": "2026-10-07T14:05:15+00:00",
+ "proxima_actualizacion": "2026-10-07T15:05:15+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T13:05:11+00:00",
+   "ultima_ok": "2026-10-07T14:05:15+00:00",
    "errores_detalle": 1,
    "advertencias": [],
-   "revisadas": 4581,
-   "detalles_consultados": 37,
+   "revisadas": 4612,
+   "detalles_consultados": 38,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T13:05:11+00:00",
-   "errores_detalle": 0,
+   "ultima_ok": "2026-10-07T14:05:15+00:00",
+   "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 2,
-   "detalles_consultados": 1,
+   "revisadas": 6,
+   "detalles_consultados": 5,
    "modo": "incremental"
   }
  },
@@ -77,7 +77,8 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "LIC:4113-55-LE26"
+  "CA:2427-1125-COT26",
+  "CA:657-88-COT26"
  ],
  "items": [
   {
@@ -174,7 +175,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -277,6 +278,41 @@
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
    "detalle_actualizado": "2026-10-06T20:05:12+00:00"
+  },
+  {
+   "id": "CA:4085-457-COT26",
+   "fuente": "compra_agil",
+   "codigo": "4085-457-COT26",
+   "nombre": "ADQUISICIÓN DE DRONE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-05T13:52:00-03:00",
+   "fecha_cierre": "2026-10-08T10:13:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-07 10:10",
+   "organismo": "I MUNICIPALIDAD DE LONGAVI",
+   "unidad": "Depto. de Secplan",
+   "region": "Región del Maule ",
+   "monto": 1350000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=4085-457-COT26",
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "cambio_estado": "2026-10-07T14:05:15+00:00",
+   "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
+   "direccion_entrega": "la Bodega Municipal, ubicada en 1 Sur, entre 1 y 2 Oriente (Portón Verde), Longaví,",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — REVISAR REFERENCIAS TECNICAS CON EL DETALLE"
+   ],
+   "detalle_actualizado": "2026-10-07T14:05:15+00:00"
   },
   {
    "id": "CA:612-191-COT26",
@@ -453,6 +489,39 @@
    "primera_deteccion": "2026-10-05T20:10:04+00:00"
   },
   {
+   "id": "CA:2427-1125-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2427-1125-COT26",
+   "nombre": "Adquisición de repuestos para dron, DSC.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-07T10:59:00-03:00",
+   "fecha_cierre": "2026-10-09T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-07 11:00",
+   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
+   "unidad": "ABASTECIMIENTO",
+   "region": "Región de Valparaíso ",
+   "monto": 350000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1125-COT26",
+   "descripcion": "Pedido N°19 DSC.\nAdquisición de repuestos para dron. Monto referencial $350.000.- según detalle y TDR adjunto. Se deberá indicar expresamente el plazo de entrega. En caso de no señalarlo, se entenderá aceptado el establecido en el TDR. *IMPORTANTE* POR FAVOR ADJUNTAR COTIZACIÓN FORMAL Y PATENTE MUNICIPAL VIGENTE (EN EL CASO DE NO ADJUNTAR, SE SOLICITARA MEDIANTE CORREO ADJUNTAR LO SOLICITADO CON UN PLAZO MAXIMO DE 24 HRS)",
+   "direccion_entrega": "Victoria 2579",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Accesorios eléctricos — Repuesto para dron: BC. EN. SSOOO662.01 - DOWNWARD GIMBAL VIBRATION DAMPING MODULE, según TTR adjunto."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "detalle_actualizado": "2026-10-07T14:05:15+00:00",
+   "primera_deteccion": "2026-10-07T14:05:15+00:00"
+  },
+  {
    "id": "CA:2755-326-COT26",
    "fuente": "compra_agil",
    "codigo": "2755-326-COT26",
@@ -521,7 +590,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -595,6 +664,40 @@
    "detalle_actualizado": "2026-10-06T21:05:10+00:00"
   },
   {
+   "id": "CA:657-88-COT26",
+   "fuente": "compra_agil",
+   "codigo": "657-88-COT26",
+   "nombre": "Adquisición de Drone DJI Matrice 4E para Unidad de Suelo de SERVIU Región de Aysén",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-07T10:39:00-03:00",
+   "fecha_cierre": "2026-10-09T18:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-07 10:40",
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION XI REGION",
+   "unidad": "SERVIU XI REGION",
+   "region": "Región Aysén del General Carlos Ibáñez del Campo",
+   "monto": 5252000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=657-88-COT26",
+   "descripcion": "El SERVIU Región de Aysén por medio de su Plan de Gestión de Calidad requiere adquirir un equipamiento tecnológico tipo Drone y sus accesorios específicos para abastecer las necesidades de la Unidad de Suelos de la institución, de acuerdo con el listado y especificaciones técnicas detalladas en el presente proceso. Los productos deberán ser entregados en dependencias del SERVIU Región de Aysén, segundo piso del edificio ubicado en calle Ramón Freire N°5, comuna de Coyhaique.",
+   "direccion_entrega": "Ramón Freire N° 5, Coyhaique",
+   "plazo_entrega_dias": 30,
+   "productos": [
+    "Cámaras aéreas — Drone DJI Matrice 4E\nDebe incluir: \n- 1 batería, maleta rígida de transporte, hub de carga para 4 baterías, 2 pares de hélices de repuesto, control DJI RC Plus 2, microSD de 64GB y cables de carga.\n- Garantía extendida de 2 años en Drones Industriales DJI\n- Batería Drone DJI Matrice 4 Serie Baterías adicionales de la serie M4 \n- Curso Certificado para Licencia DGAC\n- Tarjeta MicroSD EVO Plus 256 GB\nMayor detalle en los Términos de Referencia Adjuntos.\n"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "detalle_actualizado": "2026-10-07T14:05:15+00:00",
+   "primera_deteccion": "2026-10-07T14:05:15+00:00"
+  },
+  {
    "id": "LIC:4291-52-L126",
    "fuente": "licitacion",
    "codigo": "4291-52-L126",
@@ -625,8 +728,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
-   "detalle_actualizado": "2026-10-07T08:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "detalle_actualizado": "2026-10-07T14:05:15+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
@@ -657,7 +760,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -695,7 +798,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -730,7 +833,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -761,8 +864,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
-   "detalle_actualizado": "2026-10-07T08:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
+   "detalle_actualizado": "2026-10-07T14:05:15+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
   {
@@ -793,7 +896,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -825,7 +928,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -857,7 +960,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -890,7 +993,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -923,7 +1026,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -955,7 +1058,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -999,7 +1102,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T13:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -1031,7 +1134,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1768,7 +1871,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL LICEO POLIVALENTE EL LLANO DE MAIPÚ DIRECCIÓN LAS ACACIAS #535, MAIPÚ REQUIERE ADQ. BATERIAS DRON //SERÁ CAUSAL DE INADMISIBILIDAD NO ADJUNTAR COTIZACIÓN NI IMAGENES DE REFERENCIA DE LOS PRODUCTOS SOLICITADOS",
    "direccion_entrega": "LAS ACACIAS #535",
@@ -4225,33 +4328,6 @@
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
-   "id": "CA:4085-457-COT26",
-   "fuente": "compra_agil",
-   "codigo": "4085-457-COT26",
-   "nombre": "ADQUISICIÓN DE DRONE",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-10-05T13:52:00-03:00",
-   "fecha_cierre": "2026-10-06T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-06T14:05:00.333Z",
-   "organismo": "I MUNICIPALIDAD DE LONGAVI",
-   "unidad": "Depto. de Secplan",
-   "region": "Región del Maule ",
-   "monto": 1350000.0,
-   "moneda": "CLP",
-   "ofertas": 10,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=4085-457-COT26",
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-06T21:05:10+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "cambio_estado": "2026-10-06T17:05:11+00:00"
-  },
-  {
    "id": "LIC:2952-16-LE26",
    "fuente": "licitacion",
    "codigo": "2952-16-LE26",
@@ -4288,11 +4364,11 @@
    "fuente": "compra_agil",
    "codigo": "1238177-108-COT26",
    "nombre": "CAPACITACION CURSO DE VUELO NOCTURNO",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-01T15:50:00-03:00",
    "fecha_cierre": "2026-10-06T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-06T16:10:00.960Z",
+   "fecha_ultimo_cambio": "2026-10-07T10:20:00.997Z",
    "organismo": "ASOCIACION DE MUNICIPIOS METROPOLITANOS PARA LA SE",
    "unidad": "PROYECTO SEGURIDAD PROVIDENCIA",
    "region": "Región Metropolitana de Santiago",
@@ -4312,10 +4388,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-06T21:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "detalle_actualizado": "2026-10-05T18:56:09+00:00",
    "primera_deteccion": "2026-10-05T18:56:09+00:00",
-   "cambio_estado": "2026-10-06T19:05:13+00:00"
+   "cambio_estado": "2026-10-07T14:05:15+00:00"
   },
   {
    "id": "CA:780724-74-COT26",
@@ -4340,7 +4416,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-07T14:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
@@ -4348,7 +4424,7 @@
    "productos": [
     "Seguros contra accidentes — CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado."
    ],
-   "detalle_actualizado": "2026-10-07T13:05:11+00:00",
+   "detalle_actualizado": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-07T12:05:10+00:00"
   }
  ]
