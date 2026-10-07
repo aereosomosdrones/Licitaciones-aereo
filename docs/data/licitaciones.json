@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-07T14:26:39+00:00",
- "proxima_actualizacion": "2026-10-07T15:26:39+00:00",
+ "generado": "2026-10-07T20:32:51+00:00",
+ "proxima_actualizacion": "2026-10-07T21:32:51+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T14:26:39+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-07T20:32:51+00:00",
+   "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4624,
-   "detalles_consultados": 14,
-   "pendientes_por_revisar": 0
+   "revisadas": 4666,
+   "detalles_consultados": 123,
+   "pendientes_por_revisar": 173
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T14:26:39+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-07T20:32:51+00:00",
+   "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 6,
-   "detalles_consultados": 4,
+   "revisadas": 11,
+   "detalles_consultados": 8,
    "modo": "incremental"
   }
  },
@@ -76,106 +76,11 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:650-92-COT26",
+  "CA:6-80-COT26"
+ ],
  "items": [
-  {
-   "id": "CA:1106-40-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1106-40-COT26",
-   "nombre": "ADQUISICIÓN DE MATERIALES E INSUMOS (PLATAFORMAS DE ATERRIZAJE PARA DRON) , DANDO CUMPLIMIENTO A LOS TERMINOS DE REFERENCIA ADJUNTOS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-06T11:41:00-03:00",
-   "fecha_cierre": "2026-10-07T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-06 11:45",
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-   "unidad": "Dirección de Vialidad - RM - Dirección Regional",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 120000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1106-40-COT26",
-   "descripcion": "•\tPlataforma de aterrizaje para dron. \n•\tDiseño plegable. \n•\tDiámetro de 110 cm. \n•\tPeso aproximado de 510 gramos. \n•\tFabricada en tela Oxford 210D. \n•\tEmpaque compuesto por bolsa de transporte, tira reflectante, tres (3) clavijas de tierra y plataforma.\n\nADJUNTAR FICHA TECNICA, CATALOGO O ESPECIFICACIONES TECNICAS DE LOS PRODUCTOS OFERTADOS",
-   "direccion_entrega": "Calle Bombero Salas 1351, 5to Piso",
-   "plazo_entrega_dias": 2,
-   "productos": [
-    "Montajes del tren de aterrizaje — \n•\tPlataforma de aterrizaje para dron. \n•\tDiseño plegable. \n•\tDiámetro de 110 cm. \n•\tPeso aproximado de 510 gramos. \n•\tFabricada en tela Oxford 210D. \n•\tEmpaque compuesto por bolsa de transporte, tira reflectante, tres (3) clavijas de tierra y plataforma.\n\nadjuntar junto a su oferta:\n?\tFicha técnica o catálogo del producto ofertado; o\n?\tEspecificación técnica emitida por el fabricante.\n?\tGarantías. \n"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-06T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-06T21:05:10+00:00",
-   "primera_deteccion": "2026-10-06T15:00:37+00:00"
-  },
-  {
-   "id": "CA:1238167-284-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1238167-284-COT26",
-   "nombre": "ARRIENDO DRONE FESTIVAL DE VERANO 2027",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-06T13:27:00-03:00",
-   "fecha_cierre": "2026-10-07T13:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-06T13:30:01.037Z",
-   "organismo": "FUNDACION MUNICIPAL DE CULTURA DE PROVIDENCIA",
-   "unidad": "Administración y finanzas",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1200000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1238167-284-COT26",
-   "descripcion": "Se solicita cotización de arriendo de drone para Festival de Verano 2027 según especificaciones descritas dentro de la ficha técnica adjunta. Oferentes deben adjuntar cotización anteriormente mencionada y/o cualquier otro tipo de documento que sea solicitado dentro de la misma ficha técnica. Fecha y lugar de entrega deben ser los especificados en la información técnica adjunta. En caso de fuerza mayor las actividades pueden ser reprogramadas.",
-   "direccion_entrega": "Av. Nueva Providencia 1995",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Cámaras aéreas — Se solicita cotización de arriendo de drone para Festival de Verano 2027 según especificaciones descritas dentro de la ficha técnica adjunta. Oferentes deben adjuntar cotización anteriormente mencionada y/o cualquier otro tipo de documento que sea solicitado dentro de la misma ficha técnica. Fecha y lugar de entrega deben ser los especificados en la información técnica adjunta. En caso de fuerza mayor las actividades pueden ser reprogramadas."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-06T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-06T20:05:12+00:00",
-   "primera_deteccion": "2026-10-06T17:05:11+00:00"
-  },
-  {
-   "id": "LIC:3760-4-LE26",
-   "fuente": "licitacion",
-   "codigo": "3760-4-LE26",
-   "nombre": "DRON CON ACCESORIOS - DIRECCION DE SEG. PUBLICA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-07T14:30:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3760-4-LE26",
-   "descripcion": "ADQUISICION DE DRON CON ACCESORIOS Y CURSOS SOLICITADO POR DIRECCION DE SEGURIDAD PUBLICA\r\nLA LICITACION CONSTA DE LA ADQUISICION DE DRON, CON ACCESORIOS Y CURSO DGAC CON CERTIFICACION + CURSO DE INICIO DE VUELO PARA 4 FUNCIONARIOS  DE LA DIRECCION DE SEGURIDAD PUBLICA SEGUN FORM 12",
-   "organismo": "I MUNICIPALIDAD DE EL MONTE",
-   "unidad": "IM De El Monte - Adquisiciones",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "El Monte",
-   "fecha_publicacion": "2026-09-29T12:19:31-03:00",
-   "fecha_adjudicacion": "2026-10-30T14:30:00-03:00",
-   "monto": 9000000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — ADQUISICION DE DRONE CON ACCESORIOS Y CURSOS PARA LA DIRECCION DE SEGURIDAD PUBLICA"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
-  },
   {
    "id": "CA:813685-111-COT26",
    "fuente": "compra_agil",
@@ -291,7 +196,7 @@
    "region": "Región del Maule ",
    "monto": 1350000.0,
    "moneda": "CLP",
-   "ofertas": 1,
+   "ofertas": 2,
    "url": "https://buscador.mercadopublico.cl/ficha?code=4085-457-COT26",
    "terminos": [
     "Dron",
@@ -300,7 +205,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T14:05:15+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -309,7 +214,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — REVISAR REFERENCIAS TECNICAS CON EL DETALLE"
    ],
-   "detalle_actualizado": "2026-10-07T14:26:39+00:00"
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00"
   },
   {
    "id": "CA:612-191-COT26",
@@ -452,6 +357,107 @@
    "detalle_actualizado": "2026-10-05T18:56:09+00:00"
   },
   {
+   "id": "CA:1106-40-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1106-40-COT26",
+   "nombre": "ADQUISICIÓN DE MATERIALES E INSUMOS (PLATAFORMAS DE ATERRIZAJE PARA DRON) , DANDO CUMPLIMIENTO A LOS TERMINOS DE REFERENCIA ADJUNTOS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-06T11:41:00-03:00",
+   "fecha_cierre": "2026-10-08T15:59:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-07 15:45",
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+   "unidad": "Dirección de Vialidad - RM - Dirección Regional",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 120000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1106-40-COT26",
+   "descripcion": "•\tPlataforma de aterrizaje para dron. \n•\tDiseño plegable. \n•\tDiámetro de 110 cm. \n•\tPeso aproximado de 510 gramos. \n•\tFabricada en tela Oxford 210D. \n•\tEmpaque compuesto por bolsa de transporte, tira reflectante, tres (3) clavijas de tierra y plataforma.\n\nADJUNTAR FICHA TECNICA, CATALOGO O ESPECIFICACIONES TECNICAS DE LOS PRODUCTOS OFERTADOS",
+   "direccion_entrega": "Calle Bombero Salas 1351, 5to Piso",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Montajes del tren de aterrizaje — \n•\tPlataforma de aterrizaje para dron. \n•\tDiseño plegable. \n•\tDiámetro de 110 cm. \n•\tPeso aproximado de 510 gramos. \n•\tFabricada en tela Oxford 210D. \n•\tEmpaque compuesto por bolsa de transporte, tira reflectante, tres (3) clavijas de tierra y plataforma.\n\nadjuntar junto a su oferta:\n?\tFicha técnica o catálogo del producto ofertado; o\n?\tEspecificación técnica emitida por el fabricante.\n?\tGarantías. \n"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
+   "primera_deteccion": "2026-10-06T15:00:37+00:00"
+  },
+  {
+   "id": "CA:650-92-COT26",
+   "fuente": "compra_agil",
+   "codigo": "650-92-COT26",
+   "nombre": "Baterías Dron",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-07T16:24:00-03:00",
+   "fecha_cierre": "2026-10-08T16:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-07 16:25",
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
+   "unidad": "SERVIU II Región",
+   "region": "Región de Antofagasta ",
+   "monto": 700000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=650-92-COT26",
+   "descripcion": "Se requiere cotización para la adquisición de kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro, según las especificaciones adjuntas, el valor debe considerar flete e IVA, en el caso de empate en el valor ofertado se seleccionara al proveedor que cuente con el \"sello Mujer\" en su ficha de proveedor.",
+   "direccion_entrega": "Washington 2551",
+   "plazo_entrega_dias": 6,
+   "productos": [
+    "Baterías recargables — kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
+   "primera_deteccion": "2026-10-07T20:32:51+00:00"
+  },
+  {
+   "id": "CA:6-80-COT26",
+   "fuente": "compra_agil",
+   "codigo": "6-80-COT26",
+   "nombre": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-07T16:02:00-03:00",
+   "fecha_cierre": "2026-10-08T16:50:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-07 16:05",
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION I REGION",
+   "unidad": "SERVIU I Región",
+   "region": "Región de Tarapacá  ",
+   "monto": 385000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=6-80-COT26",
+   "descripcion": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante para drones, 55 cm, doble cara, impermeable, plegable, con clavijas de tierra (bicolor) EL VALOR TOTAL DEBE SER CON FLETE INCLUIDO.",
+   "direccion_entrega": "CALLE  PATRICIO LYNCH  N° 50 IQUIQUE ",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Paracaídas — SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante.\n\n"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
+   "primera_deteccion": "2026-10-07T20:32:51+00:00"
+  },
+  {
    "id": "CA:1264-13-COT26",
    "fuente": "compra_agil",
    "codigo": "1264-13-COT26",
@@ -514,8 +520,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00"
   },
   {
@@ -587,7 +593,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
    "detalle_actualizado": "2026-10-07T12:05:10+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -690,8 +696,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00"
   },
   {
@@ -725,7 +731,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
    "detalle_actualizado": "2026-10-07T14:05:15+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -757,8 +763,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -795,8 +801,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
@@ -830,8 +836,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -861,7 +867,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
    "detalle_actualizado": "2026-10-07T14:05:15+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -893,8 +899,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -925,8 +931,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -957,8 +963,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -990,8 +996,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -1023,8 +1029,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
   {
@@ -1055,7 +1061,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
    "detalle_actualizado": "2026-10-07T09:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -1099,7 +1105,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
    "detalle_actualizado": "2026-10-07T13:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -1131,8 +1137,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -1868,7 +1874,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL LICEO POLIVALENTE EL LLANO DE MAIPÚ DIRECCIÓN LAS ACACIAS #535, MAIPÚ REQUIERE ADQ. BATERIAS DRON //SERÁ CAUSAL DE INADMISIBILIDAD NO ADJUNTAR COTIZACIÓN NI IMAGENES DE REFERENCIA DE LOS PRODUCTOS SOLICITADOS",
    "direccion_entrega": "LAS ACACIAS #535",
@@ -4320,8 +4326,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T12:05:10+00:00",
-   "detalle_actualizado": "2026-10-07T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
@@ -4352,8 +4358,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T09:05:12+00:00",
-   "detalle_actualizado": "2026-10-07T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -4385,7 +4391,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
    "detalle_actualizado": "2026-10-05T18:56:09+00:00",
    "primera_deteccion": "2026-10-05T18:56:09+00:00",
    "cambio_estado": "2026-10-07T14:05:15+00:00"
@@ -4413,7 +4419,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T14:26:39+00:00",
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
@@ -4423,6 +4429,73 @@
    ],
    "detalle_actualizado": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-07T12:05:10+00:00"
+  },
+  {
+   "id": "CA:1238167-284-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1238167-284-COT26",
+   "nombre": "ARRIENDO DRONE FESTIVAL DE VERANO 2027",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-06T13:27:00-03:00",
+   "fecha_cierre": "2026-10-07T13:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-07 13:35",
+   "organismo": "FUNDACION MUNICIPAL DE CULTURA DE PROVIDENCIA",
+   "unidad": "Administración y finanzas",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1200000.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1238167-284-COT26",
+   "descripcion": "Se solicita cotización de arriendo de drone para Festival de Verano 2027 según especificaciones descritas dentro de la ficha técnica adjunta. Oferentes deben adjuntar cotización anteriormente mencionada y/o cualquier otro tipo de documento que sea solicitado dentro de la misma ficha técnica. Fecha y lugar de entrega deben ser los especificados en la información técnica adjunta. En caso de fuerza mayor las actividades pueden ser reprogramadas.",
+   "direccion_entrega": "Av. Nueva Providencia 1995",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Cámaras aéreas — Se solicita cotización de arriendo de drone para Festival de Verano 2027 según especificaciones descritas dentro de la ficha técnica adjunta. Oferentes deben adjuntar cotización anteriormente mencionada y/o cualquier otro tipo de documento que sea solicitado dentro de la misma ficha técnica. Fecha y lugar de entrega deben ser los especificados en la información técnica adjunta. En caso de fuerza mayor las actividades pueden ser reprogramadas."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
+   "primera_deteccion": "2026-10-06T17:05:11+00:00",
+   "cambio_estado": "2026-10-07T20:32:51+00:00"
+  },
+  {
+   "id": "LIC:3760-4-LE26",
+   "fuente": "licitacion",
+   "codigo": "3760-4-LE26",
+   "nombre": "DRON CON ACCESORIOS - DIRECCION DE SEG. PUBLICA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_cierre": "2026-10-07T14:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3760-4-LE26",
+   "descripcion": "ADQUISICION DE DRON CON ACCESORIOS Y CURSOS SOLICITADO POR DIRECCION DE SEGURIDAD PUBLICA\r\nLA LICITACION CONSTA DE LA ADQUISICION DE DRON, CON ACCESORIOS Y CURSO DGAC CON CERTIFICACION + CURSO DE INICIO DE VUELO PARA 4 FUNCIONARIOS  DE LA DIRECCION DE SEGURIDAD PUBLICA SEGUN FORM 12",
+   "organismo": "I MUNICIPALIDAD DE EL MONTE",
+   "unidad": "IM De El Monte - Adquisiciones",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "El Monte",
+   "fecha_publicacion": "2026-09-29T12:19:31-03:00",
+   "fecha_adjudicacion": "2026-10-30T14:30:00-03:00",
+   "monto": 9000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICION DE DRONE CON ACCESORIOS Y CURSOS PARA LA DIRECCION DE SEGURIDAD PUBLICA"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-07T20:32:51+00:00",
+   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "cambio_estado": "2026-10-07T20:32:51+00:00"
   }
  ]
 }
