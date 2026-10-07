@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-07T05:05:14+00:00",
- "proxima_actualizacion": "2026-10-07T06:05:14+00:00",
+ "generado": "2026-10-07T06:05:10+00:00",
+ "proxima_actualizacion": "2026-10-07T07:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T05:05:14+00:00",
+   "ultima_ok": "2026-10-07T06:05:10+00:00",
    "errores_detalle": 1,
    "advertencias": [],
    "revisadas": 4540,
-   "detalles_consultados": 121,
-   "pendientes_por_revisar": 139
+   "detalles_consultados": 120,
+   "pendientes_por_revisar": 20
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-07T05:05:14+00:00",
+   "ultima_ok": "2026-10-07T06:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -198,7 +198,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -545,7 +545,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T05:05:14+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -649,7 +649,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T02:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -681,7 +681,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -719,7 +719,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -754,7 +754,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -785,7 +785,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T02:05:11+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -817,7 +817,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -849,7 +849,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -881,7 +881,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T05:05:14+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -914,7 +914,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -947,7 +947,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -979,7 +979,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -1011,7 +1011,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T03:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1748,7 +1748,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T05:05:14+00:00",
+   "ultima_actualizacion": "2026-10-07T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL LICEO POLIVALENTE EL LLANO DE MAIPÚ DIRECCIÓN LAS ACACIAS #535, MAIPÚ REQUIERE ADQ. BATERIAS DRON //SERÁ CAUSAL DE INADMISIBILIDAD NO ADJUNTAR COTIZACIÓN NI IMAGENES DE REFERENCIA DE LOS PRODUCTOS SOLICITADOS",
    "direccion_entrega": "LAS ACACIAS #535",
@@ -1756,7 +1756,7 @@
    "productos": [
     "Kits de batería — 10X BATERIA DRON A88PRO 3m"
    ],
-   "detalle_actualizado": "2026-10-07T05:05:14+00:00",
+   "detalle_actualizado": "2026-10-07T06:05:10+00:00",
    "cambio_estado": "2026-10-07T03:05:11+00:00"
   },
   {
