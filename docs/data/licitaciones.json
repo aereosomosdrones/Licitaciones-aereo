@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-08T12:05:10+00:00",
- "proxima_actualizacion": "2026-10-08T13:05:10+00:00",
+ "generado": "2026-10-08T13:05:50+00:00",
+ "proxima_actualizacion": "2026-10-08T14:05:50+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-08T12:05:10+00:00",
+   "ultima_ok": "2026-10-08T13:05:50+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4691,
-   "detalles_consultados": 16,
+   "revisadas": 4694,
+   "detalles_consultados": 28,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-08T12:05:10+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-08T13:05:50+00:00",
+   "errores_detalle": 2,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 2,
-   "detalles_consultados": 2,
+   "revisadas": 4,
+   "detalles_consultados": 3,
    "modo": "incremental"
   }
  },
@@ -378,7 +378,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -386,7 +386,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-08T12:05:10+00:00"
+   "detalle_actualizado": "2026-10-08T13:05:50+00:00"
   },
   {
    "id": "CA:1264-13-COT26",
@@ -524,7 +524,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -662,7 +662,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -694,7 +694,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -732,7 +732,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -767,7 +767,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -798,7 +798,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -830,7 +830,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -862,7 +862,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -894,7 +894,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -927,7 +927,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -960,7 +960,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -992,7 +992,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T10:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -1036,7 +1036,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -1068,7 +1068,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "detalle_actualizado": "2026-10-08T09:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -3975,11 +3975,11 @@
    "fuente": "compra_agil",
    "codigo": "870-83-COT26",
    "nombre": "Capacitación en el uso de Drone",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-09-30T17:53:00-03:00",
    "fecha_cierre": "2026-10-02T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-02T15:05:01.073Z",
+   "fecha_ultimo_cambio": "2026-10-08T09:40:00.823Z",
    "organismo": "COMISION NACIONAL DE RIEGO",
    "unidad": "Comisión Nacional de Riego",
    "region": "Región Metropolitana de Santiago",
@@ -3993,8 +3993,9 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T21:05:10+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "cambio_estado": "2026-10-08T13:05:50+00:00"
   },
   {
    "id": "CA:4291-1344-COT26",
@@ -4212,11 +4213,11 @@
    "fuente": "compra_agil",
    "codigo": "5416-692-COT26",
    "nombre": "DRON",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-02T12:15:00-03:00",
    "fecha_cierre": "2026-10-06T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-06T12:05:01.147Z",
+   "fecha_ultimo_cambio": "2026-10-08T10:00:00.823Z",
    "organismo": "UNIVERSIDAD DE LA SERENA",
    "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
    "region": "Región de Coquimbo ",
@@ -4230,9 +4231,9 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-07T21:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "cambio_estado": "2026-10-06T15:00:37+00:00"
+   "cambio_estado": "2026-10-08T13:05:50+00:00"
   },
   {
    "id": "LIC:1448380-4-LE26",
@@ -4491,7 +4492,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-08T13:05:50+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL PROVEEDOR AL ACEPTAR LA ORDEN DE COMPRA, ACEPTA TODO LO ESTIPULADO EN ANEXO DE COMPRA ÁGIL (revisar en sección adjuntos) ADQUISICIÓN SERÁ PAGADA CON RECURSOS LEY N° 21.796, LEY DE PRESUPUESTOS DEL AÑO 2026, IVA INCLUIDO. EL PAGO SE EFECTUARÁ MEDIANTE TRANSFERENCIA, EL PROVEEDOR DEBE INDICAR CTA. CTE Y BANCO. COPIA DE FACTURA ELECTRÓNICA DEBE SER REMITIDA AL CORREO: deptoab@dgtm.cl",
    "direccion_entrega": "ERRAZURIZ 537 VALPARAISO",
