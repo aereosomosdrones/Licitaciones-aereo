@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-08T14:05:17+00:00",
- "proxima_actualizacion": "2026-10-08T15:05:17+00:00",
+ "generado": "2026-10-08T15:05:13+00:00",
+ "proxima_actualizacion": "2026-10-08T16:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-08T14:05:17+00:00",
+   "ultima_ok": "2026-10-08T15:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4729,
-   "detalles_consultados": 44,
+   "revisadas": 4778,
+   "detalles_consultados": 81,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-08T14:05:17+00:00",
-   "errores_detalle": 3,
+   "ultima_ok": "2026-10-08T15:05:13+00:00",
+   "errores_detalle": 2,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 5,
-   "detalles_consultados": 4,
+   "revisadas": 12,
+   "detalles_consultados": 10,
    "modo": "incremental"
   }
  },
@@ -76,148 +76,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:1079659-433-COT26"
+ ],
  "items": [
-  {
-   "id": "CA:612-191-COT26",
-   "fuente": "compra_agil",
-   "codigo": "612-191-COT26",
-   "nombre": "Compra de estación base RTK, kit de trípode con poste topográfico y plataforma de aterrizaje plegable, compatibles e interoperables con el dron institucional del Servicio",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-09-29T16:42:00-03:00",
-   "fecha_cierre": "2026-10-08T11:13:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-06 16:00",
-   "organismo": "SERVICIO AGRICOLA Y GANADERO",
-   "unidad": "Servicio Agricola y Ganadero (SAG central)",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 2800000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=612-191-COT26",
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-07T21:05:10+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "descripcion": "En el marco del Proyecto BID 2026, el SAG requiere equipamiento para fortalecer la operación de drones institucionales: estación base RTK, kit de trípode con poste topográfico, bolso y plataforma de aterrizaje. Los equipos deberán ser compatibles e interoperables con el dron DJI Matrice 400 existente, permitiendo posicionamiento centimétrico mediante correcciones GNSS en tiempo real y apoyando la detección y seguimiento de plagas y enfermedades fitozoosanitarias.",
-   "direccion_entrega": "Avenida Alameda Libertador Bernardo O´Higgins 886, piso 10, Santiago.",
-   "plazo_entrega_dias": 4,
-   "productos": [
-    "Receptores GPS — Estación base multifuncional de posicionamiento GNSS-RTK (Real-Time Kinematic), que entregue correcciones diferenciales en tiempo real para posicionamiento de precisión centimétrica. Deberá ser plenamente compatible e interoperable con el dron DJI Matrice 400 actualmente utilizado por el Servicio; el oferente deberá acreditar dicha compatibilidad. Especificaciones mínimas en anexo 1",
-    "Trípodes — Kit de trípode con poste topográfico (con sistema de autobloqueo y bloqueo seguro) y bolso de transporte, compatibles con la estación base RTK ofertada. Especificaciones mínimas en anexo 1",
-    "Campo de aterrizaje — Plataforma de aterrizaje amplia y plegable, apta y compatible para el dron institucional del Servicio. Especificaciones mínimas en anexo 1"
-   ],
-   "detalle_actualizado": "2026-10-07T21:05:10+00:00",
-   "cambio_estado": "2026-10-06T19:05:13+00:00"
-  },
-  {
-   "id": "CA:1079659-430-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1079659-430-COT26",
-   "nombre": "ADQUISICION Y DESPACHO DE MATERIALES PARA BODEGA Y SECTOR ROPERILLOS SECCIÓN RPAS ARAUCANÍA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-02T12:41:00-03:00",
-   "fecha_cierre": "2026-10-08T11:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-05T12:15:00.610Z",
-   "organismo": "SECCIÓN COMPRAS ZONA CARAB ARAUCANÍA CONT ORD PUBL",
-   "unidad": "SEC COM ZONA CARA ARAUCANÍA CONT ORD PUB E INT SUR",
-   "region": "Región de la Araucanía ",
-   "monto": 491790.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1079659-430-COT26",
-   "terminos": [
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-07T21:05:10+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "descripcion": "MATERIALES OFERTADOS DEBEN CUMPLIR CON LAS ESPECIFICACIONES TÉCNICAS DE REFERENCIA. MARCAS SOLO REFERENCIALES.",
-   "direccion_entrega": "SANTA TERESA 1280, TEMUCO",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Pinturas al esmalte — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA."
-   ],
-   "detalle_actualizado": "2026-10-05T18:56:09+00:00"
-  },
-  {
-   "id": "CA:1609-99-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1609-99-COT26",
-   "nombre": "Adquisición de Equipos e implementos para fase 4 AEO – ACCESORIOS INDISPENSABLES",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-05T10:48:00-03:00",
-   "fecha_cierre": "2026-10-08T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-05 10:50",
-   "organismo": "GOBIERNO REGIONAL XII REGION MAGALLANES Y ANTARTICA CHILENA",
-   "unidad": "GOBIERNO REGIONAL",
-   "region": "Región de Magallanes y de la Antártica",
-   "monto": 2150000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1609-99-COT26",
-   "descripcion": "Se requiere comprar implementos para Fase 4 AEO para DRON perteneciente al Gobierno Regional de Magallanes y de la Antártica Chilena.\n\nSe adjuntan especificaciones",
-   "direccion_entrega": "Plaza Muñoz Gamero Nro. 1028",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — •\t2 paracaídas RPA Paracaídas FlyFire Mantis III Plus Drone Mavic Series\n•\t2 BOTIQUÍN REGLAMENTARIO FASE 4 Maleta Plástica que contiene todo lo exigido por la DGAC en el apéndice 5 de la DAN-137 \"Suministros Médicos\"\n•\t2 CONO DE SEGURIDAD CONO REFLECTANTE PLEGABLE DE 50 CM CON LUZ LED A PILAS(4 unidades de pilas)\n•\t1 Kit Mantenimiento PARA RPAS modelo DJI MAVIC 3 E/T para efectuar las mantenciones y revisiones pre-vuelo rutinarias y obligatorias para los Pilotos de RPA. Mas Info en FICHA TECNICA"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Marcas (DJI, Autel…)",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-07T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-07T21:05:10+00:00",
-   "primera_deteccion": "2026-10-05T20:10:04+00:00"
-  },
-  {
-   "id": "CA:1079659-429-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1079659-429-COT26",
-   "nombre": "SERVICIO DE REPARACIÓN Y MANTENCIÓN DE AERONAVES (DRONES) RPAS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-02T12:05:00-03:00",
-   "fecha_cierre": "2026-10-08T12:01:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-05T12:10:02.667Z",
-   "organismo": "SECCIÓN COMPRAS ZONA CARAB ARAUCANÍA CONT ORD PUBL",
-   "unidad": "SEC COM ZONA CARA ARAUCANÍA CONT ORD PUB E INT SUR",
-   "region": "Región de la Araucanía ",
-   "monto": 1729999.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1079659-429-COT26",
-   "terminos": [
-    "Dron",
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-07T21:05:10+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
-   "direccion_entrega": "JUAN SALLATO 2701, BARRIO INDUSTRIAL, HUEQUEN, ANGOL",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.\n\n"
-   ],
-   "detalle_actualizado": "2026-10-05T18:56:09+00:00"
-  },
   {
    "id": "CA:1106-40-COT26",
    "fuente": "compra_agil",
@@ -343,7 +205,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -351,7 +213,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-08T14:05:17+00:00"
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00"
   },
   {
    "id": "CA:1264-13-COT26",
@@ -456,6 +318,39 @@
    "primera_deteccion": "2026-10-06T15:00:37+00:00"
   },
   {
+   "id": "CA:1079659-433-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1079659-433-COT26",
+   "nombre": "ADQUISICION Y DESPACHO DE MATERIALES PARA BODEGA Y SECTOR ROPERILLOS SECCIÓN RPAS ARAUCANÍA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-08T11:49:00-03:00",
+   "fecha_cierre": "2026-10-09T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-08 11:50",
+   "organismo": "SECCIÓN COMPRAS ZONA CARAB ARAUCANÍA CONT ORD PUBL",
+   "unidad": "SEC COM ZONA CARA ARAUCANÍA CONT ORD PUB E INT SUR",
+   "region": "Región de la Araucanía ",
+   "monto": 491790.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1079659-433-COT26",
+   "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
+   "direccion_entrega": "SANTA TERESA 1280, TEMUCO, ARAUCANÍA",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Pinturas al esmalte — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA."
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
+   "primera_deteccion": "2026-10-08T15:05:13+00:00"
+  },
+  {
    "id": "LIC:5067-142-L126",
    "fuente": "licitacion",
    "codigo": "5067-142-L126",
@@ -489,8 +384,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
   {
@@ -627,8 +522,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
@@ -659,8 +554,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -697,8 +592,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
@@ -732,8 +627,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -763,8 +658,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
   {
@@ -795,8 +690,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -827,8 +722,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -859,8 +754,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -892,8 +787,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -925,8 +820,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
   {
@@ -957,7 +852,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
    "detalle_actualizado": "2026-10-08T10:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -1001,8 +896,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
   {
@@ -1033,8 +928,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -3944,7 +3839,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-09-30T17:53:00-03:00",
    "fecha_cierre": "2026-10-02T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-08T09:40:00.823Z",
+   "fecha_ultimo_cambio": "2026-10-08 09:40",
    "organismo": "COMISION NACIONAL DE RIEGO",
    "unidad": "Comisión Nacional de Riego",
    "region": "Región Metropolitana de Santiago",
@@ -3958,9 +3853,16 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "cambio_estado": "2026-10-08T13:05:50+00:00"
+   "cambio_estado": "2026-10-08T13:05:50+00:00",
+   "descripcion": "Se solicita Capacitación en el uso de Drone, se adjuntan términos de referencia, revisar obligatoriamente.",
+   "direccion_entrega": "Alameda 1449, 4to piso Santiago",
+   "plazo_entrega_dias": 30,
+   "productos": [
+    "Capacitación a empleados — Se solicita Capacitación en el uso de Drone, se adjuntan términos de referencia, revisar obligatoriamente"
+   ],
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00"
   },
   {
    "id": "CA:4291-1344-COT26",
@@ -4196,7 +4098,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00"
   },
@@ -4230,8 +4132,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T09:05:13+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
@@ -4262,8 +4164,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T09:05:13+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -4396,8 +4298,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T09:05:13+00:00",
-   "detalle_actualizado": "2026-10-08T09:05:13+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T20:32:51+00:00"
   },
@@ -4457,7 +4359,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL PROVEEDOR AL ACEPTAR LA ORDEN DE COMPRA, ACEPTA TODO LO ESTIPULADO EN ANEXO DE COMPRA ÁGIL (revisar en sección adjuntos) ADQUISICIÓN SERÁ PAGADA CON RECURSOS LEY N° 21.796, LEY DE PRESUPUESTOS DEL AÑO 2026, IVA INCLUIDO. EL PAGO SE EFECTUARÁ MEDIANTE TRANSFERENCIA, EL PROVEEDOR DEBE INDICAR CTA. CTE Y BANCO. COPIA DE FACTURA ELECTRÓNICA DEBE SER REMITIDA AL CORREO: deptoab@dgtm.cl",
    "direccion_entrega": "ERRAZURIZ 537 VALPARAISO",
@@ -4492,7 +4394,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T14:05:17+00:00",
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T14:05:17+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -4502,6 +4404,149 @@
     "Aviones objetivo o de reconocimiento — REVISAR REFERENCIAS TECNICAS CON EL DETALLE"
    ],
    "detalle_actualizado": "2026-10-07T20:32:51+00:00"
+  },
+  {
+   "id": "CA:612-191-COT26",
+   "fuente": "compra_agil",
+   "codigo": "612-191-COT26",
+   "nombre": "Compra de estación base RTK, kit de trípode con poste topográfico y plataforma de aterrizaje plegable, compatibles e interoperables con el dron institucional del Servicio",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-09-29T16:42:00-03:00",
+   "fecha_cierre": "2026-10-08T11:13:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-08T11:20:01.097Z",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "Servicio Agricola y Ganadero (SAG central)",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 2800000.0,
+   "moneda": "CLP",
+   "ofertas": 8,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=612-191-COT26",
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "En el marco del Proyecto BID 2026, el SAG requiere equipamiento para fortalecer la operación de drones institucionales: estación base RTK, kit de trípode con poste topográfico, bolso y plataforma de aterrizaje. Los equipos deberán ser compatibles e interoperables con el dron DJI Matrice 400 existente, permitiendo posicionamiento centimétrico mediante correcciones GNSS en tiempo real y apoyando la detección y seguimiento de plagas y enfermedades fitozoosanitarias.",
+   "direccion_entrega": "Avenida Alameda Libertador Bernardo O´Higgins 886, piso 10, Santiago.",
+   "plazo_entrega_dias": 4,
+   "productos": [
+    "Receptores GPS — Estación base multifuncional de posicionamiento GNSS-RTK (Real-Time Kinematic), que entregue correcciones diferenciales en tiempo real para posicionamiento de precisión centimétrica. Deberá ser plenamente compatible e interoperable con el dron DJI Matrice 400 actualmente utilizado por el Servicio; el oferente deberá acreditar dicha compatibilidad. Especificaciones mínimas en anexo 1",
+    "Trípodes — Kit de trípode con poste topográfico (con sistema de autobloqueo y bloqueo seguro) y bolso de transporte, compatibles con la estación base RTK ofertada. Especificaciones mínimas en anexo 1",
+    "Campo de aterrizaje — Plataforma de aterrizaje amplia y plegable, apta y compatible para el dron institucional del Servicio. Especificaciones mínimas en anexo 1"
+   ],
+   "detalle_actualizado": "2026-10-07T21:05:10+00:00",
+   "cambio_estado": "2026-10-08T15:05:13+00:00"
+  },
+  {
+   "id": "CA:1079659-430-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1079659-430-COT26",
+   "nombre": "ADQUISICION Y DESPACHO DE MATERIALES PARA BODEGA Y SECTOR ROPERILLOS SECCIÓN RPAS ARAUCANÍA",
+   "estado": "desierta",
+   "estado_glosa": "Desierta",
+   "fecha_publicacion": "2026-10-02T12:41:00-03:00",
+   "fecha_cierre": "2026-10-08T11:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-08 11:50",
+   "organismo": "SECCIÓN COMPRAS ZONA CARAB ARAUCANÍA CONT ORD PUBL",
+   "unidad": "SEC COM ZONA CARA ARAUCANÍA CONT ORD PUB E INT SUR",
+   "region": "Región de la Araucanía ",
+   "monto": 491790.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1079659-430-COT26",
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "MATERIALES OFERTADOS DEBEN CUMPLIR CON LAS ESPECIFICACIONES TÉCNICAS DE REFERENCIA. MARCAS SOLO REFERENCIALES.",
+   "direccion_entrega": "SANTA TERESA 1280, TEMUCO",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Pinturas al esmalte — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA."
+   ],
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
+   "cambio_estado": "2026-10-08T15:05:13+00:00"
+  },
+  {
+   "id": "CA:1609-99-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1609-99-COT26",
+   "nombre": "Adquisición de Equipos e implementos para fase 4 AEO – ACCESORIOS INDISPENSABLES",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-05T10:48:00-03:00",
+   "fecha_cierre": "2026-10-08T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-08 12:05",
+   "organismo": "GOBIERNO REGIONAL XII REGION MAGALLANES Y ANTARTICA CHILENA",
+   "unidad": "GOBIERNO REGIONAL",
+   "region": "Región de Magallanes y de la Antártica",
+   "monto": 2150000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1609-99-COT26",
+   "descripcion": "Se requiere comprar implementos para Fase 4 AEO para DRON perteneciente al Gobierno Regional de Magallanes y de la Antártica Chilena.\n\nSe adjuntan especificaciones",
+   "direccion_entrega": "Plaza Muñoz Gamero Nro. 1028",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — •\t2 paracaídas RPA Paracaídas FlyFire Mantis III Plus Drone Mavic Series\n•\t2 BOTIQUÍN REGLAMENTARIO FASE 4 Maleta Plástica que contiene todo lo exigido por la DGAC en el apéndice 5 de la DAN-137 \"Suministros Médicos\"\n•\t2 CONO DE SEGURIDAD CONO REFLECTANTE PLEGABLE DE 50 CM CON LUZ LED A PILAS(4 unidades de pilas)\n•\t1 Kit Mantenimiento PARA RPAS modelo DJI MAVIC 3 E/T para efectuar las mantenciones y revisiones pre-vuelo rutinarias y obligatorias para los Pilotos de RPA. Mas Info en FICHA TECNICA"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
+   "primera_deteccion": "2026-10-05T20:10:04+00:00",
+   "cambio_estado": "2026-10-08T15:05:13+00:00"
+  },
+  {
+   "id": "CA:1079659-429-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1079659-429-COT26",
+   "nombre": "SERVICIO DE REPARACIÓN Y MANTENCIÓN DE AERONAVES (DRONES) RPAS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-02T12:05:00-03:00",
+   "fecha_cierre": "2026-10-08T12:01:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-08 12:05",
+   "organismo": "SECCIÓN COMPRAS ZONA CARAB ARAUCANÍA CONT ORD PUBL",
+   "unidad": "SEC COM ZONA CARA ARAUCANÍA CONT ORD PUB E INT SUR",
+   "region": "Región de la Araucanía ",
+   "monto": 1729999.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1079659-429-COT26",
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-08T15:05:13+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
+   "direccion_entrega": "JUAN SALLATO 2701, BARRIO INDUSTRIAL, HUEQUEN, ANGOL",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.\n\n"
+   ],
+   "detalle_actualizado": "2026-10-08T15:05:13+00:00",
+   "cambio_estado": "2026-10-08T15:05:13+00:00"
   }
  ]
 }
