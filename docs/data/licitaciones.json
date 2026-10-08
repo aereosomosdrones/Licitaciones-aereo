@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-08T19:05:11+00:00",
- "proxima_actualizacion": "2026-10-08T20:05:11+00:00",
+ "generado": "2026-10-08T20:05:14+00:00",
+ "proxima_actualizacion": "2026-10-08T21:05:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-08T19:05:11+00:00",
+   "ultima_ok": "2026-10-08T20:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4785,
-   "detalles_consultados": 68,
+   "revisadas": 4841,
+   "detalles_consultados": 85,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-08T19:05:11+00:00",
+   "ultima_ok": "2026-10-08T20:05:14+00:00",
    "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 15,
-   "detalles_consultados": 9,
+   "revisadas": 17,
+   "detalles_consultados": 11,
    "modo": "incremental"
   }
  },
@@ -76,78 +76,8 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:2735-1259-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:650-92-COT26",
-   "fuente": "compra_agil",
-   "codigo": "650-92-COT26",
-   "nombre": "Baterías Dron",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-07T16:24:00-03:00",
-   "fecha_cierre": "2026-10-08T16:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-07 16:25",
-   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
-   "unidad": "SERVIU II Región",
-   "region": "Región de Antofagasta ",
-   "monto": 700000.0,
-   "moneda": "CLP",
-   "ofertas": 2,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=650-92-COT26",
-   "descripcion": "Se requiere cotización para la adquisición de kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro, según las especificaciones adjuntas, el valor debe considerar flete e IVA, en el caso de empate en el valor ofertado se seleccionara al proveedor que cuente con el \"sello Mujer\" en su ficha de proveedor.",
-   "direccion_entrega": "Washington 2551",
-   "plazo_entrega_dias": 6,
-   "productos": [
-    "Baterías recargables — kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-07T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-07T21:05:10+00:00",
-   "primera_deteccion": "2026-10-07T20:32:51+00:00"
-  },
-  {
-   "id": "CA:6-80-COT26",
-   "fuente": "compra_agil",
-   "codigo": "6-80-COT26",
-   "nombre": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-07T16:02:00-03:00",
-   "fecha_cierre": "2026-10-08T16:50:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-07T16:05:01.053Z",
-   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION I REGION",
-   "unidad": "SERVIU I Región",
-   "region": "Región de Tarapacá  ",
-   "monto": 385000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=6-80-COT26",
-   "descripcion": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante para drones, 55 cm, doble cara, impermeable, plegable, con clavijas de tierra (bicolor) EL VALOR TOTAL DEBE SER CON FLETE INCLUIDO.",
-   "direccion_entrega": "CALLE  PATRICIO LYNCH  N° 50 IQUIQUE ",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Paracaídas — SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante.\n\n"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-07T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-07T20:32:51+00:00",
-   "primera_deteccion": "2026-10-07T20:32:51+00:00"
-  },
   {
    "id": "CA:1264-13-COT26",
    "fuente": "compra_agil",
@@ -279,8 +209,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-08T15:05:13+00:00"
   },
   {
@@ -317,7 +247,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -448,7 +378,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -456,7 +386,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-08T19:05:11+00:00"
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00"
   },
   {
    "id": "LIC:4291-52-L126",
@@ -489,7 +419,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -521,7 +451,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -559,7 +489,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -594,7 +524,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -613,7 +543,7 @@
    "region": "Región Metropolitana de Santiago",
    "monto": 4274990.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=2735-1259-COT26",
    "descripcion": "LA DIRECCIÓN DE ASESORIA URBANA Y ESPACIO PÚBLICO REQUIERE ADQUISICIÓN DE UN DRON DESTINADO AL USO DE LA DAEP PARA EL MONITOREO DEL ESPACIO PÚBLICO COMUNAL. OFERTAS DEBEN CUMPLIR CON ESPECIFICACIONES Y CONDICIONES EN ARCHIVO ADJUNTO.",
    "direccion_entrega": "Av. El Rodeo 12.777, Lo Barnechea",
@@ -630,8 +560,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-08T19:05:11+00:00"
   },
   {
@@ -661,7 +591,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -693,7 +623,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -725,7 +655,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -757,7 +687,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -790,7 +720,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -823,7 +753,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -855,7 +785,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T16:05:15+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -899,7 +829,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -938,7 +868,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:30:18+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -970,7 +900,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -3895,7 +3825,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00",
    "descripcion": "Se solicita Capacitación en el uso de Drone, se adjuntan términos de referencia, revisar obligatoriamente.",
@@ -3904,7 +3834,7 @@
    "productos": [
     "Capacitación a empleados — Se solicita Capacitación en el uso de Drone, se adjuntan términos de referencia, revisar obligatoriamente"
    ],
-   "detalle_actualizado": "2026-10-08T19:05:11+00:00"
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00"
   },
   {
    "id": "CA:4291-1344-COT26",
@@ -3937,7 +3867,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "detalle_actualizado": "2026-10-06T21:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-08T16:05:15+00:00"
@@ -4141,7 +4071,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00"
   },
@@ -4402,7 +4332,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL PROVEEDOR AL ACEPTAR LA ORDEN DE COMPRA, ACEPTA TODO LO ESTIPULADO EN ANEXO DE COMPRA ÁGIL (revisar en sección adjuntos) ADQUISICIÓN SERÁ PAGADA CON RECURSOS LEY N° 21.796, LEY DE PRESUPUESTOS DEL AÑO 2026, IVA INCLUIDO. EL PAGO SE EFECTUARÁ MEDIANTE TRANSFERENCIA, EL PROVEEDOR DEBE INDICAR CTA. CTE Y BANCO. COPIA DE FACTURA ELECTRÓNICA DEBE SER REMITIDA AL CORREO: deptoab@dgtm.cl",
    "direccion_entrega": "ERRAZURIZ 537 VALPARAISO",
@@ -4437,7 +4367,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T14:05:17+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -4472,7 +4402,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "En el marco del Proyecto BID 2026, el SAG requiere equipamiento para fortalecer la operación de drones institucionales: estación base RTK, kit de trípode con poste topográfico, bolso y plataforma de aterrizaje. Los equipos deberán ser compatibles e interoperables con el dron DJI Matrice 400 existente, permitiendo posicionamiento centimétrico mediante correcciones GNSS en tiempo real y apoyando la detección y seguimiento de plagas y enfermedades fitozoosanitarias.",
    "direccion_entrega": "Avenida Alameda Libertador Bernardo O´Higgins 886, piso 10, Santiago.",
@@ -4508,7 +4438,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "MATERIALES OFERTADOS DEBEN CUMPLIR CON LAS ESPECIFICACIONES TÉCNICAS DE REFERENCIA. MARCAS SOLO REFERENCIALES.",
    "direccion_entrega": "SANTA TERESA 1280, TEMUCO",
@@ -4516,7 +4446,7 @@
    "productos": [
     "Pinturas al esmalte — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA."
    ],
-   "detalle_actualizado": "2026-10-08T19:05:11+00:00",
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
    "cambio_estado": "2026-10-08T15:05:13+00:00"
   },
   {
@@ -4551,8 +4481,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-08T15:05:13+00:00"
   },
@@ -4561,11 +4491,11 @@
    "fuente": "compra_agil",
    "codigo": "1079659-429-COT26",
    "nombre": "SERVICIO DE REPARACIÓN Y MANTENCIÓN DE AERONAVES (DRONES) RPAS",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-02T12:05:00-03:00",
    "fecha_cierre": "2026-10-08T12:01:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-08 12:05",
+   "fecha_ultimo_cambio": "2026-10-08 16:40",
    "organismo": "SECCIÓN COMPRAS ZONA CARAB ARAUCANÍA CONT ORD PUBL",
    "unidad": "SEC COM ZONA CARA ARAUCANÍA CONT ORD PUB E INT SUR",
    "region": "Región de la Araucanía ",
@@ -4580,7 +4510,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
    "direccion_entrega": "JUAN SALLATO 2701, BARRIO INDUSTRIAL, HUEQUEN, ANGOL",
@@ -4588,8 +4518,8 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.\n\n"
    ],
-   "detalle_actualizado": "2026-10-08T19:05:11+00:00",
-   "cambio_estado": "2026-10-08T15:05:13+00:00"
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
+   "cambio_estado": "2026-10-08T20:05:14+00:00"
   },
   {
    "id": "CA:1106-40-COT26",
@@ -4620,10 +4550,80 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-08T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-08T19:05:11+00:00"
+  },
+  {
+   "id": "CA:650-92-COT26",
+   "fuente": "compra_agil",
+   "codigo": "650-92-COT26",
+   "nombre": "Baterías Dron",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-07T16:24:00-03:00",
+   "fecha_cierre": "2026-10-08T16:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-08 16:35",
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
+   "unidad": "SERVIU II Región",
+   "region": "Región de Antofagasta ",
+   "monto": 700000.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=650-92-COT26",
+   "descripcion": "Se requiere cotización para la adquisición de kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro, según las especificaciones adjuntas, el valor debe considerar flete e IVA, en el caso de empate en el valor ofertado se seleccionara al proveedor que cuente con el \"sello Mujer\" en su ficha de proveedor.",
+   "direccion_entrega": "Washington 2551",
+   "plazo_entrega_dias": 6,
+   "productos": [
+    "Baterías recargables — kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
+   "primera_deteccion": "2026-10-07T20:32:51+00:00",
+   "cambio_estado": "2026-10-08T20:05:14+00:00"
+  },
+  {
+   "id": "CA:6-80-COT26",
+   "fuente": "compra_agil",
+   "codigo": "6-80-COT26",
+   "nombre": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-07T16:02:00-03:00",
+   "fecha_cierre": "2026-10-08T16:50:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-08 16:55",
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION I REGION",
+   "unidad": "SERVIU I Región",
+   "region": "Región de Tarapacá  ",
+   "monto": 385000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=6-80-COT26",
+   "descripcion": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante para drones, 55 cm, doble cara, impermeable, plegable, con clavijas de tierra (bicolor) EL VALOR TOTAL DEBE SER CON FLETE INCLUIDO.",
+   "direccion_entrega": "CALLE  PATRICIO LYNCH  N° 50 IQUIQUE ",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Paracaídas — SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante.\n\n"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-08T20:05:14+00:00",
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
+   "primera_deteccion": "2026-10-07T20:32:51+00:00",
+   "cambio_estado": "2026-10-08T20:05:14+00:00"
   }
  ]
 }
