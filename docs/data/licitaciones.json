@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-08T17:05:12+00:00",
- "proxima_actualizacion": "2026-10-08T18:05:12+00:00",
+ "generado": "2026-10-08T18:05:11+00:00",
+ "proxima_actualizacion": "2026-10-08T19:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-08T17:05:12+00:00",
+   "ultima_ok": "2026-10-08T18:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4856,
-   "detalles_consultados": 33,
+   "revisadas": 4794,
+   "detalles_consultados": 36,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-08T17:05:12+00:00",
+   "ultima_ok": "2026-10-08T18:05:11+00:00",
    "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -180,40 +180,6 @@
    "primera_deteccion": "2026-10-07T20:32:51+00:00"
   },
   {
-   "id": "CA:1388961-170-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1388961-170-COT26",
-   "nombre": "176.-ADQUISICIÓN DE PÓLIZA DE SEGURO PARA DRONES MARCA DJI",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-09-25T12:06:00-03:00",
-   "fecha_cierre": "2026-10-09T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-08 08:10",
-   "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
-   "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1025407.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1388961-170-COT26",
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
-   "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
-   "plazo_entrega_dias": 7,
-   "productos": [
-    "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
-   ],
-   "detalle_actualizado": "2026-10-08T17:05:12+00:00"
-  },
-  {
    "id": "CA:1264-13-COT26",
    "fuente": "compra_agil",
    "codigo": "1264-13-COT26",
@@ -344,8 +310,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
-   "detalle_actualizado": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-08T18:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:05:13+00:00"
   },
   {
@@ -382,7 +348,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -490,6 +456,40 @@
    "primera_deteccion": "2026-10-07T14:05:15+00:00"
   },
   {
+   "id": "CA:1388961-170-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1388961-170-COT26",
+   "nombre": "176.-ADQUISICIÓN DE PÓLIZA DE SEGURO PARA DRONES MARCA DJI",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-09-25T12:06:00-03:00",
+   "fecha_cierre": "2026-10-13T11:59:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-08 15:10",
+   "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
+   "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1025407.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1388961-170-COT26",
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
+   "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
+   "plazo_entrega_dias": 7,
+   "productos": [
+    "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
+   ],
+   "detalle_actualizado": "2026-10-08T18:05:11+00:00"
+  },
+  {
    "id": "LIC:4291-52-L126",
    "fuente": "licitacion",
    "codigo": "4291-52-L126",
@@ -520,7 +520,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -552,7 +552,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -590,7 +590,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -625,7 +625,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -656,7 +656,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -688,7 +688,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -720,7 +720,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -752,7 +752,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -785,7 +785,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -818,7 +818,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -850,7 +850,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T16:05:15+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -894,7 +894,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -933,7 +933,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:30:18+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -965,7 +965,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-08T15:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -3890,7 +3890,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00",
    "descripcion": "Se solicita Capacitación en el uso de Drone, se adjuntan términos de referencia, revisar obligatoriamente.",
@@ -3899,7 +3899,7 @@
    "productos": [
     "Capacitación a empleados — Se solicita Capacitación en el uso de Drone, se adjuntan términos de referencia, revisar obligatoriamente"
    ],
-   "detalle_actualizado": "2026-10-08T17:05:12+00:00"
+   "detalle_actualizado": "2026-10-08T18:05:11+00:00"
   },
   {
    "id": "CA:4291-1344-COT26",
@@ -3932,7 +3932,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "detalle_actualizado": "2026-10-06T21:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-08T16:05:15+00:00"
@@ -4136,7 +4136,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00"
   },
@@ -4397,7 +4397,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL PROVEEDOR AL ACEPTAR LA ORDEN DE COMPRA, ACEPTA TODO LO ESTIPULADO EN ANEXO DE COMPRA ÁGIL (revisar en sección adjuntos) ADQUISICIÓN SERÁ PAGADA CON RECURSOS LEY N° 21.796, LEY DE PRESUPUESTOS DEL AÑO 2026, IVA INCLUIDO. EL PAGO SE EFECTUARÁ MEDIANTE TRANSFERENCIA, EL PROVEEDOR DEBE INDICAR CTA. CTE Y BANCO. COPIA DE FACTURA ELECTRÓNICA DEBE SER REMITIDA AL CORREO: deptoab@dgtm.cl",
    "direccion_entrega": "ERRAZURIZ 537 VALPARAISO",
@@ -4432,7 +4432,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T14:05:17+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -4467,7 +4467,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "En el marco del Proyecto BID 2026, el SAG requiere equipamiento para fortalecer la operación de drones institucionales: estación base RTK, kit de trípode con poste topográfico, bolso y plataforma de aterrizaje. Los equipos deberán ser compatibles e interoperables con el dron DJI Matrice 400 existente, permitiendo posicionamiento centimétrico mediante correcciones GNSS en tiempo real y apoyando la detección y seguimiento de plagas y enfermedades fitozoosanitarias.",
    "direccion_entrega": "Avenida Alameda Libertador Bernardo O´Higgins 886, piso 10, Santiago.",
@@ -4503,7 +4503,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "MATERIALES OFERTADOS DEBEN CUMPLIR CON LAS ESPECIFICACIONES TÉCNICAS DE REFERENCIA. MARCAS SOLO REFERENCIALES.",
    "direccion_entrega": "SANTA TERESA 1280, TEMUCO",
@@ -4511,7 +4511,7 @@
    "productos": [
     "Pinturas al esmalte — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA."
    ],
-   "detalle_actualizado": "2026-10-08T17:05:12+00:00",
+   "detalle_actualizado": "2026-10-08T18:05:11+00:00",
    "cambio_estado": "2026-10-08T15:05:13+00:00"
   },
   {
@@ -4546,8 +4546,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
-   "detalle_actualizado": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-08T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-08T15:05:13+00:00"
   },
@@ -4575,7 +4575,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-08T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
    "direccion_entrega": "JUAN SALLATO 2701, BARRIO INDUSTRIAL, HUEQUEN, ANGOL",
@@ -4583,7 +4583,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.\n\n"
    ],
-   "detalle_actualizado": "2026-10-08T17:05:12+00:00",
+   "detalle_actualizado": "2026-10-08T18:05:11+00:00",
    "cambio_estado": "2026-10-08T15:05:13+00:00"
   }
  ]
