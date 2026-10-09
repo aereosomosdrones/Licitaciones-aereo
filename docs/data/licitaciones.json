@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-09T12:05:11+00:00",
- "proxima_actualizacion": "2026-10-09T13:05:11+00:00",
+ "generado": "2026-10-09T13:05:14+00:00",
+ "proxima_actualizacion": "2026-10-09T14:05:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T12:05:11+00:00",
+   "ultima_ok": "2026-10-09T13:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4893,
-   "detalles_consultados": 27,
+   "revisadas": 4909,
+   "detalles_consultados": 38,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T12:05:11+00:00",
+   "ultima_ok": "2026-10-09T13:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 1,
-   "detalles_consultados": 1,
+   "revisadas": 4,
+   "detalles_consultados": 4,
    "modo": "incremental"
   }
  },
@@ -76,75 +76,11 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:3265-56-LE26",
+  "CA:1729-394-COT26"
+ ],
  "items": [
-  {
-   "id": "CA:1264-13-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1264-13-COT26",
-   "nombre": "ADQUISICIÓN DE CARGADOR TRIPLE Y TRES BATERÍAS PARA DRON DJI MAVIC 3 ENTERPRISE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-05T16:32:00-03:00",
-   "fecha_cierre": "2026-10-09T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-05 16:35",
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-   "unidad": "Dirección de Obras Portuarias - Antofagasta",
-   "region": "Región de Antofagasta ",
-   "monto": 700000.0,
-   "moneda": "CLP",
-   "ofertas": 2,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1264-13-COT26",
-   "descripcion": "Adquirir accesorios originales para el dron institucional DJI Mavic 3 Enterprise, consistentes en un cargador múltiple y tres baterías, con el fin de asegurar la continuidad operacional de las labores de inspección, levantamiento de información y apoyo técnico desarrollado por la Dirección Regional de Obras Portuarias de Antofagasta. \nREQUISITO TECNICO CHILECOMPRA E102RT9",
-   "direccion_entrega": "21 de mayo 470, antofagasta",
-   "plazo_entrega_dias": 4,
-   "productos": [
-    "Cargadores de baterías — CARGADOR TRIPLE Y TRES BATERÍAS ORIGINALES PARA DRON DJI MAVIC 3 ENTERPRISE "
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-08T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-08T21:05:10+00:00",
-   "primera_deteccion": "2026-10-05T20:10:04+00:00"
-  },
-  {
-   "id": "CA:2427-1125-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2427-1125-COT26",
-   "nombre": "Adquisición de repuestos para dron, DSC.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-07T10:59:00-03:00",
-   "fecha_cierre": "2026-10-09T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-07 11:00",
-   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
-   "unidad": "ABASTECIMIENTO",
-   "region": "Región de Valparaíso ",
-   "monto": 350000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1125-COT26",
-   "descripcion": "Pedido N°19 DSC.\nAdquisición de repuestos para dron. Monto referencial $350.000.- según detalle y TDR adjunto. Se deberá indicar expresamente el plazo de entrega. En caso de no señalarlo, se entenderá aceptado el establecido en el TDR. *IMPORTANTE* POR FAVOR ADJUNTAR COTIZACIÓN FORMAL Y PATENTE MUNICIPAL VIGENTE (EN EL CASO DE NO ADJUNTAR, SE SOLICITARA MEDIANTE CORREO ADJUNTAR LO SOLICITADO CON UN PLAZO MAXIMO DE 24 HRS)",
-   "direccion_entrega": "Victoria 2579",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Accesorios eléctricos — Repuesto para dron: BC. EN. SSOOO662.01 - DOWNWARD GIMBAL VIBRATION DAMPING MODULE, según TTR adjunto."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-08T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-08T21:05:10+00:00",
-   "primera_deteccion": "2026-10-07T14:05:15+00:00"
-  },
   {
    "id": "CA:2755-326-COT26",
    "fuente": "compra_agil",
@@ -247,7 +183,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -381,6 +317,40 @@
    "primera_deteccion": "2026-10-08T21:05:10+00:00"
   },
   {
+   "id": "CA:1729-394-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1729-394-COT26",
+   "nombre": "SERVICIO DE CURSO DE CAPACITACION OPERADOR DE DRON 4 FUNCIONARIOS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-09T09:57:00-03:00",
+   "fecha_cierre": "2026-10-12T13:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-09 10:00",
+   "organismo": "I MUNICIPALIDAD DE TIERRA AMARILLA",
+   "unidad": "Departamento de Abastecimiento",
+   "region": "Región de Atacama ",
+   "monto": 714000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1729-394-COT26",
+   "descripcion": "SEGUN MEMORANDUM N° 414 DE FECHA 05/10/2026, DE LA ADMINISTRADORA MUNICIPAL MUNICIPALIDAD DE TIERRA AMARILLA.",
+   "direccion_entrega": "MIGUEL LEMEUR N° 544",
+   "plazo_entrega_dias": 4,
+   "productos": [
+    "Capacitación a empleados — SE SOLICITA UN CURSO DE CAPACITACION PARA OPERADOR DE DRON PARA 4 FUNCIONARIOS, QUE SEA MODALIDAD DUAL 4 SESIONES TEORICAS ON LINE + SESIN PRESENCIAL + LECTURA PERSONAL EL PROVEEDOR DEBE TENER EL RUBRO EN SII, ADJUNTAR CAPACITACION, SE ADJUNTAN ESPECIFICACIONES TECNICAS."
+   ],
+   "terminos": [
+    "Dron",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
+   "detalle_actualizado": "2026-10-09T13:05:14+00:00",
+   "primera_deteccion": "2026-10-09T13:05:14+00:00"
+  },
+  {
    "id": "CA:1388961-170-COT26",
    "fuente": "compra_agil",
    "codigo": "1388961-170-COT26",
@@ -445,7 +415,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -477,7 +447,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -515,7 +485,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -550,7 +520,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -617,7 +587,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -649,7 +619,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -681,7 +651,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -713,7 +683,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -746,7 +716,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -779,7 +749,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -811,7 +781,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -855,7 +825,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -894,9 +864,50 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
+  },
+  {
+   "id": "LIC:3265-56-LE26",
+   "fuente": "licitacion",
+   "codigo": "3265-56-LE26",
+   "nombre": "Adquisición de Equipamiento Computacional",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-21T10:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3265-56-LE26",
+   "descripcion": "La Ilustre Municipalidad de Río Hurtado invita a los proveedores de Mercado Público a participar en la Presente Licitación Pública denominada “Adquisición de Equipamiento Computacional”, los cuales serán utilizados para mejorar la gestión interna y así entregar un mejor servicio a la Comunidad.",
+   "organismo": "I MUNICIPALIDAD DE RIO HURTADO",
+   "unidad": "Direccion de  Administracion y Finanzas",
+   "region": "Región de Coquimbo",
+   "comuna": "Río Hurtado",
+   "fecha_publicacion": "2026-10-09T09:45:27-03:00",
+   "fecha_adjudicacion": "2026-11-27T16:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Notebook, laptop o computador portátil excepto Tablet PC — Notebook 15”, Según especificaciones técnicas Adjuntas. ",
+    "Notebook, laptop o computador portátil excepto Tablet PC — All in one Pantalla Touch 23,8”, Según especificaciones técnicas Adjuntas.\t",
+    "Escáner — Scanner DS 530II, Según especificaciones técnicas Adjuntas.",
+    "Impresoras de chorro de tinta — Impresora SmartTank 750, Según especificaciones técnicas Adjuntas.\t",
+    "Aviones objetivo o de reconocimiento — DJI Air 3S Fly More Combo RC2, Según especificaciones técnicas Adjuntas.",
+    "Servidores — Servidor Dell PowerEdge R660xs Xeon Silver 4514Y 32GB DDR5 IDRAC9 Servidor 1U. Debe Incluir (2) Rieles Rackeables para Servidores, (2) Licencias Windows Server 2022, (2) Licencia SQL Server 2022. Según especificaciones técnicas Adjuntas.",
+    "Discos duros — Discos Duros SSD 1 TB Servidor Dell + Chasis Discos (Compatible con servidor). Según especificaciones técnicas Adjuntas.",
+    "Estaciones de base de fidelidad inalámbrica (WiFi) — Access Point Wifi 6 Linksys LAPAX3600CC.Según especificaciones técnicas Adjuntas.",
+    "Cajas de conmutadores — Switch Mikrotic CRS328-24-1000 POE.Según especificaciones técnicas Adjuntas.",
+    "Cajas de conmutadores — Switch Mikrotik CS610-8P-2S+IN. Según especificaciones técnicas Adjuntas.",
+    "Programas de desvío o conmutación — Router Mikrotik CRS112-8P. Según especificaciones técnicas Adjuntas."
+   ],
+   "terminos": [
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
+   "detalle_actualizado": "2026-10-09T13:05:14+00:00",
+   "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
    "id": "LIC:2405-145-LR26",
@@ -926,7 +937,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1888,7 +1899,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "BATERIAS Y CARGADOR DRON. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
    "direccion_entrega": "SANTA LAURA N°567 CONCON",
@@ -1897,7 +1908,7 @@
     "Baterías de litio — BATERIA AUTEL Serie EVO Max 4T. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
     "Baterías de litio — HUB DE CARGA PARA 3 BATERIAS. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO."
    ],
-   "detalle_actualizado": "2026-10-09T12:05:11+00:00",
+   "detalle_actualizado": "2026-10-09T13:05:14+00:00",
    "cambio_estado": "2026-10-09T04:05:14+00:00"
   },
   {
@@ -4675,6 +4686,75 @@
    "detalle_actualizado": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-08T20:05:14+00:00"
+  },
+  {
+   "id": "CA:1264-13-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1264-13-COT26",
+   "nombre": "ADQUISICIÓN DE CARGADOR TRIPLE Y TRES BATERÍAS PARA DRON DJI MAVIC 3 ENTERPRISE",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-05T16:32:00-03:00",
+   "fecha_cierre": "2026-10-09T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-09 10:05",
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+   "unidad": "Dirección de Obras Portuarias - Antofagasta",
+   "region": "Región de Antofagasta ",
+   "monto": 700000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1264-13-COT26",
+   "descripcion": "Adquirir accesorios originales para el dron institucional DJI Mavic 3 Enterprise, consistentes en un cargador múltiple y tres baterías, con el fin de asegurar la continuidad operacional de las labores de inspección, levantamiento de información y apoyo técnico desarrollado por la Dirección Regional de Obras Portuarias de Antofagasta. \nREQUISITO TECNICO CHILECOMPRA E102RT9",
+   "direccion_entrega": "21 de mayo 470, antofagasta",
+   "plazo_entrega_dias": 4,
+   "productos": [
+    "Cargadores de baterías — CARGADOR TRIPLE Y TRES BATERÍAS ORIGINALES PARA DRON DJI MAVIC 3 ENTERPRISE "
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
+   "detalle_actualizado": "2026-10-09T13:05:14+00:00",
+   "primera_deteccion": "2026-10-05T20:10:04+00:00",
+   "cambio_estado": "2026-10-09T13:05:14+00:00"
+  },
+  {
+   "id": "CA:2427-1125-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2427-1125-COT26",
+   "nombre": "Adquisición de repuestos para dron, DSC.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-07T10:59:00-03:00",
+   "fecha_cierre": "2026-10-09T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-09 10:05",
+   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
+   "unidad": "ABASTECIMIENTO",
+   "region": "Región de Valparaíso ",
+   "monto": 350000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1125-COT26",
+   "descripcion": "Pedido N°19 DSC.\nAdquisición de repuestos para dron. Monto referencial $350.000.- según detalle y TDR adjunto. Se deberá indicar expresamente el plazo de entrega. En caso de no señalarlo, se entenderá aceptado el establecido en el TDR. *IMPORTANTE* POR FAVOR ADJUNTAR COTIZACIÓN FORMAL Y PATENTE MUNICIPAL VIGENTE (EN EL CASO DE NO ADJUNTAR, SE SOLICITARA MEDIANTE CORREO ADJUNTAR LO SOLICITADO CON UN PLAZO MAXIMO DE 24 HRS)",
+   "direccion_entrega": "Victoria 2579",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Accesorios eléctricos — Repuesto para dron: BC. EN. SSOOO662.01 - DOWNWARD GIMBAL VIBRATION DAMPING MODULE, según TTR adjunto."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T13:05:14+00:00",
+   "detalle_actualizado": "2026-10-09T13:05:14+00:00",
+   "primera_deteccion": "2026-10-07T14:05:15+00:00",
+   "cambio_estado": "2026-10-09T13:05:14+00:00"
   }
  ]
 }
