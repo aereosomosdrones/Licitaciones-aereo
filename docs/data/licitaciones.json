@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-09T20:05:10+00:00",
- "proxima_actualizacion": "2026-10-09T21:05:10+00:00",
+ "generado": "2026-10-09T20:47:57+00:00",
+ "proxima_actualizacion": "2026-10-09T21:47:57+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T20:05:10+00:00",
+   "ultima_ok": "2026-10-09T20:47:57+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5027,
-   "detalles_consultados": 92,
+   "revisadas": 5050,
+   "detalles_consultados": 28,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T20:05:10+00:00",
-   "errores_detalle": 0,
+   "ultima_ok": "2026-10-09T20:47:57+00:00",
+   "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
    "revisadas": 16,
-   "detalles_consultados": 12,
+   "detalles_consultados": 10,
    "modo": "incremental"
   }
  },
@@ -76,9 +76,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:2273-846-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "items": [
   {
    "id": "CA:622847-12-COT26",
@@ -157,7 +155,7 @@
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-10-09T12:19:00-03:00",
    "fecha_cierre": "2026-10-12T08:15:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-09 12:20",
+   "fecha_ultimo_cambio": "2026-10-09T12:20:00.913Z",
    "organismo": "I MUNICIPALIDAD DE OSORNO",
    "unidad": "IMUNI_OSORNO DIRECCION DE ADM Y FINANZAS",
    "region": "Región de los Lagos ",
@@ -179,7 +177,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00"
   },
@@ -238,8 +236,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
+   "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-09T15:05:12+00:00"
   },
   {
@@ -272,8 +270,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
+   "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -306,8 +304,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
+   "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-09T17:05:11+00:00"
   },
   {
@@ -375,7 +373,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -407,7 +405,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -445,7 +443,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -480,7 +478,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -547,7 +545,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -579,7 +577,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -614,8 +612,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
+   "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-09T20:05:10+00:00"
   },
   {
@@ -646,7 +644,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -678,7 +676,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -711,7 +709,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -744,7 +742,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -777,7 +775,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -809,7 +807,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -853,7 +851,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -892,7 +890,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -933,7 +931,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -965,7 +963,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1927,7 +1925,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "BATERIAS Y CARGADOR DRON. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
    "direccion_entrega": "SANTA LAURA N°567 CONCON",
@@ -4287,7 +4285,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
@@ -4295,7 +4293,7 @@
    "productos": [
     "Seguros contra accidentes — CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado."
    ],
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "cambio_estado": "2026-10-09T17:05:11+00:00"
   },
   {
@@ -4571,8 +4569,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
+   "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
   },
@@ -4675,7 +4673,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-08T21:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
@@ -4745,8 +4743,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
+   "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -4779,8 +4777,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
+   "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -4815,7 +4813,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-09T15:05:12+00:00"
@@ -4849,8 +4847,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
+   "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-08T15:05:13+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
   },
@@ -4916,7 +4914,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
