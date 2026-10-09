@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-09T15:05:12+00:00",
- "proxima_actualizacion": "2026-10-09T16:05:12+00:00",
+ "generado": "2026-10-09T16:05:01+00:00",
+ "proxima_actualizacion": "2026-10-09T17:05:01+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T15:05:12+00:00",
+   "ultima_ok": "2026-10-09T16:05:01+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4966,
-   "detalles_consultados": 62,
+   "revisadas": 5006,
+   "detalles_consultados": 54,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T15:05:12+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-09T16:05:01+00:00",
+   "errores_detalle": 3,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 7,
-   "detalles_consultados": 7,
+   "revisadas": 11,
+   "detalles_consultados": 11,
    "modo": "incremental"
   }
  },
@@ -77,7 +77,7 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "CA:3838-215-COT26"
+  "CA:2297-1348-COT26"
  ],
  "items": [
   {
@@ -114,7 +114,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -222,6 +222,41 @@
    "primera_deteccion": "2026-10-07T14:05:15+00:00"
   },
   {
+   "id": "CA:2297-1348-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2297-1348-COT26",
+   "nombre": "ADQUISICION DE INSUMOS PARA REPARACIÓN DRON DPTO. SEGURIDAD PÚBLICA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-09T12:19:00-03:00",
+   "fecha_cierre": "2026-10-12T08:15:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-09 12:20",
+   "organismo": "I MUNICIPALIDAD DE OSORNO",
+   "unidad": "IMUNI_OSORNO DIRECCION DE ADM Y FINANZAS",
+   "region": "Región de los Lagos ",
+   "monto": 285000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2297-1348-COT26",
+   "descripcion": "ADQUISICION DE INSUMOS PARA REPARACIÓN DRON DPTO. SEGURIDAD PÚBLICA, SEGÚN PBYS N° 2582,ID N° 2096438",
+   "direccion_entrega": "CATALINA KEIM 880 BODEGA MUNICIPAL",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Aviones ultraligeros — HELICES PARA DRON MODELO MAVIC 3 ENTERPRISE SERIES LOW-NOISE",
+    "Aviones ultraligeros — PARACAÍDAS PARA DRON MODELO MAVIC 3 ENTERPRISE SERIE 20-NOISE / PARACAIDAS FLYFIRE MANTI IV (PARA MATRICE 4)"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
+   "detalle_actualizado": "2026-10-09T16:05:01+00:00",
+   "primera_deteccion": "2026-10-09T16:05:01+00:00"
+  },
+  {
    "id": "CA:1233616-92-COT26",
    "fuente": "compra_agil",
    "codigo": "1233616-92-COT26",
@@ -276,8 +311,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
-   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
+   "detalle_actualizado": "2026-10-09T16:05:01+00:00",
    "primera_deteccion": "2026-10-09T15:05:12+00:00"
   },
   {
@@ -310,8 +345,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
-   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
+   "detalle_actualizado": "2026-10-09T16:05:01+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -379,7 +414,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -411,7 +446,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -449,7 +484,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -484,7 +519,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -551,7 +586,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -583,7 +618,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -615,7 +650,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -647,7 +682,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -680,7 +715,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -713,7 +748,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -745,7 +780,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -789,7 +824,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -828,7 +863,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -869,7 +904,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T13:05:14+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -901,7 +936,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1863,7 +1898,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "BATERIAS Y CARGADOR DRON. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
    "direccion_entrega": "SANTA LAURA N°567 CONCON",
@@ -1872,7 +1907,7 @@
     "Baterías de litio — BATERIA AUTEL Serie EVO Max 4T. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
     "Baterías de litio — HUB DE CARGA PARA 3 BATERIAS. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO."
    ],
-   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-10-09T04:05:14+00:00"
   },
   {
@@ -4480,11 +4515,11 @@
    "fuente": "compra_agil",
    "codigo": "1609-99-COT26",
    "nombre": "Adquisición de Equipos e implementos para fase 4 AEO – ACCESORIOS INDISPENSABLES",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-05T10:48:00-03:00",
    "fecha_cierre": "2026-10-08T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-08 12:05",
+   "fecha_ultimo_cambio": "2026-10-09 12:35",
    "organismo": "GOBIERNO REGIONAL XII REGION MAGALLANES Y ANTARTICA CHILENA",
    "unidad": "GOBIERNO REGIONAL",
    "region": "Región de Magallanes y de la Antártica",
@@ -4507,10 +4542,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-08T21:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
+   "detalle_actualizado": "2026-10-09T16:05:01+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
-   "cambio_estado": "2026-10-08T15:05:13+00:00"
+   "cambio_estado": "2026-10-09T16:05:01+00:00"
   },
   {
    "id": "CA:1079659-429-COT26",
@@ -4586,11 +4621,11 @@
    "fuente": "compra_agil",
    "codigo": "650-92-COT26",
    "nombre": "Baterías Dron",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-07T16:24:00-03:00",
    "fecha_cierre": "2026-10-08T16:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-08 16:35",
+   "fecha_ultimo_cambio": "2026-10-09T13:00:00.897Z",
    "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
    "unidad": "SERVIU II Región",
    "region": "Región de Antofagasta ",
@@ -4611,10 +4646,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T21:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-08T21:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
-   "cambio_estado": "2026-10-08T20:05:14+00:00"
+   "cambio_estado": "2026-10-09T16:05:01+00:00"
   },
   {
    "id": "CA:6-80-COT26",
@@ -4681,8 +4716,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
-   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
+   "detalle_actualizado": "2026-10-09T16:05:01+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -4715,8 +4750,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
-   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
+   "detalle_actualizado": "2026-10-09T16:05:01+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -4729,7 +4764,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-06T11:36:00-03:00",
    "fecha_cierre": "2026-10-09T11:40:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-09 11:45",
+   "fecha_ultimo_cambio": "2026-10-09T11:45:00.627Z",
    "organismo": "I MUNICIPALIDAD DE SAN ANTONIO",
    "unidad": "IMunicipalidad de San Antonio",
    "region": "Región de Valparaíso ",
@@ -4751,7 +4786,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
    "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-09T15:05:12+00:00"
@@ -4761,17 +4796,17 @@
    "fuente": "compra_agil",
    "codigo": "1079659-433-COT26",
    "nombre": "ADQUISICION Y DESPACHO DE MATERIALES PARA BODEGA Y SECTOR ROPERILLOS SECCIÓN RPAS ARAUCANÍA",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-08T11:49:00-03:00",
    "fecha_cierre": "2026-10-09T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-08T11:50:01.517Z",
+   "fecha_ultimo_cambio": "2026-10-09 12:45",
    "organismo": "SECCIÓN COMPRAS ZONA CARAB ARAUCANÍA CONT ORD PUBL",
    "unidad": "SEC COM ZONA CARA ARAUCANÍA CONT ORD PUB E INT SUR",
    "region": "Región de la Araucanía ",
    "monto": 491790.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=1079659-433-COT26",
    "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
    "direccion_entrega": "SANTA TERESA 1280, TEMUCO, ARAUCANÍA",
@@ -4785,9 +4820,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
-   "primera_deteccion": "2026-10-08T15:05:13+00:00"
+   "ultima_actualizacion": "2026-10-09T16:05:01+00:00",
+   "detalle_actualizado": "2026-10-09T16:05:01+00:00",
+   "primera_deteccion": "2026-10-08T15:05:13+00:00",
+   "cambio_estado": "2026-10-09T16:05:01+00:00"
   }
  ]
 }
