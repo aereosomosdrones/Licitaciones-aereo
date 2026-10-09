@@ -1,27 +1,27 @@
 {
- "generado": "2026-10-09T19:05:13+00:00",
- "proxima_actualizacion": "2026-10-09T20:05:13+00:00",
+ "generado": "2026-10-09T20:05:10+00:00",
+ "proxima_actualizacion": "2026-10-09T21:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T19:05:13+00:00",
+   "ultima_ok": "2026-10-09T20:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4959,
-   "detalles_consultados": 82,
+   "revisadas": 5027,
+   "detalles_consultados": 92,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T19:05:13+00:00",
-   "errores_detalle": 3,
+   "ultima_ok": "2026-10-09T20:05:10+00:00",
+   "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 14,
+   "revisadas": 16,
    "detalles_consultados": 12,
    "modo": "incremental"
   }
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:2273-846-COT26"
+ ],
  "items": [
   {
    "id": "CA:622847-12-COT26",
@@ -177,8 +179,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00"
   },
   {
@@ -222,7 +224,7 @@
    "region": "Región del Libertador General Bernardo O´Higgins",
    "monto": 2000000.0,
    "moneda": "CLP",
-   "ofertas": 1,
+   "ofertas": 2,
    "url": "https://buscador.mercadopublico.cl/ficha?code=3838-215-COT26",
    "descripcion": "Conforme a los requerimientos solicitados en Términos de Referencia adjuntos. El oferente deberá presentar un Anexo de Propuesta Técnica detallando las características del servicio ofrecido conforme a lo solicitado en todo el Punto N°2, así como el plazo de entrega establecido en Punto N°3. La falta del anexo o la entrega de información incompleta hará que la oferta sea declarada inadmisible. la propuesta deberá ajustarse al presupuesto y al plazo de entrega establecido.",
    "direccion_entrega": " Según Punto N°3 de los Términos de Referencia",
@@ -236,8 +238,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-09T15:05:12+00:00"
   },
   {
@@ -270,8 +272,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -304,8 +306,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-09T17:05:11+00:00"
   },
   {
@@ -373,7 +375,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -405,7 +407,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -443,7 +445,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -478,7 +480,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -545,7 +547,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -577,9 +579,44 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
+  },
+  {
+   "id": "CA:2273-846-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2273-846-COT26",
+   "nombre": "MANTENCION Y REPARACION DE DRON. EXP 14466 MEMORANDUM ear.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-09T16:51:00-03:00",
+   "fecha_cierre": "2026-10-15T11:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-09 16:55",
+   "organismo": "I MUNICIPALIDAD DE LA PINTANA",
+   "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 5000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2273-846-COT26",
+   "descripcion": "LOS PROVEEDORES PARTICIPANTES DEBERÁN SUBIR SUS OFERTAS EN EL FORMULARIO DE COTIZACIÓN ESTABLECIDO EN LA PLATAFORMA DE MERCADO PÚBLICO. EN CASO DE ADJUNTAR UN ANEXO CON EL DETALLE DE LA COTIZACIÓN, ÉSTE DEBE COINCIDIR CON LA COTIZACIÓN ELECTRÓNICA DE MERCADO PÚBLICO. DE EXISTIR INCONSISTENCIA ENTRE EL FORMATO ELECTRÓNICO Y EL FORMATO ADJUNTO, LA COTIZACIÓN NO SERÁ CONSIDERADA EN LA EVALUACIÓN DE LAS OFERTAS. ver más en anexo adjunto",
+   "direccion_entrega": "LOS TILOS N° 037 REFERENCIA PARADERO 47 SANTA ROSA",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Cámaras de seguridad — Drones DJI - MAVIC 3 TERMAl, ver detalle de lo requerido en anexo adjunto.",
+    "Cámaras para microfilmar — Dron MATRICE 350, Mantención preventiva dron con 1 año de uso, MATRICE 350. 4 Baterías de repuestos nuevas para MATRICE 350 (Batería Inteligente DJI TB 65).\n"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
+   "primera_deteccion": "2026-10-09T20:05:10+00:00"
   },
   {
    "id": "LIC:2952-19-LE26",
@@ -609,7 +646,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -641,7 +678,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -674,7 +711,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -707,7 +744,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -740,7 +777,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -772,7 +809,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -816,7 +853,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -855,7 +892,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -896,8 +933,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-09T13:05:14+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -928,7 +965,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1890,7 +1927,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "BATERIAS Y CARGADOR DRON. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
    "direccion_entrega": "SANTA LAURA N°567 CONCON",
@@ -4250,7 +4287,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
@@ -4258,7 +4295,7 @@
    "productos": [
     "Seguros contra accidentes — CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado."
    ],
-   "detalle_actualizado": "2026-10-09T19:05:13+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "cambio_estado": "2026-10-09T17:05:11+00:00"
   },
   {
@@ -4534,8 +4571,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
   },
@@ -4638,7 +4675,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-08T21:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
@@ -4708,8 +4745,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -4742,8 +4779,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -4778,7 +4815,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-09T15:05:12+00:00"
@@ -4812,8 +4849,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-08T15:05:13+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
   },
@@ -4879,7 +4916,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-09T20:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
