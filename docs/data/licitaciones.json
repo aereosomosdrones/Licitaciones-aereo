@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-09T14:05:11+00:00",
- "proxima_actualizacion": "2026-10-09T15:05:11+00:00",
+ "generado": "2026-10-09T15:05:12+00:00",
+ "proxima_actualizacion": "2026-10-09T16:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T14:05:11+00:00",
+   "ultima_ok": "2026-10-09T15:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4943,
-   "detalles_consultados": 49,
+   "revisadas": 4966,
+   "detalles_consultados": 62,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T14:05:11+00:00",
-   "errores_detalle": 0,
+   "ultima_ok": "2026-10-09T15:05:12+00:00",
+   "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 4,
-   "detalles_consultados": 4,
+   "revisadas": 7,
+   "detalles_consultados": 7,
    "modo": "incremental"
   }
  },
@@ -76,76 +76,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:3838-215-COT26"
+ ],
  "items": [
-  {
-   "id": "CA:2755-326-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2755-326-COT26",
-   "nombre": "BATERIAS Y HELICES PARA DRON PARA EL PROYECTO SOLUCIONES ESTRATEGICOS FOLIO 1261",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-06T11:36:00-03:00",
-   "fecha_cierre": "2026-10-09T11:40:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-06 11:40",
-   "organismo": "I MUNICIPALIDAD DE SAN ANTONIO",
-   "unidad": "IMunicipalidad de San Antonio",
-   "region": "Región de Valparaíso ",
-   "monto": 1535604.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2755-326-COT26",
-   "descripcion": "ADQUISISION BATERIAS Y HELICES PARA DRON PARA EL PROYECTO SOLUCIONES ESTRATEGICAS.\nSE ADJUNTA FICHA TECNICA. NO SE ACEPTARAN OFERTAS SIN COTIZACION ADJUNTA",
-   "direccion_entrega": "AVENIDA RAMON BARROS LUCO N° 1881",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — HÉLICES MAATRICE 4T SERIES, SEGUN FICHA TECNICA ADJUNTA",
-    "Aviones objetivo o de reconocimiento — BATERIA MATRICE 4T SERIES, SEGUN FICHA TECNICA ADJUNTA"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-08T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-08T21:05:10+00:00",
-   "primera_deteccion": "2026-10-06T15:00:37+00:00"
-  },
-  {
-   "id": "CA:1079659-433-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1079659-433-COT26",
-   "nombre": "ADQUISICION Y DESPACHO DE MATERIALES PARA BODEGA Y SECTOR ROPERILLOS SECCIÓN RPAS ARAUCANÍA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-08T11:49:00-03:00",
-   "fecha_cierre": "2026-10-09T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-08T11:50:01.517Z",
-   "organismo": "SECCIÓN COMPRAS ZONA CARAB ARAUCANÍA CONT ORD PUBL",
-   "unidad": "SEC COM ZONA CARA ARAUCANÍA CONT ORD PUB E INT SUR",
-   "region": "Región de la Araucanía ",
-   "monto": 491790.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1079659-433-COT26",
-   "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
-   "direccion_entrega": "SANTA TERESA 1280, TEMUCO, ARAUCANÍA",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Pinturas al esmalte — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA."
-   ],
-   "terminos": [
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-08T21:05:10+00:00",
-   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
-   "primera_deteccion": "2026-10-08T15:05:13+00:00"
-  },
   {
    "id": "LIC:5067-142-L126",
    "fuente": "licitacion",
@@ -180,7 +114,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -314,6 +248,39 @@
    "primera_deteccion": "2026-10-08T21:05:10+00:00"
   },
   {
+   "id": "CA:3838-215-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3838-215-COT26",
+   "nombre": "ADQUISICION DE DRONE MUNICIPALIDAD DE SANTA CRUZ",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-09T11:32:00-03:00",
+   "fecha_cierre": "2026-10-12T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-09 11:35",
+   "organismo": "I MUNICIPALIDAD DE SANTA CRUZ",
+   "unidad": "I MUNICIPALIDAD DE SANTA CRUZ",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "monto": 2000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3838-215-COT26",
+   "descripcion": "Conforme a los requerimientos solicitados en Términos de Referencia adjuntos. El oferente deberá presentar un Anexo de Propuesta Técnica detallando las características del servicio ofrecido conforme a lo solicitado en todo el Punto N°2, así como el plazo de entrega establecido en Punto N°3. La falta del anexo o la entrega de información incompleta hará que la oferta sea declarada inadmisible. la propuesta deberá ajustarse al presupuesto y al plazo de entrega establecido.",
+   "direccion_entrega": " Según Punto N°3 de los Términos de Referencia",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Cámaras aéreas — DRONE: Conforme a los requerimientos solicitados en Términos de Referencia adjuntos. El oferente deberá presentar un Anexo de Propuesta Técnica detallando las características del servicio ofrecido conforme a lo solicitado en todo el Punto N°2, así como el plazo de entrega establecido en Punto N°3. La falta del anexo o la entrega de información incompleta hará que la oferta sea declarada inadmisible. la propuesta deberá ajustarse al presupuesto y al plazo de entrega establecido."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
+   "primera_deteccion": "2026-10-09T15:05:12+00:00"
+  },
+  {
    "id": "CA:1729-394-COT26",
    "fuente": "compra_agil",
    "codigo": "1729-394-COT26",
@@ -343,8 +310,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -412,7 +379,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -444,7 +411,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -482,7 +449,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -517,7 +484,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -584,7 +551,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -616,7 +583,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -648,7 +615,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -680,7 +647,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -713,7 +680,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -746,7 +713,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -778,7 +745,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -822,7 +789,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -861,7 +828,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -902,7 +869,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T13:05:14+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -934,7 +901,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1896,7 +1863,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "BATERIAS Y CARGADOR DRON. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
    "direccion_entrega": "SANTA LAURA N°567 CONCON",
@@ -1905,7 +1872,7 @@
     "Baterías de litio — BATERIA AUTEL Serie EVO Max 4T. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
     "Baterías de litio — HUB DE CARGA PARA 3 BATERIAS. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO."
    ],
-   "detalle_actualizado": "2026-10-09T14:05:11+00:00",
+   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "cambio_estado": "2026-10-09T04:05:14+00:00"
   },
   {
@@ -4714,8 +4681,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -4748,10 +4715,79 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T14:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
+  },
+  {
+   "id": "CA:2755-326-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2755-326-COT26",
+   "nombre": "BATERIAS Y HELICES PARA DRON PARA EL PROYECTO SOLUCIONES ESTRATEGICOS FOLIO 1261",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-06T11:36:00-03:00",
+   "fecha_cierre": "2026-10-09T11:40:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-09 11:45",
+   "organismo": "I MUNICIPALIDAD DE SAN ANTONIO",
+   "unidad": "IMunicipalidad de San Antonio",
+   "region": "Región de Valparaíso ",
+   "monto": 1535604.0,
+   "moneda": "CLP",
+   "ofertas": 4,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2755-326-COT26",
+   "descripcion": "ADQUISISION BATERIAS Y HELICES PARA DRON PARA EL PROYECTO SOLUCIONES ESTRATEGICAS.\nSE ADJUNTA FICHA TECNICA. NO SE ACEPTARAN OFERTAS SIN COTIZACION ADJUNTA",
+   "direccion_entrega": "AVENIDA RAMON BARROS LUCO N° 1881",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — HÉLICES MAATRICE 4T SERIES, SEGUN FICHA TECNICA ADJUNTA",
+    "Aviones objetivo o de reconocimiento — BATERIA MATRICE 4T SERIES, SEGUN FICHA TECNICA ADJUNTA"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T15:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T15:05:12+00:00",
+   "primera_deteccion": "2026-10-06T15:00:37+00:00",
+   "cambio_estado": "2026-10-09T15:05:12+00:00"
+  },
+  {
+   "id": "CA:1079659-433-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1079659-433-COT26",
+   "nombre": "ADQUISICION Y DESPACHO DE MATERIALES PARA BODEGA Y SECTOR ROPERILLOS SECCIÓN RPAS ARAUCANÍA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-08T11:49:00-03:00",
+   "fecha_cierre": "2026-10-09T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-08T11:50:01.517Z",
+   "organismo": "SECCIÓN COMPRAS ZONA CARAB ARAUCANÍA CONT ORD PUBL",
+   "unidad": "SEC COM ZONA CARA ARAUCANÍA CONT ORD PUB E INT SUR",
+   "region": "Región de la Araucanía ",
+   "monto": 491790.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1079659-433-COT26",
+   "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
+   "direccion_entrega": "SANTA TERESA 1280, TEMUCO, ARAUCANÍA",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Pinturas al esmalte — LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA."
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-08T21:05:10+00:00",
+   "detalle_actualizado": "2026-10-08T20:05:14+00:00",
+   "primera_deteccion": "2026-10-08T15:05:13+00:00"
   }
  ]
 }
