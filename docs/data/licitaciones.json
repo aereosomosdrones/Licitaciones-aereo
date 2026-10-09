@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-09T17:05:11+00:00",
- "proxima_actualizacion": "2026-10-09T18:05:11+00:00",
+ "generado": "2026-10-09T18:05:12+00:00",
+ "proxima_actualizacion": "2026-10-09T19:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T17:05:11+00:00",
+   "ultima_ok": "2026-10-09T18:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5038,
-   "detalles_consultados": 60,
+   "revisadas": 4967,
+   "detalles_consultados": 32,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T17:05:11+00:00",
+   "ultima_ok": "2026-10-09T18:05:12+00:00",
    "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -77,47 +77,9 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "CA:5520-800-COT26"
+  "LIC:2981-278-LE26"
  ],
  "items": [
-  {
-   "id": "LIC:5067-142-L126",
-   "fuente": "licitacion",
-   "codigo": "5067-142-L126",
-   "nombre": "92438 Adquirir equipamiento tecnológico cc102",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-09T15:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5067-142-L126",
-   "descripcion": "Adquirir equipamiento tecnológico y audiovisual para actividadesinstitucionales de registro fotográfico, producción audiovisual, inspección en terreno, monitoreo y difusión de actividades asociadas a los objetivos del proyecto",
-   "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-   "unidad": "Universidad de Santiago de Chile",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Santiago",
-   "fecha_publicacion": "2026-10-02T17:12:21-03:00",
-   "fecha_adjudicacion": "2026-11-08T18:00:00-03:00",
-   "monto": 3500000.0,
-   "moneda": "CLP",
-   "tipo": "L1",
-   "productos": [
-    "Teléfonos celulares — Teléfono celular",
-    "Cámaras aéreas — Kit compuesto por UN (1) Drone y TRES (3) tarjetas de memoria de 256 GB",
-    "Artículo de cámara — Cámara Fotográfica",
-    "Cargas electrónicas — Batería de respaldo Producto referencia",
-    "Kits de cámara — Sistema de grabación y audio ",
-    "Micrófonos — KIT Micrófono inalámbrico con estabilizador para celular",
-    "Conjuntos o bandejas de dispositivos de almacenamiento — Almacenamiento y respaldo de información digital"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
-   "primera_deteccion": "2026-10-06T23:05:12+00:00"
-  },
   {
    "id": "CA:1079486-179-COT26",
    "fuente": "compra_agil",
@@ -252,8 +214,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00"
   },
   {
@@ -297,7 +259,7 @@
    "region": "Región del Libertador General Bernardo O´Higgins",
    "monto": 2000000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=3838-215-COT26",
    "descripcion": "Conforme a los requerimientos solicitados en Términos de Referencia adjuntos. El oferente deberá presentar un Anexo de Propuesta Técnica detallando las características del servicio ofrecido conforme a lo solicitado en todo el Punto N°2, así como el plazo de entrega establecido en Punto N°3. La falta del anexo o la entrega de información incompleta hará que la oferta sea declarada inadmisible. la propuesta deberá ajustarse al presupuesto y al plazo de entrega establecido.",
    "direccion_entrega": " Según Punto N°3 de los Términos de Referencia",
@@ -311,8 +273,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-09T15:05:12+00:00"
   },
   {
@@ -345,8 +307,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -379,8 +341,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-09T17:05:11+00:00"
   },
   {
@@ -448,7 +410,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -480,7 +442,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -518,7 +480,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -553,7 +515,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -620,7 +582,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -652,7 +614,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -684,7 +646,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -716,7 +678,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -749,7 +711,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -782,9 +744,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
+  },
+  {
+   "id": "LIC:2981-278-LE26",
+   "fuente": "licitacion",
+   "codigo": "2981-278-LE26",
+   "nombre": "JENAINPOL - ADQUISICIÓN DE 18 BATERIAS TB65 PARA DRONES MATRICE 300 Y 350 RTK",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-19T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-278-LE26",
+   "descripcion": "ADQUISICIÓN DE 18 BATERIAS TB65 PARA DRONES MATRICE 300 Y 350 RTK",
+   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+   "unidad": "DEPARTAMENTO ADMINISTRATIVO",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-10-09T14:42:49-03:00",
+   "fecha_adjudicacion": "2026-10-29T18:00:00-03:00",
+   "monto": 21600000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Baterías recargables — ADQUISICIÓN DE 18 BATERIAS TB65 PARA DRONES  MATRICE 300 Y 350 RTK"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
+   "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
   {
    "id": "LIC:660-14-LP26",
@@ -814,7 +809,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -858,7 +853,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -897,7 +892,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -938,7 +933,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T13:05:14+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -970,7 +965,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T17:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1932,7 +1927,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "BATERIAS Y CARGADOR DRON. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
    "direccion_entrega": "SANTA LAURA N°567 CONCON",
@@ -1941,7 +1936,7 @@
     "Baterías de litio — BATERIA AUTEL Serie EVO Max 4T. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
     "Baterías de litio — HUB DE CARGA PARA 3 BATERIAS. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO."
    ],
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "cambio_estado": "2026-10-09T04:05:14+00:00"
   },
   {
@@ -4292,7 +4287,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
@@ -4300,7 +4295,7 @@
    "productos": [
     "Seguros contra accidentes — CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado."
    ],
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "cambio_estado": "2026-10-09T17:05:11+00:00"
   },
   {
@@ -4576,8 +4571,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
   },
@@ -4680,7 +4675,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-08T21:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
@@ -4750,8 +4745,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -4784,8 +4779,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -4820,7 +4815,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
    "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-09T15:05:12+00:00"
@@ -4854,10 +4849,48 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T18:05:12+00:00",
+   "detalle_actualizado": "2026-10-09T18:05:12+00:00",
    "primera_deteccion": "2026-10-08T15:05:13+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
+  },
+  {
+   "id": "LIC:5067-142-L126",
+   "fuente": "licitacion",
+   "codigo": "5067-142-L126",
+   "nombre": "92438 Adquirir equipamiento tecnológico cc102",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-09T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5067-142-L126",
+   "descripcion": "Adquirir equipamiento tecnológico y audiovisual para actividadesinstitucionales de registro fotográfico, producción audiovisual, inspección en terreno, monitoreo y difusión de actividades asociadas a los objetivos del proyecto",
+   "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+   "unidad": "Universidad de Santiago de Chile",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago",
+   "fecha_publicacion": "2026-10-02T17:12:21-03:00",
+   "fecha_adjudicacion": "2026-11-08T18:00:00-03:00",
+   "monto": 3500000.0,
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Teléfonos celulares — Teléfono celular",
+    "Cámaras aéreas — Kit compuesto por UN (1) Drone y TRES (3) tarjetas de memoria de 256 GB",
+    "Artículo de cámara — Cámara Fotográfica",
+    "Cargas electrónicas — Batería de respaldo Producto referencia",
+    "Kits de cámara — Sistema de grabación y audio ",
+    "Micrófonos — KIT Micrófono inalámbrico con estabilizador para celular",
+    "Conjuntos o bandejas de dispositivos de almacenamiento — Almacenamiento y respaldo de información digital"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-09T17:05:11+00:00",
+   "detalle_actualizado": "2026-10-09T17:05:11+00:00",
+   "primera_deteccion": "2026-10-06T23:05:12+00:00"
   }
  ]
 }
