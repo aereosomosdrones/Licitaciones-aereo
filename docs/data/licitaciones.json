@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-09T03:05:11+00:00",
- "proxima_actualizacion": "2026-10-09T04:05:11+00:00",
+ "generado": "2026-10-09T04:05:14+00:00",
+ "proxima_actualizacion": "2026-10-09T05:05:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T03:05:11+00:00",
+   "ultima_ok": "2026-10-09T04:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 4883,
@@ -16,13 +16,13 @@
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-09T03:05:11+00:00",
+   "ultima_ok": "2026-10-09T04:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 0,
-   "detalles_consultados": 0,
+   "revisadas": 1,
+   "detalles_consultados": 1,
    "modo": "incremental"
   }
  },
@@ -247,7 +247,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
@@ -445,7 +445,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -477,7 +477,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -515,7 +515,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -550,7 +550,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -617,7 +617,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -649,7 +649,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -681,7 +681,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -713,7 +713,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -746,7 +746,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -779,7 +779,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -811,7 +811,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -855,7 +855,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -894,7 +894,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -926,7 +926,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-09T03:05:11+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "detalle_actualizado": "2026-10-08T22:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -1870,11 +1870,11 @@
    "fuente": "compra_agil",
    "codigo": "2594-695-COT26",
    "nombre": "ADQUISICION DE BATERIAS Y CARGADOR DRON. (OFICINA SEGURIDAD PUBLICA).",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "cancelada",
+   "estado_glosa": "Cancelada",
    "fecha_publicacion": "2026-09-08T13:19:00-03:00",
    "fecha_cierre": "2026-09-09T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-09-17 09:40",
+   "fecha_ultimo_cambio": "2026-10-09 00:05",
    "organismo": "I MUNICIPALIDAD DE CONCON",
    "unidad": "I.MUNICIPALIDAD DE CONCON",
    "region": "Región de Valparaíso ",
@@ -1888,7 +1888,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-08T21:05:10+00:00",
+   "ultima_actualizacion": "2026-10-09T04:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "BATERIAS Y CARGADOR DRON. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
    "direccion_entrega": "SANTA LAURA N°567 CONCON",
@@ -1897,7 +1897,8 @@
     "Baterías de litio — BATERIA AUTEL Serie EVO Max 4T. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO.",
     "Baterías de litio — HUB DE CARGA PARA 3 BATERIAS. SEGUN DETALLE EN ESPECIFICACION TECNICA ADJUNTO."
    ],
-   "detalle_actualizado": "2026-10-08T21:05:10+00:00"
+   "detalle_actualizado": "2026-10-09T04:05:14+00:00",
+   "cambio_estado": "2026-10-09T04:05:14+00:00"
   },
   {
    "id": "CA:2273-775-COT26",
