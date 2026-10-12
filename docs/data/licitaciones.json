@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-12T15:05:11+00:00",
- "proxima_actualizacion": "2026-10-12T16:05:11+00:00",
+ "generado": "2026-10-12T16:05:13+00:00",
+ "proxima_actualizacion": "2026-10-12T17:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-12T15:05:11+00:00",
+   "ultima_ok": "2026-10-12T16:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 5065,
-   "detalles_consultados": 0,
+   "detalles_consultados": 20,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-12T15:05:11+00:00",
+   "ultima_ok": "2026-10-12T16:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 2,
-   "detalles_consultados": 1,
+   "revisadas": 3,
+   "detalles_consultados": 2,
    "modo": "incremental"
   }
  },
@@ -78,40 +78,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:1729-394-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1729-394-COT26",
-   "nombre": "SERVICIO DE CURSO DE CAPACITACION OPERADOR DE DRON 4 FUNCIONARIOS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-09T09:57:00-03:00",
-   "fecha_cierre": "2026-10-12T13:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-09 10:00",
-   "organismo": "I MUNICIPALIDAD DE TIERRA AMARILLA",
-   "unidad": "Departamento de Abastecimiento",
-   "region": "Región de Atacama ",
-   "monto": 714000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1729-394-COT26",
-   "descripcion": "SEGUN MEMORANDUM N° 414 DE FECHA 05/10/2026, DE LA ADMINISTRADORA MUNICIPAL MUNICIPALIDAD DE TIERRA AMARILLA.",
-   "direccion_entrega": "MIGUEL LEMEUR N° 544",
-   "plazo_entrega_dias": 4,
-   "productos": [
-    "Capacitación a empleados — SE SOLICITA UN CURSO DE CAPACITACION PARA OPERADOR DE DRON PARA 4 FUNCIONARIOS, QUE SEA MODALIDAD DUAL 4 SESIONES TEORICAS ON LINE + SESIN PRESENCIAL + LECTURA PERSONAL EL PROVEEDOR DEBE TENER EL RUBRO EN SII, ADJUNTAR CAPACITACION, SE ADJUNTAN ESPECIFICACIONES TECNICAS."
-   ],
-   "terminos": [
-    "Dron",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-11T22:05:11+00:00",
-   "detalle_actualizado": "2026-10-11T22:05:11+00:00",
-   "primera_deteccion": "2026-10-09T13:05:14+00:00"
-  },
   {
    "id": "CA:5520-800-COT26",
    "fuente": "compra_agil",
@@ -211,8 +177,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
@@ -243,8 +209,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -281,8 +247,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
@@ -316,8 +282,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -383,8 +349,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
   {
@@ -415,8 +381,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -450,8 +416,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T15:05:11+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00"
   },
   {
@@ -517,8 +483,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -549,8 +515,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -582,8 +548,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -615,8 +581,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
   {
@@ -648,8 +614,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
   {
@@ -680,8 +646,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
   {
@@ -724,8 +690,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
   {
@@ -763,8 +729,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
   {
@@ -804,8 +770,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -836,8 +802,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -4488,8 +4454,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T10:05:13+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
@@ -4520,8 +4486,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T10:05:13+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -4654,8 +4620,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T10:05:13+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T20:32:51+00:00"
   },
@@ -5182,8 +5148,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T10:05:13+00:00",
-   "detalle_actualizado": "2026-10-12T10:05:13+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
   {
@@ -5353,10 +5319,45 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T15:05:11+00:00",
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
    "detalle_actualizado": "2026-10-12T13:05:10+00:00",
    "primera_deteccion": "2026-10-09T15:05:12+00:00",
    "cambio_estado": "2026-10-12T13:05:10+00:00"
+  },
+  {
+   "id": "CA:1729-394-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1729-394-COT26",
+   "nombre": "SERVICIO DE CURSO DE CAPACITACION OPERADOR DE DRON 4 FUNCIONARIOS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-09T09:57:00-03:00",
+   "fecha_cierre": "2026-10-12T13:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-12 13:05",
+   "organismo": "I MUNICIPALIDAD DE TIERRA AMARILLA",
+   "unidad": "Departamento de Abastecimiento",
+   "region": "Región de Atacama ",
+   "monto": 714000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1729-394-COT26",
+   "descripcion": "SEGUN MEMORANDUM N° 414 DE FECHA 05/10/2026, DE LA ADMINISTRADORA MUNICIPAL MUNICIPALIDAD DE TIERRA AMARILLA.",
+   "direccion_entrega": "MIGUEL LEMEUR N° 544",
+   "plazo_entrega_dias": 4,
+   "productos": [
+    "Capacitación a empleados — SE SOLICITA UN CURSO DE CAPACITACION PARA OPERADOR DE DRON PARA 4 FUNCIONARIOS, QUE SEA MODALIDAD DUAL 4 SESIONES TEORICAS ON LINE + SESIN PRESENCIAL + LECTURA PERSONAL EL PROVEEDOR DEBE TENER EL RUBRO EN SII, ADJUNTAR CAPACITACION, SE ADJUNTAN ESPECIFICACIONES TECNICAS."
+   ],
+   "terminos": [
+    "Dron",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-12T16:05:13+00:00",
+   "detalle_actualizado": "2026-10-12T16:05:13+00:00",
+   "primera_deteccion": "2026-10-09T13:05:14+00:00",
+   "cambio_estado": "2026-10-12T16:05:13+00:00"
   }
  ]
 }
