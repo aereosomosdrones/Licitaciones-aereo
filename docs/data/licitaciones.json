@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-12T11:05:10+00:00",
- "proxima_actualizacion": "2026-10-12T12:05:10+00:00",
+ "generado": "2026-10-12T12:05:10+00:00",
+ "proxima_actualizacion": "2026-10-12T13:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-12T11:05:10+00:00",
+   "ultima_ok": "2026-10-12T12:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 5065,
@@ -16,13 +16,13 @@
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-12T11:05:10+00:00",
+   "ultima_ok": "2026-10-12T12:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 0,
-   "detalles_consultados": 0,
+   "revisadas": 1,
+   "detalles_consultados": 1,
    "modo": "incremental"
   }
  },
@@ -78,41 +78,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:2297-1348-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2297-1348-COT26",
-   "nombre": "ADQUISICION DE INSUMOS PARA REPARACIÓN DRON DPTO. SEGURIDAD PÚBLICA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-09T12:19:00-03:00",
-   "fecha_cierre": "2026-10-12T08:15:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-09T12:20:00.913Z",
-   "organismo": "I MUNICIPALIDAD DE OSORNO",
-   "unidad": "IMUNI_OSORNO DIRECCION DE ADM Y FINANZAS",
-   "region": "Región de los Lagos ",
-   "monto": 285000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2297-1348-COT26",
-   "descripcion": "ADQUISICION DE INSUMOS PARA REPARACIÓN DRON DPTO. SEGURIDAD PÚBLICA, SEGÚN PBYS N° 2582,ID N° 2096438",
-   "direccion_entrega": "CATALINA KEIM 880 BODEGA MUNICIPAL",
-   "plazo_entrega_dias": 2,
-   "productos": [
-    "Aviones ultraligeros — HELICES PARA DRON MODELO MAVIC 3 ENTERPRISE SERIES LOW-NOISE",
-    "Aviones ultraligeros — PARACAÍDAS PARA DRON MODELO MAVIC 3 ENTERPRISE SERIE 20-NOISE / PARACAIDAS FLYFIRE MANTI IV (PARA MATRICE 4)"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-11T22:05:11+00:00",
-   "detalle_actualizado": "2026-10-09T20:05:10+00:00",
-   "primera_deteccion": "2026-10-09T16:05:01+00:00"
-  },
   {
    "id": "CA:1233616-92-COT26",
    "fuente": "compra_agil",
@@ -312,7 +277,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -344,7 +309,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -382,7 +347,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -417,7 +382,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -484,7 +449,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -516,9 +481,44 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
+  },
+  {
+   "id": "CA:2297-1348-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2297-1348-COT26",
+   "nombre": "ADQUISICION DE INSUMOS PARA REPARACIÓN DRON DPTO. SEGURIDAD PÚBLICA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-09T12:19:00-03:00",
+   "fecha_cierre": "2026-10-15T04:10:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-12 08:20",
+   "organismo": "I MUNICIPALIDAD DE OSORNO",
+   "unidad": "IMUNI_OSORNO DIRECCION DE ADM Y FINANZAS",
+   "region": "Región de los Lagos ",
+   "monto": 285000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2297-1348-COT26",
+   "descripcion": "ADQUISICION DE INSUMOS PARA REPARACIÓN DRON DPTO. SEGURIDAD PÚBLICA, SEGÚN PBYS N° 2582,ID N° 2096438",
+   "direccion_entrega": "CATALINA KEIM 880 BODEGA MUNICIPAL",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Aviones ultraligeros — HELICES PARA DRON MODELO MAVIC 3 ENTERPRISE SERIES LOW-NOISE",
+    "Aviones ultraligeros — PARACAÍDAS PARA DRON MODELO MAVIC 3 ENTERPRISE SERIE 20-NOISE / PARACAIDAS FLYFIRE MANTI IV (PARA MATRICE 4)"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
+   "detalle_actualizado": "2026-10-12T12:05:10+00:00",
+   "primera_deteccion": "2026-10-09T16:05:01+00:00"
   },
   {
    "id": "CA:2273-846-COT26",
@@ -583,7 +583,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -615,7 +615,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -648,7 +648,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -681,7 +681,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -714,7 +714,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -746,7 +746,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -790,7 +790,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -829,7 +829,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -870,7 +870,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -902,7 +902,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T11:05:10+00:00",
+   "ultima_actualizacion": "2026-10-12T12:05:10+00:00",
    "detalle_actualizado": "2026-10-12T10:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
