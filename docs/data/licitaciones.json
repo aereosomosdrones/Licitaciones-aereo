@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-13T19:05:12+00:00",
- "proxima_actualizacion": "2026-10-13T20:05:12+00:00",
+ "generado": "2026-10-13T20:05:12+00:00",
+ "proxima_actualizacion": "2026-10-13T21:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T19:05:12+00:00",
+   "ultima_ok": "2026-10-13T20:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4669,
-   "detalles_consultados": 63,
+   "revisadas": 4634,
+   "detalles_consultados": 61,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T19:05:12+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-13T20:05:12+00:00",
+   "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
    "revisadas": 7,
-   "detalles_consultados": 5,
+   "detalles_consultados": 4,
    "modo": "incremental"
   }
  },
@@ -141,7 +141,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -173,7 +173,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -208,8 +208,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T20:05:12+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00"
   },
   {
@@ -241,7 +241,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T14:05:12+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00"
   },
@@ -309,8 +309,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T20:05:12+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-13T15:51:22+00:00"
   },
@@ -338,7 +338,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -346,7 +346,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-13T19:05:12+00:00"
+   "detalle_actualizado": "2026-10-13T20:05:12+00:00"
   },
   {
    "id": "LIC:4291-52-L126",
@@ -379,7 +379,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -411,7 +411,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -443,7 +443,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -476,7 +476,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -509,7 +509,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -542,7 +542,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -574,7 +574,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -618,7 +618,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -657,7 +657,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -698,7 +698,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -730,7 +730,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -3413,7 +3413,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE.",
    "direccion_entrega": "CABILDO",
@@ -3421,7 +3421,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE."
    ],
-   "detalle_actualizado": "2026-10-13T19:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T20:05:12+00:00",
    "cambio_estado": "2026-10-13T13:05:12+00:00"
   },
   {
@@ -5071,7 +5071,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
@@ -5390,7 +5390,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
    "detalle_actualizado": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-09T17:05:11+00:00",
    "cambio_estado": "2026-10-13T18:05:11+00:00"
