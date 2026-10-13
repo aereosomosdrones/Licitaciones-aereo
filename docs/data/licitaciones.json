@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-13T12:05:12+00:00",
- "proxima_actualizacion": "2026-10-13T13:05:12+00:00",
+ "generado": "2026-10-13T13:05:12+00:00",
+ "proxima_actualizacion": "2026-10-13T14:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T12:05:12+00:00",
+   "ultima_ok": "2026-10-13T13:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5088,
-   "detalles_consultados": 21,
+   "revisadas": 5114,
+   "detalles_consultados": 48,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T12:05:12+00:00",
+   "ultima_ok": "2026-10-13T13:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 0,
-   "detalles_consultados": 0,
+   "revisadas": 1,
+   "detalles_consultados": 1,
    "modo": "incremental"
   }
  },
@@ -78,40 +78,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:5520-800-COT26",
-   "fuente": "compra_agil",
-   "codigo": "5520-800-COT26",
-   "nombre": "Servicio de Arriendo de Radio Control",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-09T13:25:00-03:00",
-   "fecha_cierre": "2026-10-13T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-09 13:30",
-   "organismo": "UNIVERSIDAD DE CHILE",
-   "unidad": "FCFM IDIEM",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 350000.0,
-   "moneda": "CLP",
-   "ofertas": 2,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5520-800-COT26",
-   "descripcion": "IDIEM - Universidad de Chile, requiere servicio de arriendo de un control remoto para el dron Matrice 350, debido a que el equipo actual presenta un desperfecto y fue enviado al servicio técnico autorizado de la marca para su revisión y reparación. Se debe adjuntar cotización, ficha técnica y contacto para coordinación de la entrega de los productos. Pago con OC a 30 días. Despacho incluido.",
-   "direccion_entrega": "Plaza Ercilla 883",
-   "plazo_entrega_dias": 2,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — Arriendo RADIO CONTROL M350 para dron Matrice 350 por un periodo de 15 a 24 días. "
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-12T22:05:12+00:00",
-   "detalle_actualizado": "2026-10-12T22:05:12+00:00",
-   "primera_deteccion": "2026-10-09T17:05:11+00:00"
-  },
   {
    "id": "CA:1388961-170-COT26",
    "fuente": "compra_agil",
@@ -177,8 +143,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
@@ -209,8 +175,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -247,8 +213,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
@@ -282,8 +248,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -349,8 +315,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
   {
@@ -381,8 +347,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -483,8 +449,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -515,8 +481,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -548,8 +514,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -581,8 +547,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
   {
@@ -614,8 +580,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
   {
@@ -646,8 +612,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
   {
@@ -690,8 +656,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
   {
@@ -729,8 +695,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
   {
@@ -770,8 +736,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -802,8 +768,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -3467,11 +3433,11 @@
    "fuente": "compra_agil",
    "codigo": "3621-331-COT26",
    "nombre": "SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "desierta",
+   "estado_glosa": "Desierta",
    "fecha_publicacion": "2026-09-24T16:31:00-03:00",
    "fecha_cierre": "2026-09-25T17:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-09-25 17:05",
+   "fecha_ultimo_cambio": "2026-10-13 10:05",
    "organismo": "I MUNICIPALIDAD DE CABILDO",
    "unidad": "I MUNICIPALIDAD DE CABILDO",
    "region": "Región de Valparaíso ",
@@ -3485,7 +3451,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T22:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE.",
    "direccion_entrega": "CABILDO",
@@ -3493,7 +3459,8 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE."
    ],
-   "detalle_actualizado": "2026-10-12T22:05:12+00:00"
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
+   "cambio_estado": "2026-10-13T13:05:12+00:00"
   },
   {
    "id": "CA:5750-12-COT26",
@@ -4454,8 +4421,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T06:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
@@ -4486,8 +4453,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T06:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -4620,8 +4587,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T06:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T20:32:51+00:00"
   },
@@ -5148,8 +5115,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T06:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
   {
@@ -5358,6 +5325,40 @@
    "detalle_actualizado": "2026-10-12T22:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00",
    "cambio_estado": "2026-10-12T16:05:13+00:00"
+  },
+  {
+   "id": "CA:5520-800-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5520-800-COT26",
+   "nombre": "Servicio de Arriendo de Radio Control",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-09T13:25:00-03:00",
+   "fecha_cierre": "2026-10-13T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-09 13:30",
+   "organismo": "UNIVERSIDAD DE CHILE",
+   "unidad": "FCFM IDIEM",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 350000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5520-800-COT26",
+   "descripcion": "IDIEM - Universidad de Chile, requiere servicio de arriendo de un control remoto para el dron Matrice 350, debido a que el equipo actual presenta un desperfecto y fue enviado al servicio técnico autorizado de la marca para su revisión y reparación. Se debe adjuntar cotización, ficha técnica y contacto para coordinación de la entrega de los productos. Pago con OC a 30 días. Despacho incluido.",
+   "direccion_entrega": "Plaza Ercilla 883",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Arriendo RADIO CONTROL M350 para dron Matrice 350 por un periodo de 15 a 24 días. "
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-12T22:05:12+00:00",
+   "detalle_actualizado": "2026-10-12T22:05:12+00:00",
+   "primera_deteccion": "2026-10-09T17:05:11+00:00"
   }
  ]
 }
