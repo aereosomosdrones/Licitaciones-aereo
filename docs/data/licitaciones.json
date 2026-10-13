@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-13T20:05:12+00:00",
- "proxima_actualizacion": "2026-10-13T21:05:12+00:00",
+ "generado": "2026-10-13T21:05:12+00:00",
+ "proxima_actualizacion": "2026-10-13T22:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T20:05:12+00:00",
+   "ultima_ok": "2026-10-13T21:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4634,
-   "detalles_consultados": 61,
+   "revisadas": 4632,
+   "detalles_consultados": 44,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T20:05:12+00:00",
+   "ultima_ok": "2026-10-13T21:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 7,
-   "detalles_consultados": 4,
+   "revisadas": 8,
+   "detalles_consultados": 5,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:1242997-1-LE26"
+ ],
  "items": [
   {
    "id": "CA:2735-1259-COT26",
@@ -141,7 +143,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -173,7 +175,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -208,8 +210,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T21:05:12+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00"
   },
   {
@@ -241,7 +243,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T14:05:12+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00"
   },
@@ -309,8 +311,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
-   "detalle_actualizado": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T21:05:12+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-13T15:51:22+00:00"
   },
@@ -338,7 +340,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -346,7 +348,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-13T20:05:12+00:00"
+   "detalle_actualizado": "2026-10-13T21:05:12+00:00"
   },
   {
    "id": "LIC:4291-52-L126",
@@ -379,7 +381,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -411,7 +413,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -443,7 +445,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -476,7 +478,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -509,7 +511,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -542,7 +544,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -574,7 +576,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -618,7 +620,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -657,7 +659,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -698,9 +700,41 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
+  },
+  {
+   "id": "LIC:1242997-1-LE26",
+   "fuente": "licitacion",
+   "codigo": "1242997-1-LE26",
+   "nombre": "SISTEMA UAV MULTIPROPÓSITO PARA MONITOREO GEOLÓGIC",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-28T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1242997-1-LE26",
+   "descripcion": "Dirección Regional de Arica y Parinacota, requiere la contratación de la “Adquisición de Sistema UAV Para monitoreo geológico en Arica y Parinacota, código BIP 40079056-0”",
+   "organismo": "SERVICIO NACIONAL DE GEOLOGIA Y MINERIA",
+   "unidad": "UNIDAD DE COMPRA GORE ARICA Y PARINACOTA",
+   "region": "Región de Arica y Parinacota",
+   "comuna": "Arica",
+   "fecha_publicacion": "2026-10-13T17:46:48-03:00",
+   "fecha_adjudicacion": "2026-11-20T11:08:00-03:00",
+   "monto": 71425000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — SISTEMA UAV MULTIPROPÓSITO PARA MONITOREO GEOLÓGICO EN LA REGIÓN DE ARICA Y PARINACOTA"
+   ],
+   "terminos": [
+    "UAV / UAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T21:05:12+00:00",
+   "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
   {
    "id": "LIC:2405-145-LR26",
@@ -730,7 +764,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -3413,7 +3447,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE.",
    "direccion_entrega": "CABILDO",
@@ -3421,7 +3455,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE."
    ],
-   "detalle_actualizado": "2026-10-13T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T21:05:12+00:00",
    "cambio_estado": "2026-10-13T13:05:12+00:00"
   },
   {
@@ -5071,7 +5105,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
@@ -5224,11 +5258,11 @@
    "fuente": "compra_agil",
    "codigo": "1729-394-COT26",
    "nombre": "SERVICIO DE CURSO DE CAPACITACION OPERADOR DE DRON 4 FUNCIONARIOS",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-09T09:57:00-03:00",
    "fecha_cierre": "2026-10-12T13:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-12 13:05",
+   "fecha_ultimo_cambio": "2026-10-13 17:25",
    "organismo": "I MUNICIPALIDAD DE TIERRA AMARILLA",
    "unidad": "Departamento de Abastecimiento",
    "region": "Región de Atacama ",
@@ -5249,10 +5283,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T22:05:12+00:00",
-   "detalle_actualizado": "2026-10-12T22:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T21:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00",
-   "cambio_estado": "2026-10-12T16:05:13+00:00"
+   "cambio_estado": "2026-10-13T21:05:12+00:00"
   },
   {
    "id": "LIC:1036569-13-LP26",
@@ -5390,7 +5424,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T21:05:12+00:00",
    "detalle_actualizado": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-09T17:05:11+00:00",
    "cambio_estado": "2026-10-13T18:05:11+00:00"
