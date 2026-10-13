@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-13T13:05:12+00:00",
- "proxima_actualizacion": "2026-10-13T14:05:12+00:00",
+ "generado": "2026-10-13T14:05:12+00:00",
+ "proxima_actualizacion": "2026-10-13T15:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T13:05:12+00:00",
+   "ultima_ok": "2026-10-13T14:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5114,
-   "detalles_consultados": 48,
+   "revisadas": 5151,
+   "detalles_consultados": 37,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T13:05:12+00:00",
+   "ultima_ok": "2026-10-13T14:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 1,
-   "detalles_consultados": 1,
+   "revisadas": 3,
+   "detalles_consultados": 3,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:2799-90-COT26"
+ ],
  "items": [
   {
    "id": "CA:1388961-170-COT26",
@@ -143,7 +145,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -175,7 +177,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
@@ -213,7 +215,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
@@ -248,7 +250,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -315,7 +317,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -347,7 +349,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -385,6 +387,39 @@
    "ultima_actualizacion": "2026-10-12T22:05:12+00:00",
    "detalle_actualizado": "2026-10-12T22:05:12+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00"
+  },
+  {
+   "id": "CA:2799-90-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2799-90-COT26",
+   "nombre": "Seguro de responsabilidad civil para uso de Dron Dirección de Seguridad Pública Los Andes",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-13T10:55:00-03:00",
+   "fecha_cierre": "2026-10-15T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-13 11:00",
+   "organismo": "MUNICIPALIDAD DE LOS ANDES",
+   "unidad": "Administracion Municipal",
+   "region": "Región de Valparaíso ",
+   "monto": 416254.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2799-90-COT26",
+   "descripcion": "Se requiere de la adquisición de seguro de responsabilidad civil para el uso de Dron bajo la Dirección de Seguridad Pública de Los Andes. Para conocer mayores detalles sobre coberturas requeridas o monto disponible, se requiere revisar los TDR Adjuntos con el detalle de la información y los criterios de evaluación para la presente compra.",
+   "direccion_entrega": "Esmeralda N° 536",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Seguro por responsabilidad civil — Seguro de responsabilidad civil para manejo de Dron, según especificaciones técnicas adjuntas."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T14:05:12+00:00",
+   "primera_deteccion": "2026-10-13T14:05:12+00:00"
   },
   {
    "id": "CA:2273-846-COT26",
@@ -449,7 +484,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -481,7 +516,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -514,7 +549,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -547,7 +582,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -580,7 +615,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -612,7 +647,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -656,7 +691,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -695,7 +730,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -736,7 +771,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -768,7 +803,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -3451,7 +3486,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE.",
    "direccion_entrega": "CABILDO",
@@ -3459,7 +3494,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE."
    ],
-   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-13T13:05:12+00:00"
   },
   {
@@ -5332,10 +5367,10 @@
    "codigo": "5520-800-COT26",
    "nombre": "Servicio de Arriendo de Radio Control",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-09T13:25:00-03:00",
    "fecha_cierre": "2026-10-13T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-09 13:30",
+   "fecha_ultimo_cambio": "2026-10-13 10:10",
    "organismo": "UNIVERSIDAD DE CHILE",
    "unidad": "FCFM IDIEM",
    "region": "Región Metropolitana de Santiago",
@@ -5356,8 +5391,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-12T22:05:12+00:00",
-   "detalle_actualizado": "2026-10-12T22:05:12+00:00",
+   "ultima_actualizacion": "2026-10-13T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-13T14:05:12+00:00",
    "primera_deteccion": "2026-10-09T17:05:11+00:00"
   }
  ]
