@@ -1,25 +1,25 @@
 {
- "generado": "2026-10-13T17:05:13+00:00",
- "proxima_actualizacion": "2026-10-13T18:05:13+00:00",
+ "generado": "2026-10-13T18:05:11+00:00",
+ "proxima_actualizacion": "2026-10-13T19:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T17:05:13+00:00",
+   "ultima_ok": "2026-10-13T18:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5297,
-   "detalles_consultados": 29,
+   "revisadas": 5017,
+   "detalles_consultados": 20,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-13T17:05:13+00:00",
-   "errores_detalle": 0,
+   "ultima_ok": "2026-10-13T18:05:11+00:00",
+   "errores_detalle": 1,
    "advertencias": [
-    "1 de 15 búsquedas no respondieron: drones"
+    "2 de 15 búsquedas no respondieron: drones, LiDAR"
    ],
    "revisadas": 7,
    "detalles_consultados": 6,
@@ -79,111 +79,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "LIC:4291-52-L126",
-   "fuente": "licitacion",
-   "codigo": "4291-52-L126",
-   "nombre": "Servicios de fotografía para XI Fiesta de la Ciencia, \"Antofagasta fuente de conocimiento universal\"",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-13T15:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4291-52-L126",
-   "descripcion": "Servicio de registro fotográfico para la Fiesta de la Ciencia “Antofagasta, fuente de conocimiento universal”, a realizarse los días 15 y 16 de noviembre de 2026. Se requiere cobertura fotográfica de ambas jornadas, con entrega de 300 fotografías editadas, incluyendo registro de los 30 stands y al menos 20 fotografías aéreas. El servicio deberá considerar experiencia acreditada, licencia vigente de piloto de dron y certificado de inhabilidad para trabajar con menores.",
-   "organismo": "UNIVERSIDAD DE ANTOFAGASTA",
-   "unidad": "Universidad de Antofagasta",
-   "region": "Región de Antofagasta",
-   "comuna": "Antofagasta",
-   "fecha_publicacion": "2026-10-01T09:28:11-03:00",
-   "fecha_adjudicacion": "2026-10-28T15:01:00-03:00",
-   "monto": 1200000.0,
-   "moneda": "CLP",
-   "tipo": "L1",
-   "productos": [
-    "Servicios Audio Visuales — Entrega de 300 fotografías editadas: 50 del 15 de noviembre, antes de las 23:59 h del mismo día 50 del 16 de noviembre, antes de las 23:59 h y 200 restantes, dentro de los 4 días hábiles posteriores al evento."
-   ],
-   "terminos": [
-    "Dron",
-    "Credencial / piloto",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
-   "primera_deteccion": "2026-10-06T19:05:13+00:00"
-  },
-  {
-   "id": "LIC:1036569-13-LP26",
-   "fuente": "licitacion",
-   "codigo": "1036569-13-LP26",
-   "nombre": "ADQUISICIÓN AERONAVES NO TRIPULADAS RPAS PDI ÑUBLE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-13T15:01:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1036569-13-LP26",
-   "descripcion": "El Gobierno Regional de Ñuble requiere apoyar la labor de la Policía de Investigación de Chile mediante la adquisición de equipamiento tecnológico para las unidades especializadas de la Región policial de Ñuble, con equipos que permitan una vigilancia y control desde el aire, a fin de optimizar la labor investigativa de la aludida institución.\r\nPROGRAMA DE INVERSIONES",
-   "organismo": "GOBIERNO REGIONAL DE ÑUBLE",
-   "unidad": "División de Administración y Finanzas",
-   "region": "Región del Ñuble",
-   "comuna": "Chillán",
-   "fecha_publicacion": "2026-09-22T17:20:12-03:00",
-   "fecha_adjudicacion": "2026-11-27T15:02:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LP",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — AERONAVE NO TRIPULADA RPAS"
-   ],
-   "terminos": [
-    "RPA / RPAS",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
-   "primera_deteccion": "2026-10-05T18:23:32+00:00"
-  },
-  {
-   "id": "LIC:1375753-39-LE26",
-   "fuente": "licitacion",
-   "codigo": "1375753-39-LE26",
-   "nombre": "Adquisición de equipos informaticos SLEP Los Andes",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-13T15:01:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1375753-39-LE26",
-   "descripcion": "Fortalecer las capacidades tecnológicas y operativas del Servicio Local de Educación Pública de Los Andes mediante la adquisición de equipamiento informático, audiovisual, de almacenamiento y seguridad, destinado a apoyar la gestión administrativa, las actividades institucionales, el resguardo de información y la continuidad operativa del Servicio.",
-   "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LOS ANDES",
-   "unidad": "COMPRAS Y LICITACIONES",
-   "region": "Región de Valparaíso",
-   "comuna": "Santiago",
-   "fecha_publicacion": "2026-10-01T12:50:22-03:00",
-   "fecha_adjudicacion": "2026-11-13T16:16:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Notebook, laptop o computador portátil excepto Tablet PC — Notebook gama 1 proc. Intel i3 ryzen3, 8gb\r\nram, ssd 512 o superior",
-    "Monitores de pantalla táctil — Monitor 24”",
-    "Servidores — Servidor",
-    "Impresoras de chorro de tinta — Impresora Portatil térmica con insumos",
-    "Proyectores multimedia — Proyectores tiro corto",
-    "Proyectores multimedia — Proyectores tiro normal",
-    "Aviones objetivo o de reconocimiento — Drone",
-    "Discos duros — SSD externo 1TB"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
-   "primera_deteccion": "2026-10-06T01:05:15+00:00"
-  },
-  {
    "id": "LIC:3149-25-LE26",
    "fuente": "licitacion",
    "codigo": "3149-25-LE26",
@@ -214,7 +109,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -281,7 +176,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00"
   },
@@ -313,7 +208,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -348,8 +243,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00"
   },
   {
@@ -381,7 +276,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T14:05:12+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00"
   },
@@ -449,8 +344,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-13T15:51:22+00:00"
   },
@@ -478,7 +373,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -486,7 +381,42 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-13T17:05:13+00:00"
+   "detalle_actualizado": "2026-10-13T18:05:11+00:00"
+  },
+  {
+   "id": "LIC:4291-52-L126",
+   "fuente": "licitacion",
+   "codigo": "4291-52-L126",
+   "nombre": "Servicios de fotografía para XI Fiesta de la Ciencia, \"Antofagasta fuente de conocimiento universal\"",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-15T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4291-52-L126",
+   "descripcion": "Servicio de registro fotográfico para la Fiesta de la Ciencia “Antofagasta, fuente de conocimiento universal”, a realizarse los días 15 y 16 de noviembre de 2026. Se requiere cobertura fotográfica de ambas jornadas, con entrega de 300 fotografías editadas, incluyendo registro de los 30 stands y al menos 20 fotografías aéreas. El servicio deberá considerar experiencia acreditada, licencia vigente de piloto de dron y certificado de inhabilidad para trabajar con menores.",
+   "organismo": "UNIVERSIDAD DE ANTOFAGASTA",
+   "unidad": "Universidad de Antofagasta",
+   "region": "Región de Antofagasta",
+   "comuna": "Antofagasta",
+   "fecha_publicacion": "2026-10-01T09:28:11-03:00",
+   "fecha_adjudicacion": "2026-10-28T15:01:00-03:00",
+   "monto": 1200000.0,
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Servicios Audio Visuales — Entrega de 300 fotografías editadas: 50 del 15 de noviembre, antes de las 23:59 h del mismo día 50 del 16 de noviembre, antes de las 23:59 h y 200 restantes, dentro de los 4 días hábiles posteriores al evento."
+   ],
+   "terminos": [
+    "Dron",
+    "Credencial / piloto",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
+   "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
    "id": "LIC:2952-19-LE26",
@@ -516,7 +446,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -548,44 +478,9 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
-  },
-  {
-   "id": "CA:5520-800-COT26",
-   "fuente": "compra_agil",
-   "codigo": "5520-800-COT26",
-   "nombre": "Servicio de Arriendo de Radio Control",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-09T13:25:00-03:00",
-   "fecha_cierre": "2026-10-17T08:36:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-13 12:05",
-   "organismo": "UNIVERSIDAD DE CHILE",
-   "unidad": "FCFM IDIEM",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 350000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5520-800-COT26",
-   "descripcion": "IDIEM - Universidad de Chile, requiere servicio de arriendo de un control remoto para el dron Matrice 350, debido a que el equipo actual presenta un desperfecto y fue enviado al servicio técnico autorizado de la marca para su revisión y reparación. Se debe adjuntar cotización, ficha técnica y contacto para coordinación de la entrega de los productos. Pago con OC a 30 días. Despacho incluido.",
-   "direccion_entrega": "Plaza Ercilla 883",
-   "plazo_entrega_dias": 2,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — Arriendo RADIO CONTROL M350 para dron Matrice 350 por un periodo de 15 a 24 días. "
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
-   "detalle_actualizado": "2026-10-13T17:05:13+00:00",
-   "primera_deteccion": "2026-10-09T17:05:11+00:00",
-   "cambio_estado": "2026-10-13T15:05:11+00:00"
   },
   {
    "id": "LIC:1437-16-LE26",
@@ -616,7 +511,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -649,7 +544,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -682,7 +577,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -714,7 +609,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -758,7 +653,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -797,7 +692,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -838,7 +733,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -870,7 +765,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "detalle_actualizado": "2026-10-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -3553,7 +3448,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE.",
    "direccion_entrega": "CABILDO",
@@ -3561,7 +3456,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE."
    ],
-   "detalle_actualizado": "2026-10-13T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-13T18:05:11+00:00",
    "cambio_estado": "2026-10-13T13:05:12+00:00"
   },
   {
@@ -5196,13 +5091,13 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-09-21T12:50:00-03:00",
    "fecha_cierre": "2026-10-09T15:35:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-13 12:30",
+   "fecha_ultimo_cambio": "2026-10-13T12:30:00.683Z",
    "organismo": "SECCIÓN COMPRAS III ZONA",
    "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS ATACAMA",
    "region": "Región de Atacama ",
    "monto": 766400.0,
    "moneda": "CLP",
-   "ofertas": 4,
+   "ofertas": 7,
    "url": "https://buscador.mercadopublico.cl/ficha?code=1079486-179-COT26",
    "terminos": [
     "Dron",
@@ -5211,7 +5106,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
@@ -5393,6 +5288,111 @@
    "detalle_actualizado": "2026-10-12T22:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00",
    "cambio_estado": "2026-10-12T16:05:13+00:00"
+  },
+  {
+   "id": "LIC:1036569-13-LP26",
+   "fuente": "licitacion",
+   "codigo": "1036569-13-LP26",
+   "nombre": "ADQUISICIÓN AERONAVES NO TRIPULADAS RPAS PDI ÑUBLE",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-13T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1036569-13-LP26",
+   "descripcion": "El Gobierno Regional de Ñuble requiere apoyar la labor de la Policía de Investigación de Chile mediante la adquisición de equipamiento tecnológico para las unidades especializadas de la Región policial de Ñuble, con equipos que permitan una vigilancia y control desde el aire, a fin de optimizar la labor investigativa de la aludida institución.\r\nPROGRAMA DE INVERSIONES",
+   "organismo": "GOBIERNO REGIONAL DE ÑUBLE",
+   "unidad": "División de Administración y Finanzas",
+   "region": "Región del Ñuble",
+   "comuna": "Chillán",
+   "fecha_publicacion": "2026-09-22T17:20:12-03:00",
+   "fecha_adjudicacion": "2026-11-27T15:02:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — AERONAVE NO TRIPULADA RPAS"
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
+   "primera_deteccion": "2026-10-05T18:23:32+00:00"
+  },
+  {
+   "id": "LIC:1375753-39-LE26",
+   "fuente": "licitacion",
+   "codigo": "1375753-39-LE26",
+   "nombre": "Adquisición de equipos informaticos SLEP Los Andes",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-13T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1375753-39-LE26",
+   "descripcion": "Fortalecer las capacidades tecnológicas y operativas del Servicio Local de Educación Pública de Los Andes mediante la adquisición de equipamiento informático, audiovisual, de almacenamiento y seguridad, destinado a apoyar la gestión administrativa, las actividades institucionales, el resguardo de información y la continuidad operativa del Servicio.",
+   "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LOS ANDES",
+   "unidad": "COMPRAS Y LICITACIONES",
+   "region": "Región de Valparaíso",
+   "comuna": "Santiago",
+   "fecha_publicacion": "2026-10-01T12:50:22-03:00",
+   "fecha_adjudicacion": "2026-11-13T16:16:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Notebook, laptop o computador portátil excepto Tablet PC — Notebook gama 1 proc. Intel i3 ryzen3, 8gb\r\nram, ssd 512 o superior",
+    "Monitores de pantalla táctil — Monitor 24”",
+    "Servidores — Servidor",
+    "Impresoras de chorro de tinta — Impresora Portatil térmica con insumos",
+    "Proyectores multimedia — Proyectores tiro corto",
+    "Proyectores multimedia — Proyectores tiro normal",
+    "Aviones objetivo o de reconocimiento — Drone",
+    "Discos duros — SSD externo 1TB"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-13T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-13T13:05:12+00:00",
+   "primera_deteccion": "2026-10-06T01:05:15+00:00"
+  },
+  {
+   "id": "CA:5520-800-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5520-800-COT26",
+   "nombre": "Servicio de Arriendo de Radio Control",
+   "estado": "cancelada",
+   "estado_glosa": "Cancelada",
+   "fecha_publicacion": "2026-10-09T13:25:00-03:00",
+   "fecha_cierre": "2026-10-17T08:36:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-13 14:35",
+   "organismo": "UNIVERSIDAD DE CHILE",
+   "unidad": "FCFM IDIEM",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 350000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5520-800-COT26",
+   "descripcion": "IDIEM - Universidad de Chile, requiere servicio de arriendo de un control remoto para el dron Matrice 350, debido a que el equipo actual presenta un desperfecto y fue enviado al servicio técnico autorizado de la marca para su revisión y reparación. Se debe adjuntar cotización, ficha técnica y contacto para coordinación de la entrega de los productos. Pago con OC a 30 días. Despacho incluido.",
+   "direccion_entrega": "Plaza Ercilla 883",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Arriendo RADIO CONTROL M350 para dron Matrice 350 por un periodo de 15 a 24 días. "
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-13T18:05:11+00:00",
+   "primera_deteccion": "2026-10-09T17:05:11+00:00",
+   "cambio_estado": "2026-10-13T18:05:11+00:00"
   }
  ]
 }
