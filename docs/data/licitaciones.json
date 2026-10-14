@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-14T14:05:12+00:00",
- "proxima_actualizacion": "2026-10-14T15:05:12+00:00",
+ "generado": "2026-10-14T15:05:14+00:00",
+ "proxima_actualizacion": "2026-10-14T16:05:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-14T14:05:12+00:00",
+   "ultima_ok": "2026-10-14T15:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4608,
-   "detalles_consultados": 35,
+   "revisadas": 4630,
+   "detalles_consultados": 75,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-14T14:05:12+00:00",
+   "ultima_ok": "2026-10-14T15:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -79,37 +79,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "LIC:299-27-LE26",
-   "fuente": "licitacion",
-   "codigo": "299-27-LE26",
-   "nombre": "SERV  COBERTURA FOTOGRAFICA Y AUDIOVISUAL IND XIV",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-14T12:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=299-27-LE26",
-   "descripcion": "CONTRATACION DE UN SERVICIO DE COBERTURA FOTOGRAFICA Y AUDIOVISUAL PARA LOS JUEGOS BINACIONALES DE LA ARAUCANIA Y PARA ARAUCANIA",
-   "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
-   "unidad": "I.N.D. REGION XIV",
-   "region": "Región de Los Ríos",
-   "comuna": "Valdivia",
-   "fecha_publicacion": "2026-10-06T09:10:59-03:00",
-   "fecha_adjudicacion": "2026-10-20T18:00:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Servicios de fotografía aérea — Servicio de cobertura fotografica y audiovisual para los juegos binacionales, segun bases adjuntas, rex 650."
-   ],
-   "terminos": [
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado"
-   ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
-   "primera_deteccion": "2026-10-06T13:05:13+00:00"
-  },
-  {
    "id": "LIC:1288419-8-LE26",
    "fuente": "licitacion",
    "codigo": "1288419-8-LE26",
@@ -137,8 +106,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -224,7 +193,7 @@
    "region": "Región Metropolitana de Santiago",
    "monto": 1422990.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=5578-29-COT26",
    "descripcion": "Dron con cámara aérea y kit de accesorios",
    "direccion_entrega": "Av Libertador Bernardo O'Higgins 1058",
@@ -238,8 +207,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
   {
@@ -272,8 +241,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
   {
@@ -444,8 +413,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
@@ -476,8 +445,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -508,8 +477,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -541,8 +510,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -574,8 +543,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
   {
@@ -607,8 +576,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
   {
@@ -639,8 +608,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
   {
@@ -683,8 +652,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
   {
@@ -722,8 +691,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
   {
@@ -756,8 +725,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
   {
@@ -797,8 +766,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -829,7 +798,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
    "detalle_actualizado": "2026-10-14T10:05:10+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -861,8 +830,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -4481,8 +4450,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T09:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
@@ -4513,8 +4482,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T09:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -4647,8 +4616,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T09:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T20:32:51+00:00"
   },
@@ -5141,8 +5110,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T09:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
   {
@@ -5380,8 +5349,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T09:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -5418,8 +5387,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T09:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
@@ -5453,8 +5422,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T09:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T09:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-13T19:05:12+00:00"
   },
@@ -5490,7 +5459,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
    "detalle_actualizado": "2026-10-08T21:05:10+00:00",
    "primera_deteccion": "2026-10-08T19:05:11+00:00",
    "cambio_estado": "2026-10-14T13:05:10+00:00"
@@ -5520,6 +5489,38 @@
    ],
    "ultima_actualizacion": "2026-10-13T22:05:13+00:00",
    "primera_deteccion": "2026-10-13T22:05:13+00:00"
+  },
+  {
+   "id": "LIC:299-27-LE26",
+   "fuente": "licitacion",
+   "codigo": "299-27-LE26",
+   "nombre": "SERV  COBERTURA FOTOGRAFICA Y AUDIOVISUAL IND XIV",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_cierre": "2026-10-14T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=299-27-LE26",
+   "descripcion": "CONTRATACION DE UN SERVICIO DE COBERTURA FOTOGRAFICA Y AUDIOVISUAL PARA LOS JUEGOS BINACIONALES DE LA ARAUCANIA Y PARA ARAUCANIA",
+   "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+   "unidad": "I.N.D. REGION XIV",
+   "region": "Región de Los Ríos",
+   "comuna": "Valdivia",
+   "fecha_publicacion": "2026-10-06T09:10:59-03:00",
+   "fecha_adjudicacion": "2026-10-20T18:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Servicios de fotografía aérea — Servicio de cobertura fotografica y audiovisual para los juegos binacionales, segun bases adjuntas, rex 650."
+   ],
+   "terminos": [
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado"
+   ],
+   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "primera_deteccion": "2026-10-06T13:05:13+00:00",
+   "cambio_estado": "2026-10-14T15:05:14+00:00"
   },
   {
    "id": "CA:5520-800-COT26",
