@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-14T18:05:13+00:00",
- "proxima_actualizacion": "2026-10-14T19:05:13+00:00",
+ "generado": "2026-10-14T19:05:10+00:00",
+ "proxima_actualizacion": "2026-10-14T20:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-14T18:05:13+00:00",
+   "ultima_ok": "2026-10-14T19:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4606,
-   "detalles_consultados": 25,
+   "revisadas": 4578,
+   "detalles_consultados": 55,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-14T18:05:13+00:00",
-   "errores_detalle": 2,
+   "ultima_ok": "2026-10-14T19:05:10+00:00",
+   "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 5,
-   "detalles_consultados": 3,
+   "revisadas": 7,
+   "detalles_consultados": 4,
    "modo": "incremental"
   }
  },
@@ -76,40 +76,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:945256-59-COT26"
+ ],
  "items": [
-  {
-   "id": "LIC:1288419-8-LE26",
-   "fuente": "licitacion",
-   "codigo": "1288419-8-LE26",
-   "nombre": "Adquisición de un 01 Dron con cámara térmica para la Municipalidad de San Pedro de Atacama.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-14T15:20:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1288419-8-LE26",
-   "descripcion": "La Municipalidad de San Pedro de Atacama invita a participar en el proceso de licitación pública para la adquisición de un (1) Dron con cámara térmica para la Municipalidad de San Pedro de Atacama. El objetivo es dotar a la Dirección de Gestión del Riesgo de Desastres de la comuna de San Pedro de Atacama de un sistema aéreo no tripulado profesional, que permita fortalecer la capacidad de respuesta ante emergencias, apoyar labores de búsqueda y rescate, facilitar la evaluación de incendios y eventos críticos, y generar información geoespacial precisa para el análisis territorial y la actualización de los instrumentos de planificación de riesgo comunal.",
-   "organismo": "I MUNICIPALIDAD DE SAN PEDRO DE ATACAMA",
-   "unidad": "Gestion del Riesgo de Desastres",
-   "region": "Región de Antofagasta",
-   "comuna": "San Pedro de Atacama",
-   "fecha_publicacion": "2026-10-01T10:51:37-03:00",
-   "fecha_adjudicacion": "2026-11-06T18:21:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — Adquisición de un (1) Dron con cámara térmica para la Municipalidad de San Pedro de Atacama, según \r\nlas especificaciones técnicas adjuntas."
-   ],
-   "terminos": [
-    "Dron",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
-  },
   {
    "id": "CA:2297-1348-COT26",
    "fuente": "compra_agil",
@@ -207,7 +177,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
@@ -241,8 +211,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
-   "detalle_actualizado": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T19:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
   {
@@ -413,7 +383,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -445,7 +415,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -477,9 +447,81 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
+  },
+  {
+   "id": "CA:650-92-COT26",
+   "fuente": "compra_agil",
+   "codigo": "650-92-COT26",
+   "nombre": "Baterías Dron",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-07T16:24:00-03:00",
+   "fecha_cierre": "2026-10-15T15:39:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-14 15:35",
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
+   "unidad": "SERVIU II Región",
+   "region": "Región de Antofagasta ",
+   "monto": 700000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=650-92-COT26",
+   "descripcion": "Se requiere cotización para la adquisición de kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro, según las especificaciones adjuntas, el valor debe considerar flete e IVA, en el caso de empate en el valor ofertado se seleccionara al proveedor que cuente con el \"sello Mujer\" en su ficha de proveedor.",
+   "direccion_entrega": "Washington 2551",
+   "plazo_entrega_dias": 6,
+   "productos": [
+    "Baterías recargables — kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T19:05:10+00:00",
+   "primera_deteccion": "2026-10-07T20:32:51+00:00",
+   "cambio_estado": "2026-10-14T19:05:10+00:00"
+  },
+  {
+   "id": "CA:945256-59-COT26",
+   "fuente": "compra_agil",
+   "codigo": "945256-59-COT26",
+   "nombre": "DQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA Y CURSO PARA OBTENCION DE CREDENCIAL ANTE DGAC",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-14T15:17:00-03:00",
+   "fecha_cierre": "2026-10-16T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-14 15:20",
+   "organismo": "Zona de Bienestar Valparaíso",
+   "unidad": "Zona de Bienestar Valparaíso",
+   "region": "Región de Valparaíso ",
+   "monto": 1400000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=945256-59-COT26",
+   "descripcion": "ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA Y CURSO PARA OBTENCION DE CREDENCIAL ANTE DGAC, PARA SER UTILIZADO EN LA ZONA DE BIENESTAR VALPARAÍSO., LAS OFERTAS DEBERAN SER REALIZADAS CONFORME LOS REQUERIMIENTOS EN ARCHIVO ADJUNTO, EL PROVEEDOR QUE EN SU OFERTA NO INDIQUE O NO CUMPLA CON UNO O MÁS REQUISITOS, DICHA PROPUESTA SERÁ DECLARADA INADMISIBLE.",
+   "direccion_entrega": "13 NORTE 1034, VIÑA DEL MAR ",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Cámaras de seguridad — Sistema de Aeronave Pilotada a Distancia (Dron) Ultra Ligero con Kit de Autonomía Extendida y Control con Pantalla Integrada, DJI Mini 5 Pro Fly More Combo Plus (DJI RC 2) O SIMILAR: conforme a caracteristicas y especificaciones técnicas adjuntas.",
+    "Programas o cursos no diplomados a distancia — Curso Obtención de credencial DGAC operador de drone online: conforme a caracteristicas solicitadas"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada",
+    "Marcas (DJI, Autel…)",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T19:05:10+00:00",
+   "primera_deteccion": "2026-10-14T19:05:10+00:00"
   },
   {
    "id": "LIC:1437-16-LE26",
@@ -510,7 +552,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -543,7 +585,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -576,7 +618,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -608,7 +650,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -652,7 +694,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -691,7 +733,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -725,7 +767,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T17:01:31+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
@@ -766,7 +808,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -798,7 +840,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -830,7 +872,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -4902,41 +4944,6 @@
    "cambio_estado": "2026-10-08T19:05:11+00:00"
   },
   {
-   "id": "CA:650-92-COT26",
-   "fuente": "compra_agil",
-   "codigo": "650-92-COT26",
-   "nombre": "Baterías Dron",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-10-07T16:24:00-03:00",
-   "fecha_cierre": "2026-10-08T16:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-14T14:40:00.117Z",
-   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
-   "unidad": "SERVIU II Región",
-   "region": "Región de Antofagasta ",
-   "monto": 700000.0,
-   "moneda": "CLP",
-   "ofertas": 3,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=650-92-COT26",
-   "descripcion": "Se requiere cotización para la adquisición de kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro, según las especificaciones adjuntas, el valor debe considerar flete e IVA, en el caso de empate en el valor ofertado se seleccionara al proveedor que cuente con el \"sello Mujer\" en su ficha de proveedor.",
-   "direccion_entrega": "Washington 2551",
-   "plazo_entrega_dias": 6,
-   "productos": [
-    "Baterías recargables — kit de 3 (tres) baterías modelo FB2.3850mAh-15.4V para Drone Mavic 2 Pro"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
-   "detalle_actualizado": "2026-10-08T21:05:10+00:00",
-   "primera_deteccion": "2026-10-07T20:32:51+00:00",
-   "cambio_estado": "2026-10-14T18:05:13+00:00"
-  },
-  {
    "id": "CA:6-80-COT26",
    "fuente": "compra_agil",
    "codigo": "6-80-COT26",
@@ -5011,11 +5018,11 @@
    "fuente": "compra_agil",
    "codigo": "2755-326-COT26",
    "nombre": "BATERIAS Y HELICES PARA DRON PARA EL PROYECTO SOLUCIONES ESTRATEGICOS FOLIO 1261",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-06T11:36:00-03:00",
    "fecha_cierre": "2026-10-09T11:40:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-09T11:45:00.627Z",
+   "fecha_ultimo_cambio": "2026-10-14T16:05:00.870Z",
    "organismo": "I MUNICIPALIDAD DE SAN ANTONIO",
    "unidad": "IMunicipalidad de San Antonio",
    "region": "Región de Valparaíso ",
@@ -5037,10 +5044,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-13T22:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
-   "cambio_estado": "2026-10-09T15:05:12+00:00"
+   "cambio_estado": "2026-10-14T19:05:10+00:00"
   },
   {
    "id": "CA:1079659-433-COT26",
@@ -5459,7 +5466,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "ultima_actualizacion": "2026-10-14T19:05:10+00:00",
    "detalle_actualizado": "2026-10-08T21:05:10+00:00",
    "primera_deteccion": "2026-10-08T19:05:11+00:00",
    "cambio_estado": "2026-10-14T13:05:10+00:00"
@@ -5521,6 +5528,38 @@
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00",
    "cambio_estado": "2026-10-14T15:05:14+00:00"
+  },
+  {
+   "id": "LIC:1288419-8-LE26",
+   "fuente": "licitacion",
+   "codigo": "1288419-8-LE26",
+   "nombre": "Adquisición de un 01 Dron con cámara térmica para la Municipalidad de San Pedro de Atacama.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-14T15:20:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1288419-8-LE26",
+   "descripcion": "La Municipalidad de San Pedro de Atacama invita a participar en el proceso de licitación pública para la adquisición de un (1) Dron con cámara térmica para la Municipalidad de San Pedro de Atacama. El objetivo es dotar a la Dirección de Gestión del Riesgo de Desastres de la comuna de San Pedro de Atacama de un sistema aéreo no tripulado profesional, que permita fortalecer la capacidad de respuesta ante emergencias, apoyar labores de búsqueda y rescate, facilitar la evaluación de incendios y eventos críticos, y generar información geoespacial precisa para el análisis territorial y la actualización de los instrumentos de planificación de riesgo comunal.",
+   "organismo": "I MUNICIPALIDAD DE SAN PEDRO DE ATACAMA",
+   "unidad": "Gestion del Riesgo de Desastres",
+   "region": "Región de Antofagasta",
+   "comuna": "San Pedro de Atacama",
+   "fecha_publicacion": "2026-10-01T10:51:37-03:00",
+   "fecha_adjudicacion": "2026-11-06T18:21:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Adquisición de un (1) Dron con cámara térmica para la Municipalidad de San Pedro de Atacama, según \r\nlas especificaciones técnicas adjuntas."
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
+   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
    "id": "CA:5520-800-COT26",
