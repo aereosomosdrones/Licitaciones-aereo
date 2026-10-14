@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-14T21:05:12+00:00",
- "proxima_actualizacion": "2026-10-14T22:05:12+00:00",
+ "generado": "2026-10-14T22:05:10+00:00",
+ "proxima_actualizacion": "2026-10-14T23:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-14T21:05:12+00:00",
+   "ultima_ok": "2026-10-14T22:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4664,
-   "detalles_consultados": 30,
+   "revisadas": 4694,
+   "detalles_consultados": 56,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-14T21:05:12+00:00",
+   "ultima_ok": "2026-10-14T22:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 7,
-   "detalles_consultados": 3,
+   "revisadas": 8,
+   "detalles_consultados": 4,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:3553-81-COT26"
+ ],
  "items": [
   {
    "id": "CA:2297-1348-COT26",
@@ -175,7 +177,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
    "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
@@ -209,8 +211,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T21:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
   {
@@ -381,8 +383,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
@@ -413,8 +415,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -445,8 +447,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -479,8 +481,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T21:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-14T19:05:10+00:00"
   },
@@ -517,9 +519,43 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T21:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00"
+  },
+  {
+   "id": "CA:3553-81-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3553-81-COT26",
+   "nombre": "Adquisición de 6 PARACAIDAS DE SEGURIDAD INTELIGENTE DISEÑADO PARA PROTEGER DRONES",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-14T18:27:00-03:00",
+   "fecha_cierre": "2026-10-16T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-14 18:30",
+   "organismo": "MINISTERIO DE BIENES NACIONALES",
+   "unidad": "MINISTERIO DE BIENES NACIONALES",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1200000.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3553-81-COT26",
+   "descripcion": "6 PARACAIDAS DE SEGURIDAD INTELIGENTE DISEÑADO PARA PROTEGER DRONES.\nTipo FlyFire Manti 3 Plus, o similar, compatible Dron AUTEL EVO II Pro RTK V3.\n\nImagen de referencia en anexo adjunto.",
+   "direccion_entrega": "Avenida Libertador General Bernardo O´higgins N° 720, 4° piso.\t",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — 6 PARACAIDAS DE SEGURIDAD INTELIGENTE DISEÑADO PARA PROTEGER DRONES.\nTipo FlyFire Manti 3 Plus, o similar, compatible Dron AUTEL EVO II Pro RTK V3.\nImagen de referencia en anexo adjunto."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
+   "primera_deteccion": "2026-10-14T22:05:10+00:00"
   },
   {
    "id": "LIC:1437-16-LE26",
@@ -550,8 +586,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -583,8 +619,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
   {
@@ -616,8 +652,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
   {
@@ -648,8 +684,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
   {
@@ -692,8 +728,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
   {
@@ -731,8 +767,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
   {
@@ -765,7 +801,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
    "detalle_actualizado": "2026-10-14T17:01:31+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
@@ -806,8 +842,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -838,7 +874,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
    "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -870,8 +906,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -4490,8 +4526,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
@@ -4499,8 +4535,8 @@
    "fuente": "licitacion",
    "codigo": "2952-16-LE26",
    "nombre": "CURSO FUNDAMENTOS MANT. Y REP. RPAS MULTIROROTOR",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Adjudicada",
    "fecha_cierre": "2026-10-06T15:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2952-16-LE26",
    "descripcion": "LA NECESIDAD DE CONTRATAR EL CURSO DE FUNDAMENTOS PARA MANTENIMIENTO Y REPARACIÓN DE RPAS MULTIROTOR, SEGÚN ESPECIFICACIONES TÉCNICAS MENCIONADAS EN \"ANEXO A\" ADJUNTO.",
@@ -4509,7 +4545,7 @@
    "region": "Región del Biobío",
    "comuna": "Talcahuano",
    "fecha_publicacion": "2026-09-24T13:59:58-03:00",
-   "fecha_adjudicacion": "2026-10-16T16:30:00-03:00",
+   "fecha_adjudicacion": "2026-10-14T14:50:29-03:00",
    "monto": 75000.0,
    "moneda": "USD",
    "tipo": "LE",
@@ -4522,9 +4558,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "cambio_estado": "2026-10-14T22:05:10+00:00"
   },
   {
    "id": "CA:1238177-108-COT26",
@@ -4656,8 +4693,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T20:32:51+00:00"
   },
@@ -5042,7 +5079,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
    "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-14T19:05:10+00:00"
@@ -5115,8 +5152,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
   {
@@ -5354,8 +5391,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -5392,8 +5429,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
@@ -5427,8 +5464,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-13T19:05:12+00:00"
   },
@@ -5464,7 +5501,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T21:05:12+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
    "detalle_actualizado": "2026-10-08T21:05:10+00:00",
    "primera_deteccion": "2026-10-08T19:05:11+00:00",
    "cambio_estado": "2026-10-14T13:05:10+00:00"
@@ -5522,8 +5559,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00",
    "cambio_estado": "2026-10-14T15:05:14+00:00"
   },
@@ -5533,7 +5570,7 @@
    "codigo": "1288419-8-LE26",
    "nombre": "Adquisición de un 01 Dron con cámara térmica para la Municipalidad de San Pedro de Atacama.",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_cierre": "2026-10-14T15:20:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1288419-8-LE26",
    "descripcion": "La Municipalidad de San Pedro de Atacama invita a participar en el proceso de licitación pública para la adquisición de un (1) Dron con cámara térmica para la Municipalidad de San Pedro de Atacama. El objetivo es dotar a la Dirección de Gestión del Riesgo de Desastres de la comuna de San Pedro de Atacama de un sistema aéreo no tripulado profesional, que permita fortalecer la capacidad de respuesta ante emergencias, apoyar labores de búsqueda y rescate, facilitar la evaluación de incendios y eventos críticos, y generar información geoespacial precisa para el análisis territorial y la actualización de los instrumentos de planificación de riesgo comunal.",
@@ -5555,8 +5592,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T18:05:13+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T22:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T22:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
