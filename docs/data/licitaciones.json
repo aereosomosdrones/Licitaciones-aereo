@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-14T15:05:14+00:00",
- "proxima_actualizacion": "2026-10-14T16:05:14+00:00",
+ "generado": "2026-10-14T16:05:12+00:00",
+ "proxima_actualizacion": "2026-10-14T17:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-14T15:05:14+00:00",
+   "ultima_ok": "2026-10-14T16:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4630,
-   "detalles_consultados": 75,
+   "revisadas": 4665,
+   "detalles_consultados": 44,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-14T15:05:14+00:00",
+   "ultima_ok": "2026-10-14T16:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
@@ -106,7 +106,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -193,7 +193,7 @@
    "region": "Región Metropolitana de Santiago",
    "monto": 1422990.0,
    "moneda": "CLP",
-   "ofertas": 1,
+   "ofertas": 2,
    "url": "https://buscador.mercadopublico.cl/ficha?code=5578-29-COT26",
    "descripcion": "Dron con cámara aérea y kit de accesorios",
    "direccion_entrega": "Av Libertador Bernardo O'Higgins 1058",
@@ -207,8 +207,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
   {
@@ -241,8 +241,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
   {
@@ -413,7 +413,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -445,7 +445,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -477,7 +477,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -510,7 +510,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -543,7 +543,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -576,7 +576,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -608,7 +608,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -652,7 +652,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -691,7 +691,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -710,7 +710,7 @@
    "region": "Región del Libertador General Bernardo O´Higgins",
    "monto": 600000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=615-41-COT26",
    "descripcion": "Servicio de Mantención y Reparación de Dron con el propósito de garantizar el correcto funcionamiento, la operatividad continua y la seguridad del equipo aéreo no tripulado utilizado para labores de monitoreo territorial, inspección de obras, levantamientos fotogramétricos y registro audiovisual de proyectos urbanos y habitacionales",
    "direccion_entrega": "Av. Alameda N° 176",
@@ -725,8 +725,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
   {
@@ -766,7 +766,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -798,8 +798,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-14T10:05:10+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
   {
@@ -830,7 +830,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T15:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -5459,7 +5459,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-14T16:05:12+00:00",
    "detalle_actualizado": "2026-10-08T21:05:10+00:00",
    "primera_deteccion": "2026-10-08T19:05:11+00:00",
    "cambio_estado": "2026-10-14T13:05:10+00:00"
