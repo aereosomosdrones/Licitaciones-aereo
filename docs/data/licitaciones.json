@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-15T20:05:12+00:00",
- "proxima_actualizacion": "2026-10-15T21:05:12+00:00",
+ "generado": "2026-10-15T21:05:15+00:00",
+ "proxima_actualizacion": "2026-10-15T22:05:15+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T20:05:12+00:00",
+   "ultima_ok": "2026-10-15T21:05:15+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4739,
-   "detalles_consultados": 95,
+   "revisadas": 4804,
+   "detalles_consultados": 90,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T20:05:12+00:00",
+   "ultima_ok": "2026-10-15T21:05:15+00:00",
    "errores_detalle": 0,
    "advertencias": [
-    "2 de 15 búsquedas no respondieron: dron, drones"
+    "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 5,
-   "detalles_consultados": 1,
+   "revisadas": 15,
+   "detalles_consultados": 5,
    "modo": "incremental"
   }
  },
@@ -77,8 +77,8 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "LIC:1079563-36-LP26",
-  "CA:1388961-190-COT26"
+  "LIC:612-44-LE26",
+  "CA:5578-32-COT26"
  ],
  "items": [
   {
@@ -153,6 +153,39 @@
    "primera_deteccion": "2026-10-14T22:05:10+00:00"
   },
   {
+   "id": "CA:5578-32-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5578-32-COT26",
+   "nombre": "Dron con cámara aérea y kit de accesorios",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-15T16:13:00-03:00",
+   "fecha_cierre": "2026-10-16T16:15:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-15 16:15",
+   "organismo": "UNIVERSIDAD DE CHILE",
+   "unidad": "VEX  Dirección de Comunicaciones",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1422990.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5578-32-COT26",
+   "descripcion": "Dron con cámara aérea y kit de accesorios",
+   "direccion_entrega": "Av Libertador Bernardo O'Higgins 1058",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Cámaras aéreas — Dron con cámara aérea y kit de accesorios"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
+   "detalle_actualizado": "2026-10-15T21:05:15+00:00",
+   "primera_deteccion": "2026-10-15T21:05:15+00:00"
+  },
+  {
    "id": "CA:1388961-190-COT26",
    "fuente": "compra_agil",
    "codigo": "1388961-190-COT26",
@@ -182,8 +215,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
-   "detalle_actualizado": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
+   "detalle_actualizado": "2026-10-15T21:05:15+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
   {
@@ -215,7 +248,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00"
   },
@@ -248,7 +281,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -281,7 +314,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -314,7 +347,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -346,7 +379,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -390,7 +423,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -429,7 +462,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -504,7 +537,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -537,9 +570,41 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T20:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
+  },
+  {
+   "id": "LIC:612-44-LE26",
+   "fuente": "licitacion",
+   "codigo": "612-44-LE26",
+   "nombre": "Adquisición de 3 Workstations teclado y mouse",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-26T20:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=612-44-LE26",
+   "descripcion": "Adquirir tres estaciones de trabajo workstations de alto desempeño destinadas a fortalecer las capacidades de procesamiento y análisis del Departamento de Inteligencia Fitozoosanitaria y de los Recursos Naturales del Servicio Agrícola y Ganadero, permitiendo gestionar y procesar eficientemente grandes volúmenes de datos, información geoespacial, imágenes satelitales e imágenes de alta resolución obtenidas mediante drones, así como ejecutar modelos analíticos y de inteligencia territorial orientados a la detección temprana, evaluación y monitoreo de riesgos, plagas, enfermedades y otras amenazas emergentes.",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "Servicio Agricola y Ganadero (SAG central)",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago",
+   "fecha_publicacion": "2026-10-15T17:57:09-03:00",
+   "fecha_adjudicacion": "2026-11-09T17:00:00-03:00",
+   "monto": 14600000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Computadores de escritorio — Adquisición de 3 estaciones de trabajo (Workstations) de alto rendimiento + teclado + mouse"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
+   "detalle_actualizado": "2026-10-15T21:05:15+00:00",
+   "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
   {
    "id": "LIC:1242997-1-LE26",
@@ -569,7 +634,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T19:01:36+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -600,7 +665,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -632,7 +697,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -667,8 +732,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
-   "detalle_actualizado": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
+   "detalle_actualizado": "2026-10-15T21:05:15+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
   {
@@ -699,7 +764,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T18:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -730,7 +795,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T19:01:36+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -2535,7 +2600,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "La Universidad de Tarapacá requiere adquirir un dron con su respectivo equipamiento y accesorios, destinado al levantamiento, inspección y registro audiovisual de la infraestructura de sus distintas sedes y anexos. Asimismo, permitirá apoyar la evaluación de terrenos e inmuebles y desarrollar levantamientos topográficos para la planificación de futuros proyectos institucionales.",
    "direccion_entrega": "Recabarren N°2734",
@@ -4615,7 +4680,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -4798,8 +4863,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
-   "detalle_actualizado": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
+   "detalle_actualizado": "2026-10-15T21:05:15+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00"
   },
@@ -5525,7 +5590,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
@@ -5559,7 +5624,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
@@ -5594,7 +5659,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
@@ -5663,7 +5728,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-09T20:05:10+00:00",
    "cambio_estado": "2026-10-15T14:50:49+00:00"
@@ -5697,7 +5762,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-15T14:50:49+00:00"
@@ -5726,7 +5791,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -5865,7 +5930,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00"
@@ -5899,8 +5964,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
-   "detalle_actualizado": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T21:05:15+00:00",
+   "detalle_actualizado": "2026-10-15T21:05:15+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00"
   },
