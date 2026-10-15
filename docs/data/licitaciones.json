@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-15T19:01:36+00:00",
- "proxima_actualizacion": "2026-10-15T20:01:36+00:00",
+ "generado": "2026-10-15T20:05:12+00:00",
+ "proxima_actualizacion": "2026-10-15T21:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T19:01:36+00:00",
+   "ultima_ok": "2026-10-15T20:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4676,
-   "detalles_consultados": 53,
+   "revisadas": 4739,
+   "detalles_consultados": 95,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T19:01:36+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-15T20:05:12+00:00",
+   "errores_detalle": 0,
    "advertencias": [
-    "1 de 15 búsquedas no respondieron: drones"
+    "2 de 15 búsquedas no respondieron: dron, drones"
    ],
-   "revisadas": 12,
-   "detalles_consultados": 3,
+   "revisadas": 5,
+   "detalles_consultados": 1,
    "modo": "incremental"
   }
  },
@@ -77,7 +77,8 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "LIC:1882-3-LP26"
+  "LIC:1079563-36-LP26",
+  "CA:1388961-190-COT26"
  ],
  "items": [
   {
@@ -152,6 +153,40 @@
    "primera_deteccion": "2026-10-14T22:05:10+00:00"
   },
   {
+   "id": "CA:1388961-190-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1388961-190-COT26",
+   "nombre": "176.-ADQUISICIÓN DE PÓLIZA DE SEGURO PARA DRONES MARCA DJI",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-15T16:18:00-03:00",
+   "fecha_cierre": "2026-10-16T16:20:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-15 16:20",
+   "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
+   "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 25.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1388961-190-COT26",
+   "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
+   "direccion_entrega": "Av el Rodeo 13.541",
+   "plazo_entrega_dias": 7,
+   "productos": [
+    "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-15T20:05:12+00:00",
+   "primera_deteccion": "2026-10-15T20:05:12+00:00"
+  },
+  {
    "id": "CA:2332-954-COT26",
    "fuente": "compra_agil",
    "codigo": "2332-954-COT26",
@@ -213,7 +248,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -246,7 +281,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -279,7 +314,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -311,7 +346,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -355,7 +390,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -394,7 +429,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -469,9 +504,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
+  },
+  {
+   "id": "LIC:1079563-36-LP26",
+   "fuente": "licitacion",
+   "codigo": "1079563-36-LP26",
+   "nombre": "ADQ. AERONAVES NO TRIPULADAS Y EQUIPOS PARA RPAS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-26T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079563-36-LP26",
+   "descripcion": "ADQUISICIÓN DE AERONAVES NO TRIPULADAS Y EQUIPOS PARA LA SECCIÓN RPAS O’HIGGINS DE LA ZONA DE CARABINEROS DEL LIBERTADOR BERNARDO O’HIGGINS DE CARABINEROS DE CHILE",
+   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+   "unidad": "SEC DE COMPRAS ZONA DE CARAB LIB BERNARDO OHIGGINS",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "comuna": "Rancagua",
+   "fecha_publicacion": "2026-10-15T16:51:49-03:00",
+   "fecha_adjudicacion": "2026-11-20T20:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — LÍNEA N° 1 - ADQUISICIÓN DE AERONAVES NO TRIPULADAS",
+    "Sistema de transmisión por secuencias de video — LÍNEA N° 2 - ADQUISICIÓN DE SISTEMA DE TRANSMISIÓN PORTÁTIL"
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-15T20:05:12+00:00",
+   "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
   {
    "id": "LIC:1242997-1-LE26",
@@ -501,7 +569,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T19:01:36+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -532,7 +600,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -564,7 +632,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -599,7 +667,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T14:05:14+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -631,7 +699,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T18:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -662,7 +730,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-15T19:01:36+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -4547,7 +4615,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -5526,7 +5594,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
@@ -5658,7 +5726,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -5797,7 +5865,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T19:01:36+00:00",
+   "ultima_actualizacion": "2026-10-15T20:05:12+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00"
