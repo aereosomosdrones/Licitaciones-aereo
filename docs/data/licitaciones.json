@@ -1,25 +1,25 @@
 {
- "generado": "2026-10-15T14:50:49+00:00",
- "proxima_actualizacion": "2026-10-15T15:50:49+00:00",
+ "generado": "2026-10-15T15:05:16+00:00",
+ "proxima_actualizacion": "2026-10-15T16:05:16+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T14:50:49+00:00",
+   "ultima_ok": "2026-10-15T15:05:16+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4758,
-   "detalles_consultados": 33,
+   "revisadas": 4756,
+   "detalles_consultados": 15,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T14:50:49+00:00",
+   "ultima_ok": "2026-10-15T15:05:16+00:00",
    "errores_detalle": 0,
    "advertencias": [
-    "2 de 15 búsquedas no respondieron: drones, RPAS"
+    "1 de 15 búsquedas no respondieron: drones"
    ],
    "revisadas": 9,
    "detalles_consultados": 4,
@@ -79,40 +79,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "CA:1388961-170-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1388961-170-COT26",
-   "nombre": "176.-ADQUISICIÓN DE PÓLIZA DE SEGURO PARA DRONES MARCA DJI",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-09-25T12:06:00-03:00",
-   "fecha_cierre": "2026-10-15T11:59:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-13T11:40:01.417Z",
-   "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
-   "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1025407.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1388961-170-COT26",
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
-   "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
-   "plazo_entrega_dias": 7,
-   "productos": [
-    "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
-   ],
-   "detalle_actualizado": "2026-10-13T21:05:12+00:00"
-  },
-  {
    "id": "LIC:4291-52-L126",
    "fuente": "licitacion",
    "codigo": "4291-52-L126",
@@ -143,7 +109,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -175,7 +141,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -207,7 +173,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -346,8 +312,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
-   "detalle_actualizado": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
+   "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00"
   },
   {
@@ -379,7 +345,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -412,7 +378,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -445,7 +411,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -477,7 +443,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -521,7 +487,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -560,7 +526,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -635,7 +601,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -667,7 +633,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T12:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -699,7 +665,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -734,7 +700,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-15T14:05:14+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -2539,7 +2505,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "La Universidad de Tarapacá requiere adquirir un dron con su respectivo equipamiento y accesorios, destinado al levantamiento, inspección y registro audiovisual de la infraestructura de sus distintas sedes y anexos. Asimismo, permitirá apoyar la evaluación de terrenos e inmuebles y desarrollar levantamientos topográficos para la planificación de futuros proyectos institucionales.",
    "direccion_entrega": "Recabarren N°2734",
@@ -4619,7 +4585,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -5529,7 +5495,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
@@ -5563,8 +5529,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
-   "detalle_actualizado": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
+   "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
   },
@@ -5597,7 +5563,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00"
@@ -5632,7 +5598,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
@@ -5701,8 +5667,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
-   "detalle_actualizado": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
+   "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-09T20:05:10+00:00",
    "cambio_estado": "2026-10-15T14:50:49+00:00"
   },
@@ -5735,10 +5701,44 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
-   "detalle_actualizado": "2026-10-15T14:50:49+00:00",
+   "ultima_actualizacion": "2026-10-15T15:05:16+00:00",
+   "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-15T14:50:49+00:00"
+  },
+  {
+   "id": "CA:1388961-170-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1388961-170-COT26",
+   "nombre": "176.-ADQUISICIÓN DE PÓLIZA DE SEGURO PARA DRONES MARCA DJI",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-09-25T12:06:00-03:00",
+   "fecha_cierre": "2026-10-15T11:59:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-13T11:40:01.417Z",
+   "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
+   "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1025407.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1388961-170-COT26",
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
+   "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
+   "plazo_entrega_dias": 7,
+   "productos": [
+    "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
+   ],
+   "detalle_actualizado": "2026-10-13T21:05:12+00:00"
   },
   {
    "id": "CA:5520-800-COT26",
