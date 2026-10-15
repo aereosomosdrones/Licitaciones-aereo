@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-15T12:05:12+00:00",
- "proxima_actualizacion": "2026-10-15T13:05:12+00:00",
+ "generado": "2026-10-15T13:05:11+00:00",
+ "proxima_actualizacion": "2026-10-15T14:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T12:05:12+00:00",
+   "ultima_ok": "2026-10-15T13:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4694,
-   "detalles_consultados": 15,
+   "revisadas": 4714,
+   "detalles_consultados": 34,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T12:05:12+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-15T13:05:11+00:00",
+   "errores_detalle": 2,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 3,
-   "detalles_consultados": 2,
+   "revisadas": 6,
+   "detalles_consultados": 4,
    "modo": "incremental"
   }
  },
@@ -76,75 +76,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:2332-954-COT26"
+ ],
  "items": [
-  {
-   "id": "CA:5578-29-COT26",
-   "fuente": "compra_agil",
-   "codigo": "5578-29-COT26",
-   "nombre": "Dron con cámara aérea y kit de accesorios",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-14T09:10:00-03:00",
-   "fecha_cierre": "2026-10-15T09:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-14T09:15:00.757Z",
-   "organismo": "UNIVERSIDAD DE CHILE",
-   "unidad": "VEX  Dirección de Comunicaciones",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1422990.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5578-29-COT26",
-   "descripcion": "Dron con cámara aérea y kit de accesorios",
-   "direccion_entrega": "Av Libertador Bernardo O'Higgins 1058",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Cámaras aéreas — Dron con cámara aérea y kit de accesorios"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
-   "detalle_actualizado": "2026-10-14T16:05:12+00:00",
-   "primera_deteccion": "2026-10-14T13:05:10+00:00"
-  },
-  {
-   "id": "CA:1080286-182-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1080286-182-COT26",
-   "nombre": "ADQUISICION DE SISTEMA DE TRASMISION DE VIDEO PARA DRON DE CARGO DE LA SECCION RPAS.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-14T09:47:00-03:00",
-   "fecha_cierre": "2026-10-15T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-14 09:50",
-   "organismo": "SECCIÓN COMPRAS ZONA METROPOLITANA",
-   "unidad": "SECCIÓN COMPRAS ZONA METROPOLITANA",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 445500.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1080286-182-COT26",
-   "descripcion": "ADQUISICION DE SISTEMA DE TRASMISION DE VIDEO PARA DRON DE CARGO DE LA SECCION RPAS, CONFORME A REQUERIMIENTO TECNICO ADJUNTO, LOS OFERENTES DEBERAN ADJUNTAR UNA COTIZACION DETALLADA DEL PRODUCTO OFRECIDO, CON UNA IMAGEN REFERENCIAL.",
-   "direccion_entrega": "CARRION NRO. 1795",
-   "plazo_entrega_dias": 4,
-   "productos": [
-    "Sistema de transmisión por secuencias de video — 2 MICRO COVERTIDORES HDMI A SDI, CONFORME A REQUERIMIENTO TECNICO ADJUNTO, LOS OFERENTES DEBERAN ADJUNTAR UNA COTIZACION DETALLADA DEL PRODUCTO OFRECIDO, CON UNA IMAGEN REFERENCIAL."
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
-   "detalle_actualizado": "2026-10-14T23:05:10+00:00",
-   "primera_deteccion": "2026-10-14T13:05:10+00:00"
-  },
   {
    "id": "CA:2585-1276-COT26",
    "fuente": "compra_agil",
@@ -313,7 +248,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -345,7 +280,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -377,7 +312,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -488,6 +423,39 @@
    "primera_deteccion": "2026-10-14T22:05:10+00:00"
   },
   {
+   "id": "CA:2332-954-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2332-954-COT26",
+   "nombre": "N° 8210 Dron para Programa MAIS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-15T09:32:00-03:00",
+   "fecha_cierre": "2026-10-19T08:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-15 09:35",
+   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
+   "unidad": "Oficina de Adquisiciones del Departamento de Salud",
+   "region": "Región de los Lagos ",
+   "monto": 1000000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2332-954-COT26",
+   "descripcion": "SE DEBE SUBIR DOCUMENTACIÓN SOLICITADA EN LAS ESPECIFICACIONES TÉCNICAS ADJUNTAS. ANEXO DE IDENTIFICACIÓN DEBE INCLUIR LOS DATOS DEL PROVEEDOR Y LA CUENTA DE PAGO, DEBE INCORPORARSE EN LA OFERTA, O SERA SOLICITADA POR CORREO ELECTRÓNICO UNA VEZ ADJUDICADO EL PROVEEDOR. SI NO SE ADJUNTA TODA LA DEMAS DOCUMENTACIÓN SOLICITADA, LA OFERTA SERÁ RECHAZADA.",
+   "direccion_entrega": "Avenida ferrocarril Km 3.5 ruta V-505 Bodega 3, horario de atención lunes a Jueves 08:30-12:30 / 14:30-16:30, Viernes 08:30-12:30 / 14:30-15:30.",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Mini dron, SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "detalle_actualizado": "2026-10-15T13:05:11+00:00",
+   "primera_deteccion": "2026-10-15T13:05:11+00:00"
+  },
+  {
    "id": "LIC:1437-16-LE26",
    "fuente": "licitacion",
    "codigo": "1437-16-LE26",
@@ -516,7 +484,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -549,7 +517,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -582,7 +550,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -614,7 +582,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -658,7 +626,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -697,7 +665,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -772,7 +740,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -804,7 +772,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T12:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -836,7 +804,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -2641,7 +2609,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "La Universidad de Tarapacá requiere adquirir un dron con su respectivo equipamiento y accesorios, destinado al levantamiento, inspección y registro audiovisual de la infraestructura de sus distintas sedes y anexos. Asimismo, permitirá apoyar la evaluación de terrenos e inmuebles y desarrollar levantamientos topográficos para la planificación de futuros proyectos institucionales.",
    "direccion_entrega": "Recabarren N°2734",
@@ -4702,11 +4670,11 @@
    "fuente": "compra_agil",
    "codigo": "4085-457-COT26",
    "nombre": "ADQUISICIÓN DE DRONE",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-05T13:52:00-03:00",
    "fecha_cierre": "2026-10-08T10:13:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-08T10:20:00.597Z",
+   "fecha_ultimo_cambio": "2026-10-15T09:30:00.670Z",
    "organismo": "I MUNICIPALIDAD DE LONGAVI",
    "unidad": "Depto. de Secplan",
    "region": "Región del Maule ",
@@ -4721,9 +4689,9 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "cambio_estado": "2026-10-08T14:05:17+00:00",
+   "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
    "direccion_entrega": "la Bodega Municipal, ubicada en 1 Sur, entre 1 y 2 Oriente (Portón Verde), Longaví,",
    "plazo_entrega_dias": 1,
@@ -5631,7 +5599,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
@@ -5665,10 +5633,78 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T12:05:12+00:00",
-   "detalle_actualizado": "2026-10-15T12:05:12+00:00",
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "detalle_actualizado": "2026-10-15T13:05:11+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
+  },
+  {
+   "id": "CA:5578-29-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5578-29-COT26",
+   "nombre": "Dron con cámara aérea y kit de accesorios",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-14T09:10:00-03:00",
+   "fecha_cierre": "2026-10-15T09:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-15T09:35:01.067Z",
+   "organismo": "UNIVERSIDAD DE CHILE",
+   "unidad": "VEX  Dirección de Comunicaciones",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1422990.0,
+   "moneda": "CLP",
+   "ofertas": 17,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5578-29-COT26",
+   "descripcion": "Dron con cámara aérea y kit de accesorios",
+   "direccion_entrega": "Av Libertador Bernardo O'Higgins 1058",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Cámaras aéreas — Dron con cámara aérea y kit de accesorios"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "detalle_actualizado": "2026-10-14T16:05:12+00:00",
+   "primera_deteccion": "2026-10-14T13:05:10+00:00",
+   "cambio_estado": "2026-10-15T13:05:11+00:00"
+  },
+  {
+   "id": "CA:1080286-182-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1080286-182-COT26",
+   "nombre": "ADQUISICION DE SISTEMA DE TRASMISION DE VIDEO PARA DRON DE CARGO DE LA SECCION RPAS.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-14T09:47:00-03:00",
+   "fecha_cierre": "2026-10-15T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-14 09:50",
+   "organismo": "SECCIÓN COMPRAS ZONA METROPOLITANA",
+   "unidad": "SECCIÓN COMPRAS ZONA METROPOLITANA",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 445500.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1080286-182-COT26",
+   "descripcion": "ADQUISICION DE SISTEMA DE TRASMISION DE VIDEO PARA DRON DE CARGO DE LA SECCION RPAS, CONFORME A REQUERIMIENTO TECNICO ADJUNTO, LOS OFERENTES DEBERAN ADJUNTAR UNA COTIZACION DETALLADA DEL PRODUCTO OFRECIDO, CON UNA IMAGEN REFERENCIAL.",
+   "direccion_entrega": "CARRION NRO. 1795",
+   "plazo_entrega_dias": 4,
+   "productos": [
+    "Sistema de transmisión por secuencias de video — 2 MICRO COVERTIDORES HDMI A SDI, CONFORME A REQUERIMIENTO TECNICO ADJUNTO, LOS OFERENTES DEBERAN ADJUNTAR UNA COTIZACION DETALLADA DEL PRODUCTO OFRECIDO, CON UNA IMAGEN REFERENCIAL."
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
+   "detalle_actualizado": "2026-10-14T23:05:10+00:00",
+   "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
   {
    "id": "CA:5520-800-COT26",
