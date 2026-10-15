@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-15T14:05:14+00:00",
- "proxima_actualizacion": "2026-10-15T15:05:14+00:00",
+ "generado": "2026-10-15T14:50:49+00:00",
+ "proxima_actualizacion": "2026-10-15T15:50:49+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T14:05:14+00:00",
+   "ultima_ok": "2026-10-15T14:50:49+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4730,
-   "detalles_consultados": 32,
+   "revisadas": 4758,
+   "detalles_consultados": 33,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T14:05:14+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-15T14:50:49+00:00",
+   "errores_detalle": 0,
    "advertencias": [
-    "1 de 15 búsquedas no respondieron: drones"
+    "2 de 15 búsquedas no respondieron: drones, RPAS"
    ],
-   "revisadas": 7,
-   "detalles_consultados": 3,
+   "revisadas": 9,
+   "detalles_consultados": 4,
    "modo": "incremental"
   }
  },
@@ -76,113 +76,8 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "LIC:4631-24-LP26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:2585-1276-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2585-1276-COT26",
-   "nombre": "SEGURO DE RESPONSABILIDAD CIVIL DE DRONES, DIPRESEH, ORD N° 1083/2026, LSV, IMA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-09-29T11:11:00-03:00",
-   "fecha_cierre": "2026-10-15T11:08:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-13T13:20:00.397Z",
-   "organismo": "I MUNICIPALIDAD DE ARICA",
-   "unidad": "FINANZAS IMA",
-   "region": "Región de Arica y Parinacota",
-   "monto": 3850000.0,
-   "moneda": "CLP",
-   "ofertas": 2,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2585-1276-COT26",
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00",
-   "descripcion": "AL COTIZAR AGREGAR LOS DATOS DE CONTACTO, TALES COMO: NOMBRE, TELÉFONO Y CORREO ELECTRÓNICO. (PARA CUALQUIER EVENTUALIDAD).\nTENER PRESENTE, QUE AL MOMENTO DE CONTRATAR DEBE PERTENECER AL GIRO, RUBRO Y ACTIVIDAD ECONÓMICA A OBJETO DEL REQUERIMIENTO.\nEN EL CASO DE AGREGAR CARGOS O FLETES, INCLUIRLOS EN VALOR DE LOS PRODUCTOS Y/O SERVICIOS.\nEL PLAZO DE ENTREGA COMENZARÁ A REGIR DESPUÉS DE LAS 24 HRS DE ENVIADA LA ORDEN DE COMPRA, NO SE ACEPTARÁN OTROS ACUERDOS EN LAS OFERTAS DE LOS PROVEEDORES.",
-   "direccion_entrega": "OTRA FORMA DE ENTREGA",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Seguros contra accidentes — POLIZAS DE SEGUROS DE RESPONSABILIDAD CIVIL DE DRONES, CON VIGENCIA DE 1 AÑO, SE ADJUNTAN ESPECIFICACIONES TECNICAS."
-   ],
-   "detalle_actualizado": "2026-10-05T18:56:09+00:00",
-   "cambio_estado": "2026-10-13T22:05:13+00:00"
-  },
-  {
-   "id": "CA:2273-846-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2273-846-COT26",
-   "nombre": "MANTENCION Y REPARACION DE DRON. EXP 14466 MEMORANDUM ear.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-09T16:51:00-03:00",
-   "fecha_cierre": "2026-10-15T11:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-09 16:55",
-   "organismo": "I MUNICIPALIDAD DE LA PINTANA",
-   "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 5000000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2273-846-COT26",
-   "descripcion": "LOS PROVEEDORES PARTICIPANTES DEBERÁN SUBIR SUS OFERTAS EN EL FORMULARIO DE COTIZACIÓN ESTABLECIDO EN LA PLATAFORMA DE MERCADO PÚBLICO. EN CASO DE ADJUNTAR UN ANEXO CON EL DETALLE DE LA COTIZACIÓN, ÉSTE DEBE COINCIDIR CON LA COTIZACIÓN ELECTRÓNICA DE MERCADO PÚBLICO. DE EXISTIR INCONSISTENCIA ENTRE EL FORMATO ELECTRÓNICO Y EL FORMATO ADJUNTO, LA COTIZACIÓN NO SERÁ CONSIDERADA EN LA EVALUACIÓN DE LAS OFERTAS. ver más en anexo adjunto",
-   "direccion_entrega": "LOS TILOS N° 037 REFERENCIA PARADERO 47 SANTA ROSA",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Cámaras de seguridad — Drones DJI - MAVIC 3 TERMAl, ver detalle de lo requerido en anexo adjunto.",
-    "Cámaras para microfilmar — Dron MATRICE 350, Mantención preventiva dron con 1 año de uso, MATRICE 350. 4 Baterías de repuestos nuevas para MATRICE 350 (Batería Inteligente DJI TB 65).\n"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
-   "detalle_actualizado": "2026-10-14T23:05:10+00:00",
-   "primera_deteccion": "2026-10-09T20:05:10+00:00"
-  },
-  {
-   "id": "CA:2427-1125-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2427-1125-COT26",
-   "nombre": "Adquisición de repuestos para dron, DSC.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-07T10:59:00-03:00",
-   "fecha_cierre": "2026-10-15T11:46:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-13 12:50",
-   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
-   "unidad": "ABASTECIMIENTO",
-   "region": "Región de Valparaíso ",
-   "monto": 350000.0,
-   "moneda": "CLP",
-   "ofertas": 2,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1125-COT26",
-   "descripcion": "Pedido N°19 DSC.\nAdquisición de repuestos para dron. Monto referencial $350.000.- según detalle y TDR adjunto. Se deberá indicar expresamente el plazo de entrega. En caso de no señalarlo, se entenderá aceptado el establecido en el TDR. *IMPORTANTE* POR FAVOR ADJUNTAR COTIZACIÓN FORMAL Y PATENTE MUNICIPAL VIGENTE (EN EL CASO DE NO ADJUNTAR, SE SOLICITARA MEDIANTE CORREO ADJUNTAR LO SOLICITADO CON UN PLAZO MAXIMO DE 24 HRS)",
-   "direccion_entrega": "Victoria 2579",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Accesorios eléctricos — Repuesto para dron: BC. EN. SSOOO662.01 - DOWNWARD GIMBAL VIBRATION DAMPING MODULE, según TTR adjunto."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
-   "detalle_actualizado": "2026-10-14T23:05:10+00:00",
-   "primera_deteccion": "2026-10-07T14:05:15+00:00",
-   "cambio_estado": "2026-10-13T15:51:22+00:00"
-  },
   {
    "id": "CA:1388961-170-COT26",
    "fuente": "compra_agil",
@@ -248,7 +143,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -280,7 +175,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -312,7 +207,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -451,8 +346,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
-   "detalle_actualizado": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "detalle_actualizado": "2026-10-15T14:50:49+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00"
   },
   {
@@ -484,7 +379,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -517,7 +412,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -550,7 +445,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -582,7 +477,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -626,7 +521,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -665,7 +560,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -740,7 +635,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -772,7 +667,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T12:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -804,7 +699,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -839,7 +734,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-15T14:05:14+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -2644,7 +2539,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "La Universidad de Tarapacá requiere adquirir un dron con su respectivo equipamiento y accesorios, destinado al levantamiento, inspección y registro audiovisual de la infraestructura de sus distintas sedes y anexos. Asimismo, permitirá apoyar la evaluación de terrenos e inmuebles y desarrollar levantamientos topográficos para la planificación de futuros proyectos institucionales.",
    "direccion_entrega": "Recabarren N°2734",
@@ -4724,7 +4619,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -5634,7 +5529,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
@@ -5668,8 +5563,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
-   "detalle_actualizado": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "detalle_actualizado": "2026-10-15T14:50:49+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
   },
@@ -5702,7 +5597,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00"
@@ -5737,9 +5632,113 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
+  },
+  {
+   "id": "CA:2585-1276-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2585-1276-COT26",
+   "nombre": "SEGURO DE RESPONSABILIDAD CIVIL DE DRONES, DIPRESEH, ORD N° 1083/2026, LSV, IMA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-09-29T11:11:00-03:00",
+   "fecha_cierre": "2026-10-15T11:08:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-13T13:20:00.397Z",
+   "organismo": "I MUNICIPALIDAD DE ARICA",
+   "unidad": "FINANZAS IMA",
+   "region": "Región de Arica y Parinacota",
+   "monto": 3850000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2585-1276-COT26",
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "descripcion": "AL COTIZAR AGREGAR LOS DATOS DE CONTACTO, TALES COMO: NOMBRE, TELÉFONO Y CORREO ELECTRÓNICO. (PARA CUALQUIER EVENTUALIDAD).\nTENER PRESENTE, QUE AL MOMENTO DE CONTRATAR DEBE PERTENECER AL GIRO, RUBRO Y ACTIVIDAD ECONÓMICA A OBJETO DEL REQUERIMIENTO.\nEN EL CASO DE AGREGAR CARGOS O FLETES, INCLUIRLOS EN VALOR DE LOS PRODUCTOS Y/O SERVICIOS.\nEL PLAZO DE ENTREGA COMENZARÁ A REGIR DESPUÉS DE LAS 24 HRS DE ENVIADA LA ORDEN DE COMPRA, NO SE ACEPTARÁN OTROS ACUERDOS EN LAS OFERTAS DE LOS PROVEEDORES.",
+   "direccion_entrega": "OTRA FORMA DE ENTREGA",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Seguros contra accidentes — POLIZAS DE SEGUROS DE RESPONSABILIDAD CIVIL DE DRONES, CON VIGENCIA DE 1 AÑO, SE ADJUNTAN ESPECIFICACIONES TECNICAS."
+   ],
+   "detalle_actualizado": "2026-10-05T18:56:09+00:00",
+   "cambio_estado": "2026-10-13T22:05:13+00:00"
+  },
+  {
+   "id": "CA:2273-846-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2273-846-COT26",
+   "nombre": "MANTENCION Y REPARACION DE DRON. EXP 14466 MEMORANDUM ear.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-09T16:51:00-03:00",
+   "fecha_cierre": "2026-10-15T11:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-15 11:35",
+   "organismo": "I MUNICIPALIDAD DE LA PINTANA",
+   "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 5000000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2273-846-COT26",
+   "descripcion": "LOS PROVEEDORES PARTICIPANTES DEBERÁN SUBIR SUS OFERTAS EN EL FORMULARIO DE COTIZACIÓN ESTABLECIDO EN LA PLATAFORMA DE MERCADO PÚBLICO. EN CASO DE ADJUNTAR UN ANEXO CON EL DETALLE DE LA COTIZACIÓN, ÉSTE DEBE COINCIDIR CON LA COTIZACIÓN ELECTRÓNICA DE MERCADO PÚBLICO. DE EXISTIR INCONSISTENCIA ENTRE EL FORMATO ELECTRÓNICO Y EL FORMATO ADJUNTO, LA COTIZACIÓN NO SERÁ CONSIDERADA EN LA EVALUACIÓN DE LAS OFERTAS. ver más en anexo adjunto",
+   "direccion_entrega": "LOS TILOS N° 037 REFERENCIA PARADERO 47 SANTA ROSA",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Cámaras de seguridad — Drones DJI - MAVIC 3 TERMAl, ver detalle de lo requerido en anexo adjunto.",
+    "Cámaras para microfilmar — Dron MATRICE 350, Mantención preventiva dron con 1 año de uso, MATRICE 350. 4 Baterías de repuestos nuevas para MATRICE 350 (Batería Inteligente DJI TB 65).\n"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "detalle_actualizado": "2026-10-15T14:50:49+00:00",
+   "primera_deteccion": "2026-10-09T20:05:10+00:00",
+   "cambio_estado": "2026-10-15T14:50:49+00:00"
+  },
+  {
+   "id": "CA:2427-1125-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2427-1125-COT26",
+   "nombre": "Adquisición de repuestos para dron, DSC.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-10-07T10:59:00-03:00",
+   "fecha_cierre": "2026-10-15T11:46:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-15 11:50",
+   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
+   "unidad": "ABASTECIMIENTO",
+   "region": "Región de Valparaíso ",
+   "monto": 350000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1125-COT26",
+   "descripcion": "Pedido N°19 DSC.\nAdquisición de repuestos para dron. Monto referencial $350.000.- según detalle y TDR adjunto. Se deberá indicar expresamente el plazo de entrega. En caso de no señalarlo, se entenderá aceptado el establecido en el TDR. *IMPORTANTE* POR FAVOR ADJUNTAR COTIZACIÓN FORMAL Y PATENTE MUNICIPAL VIGENTE (EN EL CASO DE NO ADJUNTAR, SE SOLICITARA MEDIANTE CORREO ADJUNTAR LO SOLICITADO CON UN PLAZO MAXIMO DE 24 HRS)",
+   "direccion_entrega": "Victoria 2579",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Accesorios eléctricos — Repuesto para dron: BC. EN. SSOOO662.01 - DOWNWARD GIMBAL VIBRATION DAMPING MODULE, según TTR adjunto."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T14:50:49+00:00",
+   "detalle_actualizado": "2026-10-15T14:50:49+00:00",
+   "primera_deteccion": "2026-10-07T14:05:15+00:00",
+   "cambio_estado": "2026-10-15T14:50:49+00:00"
   },
   {
    "id": "CA:5520-800-COT26",
