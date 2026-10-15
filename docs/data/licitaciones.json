@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-15T13:05:11+00:00",
- "proxima_actualizacion": "2026-10-15T14:05:11+00:00",
+ "generado": "2026-10-15T14:05:14+00:00",
+ "proxima_actualizacion": "2026-10-15T15:05:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T13:05:11+00:00",
+   "ultima_ok": "2026-10-15T14:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4714,
-   "detalles_consultados": 34,
+   "revisadas": 4730,
+   "detalles_consultados": 32,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T13:05:11+00:00",
-   "errores_detalle": 2,
+   "ultima_ok": "2026-10-15T14:05:14+00:00",
+   "errores_detalle": 1,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 6,
-   "detalles_consultados": 4,
+   "revisadas": 7,
+   "detalles_consultados": 3,
    "modo": "incremental"
   }
  },
@@ -77,7 +77,7 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "CA:2332-954-COT26"
+  "LIC:4631-24-LP26"
  ],
  "items": [
   {
@@ -248,7 +248,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
@@ -280,7 +280,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -312,7 +312,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
@@ -437,7 +437,7 @@
    "region": "Región de los Lagos ",
    "monto": 1000000.0,
    "moneda": "CLP",
-   "ofertas": 1,
+   "ofertas": 2,
    "url": "https://buscador.mercadopublico.cl/ficha?code=2332-954-COT26",
    "descripcion": "SE DEBE SUBIR DOCUMENTACIÓN SOLICITADA EN LAS ESPECIFICACIONES TÉCNICAS ADJUNTAS. ANEXO DE IDENTIFICACIÓN DEBE INCLUIR LOS DATOS DEL PROVEEDOR Y LA CUENTA DE PAGO, DEBE INCORPORARSE EN LA OFERTA, O SERA SOLICITADA POR CORREO ELECTRÓNICO UNA VEZ ADJUDICADO EL PROVEEDOR. SI NO SE ADJUNTA TODA LA DEMAS DOCUMENTACIÓN SOLICITADA, LA OFERTA SERÁ RECHAZADA.",
    "direccion_entrega": "Avenida ferrocarril Km 3.5 ruta V-505 Bodega 3, horario de atención lunes a Jueves 08:30-12:30 / 14:30-16:30, Viernes 08:30-12:30 / 14:30-15:30.",
@@ -451,8 +451,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "detalle_actualizado": "2026-10-15T14:05:14+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00"
   },
   {
@@ -484,7 +484,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -517,7 +517,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -550,7 +550,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -582,7 +582,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -626,7 +626,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -665,7 +665,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -740,7 +740,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -772,7 +772,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T12:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -804,9 +804,44 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-15T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
+  },
+  {
+   "id": "LIC:4631-24-LP26",
+   "fuente": "licitacion",
+   "codigo": "4631-24-LP26",
+   "nombre": "ADQUISICIÓN DRONES Y PROGRAMA VIGILANCIA AÉREA L15",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-04T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4631-24-LP26",
+   "descripcion": "El proyecto implica la adquisición de 2 aeronaves no tripuladas tipo multirrotor, configuración cuadricóptero, de categoría industrial con capacidad de vuelo profesional, capacitación para su operación e implementación de plataforma Streaming para envío de datos en tiempo real, con el objetivo de mejorar la seguridad vial y peatonal en la ciudad de Copiapó.\r\n\r\nEl sistema a instalar debe cubrir todos los aspectos, desde la provisión de los materiales y drones, hasta la instalación, puesta en marcha, capacitación y garantía de postventa de los bienes adquiridos.  La implementación debe llevarse a cabo conforme a estas especificaciones, los planos del servicio, y otras referencias específicas, así como a las siguientes normativas y regulaciones vigentes.\r\n\r\nEl contratista también deberá gestionar las autorizaciones y permisos administrativos correspondientes para la operatividad de los drones y personal relacionado con aquellos.",
+   "organismo": "I MUNICIPALIDAD DE COPIAPO",
+   "unidad": "Secpla",
+   "region": "Región de Atacama",
+   "comuna": "Copiapó",
+   "fecha_publicacion": "2026-10-15T10:48:55-03:00",
+   "fecha_adjudicacion": "2026-12-02T15:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Registradores visuales digitales — El proyecto implica la adquisición de 2 aeronaves no tripuladas tipo multirrotor, configuración cuadricóptero, de categoría industrial con capacidad de vuelo profesional, capacitación para su operación e implementación de plataforma Streaming para envío d"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada",
+    "Multirrotor",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "detalle_actualizado": "2026-10-15T14:05:14+00:00",
+   "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
   {
    "id": "CA:2427-902-COT26",
@@ -2609,7 +2644,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "La Universidad de Tarapacá requiere adquirir un dron con su respectivo equipamiento y accesorios, destinado al levantamiento, inspección y registro audiovisual de la infraestructura de sus distintas sedes y anexos. Asimismo, permitirá apoyar la evaluación de terrenos e inmuebles y desarrollar levantamientos topográficos para la planificación de futuros proyectos institucionales.",
    "direccion_entrega": "Recabarren N°2734",
@@ -4689,7 +4724,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -5599,7 +5634,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
@@ -5633,8 +5668,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
+   "detalle_actualizado": "2026-10-15T14:05:14+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
   },
@@ -5667,7 +5702,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-14T16:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00"
@@ -5678,16 +5713,16 @@
    "codigo": "1080286-182-COT26",
    "nombre": "ADQUISICION DE SISTEMA DE TRASMISION DE VIDEO PARA DRON DE CARGO DE LA SECCION RPAS.",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-14T09:47:00-03:00",
    "fecha_cierre": "2026-10-15T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-14 09:50",
+   "fecha_ultimo_cambio": "2026-10-15T10:10:00.500Z",
    "organismo": "SECCIÓN COMPRAS ZONA METROPOLITANA",
    "unidad": "SECCIÓN COMPRAS ZONA METROPOLITANA",
    "region": "Región Metropolitana de Santiago",
    "monto": 445500.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 5,
    "url": "https://buscador.mercadopublico.cl/ficha?code=1080286-182-COT26",
    "descripcion": "ADQUISICION DE SISTEMA DE TRASMISION DE VIDEO PARA DRON DE CARGO DE LA SECCION RPAS, CONFORME A REQUERIMIENTO TECNICO ADJUNTO, LOS OFERENTES DEBERAN ADJUNTAR UNA COTIZACION DETALLADA DEL PRODUCTO OFRECIDO, CON UNA IMAGEN REFERENCIAL.",
    "direccion_entrega": "CARRION NRO. 1795",
@@ -5702,7 +5737,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-14T23:05:10+00:00",
+   "ultima_actualizacion": "2026-10-15T14:05:14+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
