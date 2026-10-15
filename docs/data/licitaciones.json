@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-15T16:05:15+00:00",
- "proxima_actualizacion": "2026-10-15T17:05:15+00:00",
+ "generado": "2026-10-15T17:05:13+00:00",
+ "proxima_actualizacion": "2026-10-15T18:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T16:05:15+00:00",
+   "ultima_ok": "2026-10-15T17:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4829,
-   "detalles_consultados": 79,
+   "revisadas": 4832,
+   "detalles_consultados": 40,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-15T16:05:15+00:00",
-   "errores_detalle": 2,
+   "ultima_ok": "2026-10-15T17:05:13+00:00",
+   "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
    "revisadas": 10,
-   "detalles_consultados": 6,
+   "detalles_consultados": 4,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:4290-73-LE26"
+ ],
  "items": [
   {
    "id": "LIC:4291-52-L126",
@@ -109,8 +111,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
@@ -141,8 +143,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -173,8 +175,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -312,8 +314,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-15T16:05:15+00:00"
   },
@@ -346,7 +348,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00"
   },
@@ -379,8 +381,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -412,8 +414,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
   {
@@ -445,8 +447,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
   {
@@ -477,8 +479,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
   {
@@ -521,8 +523,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
   {
@@ -560,8 +562,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
   {
@@ -635,8 +637,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -667,9 +669,40 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
    "detalle_actualizado": "2026-10-15T12:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
+  },
+  {
+   "id": "LIC:4290-73-LE26",
+   "fuente": "licitacion",
+   "codigo": "4290-73-LE26",
+   "nombre": "Adq. e implementación sistema de drones vigilancia",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-28T16:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4290-73-LE26",
+   "descripcion": "ADQUISICIÓN E IMPLEMENTACIÓN DE SISTEMA DE DRONES DE VIGILANCIA PARA LA COMUNA DE LIMACHE",
+   "organismo": "I MUNICIPALIDAD DE LIMACHE",
+   "unidad": "Secpla - MUNICIPALIDAD LIMACHE",
+   "region": "Región de Valparaíso",
+   "comuna": "Limache",
+   "fecha_publicacion": "2026-10-15T13:22:25-03:00",
+   "fecha_adjudicacion": "2026-11-13T17:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICIÓN E IMPLEMENTACIÓN DE SISTEMA DE DRONES DE VIGILANCIA PARA LA COMUNA DE LIMACHE"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
+   "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
   {
    "id": "LIC:2405-145-LR26",
@@ -699,8 +732,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -734,7 +767,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
    "detalle_actualizado": "2026-10-15T14:05:14+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -2539,7 +2572,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "La Universidad de Tarapacá requiere adquirir un dron con su respectivo equipamiento y accesorios, destinado al levantamiento, inspección y registro audiovisual de la infraestructura de sus distintas sedes y anexos. Asimismo, permitirá apoyar la evaluación de terrenos e inmuebles y desarrollar levantamientos topográficos para la planificación de futuros proyectos institucionales.",
    "direccion_entrega": "Recabarren N°2734",
@@ -4355,8 +4388,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
@@ -4522,8 +4555,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T20:32:51+00:00"
   },
@@ -4619,7 +4652,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -4981,8 +5014,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
   {
@@ -5220,8 +5253,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -5258,8 +5291,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
@@ -5293,8 +5326,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-13T19:05:12+00:00"
   },
@@ -5428,8 +5461,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-15T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00",
    "cambio_estado": "2026-10-14T15:05:14+00:00"
   },
@@ -5494,8 +5527,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T11:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T11:05:11+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -5529,7 +5562,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
@@ -5563,8 +5596,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
   },
@@ -5598,7 +5631,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
   },
@@ -5667,7 +5700,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-09T20:05:10+00:00",
    "cambio_estado": "2026-10-15T14:50:49+00:00"
@@ -5701,8 +5734,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
-   "detalle_actualizado": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-15T14:50:49+00:00"
   },
@@ -5730,7 +5763,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T16:05:15+00:00",
+   "ultima_actualizacion": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -5738,7 +5771,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-10-15T16:05:15+00:00"
+   "detalle_actualizado": "2026-10-15T17:05:13+00:00"
   },
   {
    "id": "CA:5520-800-COT26",
