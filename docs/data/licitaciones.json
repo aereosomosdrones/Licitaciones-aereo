@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-16T21:05:13+00:00",
- "proxima_actualizacion": "2026-10-16T22:05:13+00:00",
+ "generado": "2026-10-16T22:05:13+00:00",
+ "proxima_actualizacion": "2026-10-16T23:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-16T21:05:13+00:00",
+   "ultima_ok": "2026-10-16T22:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4875,
-   "detalles_consultados": 2,
+   "revisadas": 4878,
+   "detalles_consultados": 16,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-16T21:05:13+00:00",
+   "ultima_ok": "2026-10-16T22:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 8,
-   "detalles_consultados": 2,
+   "revisadas": 9,
+   "detalles_consultados": 3,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:2704-1959-COT26"
+ ],
  "items": [
   {
    "id": "CA:2817-668-COT26",
@@ -108,8 +110,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
-   "detalle_actualizado": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
+   "detalle_actualizado": "2026-10-16T22:05:13+00:00",
    "primera_deteccion": "2026-10-16T15:05:15+00:00"
   },
   {
@@ -142,9 +144,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
-   "detalle_actualizado": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
+   "detalle_actualizado": "2026-10-16T22:05:13+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
+  },
+  {
+   "id": "CA:2704-1959-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2704-1959-COT26",
+   "nombre": "(sc 6793) Adquisición DJI Mini 5 Pro Fly",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-16T18:33:00-03:00",
+   "fecha_cierre": "2026-10-17T18:35:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-16 18:35",
+   "organismo": "UNIVERSIDAD DEL BIO BIO",
+   "unidad": "Universidad del Bío-Bío - Campus Concepción",
+   "region": "Región del Biobío ",
+   "monto": 1500000.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2704-1959-COT26",
+   "descripcion": "Adquisición DJI Mini 5 Pro Fly",
+   "direccion_entrega": "avda collao 1202",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — DJI Mini 5 Pro Fly More Combo (DJI RC2) vuela ligero, crea a lo grande Presenta mejoras integrales en el sistema de cámara, sistema de detección\nde visión, rendimiento de vuelo y sistema de transmisión de video. DJI Mini 5 pro tambien ofrece : Cámara 1 50 MP f/1.8, video 4K/120 fps, 10-bit (D-Log M/HLG); gimbal 225° con vertical nativo Autonomía hasta 36 min (y 52 min con Battery Plus*). Peso aprox. 249,9 g Transmisión O4+ con\nvista en vivo 1080p/60 se adjunta especificacion tecnica."
+   ],
+   "terminos": [
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
+   "detalle_actualizado": "2026-10-16T22:05:13+00:00",
+   "primera_deteccion": "2026-10-16T22:05:13+00:00"
   },
   {
    "id": "CA:2332-954-COT26",
@@ -242,7 +277,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -275,7 +310,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -341,7 +376,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -373,7 +408,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -417,7 +452,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -456,7 +491,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -531,7 +566,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -564,8 +599,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
-   "detalle_actualizado": "2026-10-16T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
+   "detalle_actualizado": "2026-10-16T22:05:13+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
   {
@@ -601,7 +636,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -633,8 +668,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
-   "detalle_actualizado": "2026-10-16T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
+   "detalle_actualizado": "2026-10-16T22:05:13+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
   {
@@ -665,8 +700,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
-   "detalle_actualizado": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
+   "detalle_actualizado": "2026-10-16T22:05:13+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
   {
@@ -696,7 +731,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -728,7 +763,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -763,8 +798,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
-   "detalle_actualizado": "2026-10-16T16:05:12+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
+   "detalle_actualizado": "2026-10-16T22:05:13+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
   {
@@ -795,7 +830,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-16T20:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -826,8 +861,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
-   "detalle_actualizado": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
+   "detalle_actualizado": "2026-10-16T22:05:13+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
   {
@@ -5761,7 +5796,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-09T20:05:10+00:00",
    "cambio_estado": "2026-10-16T16:05:12+00:00"
@@ -6001,7 +6036,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00",
    "cambio_estado": "2026-10-16T13:05:11+00:00"
@@ -6036,7 +6071,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00"
   },
@@ -6136,7 +6171,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T21:05:13+00:00",
+   "ultima_actualizacion": "2026-10-16T22:05:13+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00",
    "cambio_estado": "2026-10-16T20:05:11+00:00"
