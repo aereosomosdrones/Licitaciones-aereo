@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-16T15:05:15+00:00",
- "proxima_actualizacion": "2026-10-16T16:05:15+00:00",
+ "generado": "2026-10-16T16:05:12+00:00",
+ "proxima_actualizacion": "2026-10-16T17:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-16T15:05:15+00:00",
+   "ultima_ok": "2026-10-16T16:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4870,
-   "detalles_consultados": 64,
+   "revisadas": 4903,
+   "detalles_consultados": 53,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-16T15:05:15+00:00",
-   "errores_detalle": 0,
+   "ultima_ok": "2026-10-16T16:05:12+00:00",
+   "errores_detalle": 3,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 2,
-   "detalles_consultados": 1,
+   "revisadas": 5,
+   "detalles_consultados": 4,
    "modo": "incremental"
   }
  },
@@ -76,43 +76,8 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:2817-668-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:612-202-COT26",
-   "fuente": "compra_agil",
-   "codigo": "612-202-COT26",
-   "nombre": "Adquisición de Landing Pads Drones SAG",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-15T11:25:00-03:00",
-   "fecha_cierre": "2026-10-16T13:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-15 11:30",
-   "organismo": "SERVICIO AGRICOLA Y GANADERO",
-   "unidad": "Servicio Agricola y Ganadero (SAG central)",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1450000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=612-202-COT26",
-   "descripcion": "Para el uso de drones del Servicio cada equipo requiere de un espacio delimitado que permita tanto un despliegue como un aterrizaje de forma segura tanto para el equipo como para terceros.",
-   "direccion_entrega": "Avenida libertador Bernardo O\" Higgins 886, Santiago centro",
-   "plazo_entrega_dias": 25,
-   "productos": [
-    "Campo de aterrizaje — Landing PAD 100x100 cm similar a CYNOVA con las siguientes características:\n•\tGran tamaño: Con 1 m, esta plataforma de aterrizaje es lo suficientemente grande como para acomodar una variedad de drones, incluyendo drones de la gama Enterprise.\n•\tMaterial resistente: Fabricada en cuero sintético de alta calidad, esta plataforma de aterrizaje es impermeable, resistente al desgaste y soporta un uso intensivo.\n•\tDiseño plegable: La plataforma de aterrizaje se pliega fácilmente para su almacenamiento "
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-15T23:05:11+00:00",
-   "detalle_actualizado": "2026-10-15T23:05:11+00:00",
-   "primera_deteccion": "2026-10-15T23:05:11+00:00"
-  },
   {
    "id": "CA:5578-32-COT26",
    "fuente": "compra_agil",
@@ -210,8 +175,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
-   "detalle_actualizado": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-16T16:05:12+00:00",
    "primera_deteccion": "2026-10-16T15:05:15+00:00"
   },
   {
@@ -310,7 +275,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -343,7 +308,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -409,7 +374,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -441,7 +406,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -485,7 +450,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -524,7 +489,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -599,7 +564,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -632,8 +597,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
-   "detalle_actualizado": "2026-10-16T10:05:10+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-16T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
   {
@@ -664,8 +629,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
-   "detalle_actualizado": "2026-10-16T10:05:10+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-16T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
   {
@@ -696,7 +661,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T15:05:15+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -727,7 +692,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -759,7 +724,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -794,8 +759,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
-   "detalle_actualizado": "2026-10-16T10:05:10+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
+   "detalle_actualizado": "2026-10-16T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
   {
@@ -826,7 +791,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T13:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -857,7 +822,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-16T15:05:15+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -5766,11 +5731,11 @@
    "fuente": "compra_agil",
    "codigo": "2273-846-COT26",
    "nombre": "MANTENCION Y REPARACION DE DRON. EXP 14466 MEMORANDUM ear.",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-09T16:51:00-03:00",
    "fecha_cierre": "2026-10-15T11:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-15T11:35:00.973Z",
+   "fecha_ultimo_cambio": "2026-10-16T12:55:00.547Z",
    "organismo": "I MUNICIPALIDAD DE LA PINTANA",
    "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
    "region": "Región Metropolitana de Santiago",
@@ -5792,10 +5757,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T23:05:11+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-09T20:05:10+00:00",
-   "cambio_estado": "2026-10-15T14:50:49+00:00"
+   "cambio_estado": "2026-10-16T16:05:12+00:00"
   },
   {
    "id": "CA:2427-1125-COT26",
@@ -6032,7 +5997,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-16T15:05:15+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00",
    "cambio_estado": "2026-10-16T13:05:11+00:00"
@@ -6043,16 +6008,16 @@
    "codigo": "3553-81-COT26",
    "nombre": "Adquisición de 6 PARACAIDAS DE SEGURIDAD INTELIGENTE DISEÑADO PARA PROTEGER DRONES",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-14T18:27:00-03:00",
    "fecha_cierre": "2026-10-16T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-14T18:30:00.173Z",
+   "fecha_ultimo_cambio": "2026-10-16T12:10:02.220Z",
    "organismo": "MINISTERIO DE BIENES NACIONALES",
    "unidad": "MINISTERIO DE BIENES NACIONALES",
    "region": "Región Metropolitana de Santiago",
    "monto": 1200000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 13,
    "url": "https://buscador.mercadopublico.cl/ficha?code=3553-81-COT26",
    "descripcion": "6 PARACAIDAS DE SEGURIDAD INTELIGENTE DISEÑADO PARA PROTEGER DRONES.\nTipo FlyFire Manti 3 Plus, o similar, compatible Dron AUTEL EVO II Pro RTK V3.\n\nImagen de referencia en anexo adjunto.",
    "direccion_entrega": "Avenida Libertador General Bernardo O´higgins N° 720, 4° piso.\t",
@@ -6067,7 +6032,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-15T23:05:11+00:00",
+   "ultima_actualizacion": "2026-10-16T16:05:12+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00"
   },
@@ -6104,6 +6069,39 @@
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00"
+  },
+  {
+   "id": "CA:612-202-COT26",
+   "fuente": "compra_agil",
+   "codigo": "612-202-COT26",
+   "nombre": "Adquisición de Landing Pads Drones SAG",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-15T11:25:00-03:00",
+   "fecha_cierre": "2026-10-16T13:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-15 11:30",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "Servicio Agricola y Ganadero (SAG central)",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1450000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=612-202-COT26",
+   "descripcion": "Para el uso de drones del Servicio cada equipo requiere de un espacio delimitado que permita tanto un despliegue como un aterrizaje de forma segura tanto para el equipo como para terceros.",
+   "direccion_entrega": "Avenida libertador Bernardo O\" Higgins 886, Santiago centro",
+   "plazo_entrega_dias": 25,
+   "productos": [
+    "Campo de aterrizaje — Landing PAD 100x100 cm similar a CYNOVA con las siguientes características:\n•\tGran tamaño: Con 1 m, esta plataforma de aterrizaje es lo suficientemente grande como para acomodar una variedad de drones, incluyendo drones de la gama Enterprise.\n•\tMaterial resistente: Fabricada en cuero sintético de alta calidad, esta plataforma de aterrizaje es impermeable, resistente al desgaste y soporta un uso intensivo.\n•\tDiseño plegable: La plataforma de aterrizaje se pliega fácilmente para su almacenamiento "
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-15T23:05:11+00:00",
+   "detalle_actualizado": "2026-10-15T23:05:11+00:00",
+   "primera_deteccion": "2026-10-15T23:05:11+00:00"
   },
   {
    "id": "CA:5520-800-COT26",
