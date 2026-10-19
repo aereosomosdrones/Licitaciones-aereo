@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-19T19:05:11+00:00",
- "proxima_actualizacion": "2026-10-19T20:05:11+00:00",
+ "generado": "2026-10-19T20:05:11+00:00",
+ "proxima_actualizacion": "2026-10-19T21:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T19:05:11+00:00",
+   "ultima_ok": "2026-10-19T20:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4609,
-   "detalles_consultados": 94,
+   "revisadas": 4599,
+   "detalles_consultados": 78,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T19:05:11+00:00",
-   "errores_detalle": 2,
+   "ultima_ok": "2026-10-19T20:05:11+00:00",
+   "errores_detalle": 3,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 16,
-   "detalles_consultados": 8,
+   "revisadas": 18,
+   "detalles_consultados": 9,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:1562-107-COT26"
+ ],
  "items": [
   {
    "id": "CA:1388961-191-COT26",
@@ -108,8 +110,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00"
   },
   {
@@ -179,8 +181,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00",
    "cambio_estado": "2026-10-19T14:05:11+00:00"
   },
@@ -213,8 +215,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
    "primera_deteccion": "2026-10-19T15:05:10+00:00"
   },
   {
@@ -254,7 +256,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -287,9 +289,50 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
+  },
+  {
+   "id": "CA:1562-107-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1562-107-COT26",
+   "nombre": "ADQUISICIÓN DE 4 SEGUROS DE RESPONSABILIDAD CIVIL PARA VUELOS CON DRON",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-19T16:53:00-03:00",
+   "fecha_cierre": "2026-10-21T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-19 16:55",
+   "organismo": "SERVICIO NACIONAL DE GEOLOGIA Y MINERIA",
+   "unidad": "Servicio Nacional de Geología y Minería",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 2340000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1562-107-COT26",
+   "descripcion": "El Departamento de Geología Aplicada y Recursos Geológicos (DGA), requiere contratar cuatro (4) seguros de responsabilidad civil para vuelos con dron, para cumplir con la norma DAN 151 y DAN 91, el uso de drones tiene como objetivo la adquisición de imágenes en terreno, desarrollo de mapas Aerofotogramétricos y en la atención de emergencias geológicas.",
+   "direccion_entrega": "Avenida Santa María 0104 ",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Seguro por responsabilidad civil — Seguro de responsabilidad civil para 1 dron Autel Evo II Pro RTK Enterprise, año 2021, peso 1,195 kg, ver Requerimiento Técnico adjunto ",
+    "Seguro por responsabilidad civil — Seguro de responsabilidad civil para 1 dron EVO 2 PRO RTK 6K V3, año2024, peso 1,4 kg, ver Requerimiento Técnico adjunto ",
+    "Seguro por responsabilidad civil — Seguro de responsabilidad civil para 1 dron de Ala Fija eBee X SenseFly ES, año 2021, peso 1,7 kg, ver Requerimiento Técnico adjunto",
+    "Seguro por responsabilidad civil — Seguro de responsabilidad civil para 1 dron EVO II PRO RTK, año 2021, peso 1,237 Kg"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)",
+    "Credencial / piloto",
+    "Fotogrametría / ortomosaico",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
+   "primera_deteccion": "2026-10-19T20:05:11+00:00"
   },
   {
    "id": "CA:2927-384-COT26",
@@ -322,8 +365,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
   },
   {
@@ -359,7 +402,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -391,7 +434,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -423,7 +466,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -454,7 +497,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -487,7 +530,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -519,7 +562,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -554,7 +597,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -586,7 +629,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -617,7 +660,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -644,7 +687,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "primera_deteccion": "2026-10-19T14:05:11+00:00"
   },
   {
@@ -4988,7 +5031,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Cantidad\nItem\n1 R. Mini 3 Pro Aircraft Upper Cover Module\n1 R. Mini 3 Pro Forward Vision Sensor Module Decorative Cover\n2 R. Mini 4 Pro/Mini 3 Pro Front Aircraft Arm Rotating Axis\n1 DJI Mini 3 Pro GPS & IMU Modul",
    "direccion_entrega": "Huerfanos 770, piso 7 Santiago",
@@ -5545,7 +5588,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T16:05:10+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -5683,7 +5726,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -5851,7 +5894,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-19T17:05:15+00:00"
@@ -5886,7 +5929,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -5987,7 +6030,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6160,7 +6203,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00",
    "cambio_estado": "2026-10-19T12:05:13+00:00"
@@ -6195,7 +6238,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
    "detalle_actualizado": "2026-10-19T00:05:10+00:00",
    "primera_deteccion": "2026-10-15T22:05:11+00:00"
   },
