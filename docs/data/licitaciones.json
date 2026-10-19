@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-19T20:05:11+00:00",
- "proxima_actualizacion": "2026-10-19T21:05:11+00:00",
+ "generado": "2026-10-19T21:05:11+00:00",
+ "proxima_actualizacion": "2026-10-19T22:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T20:05:11+00:00",
+   "ultima_ok": "2026-10-19T21:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4599,
-   "detalles_consultados": 78,
+   "revisadas": 4629,
+   "detalles_consultados": 65,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T20:05:11+00:00",
-   "errores_detalle": 3,
+   "ultima_ok": "2026-10-19T21:05:11+00:00",
+   "errores_detalle": 2,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 18,
-   "detalles_consultados": 9,
+   "revisadas": 20,
+   "detalles_consultados": 11,
    "modo": "incremental"
   }
  },
@@ -77,7 +77,7 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "CA:1562-107-COT26"
+  "CA:2817-677-COT26"
  ],
  "items": [
   {
@@ -110,9 +110,43 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T21:05:11+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00"
+  },
+  {
+   "id": "CA:2817-677-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2817-677-COT26",
+   "nombre": "EL DEPTO.DE LA SECPLAN, REQUIERE SERVICIO DE MANTENCION PARA LA UNIDAD DE AERONAVE NO TRIPULADA (DRON), LA OFERTA DEBE INDICAR PRES.FORMAL Y DETALLADO EMPRESA, INDICAR DIAS DE ENTREGA.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-19T17:15:00-03:00",
+   "fecha_cierre": "2026-10-20T17:20:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-19 17:20",
+   "organismo": "I MUNICIPALIDAD DE SAN FERNANDO",
+   "unidad": "I MUNICIPALIDAD DE SAN FERNANDO",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "monto": 547400.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2817-677-COT26",
+   "descripcion": "EL DEPTO.DE LA SECPLAN, REQUIERE SERVICIO DE MANTENCION PARA LA UNIDAD DE AERONAVE NO TRIPULADA (DRON), LA OFERTA DEBE INDICAR PRES.FORMAL Y DETALLADO EMPRESA, INDICAR DIAS DE ENTREGA.",
+   "direccion_entrega": "CALLE CARAMPANGUE 865",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Unidades de servicio de datos o canales de red — SERVICIO DE MANTENCION PARA LA UNIDAD DE AERONAVE NO TRIPULADA (DRON), SE ADJUNTA TERMINOS DE REFERENCIAS"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T21:05:11+00:00",
+   "primera_deteccion": "2026-10-19T21:05:11+00:00"
   },
   {
    "id": "CA:615-41-COT26",
@@ -181,8 +215,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T21:05:11+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00",
    "cambio_estado": "2026-10-19T14:05:11+00:00"
   },
@@ -201,7 +235,7 @@
    "region": "Región de la Araucanía ",
    "monto": 700000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=5586-2809-COT26",
    "descripcion": "Adquisición Dron, según detalle adjunto.",
    "direccion_entrega": "Departamento de Ingeniería Química, Avenida Francisco Salazar 01145",
@@ -215,8 +249,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T21:05:11+00:00",
    "primera_deteccion": "2026-10-19T15:05:10+00:00"
   },
   {
@@ -256,7 +290,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -289,8 +323,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T21:05:11+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
   },
   {
@@ -330,8 +364,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T21:05:11+00:00",
    "primera_deteccion": "2026-10-19T20:05:11+00:00"
   },
   {
@@ -365,8 +399,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T21:05:11+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
   },
   {
@@ -402,7 +436,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -434,7 +468,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -466,7 +500,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -497,7 +531,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -530,7 +564,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -562,7 +596,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -597,7 +631,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -629,7 +663,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -660,7 +694,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -687,7 +721,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "primera_deteccion": "2026-10-19T14:05:11+00:00"
   },
   {
@@ -5031,7 +5065,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Cantidad\nItem\n1 R. Mini 3 Pro Aircraft Upper Cover Module\n1 R. Mini 3 Pro Forward Vision Sensor Module Decorative Cover\n2 R. Mini 4 Pro/Mini 3 Pro Front Aircraft Arm Rotating Axis\n1 DJI Mini 3 Pro GPS & IMU Modul",
    "direccion_entrega": "Huerfanos 770, piso 7 Santiago",
@@ -5588,7 +5622,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T16:05:10+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -5726,7 +5760,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -5894,7 +5928,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-19T17:05:15+00:00"
@@ -5929,7 +5963,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6030,7 +6064,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6144,11 +6178,11 @@
    "fuente": "compra_agil",
    "codigo": "2817-668-COT26",
    "nombre": "EL DEPTO.DE LA SECPLAN, REQUIERE SERVICIO DE MANTENCION  PARA LA UNIDAD DE AERONAVE NO TRIPULADA (DRON), LA OFERTA DEBE INDICAR PRES.FORMAL Y DETALLADO EMPRESA, INDICAR DIAS DE ENTREGA.",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "desierta",
+   "estado_glosa": "Desierta",
    "fecha_publicacion": "2026-10-16T12:02:00-03:00",
    "fecha_cierre": "2026-10-18T17:57:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-18 18:00",
+   "fecha_ultimo_cambio": "2026-10-19 17:15",
    "organismo": "I MUNICIPALIDAD DE SAN FERNANDO",
    "unidad": "I MUNICIPALIDAD DE SAN FERNANDO",
    "region": "Región del Libertador General Bernardo O´Higgins",
@@ -6169,10 +6203,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T00:05:10+00:00",
-   "detalle_actualizado": "2026-10-19T00:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T21:05:11+00:00",
    "primera_deteccion": "2026-10-16T15:05:15+00:00",
-   "cambio_estado": "2026-10-18T21:05:10+00:00"
+   "cambio_estado": "2026-10-19T21:05:11+00:00"
   },
   {
    "id": "CA:2332-954-COT26",
@@ -6203,7 +6237,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00",
    "cambio_estado": "2026-10-19T12:05:13+00:00"
@@ -6238,7 +6272,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T20:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T21:05:11+00:00",
    "detalle_actualizado": "2026-10-19T00:05:10+00:00",
    "primera_deteccion": "2026-10-15T22:05:11+00:00"
   },
