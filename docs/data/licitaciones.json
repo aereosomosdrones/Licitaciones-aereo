@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-19T13:05:11+00:00",
- "proxima_actualizacion": "2026-10-19T14:05:11+00:00",
+ "generado": "2026-10-19T14:05:11+00:00",
+ "proxima_actualizacion": "2026-10-19T15:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T13:05:11+00:00",
+   "ultima_ok": "2026-10-19T14:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4947,
-   "detalles_consultados": 7,
+   "revisadas": 4988,
+   "detalles_consultados": 42,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T13:05:11+00:00",
-   "errores_detalle": 1,
+   "ultima_ok": "2026-10-19T14:05:11+00:00",
+   "errores_detalle": 3,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 5,
-   "detalles_consultados": 2,
+   "revisadas": 8,
+   "detalles_consultados": 5,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:614-39-COT26"
+ ],
  "items": [
   {
    "id": "LIC:1437-16-LE26",
@@ -107,7 +109,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
@@ -140,7 +142,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
@@ -206,7 +208,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
@@ -238,7 +240,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -282,7 +284,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -321,7 +323,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -355,8 +357,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T14:05:11+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00"
   },
   {
@@ -392,6 +394,44 @@
    "ultima_actualizacion": "2026-10-19T00:05:10+00:00",
    "detalle_actualizado": "2026-10-14T17:01:31+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00"
+  },
+  {
+   "id": "CA:945256-59-COT26",
+   "fuente": "compra_agil",
+   "codigo": "945256-59-COT26",
+   "nombre": "DQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA Y CURSO PARA OBTENCION DE CREDENCIAL ANTE DGAC",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-14T15:17:00-03:00",
+   "fecha_cierre": "2026-10-21T05:02:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-19 10:25",
+   "organismo": "Zona de Bienestar Valparaíso",
+   "unidad": "Zona de Bienestar Valparaíso",
+   "region": "Región de Valparaíso ",
+   "monto": 1400000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=945256-59-COT26",
+   "descripcion": "ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA Y CURSO PARA OBTENCION DE CREDENCIAL ANTE DGAC, PARA SER UTILIZADO EN LA ZONA DE BIENESTAR VALPARAÍSO., LAS OFERTAS DEBERAN SER REALIZADAS CONFORME LOS REQUERIMIENTOS EN ARCHIVO ADJUNTO, EL PROVEEDOR QUE EN SU OFERTA NO INDIQUE O NO CUMPLA CON UNO O MÁS REQUISITOS, DICHA PROPUESTA SERÁ DECLARADA INADMISIBLE.",
+   "direccion_entrega": "13 NORTE 1034, VIÑA DEL MAR ",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Cámaras de seguridad — Sistema de Aeronave Pilotada a Distancia (Dron) Ultra Ligero con Kit de Autonomía Extendida y Control con Pantalla Integrada, DJI Mini 5 Pro Fly More Combo Plus (DJI RC 2) O SIMILAR: conforme a caracteristicas y especificaciones técnicas adjuntas.",
+    "Programas o cursos no diplomados a distancia — Curso Obtención de credencial DGAC operador de drone online: conforme a caracteristicas solicitadas"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada",
+    "Marcas (DJI, Autel…)",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T14:05:11+00:00",
+   "primera_deteccion": "2026-10-14T19:05:10+00:00",
+   "cambio_estado": "2026-10-19T14:05:11+00:00"
   },
   {
    "id": "LIC:3265-56-LE26",
@@ -430,42 +470,9 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
-  },
-  {
-   "id": "LIC:1079563-36-LP26",
-   "fuente": "licitacion",
-   "codigo": "1079563-36-LP26",
-   "nombre": "ADQ. AERONAVES NO TRIPULADAS Y EQUIPOS PARA RPAS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-26T15:01:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079563-36-LP26",
-   "descripcion": "ADQUISICIÓN DE AERONAVES NO TRIPULADAS Y EQUIPOS PARA LA SECCIÓN RPAS O’HIGGINS DE LA ZONA DE CARABINEROS DEL LIBERTADOR BERNARDO O’HIGGINS DE CARABINEROS DE CHILE",
-   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
-   "unidad": "SEC DE COMPRAS ZONA DE CARAB LIB BERNARDO OHIGGINS",
-   "region": "Región del Libertador General Bernardo O´Higgins",
-   "comuna": "Rancagua",
-   "fecha_publicacion": "2026-10-15T16:51:49-03:00",
-   "fecha_adjudicacion": "2026-11-20T20:00:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LP",
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — LÍNEA N° 1 - ADQUISICIÓN DE AERONAVES NO TRIPULADAS",
-    "Sistema de transmisión por secuencias de video — LÍNEA N° 2 - ADQUISICIÓN DE SISTEMA DE TRANSMISIÓN PORTÁTIL"
-   ],
-   "terminos": [
-    "RPA / RPAS",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
-   "detalle_actualizado": "2026-10-19T12:05:13+00:00",
-   "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
   {
    "id": "LIC:2793-147-LE26",
@@ -500,7 +507,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -532,7 +539,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -564,7 +571,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -595,9 +602,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
+  },
+  {
+   "id": "LIC:1079563-36-LP26",
+   "fuente": "licitacion",
+   "codigo": "1079563-36-LP26",
+   "nombre": "ADQ. AERONAVES NO TRIPULADAS Y EQUIPOS PARA RPAS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-29T09:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079563-36-LP26",
+   "descripcion": "ADQUISICIÓN DE AERONAVES NO TRIPULADAS Y EQUIPOS PARA LA SECCIÓN RPAS O’HIGGINS DE LA ZONA DE CARABINEROS DEL LIBERTADOR BERNARDO O’HIGGINS DE CARABINEROS DE CHILE",
+   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+   "unidad": "SEC DE COMPRAS ZONA DE CARAB LIB BERNARDO OHIGGINS",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "comuna": "Rancagua",
+   "fecha_publicacion": "2026-10-15T16:51:49-03:00",
+   "fecha_adjudicacion": "2026-11-20T20:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — LÍNEA N° 1 - ADQUISICIÓN DE AERONAVES NO TRIPULADAS",
+    "Sistema de transmisión por secuencias de video — LÍNEA N° 2 - ADQUISICIÓN DE SISTEMA DE TRANSMISIÓN PORTÁTIL"
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T12:05:13+00:00",
+   "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
   {
    "id": "LIC:2405-145-LR26",
@@ -627,7 +667,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -662,7 +702,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -694,7 +734,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -725,9 +765,35 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
+  },
+  {
+   "id": "CA:614-39-COT26",
+   "fuente": "compra_agil",
+   "codigo": "614-39-COT26",
+   "nombre": "ADQUISICIÓN DRON PROFESIONAL",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-08-07T16:04:00-04:00",
+   "fecha_cierre": "2026-08-12T15:00:00-04:00",
+   "fecha_ultimo_cambio": "2026-10-19T10:55:01.200Z",
+   "organismo": "Ministerio de Vivienda y Urbanismo",
+   "unidad": "SEREMI MINVU I REGION",
+   "region": "Región de Tarapacá  ",
+   "monto": 2900000.0,
+   "moneda": "CLP",
+   "ofertas": 16,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=614-39-COT26",
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
+   "primera_deteccion": "2026-10-19T14:05:11+00:00"
   },
   {
    "id": "CA:2427-902-COT26",
@@ -5939,44 +6005,6 @@
    "cambio_estado": "2026-10-15T19:01:36+00:00"
   },
   {
-   "id": "CA:945256-59-COT26",
-   "fuente": "compra_agil",
-   "codigo": "945256-59-COT26",
-   "nombre": "DQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA Y CURSO PARA OBTENCION DE CREDENCIAL ANTE DGAC",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-10-14T15:17:00-03:00",
-   "fecha_cierre": "2026-10-16T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-16T10:05:00.967Z",
-   "organismo": "Zona de Bienestar Valparaíso",
-   "unidad": "Zona de Bienestar Valparaíso",
-   "region": "Región de Valparaíso ",
-   "monto": 1400000.0,
-   "moneda": "CLP",
-   "ofertas": 2,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=945256-59-COT26",
-   "descripcion": "ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA Y CURSO PARA OBTENCION DE CREDENCIAL ANTE DGAC, PARA SER UTILIZADO EN LA ZONA DE BIENESTAR VALPARAÍSO., LAS OFERTAS DEBERAN SER REALIZADAS CONFORME LOS REQUERIMIENTOS EN ARCHIVO ADJUNTO, EL PROVEEDOR QUE EN SU OFERTA NO INDIQUE O NO CUMPLA CON UNO O MÁS REQUISITOS, DICHA PROPUESTA SERÁ DECLARADA INADMISIBLE.",
-   "direccion_entrega": "13 NORTE 1034, VIÑA DEL MAR ",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Cámaras de seguridad — Sistema de Aeronave Pilotada a Distancia (Dron) Ultra Ligero con Kit de Autonomía Extendida y Control con Pantalla Integrada, DJI Mini 5 Pro Fly More Combo Plus (DJI RC 2) O SIMILAR: conforme a caracteristicas y especificaciones técnicas adjuntas.",
-    "Programas o cursos no diplomados a distancia — Curso Obtención de credencial DGAC operador de drone online: conforme a caracteristicas solicitadas"
-   ],
-   "terminos": [
-    "Dron",
-    "Aeronave no tripulada",
-    "Marcas (DJI, Autel…)",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-19T00:05:10+00:00",
-   "detalle_actualizado": "2026-10-15T23:05:11+00:00",
-   "primera_deteccion": "2026-10-14T19:05:10+00:00",
-   "cambio_estado": "2026-10-16T13:05:11+00:00"
-  },
-  {
    "id": "CA:3553-81-COT26",
    "fuente": "compra_agil",
    "codigo": "3553-81-COT26",
@@ -6006,7 +6034,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6107,7 +6135,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6280,7 +6308,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00",
    "cambio_estado": "2026-10-19T12:05:13+00:00"
@@ -6291,16 +6319,16 @@
    "codigo": "2279-720-COT26",
    "nombre": "SP 830 Accesorios Vant / Dron",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-15T18:28:00-03:00",
    "fecha_cierre": "2026-10-19T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-15 18:30",
+   "fecha_ultimo_cambio": "2026-10-19T10:15:01.370Z",
    "organismo": "ILUSTRE MUNICIPALIDAD DE PUDAHUEL",
    "unidad": "IMUNI_PUDAHUEL ADQUISICIONES",
    "region": "Región Metropolitana de Santiago",
    "monto": 5000000.0,
    "moneda": "CLP",
-   "ofertas": 2,
+   "ofertas": 8,
    "url": "https://buscador.mercadopublico.cl/ficha?code=2279-720-COT26",
    "descripcion": "Adjuntar cotización formal, indicando contacto, detalle y valores por producto, especificaciones técnicas, caso contrario será inadmisible la oferta, se adjunta archivo correspondiente.",
    "direccion_entrega": "San Pablo 8444 bodega municipal",
@@ -6315,7 +6343,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T00:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T14:05:11+00:00",
    "detalle_actualizado": "2026-10-19T00:05:10+00:00",
    "primera_deteccion": "2026-10-15T22:05:11+00:00"
   },
