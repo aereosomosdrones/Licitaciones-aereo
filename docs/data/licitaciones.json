@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-19T22:05:09+00:00",
- "proxima_actualizacion": "2026-10-19T23:05:09+00:00",
+ "generado": "2026-10-19T23:05:11+00:00",
+ "proxima_actualizacion": "2026-10-20T00:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T22:05:09+00:00",
+   "ultima_ok": "2026-10-19T23:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4622,
-   "detalles_consultados": 16,
+   "revisadas": 4598,
+   "detalles_consultados": 6,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T22:05:09+00:00",
+   "ultima_ok": "2026-10-19T23:05:11+00:00",
    "errores_detalle": 2,
    "advertencias": [
     "1 de 15 búsquedas no respondieron: drones"
    ],
    "revisadas": 21,
-   "detalles_consultados": 11,
+   "detalles_consultados": 10,
    "modo": "incremental"
   }
  },
@@ -108,8 +108,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
-   "detalle_actualizado": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00"
   },
   {
@@ -142,8 +142,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
-   "detalle_actualizado": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-19T21:05:11+00:00"
   },
   {
@@ -213,8 +213,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
-   "detalle_actualizado": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00",
    "cambio_estado": "2026-10-19T14:05:11+00:00"
   },
@@ -247,8 +247,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
-   "detalle_actualizado": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-19T15:05:10+00:00"
   },
   {
@@ -288,7 +288,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -321,8 +321,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
-   "detalle_actualizado": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
   },
   {
@@ -340,7 +340,7 @@
    "region": "Región Metropolitana de Santiago",
    "monto": 2340000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=1562-107-COT26",
    "descripcion": "El Departamento de Geología Aplicada y Recursos Geológicos (DGA), requiere contratar cuatro (4) seguros de responsabilidad civil para vuelos con dron, para cumplir con la norma DAN 151 y DAN 91, el uso de drones tiene como objetivo la adquisición de imágenes en terreno, desarrollo de mapas Aerofotogramétricos y en la atención de emergencias geológicas.",
    "direccion_entrega": "Avenida Santa María 0104 ",
@@ -362,8 +362,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
-   "detalle_actualizado": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-19T20:05:11+00:00"
   },
   {
@@ -397,8 +397,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
-   "detalle_actualizado": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
   },
   {
@@ -434,7 +434,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -466,7 +466,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -498,7 +498,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -529,7 +529,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -562,7 +562,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -594,7 +594,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -629,7 +629,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -661,7 +661,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -692,7 +692,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T19:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -719,7 +719,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-19T14:05:11+00:00"
   },
   {
@@ -5063,7 +5063,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Cantidad\nItem\n1 R. Mini 3 Pro Aircraft Upper Cover Module\n1 R. Mini 3 Pro Forward Vision Sensor Module Decorative Cover\n2 R. Mini 4 Pro/Mini 3 Pro Front Aircraft Arm Rotating Axis\n1 DJI Mini 3 Pro GPS & IMU Modul",
    "direccion_entrega": "Huerfanos 770, piso 7 Santiago",
@@ -5620,7 +5620,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T16:05:10+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -5758,7 +5758,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -5926,7 +5926,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-19T17:05:15+00:00"
@@ -5961,7 +5961,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6062,7 +6062,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6201,8 +6201,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
-   "detalle_actualizado": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T23:05:11+00:00",
    "primera_deteccion": "2026-10-16T15:05:15+00:00",
    "cambio_estado": "2026-10-19T21:05:11+00:00"
   },
@@ -6235,7 +6235,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00",
    "cambio_estado": "2026-10-19T12:05:13+00:00"
@@ -6270,7 +6270,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T22:05:09+00:00",
+   "ultima_actualizacion": "2026-10-19T23:05:11+00:00",
    "detalle_actualizado": "2026-10-19T00:05:10+00:00",
    "primera_deteccion": "2026-10-15T22:05:11+00:00"
   },
