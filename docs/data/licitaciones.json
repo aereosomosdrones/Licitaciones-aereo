@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-19T17:05:15+00:00",
- "proxima_actualizacion": "2026-10-19T18:05:15+00:00",
+ "generado": "2026-10-19T18:05:11+00:00",
+ "proxima_actualizacion": "2026-10-19T19:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T17:05:15+00:00",
+   "ultima_ok": "2026-10-19T18:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5096,
-   "detalles_consultados": 30,
+   "revisadas": 4789,
+   "detalles_consultados": 22,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-19T17:05:15+00:00",
-   "errores_detalle": 2,
+   "ultima_ok": "2026-10-19T18:05:11+00:00",
+   "errores_detalle": 3,
    "advertencias": [
-    "2 de 15 búsquedas no respondieron: dron, drones"
+    "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 5,
-   "detalles_consultados": 3,
+   "revisadas": 15,
+   "detalles_consultados": 8,
    "modo": "incremental"
   }
  },
@@ -79,138 +79,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "LIC:1437-16-LE26",
-   "fuente": "licitacion",
-   "codigo": "1437-16-LE26",
-   "nombre": "ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-19T15:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1437-16-LE26",
-   "descripcion": "ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE, ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC. SEGUN BASES ADMINISTRATIVAS, REQUERIMIENTOS TECNICOS Y OTROS ANEXOS ADJUNTOS A LA PROPUESTA.",
-   "organismo": "I MUNICIPALIDAD DE LLANQUIHUE",
-   "unidad": "Ilustre Municipalidad de Llanquihue",
-   "region": "Región de los Lagos",
-   "comuna": "Llanquihue",
-   "fecha_publicacion": "2026-10-06T10:12:44-03:00",
-   "fecha_adjudicacion": "2026-11-30T21:00:00-03:00",
-   "monto": 25000000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE, ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC. SEGUN BASES, REQUERIMIENTOS TECNICOS Y OTROS ANEXOS."
-   ],
-   "terminos": [
-    "Dron",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
-   "detalle_actualizado": "2026-10-19T12:05:13+00:00",
-   "primera_deteccion": "2026-10-06T14:05:12+00:00"
-  },
-  {
-   "id": "LIC:1079596-37-LE26",
-   "fuente": "licitacion",
-   "codigo": "1079596-37-LE26",
-   "nombre": "ADQUISICION 10 BATERIAS TB65 Y 01 ESTACION  CARGA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-19T15:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079596-37-LE26",
-   "descripcion": "ADQUISICIÓN DE 10 BATERÍAS INTELIGENTES DE VUELO TB65 Y 01 ESTACIÓN DE CARGA BS65, COMPATIBLES CON AERONAVES DJI MATRICE 300 RTK, DESTINADAS A LA SECCIÓN OPERATIVA RPAS, DEPENDIENTE DE LA ZONA DE CARABINEROS DE ARICA Y PARINACOTA.",
-   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
-   "unidad": "SECCIÓN DE COMPRAS ZONA ARICA Y PARINACOTA",
-   "region": "Región de Arica y Parinacota",
-   "comuna": "Arica",
-   "fecha_publicacion": "2026-10-06T18:04:35-03:00",
-   "fecha_adjudicacion": "2026-11-19T17:46:00-03:00",
-   "monto": 10737900.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Soportes de batería — ADQUISICIÓN DE 10 BATERÍAS INTELIGENTES DE VUELO TB65 Y 01 ESTACIÓN DE CARGA BS65, COMPATIBLES CON AERONAVES DJI MATRICE 300 RTK, DESTINADAS A LA SECCIÓN OPERATIVA RPAS, DEPENDIENTE DE LA ZONA DE CARABINEROS DE ARICA Y PARINACOTA\r\n\r\n\r\n\r\n\r\n"
-   ],
-   "terminos": [
-    "RPA / RPAS",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
-   "detalle_actualizado": "2026-10-19T12:05:13+00:00",
-   "primera_deteccion": "2026-10-06T21:05:10+00:00"
-  },
-  {
-   "id": "CA:2686-506-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2686-506-COT26",
-   "nombre": "Servicio de capacitación en operación y manejo de drones para Seguridad Pública.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-15T16:37:00-03:00",
-   "fecha_cierre": "2026-10-19T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-15 16:40",
-   "organismo": "I MUNICIPALIDAD DE COLINA",
-   "unidad": "SECPLAN",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 3000000.0,
-   "moneda": "CLP",
-   "ofertas": 2,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2686-506-COT26",
-   "descripcion": "Contratación de capacitación para funcionarios de Seguridad Pública en el uso seguro, eficiente y responsable de drones, abordando aspectos técnicos, operacionales y normativos para labores de vigilancia, prevención y apoyo a la seguridad comunal, conforme a la normativa vigente.",
-   "direccion_entrega": "Av colina 700",
-   "plazo_entrega_dias": 2,
-   "productos": [
-    "Capacitación a empleados — Contratación de capacitación para funcionarios de Seguridad Pública en el uso seguro, eficiente y responsable de drones, abordando aspectos técnicos, operacionales y normativos para labores de vigilancia, prevención y apoyo a la seguridad comunal, conforme a la normativa vigente."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-19T00:05:10+00:00",
-   "detalle_actualizado": "2026-10-19T00:05:10+00:00",
-   "primera_deteccion": "2026-10-15T23:05:11+00:00"
-  },
-  {
-   "id": "LIC:2981-278-LE26",
-   "fuente": "licitacion",
-   "codigo": "2981-278-LE26",
-   "nombre": "JENAINPOL - ADQUISICIÓN DE 18 BATERIAS TB65 PARA DRONES MATRICE 300 Y 350 RTK",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-19T15:01:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-278-LE26",
-   "descripcion": "ADQUISICIÓN DE 18 BATERIAS TB65 PARA DRONES MATRICE 300 Y 350 RTK",
-   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
-   "unidad": "DEPARTAMENTO ADMINISTRATIVO",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Santiago Centro",
-   "fecha_publicacion": "2026-10-09T14:42:49-03:00",
-   "fecha_adjudicacion": "2026-10-29T18:00:00-03:00",
-   "monto": 21600000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Baterías recargables — ADQUISICIÓN DE 18 BATERIAS TB65 PARA DRONES  MATRICE 300 Y 350 RTK"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
-   "detalle_actualizado": "2026-10-19T12:05:13+00:00",
-   "primera_deteccion": "2026-10-09T18:05:12+00:00"
-  },
-  {
    "id": "LIC:660-14-LP26",
    "fuente": "licitacion",
    "codigo": "660-14-LP26",
@@ -238,7 +106,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00"
   },
@@ -282,7 +150,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00"
   },
@@ -321,7 +189,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00"
   },
@@ -355,8 +223,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
-   "detalle_actualizado": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T18:05:11+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00"
   },
   {
@@ -426,8 +294,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
-   "detalle_actualizado": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T18:05:11+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00",
    "cambio_estado": "2026-10-19T14:05:11+00:00"
   },
@@ -460,8 +328,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
-   "detalle_actualizado": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T18:05:11+00:00",
    "primera_deteccion": "2026-10-19T15:05:10+00:00"
   },
   {
@@ -501,7 +369,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -534,8 +402,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
-   "detalle_actualizado": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T18:05:11+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
   },
   {
@@ -569,8 +437,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
-   "detalle_actualizado": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-19T18:05:11+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
   },
   {
@@ -606,7 +474,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -638,7 +506,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -670,7 +538,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -701,7 +569,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -734,7 +602,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -766,7 +634,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -801,7 +669,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -833,7 +701,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -864,7 +732,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T12:05:13+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -891,7 +759,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "primera_deteccion": "2026-10-19T14:05:11+00:00"
   },
   {
@@ -5235,7 +5103,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Cantidad\nItem\n1 R. Mini 3 Pro Aircraft Upper Cover Module\n1 R. Mini 3 Pro Forward Vision Sensor Module Decorative Cover\n2 R. Mini 4 Pro/Mini 3 Pro Front Aircraft Arm Rotating Axis\n1 DJI Mini 3 Pro GPS & IMU Modul",
    "direccion_entrega": "Huerfanos 770, piso 7 Santiago",
@@ -5772,7 +5640,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-13T10:55:00-03:00",
    "fecha_cierre": "2026-10-15T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-19 12:50",
+   "fecha_ultimo_cambio": "2026-10-19T12:50:00.670Z",
    "organismo": "MUNICIPALIDAD DE LOS ANDES",
    "unidad": "Administracion Municipal",
    "region": "Región de Valparaíso ",
@@ -5792,7 +5660,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T16:05:10+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -5930,7 +5798,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -6098,7 +5966,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-19T17:05:15+00:00"
@@ -6133,7 +6001,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6234,7 +6102,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6407,7 +6275,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T16:05:10+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00",
    "cambio_estado": "2026-10-19T12:05:13+00:00"
@@ -6442,7 +6310,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "ultima_actualizacion": "2026-10-19T18:05:11+00:00",
    "detalle_actualizado": "2026-10-19T00:05:10+00:00",
    "primera_deteccion": "2026-10-15T22:05:11+00:00"
   },
@@ -6478,6 +6346,138 @@
    "ultima_actualizacion": "2026-10-19T00:05:10+00:00",
    "detalle_actualizado": "2026-10-19T00:05:10+00:00",
    "primera_deteccion": "2026-10-16T23:05:11+00:00"
+  },
+  {
+   "id": "LIC:1437-16-LE26",
+   "fuente": "licitacion",
+   "codigo": "1437-16-LE26",
+   "nombre": "ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-19T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1437-16-LE26",
+   "descripcion": "ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE, ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC. SEGUN BASES ADMINISTRATIVAS, REQUERIMIENTOS TECNICOS Y OTROS ANEXOS ADJUNTOS A LA PROPUESTA.",
+   "organismo": "I MUNICIPALIDAD DE LLANQUIHUE",
+   "unidad": "Ilustre Municipalidad de Llanquihue",
+   "region": "Región de los Lagos",
+   "comuna": "Llanquihue",
+   "fecha_publicacion": "2026-10-06T10:12:44-03:00",
+   "fecha_adjudicacion": "2026-11-30T21:00:00-03:00",
+   "monto": 25000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE, ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC. SEGUN BASES, REQUERIMIENTOS TECNICOS Y OTROS ANEXOS."
+   ],
+   "terminos": [
+    "Dron",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "detalle_actualizado": "2026-10-19T12:05:13+00:00",
+   "primera_deteccion": "2026-10-06T14:05:12+00:00"
+  },
+  {
+   "id": "LIC:1079596-37-LE26",
+   "fuente": "licitacion",
+   "codigo": "1079596-37-LE26",
+   "nombre": "ADQUISICION 10 BATERIAS TB65 Y 01 ESTACION  CARGA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-19T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079596-37-LE26",
+   "descripcion": "ADQUISICIÓN DE 10 BATERÍAS INTELIGENTES DE VUELO TB65 Y 01 ESTACIÓN DE CARGA BS65, COMPATIBLES CON AERONAVES DJI MATRICE 300 RTK, DESTINADAS A LA SECCIÓN OPERATIVA RPAS, DEPENDIENTE DE LA ZONA DE CARABINEROS DE ARICA Y PARINACOTA.",
+   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+   "unidad": "SECCIÓN DE COMPRAS ZONA ARICA Y PARINACOTA",
+   "region": "Región de Arica y Parinacota",
+   "comuna": "Arica",
+   "fecha_publicacion": "2026-10-06T18:04:35-03:00",
+   "fecha_adjudicacion": "2026-11-19T17:46:00-03:00",
+   "monto": 10737900.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Soportes de batería — ADQUISICIÓN DE 10 BATERÍAS INTELIGENTES DE VUELO TB65 Y 01 ESTACIÓN DE CARGA BS65, COMPATIBLES CON AERONAVES DJI MATRICE 300 RTK, DESTINADAS A LA SECCIÓN OPERATIVA RPAS, DEPENDIENTE DE LA ZONA DE CARABINEROS DE ARICA Y PARINACOTA\r\n\r\n\r\n\r\n\r\n"
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "detalle_actualizado": "2026-10-19T12:05:13+00:00",
+   "primera_deteccion": "2026-10-06T21:05:10+00:00"
+  },
+  {
+   "id": "CA:2686-506-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2686-506-COT26",
+   "nombre": "Servicio de capacitación en operación y manejo de drones para Seguridad Pública.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-15T16:37:00-03:00",
+   "fecha_cierre": "2026-10-19T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-15 16:40",
+   "organismo": "I MUNICIPALIDAD DE COLINA",
+   "unidad": "SECPLAN",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 3000000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2686-506-COT26",
+   "descripcion": "Contratación de capacitación para funcionarios de Seguridad Pública en el uso seguro, eficiente y responsable de drones, abordando aspectos técnicos, operacionales y normativos para labores de vigilancia, prevención y apoyo a la seguridad comunal, conforme a la normativa vigente.",
+   "direccion_entrega": "Av colina 700",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Capacitación a empleados — Contratación de capacitación para funcionarios de Seguridad Pública en el uso seguro, eficiente y responsable de drones, abordando aspectos técnicos, operacionales y normativos para labores de vigilancia, prevención y apoyo a la seguridad comunal, conforme a la normativa vigente."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-19T00:05:10+00:00",
+   "detalle_actualizado": "2026-10-19T00:05:10+00:00",
+   "primera_deteccion": "2026-10-15T23:05:11+00:00"
+  },
+  {
+   "id": "LIC:2981-278-LE26",
+   "fuente": "licitacion",
+   "codigo": "2981-278-LE26",
+   "nombre": "JENAINPOL - ADQUISICIÓN DE 18 BATERIAS TB65 PARA DRONES MATRICE 300 Y 350 RTK",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-19T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-278-LE26",
+   "descripcion": "ADQUISICIÓN DE 18 BATERIAS TB65 PARA DRONES MATRICE 300 Y 350 RTK",
+   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+   "unidad": "DEPARTAMENTO ADMINISTRATIVO",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-10-09T14:42:49-03:00",
+   "fecha_adjudicacion": "2026-10-29T18:00:00-03:00",
+   "monto": 21600000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Baterías recargables — ADQUISICIÓN DE 18 BATERIAS TB65 PARA DRONES  MATRICE 300 Y 350 RTK"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-19T17:05:15+00:00",
+   "detalle_actualizado": "2026-10-19T12:05:13+00:00",
+   "primera_deteccion": "2026-10-09T18:05:12+00:00"
   }
  ]
 }
