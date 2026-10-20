@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-20T19:05:11+00:00",
- "proxima_actualizacion": "2026-10-20T20:05:11+00:00",
+ "generado": "2026-10-20T20:05:09+00:00",
+ "proxima_actualizacion": "2026-10-20T21:05:09+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-20T19:05:11+00:00",
+   "ultima_ok": "2026-10-20T20:05:09+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4620,
-   "detalles_consultados": 58,
+   "revisadas": 4639,
+   "detalles_consultados": 85,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-20T19:05:11+00:00",
-   "errores_detalle": 2,
+   "ultima_ok": "2026-10-20T20:05:09+00:00",
+   "errores_detalle": 3,
    "advertencias": [
-    "2 de 15 búsquedas no respondieron: drones, LiDAR"
+    "1 de 15 búsquedas no respondieron: drones"
    ],
-   "revisadas": 8,
-   "detalles_consultados": 5,
+   "revisadas": 12,
+   "detalles_consultados": 8,
    "modo": "incremental"
   }
  },
@@ -77,7 +77,9 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "CA:638-91-COT26"
+  "LIC:2585-139-LE26",
+  "CA:614-50-COT26",
+  "CA:1001-48-COT26"
  ],
  "items": [
   {
@@ -216,8 +218,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00"
   },
   {
@@ -290,8 +292,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
   {
@@ -431,7 +433,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
    "detalle_actualizado": "2026-10-20T17:05:12+00:00",
    "primera_deteccion": "2026-10-20T14:55:05+00:00"
   },
@@ -464,9 +466,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-20T19:05:11+00:00"
+  },
+  {
+   "id": "CA:1001-48-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1001-48-COT26",
+   "nombre": "SERVICIO DE MANTENCIÓN Y CALIBRACIÓN PREVENTIVA ANUAL DE EQUIPOS SOUTH",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-20T15:44:00-03:00",
+   "fecha_cierre": "2026-10-22T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-20 15:45",
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+   "unidad": "Dirección de Vialidad - IX Región - Dirección Regional",
+   "region": "Región de la Araucanía ",
+   "monto": 1000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1001-48-COT26",
+   "descripcion": "El MOP Dirección de Vialidad Región de La Araucanía, a través del Área de Topografía, requiere la contratación del “Servicio de  mantención y calibración preventiva anual de equipos South”, con servicio técnico autorizado y empresa que estén certificadas para calibración y mantención de equipos DotLas Plus SOUTH GNSS RTK + LIDAR.",
+   "direccion_entrega": "Dependencias de la empresa",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Topografía — Mantención y calibración preventiva general de Equipos GNSS RTK DotLas Plus SOUTH RTK + Lidar, según términos de referencia."
+   ],
+   "terminos": [
+    "LiDAR"
+   ],
+   "categorias": [
+    "derivado"
+   ],
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
+   "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
   {
    "id": "CA:2927-384-COT26",
@@ -504,6 +539,39 @@
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
   },
   {
+   "id": "CA:614-50-COT26",
+   "fuente": "compra_agil",
+   "codigo": "614-50-COT26",
+   "nombre": "ADQUISICIÓN DRON PROFESIONAL",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-20T17:04:00-03:00",
+   "fecha_cierre": "2026-10-22T18:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-20 17:05",
+   "organismo": "Ministerio de Vivienda y Urbanismo",
+   "unidad": "SEREMI MINVU I REGION",
+   "region": "Región de Tarapacá  ",
+   "monto": 2900000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=614-50-COT26",
+   "descripcion": "Especificaciones y criterios selección en PDF adjunto.",
+   "direccion_entrega": "Patricio lynch N° 50 , Iquique",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Cámaras aéreas — Dron de gama alta para cinematografía y captura aérea profesional"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
+   "primera_deteccion": "2026-10-20T20:05:09+00:00"
+  },
+  {
    "id": "CA:994-51-COT26",
    "fuente": "compra_agil",
    "codigo": "994-51-COT26",
@@ -533,8 +601,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-20T16:05:14+00:00"
   },
   {
@@ -570,8 +638,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
   {
@@ -602,8 +670,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
   {
@@ -634,8 +702,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
   {
@@ -665,8 +733,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
   {
@@ -699,8 +767,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
   {
@@ -718,7 +786,7 @@
    "region": "Región del Libertador General Bernardo O´Higgins",
    "comuna": "Rancagua",
    "fecha_publicacion": "2026-10-15T16:51:00-03:00",
-   "fecha_adjudicacion": "2026-11-25T20:00:00-03:00",
+   "fecha_adjudicacion": "2026-11-26T20:00:00-03:00",
    "moneda": "CLP",
    "tipo": "LP",
    "productos": [
@@ -732,9 +800,44 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
+  },
+  {
+   "id": "LIC:2585-139-LE26",
+   "fuente": "licitacion",
+   "codigo": "2585-139-LE26",
+   "nombre": "ADQ. DE EQUIPOS DRONES ORD N°908 DIPRESEH",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-10-30T17:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2585-139-LE26",
+   "descripcion": "La Ilustre Municipalidad de Arica convoca a la licitación “ADQUISICIÓN DE EQUIPOS DRONES DE ACUERDO A ORD. N°908, PARA DIRECCIÓN DE SEGURIDAD PÚBLICA, CBA, IMA” Dada la necesidad de la Municipalidad de adquirir equipos drones, destinados a fortalecer las labores de seguridad, vigilancia y patrullaje aéreo, conforme a las especificaciones administrativas, técnicas y económicas establecidas en las presentes bases administrativas y técnicas, anexos y/o formularios.",
+   "organismo": "I MUNICIPALIDAD DE ARICA",
+   "unidad": "FINANZAS IMA",
+   "region": "Región de Arica y Parinacota",
+   "comuna": "Arica",
+   "fecha_publicacion": "2026-10-20T16:54:06-03:00",
+   "fecha_adjudicacion": "2027-02-27T17:05:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — RPAS INDUSTRIALES MATRICE 30T CON HELICES 1671"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
+   "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
   {
    "id": "LIC:2405-145-LR26",
@@ -764,8 +867,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -799,8 +902,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
   {
@@ -831,8 +934,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
   {
@@ -862,8 +965,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
   {
@@ -889,7 +992,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-19T14:05:11+00:00",
    "cambio_estado": "2026-10-20T04:05:10+00:00",
    "descripcion": "Especificaciones y criterios de selección en PDF adjunto.",
@@ -4552,8 +4655,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-06T02:05:12+00:00"
   },
   {
@@ -4719,8 +4822,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T20:32:51+00:00"
   },
@@ -4763,11 +4866,11 @@
    "fuente": "compra_agil",
    "codigo": "813685-127-COT26",
    "nombre": "CURSO DE OPEERADOR DE DRON",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-05T11:49:00-03:00",
    "fecha_cierre": "2026-10-08T08:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-08T08:35:00.983Z",
+   "fecha_ultimo_cambio": "2026-10-20T16:20:01.243Z",
    "organismo": "DIRECCION GENERAL DEL TERRITORIO MARIT Y MM (AB)",
    "unidad": "DIRECCION GENERAL DEL TERRITORIO MARIT Y MM (AB)",
    "region": "Región de Valparaíso ",
@@ -4781,7 +4884,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T00:05:10+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL PROVEEDOR AL ACEPTAR LA ORDEN DE COMPRA, ACEPTA TODO LO ESTIPULADO EN ANEXO DE COMPRA ÁGIL (revisar en sección adjuntos) ADQUISICIÓN SERÁ PAGADA CON RECURSOS LEY N° 21.796, LEY DE PRESUPUESTOS DEL AÑO 2026, IVA INCLUIDO. EL PAGO SE EFECTUARÁ MEDIANTE TRANSFERENCIA, EL PROVEEDOR DEBE INDICAR CTA. CTE Y BANCO. COPIA DE FACTURA ELECTRÓNICA DEBE SER REMITIDA AL CORREO: deptoab@dgtm.cl",
    "direccion_entrega": "ERRAZURIZ 537 VALPARAISO",
@@ -4790,7 +4893,7 @@
     "Capacitación a empleados — CURSO DE OPEERADOR DE DRON, SEGUN BASES TECNICAS ADJUNTAS."
    ],
    "detalle_actualizado": "2026-10-07T21:05:10+00:00",
-   "cambio_estado": "2026-10-08T12:05:10+00:00"
+   "cambio_estado": "2026-10-20T20:05:09+00:00"
   },
   {
    "id": "CA:4085-457-COT26",
@@ -5178,8 +5281,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
   {
@@ -5418,8 +5521,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -5456,8 +5559,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-06T01:05:15+00:00"
   },
   {
@@ -5491,8 +5594,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-13T19:05:12+00:00"
   },
@@ -5606,8 +5709,8 @@
    "fuente": "licitacion",
    "codigo": "299-27-LE26",
    "nombre": "SERV  COBERTURA FOTOGRAFICA Y AUDIOVISUAL IND XIV",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Adjudicada",
    "fecha_cierre": "2026-10-14T12:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=299-27-LE26",
    "descripcion": "CONTRATACION DE UN SERVICIO DE COBERTURA FOTOGRAFICA Y AUDIOVISUAL PARA LOS JUEGOS BINACIONALES DE LA ARAUCANIA Y PARA ARAUCANIA",
@@ -5616,7 +5719,7 @@
    "region": "Región de Los Ríos",
    "comuna": "Valdivia",
    "fecha_publicacion": "2026-10-06T09:10:59-03:00",
-   "fecha_adjudicacion": "2026-10-20T18:00:00-03:00",
+   "fecha_adjudicacion": "2026-10-20T14:23:02-03:00",
    "moneda": "CLP",
    "tipo": "LE",
    "productos": [
@@ -5628,10 +5731,10 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-06T13:05:13+00:00",
-   "cambio_estado": "2026-10-14T15:05:14+00:00"
+   "cambio_estado": "2026-10-20T20:05:09+00:00"
   },
   {
    "id": "CA:3553-78-COT26",
@@ -5729,8 +5832,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -5833,7 +5936,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-20T13:05:12+00:00"
@@ -6007,8 +6110,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
@@ -6016,8 +6119,8 @@
    "fuente": "licitacion",
    "codigo": "2952-19-LE26",
    "nombre": "ESTUDIO DE DISEÑO PRELIMINAR DE UN RPAS",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Adjudicada",
    "fecha_cierre": "2026-10-15T15:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2952-19-LE26",
    "descripcion": "CONTRATAR EL SERVICIO DE ESTUDIO DE FACTIBILIDAD DE DISEÑO PRELIMINAR  DE UN RPAS ORIENTADA AL EMPLEO EN TIERRA Y AMBIENTES MARÍTIMOS.",
@@ -6026,7 +6129,7 @@
    "region": "Región del Biobío",
    "comuna": "Talcahuano",
    "fecha_publicacion": "2026-10-05T11:40:42-03:00",
-   "fecha_adjudicacion": "2026-10-23T15:00:00-03:00",
+   "fecha_adjudicacion": "2026-10-20T12:37:37-03:00",
    "monto": 46000.0,
    "moneda": "USD",
    "tipo": "LE",
@@ -6039,9 +6142,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00",
+   "cambio_estado": "2026-10-20T20:05:09+00:00"
   },
   {
    "id": "LIC:1562-75-LE26",
@@ -6071,8 +6175,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -6345,7 +6449,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
    "detalle_actualizado": "2026-10-16T23:05:11+00:00",
    "primera_deteccion": "2026-10-16T22:05:13+00:00",
    "cambio_estado": "2026-10-20T12:05:11+00:00"
@@ -6516,8 +6620,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -6549,8 +6653,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-06T21:05:10+00:00"
   },
   {
@@ -6615,8 +6719,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-09T18:05:12+00:00"
   },
   {
@@ -6647,8 +6751,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00",
    "cambio_estado": "2026-10-19T19:05:11+00:00"
   },
@@ -6692,8 +6796,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-07T13:05:11+00:00",
    "cambio_estado": "2026-10-19T19:05:11+00:00"
   },
@@ -6732,8 +6836,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T20:05:09+00:00",
+   "detalle_actualizado": "2026-10-20T20:05:09+00:00",
    "primera_deteccion": "2026-10-08T15:30:18+00:00",
    "cambio_estado": "2026-10-19T19:05:11+00:00"
   }
