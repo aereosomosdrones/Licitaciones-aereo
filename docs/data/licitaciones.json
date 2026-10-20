@@ -1,28 +1,28 @@
 {
- "generado": "2026-10-20T18:05:12+00:00",
- "proxima_actualizacion": "2026-10-20T19:05:12+00:00",
+ "generado": "2026-10-20T19:05:11+00:00",
+ "proxima_actualizacion": "2026-10-20T20:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-20T18:05:12+00:00",
+   "ultima_ok": "2026-10-20T19:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4658,
-   "detalles_consultados": 36,
+   "revisadas": 4620,
+   "detalles_consultados": 58,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-20T18:05:12+00:00",
-   "errores_detalle": 0,
+   "ultima_ok": "2026-10-20T19:05:11+00:00",
+   "errores_detalle": 2,
    "advertencias": [
-    "2 de 15 búsquedas no respondieron: drones, DJI"
+    "2 de 15 búsquedas no respondieron: drones, LiDAR"
    ],
-   "revisadas": 3,
-   "detalles_consultados": 1,
+   "revisadas": 8,
+   "detalles_consultados": 5,
    "modo": "incremental"
   }
  },
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:638-91-COT26"
+ ],
  "items": [
   {
    "id": "CA:2817-677-COT26",
@@ -214,8 +216,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T17:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
+   "detalle_actualizado": "2026-10-20T19:05:11+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00"
   },
   {
@@ -288,7 +290,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00"
   },
@@ -408,13 +410,13 @@
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-10-20T11:44:00-03:00",
    "fecha_cierre": "2026-10-22T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-20 11:45",
+   "fecha_ultimo_cambio": "2026-10-20T11:45:00.590Z",
    "organismo": "CORPORACION DE LA CULTURA Y LAS ARTES DE LA ILUSTRE MUNICIPALIDAD DE R",
    "unidad": "Administración y Finanzas",
    "region": "Región del Libertador General Bernardo O´Higgins",
    "monto": 1000000.0,
    "moneda": "CLP",
-   "ofertas": 1,
+   "ofertas": 0,
    "url": "https://buscador.mercadopublico.cl/ficha?code=1137833-195-COT26",
    "descripcion": "Se requiere transmisor receptor DJI 2  Y  Baterías para autonomía compatibles cob el equipo para cctv en terreno y Transmisión a distancia en vivo de video y audio",
    "direccion_entrega": "Millán 342, Teatro Regional Lucho Gatica",
@@ -429,9 +431,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T17:05:12+00:00",
    "primera_deteccion": "2026-10-20T14:55:05+00:00"
+  },
+  {
+   "id": "CA:638-91-COT26",
+   "fuente": "compra_agil",
+   "codigo": "638-91-COT26",
+   "nombre": "SEGURO POR RESPONSABILIDAD CIVIL PRA DRONE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-20T15:51:00-03:00",
+   "fecha_cierre": "2026-10-22T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-20 15:55",
+   "organismo": "SERVIU REGION DE MAGALLANES Y DE LA ANTARTICA CHILENA",
+   "unidad": "SERVIU XII Región",
+   "region": "Región de Magallanes y de la Antártica",
+   "monto": 350000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=638-91-COT26",
+   "descripcion": "SEGURO POR RESPONSABILIDAD CIVIL PARA USO DE DRONE (REVISAR ADJUNTO). LA VIGENCIA DEL SEGURO DEBERA SER 1 AÑO DESDE EL 11 DE NOVIEMBRE 2026. SE DEBE ADJUNTAR DECLARACIÓN JURADA SEGÚN CORRESPONDA (LEER ADJUNTOS).",
+   "direccion_entrega": "CROACIA 722",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Seguro por responsabilidad civil — SEGURO POR RESPONSABILIDAD CIVIL PARA USO DE DRONE (REVISAR ADJUNTO). 01 año desde el 11 de noviembre de 2026."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
+   "detalle_actualizado": "2026-10-20T19:05:11+00:00",
+   "primera_deteccion": "2026-10-20T19:05:11+00:00"
   },
   {
    "id": "CA:2927-384-COT26",
@@ -498,8 +533,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
-   "detalle_actualizado": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
+   "detalle_actualizado": "2026-10-20T19:05:11+00:00",
    "primera_deteccion": "2026-10-20T16:05:14+00:00"
   },
   {
@@ -535,7 +570,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -567,7 +602,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -599,7 +634,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -630,7 +665,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -664,7 +699,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -697,7 +732,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -729,7 +764,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -764,7 +799,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -796,7 +831,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -827,7 +862,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-20T13:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -854,7 +889,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "primera_deteccion": "2026-10-19T14:05:11+00:00",
    "cambio_estado": "2026-10-20T04:05:10+00:00",
    "descripcion": "Especificaciones y criterios de selección en PDF adjunto.",
@@ -5798,7 +5833,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T18:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-20T13:05:12+00:00"
@@ -6310,7 +6345,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-20T17:05:12+00:00",
+   "ultima_actualizacion": "2026-10-20T19:05:11+00:00",
    "detalle_actualizado": "2026-10-16T23:05:11+00:00",
    "primera_deteccion": "2026-10-16T22:05:13+00:00",
    "cambio_estado": "2026-10-20T12:05:11+00:00"
