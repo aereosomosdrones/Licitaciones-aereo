@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-22T14:05:12+00:00",
- "proxima_actualizacion": "2026-10-22T15:05:12+00:00",
+ "generado": "2026-10-22T15:05:10+00:00",
+ "proxima_actualizacion": "2026-10-22T16:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-22T14:05:12+00:00",
+   "ultima_ok": "2026-10-22T15:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4848,
-   "detalles_consultados": 21,
+   "revisadas": 4876,
+   "detalles_consultados": 49,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-22T14:05:12+00:00",
+   "ultima_ok": "2026-10-22T15:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,7 +74,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:3553-38-LE26"
+ ],
  "items": [
   {
    "id": "CA:2927-384-COT26",
@@ -353,7 +355,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -385,7 +387,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -453,7 +455,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -484,7 +486,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -518,7 +520,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -551,7 +553,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -586,7 +588,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -618,7 +620,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -653,9 +655,42 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
+  },
+  {
+   "id": "LIC:3553-38-LE26",
+   "fuente": "licitacion",
+   "codigo": "3553-38-LE26",
+   "nombre": "Adq. 10 Soluciones Integrales equipos Dron",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-05T11:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3553-38-LE26",
+   "descripcion": "Adquisición de diez 10 soluciones integrales de equipos Dron Autel Evo II PRO 6K V3 o equivalente",
+   "organismo": "MINISTERIO DE BIENES NACIONALES",
+   "unidad": "MINISTERIO DE BIENES NACIONALES",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-10-22T11:11:50-03:00",
+   "fecha_adjudicacion": "2026-11-16T19:00:00-03:00",
+   "monto": 30000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Adquisición de diez (10) soluciones integrales de equipos Dron Autel Evo II PRO 6K V3 o equivalente"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
+   "detalle_actualizado": "2026-10-22T15:05:10+00:00",
+   "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
   {
    "id": "LIC:1887-4-LP26",
@@ -685,7 +720,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -716,7 +751,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-22T15:05:10+00:00",
    "detalle_actualizado": "2026-10-22T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
