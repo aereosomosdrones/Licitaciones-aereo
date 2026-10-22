@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-22T20:05:10+00:00",
- "proxima_actualizacion": "2026-10-22T21:05:10+00:00",
+ "generado": "2026-10-22T21:05:10+00:00",
+ "proxima_actualizacion": "2026-10-22T22:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-22T20:05:10+00:00",
+   "ultima_ok": "2026-10-22T21:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4933,
-   "detalles_consultados": 52,
+   "revisadas": 4967,
+   "detalles_consultados": 50,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-22T20:05:10+00:00",
+   "ultima_ok": "2026-10-22T21:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,41 +74,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:2793-131-LE26"
+ ],
  "items": [
-  {
-   "id": "CA:614-50-COT26",
-   "fuente": "compra_agil",
-   "codigo": "614-50-COT26",
-   "nombre": "ADQUISICIÓN DRON PROFESIONAL",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-20T17:04:00-03:00",
-   "fecha_cierre": "2026-10-22T18:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-20 17:05",
-   "organismo": "Ministerio de Vivienda y Urbanismo",
-   "unidad": "SEREMI MINVU I REGION",
-   "region": "Región de Tarapacá  ",
-   "monto": 2900000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=614-50-COT26",
-   "descripcion": "Especificaciones y criterios selección en PDF adjunto.",
-   "direccion_entrega": "Patricio lynch N° 50 , Iquique",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Cámaras aéreas — Dron de gama alta para cinematografía y captura aérea profesional"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-22T00:05:11+00:00",
-   "detalle_actualizado": "2026-10-22T00:05:11+00:00",
-   "primera_deteccion": "2026-10-20T20:05:09+00:00"
-  },
   {
    "id": "CA:722-131-COT26",
    "fuente": "compra_agil",
@@ -285,7 +254,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -317,7 +286,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -385,7 +354,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -416,7 +385,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -450,7 +419,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -483,7 +452,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -518,7 +487,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -550,7 +519,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -582,7 +551,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T18:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -614,7 +583,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T18:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -649,7 +618,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -682,9 +651,41 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
-   "detalle_actualizado": "2026-10-22T15:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
+   "detalle_actualizado": "2026-10-22T21:05:10+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
+  },
+  {
+   "id": "LIC:2793-131-LE26",
+   "fuente": "licitacion",
+   "codigo": "2793-131-LE26",
+   "nombre": "“ADQUISICIÓN E  IMPLEMENTACIÓN DE SISTEMA DE DRONE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-05T11:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2793-131-LE26",
+   "descripcion": "La presente propuesta tiene por objeto la contratación del servicio de suministro, implementación, puesta en marcha y operación de un sistema RPAS compuesto por dos 2 aeronaves, destinado a la Dirección de Seguridad Pública de la Municipalidad de Huechuraba, de conformidad con las Bases Administrativas, Especificaciones Técnicas y demás antecedentes de la licitación.\r\nEl servicio contempla una primera etapa de implementación, que considera el suministro, configuración y puesta en marcha del equipamiento, capacitación, inducción y certificación del equipo de seguridad comunal, además del acompañamiento técnico y administrativo para la preparación y obtención de permisos, autorizaciones y documentación requerida para la realización de vuelos diurnos y nocturnos, conforme a la normativa vigente.\r\nLa segunda etapa corresponderá a la operación del sistema por un período de doce 12 meses, incluyendo soporte técnico, mantención preventiva y correctiva, garantía y las actividades necesarias para asegurar su continuidad y correcto funcionamiento. La segunda aeronave tendrá carácter de respaldo. El servicio comprenderá todos los recursos, equipos, personal, seguros, certificaciones, permisos, documentación y demás actividades administrativas y técnicas necesarias para la correcta y oportuna ejecución del contrato.",
+   "organismo": "Municipalidad de Huechuraba",
+   "unidad": "Municipalidad de Huechuraba",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Huechuraba",
+   "fecha_publicacion": "2026-10-22T17:27:21-03:00",
+   "fecha_adjudicacion": "2027-01-15T17:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
+   "detalle_actualizado": "2026-10-22T21:05:10+00:00",
+   "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
   {
    "id": "LIC:1887-4-LP26",
@@ -714,7 +715,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -745,7 +746,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-22T20:05:10+00:00",
+   "ultima_actualizacion": "2026-10-22T21:05:10+00:00",
    "detalle_actualizado": "2026-10-22T16:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -7187,6 +7188,39 @@
    "ultima_actualizacion": "2026-10-22T00:05:11+00:00",
    "detalle_actualizado": "2026-10-22T00:05:11+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00"
+  },
+  {
+   "id": "CA:614-50-COT26",
+   "fuente": "compra_agil",
+   "codigo": "614-50-COT26",
+   "nombre": "ADQUISICIÓN DRON PROFESIONAL",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-20T17:04:00-03:00",
+   "fecha_cierre": "2026-10-22T18:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-20 17:05",
+   "organismo": "Ministerio de Vivienda y Urbanismo",
+   "unidad": "SEREMI MINVU I REGION",
+   "region": "Región de Tarapacá  ",
+   "monto": 2900000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=614-50-COT26",
+   "descripcion": "Especificaciones y criterios selección en PDF adjunto.",
+   "direccion_entrega": "Patricio lynch N° 50 , Iquique",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Cámaras aéreas — Dron de gama alta para cinematografía y captura aérea profesional"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-22T00:05:11+00:00",
+   "detalle_actualizado": "2026-10-22T00:05:11+00:00",
+   "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
   {
    "id": "CA:5586-2837-COT26",
