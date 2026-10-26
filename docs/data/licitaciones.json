@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-26T14:05:11+00:00",
- "proxima_actualizacion": "2026-10-26T15:05:11+00:00",
+ "generado": "2026-10-26T15:05:11+00:00",
+ "proxima_actualizacion": "2026-10-26T16:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-26T14:05:11+00:00",
+   "ultima_ok": "2026-10-26T15:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5233,
-   "detalles_consultados": 34,
+   "revisadas": 5270,
+   "detalles_consultados": 38,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-26T14:05:11+00:00",
+   "ultima_ok": "2026-10-26T15:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -77,111 +77,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "CA:904-73-COT26",
-   "fuente": "compra_agil",
-   "codigo": "904-73-COT26",
-   "nombre": "SC_CURSO OPERADOR DE RPAS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-21T15:51:00-03:00",
-   "fecha_cierre": "2026-10-26T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-21 15:55",
-   "organismo": "SERVICIO AGRICOLA Y GANADERO",
-   "unidad": "SAG - Atacama",
-   "region": "Región de Atacama ",
-   "monto": 300000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=904-73-COT26",
-   "descripcion": "El Servicio Agrícola y Ganadero Región de Atacama, Dirección Regional de Atacama, requiere adquirir Curso para la obtención de credenciales para Operadores de RPAS (aeronaves pilotadas a distancia).\nMAYOR DETALLES Y ESPECIFICACIONES, EN ANEXO ADJUNTO.",
-   "direccion_entrega": "DIEGO DE ALMAGRO #220",
-   "plazo_entrega_dias": 15,
-   "productos": [
-    "Formación, capacitación y entrenamiento de personal — Se requiere la contratación de un curso para la obtención de credencial de Operador de RPAS (aeronaves pilotadas a distancia), que cumpla con los estándares exigidos por la Dirección General de Aeronáutica Civil – DGAC.\nEl curso debe contemplar conocimientos técnicos, teóricos y prácticos (práctica de vuelo) en el uso de drones, además de la preparación para el examen y rendición ante la DGAC, trámite y entrega de credencial y entrega de certificado de aprobación del curso."
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Aeronave no tripulada",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
-   "detalle_actualizado": "2026-10-26T01:05:11+00:00",
-   "primera_deteccion": "2026-10-22T00:05:11+00:00"
-  },
-  {
-   "id": "CA:2427-1198-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2427-1198-COT26",
-   "nombre": "Adquisición de repuestos para dron, DSC.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-19T12:05:00-03:00",
-   "fecha_cierre": "2026-10-26T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-22 13:45",
-   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
-   "unidad": "ABASTECIMIENTO",
-   "region": "Región de Valparaíso ",
-   "monto": 350000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1198-COT26",
-   "descripcion": "Pedido N°19 DSC. Adquisición de repuestos para dron. Monto referencial $350.000.- según detalle y TDR adjunto. Se deberá indicar expresamente el plazo de entrega. En caso de no señalarlo, se entenderá aceptado el establecido en el TDR. *IMPORTANTE* POR FAVOR ADJUNTAR COTIZACIÓN FORMAL Y PATENTE MUNICIPAL VIGENTE (EN EL CASO DE NO ADJUNTAR, SE SOLICITARA MEDIANTE CORREO ADJUNTAR LO SOLICITADO CON UN PLAZO MAXIMO DE 24 HRS)",
-   "direccion_entrega": "Victoria 2579",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Accesorios eléctricos — Repuesto para dron: BC. EN. SSOOO662.01 - DOWNWARD GIMBAL VIBRATION DAMPING MODULE, según TTR adjunto."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
-   "detalle_actualizado": "2026-10-26T01:05:11+00:00",
-   "primera_deteccion": "2026-10-19T16:05:10+00:00",
-   "cambio_estado": "2026-10-23T00:05:11+00:00"
-  },
-  {
-   "id": "CA:1305544-81-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1305544-81-COT26",
-   "nombre": "ADQUISICIÓN DE DRON SLEP SANTA CORINA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-23T11:50:00-03:00",
-   "fecha_cierre": "2026-10-26T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-23 11:55",
-   "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTA CORINA",
-   "unidad": "COMPRAS Y LICITACIONES",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1889990.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1305544-81-COT26",
-   "descripcion": "Adquirir un dron para el registro audiovisual, levantamiento de imágenes aéreas y apoyo a actividades\ninstitucionales del Servicio Local de Educación Pública Santa Corina.",
-   "direccion_entrega": "Av. Los Pajaritos #3195, Local 10-A",
-   "plazo_entrega_dias": 2,
-   "productos": [
-    "Cámaras aéreas — Adquirir un dron para el registro audiovisual, levantamiento de imágenes aéreas y apoyo a actividades\ninstitucionales del Servicio Local de Educación Pública Santa Corina."
-   ],
-   "terminos": [
-    "Dron",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
-   "detalle_actualizado": "2026-10-26T01:05:11+00:00",
-   "primera_deteccion": "2026-10-24T00:27:11+00:00"
-  },
-  {
    "id": "LIC:2793-147-LE26",
    "fuente": "licitacion",
    "codigo": "2793-147-LE26",
@@ -214,7 +109,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
@@ -280,7 +175,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -421,7 +316,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -490,7 +385,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -524,7 +419,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -557,7 +452,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -626,7 +521,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -658,7 +553,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -690,7 +585,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T14:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -722,7 +617,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T14:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -757,7 +652,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -790,7 +685,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -822,7 +717,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -854,7 +749,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -885,7 +780,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T14:05:11+00:00",
+   "ultima_actualizacion": "2026-10-26T15:05:11+00:00",
    "detalle_actualizado": "2026-10-26T10:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -7712,6 +7607,111 @@
    "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
    "detalle_actualizado": "2026-10-26T01:05:11+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00"
+  },
+  {
+   "id": "CA:904-73-COT26",
+   "fuente": "compra_agil",
+   "codigo": "904-73-COT26",
+   "nombre": "SC_CURSO OPERADOR DE RPAS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-21T15:51:00-03:00",
+   "fecha_cierre": "2026-10-26T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-21 15:55",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "SAG - Atacama",
+   "region": "Región de Atacama ",
+   "monto": 300000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=904-73-COT26",
+   "descripcion": "El Servicio Agrícola y Ganadero Región de Atacama, Dirección Regional de Atacama, requiere adquirir Curso para la obtención de credenciales para Operadores de RPAS (aeronaves pilotadas a distancia).\nMAYOR DETALLES Y ESPECIFICACIONES, EN ANEXO ADJUNTO.",
+   "direccion_entrega": "DIEGO DE ALMAGRO #220",
+   "plazo_entrega_dias": 15,
+   "productos": [
+    "Formación, capacitación y entrenamiento de personal — Se requiere la contratación de un curso para la obtención de credencial de Operador de RPAS (aeronaves pilotadas a distancia), que cumpla con los estándares exigidos por la Dirección General de Aeronáutica Civil – DGAC.\nEl curso debe contemplar conocimientos técnicos, teóricos y prácticos (práctica de vuelo) en el uso de drones, además de la preparación para el examen y rendición ante la DGAC, trámite y entrega de credencial y entrega de certificado de aprobación del curso."
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Aeronave no tripulada",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
+   "detalle_actualizado": "2026-10-26T01:05:11+00:00",
+   "primera_deteccion": "2026-10-22T00:05:11+00:00"
+  },
+  {
+   "id": "CA:2427-1198-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2427-1198-COT26",
+   "nombre": "Adquisición de repuestos para dron, DSC.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-19T12:05:00-03:00",
+   "fecha_cierre": "2026-10-26T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-22 13:45",
+   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
+   "unidad": "ABASTECIMIENTO",
+   "region": "Región de Valparaíso ",
+   "monto": 350000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1198-COT26",
+   "descripcion": "Pedido N°19 DSC. Adquisición de repuestos para dron. Monto referencial $350.000.- según detalle y TDR adjunto. Se deberá indicar expresamente el plazo de entrega. En caso de no señalarlo, se entenderá aceptado el establecido en el TDR. *IMPORTANTE* POR FAVOR ADJUNTAR COTIZACIÓN FORMAL Y PATENTE MUNICIPAL VIGENTE (EN EL CASO DE NO ADJUNTAR, SE SOLICITARA MEDIANTE CORREO ADJUNTAR LO SOLICITADO CON UN PLAZO MAXIMO DE 24 HRS)",
+   "direccion_entrega": "Victoria 2579",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Accesorios eléctricos — Repuesto para dron: BC. EN. SSOOO662.01 - DOWNWARD GIMBAL VIBRATION DAMPING MODULE, según TTR adjunto."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
+   "detalle_actualizado": "2026-10-26T01:05:11+00:00",
+   "primera_deteccion": "2026-10-19T16:05:10+00:00",
+   "cambio_estado": "2026-10-23T00:05:11+00:00"
+  },
+  {
+   "id": "CA:1305544-81-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1305544-81-COT26",
+   "nombre": "ADQUISICIÓN DE DRON SLEP SANTA CORINA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-23T11:50:00-03:00",
+   "fecha_cierre": "2026-10-26T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-23 11:55",
+   "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTA CORINA",
+   "unidad": "COMPRAS Y LICITACIONES",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1889990.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1305544-81-COT26",
+   "descripcion": "Adquirir un dron para el registro audiovisual, levantamiento de imágenes aéreas y apoyo a actividades\ninstitucionales del Servicio Local de Educación Pública Santa Corina.",
+   "direccion_entrega": "Av. Los Pajaritos #3195, Local 10-A",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Cámaras aéreas — Adquirir un dron para el registro audiovisual, levantamiento de imágenes aéreas y apoyo a actividades\ninstitucionales del Servicio Local de Educación Pública Santa Corina."
+   ],
+   "terminos": [
+    "Dron",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
+   "detalle_actualizado": "2026-10-26T01:05:11+00:00",
+   "primera_deteccion": "2026-10-24T00:27:11+00:00"
   }
  ]
 }
