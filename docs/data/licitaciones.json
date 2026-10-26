@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-26T20:05:38+00:00",
- "proxima_actualizacion": "2026-10-26T21:05:38+00:00",
+ "generado": "2026-10-26T21:05:12+00:00",
+ "proxima_actualizacion": "2026-10-26T22:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-26T20:05:38+00:00",
+   "ultima_ok": "2026-10-26T21:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4803,
-   "detalles_consultados": 61,
+   "revisadas": 4819,
+   "detalles_consultados": 63,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-26T20:05:38+00:00",
+   "ultima_ok": "2026-10-26T21:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,7 +74,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:4192-68-LE26"
+ ],
  "items": [
   {
    "id": "LIC:612-44-LE26",
@@ -104,7 +106,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -245,7 +247,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -314,7 +316,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -348,7 +350,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -381,7 +383,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -450,7 +452,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -482,7 +484,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -514,7 +516,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T20:05:38+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -546,7 +548,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T20:05:38+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -581,7 +583,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -614,7 +616,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -646,9 +648,40 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
+  },
+  {
+   "id": "LIC:4192-68-LE26",
+   "fuente": "licitacion",
+   "codigo": "4192-68-LE26",
+   "nombre": "ADQUISICIÓN DE UN DRON PROFESIONAL",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-05T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4192-68-LE26",
+   "descripcion": "Las presentes bases tienen por objetivo determinar y definir las condiciones generales que se deberán tener presente en la licitación para “ADQUISICIÓN DE UN DRON PROFESIONAL DE ALTA PRECISIÓN Y EFICIENCIA, MÁS ACCESORIOS, PARA ESTUDIOS DE CARTOGRAFÍA Y LEVANTAMIENTOS TOPOGRÁFICOS Y GEOESPACIALES”, para la Ilustre Municipalidad de Caldera.\r\n\r\nLa presente licitación, y los derechos y obligaciones de las partes se regularán por las presentes bases administrativas, las bases técnicas, las aclaraciones y la respectiva oferta. Supletoriamente se aplicará la Ley de Compras Públicas N°19.886 y su respectivo Reglamento.",
+   "organismo": "I MUNICIPALIDAD DE CALDERA",
+   "unidad": "Secpla",
+   "region": "Región de Atacama",
+   "comuna": "Caldera",
+   "fecha_publicacion": "2026-10-26T17:38:30-03:00",
+   "fecha_adjudicacion": "2026-11-20T16:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Construcción de obras civiles — APRUEBA LLAMADO A LICITACION PÚBLICA, BASES ADMINISTRATIVAS Y BASES TÉCNICAS PARA “ADQUISICIÓN DE UN DRON PROFESIONAL DE ALTA PRECISIÓN Y EFICIENCIA, MÁS ACCESORIOS, PARA ESTUDIOS DE CARTOGRAFÍA Y LEVANTAMIENTOS TOPOGRÁFICOS Y GEOESPACIALES”."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
+   "detalle_actualizado": "2026-10-26T21:05:12+00:00",
+   "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
   {
    "id": "LIC:1887-4-LP26",
@@ -678,7 +711,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -709,7 +742,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T20:05:38+00:00",
+   "ultima_actualizacion": "2026-10-26T21:05:12+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
