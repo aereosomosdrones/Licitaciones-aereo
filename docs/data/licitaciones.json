@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-26T18:05:10+00:00",
- "proxima_actualizacion": "2026-10-26T19:05:10+00:00",
+ "generado": "2026-10-26T19:05:13+00:00",
+ "proxima_actualizacion": "2026-10-26T20:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-26T18:05:10+00:00",
+   "ultima_ok": "2026-10-26T19:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5020,
-   "detalles_consultados": 17,
+   "revisadas": 4826,
+   "detalles_consultados": 61,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-26T18:05:10+00:00",
+   "ultima_ok": "2026-10-26T19:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -77,77 +77,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "LIC:2793-147-LE26",
-   "fuente": "licitacion",
-   "codigo": "2793-147-LE26",
-   "nombre": "ADQUISICION DE MATERIAL AUDIOVISUAL",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-26T15:30:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2793-147-LE26",
-   "descripcion": "ADQUISICION DE MATERIAL AUDIOVISUAL PARA DEPTO. DE COMUNICACIONES Y PRENSA, VER DETALLE EN BASES TECNICAS",
-   "organismo": "Municipalidad de Huechuraba",
-   "unidad": "Municipalidad de Huechuraba",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Huechuraba",
-   "fecha_publicacion": "2026-10-16T16:38:11-03:00",
-   "fecha_adjudicacion": "2026-11-16T15:04:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Conjuntos de cámara — Óptica  70-200, igual o superior, Ver Bases",
-    "Baterías recargables — Batería  LP-E17, igual o superior, Ver Bases",
-    "Cámaras digitales — Cámara de acción, generación actual  igual o superior, Ver Bases",
-    "Conjuntos de cámara —  Óptica  GM 16-35mm f2.8 II FE Igual o Superior, Ver Bases",
-    "Baterías recargables — Batería de vuelo inteligente DJI para Mini 2 / Mini 4K, igual o superior, Ver Bases",
-    "Micrófonos — Micrófono inalámbrico generación actual, igual o superior, Ver Bases",
-    "Memoria de acceso aleatorio (RAM) — Tarjeta de memoria SD, 128 GB, clase 10, V30, generación actual, igual o superior, Ver Bases"
-   ],
-   "terminos": [
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
-   "detalle_actualizado": "2026-10-26T16:05:12+00:00",
-   "primera_deteccion": "2026-10-16T20:05:11+00:00"
-  },
-  {
-   "id": "CA:3603-560-COT26",
-   "fuente": "compra_agil",
-   "codigo": "3603-560-COT26",
-   "nombre": "Contratación de servicio de capacitación y certificación de 06 operadores de drones. SP 2013",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-23T11:02:00-03:00",
-   "fecha_cierre": "2026-10-26T15:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-23 11:05",
-   "organismo": "I MUNICIPALIDAD DE MULCHEN",
-   "unidad": "DIRECCION DE ADMINISTRACION Y FINANZAS",
-   "region": "Región del Biobío ",
-   "monto": 2400000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3603-560-COT26",
-   "descripcion": "SPN°2013, DIRECCIÓN DE SEGURIDAD PÚBLICA, que solicita la Contratación de servicio de capacitación y certificación de 06 operadores de drones. Se adjunta Solicitud de Pedido con el detalle y especificaciones del servicio, así como declaración jurada simple de Conflicto de Intereses la cual debe completar y firmar. El proveedor deberá adjuntar la declaración jurada simple y cotización detallada con los precios, plazo de ejecución del servicio deberá ser coordinado con encargado previamente.",
-   "direccion_entrega": "ANIBAL PINTO 495",
-   "plazo_entrega_dias": 2,
-   "productos": [
-    "Formación, capacitación y entrenamiento de personal — Contratación de servicio de capacitación y certificación de 06 operadores de drones. SP 2013"
-   ],
-   "terminos": [
-    "Dron",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
-   "detalle_actualizado": "2026-10-26T01:05:11+00:00",
-   "primera_deteccion": "2026-10-24T00:27:11+00:00"
-  },
-  {
    "id": "LIC:612-44-LE26",
    "fuente": "licitacion",
    "codigo": "612-44-LE26",
@@ -175,7 +104,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
@@ -316,7 +245,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -385,7 +314,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -419,7 +348,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -452,7 +381,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -521,7 +450,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -553,7 +482,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -585,7 +514,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T14:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -617,7 +546,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T14:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -652,7 +581,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -685,7 +614,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -717,7 +646,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -749,7 +678,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -780,7 +709,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "ultima_actualizacion": "2026-10-26T19:05:13+00:00",
    "detalle_actualizado": "2026-10-26T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -7707,6 +7636,77 @@
    ],
    "categorias": [
     "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
+   "detalle_actualizado": "2026-10-26T01:05:11+00:00",
+   "primera_deteccion": "2026-10-24T00:27:11+00:00"
+  },
+  {
+   "id": "LIC:2793-147-LE26",
+   "fuente": "licitacion",
+   "codigo": "2793-147-LE26",
+   "nombre": "ADQUISICION DE MATERIAL AUDIOVISUAL",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-26T15:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2793-147-LE26",
+   "descripcion": "ADQUISICION DE MATERIAL AUDIOVISUAL PARA DEPTO. DE COMUNICACIONES Y PRENSA, VER DETALLE EN BASES TECNICAS",
+   "organismo": "Municipalidad de Huechuraba",
+   "unidad": "Municipalidad de Huechuraba",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Huechuraba",
+   "fecha_publicacion": "2026-10-16T16:38:11-03:00",
+   "fecha_adjudicacion": "2026-11-16T15:04:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Conjuntos de cámara — Óptica  70-200, igual o superior, Ver Bases",
+    "Baterías recargables — Batería  LP-E17, igual o superior, Ver Bases",
+    "Cámaras digitales — Cámara de acción, generación actual  igual o superior, Ver Bases",
+    "Conjuntos de cámara —  Óptica  GM 16-35mm f2.8 II FE Igual o Superior, Ver Bases",
+    "Baterías recargables — Batería de vuelo inteligente DJI para Mini 2 / Mini 4K, igual o superior, Ver Bases",
+    "Micrófonos — Micrófono inalámbrico generación actual, igual o superior, Ver Bases",
+    "Memoria de acceso aleatorio (RAM) — Tarjeta de memoria SD, 128 GB, clase 10, V30, generación actual, igual o superior, Ver Bases"
+   ],
+   "terminos": [
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-26T18:05:10+00:00",
+   "detalle_actualizado": "2026-10-26T16:05:12+00:00",
+   "primera_deteccion": "2026-10-16T20:05:11+00:00"
+  },
+  {
+   "id": "CA:3603-560-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3603-560-COT26",
+   "nombre": "Contratación de servicio de capacitación y certificación de 06 operadores de drones. SP 2013",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-23T11:02:00-03:00",
+   "fecha_cierre": "2026-10-26T15:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-23 11:05",
+   "organismo": "I MUNICIPALIDAD DE MULCHEN",
+   "unidad": "DIRECCION DE ADMINISTRACION Y FINANZAS",
+   "region": "Región del Biobío ",
+   "monto": 2400000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3603-560-COT26",
+   "descripcion": "SPN°2013, DIRECCIÓN DE SEGURIDAD PÚBLICA, que solicita la Contratación de servicio de capacitación y certificación de 06 operadores de drones. Se adjunta Solicitud de Pedido con el detalle y especificaciones del servicio, así como declaración jurada simple de Conflicto de Intereses la cual debe completar y firmar. El proveedor deberá adjuntar la declaración jurada simple y cotización detallada con los precios, plazo de ejecución del servicio deberá ser coordinado con encargado previamente.",
+   "direccion_entrega": "ANIBAL PINTO 495",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Formación, capacitación y entrenamiento de personal — Contratación de servicio de capacitación y certificación de 06 operadores de drones. SP 2013"
+   ],
+   "terminos": [
+    "Dron",
+    "Credencial / piloto"
+   ],
+   "categorias": [
     "nucleo"
    ],
    "ultima_actualizacion": "2026-10-26T01:05:11+00:00",
