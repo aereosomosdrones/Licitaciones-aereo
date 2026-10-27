@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-27T11:05:12+00:00",
- "proxima_actualizacion": "2026-10-27T12:05:12+00:00",
+ "generado": "2026-10-27T12:05:13+00:00",
+ "proxima_actualizacion": "2026-10-27T13:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-27T11:05:12+00:00",
+   "ultima_ok": "2026-10-27T12:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4782,
-   "detalles_consultados": 26,
+   "revisadas": 4777,
+   "detalles_consultados": 16,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-27T11:05:12+00:00",
+   "ultima_ok": "2026-10-27T12:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,75 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:760-87-COT26",
-   "fuente": "compra_agil",
-   "codigo": "760-87-COT26",
-   "nombre": "Curso Piloto de Dron (RPA) para acreditarse ante DGAC.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-21T16:12:00-03:00",
-   "fecha_cierre": "2026-10-27T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-21 16:15",
-   "organismo": "SERVICIO AGRICOLA Y GANADERO",
-   "unidad": "SAG - Valparaíso",
-   "region": "Región de Valparaíso ",
-   "monto": 600000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=760-87-COT26",
-   "descripcion": "Servicio de capacitación teórico-práctica para 4 personas, orientado a la formación de operadores de Aeronaves Pilotadas a Distancia (RPA o drones), conforme a los requisitos establecidos por la Dirección General de Aeronáutica Civil (DGAC) para la obtención de la acreditación correspondiente.",
-   "direccion_entrega": "Freire 765",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Capacitación a empleados — Curso debe cumplir requisitos para obtener Credencial de Piloto a distancia que opera RPA, en la DGAC. Curso debe contemplar contenido teórico y práctico sobre el manejo y operación de un RPA, y los antec. normativos asociados al manejo y operación de un RPA. No requiere costo de inscripción en DGAC\nEl curso es para cuatro personas en la comuna de Quillota. Curso práctico en calle Ramón Freire 1540 y teórico en calle Ramón Freire 765. Se requiere Dron, p/práctica un vuelo y evalución de alumnos."
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Aeronave no tripulada",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-27T01:05:11+00:00",
-   "detalle_actualizado": "2026-10-27T01:05:11+00:00",
-   "primera_deteccion": "2026-10-22T00:05:11+00:00"
-  },
-  {
-   "id": "CA:2407-635-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2407-635-COT26",
-   "nombre": "REPARACIÓN DRONE MUNICIPAL SP 579 - IDDOC 276645",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-26T08:49:00-03:00",
-   "fecha_cierre": "2026-10-27T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-26 08:50",
-   "organismo": "I MUNICIPALIDAD DE RENCA",
-   "unidad": "IMUNI_RENCA ADQUISICIONES",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 2000000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2407-635-COT26",
-   "descripcion": "Se requiere REPARACIÓN DRONE MUNICIPAL. Proveedores deben adjuntar cotización donde se especifique detalles de esta, la no incorporación del archivo podría resultar en la declaración de inadmisibilidad de dicha oferta.\nDE ADJUDICARSE LA COMPRA, SE CONTACTARÁ POR VÍA TELEFÓNICA Y CORREO ELECTRÓNICO PARA CONFIRMAR STOCK DE PRODTOS Y/O SERVICIOS.",
-   "direccion_entrega": "Balmaceda 4020",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Tecnología audiovisual — REPARACIÓN DE DRONE, según EE.TT adjuntas"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-27T01:05:11+00:00",
-   "detalle_actualizado": "2026-10-27T01:05:11+00:00",
-   "primera_deteccion": "2026-10-27T01:05:11+00:00"
-  },
   {
    "id": "CA:2341-589-COT26",
    "fuente": "compra_agil",
@@ -349,7 +280,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -451,7 +382,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
@@ -551,7 +482,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -584,7 +515,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -653,7 +584,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -685,7 +616,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -717,7 +648,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T09:05:14+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -749,7 +680,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T09:05:14+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -784,7 +715,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -817,7 +748,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -849,7 +780,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -880,7 +811,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T10:05:12+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -913,8 +844,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
-   "detalle_actualizado": "2026-10-27T06:05:13+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
+   "detalle_actualizado": "2026-10-27T12:05:13+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
   {
@@ -945,7 +876,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -976,7 +907,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
+   "ultima_actualizacion": "2026-10-27T12:05:13+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -7946,6 +7877,75 @@
    "ultima_actualizacion": "2026-10-27T11:05:12+00:00",
    "detalle_actualizado": "2026-10-27T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
+  },
+  {
+   "id": "CA:760-87-COT26",
+   "fuente": "compra_agil",
+   "codigo": "760-87-COT26",
+   "nombre": "Curso Piloto de Dron (RPA) para acreditarse ante DGAC.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-21T16:12:00-03:00",
+   "fecha_cierre": "2026-10-27T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-21 16:15",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "SAG - Valparaíso",
+   "region": "Región de Valparaíso ",
+   "monto": 600000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=760-87-COT26",
+   "descripcion": "Servicio de capacitación teórico-práctica para 4 personas, orientado a la formación de operadores de Aeronaves Pilotadas a Distancia (RPA o drones), conforme a los requisitos establecidos por la Dirección General de Aeronáutica Civil (DGAC) para la obtención de la acreditación correspondiente.",
+   "direccion_entrega": "Freire 765",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Capacitación a empleados — Curso debe cumplir requisitos para obtener Credencial de Piloto a distancia que opera RPA, en la DGAC. Curso debe contemplar contenido teórico y práctico sobre el manejo y operación de un RPA, y los antec. normativos asociados al manejo y operación de un RPA. No requiere costo de inscripción en DGAC\nEl curso es para cuatro personas en la comuna de Quillota. Curso práctico en calle Ramón Freire 1540 y teórico en calle Ramón Freire 765. Se requiere Dron, p/práctica un vuelo y evalución de alumnos."
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Aeronave no tripulada",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-27T01:05:11+00:00",
+   "detalle_actualizado": "2026-10-27T01:05:11+00:00",
+   "primera_deteccion": "2026-10-22T00:05:11+00:00"
+  },
+  {
+   "id": "CA:2407-635-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2407-635-COT26",
+   "nombre": "REPARACIÓN DRONE MUNICIPAL SP 579 - IDDOC 276645",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-26T08:49:00-03:00",
+   "fecha_cierre": "2026-10-27T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-26 08:50",
+   "organismo": "I MUNICIPALIDAD DE RENCA",
+   "unidad": "IMUNI_RENCA ADQUISICIONES",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 2000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2407-635-COT26",
+   "descripcion": "Se requiere REPARACIÓN DRONE MUNICIPAL. Proveedores deben adjuntar cotización donde se especifique detalles de esta, la no incorporación del archivo podría resultar en la declaración de inadmisibilidad de dicha oferta.\nDE ADJUDICARSE LA COMPRA, SE CONTACTARÁ POR VÍA TELEFÓNICA Y CORREO ELECTRÓNICO PARA CONFIRMAR STOCK DE PRODTOS Y/O SERVICIOS.",
+   "direccion_entrega": "Balmaceda 4020",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Tecnología audiovisual — REPARACIÓN DE DRONE, según EE.TT adjuntas"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-27T01:05:11+00:00",
+   "detalle_actualizado": "2026-10-27T01:05:11+00:00",
+   "primera_deteccion": "2026-10-27T01:05:11+00:00"
   },
   {
    "id": "CA:2427-1232-COT26",
