@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-29T17:05:11+00:00",
- "proxima_actualizacion": "2026-10-29T18:05:11+00:00",
+ "generado": "2026-10-29T18:05:11+00:00",
+ "proxima_actualizacion": "2026-10-29T19:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T17:05:11+00:00",
+   "ultima_ok": "2026-10-29T18:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5138,
-   "detalles_consultados": 6,
+   "revisadas": 5054,
+   "detalles_consultados": 30,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T17:05:11+00:00",
+   "ultima_ok": "2026-10-29T18:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -77,42 +77,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "CA:1538637-19-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1538637-19-COT26",
-   "nombre": "Servicio integral de alimentación, pantalla LED y producción audiovisual para World Triathlon Cup San Pedro de la Paz 2026",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-28T01:18:00-03:00",
-   "fecha_cierre": "2026-10-29T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-28 01:20",
-   "organismo": "CORPORACION DEPORTIVA MUNICIPAL DE SAN PEDRO DE LA PAZ",
-   "unidad": "CORPORACION DEPORTIVA MUNICIPAL DE SAN PEDRO DE LA PAZ",
-   "region": "Región del Biobío ",
-   "monto": 5250000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1538637-19-COT26",
-   "descripcion": "Se requiere servicio integral para World Triathlon Cup San Pedro de la Paz 2026: cafetería continua sábado 31/10 para 70 personas; catering tipo cóctel domingo 01/11 para 70; pantalla LED exterior ambos días con generador e internet propio; producción audiovisual complementaria sábado con dos cámaras, dron y realización hacia LED. Montaje viernes 30/10, pruebas antes de 07:00. Presupuesto máximo $5.250.000 IVA incluido. Cotizar con desglose y conforme a especificaciones técnicas.",
-   "direccion_entrega": "BALNEARIO MUNICIPAL",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Pantallas de proyección — Arriendo de pantalla LED exterior de 3 x 2 m mínimo para sábado 31/10 (07:30 a 18:00) y domingo 01/11/2026 (07:30 a 14:30). Incluye estructura segura, procesador, conexiones de video, operador, generador con combustible y protecciones, internet propio y respaldo, transporte y desmontaje. Montaje viernes 30/10 tarde-noche y pruebas listas antes de las 07:00 del sábado. Domingo: señal oficial solo con autorización; en su defecto, contenido institucional. Valor con IVA.",
-    "Servicios Audio Visuales — Producción audiovisual complementaria solo sábado 31/10/2026, de 07:30 a 18:00, para pantalla LED en Balneario Municipal/CENDYR. Incluye 2 cámaras Full HD con operadores (entrevistas y cobertura general), dron 4K con piloto para tomas aéreas autorizadas de largadas, llegadas y Laguna Chica, mezcla y realización en vivo, enlaces e internet propio con respaldo. Entregar grabación continua de la señal producida en MP4 Full HD con audio dentro de 5 días hábiles. No es transmisión oficial.",
-    "Servicios de catering — Servicio de cafetería y atención continua para 70 personas el sábado 31/10/2026, de 08:00 a 14:00, en Balneario Municipal/CENDYR. Estación permanente de café, té, infusiones, agua y galletas surtidas, con azúcar, endulzantes y leches tradicional, sin lactosa y vegetal. Incluye reposición durante toda la jornada, mesas de servicio, mantelería, decoración, menaje, personal de atención, transporte, montaje, limpieza y retiro. La Corporación no proporciona mesas. Valor con IVA.",
-    "Servicios de catering — Servicio de catering tipo cóctel y atención continua para 70 personas el domingo 01/11/2026, de 08:00 a 14:00. Mínimos: 140 empanaditas, 168 mini quiches, 140 brochetas, 84 ceviches, 140 fajitas; 140 tartaletas, 140 queques/magdalenas, galletas; 70 aguas sin gas, 70 con gas, 42 bebidas normales y 42 sin azúcar, jugos, café/té, 84 energéticas, frutas y frutos secos. Incluye reposición, mesas, decoración, vajilla, atención, transporte, cadena de frío, limpieza y retiro. Valor con IVA."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
-   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
-   "primera_deteccion": "2026-10-29T02:21:05+00:00"
-  },
-  {
    "id": "LIC:1107276-27-LE26",
    "fuente": "licitacion",
    "codigo": "1107276-27-LE26",
@@ -142,7 +106,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -312,7 +276,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -381,7 +345,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -485,7 +449,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -517,7 +481,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -549,8 +513,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-29T11:05:13+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-29T18:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -581,8 +545,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-29T11:05:13+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-29T18:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -657,7 +621,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -690,7 +654,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -722,7 +686,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -753,7 +717,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T13:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -786,7 +750,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -819,7 +783,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -850,7 +814,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -884,8 +848,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
-   "detalle_actualizado": "2026-10-29T11:05:13+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-29T18:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
   {
@@ -915,7 +879,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -947,7 +911,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -978,7 +942,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T17:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -8605,6 +8569,42 @@
    "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
    "detalle_actualizado": "2026-10-29T02:21:05+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00"
+  },
+  {
+   "id": "CA:1538637-19-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1538637-19-COT26",
+   "nombre": "Servicio integral de alimentación, pantalla LED y producción audiovisual para World Triathlon Cup San Pedro de la Paz 2026",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-28T01:18:00-03:00",
+   "fecha_cierre": "2026-10-29T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-28 01:20",
+   "organismo": "CORPORACION DEPORTIVA MUNICIPAL DE SAN PEDRO DE LA PAZ",
+   "unidad": "CORPORACION DEPORTIVA MUNICIPAL DE SAN PEDRO DE LA PAZ",
+   "region": "Región del Biobío ",
+   "monto": 5250000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1538637-19-COT26",
+   "descripcion": "Se requiere servicio integral para World Triathlon Cup San Pedro de la Paz 2026: cafetería continua sábado 31/10 para 70 personas; catering tipo cóctel domingo 01/11 para 70; pantalla LED exterior ambos días con generador e internet propio; producción audiovisual complementaria sábado con dos cámaras, dron y realización hacia LED. Montaje viernes 30/10, pruebas antes de 07:00. Presupuesto máximo $5.250.000 IVA incluido. Cotizar con desglose y conforme a especificaciones técnicas.",
+   "direccion_entrega": "BALNEARIO MUNICIPAL",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Pantallas de proyección — Arriendo de pantalla LED exterior de 3 x 2 m mínimo para sábado 31/10 (07:30 a 18:00) y domingo 01/11/2026 (07:30 a 14:30). Incluye estructura segura, procesador, conexiones de video, operador, generador con combustible y protecciones, internet propio y respaldo, transporte y desmontaje. Montaje viernes 30/10 tarde-noche y pruebas listas antes de las 07:00 del sábado. Domingo: señal oficial solo con autorización; en su defecto, contenido institucional. Valor con IVA.",
+    "Servicios Audio Visuales — Producción audiovisual complementaria solo sábado 31/10/2026, de 07:30 a 18:00, para pantalla LED en Balneario Municipal/CENDYR. Incluye 2 cámaras Full HD con operadores (entrevistas y cobertura general), dron 4K con piloto para tomas aéreas autorizadas de largadas, llegadas y Laguna Chica, mezcla y realización en vivo, enlaces e internet propio con respaldo. Entregar grabación continua de la señal producida en MP4 Full HD con audio dentro de 5 días hábiles. No es transmisión oficial.",
+    "Servicios de catering — Servicio de cafetería y atención continua para 70 personas el sábado 31/10/2026, de 08:00 a 14:00, en Balneario Municipal/CENDYR. Estación permanente de café, té, infusiones, agua y galletas surtidas, con azúcar, endulzantes y leches tradicional, sin lactosa y vegetal. Incluye reposición durante toda la jornada, mesas de servicio, mantelería, decoración, menaje, personal de atención, transporte, montaje, limpieza y retiro. La Corporación no proporciona mesas. Valor con IVA.",
+    "Servicios de catering — Servicio de catering tipo cóctel y atención continua para 70 personas el domingo 01/11/2026, de 08:00 a 14:00. Mínimos: 140 empanaditas, 168 mini quiches, 140 brochetas, 84 ceviches, 140 fajitas; 140 tartaletas, 140 queques/magdalenas, galletas; 70 aguas sin gas, 70 con gas, 42 bebidas normales y 42 sin azúcar, jugos, café/té, 84 energéticas, frutas y frutos secos. Incluye reposición, mesas, decoración, vajilla, atención, transporte, cadena de frío, limpieza y retiro. Valor con IVA."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
+   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
+   "primera_deteccion": "2026-10-29T02:21:05+00:00"
   }
  ]
 }
