@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-29T15:05:14+00:00",
- "proxima_actualizacion": "2026-10-29T16:05:14+00:00",
+ "generado": "2026-10-29T16:05:10+00:00",
+ "proxima_actualizacion": "2026-10-29T17:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T15:05:14+00:00",
+   "ultima_ok": "2026-10-29T16:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5069,
-   "detalles_consultados": 46,
+   "revisadas": 5117,
+   "detalles_consultados": 59,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T15:05:14+00:00",
+   "ultima_ok": "2026-10-29T16:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,39 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:5416-792-COT26",
-   "fuente": "compra_agil",
-   "codigo": "5416-792-COT26",
-   "nombre": "Adquisición Dron para Dpto. de Agronomía",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-27T11:39:00-03:00",
-   "fecha_cierre": "2026-10-29T12:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-27 11:40",
-   "organismo": "UNIVERSIDAD DE LA SERENA",
-   "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
-   "region": "Región de Coquimbo ",
-   "monto": 6835018.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5416-792-COT26",
-   "descripcion": "Adquisición Dron para Dpto. de Agronomía; según Sc N° 51826.-",
-   "direccion_entrega": "Av. La Paz N° 1108, Dpto. de Agronomía, Campus Limarí, Ovalle.",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — Dron con cámara RGB y térmica radiométrica (según características técnicas indicadas en archivo adjunto; debe incluir despacho).-"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
-   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
-   "primera_deteccion": "2026-10-28T02:05:12+00:00"
-  },
   {
    "id": "CA:1538637-19-COT26",
    "fuente": "compra_agil",
@@ -175,7 +142,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -248,39 +215,6 @@
    "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
    "detalle_actualizado": "2026-10-29T02:21:05+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00"
-  },
-  {
-   "id": "LIC:1079563-36-LP26",
-   "fuente": "licitacion",
-   "codigo": "1079563-36-LP26",
-   "nombre": "ADQ. AERONAVES NO TRIPULADAS Y EQUIPOS PARA RPAS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-30T09:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079563-36-LP26",
-   "descripcion": "ADQUISICIÓN DE AERONAVES NO TRIPULADAS Y EQUIPOS PARA LA SECCIÓN RPAS O’HIGGINS DE LA ZONA DE CARABINEROS DEL LIBERTADOR BERNARDO O’HIGGINS DE CARABINEROS DE CHILE",
-   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
-   "unidad": "SEC DE COMPRAS ZONA DE CARAB LIB BERNARDO OHIGGINS",
-   "region": "Región del Libertador General Bernardo O´Higgins",
-   "comuna": "Rancagua",
-   "fecha_publicacion": "2026-10-15T16:51:00-03:00",
-   "fecha_adjudicacion": "2026-11-26T20:00:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LP",
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — LÍNEA N° 1 - ADQUISICIÓN DE AERONAVES NO TRIPULADAS",
-    "Sistema de transmisión por secuencias de video — LÍNEA N° 2 - ADQUISICIÓN DE SISTEMA DE TRANSMISIÓN PORTÁTIL"
-   ],
-   "terminos": [
-    "RPA / RPAS",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
-   "detalle_actualizado": "2026-10-29T10:05:11+00:00",
-   "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
   {
    "id": "CA:2704-2071-COT26",
@@ -378,7 +312,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -447,7 +381,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -523,6 +457,39 @@
    "primera_deteccion": "2026-10-29T02:21:05+00:00"
   },
   {
+   "id": "LIC:1079563-36-LP26",
+   "fuente": "licitacion",
+   "codigo": "1079563-36-LP26",
+   "nombre": "ADQ. AERONAVES NO TRIPULADAS Y EQUIPOS PARA RPAS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-02T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079563-36-LP26",
+   "descripcion": "ADQUISICIÓN DE AERONAVES NO TRIPULADAS Y EQUIPOS PARA LA SECCIÓN RPAS O’HIGGINS DE LA ZONA DE CARABINEROS DEL LIBERTADOR BERNARDO O’HIGGINS DE CARABINEROS DE CHILE",
+   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+   "unidad": "SEC DE COMPRAS ZONA DE CARAB LIB BERNARDO OHIGGINS",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "comuna": "Rancagua",
+   "fecha_publicacion": "2026-10-15T16:51:00-03:00",
+   "fecha_adjudicacion": "2026-11-26T20:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — LÍNEA N° 1 - ADQUISICIÓN DE AERONAVES NO TRIPULADAS",
+    "Sistema de transmisión por secuencias de video — LÍNEA N° 2 - ADQUISICIÓN DE SISTEMA DE TRANSMISIÓN PORTÁTIL"
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
+   "detalle_actualizado": "2026-10-29T10:05:11+00:00",
+   "primera_deteccion": "2026-10-15T20:05:12+00:00"
+  },
+  {
    "id": "LIC:2405-145-LR26",
    "fuente": "licitacion",
    "codigo": "2405-145-LR26",
@@ -550,7 +517,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -582,7 +549,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T11:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -614,7 +581,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T11:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -690,7 +657,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -723,7 +690,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -755,7 +722,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -786,7 +753,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T13:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -819,7 +786,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -852,7 +819,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -883,7 +850,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -917,7 +884,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T11:05:13+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -948,7 +915,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -980,7 +947,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -1011,7 +978,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
+   "ultima_actualizacion": "2026-10-29T16:05:10+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -8597,6 +8564,39 @@
     "Dron",
     "RPA / RPAS",
     "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
+   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
+   "primera_deteccion": "2026-10-28T02:05:12+00:00"
+  },
+  {
+   "id": "CA:5416-792-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5416-792-COT26",
+   "nombre": "Adquisición Dron para Dpto. de Agronomía",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-27T11:39:00-03:00",
+   "fecha_cierre": "2026-10-29T12:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-27 11:40",
+   "organismo": "UNIVERSIDAD DE LA SERENA",
+   "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
+   "region": "Región de Coquimbo ",
+   "monto": 6835018.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5416-792-COT26",
+   "descripcion": "Adquisición Dron para Dpto. de Agronomía; según Sc N° 51826.-",
+   "direccion_entrega": "Av. La Paz N° 1108, Dpto. de Agronomía, Campus Limarí, Ovalle.",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Dron con cámara RGB y térmica radiométrica (según características técnicas indicadas en archivo adjunto; debe incluir despacho).-"
+   ],
+   "terminos": [
+    "Dron"
    ],
    "categorias": [
     "nucleo"
