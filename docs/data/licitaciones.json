@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-29T18:05:11+00:00",
- "proxima_actualizacion": "2026-10-29T19:05:11+00:00",
+ "generado": "2026-10-29T19:05:11+00:00",
+ "proxima_actualizacion": "2026-10-29T20:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T18:05:11+00:00",
+   "ultima_ok": "2026-10-29T19:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5054,
-   "detalles_consultados": 30,
+   "revisadas": 5022,
+   "detalles_consultados": 52,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T18:05:11+00:00",
+   "ultima_ok": "2026-10-29T19:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,110 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "LIC:1107276-27-LE26",
-   "fuente": "licitacion",
-   "codigo": "1107276-27-LE26",
-   "nombre": "ADQUISICIÓN DE UN DRON FUMIGADOR",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-29T16:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1107276-27-LE26",
-   "descripcion": "Adquisición de un sistema de aeronave no tripulada de uso agrícola, destinado a la aplicación aérea de productos fitosanitarios, bioinsumos o soluciones fumigantes, con capacidad nominal de 50 litros de solución, equipado con sistemas de planificación automatizada, control de caudal en tiempo real, seguridad operacional y soporte técnico.",
-   "organismo": "INIA",
-   "unidad": "INTIHUASI",
-   "region": "Región de Atacama",
-   "comuna": "Coquimbo",
-   "fecha_publicacion": "2026-10-19T21:16:16-03:00",
-   "fecha_adjudicacion": "2026-11-10T16:00:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Aeronave agrícola de alas fijas — adquisición de un dron o nave aérea no tripuladas para fumigación aérea con sus respectivas\r\nbaterías y capacitaciones para 2 operadores en su uso."
-   ],
-   "terminos": [
-    "Dron",
-    "Aeronave no tripulada",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
-   "detalle_actualizado": "2026-10-29T16:50:43+00:00",
-   "primera_deteccion": "2026-10-20T01:05:11+00:00"
-  },
-  {
-   "id": "CA:2273-906-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2273-906-COT26",
-   "nombre": "MANTENCION Y REPARACION DE DRON, EXP. 16466 MEMORANDUM 28615 ear.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-27T11:30:00-03:00",
-   "fecha_cierre": "2026-10-29T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-27 11:35",
-   "organismo": "I MUNICIPALIDAD DE LA PINTANA",
-   "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 5000000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2273-906-COT26",
-   "descripcion": "LOS PROVEEDORES PARTICIPANTES DEBERÁN SUBIR SUS OFERTAS EN EL FORMULARIO DE COTIZACIÓN ESTABLECIDO EN LA PLATAFORMA DE MERCADO PÚBLICO. EN CASO DE ADJUNTAR UN ANEXO CON EL DETALLE DE LA COTIZACIÓN, ÉSTE DEBE COINCIDIR CON LA COTIZACIÓN ELECTRÓNICA DE MERCADO PÚBLICO. DE EXISTIR INCONSISTENCIA ENTRE EL FORMATO ELECTRÓNICO Y EL FORMATO ADJUNTO, LA COTIZACIÓN NO SERÁ CONSIDERADA EN LA EVALUACIÓN DE LAS OFERTAS. ver más en anexo adjunto.",
-   "direccion_entrega": "LOS TILOS N° 037 REFENCIA PARADERO 47 SANTA ROSA ",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Cámaras aéreas — MAVIC 3 Mantención correctiva y reposición de dron siniestrado. se adjunta anexo.",
-    "Cámaras para microfilmar — Matrice 350. Mantención preventiva dron con 1 años de uso",
-    "Cámaras de seguridad — MAVIC 3 Mantención preventiva dron con 1 año de uso.\n"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
-   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
-   "primera_deteccion": "2026-10-28T02:05:12+00:00"
-  },
-  {
-   "id": "CA:945256-61-COT26",
-   "fuente": "compra_agil",
-   "codigo": "945256-61-COT26",
-   "nombre": "ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-28T14:56:00-03:00",
-   "fecha_cierre": "2026-10-29T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-28 15:00",
-   "organismo": "Zona de Bienestar Valparaíso",
-   "unidad": "Zona de Bienestar Valparaíso",
-   "region": "Región de Valparaíso ",
-   "monto": 1400000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=945256-61-COT26",
-   "descripcion": "ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA, PARA SER UTILIZADO EN LA ZONA DE BIENESTAR VALPARAÍSO., LAS OFERTAS DEBERAN SER REALIZADAS CONFORME LOS REQUERIMIENTOS EN ARCHIVO ADJUNTO, EL PROVEEDOR QUE EN SU OFERTA NO INDIQUE O NO CUMPLA CON UNO O MÁS REQUISITOS, DICHA PROPUESTA SERÁ DECLARADA INADMISIBLE.",
-   "direccion_entrega": "13 NORTE 1034, VIÑA DEL MAR ",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Cámaras aéreas — ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA. CONFORME A CARACTERISTICAS TECNICAS ENTREGADAS EN ANEXO ADJUNTO."
-   ],
-   "terminos": [
-    "Dron",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
-   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
-   "primera_deteccion": "2026-10-29T02:21:05+00:00"
-  },
   {
    "id": "CA:2704-2071-COT26",
    "fuente": "compra_agil",
@@ -276,7 +172,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -345,7 +241,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -449,7 +345,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -481,7 +377,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -513,7 +409,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T18:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -545,7 +441,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T18:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -621,7 +517,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -654,7 +550,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -686,7 +582,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -717,8 +613,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
-   "detalle_actualizado": "2026-10-29T13:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "detalle_actualizado": "2026-10-29T19:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
   {
@@ -750,7 +646,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -783,7 +679,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -814,7 +710,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -848,7 +744,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T18:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -879,7 +775,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -911,7 +807,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -942,7 +838,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -8598,6 +8494,110 @@
    ],
    "terminos": [
     "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
+   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
+   "primera_deteccion": "2026-10-29T02:21:05+00:00"
+  },
+  {
+   "id": "LIC:1107276-27-LE26",
+   "fuente": "licitacion",
+   "codigo": "1107276-27-LE26",
+   "nombre": "ADQUISICIÓN DE UN DRON FUMIGADOR",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-29T16:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1107276-27-LE26",
+   "descripcion": "Adquisición de un sistema de aeronave no tripulada de uso agrícola, destinado a la aplicación aérea de productos fitosanitarios, bioinsumos o soluciones fumigantes, con capacidad nominal de 50 litros de solución, equipado con sistemas de planificación automatizada, control de caudal en tiempo real, seguridad operacional y soporte técnico.",
+   "organismo": "INIA",
+   "unidad": "INTIHUASI",
+   "region": "Región de Atacama",
+   "comuna": "Coquimbo",
+   "fecha_publicacion": "2026-10-19T21:16:16-03:00",
+   "fecha_adjudicacion": "2026-11-10T16:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aeronave agrícola de alas fijas — adquisición de un dron o nave aérea no tripuladas para fumigación aérea con sus respectivas\r\nbaterías y capacitaciones para 2 operadores en su uso."
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T18:05:11+00:00",
+   "detalle_actualizado": "2026-10-29T16:50:43+00:00",
+   "primera_deteccion": "2026-10-20T01:05:11+00:00"
+  },
+  {
+   "id": "CA:2273-906-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2273-906-COT26",
+   "nombre": "MANTENCION Y REPARACION DE DRON, EXP. 16466 MEMORANDUM 28615 ear.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-27T11:30:00-03:00",
+   "fecha_cierre": "2026-10-29T16:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-27 11:35",
+   "organismo": "I MUNICIPALIDAD DE LA PINTANA",
+   "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 5000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2273-906-COT26",
+   "descripcion": "LOS PROVEEDORES PARTICIPANTES DEBERÁN SUBIR SUS OFERTAS EN EL FORMULARIO DE COTIZACIÓN ESTABLECIDO EN LA PLATAFORMA DE MERCADO PÚBLICO. EN CASO DE ADJUNTAR UN ANEXO CON EL DETALLE DE LA COTIZACIÓN, ÉSTE DEBE COINCIDIR CON LA COTIZACIÓN ELECTRÓNICA DE MERCADO PÚBLICO. DE EXISTIR INCONSISTENCIA ENTRE EL FORMATO ELECTRÓNICO Y EL FORMATO ADJUNTO, LA COTIZACIÓN NO SERÁ CONSIDERADA EN LA EVALUACIÓN DE LAS OFERTAS. ver más en anexo adjunto.",
+   "direccion_entrega": "LOS TILOS N° 037 REFENCIA PARADERO 47 SANTA ROSA ",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Cámaras aéreas — MAVIC 3 Mantención correctiva y reposición de dron siniestrado. se adjunta anexo.",
+    "Cámaras para microfilmar — Matrice 350. Mantención preventiva dron con 1 años de uso",
+    "Cámaras de seguridad — MAVIC 3 Mantención preventiva dron con 1 año de uso.\n"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
+   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
+   "primera_deteccion": "2026-10-28T02:05:12+00:00"
+  },
+  {
+   "id": "CA:945256-61-COT26",
+   "fuente": "compra_agil",
+   "codigo": "945256-61-COT26",
+   "nombre": "ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-28T14:56:00-03:00",
+   "fecha_cierre": "2026-10-29T16:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-28 15:00",
+   "organismo": "Zona de Bienestar Valparaíso",
+   "unidad": "Zona de Bienestar Valparaíso",
+   "region": "Región de Valparaíso ",
+   "monto": 1400000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=945256-61-COT26",
+   "descripcion": "ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA, PARA SER UTILIZADO EN LA ZONA DE BIENESTAR VALPARAÍSO., LAS OFERTAS DEBERAN SER REALIZADAS CONFORME LOS REQUERIMIENTOS EN ARCHIVO ADJUNTO, EL PROVEEDOR QUE EN SU OFERTA NO INDIQUE O NO CUMPLA CON UNO O MÁS REQUISITOS, DICHA PROPUESTA SERÁ DECLARADA INADMISIBLE.",
+   "direccion_entrega": "13 NORTE 1034, VIÑA DEL MAR ",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Cámaras aéreas — ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA. CONFORME A CARACTERISTICAS TECNICAS ENTREGADAS EN ANEXO ADJUNTO."
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada"
    ],
    "categorias": [
     "nucleo"
