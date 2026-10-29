@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-29T19:05:11+00:00",
- "proxima_actualizacion": "2026-10-29T20:05:11+00:00",
+ "generado": "2026-10-29T20:05:10+00:00",
+ "proxima_actualizacion": "2026-10-29T21:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T19:05:11+00:00",
+   "ultima_ok": "2026-10-29T20:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5022,
-   "detalles_consultados": 52,
+   "revisadas": 5060,
+   "detalles_consultados": 76,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T19:05:11+00:00",
+   "ultima_ok": "2026-10-29T20:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,7 +74,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:3960-76-L126",
+  "LIC:650-60-CO26"
+ ],
  "items": [
   {
    "id": "CA:2704-2071-COT26",
@@ -172,7 +175,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -241,7 +244,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -345,7 +348,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -377,7 +380,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -409,7 +412,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T18:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -441,7 +444,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T18:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -517,7 +520,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -550,7 +553,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -582,7 +585,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -613,9 +616,41 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T19:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
+  },
+  {
+   "id": "LIC:3960-76-L126",
+   "fuente": "licitacion",
+   "codigo": "3960-76-L126",
+   "nombre": "ADQUISICIÓN DE DRON INDUSTRIAL",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-05T19:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3960-76-L126",
+   "descripcion": "La Ilustre Municipalidad de Hualañé requiere realizar la ADQUISICIÓN DE DRON INDUSTRIAL MATRICE 4T, EQUIVALENTE O SUPERIOR, destinado a la oficina de Administración Municipal.",
+   "organismo": "I MUNICIPALIDAD DE HUALANE",
+   "unidad": "Finanzas Municipales",
+   "region": "Región del Maule",
+   "comuna": "Hualañé",
+   "fecha_publicacion": "2026-10-29T16:23:04-03:00",
+   "fecha_adjudicacion": "2026-11-09T18:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — La Ilustre Municipalidad de Hualañé requiere realizar la ADQUISICIÓN DE DRON INDUSTRIAL MATRICE 4T, EQUIVALENTE O SUPERIOR, destinado a la oficina de Administración Municipal."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-29T20:05:10+00:00",
+   "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
    "id": "LIC:2704-86-LE26",
@@ -646,7 +681,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -679,7 +714,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -710,9 +745,45 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
+  },
+  {
+   "id": "LIC:650-60-CO26",
+   "fuente": "licitacion",
+   "codigo": "650-60-CO26",
+   "nombre": "DRON MULTIRROTOR KIT DE ACCESORIOS Y CAPACITACION",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-09T15:10:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=650-60-CO26",
+   "descripcion": "Adquisición de 1 Dron Multirrotor RTKPPK, Modelo de equipo de referencia DJI Matrice 4E o equivalente con sus software de procesamiento aerofotogramétrico en modalidad RTK Real Time Kinematic y PPK Post Processed Kinematic que permitan obtener imágenes alta resolución para las labores de topografía de la Unidad de Gestión de Suelos y otras unidades del Departamento Técnico SERVIU Antofagasta",
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
+   "unidad": "SERVIU II Región",
+   "region": "Región de Antofagasta",
+   "comuna": "Antofagasta",
+   "fecha_publicacion": "2026-10-29T16:23:07-03:00",
+   "fecha_adjudicacion": "2026-11-16T17:00:00-03:00",
+   "monto": 13600000.0,
+   "moneda": "CLP",
+   "tipo": "CO",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — 01 Drone, accesorios, 03 licencias de software y capacitación"
+   ],
+   "terminos": [
+    "Dron",
+    "Multirrotor",
+    "Marcas (DJI, Autel…)",
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
+   "detalle_actualizado": "2026-10-29T20:05:10+00:00",
+   "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
    "id": "LIC:2464-24-LE26",
@@ -744,7 +815,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T18:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -775,7 +846,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -807,7 +878,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -838,7 +909,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T19:05:11+00:00",
+   "ultima_actualizacion": "2026-10-29T20:05:10+00:00",
    "detalle_actualizado": "2026-10-29T16:50:43+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
