@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-29T14:05:10+00:00",
- "proxima_actualizacion": "2026-10-29T15:05:10+00:00",
+ "generado": "2026-10-29T15:05:14+00:00",
+ "proxima_actualizacion": "2026-10-29T16:05:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T14:05:10+00:00",
+   "ultima_ok": "2026-10-29T15:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5054,
-   "detalles_consultados": 38,
+   "revisadas": 5069,
+   "detalles_consultados": 46,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-29T14:05:10+00:00",
+   "ultima_ok": "2026-10-29T15:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,107 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:5642-53-COT26",
-   "fuente": "compra_agil",
-   "codigo": "5642-53-COT26",
-   "nombre": "Adquisición de dron 4K para laboratorios CECREA Arica",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-26T16:00:00-03:00",
-   "fecha_cierre": "2026-10-29T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-26 16:05",
-   "organismo": "Subsecretaria de las Culturas y las Artes Región  de Arica y Parinacota",
-   "unidad": "Dirección Regional de Arica y Parinacota",
-   "region": "Región de Arica y Parinacota",
-   "monto": 111079.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5642-53-COT26",
-   "descripcion": "El Centro de Creación Artística CECREA Arica busca incorporar un equipo dron con capacidades de captura de imagen en alta resolución, sistemas de navegación estable y tecnología de prevención de colisiones, esto según TDR, adjunto a este requerimiento.",
-   "direccion_entrega": "SAN MARCOS 384",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Videocámaras digitales — Adquisición de dron 4K para laboratorios CECREA Arica, según TDR adjunto a este correo. "
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
-   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
-   "primera_deteccion": "2026-10-27T01:05:11+00:00"
-  },
-  {
-   "id": "CA:1079454-670-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1079454-670-COT26",
-   "nombre": "SERVICIO DE REPARACIÓN, MANTENCIÓN Y CALIBRACIÓN DE SMART CONTROLLER DJI RC PLUS.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-26T12:55:00-03:00",
-   "fecha_cierre": "2026-10-29T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-26 13:00",
-   "organismo": "SECCIÓN COMPRAS II ZONA",
-   "unidad": "SECCIÓN DE COMPRAS ZONA ANTOFAGASTA",
-   "region": "Región de Antofagasta ",
-   "monto": 150000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1079454-670-COT26",
-   "descripcion": "TODO PROVEEDOR DEBERÁ ADJUNTAR COTIZACIÓN CONFORME A ANEXO N.° 1, INDICANDO EL SERVICIO A REQUERIR, PLAZO DE ENTREGA, GARANTÍA, NUMERO DE CONTACTO TELEFÓNICO Y CORREO ELECTRÓNICO.",
-   "direccion_entrega": "CALLE CHUQUISACA 749",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Módulos de servicio para aeronaves — TODO PROVEEDOR DEBERÁ ADJUNTAR COTIZACIÓN CONFORME A ANEXO N.° 1, INDICANDO EL SERVICIO A REQUERIR, PLAZO DE ENTREGA, GARANTÍA, NUMERO DE CONTACTO TELEFÓNICO Y CORREO ELECTRÓNICO."
-   ],
-   "terminos": [
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
-   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
-   "primera_deteccion": "2026-10-27T01:05:11+00:00"
-  },
-  {
-   "id": "CA:1161-302-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1161-302-COT26",
-   "nombre": "ICR - CURSO PILOTO DE DRON ( RPA) PARA ACREDITARSE ANTE DGAC",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-27T12:24:00-03:00",
-   "fecha_cierre": "2026-10-29T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-27 12:25",
-   "organismo": "SERVICIO AGRICOLA Y GANADERO",
-   "unidad": "SAG - Los Lagos",
-   "region": "Región de los Lagos ",
-   "monto": 900000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1161-302-COT26",
-   "descripcion": "Este Curso, el material debe de estar disponible en alguna plataforma o ser enviado vía correo electrónico a los participantes.Este curso deberá ser dictado en el mes de noviembre del presente año, previa coordinación con la contraparte del SAG del curso, Antulemu Vallverdu (antulemu.vallverdu@sag.gob.cl)",
-   "direccion_entrega": "TUCAPEL 140",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Escuelas de vuelo — Este Curso, el material debe de estar disponible en alguna plataforma o ser enviado vía correo electrónico a los participantes. Este curso deberá ser dictado en el mes de noviembre del presente año, previa coordinación con la contraparte del SAG del curso, Antulemu Vallverdu (antulemu.vallverdu@sag.gob.cl). Proveedor deberá contar con más de 3 años de experiencia en este tipo de capacitaciones. No se requiere costo de inscripción en DGAC"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
-   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
-   "primera_deteccion": "2026-10-28T02:05:12+00:00"
-  },
   {
    "id": "CA:5416-792-COT26",
    "fuente": "compra_agil",
@@ -276,7 +175,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
@@ -379,7 +278,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -479,7 +378,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -548,7 +447,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -651,7 +550,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -683,7 +582,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T11:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -715,7 +614,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T11:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -791,7 +690,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -824,7 +723,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -856,7 +755,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -887,7 +786,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T13:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -920,7 +819,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -953,7 +852,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -984,7 +883,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -1018,7 +917,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T11:05:13+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -1049,7 +948,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -1081,7 +980,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -1112,7 +1011,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-29T14:05:10+00:00",
+   "ultima_actualizacion": "2026-10-29T15:05:14+00:00",
    "detalle_actualizado": "2026-10-29T10:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -8604,6 +8503,107 @@
    "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
    "detalle_actualizado": "2026-10-29T02:21:05+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00"
+  },
+  {
+   "id": "CA:5642-53-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5642-53-COT26",
+   "nombre": "Adquisición de dron 4K para laboratorios CECREA Arica",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-26T16:00:00-03:00",
+   "fecha_cierre": "2026-10-29T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-26 16:05",
+   "organismo": "Subsecretaria de las Culturas y las Artes Región  de Arica y Parinacota",
+   "unidad": "Dirección Regional de Arica y Parinacota",
+   "region": "Región de Arica y Parinacota",
+   "monto": 111079.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5642-53-COT26",
+   "descripcion": "El Centro de Creación Artística CECREA Arica busca incorporar un equipo dron con capacidades de captura de imagen en alta resolución, sistemas de navegación estable y tecnología de prevención de colisiones, esto según TDR, adjunto a este requerimiento.",
+   "direccion_entrega": "SAN MARCOS 384",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Videocámaras digitales — Adquisición de dron 4K para laboratorios CECREA Arica, según TDR adjunto a este correo. "
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
+   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
+   "primera_deteccion": "2026-10-27T01:05:11+00:00"
+  },
+  {
+   "id": "CA:1079454-670-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1079454-670-COT26",
+   "nombre": "SERVICIO DE REPARACIÓN, MANTENCIÓN Y CALIBRACIÓN DE SMART CONTROLLER DJI RC PLUS.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-26T12:55:00-03:00",
+   "fecha_cierre": "2026-10-29T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-26 13:00",
+   "organismo": "SECCIÓN COMPRAS II ZONA",
+   "unidad": "SECCIÓN DE COMPRAS ZONA ANTOFAGASTA",
+   "region": "Región de Antofagasta ",
+   "monto": 150000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1079454-670-COT26",
+   "descripcion": "TODO PROVEEDOR DEBERÁ ADJUNTAR COTIZACIÓN CONFORME A ANEXO N.° 1, INDICANDO EL SERVICIO A REQUERIR, PLAZO DE ENTREGA, GARANTÍA, NUMERO DE CONTACTO TELEFÓNICO Y CORREO ELECTRÓNICO.",
+   "direccion_entrega": "CALLE CHUQUISACA 749",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Módulos de servicio para aeronaves — TODO PROVEEDOR DEBERÁ ADJUNTAR COTIZACIÓN CONFORME A ANEXO N.° 1, INDICANDO EL SERVICIO A REQUERIR, PLAZO DE ENTREGA, GARANTÍA, NUMERO DE CONTACTO TELEFÓNICO Y CORREO ELECTRÓNICO."
+   ],
+   "terminos": [
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
+   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
+   "primera_deteccion": "2026-10-27T01:05:11+00:00"
+  },
+  {
+   "id": "CA:1161-302-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1161-302-COT26",
+   "nombre": "ICR - CURSO PILOTO DE DRON ( RPA) PARA ACREDITARSE ANTE DGAC",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-27T12:24:00-03:00",
+   "fecha_cierre": "2026-10-29T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-27 12:25",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "SAG - Los Lagos",
+   "region": "Región de los Lagos ",
+   "monto": 900000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1161-302-COT26",
+   "descripcion": "Este Curso, el material debe de estar disponible en alguna plataforma o ser enviado vía correo electrónico a los participantes.Este curso deberá ser dictado en el mes de noviembre del presente año, previa coordinación con la contraparte del SAG del curso, Antulemu Vallverdu (antulemu.vallverdu@sag.gob.cl)",
+   "direccion_entrega": "TUCAPEL 140",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Escuelas de vuelo — Este Curso, el material debe de estar disponible en alguna plataforma o ser enviado vía correo electrónico a los participantes. Este curso deberá ser dictado en el mes de noviembre del presente año, previa coordinación con la contraparte del SAG del curso, Antulemu Vallverdu (antulemu.vallverdu@sag.gob.cl). Proveedor deberá contar con más de 3 años de experiencia en este tipo de capacitaciones. No se requiere costo de inscripción en DGAC"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-29T02:21:05+00:00",
+   "detalle_actualizado": "2026-10-29T02:21:05+00:00",
+   "primera_deteccion": "2026-10-28T02:05:12+00:00"
   }
  ]
 }
