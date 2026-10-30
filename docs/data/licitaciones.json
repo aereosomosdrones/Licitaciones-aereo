@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-30T12:05:10+00:00",
- "proxima_actualizacion": "2026-10-30T13:05:10+00:00",
+ "generado": "2026-10-30T13:05:09+00:00",
+ "proxima_actualizacion": "2026-10-30T14:05:09+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-30T12:05:10+00:00",
+   "ultima_ok": "2026-10-30T13:05:09+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5098,
-   "detalles_consultados": 22,
+   "revisadas": 5103,
+   "detalles_consultados": 32,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-30T12:05:10+00:00",
+   "ultima_ok": "2026-10-30T13:05:09+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,41 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:2704-2071-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2704-2071-COT26",
-   "nombre": "7204 Provisión de registro con Dron en la ciudad de Concepción con videos",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-28T15:17:00-03:00",
-   "fecha_cierre": "2026-10-30T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-28 15:20",
-   "organismo": "UNIVERSIDAD DEL BIO BIO",
-   "unidad": "Universidad del Bío-Bío - Campus Concepción",
-   "region": "Región del Biobío ",
-   "monto": 4000000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2704-2071-COT26",
-   "descripcion": "Provisión de registro con Dron en la ciudad de Concepción con videos, SEGUN DETALLE ADJUNTO.",
-   "direccion_entrega": "COLLAO 1202",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Videos — Provisión de registro con Dron en la ciudad de Concepción con videos"
-   ],
-   "terminos": [
-    "Dron",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-30T03:05:10+00:00",
-   "detalle_actualizado": "2026-10-30T03:05:10+00:00",
-   "primera_deteccion": "2026-10-29T02:21:05+00:00"
-  },
   {
    "id": "CA:2427-1246-COT26",
    "fuente": "compra_agil",
@@ -172,7 +137,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
@@ -241,7 +206,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -415,7 +380,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -447,7 +412,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -479,7 +444,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T07:05:10+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -511,7 +476,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T07:05:10+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -587,7 +552,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -654,7 +619,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -686,7 +651,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -717,7 +682,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T08:05:10+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -749,7 +714,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T08:05:10+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -782,7 +747,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -815,7 +780,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -846,7 +811,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -882,7 +847,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T08:05:10+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -916,7 +881,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T07:05:10+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -947,7 +912,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -979,7 +944,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -1010,7 +975,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T12:05:10+00:00",
+   "ultima_actualizacion": "2026-10-30T13:05:09+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -8740,6 +8705,41 @@
     "Aeronave no tripulada"
    ],
    "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-30T03:05:10+00:00",
+   "detalle_actualizado": "2026-10-30T03:05:10+00:00",
+   "primera_deteccion": "2026-10-29T02:21:05+00:00"
+  },
+  {
+   "id": "CA:2704-2071-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2704-2071-COT26",
+   "nombre": "7204 Provisión de registro con Dron en la ciudad de Concepción con videos",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-28T15:17:00-03:00",
+   "fecha_cierre": "2026-10-30T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-28 15:20",
+   "organismo": "UNIVERSIDAD DEL BIO BIO",
+   "unidad": "Universidad del Bío-Bío - Campus Concepción",
+   "region": "Región del Biobío ",
+   "monto": 4000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2704-2071-COT26",
+   "descripcion": "Provisión de registro con Dron en la ciudad de Concepción con videos, SEGUN DETALLE ADJUNTO.",
+   "direccion_entrega": "COLLAO 1202",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Videos — Provisión de registro con Dron en la ciudad de Concepción con videos"
+   ],
+   "terminos": [
+    "Dron",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
     "nucleo"
    ],
    "ultima_actualizacion": "2026-10-30T03:05:10+00:00",
