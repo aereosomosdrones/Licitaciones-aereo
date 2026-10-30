@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-30T19:05:13+00:00",
- "proxima_actualizacion": "2026-10-30T20:05:13+00:00",
+ "generado": "2026-10-30T20:05:12+00:00",
+ "proxima_actualizacion": "2026-10-30T21:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-30T19:05:13+00:00",
+   "ultima_ok": "2026-10-30T20:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5133,
-   "detalles_consultados": 73,
+   "revisadas": 5158,
+   "detalles_consultados": 66,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-30T19:05:13+00:00",
+   "ultima_ok": "2026-10-30T20:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,41 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "LIC:2585-139-LE26",
-   "fuente": "licitacion",
-   "codigo": "2585-139-LE26",
-   "nombre": "ADQ. DE EQUIPOS DRONES ORD N°908 DIPRESEH",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-30T17:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2585-139-LE26",
-   "descripcion": "La Ilustre Municipalidad de Arica convoca a la licitación “ADQUISICIÓN DE EQUIPOS DRONES DE ACUERDO A ORD. N°908, PARA DIRECCIÓN DE SEGURIDAD PÚBLICA, CBA, IMA” Dada la necesidad de la Municipalidad de adquirir equipos drones, destinados a fortalecer las labores de seguridad, vigilancia y patrullaje aéreo, conforme a las especificaciones administrativas, técnicas y económicas establecidas en las presentes bases administrativas y técnicas, anexos y/o formularios.",
-   "organismo": "I MUNICIPALIDAD DE ARICA",
-   "unidad": "FINANZAS IMA",
-   "region": "Región de Arica y Parinacota",
-   "comuna": "Arica",
-   "fecha_publicacion": "2026-10-20T16:54:06-03:00",
-   "fecha_adjudicacion": "2027-02-27T17:05:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — RPAS INDUSTRIALES MATRICE 30T CON HELICES 1671"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Marcas (DJI, Autel…)",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-30T17:05:12+00:00",
-   "primera_deteccion": "2026-10-20T20:05:09+00:00"
-  },
   {
    "id": "CA:1001-44-COT26",
    "fuente": "compra_agil",
@@ -281,7 +246,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -313,7 +278,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -345,8 +310,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-30T20:05:12+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -377,8 +342,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-30T20:05:12+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -453,7 +418,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -520,7 +485,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -552,7 +517,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -583,8 +548,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-30T20:05:12+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
   {
@@ -615,8 +580,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-30T20:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -648,7 +613,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -681,7 +646,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -712,7 +677,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -748,8 +713,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-30T20:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -782,8 +747,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
-   "detalle_actualizado": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
+   "detalle_actualizado": "2026-10-30T20:05:12+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
   {
@@ -813,7 +778,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -845,7 +810,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -876,7 +841,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "ultima_actualizacion": "2026-10-30T20:05:12+00:00",
    "detalle_actualizado": "2026-10-30T17:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -8745,6 +8710,41 @@
    "ultima_actualizacion": "2026-10-30T03:05:10+00:00",
    "detalle_actualizado": "2026-10-30T03:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00"
+  },
+  {
+   "id": "LIC:2585-139-LE26",
+   "fuente": "licitacion",
+   "codigo": "2585-139-LE26",
+   "nombre": "ADQ. DE EQUIPOS DRONES ORD N°908 DIPRESEH",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-30T17:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2585-139-LE26",
+   "descripcion": "La Ilustre Municipalidad de Arica convoca a la licitación “ADQUISICIÓN DE EQUIPOS DRONES DE ACUERDO A ORD. N°908, PARA DIRECCIÓN DE SEGURIDAD PÚBLICA, CBA, IMA” Dada la necesidad de la Municipalidad de adquirir equipos drones, destinados a fortalecer las labores de seguridad, vigilancia y patrullaje aéreo, conforme a las especificaciones administrativas, técnicas y económicas establecidas en las presentes bases administrativas y técnicas, anexos y/o formularios.",
+   "organismo": "I MUNICIPALIDAD DE ARICA",
+   "unidad": "FINANZAS IMA",
+   "region": "Región de Arica y Parinacota",
+   "comuna": "Arica",
+   "fecha_publicacion": "2026-10-20T16:54:06-03:00",
+   "fecha_adjudicacion": "2027-02-27T17:05:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — RPAS INDUSTRIALES MATRICE 30T CON HELICES 1671"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-30T19:05:13+00:00",
+   "detalle_actualizado": "2026-10-30T17:05:12+00:00",
+   "primera_deteccion": "2026-10-20T20:05:09+00:00"
   }
  ]
 }
