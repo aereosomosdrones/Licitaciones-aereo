@@ -1,22 +1,22 @@
 {
- "generado": "2026-10-30T14:05:12+00:00",
- "proxima_actualizacion": "2026-10-30T15:05:12+00:00",
+ "generado": "2026-10-30T15:05:10+00:00",
+ "proxima_actualizacion": "2026-10-30T16:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-30T14:05:12+00:00",
+   "ultima_ok": "2026-10-30T15:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5138,
-   "detalles_consultados": 58,
+   "revisadas": 5169,
+   "detalles_consultados": 71,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-10-30T14:05:12+00:00",
+   "ultima_ok": "2026-10-30T15:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,71 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:2427-1246-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2427-1246-COT26",
-   "nombre": "Adquisición de repuestos para dron, DSC.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-28T16:18:00-03:00",
-   "fecha_cierre": "2026-10-30T11:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-28 16:20",
-   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
-   "unidad": "ABASTECIMIENTO",
-   "region": "Región de Valparaíso ",
-   "monto": 350000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1246-COT26",
-   "descripcion": "Pedido N°19 DSC. Adquisición de repuestos para dron. Monto referencial $350.000.- según detalle y TDR adjunto. Se deberá indicar expresamente el plazo de entrega. En caso de no señalarlo, se entenderá aceptado el establecido en el TDR. *IMPORTANTE* POR FAVOR ADJUNTAR COTIZACIÓN FORMAL Y PATENTE MUNICIPAL VIGENTE (EN EL CASO DE NO ADJUNTAR, SE SOLICITARA MEDIANTE CORREO ADJUNTAR LO SOLICITADO CON UN PLAZO MAXIMO DE 24 HRS)",
-   "direccion_entrega": " Victoria 2579",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Accesorios eléctricos — Repuesto para dron: BC. EN. SSOOO662.01 - DOWNWARD GIMBAL VIBRATION DAMPING MODULE, según TTR adjunto."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-30T03:05:10+00:00",
-   "detalle_actualizado": "2026-10-30T03:05:10+00:00",
-   "primera_deteccion": "2026-10-29T02:21:05+00:00"
-  },
-  {
-   "id": "LIC:1242997-1-LE26",
-   "fuente": "licitacion",
-   "codigo": "1242997-1-LE26",
-   "nombre": "SISTEMA UAV MULTIPROPÓSITO PARA MONITOREO GEOLÓGIC",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-10-30T12:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1242997-1-LE26",
-   "descripcion": "Dirección Regional de Arica y Parinacota, requiere la contratación de la “Adquisición de Sistema UAV Para monitoreo geológico en Arica y Parinacota, código BIP 40079056-0”",
-   "organismo": "SERVICIO NACIONAL DE GEOLOGIA Y MINERIA",
-   "unidad": "UNIDAD DE COMPRA GORE ARICA Y PARINACOTA",
-   "region": "Región de Arica y Parinacota",
-   "comuna": "Arica",
-   "fecha_publicacion": "2026-10-13T17:46:48-03:00",
-   "fecha_adjudicacion": "2026-11-24T11:08:00-03:00",
-   "monto": 71425000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — SISTEMA UAV MULTIPROPÓSITO PARA MONITOREO GEOLÓGICO EN LA REGIÓN DE ARICA Y PARINACOTA"
-   ],
-   "terminos": [
-    "UAV / UAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
-   "detalle_actualizado": "2026-10-30T11:05:11+00:00",
-   "primera_deteccion": "2026-10-13T21:05:12+00:00"
-  },
   {
    "id": "CA:5648-48-COT26",
    "fuente": "compra_agil",
@@ -206,7 +141,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
@@ -380,7 +315,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -412,7 +347,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -444,7 +379,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T14:05:12+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -476,7 +411,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T14:05:12+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
@@ -552,7 +487,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -619,7 +554,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -651,7 +586,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -682,7 +617,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T14:05:12+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -714,7 +649,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T14:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -747,7 +682,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -780,7 +715,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -811,7 +746,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -847,7 +782,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T14:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -881,7 +816,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T14:05:12+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -912,7 +847,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -944,7 +879,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -975,7 +910,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "ultima_actualizacion": "2026-10-30T15:05:10+00:00",
    "detalle_actualizado": "2026-10-30T11:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -8745,6 +8680,71 @@
    "ultima_actualizacion": "2026-10-30T03:05:10+00:00",
    "detalle_actualizado": "2026-10-30T03:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00"
+  },
+  {
+   "id": "CA:2427-1246-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2427-1246-COT26",
+   "nombre": "Adquisición de repuestos para dron, DSC.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-28T16:18:00-03:00",
+   "fecha_cierre": "2026-10-30T11:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-28 16:20",
+   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
+   "unidad": "ABASTECIMIENTO",
+   "region": "Región de Valparaíso ",
+   "monto": 350000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1246-COT26",
+   "descripcion": "Pedido N°19 DSC. Adquisición de repuestos para dron. Monto referencial $350.000.- según detalle y TDR adjunto. Se deberá indicar expresamente el plazo de entrega. En caso de no señalarlo, se entenderá aceptado el establecido en el TDR. *IMPORTANTE* POR FAVOR ADJUNTAR COTIZACIÓN FORMAL Y PATENTE MUNICIPAL VIGENTE (EN EL CASO DE NO ADJUNTAR, SE SOLICITARA MEDIANTE CORREO ADJUNTAR LO SOLICITADO CON UN PLAZO MAXIMO DE 24 HRS)",
+   "direccion_entrega": " Victoria 2579",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Accesorios eléctricos — Repuesto para dron: BC. EN. SSOOO662.01 - DOWNWARD GIMBAL VIBRATION DAMPING MODULE, según TTR adjunto."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-30T03:05:10+00:00",
+   "detalle_actualizado": "2026-10-30T03:05:10+00:00",
+   "primera_deteccion": "2026-10-29T02:21:05+00:00"
+  },
+  {
+   "id": "LIC:1242997-1-LE26",
+   "fuente": "licitacion",
+   "codigo": "1242997-1-LE26",
+   "nombre": "SISTEMA UAV MULTIPROPÓSITO PARA MONITOREO GEOLÓGIC",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-10-30T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1242997-1-LE26",
+   "descripcion": "Dirección Regional de Arica y Parinacota, requiere la contratación de la “Adquisición de Sistema UAV Para monitoreo geológico en Arica y Parinacota, código BIP 40079056-0”",
+   "organismo": "SERVICIO NACIONAL DE GEOLOGIA Y MINERIA",
+   "unidad": "UNIDAD DE COMPRA GORE ARICA Y PARINACOTA",
+   "region": "Región de Arica y Parinacota",
+   "comuna": "Arica",
+   "fecha_publicacion": "2026-10-13T17:46:48-03:00",
+   "fecha_adjudicacion": "2026-11-24T11:08:00-03:00",
+   "monto": 71425000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — SISTEMA UAV MULTIPROPÓSITO PARA MONITOREO GEOLÓGICO EN LA REGIÓN DE ARICA Y PARINACOTA"
+   ],
+   "terminos": [
+    "UAV / UAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-10-30T14:05:12+00:00",
+   "detalle_actualizado": "2026-10-30T11:05:11+00:00",
+   "primera_deteccion": "2026-10-13T21:05:12+00:00"
   }
  ]
 }
