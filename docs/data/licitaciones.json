@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-01T16:05:09+00:00",
- "proxima_actualizacion": "2026-11-01T17:05:09+00:00",
+ "generado": "2026-11-01T17:05:12+00:00",
+ "proxima_actualizacion": "2026-11-01T18:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-01T16:05:09+00:00",
+   "ultima_ok": "2026-11-01T17:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 5173,
-   "detalles_consultados": 0,
+   "detalles_consultados": 6,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-01T16:05:09+00:00",
+   "ultima_ok": "2026-11-01T17:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,41 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:1001-44-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1001-44-COT26",
-   "nombre": "SERVICIO DE MANTENCIÓN PREVENTIVA PARA EQUIPO DE PRECISIÓN MATRICE 350 RTK",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-16T13:13:00-03:00",
-   "fecha_cierre": "2026-11-01T14:03:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-28 17:20",
-   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-   "unidad": "Dirección de Vialidad - IX Región - Dirección Regional",
-   "region": "Región de la Araucanía ",
-   "monto": 1150000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1001-44-COT26",
-   "descripcion": "El MOP Dirección de Vialidad Región de La Araucanía, a través del Área de Topografía, requiere contratar el “Servicio de mantención preventiva para equipo de precisión Matrice 350 RTK”, necesaria para cubicaciones y controles de obra.",
-   "direccion_entrega": "Bulnes N°897, piso 5, Área de Topografía",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — Servicio de mantención preventiva Dron Matrice 350 RTK, según términos de referencia"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-01T04:05:10+00:00",
-   "detalle_actualizado": "2026-11-01T04:05:10+00:00",
-   "primera_deteccion": "2026-10-22T00:05:11+00:00",
-   "cambio_estado": "2026-10-29T02:21:05+00:00"
-  },
   {
    "id": "CA:511505-543-COT26",
    "fuente": "compra_agil",
@@ -351,7 +316,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -383,7 +348,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -415,8 +380,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
-   "detalle_actualizado": "2026-11-01T10:05:10+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-01T17:05:12+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -447,8 +412,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
-   "detalle_actualizado": "2026-11-01T10:05:10+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-01T17:05:12+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -680,7 +645,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -747,7 +712,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -779,7 +744,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -810,8 +775,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
-   "detalle_actualizado": "2026-11-01T10:05:10+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-01T17:05:12+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
   {
@@ -842,8 +807,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
-   "detalle_actualizado": "2026-11-01T10:05:10+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-01T17:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -875,7 +840,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -908,7 +873,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -939,7 +904,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -975,8 +940,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
-   "detalle_actualizado": "2026-11-01T10:05:10+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-01T17:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -1009,8 +974,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
-   "detalle_actualizado": "2026-11-01T10:05:10+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-01T17:05:12+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
   {
@@ -1040,7 +1005,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -1072,7 +1037,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -1103,7 +1068,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-01T16:05:09+00:00",
+   "ultima_actualizacion": "2026-11-01T17:05:12+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -9013,6 +8978,41 @@
    "ultima_actualizacion": "2026-11-01T14:05:11+00:00",
    "detalle_actualizado": "2026-11-01T14:05:11+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
+  },
+  {
+   "id": "CA:1001-44-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1001-44-COT26",
+   "nombre": "SERVICIO DE MANTENCIÓN PREVENTIVA PARA EQUIPO DE PRECISIÓN MATRICE 350 RTK",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-16T13:13:00-03:00",
+   "fecha_cierre": "2026-11-01T14:03:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-28 17:20",
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+   "unidad": "Dirección de Vialidad - IX Región - Dirección Regional",
+   "region": "Región de la Araucanía ",
+   "monto": 1150000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1001-44-COT26",
+   "descripcion": "El MOP Dirección de Vialidad Región de La Araucanía, a través del Área de Topografía, requiere contratar el “Servicio de mantención preventiva para equipo de precisión Matrice 350 RTK”, necesaria para cubicaciones y controles de obra.",
+   "direccion_entrega": "Bulnes N°897, piso 5, Área de Topografía",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Servicio de mantención preventiva Dron Matrice 350 RTK, según términos de referencia"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-01T04:05:10+00:00",
+   "detalle_actualizado": "2026-11-01T04:05:10+00:00",
+   "primera_deteccion": "2026-10-22T00:05:11+00:00",
+   "cambio_estado": "2026-10-29T02:21:05+00:00"
   }
  ]
 }
