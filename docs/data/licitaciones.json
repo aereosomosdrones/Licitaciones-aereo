@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-02T11:05:15+00:00",
- "proxima_actualizacion": "2026-11-02T12:05:15+00:00",
+ "generado": "2026-11-02T12:05:11+00:00",
+ "proxima_actualizacion": "2026-11-02T13:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-02T11:05:15+00:00",
+   "ultima_ok": "2026-11-02T12:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5176,
-   "detalles_consultados": 2,
+   "revisadas": 5186,
+   "detalles_consultados": 16,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-02T11:05:15+00:00",
+   "ultima_ok": "2026-11-02T12:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,113 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:3885-350-COT26",
-   "fuente": "compra_agil",
-   "codigo": "3885-350-COT26",
-   "nombre": "SEGURO DE RESPONSABILIDAD CIVIL PARA DRONE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-27T17:24:00-03:00",
-   "fecha_cierre": "2026-11-02T08:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29 11:20",
-   "organismo": "I MUNICIPALIDAD DE PICA",
-   "unidad": "Municipalidad de Pica",
-   "region": "Región de Tarapacá  ",
-   "monto": 329811.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3885-350-COT26",
-   "descripcion": "Contratación de seguro para drone. Adjuntar cotización",
-   "direccion_entrega": "Plaza de Armas 20",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Seguro por responsabilidad civil — póliza de seguro de responsabilidad civil para done DJI Matrice 350 RTK 2024 N° serie 1581F6GKB24CH00400A, N° de Registro RPA-5644, Zona de uso urbano -rural-territorio nacional, jornada de uso diurna - nocturna, según especificaciones indicadas en requerimiento."
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-02T04:05:10+00:00",
-   "detalle_actualizado": "2026-11-02T04:05:10+00:00",
-   "primera_deteccion": "2026-10-28T02:05:12+00:00",
-   "cambio_estado": "2026-10-30T03:05:10+00:00"
-  },
-  {
-   "id": "CA:1485465-44-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1485465-44-COT26",
-   "nombre": "capacitación de Dron RPA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-30T15:56:00-03:00",
-   "fecha_cierre": "2026-11-02T08:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-30 16:00",
-   "organismo": "I. Municipalidad de O'Higgins",
-   "unidad": "Administración Municipal",
-   "region": "Región Aysén del General Carlos Ibáñez del Campo",
-   "monto": 600000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1485465-44-COT26",
-   "descripcion": "capacitación de Dron RPA conforme a la normativa aeronáutica nacional vigente",
-   "direccion_entrega": "a convenir ",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Capacitación a empleados — Contratación de un servicio de capacitación especializada en modalidad semipresencial para la preparación, instrucción teórico-práctica y obtención de la Credencial Oficial de Operador/Piloto de Dron RPA, conforme a la normativa aeronáutica nacional vigente. La capacitación es para 4 personas, trabajadores de la Ilustre Municipalidad de O'Higgins.\nse adjunta especificacion del servicio a contratar "
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-02T04:05:10+00:00",
-   "detalle_actualizado": "2026-11-02T04:05:10+00:00",
-   "primera_deteccion": "2026-10-31T04:05:10+00:00"
-  },
-  {
-   "id": "CA:3567-485-COT26",
-   "fuente": "compra_agil",
-   "codigo": "3567-485-COT26",
-   "nombre": "ADQUISICIÓN DE DRON PARA REALIZAR VIGILANCIA AEREA. EQUIPO UTILIZADO POR LA DIRECCIÓN DE SEGURIDAD.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-30T09:35:00-03:00",
-   "fecha_cierre": "2026-11-02T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-30 09:40",
-   "organismo": "I MUNICIPALIDAD DE FLORIDA",
-   "unidad": "Ilustre Municipalidad De Florida",
-   "region": "Región del Biobío ",
-   "monto": 1700000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3567-485-COT26",
-   "descripcion": "ADQUISICIÓN DE DRON PARA REALIZAR VIGILANCIA AEREA. EQUIPO UTILIZADO POR LA DIRECCIÓN DE SEGURIDAD.",
-   "direccion_entrega": "ARTURO PRAT 675, FLORIDA REGIÓN DEL BIO BIO.",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — KIT DRON DE ACUERDO A ESPECIFICACIONES TÉCNICAS ADJUNTAS KIT DJI AIR 3S RC-N3 O EQUIVALENTE EN ESPECIFICACIONES TÉCNICAS Y PRESTACIONES."
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-02T04:05:10+00:00",
-   "detalle_actualizado": "2026-11-02T04:05:10+00:00",
-   "primera_deteccion": "2026-10-31T04:05:10+00:00"
-  },
   {
    "id": "CA:3567-484-COT26",
    "fuente": "compra_agil",
@@ -280,7 +173,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
@@ -312,7 +205,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
@@ -344,8 +237,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
-   "detalle_actualizado": "2026-11-02T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -376,8 +269,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
-   "detalle_actualizado": "2026-11-02T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -609,7 +502,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -676,7 +569,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -708,7 +601,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -739,8 +632,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
-   "detalle_actualizado": "2026-11-02T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
   {
@@ -771,8 +664,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
-   "detalle_actualizado": "2026-11-02T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -804,7 +697,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -837,7 +730,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -868,7 +761,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -904,8 +797,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
-   "detalle_actualizado": "2026-11-02T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -938,8 +831,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
-   "detalle_actualizado": "2026-11-02T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
   {
@@ -969,7 +862,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -1001,7 +894,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -1032,7 +925,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T11:05:15+00:00",
+   "ultima_actualizacion": "2026-11-02T12:05:11+00:00",
    "detalle_actualizado": "2026-11-02T09:05:14+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -9014,6 +8907,113 @@
    "ultima_actualizacion": "2026-11-02T04:05:10+00:00",
    "detalle_actualizado": "2026-11-02T04:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00"
+  },
+  {
+   "id": "CA:3885-350-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3885-350-COT26",
+   "nombre": "SEGURO DE RESPONSABILIDAD CIVIL PARA DRONE",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-27T17:24:00-03:00",
+   "fecha_cierre": "2026-11-02T08:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-29 11:20",
+   "organismo": "I MUNICIPALIDAD DE PICA",
+   "unidad": "Municipalidad de Pica",
+   "region": "Región de Tarapacá  ",
+   "monto": 329811.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3885-350-COT26",
+   "descripcion": "Contratación de seguro para drone. Adjuntar cotización",
+   "direccion_entrega": "Plaza de Armas 20",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Seguro por responsabilidad civil — póliza de seguro de responsabilidad civil para done DJI Matrice 350 RTK 2024 N° serie 1581F6GKB24CH00400A, N° de Registro RPA-5644, Zona de uso urbano -rural-territorio nacional, jornada de uso diurna - nocturna, según especificaciones indicadas en requerimiento."
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-02T04:05:10+00:00",
+   "detalle_actualizado": "2026-11-02T04:05:10+00:00",
+   "primera_deteccion": "2026-10-28T02:05:12+00:00",
+   "cambio_estado": "2026-10-30T03:05:10+00:00"
+  },
+  {
+   "id": "CA:1485465-44-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1485465-44-COT26",
+   "nombre": "capacitación de Dron RPA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-30T15:56:00-03:00",
+   "fecha_cierre": "2026-11-02T08:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-30 16:00",
+   "organismo": "I. Municipalidad de O'Higgins",
+   "unidad": "Administración Municipal",
+   "region": "Región Aysén del General Carlos Ibáñez del Campo",
+   "monto": 600000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1485465-44-COT26",
+   "descripcion": "capacitación de Dron RPA conforme a la normativa aeronáutica nacional vigente",
+   "direccion_entrega": "a convenir ",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Capacitación a empleados — Contratación de un servicio de capacitación especializada en modalidad semipresencial para la preparación, instrucción teórico-práctica y obtención de la Credencial Oficial de Operador/Piloto de Dron RPA, conforme a la normativa aeronáutica nacional vigente. La capacitación es para 4 personas, trabajadores de la Ilustre Municipalidad de O'Higgins.\nse adjunta especificacion del servicio a contratar "
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-02T04:05:10+00:00",
+   "detalle_actualizado": "2026-11-02T04:05:10+00:00",
+   "primera_deteccion": "2026-10-31T04:05:10+00:00"
+  },
+  {
+   "id": "CA:3567-485-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3567-485-COT26",
+   "nombre": "ADQUISICIÓN DE DRON PARA REALIZAR VIGILANCIA AEREA. EQUIPO UTILIZADO POR LA DIRECCIÓN DE SEGURIDAD.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-30T09:35:00-03:00",
+   "fecha_cierre": "2026-11-02T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-30 09:40",
+   "organismo": "I MUNICIPALIDAD DE FLORIDA",
+   "unidad": "Ilustre Municipalidad De Florida",
+   "region": "Región del Biobío ",
+   "monto": 1700000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3567-485-COT26",
+   "descripcion": "ADQUISICIÓN DE DRON PARA REALIZAR VIGILANCIA AEREA. EQUIPO UTILIZADO POR LA DIRECCIÓN DE SEGURIDAD.",
+   "direccion_entrega": "ARTURO PRAT 675, FLORIDA REGIÓN DEL BIO BIO.",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — KIT DRON DE ACUERDO A ESPECIFICACIONES TÉCNICAS ADJUNTAS KIT DJI AIR 3S RC-N3 O EQUIVALENTE EN ESPECIFICACIONES TÉCNICAS Y PRESTACIONES."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-02T04:05:10+00:00",
+   "detalle_actualizado": "2026-11-02T04:05:10+00:00",
+   "primera_deteccion": "2026-10-31T04:05:10+00:00"
   }
  ]
 }
