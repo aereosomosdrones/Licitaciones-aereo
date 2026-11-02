@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-02T20:05:13+00:00",
- "proxima_actualizacion": "2026-11-02T21:05:13+00:00",
+ "generado": "2026-11-02T21:05:10+00:00",
+ "proxima_actualizacion": "2026-11-02T22:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-02T20:05:13+00:00",
+   "ultima_ok": "2026-11-02T21:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4939,
-   "detalles_consultados": 67,
+   "revisadas": 4962,
+   "detalles_consultados": 69,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-02T20:05:13+00:00",
+   "ultima_ok": "2026-11-02T21:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,7 +74,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:634-105-LE26"
+ ],
  "items": [
   {
    "id": "CA:377-384-COT26",
@@ -305,7 +307,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -372,7 +374,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -404,7 +406,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -435,7 +437,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T18:10:45+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -467,7 +469,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T18:10:45+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -500,7 +502,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -533,7 +535,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -564,7 +566,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -600,7 +602,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T18:10:45+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -634,7 +636,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T19:05:10+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -668,7 +670,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T18:10:45+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -701,7 +703,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T20:05:13+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -732,7 +734,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -764,7 +766,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -795,7 +797,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -829,9 +831,48 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T20:05:13+00:00",
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
+  },
+  {
+   "id": "LIC:634-105-LE26",
+   "fuente": "licitacion",
+   "codigo": "634-105-LE26",
+   "nombre": "EQUIPAMIENTO TECNOLÓGICO",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-19T15:35:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=634-105-LE26",
+   "descripcion": "DISPONE EL LLAMADO A LICITACIÓN PÚBLICA Y APRUEBA LAS BASES ADMINISTRATIVAS Y TÉCNICAS DESTINADAS A LA ADQUISICIÓN, POR LÍNEAS, DE “EQUIPAMIENTO TECNOLÓGICO - E1O2RT9",
+   "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+   "unidad": "Dirección Nacional",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago",
+   "fecha_publicacion": "2026-11-02T18:00:52-03:00",
+   "fecha_adjudicacion": "2027-03-19T19:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Monitores de pantalla táctil — PANTALLA INTERACTIVA 75\" PULGADAS",
+    "Conjuntos de cámara — CÁMARA FOTOGRÁFICA PROFESIONAL",
+    "Conjuntos de cámara — CÁMARA INSTA360 X5 STARTER BUNDLE O SUPERIOR",
+    "Equipo básico de televisión — SMART TV QLED DE 65\"PULGADAS",
+    "Equipo básico de televisión — SMART TV DE 50\" PULGADAS",
+    "Conjuntos de cámara — CÁMARAS FOTOGRÁFICAS",
+    "Detectores de humo — MÁQUINA DE HUMO",
+    "Aeronave de reconocimiento o vigilancia — DRONE DJI MAVIC PRO O SUPERIOR"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-02T21:05:10+00:00",
+   "detalle_actualizado": "2026-11-02T21:05:10+00:00",
+   "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
   {
    "id": "CA:614-39-COT26",
