@@ -1,24 +1,26 @@
 {
- "generado": "2026-11-02T17:05:11+00:00",
- "proxima_actualizacion": "2026-11-02T18:05:11+00:00",
+ "generado": "2026-11-02T18:05:10+00:00",
+ "proxima_actualizacion": "2026-11-02T19:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-02T17:05:11+00:00",
+   "ultima_ok": "2026-11-02T18:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5387,
-   "detalles_consultados": 23,
+   "revisadas": 5165,
+   "detalles_consultados": 37,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-02T17:05:11+00:00",
+   "ultima_ok": "2026-11-02T18:05:10+00:00",
    "errores_detalle": 0,
-   "advertencias": [],
+   "advertencias": [
+    "3 de 15 búsquedas no respondieron: UAV, VANT, multirrotor"
+   ],
    "revisadas": 0,
    "detalles_consultados": 0,
    "modo": "incremental"
@@ -76,135 +78,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "LIC:1079563-36-LP26",
-   "fuente": "licitacion",
-   "codigo": "1079563-36-LP26",
-   "nombre": "ADQ. AERONAVES NO TRIPULADAS Y EQUIPOS PARA RPAS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-02T15:01:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079563-36-LP26",
-   "descripcion": "ADQUISICIÓN DE AERONAVES NO TRIPULADAS Y EQUIPOS PARA LA SECCIÓN RPAS O’HIGGINS DE LA ZONA DE CARABINEROS DEL LIBERTADOR BERNARDO O’HIGGINS DE CARABINEROS DE CHILE",
-   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
-   "unidad": "SEC DE COMPRAS ZONA DE CARAB LIB BERNARDO OHIGGINS",
-   "region": "Región del Libertador General Bernardo O´Higgins",
-   "comuna": "Rancagua",
-   "fecha_publicacion": "2026-10-15T16:51:00-03:00",
-   "fecha_adjudicacion": "2026-11-26T20:00:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LP",
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — LÍNEA N° 1 - ADQUISICIÓN DE AERONAVES NO TRIPULADAS",
-    "Sistema de transmisión por secuencias de video — LÍNEA N° 2 - ADQUISICIÓN DE SISTEMA DE TRANSMISIÓN PORTÁTIL"
-   ],
-   "terminos": [
-    "RPA / RPAS",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
-   "detalle_actualizado": "2026-11-02T16:05:12+00:00",
-   "primera_deteccion": "2026-10-15T20:05:12+00:00"
-  },
-  {
-   "id": "LIC:2405-145-LR26",
-   "fuente": "licitacion",
-   "codigo": "2405-145-LR26",
-   "nombre": "“SHOW DE DRONES 2027”",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-02T15:01:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2405-145-LR26",
-   "descripcion": "“SHOW DE DRONES 2027”",
-   "organismo": "I MUNICIPALIDAD DE IQUIQUE",
-   "unidad": "SECRETARIA COMUNAL DE PLANIFICACION",
-   "region": "Región de Tarapacá",
-   "comuna": "Iquique",
-   "fecha_publicacion": "2026-09-30T17:47:26-03:00",
-   "fecha_adjudicacion": "2026-11-30T13:20:00-03:00",
-   "monto": 650000000.0,
-   "moneda": "CLP",
-   "tipo": "LR",
-   "productos": [
-    "Producción de eventos — “SHOW DE DRONES 2027”"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
-   "detalle_actualizado": "2026-11-02T16:05:12+00:00",
-   "primera_deteccion": "2026-10-05T18:28:09+00:00"
-  },
-  {
-   "id": "LIC:3269-15-LE26",
-   "fuente": "licitacion",
-   "codigo": "3269-15-LE26",
-   "nombre": "SA. N 109 SERVICIO DE MANTENIMIENTO DE OFICINAS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-02T15:01:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3269-15-LE26",
-   "descripcion": "SE REQUIERE EL MANTENIMIENTO Y REPARACIÓN DEL OFICINAS DEL EDIFICIO COORPORATIVO DEL SERVICIO AEROFOTOGRAMÉTRICO.",
-   "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
-   "unidad": "Servicio Aerofotogramétrico",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Pudahuel",
-   "fecha_publicacion": "2026-10-22T14:21:57-03:00",
-   "fecha_adjudicacion": "2026-11-17T19:00:00-03:00",
-   "monto": 21000000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Carpintería o chapistería de acabados — SA. N° 109, SERVICIO DE MANTENIMIENTO DE OFICINAS DEL SAF."
-   ],
-   "terminos": [
-    "Fotogrametría / ortomosaico"
-   ],
-   "categorias": [
-    "derivado"
-   ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
-   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
-   "primera_deteccion": "2026-10-22T18:05:13+00:00"
-  },
-  {
-   "id": "LIC:3269-18-LE26",
-   "fuente": "licitacion",
-   "codigo": "3269-18-LE26",
-   "nombre": "SA.N 103 SVC. DE REPARACIÓN ESTACIONAMIENTOS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-02T15:01:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3269-18-LE26",
-   "descripcion": "SERVICIO DE REPARACIÓN DE RAMPAS DE ACCESO Y REMOCIÓN, LIMPIEZA Y DEMARCACIÓN VIAL DE LOS ESTACIONAMIENTOS DEL SERVICIO AEROFOTOGRAMÉTRICO, DE ACUERDO A LAS BASES TÉCNICAS.",
-   "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
-   "unidad": "Servicio Aerofotogramétrico",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Pudahuel",
-   "fecha_publicacion": "2026-10-22T14:24:20-03:00",
-   "fecha_adjudicacion": "2026-11-17T19:00:00-03:00",
-   "monto": 15000000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Servicios de reparaciones, mantenimientos de carreteras o aparcamientos (estacionamientos) — SERVICIO DE REPARACIÓN DE RAMPAS DE ACCESO Y REMOCIÓN, LIMPIEZA Y DEMARCACIÓN VIAL DE LOS ESTACIONAMIENTOS."
-   ],
-   "terminos": [
-    "Fotogrametría / ortomosaico"
-   ],
-   "categorias": [
-    "derivado"
-   ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
-   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
-   "primera_deteccion": "2026-10-22T18:05:13+00:00"
-  },
   {
    "id": "CA:377-384-COT26",
    "fuente": "compra_agil",
@@ -434,7 +307,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -501,7 +374,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -533,7 +406,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -564,7 +437,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -596,7 +469,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -629,7 +502,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -662,7 +535,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -693,7 +566,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -729,7 +602,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -763,7 +636,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T12:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -796,7 +669,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T13:05:13+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -827,7 +700,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -859,7 +732,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -890,7 +763,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -924,7 +797,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "ultima_actualizacion": "2026-11-02T18:05:10+00:00",
    "detalle_actualizado": "2026-11-02T16:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -9081,6 +8954,135 @@
    "ultima_actualizacion": "2026-11-02T04:05:10+00:00",
    "detalle_actualizado": "2026-11-02T04:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00"
+  },
+  {
+   "id": "LIC:1079563-36-LP26",
+   "fuente": "licitacion",
+   "codigo": "1079563-36-LP26",
+   "nombre": "ADQ. AERONAVES NO TRIPULADAS Y EQUIPOS PARA RPAS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-02T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079563-36-LP26",
+   "descripcion": "ADQUISICIÓN DE AERONAVES NO TRIPULADAS Y EQUIPOS PARA LA SECCIÓN RPAS O’HIGGINS DE LA ZONA DE CARABINEROS DEL LIBERTADOR BERNARDO O’HIGGINS DE CARABINEROS DE CHILE",
+   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+   "unidad": "SEC DE COMPRAS ZONA DE CARAB LIB BERNARDO OHIGGINS",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "comuna": "Rancagua",
+   "fecha_publicacion": "2026-10-15T16:51:00-03:00",
+   "fecha_adjudicacion": "2026-11-26T20:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — LÍNEA N° 1 - ADQUISICIÓN DE AERONAVES NO TRIPULADAS",
+    "Sistema de transmisión por secuencias de video — LÍNEA N° 2 - ADQUISICIÓN DE SISTEMA DE TRANSMISIÓN PORTÁTIL"
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T16:05:12+00:00",
+   "primera_deteccion": "2026-10-15T20:05:12+00:00"
+  },
+  {
+   "id": "LIC:2405-145-LR26",
+   "fuente": "licitacion",
+   "codigo": "2405-145-LR26",
+   "nombre": "“SHOW DE DRONES 2027”",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-02T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2405-145-LR26",
+   "descripcion": "“SHOW DE DRONES 2027”",
+   "organismo": "I MUNICIPALIDAD DE IQUIQUE",
+   "unidad": "SECRETARIA COMUNAL DE PLANIFICACION",
+   "region": "Región de Tarapacá",
+   "comuna": "Iquique",
+   "fecha_publicacion": "2026-09-30T17:47:26-03:00",
+   "fecha_adjudicacion": "2026-11-30T13:20:00-03:00",
+   "monto": 650000000.0,
+   "moneda": "CLP",
+   "tipo": "LR",
+   "productos": [
+    "Producción de eventos — “SHOW DE DRONES 2027”"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T16:05:12+00:00",
+   "primera_deteccion": "2026-10-05T18:28:09+00:00"
+  },
+  {
+   "id": "LIC:3269-15-LE26",
+   "fuente": "licitacion",
+   "codigo": "3269-15-LE26",
+   "nombre": "SA. N 109 SERVICIO DE MANTENIMIENTO DE OFICINAS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-02T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3269-15-LE26",
+   "descripcion": "SE REQUIERE EL MANTENIMIENTO Y REPARACIÓN DEL OFICINAS DEL EDIFICIO COORPORATIVO DEL SERVICIO AEROFOTOGRAMÉTRICO.",
+   "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
+   "unidad": "Servicio Aerofotogramétrico",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Pudahuel",
+   "fecha_publicacion": "2026-10-22T14:21:57-03:00",
+   "fecha_adjudicacion": "2026-11-17T19:00:00-03:00",
+   "monto": 21000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Carpintería o chapistería de acabados — SA. N° 109, SERVICIO DE MANTENIMIENTO DE OFICINAS DEL SAF."
+   ],
+   "terminos": [
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado"
+   ],
+   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
+   "primera_deteccion": "2026-10-22T18:05:13+00:00"
+  },
+  {
+   "id": "LIC:3269-18-LE26",
+   "fuente": "licitacion",
+   "codigo": "3269-18-LE26",
+   "nombre": "SA.N 103 SVC. DE REPARACIÓN ESTACIONAMIENTOS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-02T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3269-18-LE26",
+   "descripcion": "SERVICIO DE REPARACIÓN DE RAMPAS DE ACCESO Y REMOCIÓN, LIMPIEZA Y DEMARCACIÓN VIAL DE LOS ESTACIONAMIENTOS DEL SERVICIO AEROFOTOGRAMÉTRICO, DE ACUERDO A LAS BASES TÉCNICAS.",
+   "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
+   "unidad": "Servicio Aerofotogramétrico",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Pudahuel",
+   "fecha_publicacion": "2026-10-22T14:24:20-03:00",
+   "fecha_adjudicacion": "2026-11-17T19:00:00-03:00",
+   "monto": 15000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Servicios de reparaciones, mantenimientos de carreteras o aparcamientos (estacionamientos) — SERVICIO DE REPARACIÓN DE RAMPAS DE ACCESO Y REMOCIÓN, LIMPIEZA Y DEMARCACIÓN VIAL DE LOS ESTACIONAMIENTOS."
+   ],
+   "terminos": [
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado"
+   ],
+   "ultima_actualizacion": "2026-11-02T17:05:11+00:00",
+   "detalle_actualizado": "2026-11-02T12:05:11+00:00",
+   "primera_deteccion": "2026-10-22T18:05:13+00:00"
   }
  ]
 }
