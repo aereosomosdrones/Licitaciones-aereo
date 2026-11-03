@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-03T13:05:11+00:00",
- "proxima_actualizacion": "2026-11-03T14:05:11+00:00",
+ "generado": "2026-11-03T14:05:10+00:00",
+ "proxima_actualizacion": "2026-11-03T15:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-03T13:05:11+00:00",
+   "ultima_ok": "2026-11-03T14:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4938,
-   "detalles_consultados": 30,
+   "revisadas": 4967,
+   "detalles_consultados": 41,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-03T13:05:11+00:00",
+   "ultima_ok": "2026-11-03T14:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,52 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:3436-414-COT26",
-   "fuente": "compra_agil",
-   "codigo": "3436-414-COT26",
-   "nombre": "Adquisición de componentes para armado de Dron para laboratorio de innovación de los alumnos CC 1100065012 SIC 355355",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-30T12:20:00-03:00",
-   "fecha_cierre": "2026-11-03T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-30 12:25",
-   "organismo": "Ejercito de Chile",
-   "unidad": "Escuela de Suboficiales",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 648000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3436-414-COT26",
-   "descripcion": "Se debe ofertar por la totalidad de los bienes licitados.\nSe debe indicar tiempo de entrega y garantía mínima de 6 meses.\nSe debe anexar certificado de no tener inhabilidad para ofertar con el estado, de acuerdo a modelo adjunto.\nNo se debe considerar costo de traslado o flete.",
-   "direccion_entrega": "Camino Rinconada de Maipú sin número",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Cámaras aéreas — ANTENA VTX, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — GAFAS FPV, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — EMISORA ELRS, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — CARGADOR LIPO, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — BATERÍA LIPO, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — BATERÍAS EMISORA, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — SIMULADOR FPV, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — CONTROLADORA AIO, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — RECEPTOR ELRS, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — HÉLICES, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — MOTORES BRUSHLESS, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — CÁMARA FPV, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — TRANSMISOR VTX, conforme a especificaciones técnicas adjuntas.",
-    "Cámaras aéreas — MÓDULO GPS, conforme a especificaciones técnicas adjuntas."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
-   "primera_deteccion": "2026-10-31T04:05:10+00:00"
-  },
   {
    "id": "CA:685-15-COT26",
    "fuente": "compra_agil",
@@ -289,7 +243,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -392,7 +346,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -424,7 +378,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -455,7 +409,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -487,7 +441,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -520,7 +474,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -588,7 +542,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -619,7 +573,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -655,7 +609,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -689,7 +643,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -723,7 +677,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -756,7 +710,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T09:24:40+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -787,7 +741,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -819,7 +773,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -850,7 +804,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -884,7 +838,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -923,7 +877,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T14:05:10+00:00",
    "detalle_actualizado": "2026-11-03T09:24:40+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -9300,6 +9254,52 @@
    "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-11-01T04:05:10+00:00"
+  },
+  {
+   "id": "CA:3436-414-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3436-414-COT26",
+   "nombre": "Adquisición de componentes para armado de Dron para laboratorio de innovación de los alumnos CC 1100065012 SIC 355355",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-30T12:20:00-03:00",
+   "fecha_cierre": "2026-11-03T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-30 12:25",
+   "organismo": "Ejercito de Chile",
+   "unidad": "Escuela de Suboficiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 648000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3436-414-COT26",
+   "descripcion": "Se debe ofertar por la totalidad de los bienes licitados.\nSe debe indicar tiempo de entrega y garantía mínima de 6 meses.\nSe debe anexar certificado de no tener inhabilidad para ofertar con el estado, de acuerdo a modelo adjunto.\nNo se debe considerar costo de traslado o flete.",
+   "direccion_entrega": "Camino Rinconada de Maipú sin número",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Cámaras aéreas — ANTENA VTX, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — GAFAS FPV, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — EMISORA ELRS, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — CARGADOR LIPO, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — BATERÍA LIPO, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — BATERÍAS EMISORA, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — SIMULADOR FPV, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — CONTROLADORA AIO, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — RECEPTOR ELRS, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — HÉLICES, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — MOTORES BRUSHLESS, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — CÁMARA FPV, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — TRANSMISOR VTX, conforme a especificaciones técnicas adjuntas.",
+    "Cámaras aéreas — MÓDULO GPS, conforme a especificaciones técnicas adjuntas."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "primera_deteccion": "2026-10-31T04:05:10+00:00"
   }
  ]
 }
