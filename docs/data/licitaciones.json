@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-03T20:05:24+00:00",
- "proxima_actualizacion": "2026-11-03T21:05:24+00:00",
+ "generado": "2026-11-03T21:05:13+00:00",
+ "proxima_actualizacion": "2026-11-03T22:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-03T20:05:24+00:00",
+   "ultima_ok": "2026-11-03T21:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4997,
-   "detalles_consultados": 80,
+   "revisadas": 5038,
+   "detalles_consultados": 65,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-03T20:05:24+00:00",
+   "ultima_ok": "2026-11-03T21:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,42 +74,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:411-52-LE26"
+ ],
  "items": [
-  {
-   "id": "CA:2422-713-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2422-713-COT26",
-   "nombre": "S.A. 946147 MANTENCION Y REPARACION DRON MATRICE 30T",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-02T13:38:00-03:00",
-   "fecha_cierre": "2026-11-03T18:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-02 13:40",
-   "organismo": "I MUNICIPALIDAD DE PUENTE ALTO",
-   "unidad": "I MUNICIPALIDAD DE PUENTE ALTO",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1000000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2422-713-COT26",
-   "descripcion": "NECESIDAD DE ADMINISTRACION MUNICIPAL.",
-   "direccion_entrega": "AVENIDA CONCHA Y TORO 1691, PUENTE ALTO.",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Módulos de servicio para aeronaves — SERVICIO DE MANTENCION Y REPARACION PARA EQUIPO DRON MATRICE 30T DE ACUERDO A LO INDICADO EN ANEXO ADJUNTO. OFERENTES DEBERAN ADJUNTAR PROPUESTA TECNICAS DEL SERVICIO A OFERTAR Y CERTIFICADO SOLICITADO. CASO CONTRARIO OFERTA NO SERA CONSIDERADA."
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
-   "primera_deteccion": "2026-11-03T04:05:15+00:00"
-  },
   {
    "id": "CA:5297-35-COT26",
    "fuente": "compra_agil",
@@ -175,7 +143,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -278,7 +246,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -310,7 +278,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -341,8 +309,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
-   "detalle_actualizado": "2026-11-03T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-03T21:05:13+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
   {
@@ -373,8 +341,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
-   "detalle_actualizado": "2026-11-03T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-03T21:05:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -406,7 +374,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -474,7 +442,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -505,7 +473,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -541,8 +509,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
-   "detalle_actualizado": "2026-11-03T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-03T21:05:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -575,8 +543,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
-   "detalle_actualizado": "2026-11-03T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-03T21:05:13+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
   {
@@ -609,8 +577,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
-   "detalle_actualizado": "2026-11-03T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-03T21:05:13+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
   {
@@ -642,7 +610,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T16:05:12+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -674,7 +642,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T19:05:25+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -705,7 +673,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -737,7 +705,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -768,7 +736,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -802,9 +770,41 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T17:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
+  },
+  {
+   "id": "LIC:411-52-LE26",
+   "fuente": "licitacion",
+   "codigo": "411-52-LE26",
+   "nombre": "ADQUISICIÓN DE EQUIPO DRON Y ACCESORIOS ADC",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-18T13:22:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=411-52-LE26",
+   "descripcion": "ADQUISICIÓN DE EQUIPO DRON Y ACCESORIOS, ALTO DEL CARMEN",
+   "organismo": "ILUSTRE MUNICIPALIDAD DE ALTO DEL CARMEN",
+   "unidad": "Departamento Finanzas - D.A.F",
+   "region": "Región de Atacama",
+   "comuna": "Alto Del Carmen",
+   "fecha_publicacion": "2026-11-03T17:16:54-03:00",
+   "fecha_adjudicacion": "2026-11-23T13:23:00-03:00",
+   "monto": 7997900.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICIÓN DE EQUIPO DRON Y ACCESORIOS, ALTO DEL CARMEN"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-03T21:05:13+00:00",
+   "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
   {
    "id": "LIC:634-105-LE26",
@@ -841,7 +841,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T20:05:24+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
    "detalle_actualizado": "2026-11-03T16:05:12+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -9064,8 +9064,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-03T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-03T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-03T21:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -9096,8 +9096,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-03T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-03T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-03T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-03T21:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -9324,6 +9324,40 @@
    "terminos": [
     "Dron",
     "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "primera_deteccion": "2026-11-03T04:05:15+00:00"
+  },
+  {
+   "id": "CA:2422-713-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2422-713-COT26",
+   "nombre": "S.A. 946147 MANTENCION Y REPARACION DRON MATRICE 30T",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-02T13:38:00-03:00",
+   "fecha_cierre": "2026-11-03T18:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-02 13:40",
+   "organismo": "I MUNICIPALIDAD DE PUENTE ALTO",
+   "unidad": "I MUNICIPALIDAD DE PUENTE ALTO",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2422-713-COT26",
+   "descripcion": "NECESIDAD DE ADMINISTRACION MUNICIPAL.",
+   "direccion_entrega": "AVENIDA CONCHA Y TORO 1691, PUENTE ALTO.",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Módulos de servicio para aeronaves — SERVICIO DE MANTENCION Y REPARACION PARA EQUIPO DRON MATRICE 30T DE ACUERDO A LO INDICADO EN ANEXO ADJUNTO. OFERENTES DEBERAN ADJUNTAR PROPUESTA TECNICAS DEL SERVICIO A OFERTAR Y CERTIFICADO SOLICITADO. CASO CONTRARIO OFERTA NO SERA CONSIDERADA."
+   ],
+   "terminos": [
+    "Dron",
     "Marcas (DJI, Autel…)"
    ],
    "categorias": [
