@@ -1,27 +1,27 @@
 {
- "generado": "2026-11-03T04:05:15+00:00",
- "proxima_actualizacion": "2026-11-03T05:05:15+00:00",
+ "generado": "2026-11-03T05:05:11+00:00",
+ "proxima_actualizacion": "2026-11-03T06:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-03T04:05:15+00:00",
+   "ultima_ok": "2026-11-03T05:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 4950,
-   "detalles_consultados": 27,
+   "detalles_consultados": 0,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-03T04:05:15+00:00",
+   "ultima_ok": "2026-11-03T05:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 165,
-   "detalles_consultados": 100,
-   "modo": "completo"
+   "revisadas": 0,
+   "detalles_consultados": 0,
+   "modo": "incremental"
   }
  },
  "terminos": [
@@ -74,12 +74,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:2422-713-COT26",
-  "CA:905-63-COT26",
-  "CA:3885-363-COT26",
-  "CA:5297-35-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "items": [
   {
    "id": "CA:377-384-COT26",
@@ -413,7 +408,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -516,7 +511,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -548,7 +543,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -579,7 +574,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T01:05:12+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -611,7 +606,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T01:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -644,7 +639,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -712,7 +707,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -743,7 +738,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -779,7 +774,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T01:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -813,7 +808,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T01:05:12+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -847,7 +842,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T01:05:12+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -880,7 +875,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T03:05:19+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -911,7 +906,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -943,7 +938,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -974,7 +969,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -1008,7 +1003,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T04:05:15+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -1047,7 +1042,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T05:05:11+00:00",
    "detalle_actualizado": "2026-11-03T03:05:19+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
