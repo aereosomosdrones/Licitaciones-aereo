@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-03T10:05:12+00:00",
- "proxima_actualizacion": "2026-11-03T11:05:12+00:00",
+ "generado": "2026-11-03T11:05:12+00:00",
+ "proxima_actualizacion": "2026-11-03T12:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-03T10:05:12+00:00",
+   "ultima_ok": "2026-11-03T11:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4950,
-   "detalles_consultados": 0,
+   "revisadas": 4947,
+   "detalles_consultados": 27,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-03T10:05:12+00:00",
+   "ultima_ok": "2026-11-03T11:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,125 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:377-384-COT26",
-   "fuente": "compra_agil",
-   "codigo": "377-384-COT26",
-   "nombre": "ACCESORIOS PARA DRON",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-22T18:01:00-03:00",
-   "fecha_cierre": "2026-11-03T07:10:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-28 15:15",
-   "organismo": "I MUNICIPALIDAD DE ALGARROBO",
-   "unidad": "MUNICIPALIDAD DE ALGARROBO-ADQUISICIONES",
-   "region": "Región de Valparaíso ",
-   "monto": 1791000.0,
-   "moneda": "CLP",
-   "ofertas": 2,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=377-384-COT26",
-   "descripcion": "USO: DRON DJI MAVIC 3 PRO, REQUERIMIENTO DE SECPLAC",
-   "direccion_entrega": "AV PEÑABLANCA 250",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Kits de cámara — KIT DE BATERIAS PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Kits de cámara — PARACAIDAS DE RECUPERACION PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Kits de cámara — TARJETA MICRO SD PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Kits de cámara — MALETA RIGIDA PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Lentes o filtros para cámaras — GAFAS FPV Y CONTROL DE MOVIMIENTO PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Lentes o filtros para cámaras — FILTROS OPTICOS ND-PL PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Correas de cámara — CORREA DE CUELLO PARA DJI RC PARA DRON DJI MAVIC 3 PRO, VER ANEXO"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
-   "primera_deteccion": "2026-10-23T00:05:11+00:00",
-   "cambio_estado": "2026-10-29T02:21:05+00:00"
-  },
-  {
-   "id": "CA:2852-278-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2852-278-COT26",
-   "nombre": "Adquirir equipamiento operativo, de seguridad, comunicaciones, iluminación y apoyo técnico para el Departamento de Gestión del Riesgo de Desastres",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-30T07:54:00-03:00",
-   "fecha_cierre": "2026-11-03T08:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-30 07:55",
-   "organismo": "I MUNICIPALIDAD DE PUERTO VARAS",
-   "unidad": "Adquisiciones Municipalidad",
-   "region": "Región de los Lagos ",
-   "monto": 7100000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2852-278-COT26",
-   "descripcion": "Adquirir equipamiento operativo, de seguridad, comunicaciones, iluminación y apoyo técnico destinado a fortalecer las capacidades de respuesta, coordinación y despliegue del Departamento de Gestión del Riesgo y Desastres, permitiendo mejorar la preparación, atención y respuesta ante emergencias, desastres y otras situaciones que requieran la intervención de equipos municipales en terreno.\nEL OFERENTE DEBERÁ REVISAR DOCUMENTO ADJUNTO.",
-   "direccion_entrega": "Colón N° 251, esquina Del Huemul, Dirección de Seguridad Pública, Puerto Varas.",
-   "plazo_entrega_dias": 20,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — Helipuerto RPA / Dron\nCompatible con DJI Flip, Mavic 3, Matrice 4T, DJI Avata, DJI FPV y drones pequeños\nSuperficie con peso integrado para mayor       estabilidad, medidas de (65x65)\nMaterial impermeable y resistente al desgaste\nFormato plegable y fácil de transportar\nDiseño doble cara para mejor visibilidad",
-    "Paneles de control eléctrico para generadores — Tablero Sistema Comando de Incidentes\nEstuche de polímero negro resistente a la intemperie\nRuedas en línea de alta resistencia.\nVálvula de aire de ajuste automático que no deje entrar agua\nPatas de acero con recubrimiento en polvo, plegables y con bloqueo permanentemente fijadas.\nSuperficie de almacenamiento debajo de la hoja de trabajo inferior.\nÁreas tácticas separadas para la gestión",
-    "Linternas de queroseno, propano o butano — Linterna Portátil Manual\nLinterna de Ángulo recto\nPotencia lumínica: Hasta 175 lúmenes en modo alto y 60 lúmenes en modo bajo.\nAlcance del haz: Hasta 400 metros en potencia máxima, como mínimo\nAutonomía: Aproximadamente 4 horas en modo alto y 15 horas en modo bajo, como mínimo.\nResistencia: Certificación IPX4",
-    "Linternas de queroseno, propano o butano — Linterna Portátil Morral\n\n2 niveles de iluminación: Alto: 4.700 candelas (intensidad máxima del haz), 1500 lúmenes, hasta 8 horas, mínimo\nBajo: 1.000 candelas (intensidad máxima del haz), 350 lúmenes, hasta 20 horas. mínimo\nAro de la óptica y empuñadura revestidos de caucho de protección contra impactos.\nClasificación IPX4 para funcionamiento resistente a la intemperie.",
-    "Sistemas de control de iluminación — Torres de Iluminación Portátiles + Baterías de Reemplazo\nTorre iluminación inalámbrica\n6.000 lúmenes de luz multidireccional.\n3 Cabezales de luz pivotantes independientes.\nCabezal de iluminación extensible y multidireccional\n2,1 Mts de Altura máxima extendida.\nBolso de Transporte",
-    "Aparatos de observación de superficie del viento — Anemómetro\nDigital \nPantalla LCD retroiluminada\nMedición temperatura del aire\nApagado automático\nIndicador de batería baja\nRetención de Datos\nFunción Máx./Min/AVG\nMedición humedad del aire",
-    "Estuches o bolsas de primeros auxilios para los servicios médicos de urgencias o accesorios — Botiquín Aeronáutico DGAC\nGasas de 15 x 15 (5 unidades)\nAntiséptico (alcohol, bialcohol o clorhexidina)\nTela/cinta Adhesiva o equivalente\nTijera 10 cm\nApósito 20 x 10 (2 unidades)\nSuero fisiológico 20 ml (5 ampollas)\nCaja transportadora",
-    "Equipo básico de radio — Radios UHF\nRangos de frecuencia:\nVHF: 136–174 MHz como mínimo\nUHF: 400–520 MHz como mínimo\nResistencia: Mínimo IP67 o superior\nPotencia de transmisión 5 W nominales o superior\nCanales 128 Programables\nProgramable mediante computador\nPantalla LCD Retroiluminada\nBatería Recargable de ion-litio",
-    "Delimitadores o conos de tráfico — Conos\nBase de Polipropileno\nCuerpo de tela Reflectante\nVisible desde todas las direcciones hasta 1000metros\nAltura máxima 40cm\nPlegable",
-    "Extintores — Extintor Portátil Seguridad CO2\nPotencial de Extinción 2-B:C\nTemperatura Limite de Operación 40°C / 49°C\nPresión de Trabajo 174 Bar\nAgente de extinción: dióxido de carbono (CO2)\nConstrucción de válvula totalmente metálica\nContenido nominal: 2 Kg.\nPARA MAS DETALLES DE ESTA COMPRA DEBE REVISAR DOCUMENTO ADJUNTO.",
-    "Equipo de paracaídas — Paracaídas para Dron\nModelos compatibles: DJI Matrice 4T, DJI Mavic 3\nVelocidad de caída: 5,5 m/s\nTiempo de resistencia: 4,5 h\nDistancia de reacción: 8 m\nOperación hasta 4.000 m de altitud.\nEnergía cinética de aterrizaje: 5,1198 J\nActivación automática con sensores APS 3.0."
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
-   "primera_deteccion": "2026-10-31T04:05:10+00:00"
-  },
-  {
-   "id": "CA:696027-90-COT26",
-   "fuente": "compra_agil",
-   "codigo": "696027-90-COT26",
-   "nombre": "Seguro de responsabilidad civil para sistema DJI Enterprise Matrice 30 Series",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-10-31T17:36:00-03:00",
-   "fecha_cierre": "2026-11-03T08:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-31 17:40",
-   "organismo": "MINISTERIO PUBLICO",
-   "unidad": "FR ARICA Y PARINACOTA",
-   "region": "Región de Arica y Parinacota",
-   "monto": 500000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=696027-90-COT26",
-   "descripcion": "La UGI solicitó la contratación de un seguro de responsabilidad civil para el sistema DJI Enterprise Matrice 30 Series, de acuerdo con las necesidades institucionales y los requerimientos asociados a su operación. \n\nEn el marco del presente proceso de contratación, la Fiscalía podrá solicitar al proveedor que haya presentado la oferta de menor valor la subsanación de antecedentes o la presentación de documentos omitidos, mediante correo electrónico u otro medio idóneo para tal efecto.",
-   "direccion_entrega": "calle General Manuel Baquedano # 731, piso 7, oficina 702, Arica, Región de Arica y Parinacota.",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Seguro por responsabilidad civil — Seguro de responsabilidad civil destinado a otorgar cobertura al sistema DJI Enterprise Matrice 30 Series."
-   ],
-   "terminos": [
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
-   "primera_deteccion": "2026-11-01T04:05:10+00:00"
-  },
   {
    "id": "CA:3436-414-COT26",
    "fuente": "compra_agil",
@@ -408,8 +289,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
   {
@@ -511,8 +392,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
   {
@@ -543,8 +424,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
   {
@@ -574,7 +455,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -606,7 +487,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -639,8 +520,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
   {
@@ -707,8 +588,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
   {
@@ -738,8 +619,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
   {
@@ -774,7 +655,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -808,7 +689,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -842,7 +723,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -875,7 +756,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
    "detalle_actualizado": "2026-11-03T09:24:40+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -906,8 +787,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
   {
@@ -938,8 +819,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
   {
@@ -969,8 +850,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
   {
@@ -1003,8 +884,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
   {
@@ -1042,7 +923,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T10:05:12+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
    "detalle_actualizado": "2026-11-03T09:24:40+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -4943,8 +4824,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-07T20:32:51+00:00"
   },
@@ -5402,8 +5283,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00"
   },
   {
@@ -5642,8 +5523,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00"
   },
   {
@@ -5716,8 +5597,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-13T19:05:12+00:00"
   },
@@ -5954,8 +5835,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -6233,8 +6114,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-06T19:05:13+00:00"
   },
   {
@@ -6298,8 +6179,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-06T03:05:10+00:00"
   },
   {
@@ -6745,8 +6626,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -6879,8 +6760,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00",
    "cambio_estado": "2026-10-19T19:05:11+00:00"
   },
@@ -7924,8 +7805,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-16T20:05:11+00:00"
   },
   {
@@ -7990,8 +7871,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00"
   },
   {
@@ -8405,8 +8286,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T17:05:13+00:00"
   },
   {
@@ -8714,8 +8595,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-20T01:05:11+00:00"
   },
   {
@@ -8885,8 +8766,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-13T21:05:12+00:00"
   },
   {
@@ -8954,8 +8835,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
   {
@@ -9201,8 +9082,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00"
   },
   {
@@ -9233,8 +9114,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
-   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "ultima_actualizacion": "2026-11-03T11:05:12+00:00",
+   "detalle_actualizado": "2026-11-03T11:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00"
   },
   {
@@ -9300,6 +9181,125 @@
    "ultima_actualizacion": "2026-11-03T08:05:11+00:00",
    "detalle_actualizado": "2026-11-03T08:05:11+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
+  },
+  {
+   "id": "CA:377-384-COT26",
+   "fuente": "compra_agil",
+   "codigo": "377-384-COT26",
+   "nombre": "ACCESORIOS PARA DRON",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-22T18:01:00-03:00",
+   "fecha_cierre": "2026-11-03T07:10:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-28 15:15",
+   "organismo": "I MUNICIPALIDAD DE ALGARROBO",
+   "unidad": "MUNICIPALIDAD DE ALGARROBO-ADQUISICIONES",
+   "region": "Región de Valparaíso ",
+   "monto": 1791000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=377-384-COT26",
+   "descripcion": "USO: DRON DJI MAVIC 3 PRO, REQUERIMIENTO DE SECPLAC",
+   "direccion_entrega": "AV PEÑABLANCA 250",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Kits de cámara — KIT DE BATERIAS PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Kits de cámara — PARACAIDAS DE RECUPERACION PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Kits de cámara — TARJETA MICRO SD PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Kits de cámara — MALETA RIGIDA PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Lentes o filtros para cámaras — GAFAS FPV Y CONTROL DE MOVIMIENTO PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Lentes o filtros para cámaras — FILTROS OPTICOS ND-PL PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Correas de cámara — CORREA DE CUELLO PARA DJI RC PARA DRON DJI MAVIC 3 PRO, VER ANEXO"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "primera_deteccion": "2026-10-23T00:05:11+00:00",
+   "cambio_estado": "2026-10-29T02:21:05+00:00"
+  },
+  {
+   "id": "CA:2852-278-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2852-278-COT26",
+   "nombre": "Adquirir equipamiento operativo, de seguridad, comunicaciones, iluminación y apoyo técnico para el Departamento de Gestión del Riesgo de Desastres",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-30T07:54:00-03:00",
+   "fecha_cierre": "2026-11-03T08:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-30 07:55",
+   "organismo": "I MUNICIPALIDAD DE PUERTO VARAS",
+   "unidad": "Adquisiciones Municipalidad",
+   "region": "Región de los Lagos ",
+   "monto": 7100000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2852-278-COT26",
+   "descripcion": "Adquirir equipamiento operativo, de seguridad, comunicaciones, iluminación y apoyo técnico destinado a fortalecer las capacidades de respuesta, coordinación y despliegue del Departamento de Gestión del Riesgo y Desastres, permitiendo mejorar la preparación, atención y respuesta ante emergencias, desastres y otras situaciones que requieran la intervención de equipos municipales en terreno.\nEL OFERENTE DEBERÁ REVISAR DOCUMENTO ADJUNTO.",
+   "direccion_entrega": "Colón N° 251, esquina Del Huemul, Dirección de Seguridad Pública, Puerto Varas.",
+   "plazo_entrega_dias": 20,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Helipuerto RPA / Dron\nCompatible con DJI Flip, Mavic 3, Matrice 4T, DJI Avata, DJI FPV y drones pequeños\nSuperficie con peso integrado para mayor       estabilidad, medidas de (65x65)\nMaterial impermeable y resistente al desgaste\nFormato plegable y fácil de transportar\nDiseño doble cara para mejor visibilidad",
+    "Paneles de control eléctrico para generadores — Tablero Sistema Comando de Incidentes\nEstuche de polímero negro resistente a la intemperie\nRuedas en línea de alta resistencia.\nVálvula de aire de ajuste automático que no deje entrar agua\nPatas de acero con recubrimiento en polvo, plegables y con bloqueo permanentemente fijadas.\nSuperficie de almacenamiento debajo de la hoja de trabajo inferior.\nÁreas tácticas separadas para la gestión",
+    "Linternas de queroseno, propano o butano — Linterna Portátil Manual\nLinterna de Ángulo recto\nPotencia lumínica: Hasta 175 lúmenes en modo alto y 60 lúmenes en modo bajo.\nAlcance del haz: Hasta 400 metros en potencia máxima, como mínimo\nAutonomía: Aproximadamente 4 horas en modo alto y 15 horas en modo bajo, como mínimo.\nResistencia: Certificación IPX4",
+    "Linternas de queroseno, propano o butano — Linterna Portátil Morral\n\n2 niveles de iluminación: Alto: 4.700 candelas (intensidad máxima del haz), 1500 lúmenes, hasta 8 horas, mínimo\nBajo: 1.000 candelas (intensidad máxima del haz), 350 lúmenes, hasta 20 horas. mínimo\nAro de la óptica y empuñadura revestidos de caucho de protección contra impactos.\nClasificación IPX4 para funcionamiento resistente a la intemperie.",
+    "Sistemas de control de iluminación — Torres de Iluminación Portátiles + Baterías de Reemplazo\nTorre iluminación inalámbrica\n6.000 lúmenes de luz multidireccional.\n3 Cabezales de luz pivotantes independientes.\nCabezal de iluminación extensible y multidireccional\n2,1 Mts de Altura máxima extendida.\nBolso de Transporte",
+    "Aparatos de observación de superficie del viento — Anemómetro\nDigital \nPantalla LCD retroiluminada\nMedición temperatura del aire\nApagado automático\nIndicador de batería baja\nRetención de Datos\nFunción Máx./Min/AVG\nMedición humedad del aire",
+    "Estuches o bolsas de primeros auxilios para los servicios médicos de urgencias o accesorios — Botiquín Aeronáutico DGAC\nGasas de 15 x 15 (5 unidades)\nAntiséptico (alcohol, bialcohol o clorhexidina)\nTela/cinta Adhesiva o equivalente\nTijera 10 cm\nApósito 20 x 10 (2 unidades)\nSuero fisiológico 20 ml (5 ampollas)\nCaja transportadora",
+    "Equipo básico de radio — Radios UHF\nRangos de frecuencia:\nVHF: 136–174 MHz como mínimo\nUHF: 400–520 MHz como mínimo\nResistencia: Mínimo IP67 o superior\nPotencia de transmisión 5 W nominales o superior\nCanales 128 Programables\nProgramable mediante computador\nPantalla LCD Retroiluminada\nBatería Recargable de ion-litio",
+    "Delimitadores o conos de tráfico — Conos\nBase de Polipropileno\nCuerpo de tela Reflectante\nVisible desde todas las direcciones hasta 1000metros\nAltura máxima 40cm\nPlegable",
+    "Extintores — Extintor Portátil Seguridad CO2\nPotencial de Extinción 2-B:C\nTemperatura Limite de Operación 40°C / 49°C\nPresión de Trabajo 174 Bar\nAgente de extinción: dióxido de carbono (CO2)\nConstrucción de válvula totalmente metálica\nContenido nominal: 2 Kg.\nPARA MAS DETALLES DE ESTA COMPRA DEBE REVISAR DOCUMENTO ADJUNTO.",
+    "Equipo de paracaídas — Paracaídas para Dron\nModelos compatibles: DJI Matrice 4T, DJI Mavic 3\nVelocidad de caída: 5,5 m/s\nTiempo de resistencia: 4,5 h\nDistancia de reacción: 8 m\nOperación hasta 4.000 m de altitud.\nEnergía cinética de aterrizaje: 5,1198 J\nActivación automática con sensores APS 3.0."
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "primera_deteccion": "2026-10-31T04:05:10+00:00"
+  },
+  {
+   "id": "CA:696027-90-COT26",
+   "fuente": "compra_agil",
+   "codigo": "696027-90-COT26",
+   "nombre": "Seguro de responsabilidad civil para sistema DJI Enterprise Matrice 30 Series",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-10-31T17:36:00-03:00",
+   "fecha_cierre": "2026-11-03T08:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-10-31 17:40",
+   "organismo": "MINISTERIO PUBLICO",
+   "unidad": "FR ARICA Y PARINACOTA",
+   "region": "Región de Arica y Parinacota",
+   "monto": 500000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=696027-90-COT26",
+   "descripcion": "La UGI solicitó la contratación de un seguro de responsabilidad civil para el sistema DJI Enterprise Matrice 30 Series, de acuerdo con las necesidades institucionales y los requerimientos asociados a su operación. \n\nEn el marco del presente proceso de contratación, la Fiscalía podrá solicitar al proveedor que haya presentado la oferta de menor valor la subsanación de antecedentes o la presentación de documentos omitidos, mediante correo electrónico u otro medio idóneo para tal efecto.",
+   "direccion_entrega": "calle General Manuel Baquedano # 731, piso 7, oficina 702, Arica, Región de Arica y Parinacota.",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Seguro por responsabilidad civil — Seguro de responsabilidad civil destinado a otorgar cobertura al sistema DJI Enterprise Matrice 30 Series."
+   ],
+   "terminos": [
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-03T04:05:15+00:00",
+   "detalle_actualizado": "2026-11-03T04:05:15+00:00",
+   "primera_deteccion": "2026-11-01T04:05:10+00:00"
   }
  ]
 }
