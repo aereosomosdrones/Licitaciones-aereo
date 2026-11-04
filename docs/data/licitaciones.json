@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-04T12:05:11+00:00",
- "proxima_actualizacion": "2026-11-04T13:05:11+00:00",
+ "generado": "2026-11-04T13:05:11+00:00",
+ "proxima_actualizacion": "2026-11-04T14:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-04T12:05:11+00:00",
+   "ultima_ok": "2026-11-04T13:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5045,
-   "detalles_consultados": 43,
+   "revisadas": 5058,
+   "detalles_consultados": 28,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-04T12:05:11+00:00",
+   "ultima_ok": "2026-11-04T13:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,42 +74,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:1437-20-LE26"
+ ],
  "items": [
-  {
-   "id": "CA:5297-35-COT26",
-   "fuente": "compra_agil",
-   "codigo": "5297-35-COT26",
-   "nombre": "SERVICIO POR CAPACITACIÓN PROFESIONAL PARA 10 PERSONAS OPERADORES (RPAS) MODALIDAD DIURNA Y NOCTURNA, DE ACUERDO A TODO LO SOLICITADO EN ANEXO ADJUNTO EN PORTAL.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-02T09:14:00-03:00",
-   "fecha_cierre": "2026-11-04T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-02 09:15",
-   "organismo": "PREDIOS FISCALES IIa. ZONA NAVAL",
-   "unidad": "PREDIOS FISCALES IIa. ZONA NAVAL",
-   "region": "Región del Biobío ",
-   "monto": 2600000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5297-35-COT26",
-   "descripcion": "SERVICIO POR CAPACITACIÓN PROFESIONAL PARA 10 PERSONAS OPERADORES (RPAS) MODALIDAD DIURNA Y NOCTURNA. CON EL OBJETO DE DESARROLLAR LAS COMPETENCIAS NECESARIAS EN LO QUE RESPECTA A LA PLANIFICACIÓN, OPERACIÓN Y SUPERVISIÓN DE SISTEMAS DE AERONAVES PILOTADAS A DISTANCIA, SEGURIDAD OPERACIONAL Y LA APLICACIÓN DE LA NORMATIVA  AERONÁUTICA CHILENA, DE ACUERDO A TODO LO SOLICITADO EN ANEXO ADJUNTO, EN OFERTA SE DEBE ADJUNTAR COTIZACIÓN FORMAL CON TODAS LAS ESPECIFICACIONES TÉCNICAS SOLICITADAS Y FECHA",
-   "direccion_entrega": "AVDA. MICHIMALONGO S/N. LAS CANCHAS TALCAHUANO",
-   "plazo_entrega_dias": 7,
-   "productos": [
-    "Capacitación a empleados — SERVICIO POR CAPACITACIÓN PROFESIONAL PARA 10 PERSONAS OPERADORES (RPAS) MODALIDAD DIURNA Y NOCTURNA. CON EL OBJETO DE DESARROLLAR LAS COMPETENCIAS NECESARIAS EN LO QUE RESPECTA A LA PLANIFICACIÓN, OPERACIÓN Y SUPERVISIÓN DE SISTEMAS DE AERONAVES PILOTADAS A DISTANCIA, SEGURIDAD OPERACIONAL Y LA APLICACIÓN DE LA NORMATIVA  AERONÁUTICA CHILENA, DE ACUERDO A TODO LO SOLICITADO EN ANEXO ADJUNTO, TRATAMIENTO TRIBUTARIO FACTURA EXENTA DE IVA."
-   ],
-   "terminos": [
-    "RPA / RPAS",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
-   "primera_deteccion": "2026-11-03T04:05:15+00:00"
-  },
   {
    "id": "CA:2656-1331-COT26",
    "fuente": "compra_agil",
@@ -174,7 +142,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00"
   },
@@ -415,7 +383,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -447,7 +415,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -478,7 +446,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T10:05:11+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -510,7 +478,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T10:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -543,7 +511,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -681,7 +649,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -712,7 +680,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -828,7 +796,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T10:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -862,7 +830,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T10:05:11+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -896,7 +864,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T10:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -929,7 +897,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T11:05:12+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -961,9 +929,41 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T09:05:10+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
+  },
+  {
+   "id": "LIC:1437-20-LE26",
+   "fuente": "licitacion",
+   "codigo": "1437-20-LE26",
+   "nombre": "ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-16T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1437-20-LE26",
+   "descripcion": "ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE, ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC. SEGUN BASES ADMINISTRATIVAS, REQUERIMIENTOS TECNICOS Y OTROS ANEXOS ADJUNTOS A LA PROPUESTA.",
+   "organismo": "I MUNICIPALIDAD DE LLANQUIHUE",
+   "unidad": "Ilustre Municipalidad de Llanquihue",
+   "region": "Región de los Lagos",
+   "comuna": "Llanquihue",
+   "fecha_publicacion": "2026-11-04T09:09:10-03:00",
+   "fecha_adjudicacion": "2026-12-31T21:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICIÓN DE 2 DRONES DE ALTO RENDIMIENTO PARA LA MUNICIPALIDAD DE LLANQUIHUE, ADEMAS DEL SERVICIO DE CAPACITACIÓN Y TRAMITACIÓN DE CREDENCIALES DGAC. SEGUN BASES, REQUERIMIENTOS TECNICOS Y OTROS ANEXOS."
+   ],
+   "terminos": [
+    "Dron",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
+   "detalle_actualizado": "2026-11-04T13:05:11+00:00",
+   "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
   {
    "id": "LIC:1388961-56-LP26",
@@ -992,7 +992,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -1024,7 +1024,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -1055,7 +1055,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -1089,7 +1089,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T12:05:11+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -1121,7 +1121,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T10:05:11+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -1160,7 +1160,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T13:05:11+00:00",
    "detalle_actualizado": "2026-11-04T11:05:12+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -9569,6 +9569,40 @@
    "terminos": [
     "Dron",
     "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "primera_deteccion": "2026-11-03T04:05:15+00:00"
+  },
+  {
+   "id": "CA:5297-35-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5297-35-COT26",
+   "nombre": "SERVICIO POR CAPACITACIÓN PROFESIONAL PARA 10 PERSONAS OPERADORES (RPAS) MODALIDAD DIURNA Y NOCTURNA, DE ACUERDO A TODO LO SOLICITADO EN ANEXO ADJUNTO EN PORTAL.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-02T09:14:00-03:00",
+   "fecha_cierre": "2026-11-04T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-02 09:15",
+   "organismo": "PREDIOS FISCALES IIa. ZONA NAVAL",
+   "unidad": "PREDIOS FISCALES IIa. ZONA NAVAL",
+   "region": "Región del Biobío ",
+   "monto": 2600000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5297-35-COT26",
+   "descripcion": "SERVICIO POR CAPACITACIÓN PROFESIONAL PARA 10 PERSONAS OPERADORES (RPAS) MODALIDAD DIURNA Y NOCTURNA. CON EL OBJETO DE DESARROLLAR LAS COMPETENCIAS NECESARIAS EN LO QUE RESPECTA A LA PLANIFICACIÓN, OPERACIÓN Y SUPERVISIÓN DE SISTEMAS DE AERONAVES PILOTADAS A DISTANCIA, SEGURIDAD OPERACIONAL Y LA APLICACIÓN DE LA NORMATIVA  AERONÁUTICA CHILENA, DE ACUERDO A TODO LO SOLICITADO EN ANEXO ADJUNTO, EN OFERTA SE DEBE ADJUNTAR COTIZACIÓN FORMAL CON TODAS LAS ESPECIFICACIONES TÉCNICAS SOLICITADAS Y FECHA",
+   "direccion_entrega": "AVDA. MICHIMALONGO S/N. LAS CANCHAS TALCAHUANO",
+   "plazo_entrega_dias": 7,
+   "productos": [
+    "Capacitación a empleados — SERVICIO POR CAPACITACIÓN PROFESIONAL PARA 10 PERSONAS OPERADORES (RPAS) MODALIDAD DIURNA Y NOCTURNA. CON EL OBJETO DE DESARROLLAR LAS COMPETENCIAS NECESARIAS EN LO QUE RESPECTA A LA PLANIFICACIÓN, OPERACIÓN Y SUPERVISIÓN DE SISTEMAS DE AERONAVES PILOTADAS A DISTANCIA, SEGURIDAD OPERACIONAL Y LA APLICACIÓN DE LA NORMATIVA  AERONÁUTICA CHILENA, DE ACUERDO A TODO LO SOLICITADO EN ANEXO ADJUNTO, TRATAMIENTO TRIBUTARIO FACTURA EXENTA DE IVA."
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Aeronave no tripulada"
    ],
    "categorias": [
     "nucleo"
