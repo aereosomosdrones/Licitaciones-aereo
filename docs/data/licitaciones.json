@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-04T18:05:16+00:00",
- "proxima_actualizacion": "2026-11-04T19:05:16+00:00",
+ "generado": "2026-11-04T19:05:12+00:00",
+ "proxima_actualizacion": "2026-11-04T20:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-04T18:05:16+00:00",
+   "ultima_ok": "2026-11-04T19:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5106,
-   "detalles_consultados": 56,
+   "revisadas": 5064,
+   "detalles_consultados": 49,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-04T18:05:16+00:00",
+   "ultima_ok": "2026-11-04T19:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,44 +74,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:3265-58-LE26"
+ ],
  "items": [
-  {
-   "id": "CA:905-63-COT26",
-   "fuente": "compra_agil",
-   "codigo": "905-63-COT26",
-   "nombre": "El Servicio Agrícola y Ganadero de la Región de O’Higgins solicita la contratación de un curso de operación de drones para seis funcionarios, orientado a la obtención de la credencial de operador RPAS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-02T17:22:00-03:00",
-   "fecha_cierre": "2026-11-04T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-02 17:25",
-   "organismo": "SERVICIO AGRICOLA Y GANADERO",
-   "unidad": "SAG - Libertador Bernardo O'higgins",
-   "region": "Región del Libertador General Bernardo O´Higgins",
-   "monto": 900000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=905-63-COT26",
-   "descripcion": "Se adjunta anexo N°1 con detalle del servicio requerido. El proveedor debe especificar de forma clara y precisa el servicio ofrecido en su cotización, la cual debe adjuntarse; En caso contrario, el SAG estará facultado para declarar inadmisible la propuesta, por no ajustarse a lo solicitado.",
-   "direccion_entrega": "Las clases teóricas podrán dictarse de manera telemática y/o presencial en instalaciones del proveedor, considerando una jornada de lunes a viernes de 8:00 a 17:00 horas. En cuanto a las clases prácticas, estas deberán desarrollarse en la región de O´Higgins, en lugar que será determinado por el proveedor.",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Formación, capacitación y entrenamiento de personal — El Servicio Agrícola y Ganadero de la Región de O’Higgins requiere la contratación de un curso teórico-práctico sobre el uso y manejo de aeronaves no tripuladas (drones) para seis funcionarios. El curso tiene como objetivo que los participantes adquieran los conocimientos teóricos y prácticos necesarios para rendir el examen conducente a la obtención de la credencial de operador RPAS otorgada por la Dirección General de Aeronáutica Civil (DGAC).Se adjunta anexo con detalle del servicio requerido"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Aeronave no tripulada",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
-   "primera_deteccion": "2026-11-03T04:05:15+00:00"
-  },
   {
    "id": "CA:4650-43-COT26",
    "fuente": "compra_agil",
@@ -313,7 +279,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -345,7 +311,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
   },
@@ -376,7 +342,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T16:05:12+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
   },
@@ -408,7 +374,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T16:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -441,7 +407,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -579,7 +545,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -610,7 +576,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -726,7 +692,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T16:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -760,7 +726,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T16:05:12+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -794,7 +760,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T16:05:12+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -827,7 +793,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T17:05:20+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -859,7 +825,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T15:05:15+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -891,8 +857,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
-   "detalle_actualizado": "2026-11-04T13:05:11+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-04T19:05:12+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
   {
@@ -922,7 +888,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -954,7 +920,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -985,9 +951,50 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
+  },
+  {
+   "id": "LIC:3265-58-LE26",
+   "fuente": "licitacion",
+   "codigo": "3265-58-LE26",
+   "nombre": "Adquisición de Equipamiento Computacional",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-17T09:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3265-58-LE26",
+   "descripcion": "La Ilustre Municipalidad de Río Hurtado invita a los proveedores de Mercado Público a participar en la Presente Licitación Pública denominada “Adquisición de Equipamiento Computacional”, los cuales serán utilizados para mejorar la gestión interna y así entregar un mejor servicio a la Comunidad.",
+   "organismo": "I MUNICIPALIDAD DE RIO HURTADO",
+   "unidad": "Direccion de  Administracion y Finanzas",
+   "region": "Región de Coquimbo",
+   "comuna": "Río Hurtado",
+   "fecha_publicacion": "2026-11-04T15:08:00-03:00",
+   "fecha_adjudicacion": "2026-12-23T15:30:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Notebook, laptop o computador portátil excepto Tablet PC — Notebook 15”, Según especificaciones técnicas Adjuntas. ",
+    "Notebook, laptop o computador portátil excepto Tablet PC — All in one Pantalla Touch 23,8”, Según especificaciones técnicas Adjuntas.\t",
+    "Escáner — Scanner DS 530II, Según especificaciones técnicas Adjuntas.",
+    "Impresoras de chorro de tinta — Impresora SmartTank 750, Según especificaciones técnicas Adjuntas.\t",
+    "Aviones objetivo o de reconocimiento — DJI Air 3S Fly More Combo RC2, Según especificaciones técnicas Adjuntas.",
+    "Servidores — Servidor Dell PowerEdge R660xs Xeon Silver 4514Y 32GB DDR5 IDRAC9 Servidor 1U. Debe Incluir (2) Rieles Rackeables para Servidores, (2) Licencias Windows Server 2022, (2) Licencia SQL Server 2022. Según especificaciones técnicas Adjuntas.",
+    "Discos duros — Discos Duros SSD 1 TB Servidor Dell + Chasis Discos (Compatible con servidor). Según especificaciones técnicas Adjuntas.",
+    "Estaciones de base de fidelidad inalámbrica (WiFi) — Access Point Wifi 6 Linksys LAPAX3600CC.Según especificaciones técnicas Adjuntas.",
+    "Cajas de conmutadores — Switch Mikrotic CRS328-24-1000 POE.Según especificaciones técnicas Adjuntas.",
+    "Cajas de conmutadores — Switch Mikrotik CS610-8P-2S+IN. Según especificaciones técnicas Adjuntas.",
+    "Programas de desvío o conmutación — Router Mikrotik CRS112-8P. Según especificaciones técnicas Adjuntas."
+   ],
+   "terminos": [
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-04T19:05:12+00:00",
+   "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
   {
    "id": "LIC:2981-317-LP26",
@@ -1019,7 +1026,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -1051,7 +1058,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T16:05:12+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -1090,7 +1097,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T18:05:16+00:00",
+   "ultima_actualizacion": "2026-11-04T19:05:12+00:00",
    "detalle_actualizado": "2026-11-04T17:05:20+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -9609,6 +9616,42 @@
    "detalle_actualizado": "2026-11-04T18:05:16+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00",
    "cambio_estado": "2026-11-04T18:05:16+00:00"
+  },
+  {
+   "id": "CA:905-63-COT26",
+   "fuente": "compra_agil",
+   "codigo": "905-63-COT26",
+   "nombre": "El Servicio Agrícola y Ganadero de la Región de O’Higgins solicita la contratación de un curso de operación de drones para seis funcionarios, orientado a la obtención de la credencial de operador RPAS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-02T17:22:00-03:00",
+   "fecha_cierre": "2026-11-04T16:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-02 17:25",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "SAG - Libertador Bernardo O'higgins",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "monto": 900000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=905-63-COT26",
+   "descripcion": "Se adjunta anexo N°1 con detalle del servicio requerido. El proveedor debe especificar de forma clara y precisa el servicio ofrecido en su cotización, la cual debe adjuntarse; En caso contrario, el SAG estará facultado para declarar inadmisible la propuesta, por no ajustarse a lo solicitado.",
+   "direccion_entrega": "Las clases teóricas podrán dictarse de manera telemática y/o presencial en instalaciones del proveedor, considerando una jornada de lunes a viernes de 8:00 a 17:00 horas. En cuanto a las clases prácticas, estas deberán desarrollarse en la región de O´Higgins, en lugar que será determinado por el proveedor.",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Formación, capacitación y entrenamiento de personal — El Servicio Agrícola y Ganadero de la Región de O’Higgins requiere la contratación de un curso teórico-práctico sobre el uso y manejo de aeronaves no tripuladas (drones) para seis funcionarios. El curso tiene como objetivo que los participantes adquieran los conocimientos teóricos y prácticos necesarios para rendir el examen conducente a la obtención de la credencial de operador RPAS otorgada por la Dirección General de Aeronáutica Civil (DGAC).Se adjunta anexo con detalle del servicio requerido"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Aeronave no tripulada",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "primera_deteccion": "2026-11-03T04:05:15+00:00"
   }
  ]
 }
