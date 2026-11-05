@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-05T21:05:10+00:00",
- "proxima_actualizacion": "2026-11-05T22:05:10+00:00",
+ "generado": "2026-11-05T22:05:11+00:00",
+ "proxima_actualizacion": "2026-11-05T23:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T21:05:10+00:00",
+   "ultima_ok": "2026-11-05T22:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5188,
-   "detalles_consultados": 46,
+   "revisadas": 5192,
+   "detalles_consultados": 23,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T21:05:10+00:00",
+   "ultima_ok": "2026-11-05T22:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -77,38 +77,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "LIC:3960-76-L126",
-   "fuente": "licitacion",
-   "codigo": "3960-76-L126",
-   "nombre": "ADQUISICIÓN DE DRON INDUSTRIAL",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-05T19:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3960-76-L126",
-   "descripcion": "La Ilustre Municipalidad de Hualañé requiere realizar la ADQUISICIÓN DE DRON INDUSTRIAL MATRICE 4T, EQUIVALENTE O SUPERIOR, destinado a la oficina de Administración Municipal.",
-   "organismo": "I MUNICIPALIDAD DE HUALANE",
-   "unidad": "Finanzas Municipales",
-   "region": "Región del Maule",
-   "comuna": "Hualañé",
-   "fecha_publicacion": "2026-10-29T16:23:04-03:00",
-   "fecha_adjudicacion": "2026-11-09T18:00:00-03:00",
-   "moneda": "CLP",
-   "tipo": "L1",
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — La Ilustre Municipalidad de Hualañé requiere realizar la ADQUISICIÓN DE DRON INDUSTRIAL MATRICE 4T, EQUIVALENTE O SUPERIOR, destinado a la oficina de Administración Municipal."
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
-   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
-   "primera_deteccion": "2026-10-29T20:05:10+00:00"
-  },
-  {
    "id": "LIC:2704-86-LE26",
    "fuente": "licitacion",
    "codigo": "2704-86-LE26",
@@ -137,7 +105,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -308,7 +276,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -339,7 +307,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -569,7 +537,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -603,7 +571,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -637,7 +605,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -702,7 +670,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00"
   },
@@ -735,7 +703,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -767,7 +735,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -799,8 +767,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
-   "detalle_actualizado": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
+   "detalle_actualizado": "2026-11-05T22:05:11+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
   {
@@ -831,8 +799,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
-   "detalle_actualizado": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
+   "detalle_actualizado": "2026-11-05T22:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
   {
@@ -862,7 +830,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -894,7 +862,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -925,7 +893,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -966,8 +934,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
-   "detalle_actualizado": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
+   "detalle_actualizado": "2026-11-05T22:05:11+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
   {
@@ -1000,7 +968,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -1033,7 +1001,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -1065,7 +1033,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -1104,7 +1072,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -1136,8 +1104,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
-   "detalle_actualizado": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T22:05:11+00:00",
+   "detalle_actualizado": "2026-11-05T22:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
   {
@@ -10056,6 +10024,38 @@
    "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "LIC:3960-76-L126",
+   "fuente": "licitacion",
+   "codigo": "3960-76-L126",
+   "nombre": "ADQUISICIÓN DE DRON INDUSTRIAL",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-05T19:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3960-76-L126",
+   "descripcion": "La Ilustre Municipalidad de Hualañé requiere realizar la ADQUISICIÓN DE DRON INDUSTRIAL MATRICE 4T, EQUIVALENTE O SUPERIOR, destinado a la oficina de Administración Municipal.",
+   "organismo": "I MUNICIPALIDAD DE HUALANE",
+   "unidad": "Finanzas Municipales",
+   "region": "Región del Maule",
+   "comuna": "Hualañé",
+   "fecha_publicacion": "2026-10-29T16:23:04-03:00",
+   "fecha_adjudicacion": "2026-11-09T18:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — La Ilustre Municipalidad de Hualañé requiere realizar la ADQUISICIÓN DE DRON INDUSTRIAL MATRICE 4T, EQUIVALENTE O SUPERIOR, destinado a la oficina de Administración Municipal."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
+   "primera_deteccion": "2026-10-29T20:05:10+00:00"
   }
  ]
 }
