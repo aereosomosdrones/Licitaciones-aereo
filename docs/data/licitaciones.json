@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-05T20:05:11+00:00",
- "proxima_actualizacion": "2026-11-05T21:05:11+00:00",
+ "generado": "2026-11-05T21:05:10+00:00",
+ "proxima_actualizacion": "2026-11-05T22:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T20:05:11+00:00",
+   "ultima_ok": "2026-11-05T21:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5171,
-   "detalles_consultados": 101,
+   "revisadas": 5188,
+   "detalles_consultados": 46,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T20:05:11+00:00",
+   "ultima_ok": "2026-11-05T21:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,9 +74,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "LIC:1232565-45-L126"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "items": [
   {
    "id": "LIC:3960-76-L126",
@@ -106,7 +104,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -139,7 +137,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -310,7 +308,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -341,7 +339,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -571,7 +569,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -605,7 +603,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -639,7 +637,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -704,7 +702,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00"
   },
@@ -737,7 +735,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -769,7 +767,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -801,7 +799,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -833,7 +831,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -864,7 +862,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -896,7 +894,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -927,7 +925,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -968,7 +966,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -1002,7 +1000,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -1035,7 +1033,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -1067,7 +1065,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -1106,7 +1104,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T20:05:11+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -1138,7 +1136,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
    "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -9797,7 +9795,7 @@
    "codigo": "3553-38-LE26",
    "nombre": "Adq. 10 Soluciones Integrales equipos Dron",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_cierre": "2026-11-05T11:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3553-38-LE26",
    "descripcion": "Adquisición de diez 10 soluciones integrales de equipos Dron Autel Evo II PRO 6K V3 o equivalente",
@@ -9820,8 +9818,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T13:05:13+00:00",
-   "detalle_actualizado": "2026-11-05T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T21:05:10+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
   {
@@ -9829,8 +9827,8 @@
    "fuente": "licitacion",
    "codigo": "2793-131-LE26",
    "nombre": "“ADQUISICIÓN E  IMPLEMENTACIÓN DE SISTEMA DE DRONE",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado": "desierta",
+   "estado_glosa": "Desierta",
    "fecha_cierre": "2026-11-05T11:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2793-131-LE26",
    "descripcion": "La presente propuesta tiene por objeto la contratación del servicio de suministro, implementación, puesta en marcha y operación de un sistema RPAS compuesto por dos 2 aeronaves, destinado a la Dirección de Seguridad Pública de la Municipalidad de Huechuraba, de conformidad con las Bases Administrativas, Especificaciones Técnicas y demás antecedentes de la licitación.\r\nEl servicio contempla una primera etapa de implementación, que considera el suministro, configuración y puesta en marcha del equipamiento, capacitación, inducción y certificación del equipo de seguridad comunal, además del acompañamiento técnico y administrativo para la preparación y obtención de permisos, autorizaciones y documentación requerida para la realización de vuelos diurnos y nocturnos, conforme a la normativa vigente.\r\nLa segunda etapa corresponderá a la operación del sistema por un período de doce 12 meses, incluyendo soporte técnico, mantención preventiva y correctiva, garantía y las actividades necesarias para asegurar su continuidad y correcto funcionamiento. La segunda aeronave tendrá carácter de respaldo. El servicio comprenderá todos los recursos, equipos, personal, seguros, certificaciones, permisos, documentación y demás actividades administrativas y técnicas necesarias para la correcta y oportuna ejecución del contrato.",
@@ -9852,9 +9850,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T13:05:13+00:00",
-   "detalle_actualizado": "2026-11-05T13:05:13+00:00",
-   "primera_deteccion": "2026-10-22T21:05:10+00:00"
+   "ultima_actualizacion": "2026-11-05T21:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T21:05:10+00:00",
+   "primera_deteccion": "2026-10-22T21:05:10+00:00",
+   "cambio_estado": "2026-11-05T21:05:10+00:00"
   },
   {
    "id": "CA:1422039-312-COT26",
