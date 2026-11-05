@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-05T15:05:11+00:00",
- "proxima_actualizacion": "2026-11-05T16:05:11+00:00",
+ "generado": "2026-11-05T18:39:13+00:00",
+ "proxima_actualizacion": "2026-11-05T19:39:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T15:05:11+00:00",
+   "ultima_ok": "2026-11-05T18:39:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5189,
-   "detalles_consultados": 57,
-   "pendientes_por_revisar": 0
+   "revisadas": 5141,
+   "detalles_consultados": 123,
+   "pendientes_por_revisar": 21
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T15:05:11+00:00",
+   "ultima_ok": "2026-11-05T18:39:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 0,
-   "detalles_consultados": 0,
+   "revisadas": 3,
+   "detalles_consultados": 3,
    "modo": "incremental"
   }
  },
@@ -75,78 +75,9 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "LIC:883-38-LP26",
-  "LIC:2963-41-LP26"
+  "LIC:2981-331-LE26"
  ],
  "items": [
-  {
-   "id": "CA:1137833-207-COT26",
-   "fuente": "compra_agil",
-   "codigo": "1137833-207-COT26",
-   "nombre": "Servicio de Drone, para transmisión de Teleton  Rancagua, Plaza los héroes",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-04T13:53:00-03:00",
-   "fecha_cierre": "2026-11-05T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-04 13:55",
-   "organismo": "CORPORACION DE LA CULTURA Y LAS ARTES DE LA ILUSTRE MUNICIPALIDAD DE R",
-   "unidad": "Administración y Finanzas",
-   "region": "Región del Libertador General Bernardo O´Higgins",
-   "monto": 714000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1137833-207-COT26",
-   "descripcion": "Se requiere el servicio de Drone para cctv para el día viernes  06-11, dese las 08:30 hasta las 14:30 y día sábado desde las 10:30 hasta las 21:00horas para transmisión teletón Rancagua Plaza los Héroes.",
-   "direccion_entrega": "Plaza de los Héroes  Rancagua",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — Se solicita Servicio de arriendo de Dhone con operador, certificado por DGAC, Seguro de daños a terceros y paracaidas. Equipo a Utilizar: Mavic 3 Pro con RC PRO+ Equipo FPV Día viernes 06 desde las 08:30-14:30 horas y sábado 07 desde las 10:30 hasta las 21:30 en Plaza Los Héroes de Rancagua."
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
-   "primera_deteccion": "2026-11-05T06:05:10+00:00"
-  },
-  {
-   "id": "CA:5485-922-COT26",
-   "fuente": "compra_agil",
-   "codigo": "5485-922-COT26",
-   "nombre": "COMPRA DE DRON Y CÁMARA 4K (PROVEEDORES ADJUNTAR COTIZACIONES Y IMAGENES DE PRODUCTOS), SE ADJUNTA PDF DE LO SOLICITADO.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-04T15:39:00-03:00",
-   "fecha_cierre": "2026-11-05T15:40:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-04 15:40",
-   "organismo": "UNIVERSIDAD DE CHILE",
-   "unidad": "FAC.CS.AGRONOMICAS Dirección Económ. y Adm",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 700000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5485-922-COT26",
-   "descripcion": "1 DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo.\n1 CÁMARA 4k con accesorios.\n\nSE ADJUNTA PDF DE LAS CARACTERISTICAS DE AMBOS PRODUCTOS.",
-   "direccion_entrega": "Av. Santa Rosa 11315, comuna La Pintana. Universidad de Chile.",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo. (se adjunta PDF de características técnicas)\n",
-    "Cámaras digitales — CÁMARA 4k con accesorios (se adjunta PDF de características técnicas)."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
-   "primera_deteccion": "2026-11-05T06:05:10+00:00"
-  },
   {
    "id": "CA:2422-713-COT26",
    "fuente": "compra_agil",
@@ -243,8 +174,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -276,7 +207,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -447,7 +378,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -478,7 +409,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -708,8 +639,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -742,8 +673,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
   {
@@ -776,8 +707,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
   {
@@ -842,7 +773,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -874,8 +805,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-05T10:41:35+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
   {
@@ -906,7 +837,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -938,7 +869,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -969,7 +900,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -1001,7 +932,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -1032,7 +963,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -1073,7 +1004,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -1107,9 +1038,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
+  },
+  {
+   "id": "LIC:2981-331-LE26",
+   "fuente": "licitacion",
+   "codigo": "2981-331-LE26",
+   "nombre": "01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-17T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-331-LE26",
+   "descripcion": "SE REQUIERE LA ADQUISICIÓN DE 01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR, SEGÚN RESOLEX ADJUNTA.",
+   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+   "unidad": "DEPARTAMENTO ADMINISTRATIVO",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-11-05T14:54:03-03:00",
+   "fecha_adjudicacion": "2026-11-26T17:00:00-03:00",
+   "monto": 35000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — SE REQUIERE LA ADQUISICIÓN DE 01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR, SEGÚN RESOLEX ADJUNTA."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
+   "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
   {
    "id": "LIC:411-52-LE26",
@@ -1139,8 +1103,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
   {
@@ -1178,7 +1142,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -1210,7 +1174,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
    "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -9139,11 +9103,11 @@
    "fuente": "compra_agil",
    "codigo": "511505-543-COT26",
    "nombre": "DEPARTAMENTO DE GEOLOGIA",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-28T15:39:00-03:00",
    "fecha_cierre": "2026-11-02T08:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-02 08:05",
+   "fecha_ultimo_cambio": "2026-11-05 15:40",
    "organismo": "UNIVERSIDAD DE ATACAMA",
    "unidad": "FACULTAD DE INGENIERIA (1)",
    "region": "Región de Atacama ",
@@ -9166,9 +9130,10 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
-   "primera_deteccion": "2026-10-29T02:21:05+00:00"
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
+   "primera_deteccion": "2026-10-29T02:21:05+00:00",
+   "cambio_estado": "2026-11-05T18:39:13+00:00"
   },
   {
    "id": "CA:3885-350-COT26",
@@ -9407,8 +9372,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-05T12:05:14+00:00",
-   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -9439,8 +9404,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-05T12:05:14+00:00",
-   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -9967,7 +9932,7 @@
    "codigo": "4192-68-LE26",
    "nombre": "ADQUISICIÓN DE UN DRON PROFESIONAL",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_cierre": "2026-11-05T12:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4192-68-LE26",
    "descripcion": "Las presentes bases tienen por objetivo determinar y definir las condiciones generales que se deberán tener presente en la licitación para “ADQUISICIÓN DE UN DRON PROFESIONAL DE ALTA PRECISIÓN Y EFICIENCIA, MÁS ACCESORIOS, PARA ESTUDIOS DE CARTOGRAFÍA Y LEVANTAMIENTOS TOPOGRÁFICOS Y GEOESPACIALES”, para la Ilustre Municipalidad de Caldera.\r\n\r\nLa presente licitación, y los derechos y obligaciones de las partes se regularán por las presentes bases administrativas, las bases técnicas, las aclaraciones y la respectiva oferta. Supletoriamente se aplicará la Ley de Compras Públicas N°19.886 y su respectivo Reglamento.",
@@ -9988,9 +9953,78 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
-   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
+  },
+  {
+   "id": "CA:1137833-207-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1137833-207-COT26",
+   "nombre": "Servicio de Drone, para transmisión de Teleton  Rancagua, Plaza los héroes",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-04T13:53:00-03:00",
+   "fecha_cierre": "2026-11-05T14:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 13:55",
+   "organismo": "CORPORACION DE LA CULTURA Y LAS ARTES DE LA ILUSTRE MUNICIPALIDAD DE R",
+   "unidad": "Administración y Finanzas",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "monto": 714000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1137833-207-COT26",
+   "descripcion": "Se requiere el servicio de Drone para cctv para el día viernes  06-11, dese las 08:30 hasta las 14:30 y día sábado desde las 10:30 hasta las 21:00horas para transmisión teletón Rancagua Plaza los Héroes.",
+   "direccion_entrega": "Plaza de los Héroes  Rancagua",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Se solicita Servicio de arriendo de Dhone con operador, certificado por DGAC, Seguro de daños a terceros y paracaidas. Equipo a Utilizar: Mavic 3 Pro con RC PRO+ Equipo FPV Día viernes 06 desde las 08:30-14:30 horas y sábado 07 desde las 10:30 hasta las 21:30 en Plaza Los Héroes de Rancagua."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "CA:5485-922-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5485-922-COT26",
+   "nombre": "COMPRA DE DRON Y CÁMARA 4K (PROVEEDORES ADJUNTAR COTIZACIONES Y IMAGENES DE PRODUCTOS), SE ADJUNTA PDF DE LO SOLICITADO.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-04T15:39:00-03:00",
+   "fecha_cierre": "2026-11-05T15:40:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-05 15:45",
+   "organismo": "UNIVERSIDAD DE CHILE",
+   "unidad": "FAC.CS.AGRONOMICAS Dirección Económ. y Adm",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 700000.0,
+   "moneda": "CLP",
+   "ofertas": 4,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5485-922-COT26",
+   "descripcion": "1 DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo.\n1 CÁMARA 4k con accesorios.\n\nSE ADJUNTA PDF DE LAS CARACTERISTICAS DE AMBOS PRODUCTOS.",
+   "direccion_entrega": "Av. Santa Rosa 11315, comuna La Pintana. Universidad de Chile.",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo. (se adjunta PDF de características técnicas)\n",
+    "Cámaras digitales — CÁMARA 4k con accesorios (se adjunta PDF de características técnicas)."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T18:39:13+00:00",
+   "detalle_actualizado": "2026-11-05T18:39:13+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00",
+   "cambio_estado": "2026-11-05T18:39:13+00:00"
   }
  ]
 }
