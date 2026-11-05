@@ -1,27 +1,27 @@
 {
- "generado": "2026-11-05T05:05:10+00:00",
- "proxima_actualizacion": "2026-11-05T06:05:10+00:00",
+ "generado": "2026-11-05T06:05:10+00:00",
+ "proxima_actualizacion": "2026-11-05T07:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T05:05:10+00:00",
+   "ultima_ok": "2026-11-05T06:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 5139,
-   "detalles_consultados": 0,
+   "detalles_consultados": 8,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T05:05:10+00:00",
+   "ultima_ok": "2026-11-05T06:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 0,
-   "detalles_consultados": 0,
-   "modo": "incremental"
+   "revisadas": 181,
+   "detalles_consultados": 113,
+   "modo": "completo"
   }
  },
  "terminos": [
@@ -74,7 +74,16 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:2788-602-COT26",
+  "CA:3658-552-COT26",
+  "CA:5485-922-COT26",
+  "CA:3325-37-COT26",
+  "CA:1137833-207-COT26",
+  "CA:1422039-312-COT26",
+  "CA:1596-96-COT26",
+  "CA:2735-1396-COT26"
+ ],
  "items": [
   {
    "id": "CA:4650-43-COT26",
@@ -106,8 +115,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-30T03:05:10+00:00"
   },
   {
@@ -140,8 +149,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00"
   },
   {
@@ -175,8 +184,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00"
   },
   {
@@ -210,8 +219,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00"
   },
   {
@@ -244,8 +253,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00"
   },
   {
@@ -277,7 +286,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T01:05:10+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00"
   },
@@ -309,9 +318,43 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T01:05:10+00:00",
    "primera_deteccion": "2026-10-22T21:05:10+00:00"
+  },
+  {
+   "id": "CA:1422039-312-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1422039-312-COT26",
+   "nombre": "SC061 SERVICIO DE REGISTRO AUDIOVISUAL FESTIVAL GASTRONÓMICO MAR Y VINO 2026",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-04T10:48:00-03:00",
+   "fecha_cierre": "2026-11-05T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 10:50",
+   "organismo": "CORPORACION DE DESARROLLO TERRITORIAL Y TURISMO DE LA REGION METROPOLITANA",
+   "unidad": "CORPORACION DE DESARROLLO TERRITORIAL Y TURISMO DE LA REGION METROPOLI",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1200000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1422039-312-COT26",
+   "descripcion": "La Corporación de Desarrollo Territorial y Turismo de la Región Metropolitana requiere contratar un servicio de registro audiovisual (fotografía, video y tomas de drone) para el Festival Gastronómico Mar y Vino 2026, a realizarse los días 14 y 15 de noviembre de 2026, de 11:00 a 19:00 horas, en el Mercado Central, comuna de Santiago. Las especificaciones técnicas, criterios de evaluación y condiciones de la contratación se detallan en los términos de referencia adjuntos. Se invita a revisar los",
+   "direccion_entrega": "Mercado Central",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Producción de vídeo — Servicio de registro audiovisual del Festival Gastronómico Mar y Vino 2026, 14 y 15 de noviembre, 11:00 a 19:00 horas, Mercado Central. Incluye fotógrafo, camarógrafo y operador de drone ambos días; mínimo 200 fotografías editadas por día; 2 reels de 45 s (uno por día, entrega el mismo día); 1 video resumen de 120 s en formato horizontal y reel; y entrega de todo el material en bruto. Detalle y condiciones en los términos de referencia adjuntos."
+   ],
+   "terminos": [
+    "Dron",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "LIC:4192-68-LE26",
@@ -340,9 +383,145 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
-   "detalle_actualizado": "2026-11-04T23:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00"
+  },
+  {
+   "id": "CA:1137833-207-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1137833-207-COT26",
+   "nombre": "Servicio de Drone, para transmisión de Teleton  Rancagua, Plaza los héroes",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-04T13:53:00-03:00",
+   "fecha_cierre": "2026-11-05T14:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 13:55",
+   "organismo": "CORPORACION DE LA CULTURA Y LAS ARTES DE LA ILUSTRE MUNICIPALIDAD DE R",
+   "unidad": "Administración y Finanzas",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "monto": 714000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1137833-207-COT26",
+   "descripcion": "Se requiere el servicio de Drone para cctv para el día viernes  06-11, dese las 08:30 hasta las 14:30 y día sábado desde las 10:30 hasta las 21:00horas para transmisión teletón Rancagua Plaza los Héroes.",
+   "direccion_entrega": "Plaza de los Héroes  Rancagua",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Se solicita Servicio de arriendo de Dhone con operador, certificado por DGAC, Seguro de daños a terceros y paracaidas. Equipo a Utilizar: Mavic 3 Pro con RC PRO+ Equipo FPV Día viernes 06 desde las 08:30-14:30 horas y sábado 07 desde las 10:30 hasta las 21:30 en Plaza Los Héroes de Rancagua."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "CA:5485-922-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5485-922-COT26",
+   "nombre": "COMPRA DE DRON Y CÁMARA 4K (PROVEEDORES ADJUNTAR COTIZACIONES Y IMAGENES DE PRODUCTOS), SE ADJUNTA PDF DE LO SOLICITADO.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-04T15:39:00-03:00",
+   "fecha_cierre": "2026-11-05T15:40:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 15:40",
+   "organismo": "UNIVERSIDAD DE CHILE",
+   "unidad": "FAC.CS.AGRONOMICAS Dirección Económ. y Adm",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 700000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5485-922-COT26",
+   "descripcion": "1 DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo.\n1 CÁMARA 4k con accesorios.\n\nSE ADJUNTA PDF DE LAS CARACTERISTICAS DE AMBOS PRODUCTOS.",
+   "direccion_entrega": "Av. Santa Rosa 11315, comuna La Pintana. Universidad de Chile.",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo. (se adjunta PDF de características técnicas)\n",
+    "Cámaras digitales — CÁMARA 4k con accesorios (se adjunta PDF de características técnicas)."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "CA:2422-713-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2422-713-COT26",
+   "nombre": "S.A. 946147 MANTENCION Y REPARACION DRON MATRICE 30T",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-02T13:38:00-03:00",
+   "fecha_cierre": "2026-11-05T16:35:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 12:15",
+   "organismo": "I MUNICIPALIDAD DE PUENTE ALTO",
+   "unidad": "I MUNICIPALIDAD DE PUENTE ALTO",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1000000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2422-713-COT26",
+   "descripcion": "NECESIDAD DE ADMINISTRACION MUNICIPAL.",
+   "direccion_entrega": "AVENIDA CONCHA Y TORO 1691, PUENTE ALTO.",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Módulos de servicio para aeronaves — SERVICIO DE MANTENCION Y REPARACION PARA EQUIPO DRON MATRICE 30T DE ACUERDO A LO INDICADO EN ANEXO ADJUNTO. OFERENTES DEBERAN ADJUNTAR PROPUESTA TECNICAS DEL SERVICIO A OFERTAR Y CERTIFICADO SOLICITADO. CASO CONTRARIO OFERTA NO SERA CONSIDERADA."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-03T04:05:15+00:00",
+   "cambio_estado": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "CA:2788-602-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2788-602-COT26",
+   "nombre": "BATERIAS DRON - OF. DE EMERGENCIA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-04T16:59:00-03:00",
+   "fecha_cierre": "2026-11-05T17:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 17:00",
+   "organismo": "I MUNICIPALIDAD DE PAINE",
+   "unidad": "DEPARTAMENTO DE ADQUISICIONES",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1249500.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2788-602-COT26",
+   "descripcion": "ADQUISICION DE BATERIAS PARA DRON Y CARGADOR DE BATERIAS. SC. N° 1009, 04.11.2026-EMERGENCIAS. ADJUNTAR COTIZACION FORMAL Y DETALLADA, EN CASO DE QUE EXISTA COBRO POR DESPACHO, INCLUIR EN EL VALOR DE LOS PRODUCTOS.",
+   "direccion_entrega": "AVDA. 18 DE SEPTIEMBRE N° 35",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Baterías recargables — BATERIAS Y CARGADOR DE BATERIAS, SEGUN TTRR. Y EETT."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "LIC:3960-76-L126",
@@ -372,8 +551,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
-   "detalle_actualizado": "2026-11-04T23:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -405,7 +584,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T01:05:10+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -440,10 +619,43 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00"
+  },
+  {
+   "id": "CA:3658-552-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3658-552-COT26",
+   "nombre": "SERVICIO DE CAPACITACION PARA FUNCIONARIO MUNICIPAL, EN OPERACION DE DRON, SE ADJUNTAN BASES TECNICAS DE LA CAPACITACION SOLICITADA, DISPONIBILIDAD PARA LA EJECUCION DEL CURSO MES DE NOVIEMBRE 2026.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-04T16:40:00-03:00",
+   "fecha_cierre": "2026-11-06T10:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 16:45",
+   "organismo": "I MUNICIPALIDAD DE CALERA DE TANGO",
+   "unidad": "Adquisiciones",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 210000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3658-552-COT26",
+   "descripcion": "SERVICIO DE CAPACITACION PARA FUNCIONARIO MUNICIPAL, EN OPERACION DE DRON, SE ADJUNTAN BASES TECNICAS DE LA CAPACITACION SOLICITADA, DISPONIBILIDAD PARA LA EJECUCION DEL CURSO MES DE NOVIEMBRE 2026.",
+   "direccion_entrega": "AVDA CALERA DE TANGO 345, CALERA DE TANGO",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Formación, capacitación y entrenamiento de personal — CAPACITACION PARA FUNCIONARIO MUNICIPAL, EN OPERACION DE DRON, SE ADJUNTAN BASES TECNICAS DE LA CAPACITACION SOLICITADA, DISPONIBILIDAD PARA LA EJECUCION DEL CURSO MES DE NOVIEMBRE 2026."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "CA:5642-53-COT26",
@@ -474,8 +686,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00"
   },
@@ -509,8 +721,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-30T03:05:10+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00"
   },
@@ -543,7 +755,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T01:05:10+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -574,7 +786,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T01:05:10+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -607,8 +819,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00"
   },
   {
@@ -653,10 +865,124 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00"
+  },
+  {
+   "id": "CA:2852-278-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2852-278-COT26",
+   "nombre": "Adquirir equipamiento operativo, de seguridad, comunicaciones, iluminación y apoyo técnico para el Departamento de Gestión del Riesgo de Desastres",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-10-30T07:54:00-03:00",
+   "fecha_cierre": "2026-11-08T15:24:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 15:20",
+   "organismo": "I MUNICIPALIDAD DE PUERTO VARAS",
+   "unidad": "Adquisiciones Municipalidad",
+   "region": "Región de los Lagos ",
+   "monto": 7100000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2852-278-COT26",
+   "descripcion": "Adquirir equipamiento operativo, de seguridad, comunicaciones, iluminación y apoyo técnico destinado a fortalecer las capacidades de respuesta, coordinación y despliegue del Departamento de Gestión del Riesgo y Desastres, permitiendo mejorar la preparación, atención y respuesta ante emergencias, desastres y otras situaciones que requieran la intervención de equipos municipales en terreno.\nEL OFERENTE DEBERÁ REVISAR DOCUMENTO ADJUNTO.",
+   "direccion_entrega": "Colón N° 251, esquina Del Huemul, Dirección de Seguridad Pública, Puerto Varas.",
+   "plazo_entrega_dias": 20,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Helipuerto RPA / Dron\nCompatible con DJI Flip, Mavic 3, Matrice 4T, DJI Avata, DJI FPV y drones pequeños\nSuperficie con peso integrado para mayor       estabilidad, medidas de (65x65)\nMaterial impermeable y resistente al desgaste\nFormato plegable y fácil de transportar\nDiseño doble cara para mejor visibilidad",
+    "Paneles de control eléctrico para generadores — Tablero Sistema Comando de Incidentes\nEstuche de polímero negro resistente a la intemperie\nRuedas en línea de alta resistencia.\nVálvula de aire de ajuste automático que no deje entrar agua\nPatas de acero con recubrimiento en polvo, plegables y con bloqueo permanentemente fijadas.\nSuperficie de almacenamiento debajo de la hoja de trabajo inferior.\nÁreas tácticas separadas para la gestión",
+    "Linternas de queroseno, propano o butano — Linterna Portátil Manual\nLinterna de Ángulo recto\nPotencia lumínica: Hasta 175 lúmenes en modo alto y 60 lúmenes en modo bajo.\nAlcance del haz: Hasta 400 metros en potencia máxima, como mínimo\nAutonomía: Aproximadamente 4 horas en modo alto y 15 horas en modo bajo, como mínimo.\nResistencia: Certificación IPX4",
+    "Linternas de queroseno, propano o butano — Linterna Portátil Morral\n\n2 niveles de iluminación: Alto: 4.700 candelas (intensidad máxima del haz), 1500 lúmenes, hasta 8 horas, mínimo\nBajo: 1.000 candelas (intensidad máxima del haz), 350 lúmenes, hasta 20 horas. mínimo\nAro de la óptica y empuñadura revestidos de caucho de protección contra impactos.\nClasificación IPX4 para funcionamiento resistente a la intemperie.",
+    "Sistemas de control de iluminación — Torres de Iluminación Portátiles + Baterías de Reemplazo\nTorre iluminación inalámbrica\n6.000 lúmenes de luz multidireccional.\n3 Cabezales de luz pivotantes independientes.\nCabezal de iluminación extensible y multidireccional\n2,1 Mts de Altura máxima extendida.\nBolso de Transporte",
+    "Aparatos de observación de superficie del viento — Anemómetro\nDigital \nPantalla LCD retroiluminada\nMedición temperatura del aire\nApagado automático\nIndicador de batería baja\nRetención de Datos\nFunción Máx./Min/AVG\nMedición humedad del aire",
+    "Estuches o bolsas de primeros auxilios para los servicios médicos de urgencias o accesorios — Botiquín Aeronáutico DGAC\nGasas de 15 x 15 (5 unidades)\nAntiséptico (alcohol, bialcohol o clorhexidina)\nTela/cinta Adhesiva o equivalente\nTijera 10 cm\nApósito 20 x 10 (2 unidades)\nSuero fisiológico 20 ml (5 ampollas)\nCaja transportadora",
+    "Equipo básico de radio — Radios UHF\nRangos de frecuencia:\nVHF: 136–174 MHz como mínimo\nUHF: 400–520 MHz como mínimo\nResistencia: Mínimo IP67 o superior\nPotencia de transmisión 5 W nominales o superior\nCanales 128 Programables\nProgramable mediante computador\nPantalla LCD Retroiluminada\nBatería Recargable de ion-litio",
+    "Delimitadores o conos de tráfico — Conos\nBase de Polipropileno\nCuerpo de tela Reflectante\nVisible desde todas las direcciones hasta 1000metros\nAltura máxima 40cm\nPlegable",
+    "Extintores — Extintor Portátil Seguridad CO2\nPotencial de Extinción 2-B:C\nTemperatura Limite de Operación 40°C / 49°C\nPresión de Trabajo 174 Bar\nAgente de extinción: dióxido de carbono (CO2)\nConstrucción de válvula totalmente metálica\nContenido nominal: 2 Kg.\nPARA MAS DETALLES DE ESTA COMPRA DEBE REVISAR DOCUMENTO ADJUNTO.",
+    "Equipo de paracaídas — Paracaídas para Dron\nModelos compatibles: DJI Matrice 4T, DJI Mavic 3\nVelocidad de caída: 5,5 m/s\nTiempo de resistencia: 4,5 h\nDistancia de reacción: 8 m\nOperación hasta 4.000 m de altitud.\nEnergía cinética de aterrizaje: 5,1198 J\nActivación automática con sensores APS 3.0."
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-10-31T04:05:10+00:00",
+   "cambio_estado": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "CA:2735-1396-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2735-1396-COT26",
+   "nombre": "CURSO DE ESPECIALIZACIÓN EN OPERACIONES DE VUELO NOCTURNO CON AERONAVES PILOTADAS A DISTANCIA (RPAS)",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-04T15:28:00-03:00",
+   "fecha_cierre": "2026-11-09T09:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 15:30",
+   "organismo": "I MUNICIPALIDAD LO BARNECHEA",
+   "unidad": "Municipalidad de lo Barnechea - Adquisiciones - Consistorial",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 800000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2735-1396-COT26",
+   "descripcion": "LA DIRECCIÓN DE ASESORIA URBANA Y ESPACIO PÚBLICO, REQUIERE CURSO DE ESPECIALIZACIÓN EN OPERACIONES DE VUELO NOCTURNO CON AERONAVES PILOTADAS A DISTANCIA (RPAS) PARA 3 FUNCIONARIOS MUNICIPALES QUE CUENTAN CON CREDENCIAL DGAC DE OPERADOR RPA VIGENTE. SE TRATA DE UNA ESPECIALIZACIÓN POSTERIOR A LA CREDENCIAL, ORIENTADA A HABILITAR LA OPERACIÓN NOCTURNA CONFORME A LA NORMATIVA DE LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL (DGAC). OFERTAS DEBEN CUMPLIR CON ESPECIFICACIONES EN ARCHIVO ADJUNTO.",
+   "direccion_entrega": "El Rodeo 12.777",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Simuladores de vuelo para aviones — curso de especialización en operaciones de vuelo nocturno con aeronaves pilotadas a distancia \n(RPAS) para 3 funcionarios municipales que cuentan con credencial DGAC de operador RPA vigente. Se trata \nde una especialización posterior a la credencial, orientada a habilitar la operación nocturna conforme a la \nnormativa de la Dirección General de Aeronáutica Civil (DGAC), ampliando la capacidad de levantamiento, \ninspección y catastro de espacio público en horario nocturno. . EETT. EN ADJUNTO.\n\n\n"
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Aeronave no tripulada",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "CA:1596-96-COT26",
+   "fuente": "compra_agil",
+   "codigo": "1596-96-COT26",
+   "nombre": "CONTRATACIÓN DE SERVICIO DE CAPACITACIÓN EN OPERACIÓN DE RPAS, INSPECCIÓN Y SEGUIMIENTO DE OBRAS Y FOTOGRAMETRÍA PARA EL GOBIERNO REGIONAL DEL MAULE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-04T18:40:00-03:00",
+   "fecha_cierre": "2026-11-09T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 18:50",
+   "organismo": "GOBIERNO REGIONAL VII REGION",
+   "unidad": "Gobierno Regional del Maule",
+   "region": "Región del Maule ",
+   "monto": 2000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1596-96-COT26",
+   "descripcion": "El servicio deberá comprender preparación y acompañamiento para los trámites y evaluaciones que correspondan ante la Dirección General de Aeronáutica Civil (DGAC), formación práctica individual supervisada y herramientas para obtener registros visuales, documentar avances de obras y realizar levantamientos fotogramétricos básicos. La obtención de una credencial o autorización depende exclusivamente de la autoridad aeronáutica y del cumplimiento de sus requisitos por cada postulante.",
+   "direccion_entrega": "1 NORTE #711, TALCA.",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Capacitación a empleados — CONTRATACIÓN DE SERVICIO DE CAPACITACIÓN EN OPERACIÓN DE RPAS, INSPECCIÓN Y SEGUIMIENTO DE OBRAS Y FOTOGRAMETRÍA - SEGÚN ESPECIFICACIONES TÉCNICAS ADJUNTAS "
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "LIC:650-60-CO26",
@@ -690,8 +1016,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
-   "detalle_actualizado": "2026-11-04T23:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
   {
@@ -724,8 +1050,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
-   "detalle_actualizado": "2026-11-04T23:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
   {
@@ -758,9 +1084,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
-   "detalle_actualizado": "2026-11-04T23:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
+  },
+  {
+   "id": "CA:3325-37-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3325-37-COT26",
+   "nombre": "SEGURO SIN DEDUCIBLE RESPONSABILIDAD CIVIL - DRONES PDI COYHAIQUE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-04T17:38:00-03:00",
+   "fecha_cierre": "2026-11-11T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 17:40",
+   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+   "unidad": "LOGISTICA COYHAIQUE",
+   "region": "Región Aysén del General Carlos Ibáñez del Campo",
+   "monto": 800000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3325-37-COT26",
+   "descripcion": "SE SOLICITA 2 SEGUROS DE RESPONSABILIDAD CIVIL PARA DRONES DE LA PDI DE LA CIUDAD DE COYHAIQUE, DE ACUERDO A ESPECIFICACIONES TÉCNICAS. SE DEBE INCLUIR COTIZACIÓN QUE INCLUYA A LO MENOS, LO SOLICITADO EN LAS ESPECIFICACIONES. NO SE ACEPTARÁN OFERTAS QUE NO CUMPLAN TÉCNICAMENTE CON LO SOLICITADO. LOS SEGUROS DEBERÁN SER SIN DEDUCIBLE.",
+   "direccion_entrega": "BAQUEDANO 511",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Seguros contra accidentes — SE SOLICITA 2 SEGUROS DE RESPONSABILIDAD CIVIL PARA DRONES DE LA PDI DE LA CIUDAD DE COYHAIQUE, DE ACUERDO A ESPECIFICACIONES TÉCNICAS. SE DEBE INCLUIR COTIZACIÓN QUE INCLUYA A LO MENOS, LO SOLICITADO EN LAS ESPECIFICACIONES. NO SE ACEPTARÁN OFERTAS QUE NO CUMPLAN TÉCNICAMENTE CON LO SOLICITADO. LOS SEGUROS DEBERÁN SER SIN DEDUCIBLE."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "LIC:3553-40-LE26",
@@ -791,7 +1150,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T00:05:13+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -823,7 +1182,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T04:05:12+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -855,7 +1214,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T02:05:10+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -886,7 +1245,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T01:05:10+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -918,7 +1277,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T01:05:10+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -949,7 +1308,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T01:05:10+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -990,7 +1349,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T02:05:10+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -1024,7 +1383,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T01:05:10+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -1056,8 +1415,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
-   "detalle_actualizado": "2026-11-04T23:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
   {
@@ -1095,7 +1454,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T05:05:10+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T00:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -3436,7 +3795,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTROL REMOTO PARA DRON - SC N°84783 G/RIESGO DE DESASTRES\nCompletar Anexo N°1, Si el proveedor no completa el anexo n°1, la oferta se aceptara siempre y cuando en la cotización adjunte los detalles mínimos de contacto, Rut empresa o personal natural, teléfono de contacto, Correo electrónico, o el proveedor tenga actualizados su datos en MercadoPublico.cl, ya que es indispensable para poder ubicar al momento de tener dudas y/o consultas, y poder adjudicar.",
    "direccion_entrega": "Plaza del Cabildo S/N",
@@ -3444,7 +3803,7 @@
    "productos": [
     "Control remoto — Control remoto para dron, de acuerdo a las especificaciones en archivo \"CONTROL REMOTO PARA DRON - SC N°84783 G/RIESGO DE DESASTRES\""
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00"
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "CA:5251-877-COT26",
@@ -3506,7 +3865,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "OBLIGACION DEL PROVEEDOR: DEBERA DESCARGAR, FIRMAR Y ADJUNTAR LOS REQUERIMIENTOS TECNICOS, DOCUMENTO OBLIGATORIO.",
    "direccion_entrega": "SEGUN REQUERIMIENTO TECNICO ",
@@ -3549,8 +3908,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00"
   },
   {
@@ -3576,7 +3935,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "El proveedor deberá adjuntar cotización formal y especificación técnica del producto o servicio, de lo contrario su oferta quedará inadmisible (requisito excluyente). En las cotizaciones deben ofertar con todas las especificaciones solicitadas y ajustarse al presupuesto disponible y en el plazo de entrega máximo. Además, aquel que resulte seleccionado deberá cumplir con la entrega de los productos en los plazos indicados. - Las cotizaciones deberán tener vigencia mínima de 30 días",
    "direccion_entrega": "Facultad Tecnológica / Departamento de Tecnologías industriales, USACH",
@@ -3609,7 +3968,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "El hospital de Ancud requiere la compra de DRON, solicitado por Puesta en Marcha. Proveedores deben adjuntar Cotización Formal, Ficha técnica e imágenes y cumplir con las EETT adjuntas (causal de inadmisibilidad), Producto deben ser entregado en Bodega Central en horario: L-J: 08:00 A 12:30 / 14:00 A 16:30 Y V: 08:00 A 12:30 / 14:00 A 15:30, deben ser entregados con Factura y/o guía de despacho. Flete debe estar incluido en el total de la OC.",
    "direccion_entrega": "ALMIRANTE LATORRE 301",
@@ -3651,8 +4010,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00"
   },
   {
@@ -3679,7 +4038,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se requiere adquirir 14 pares de helicies para DRON MATRICE 350 RTK, detalles se encuentran en archivo adjunto, para ofertar adjuntar cotizacion formal y ficha tecnica del producto ofrecido",
    "direccion_entrega": "avenida General Mackenna 1370 ",
@@ -3714,7 +4073,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Entregar a los participantes los conocimientos teóricos y prácticos necesarios para operar RPAS de forma segura, para posteriormente llevar a cabo el examen y proceder a la obtención de la Credencial de Operador RPAS ante la DGAC, en la ciudad de Valdivia, en la Región de Los Ríos. La capacitación deberá considerar aeronaves de las series DJI Mavic y DJI Matrice.",
    "direccion_entrega": "Calle San Carlos 50, Oficina 46, cuarto piso. Valdivia. Región de Los Ríos.",
@@ -3754,8 +4113,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00"
   },
   {
@@ -3782,7 +4141,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se prioriza proveedor que presente cotización formal adjunta con el total del requerimiento, el valor sea el menor y el tiempo de entrega sea el menor. Se adjunta requerimiento (contacto Juan Fuentealba profesionaladministracion@quillon.cl)",
    "direccion_entrega": "18 de septiembre 250",
@@ -3792,7 +4151,7 @@
     "Baterías recargables — baterias radio vhf alta capacidad dep 450",
     "Servicio de reparación de equipo de fabricación — servicio mantención dron matrice 30T y estacion de bateria BS30"
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-10-06T14:05:12+00:00"
   },
   {
@@ -3818,7 +4177,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS REQUERIDOS, ADJUNTANDO A TRAVÉS DEL SISTEMA UNA COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA.LOS PRODUCTOS OFERTADOS DEBERÁN SER NUEVOS, SIN USO Y CUMPLIR ÍNTEGRAMENTE CON LAS ESPECIFICACIONES TÉCNICAS SOLICITADAS. ASIMISMO, EL DESPACHO SE REALIZARÁ EN LA DIRECCIÓN INDICADA EN LA ORDEN DE COMPRA, SIENDO DE EXCLUSIVO CARGO DEL PROVEEDOR TODOS LOS COSTOS ASOCIADOS A TRANSPORTE, FLETE Y ENTREGA. FINALMENTE, SE SOLICITA ADJUNTAR CONTACTO.",
    "direccion_entrega": "RUTA 5 SUR, KM 598, SECTOR PAILAHUEQUE, ERCILLA, IX REGIÓN",
@@ -3852,7 +4211,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "ADQUISICIÓN DE DRONE MÁS CONTROL RC, El oferente debe adjuntar cotización formal y ficha técnica con imagen referencial. Además debe poseer idoneidad de giro en SII con la naturaleza de la presente adquisición, de lo contrario la oferta podría quedar inadmisible. El pago será a 30 días corridos, mediante transferencia.",
    "direccion_entrega": "AV. INDEPENDENCIA 5841",
@@ -3886,7 +4245,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE.",
    "direccion_entrega": "CABILDO",
@@ -3894,7 +4253,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — SERVICIO DE REVISION DIAGNOSTICO Y REPARACION DE DRON. VER SOLICITUD ADJUNTA CON LO REQUERIDO, SUBIR COTIZACION CON ESPECIFICACIONES TECNICAS SOLICITADAS, INDICAR PLAZO DE ENTREGA. LA OFERTA SELECCIONADA DEBERA CUMPLIR CON EL SERVICIO EN LOS PLAZOS INDICADOS DE LO CONTRARIO SERAN SANCIONADOS Y REPORTADOS POR MEDIO DEL REGISTRO DE PROVEEDORES. TODA OFERTA QUE NO CUMPLA SERÁ DECLARADA INADMISIBLE."
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-10-13T13:05:12+00:00"
   },
   {
@@ -3957,7 +4316,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVICIO D EMANTENCION Y REPARACION DE DRON, PARA LA SIAT, LOS OFERENTES DEBERAN ADJUNTAR UNA COTIZACION DEL SERVICIO OFRECIDO, CONFORME A LO SOLICITADO EN EL REQUERIMIENTO TECNICO ADJUNTO",
    "direccion_entrega": "AVDA. PEDRO DE VALDIVIA NRO. 4975",
@@ -3965,7 +4324,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — SERVICIO DE MANTENCION Y REPARACION DE 1 DRON MARCA DJI, MODELO MAVIC 3, OFERENTES DEBERAN ADJUNTAR UNA COTIZACION DONDE INDIQUE EL SERVICIO OFRECIDO, CONFORME A LO SOLICITADO EN EL REQUERIMIENTO TECNICO ADJUNTO."
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00"
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "CA:3325-26-COT26",
@@ -3990,7 +4349,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SE SOLICITA 2 SEGUROS DE RESPONSABILIDAD CIVIL PARA DRONES DE LA PDI DE LA CIUDAD DE COYHAIQUE, DE ACUERDO A ESPECIFICACIONES TÉCNICAS. SE DEBE INCLUIR COTIZACIÓN QUE INCLUYA A LO MENOS, LO SOLICITADO EN LAS ESPECIFICACIONES. NO SE ACEPTARÁN OFERTAS QUE NO CUMPLAN TÉCNICAMENTE CON LO SOLICITADO. LOS SEGUROS DEBERÁN SER SIN DEDUCIBLE.",
    "direccion_entrega": "BAQUEDANO",
@@ -3998,7 +4357,7 @@
    "productos": [
     "Seguro por responsabilidad civil — 2 seguros de responsabilidad civil, sin deducible, de acuerdo a especificaciones técnicas."
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00"
   },
   {
@@ -4025,7 +4384,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se requiere la adquisición de Batería extra de drone perteneciente al Depto. de Comunicaciones, detalles en archivo adjunto. Debe adjuntar cotización con detalle del producto, indicar plazo de entrega, datos de contacto y de transferencia.",
    "direccion_entrega": "Bodega Municipal - Calle San Martín N°40 - Vicuña",
@@ -4033,7 +4392,7 @@
    "productos": [
     "Baterías recargables — Batería de vuelo inteligente para Drone DJI mavic 3 classic"
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00"
   },
   {
@@ -4059,7 +4418,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se debe ofertar por la totalidad de los bienes solicitados.\nSe debe incluir tiempo de entrega y garantía mínima de 6 meses.\nSe debe anexar documento de no inhabilidad para ofertar con el estado, de acuerdo a modelo adjunto.\nSe debe adjuntar ficha técnica de los bienes ofertados.\nNo se debe considerar costo de traslado o flete.",
    "direccion_entrega": "Camino Rinconada de Maipú sin número",
@@ -4128,7 +4487,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se requiere:\n1 Dron Multiespectral Mavic 3M o similar, según las especificaciones técnicas adjuntas.\nEl proveedor debe considerar lo siguiente:\na) Adjuntar anexos con las especificaciones técnicas de lo ofertado.\nb) Indicar plazo de entrega.\nc) Indicar datos de contacto y datos bancarios.\nd) Dentro del costo total considerar el despacho a dependencias de la ULS.\ne) Indicar en la factura la siguiente glosa: \"En el marco del proyecto FRPD 2025 40075881-0\"",
    "direccion_entrega": "AVENIDA LA PAZ #1108 OVALLE",
@@ -4162,7 +4521,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVICIO DE MANTENCION DRON PHANTOM 4 RTK, SEGUN ESPECIFICAICONES TECNICAS ADJUNTAS.",
    "direccion_entrega": "SECTOR LOS NOGALES S/N, SECTOR LAS QUILAS",
@@ -4170,7 +4529,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — SERVICIO DE MANTENCION DRON PHANTOM 4 RTK, SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS."
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00"
   },
   {
@@ -4197,7 +4556,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -4232,7 +4591,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-05T20:10:04+00:00",
    "descripcion": "El levantamiento aerofotogramétrico mediante RPAS permite obtener, en plazos acotados y sin exponer personal al interior de sectores de difícil acceso o inestables, información geométrica de alta resolución sobre la totalidad de la extensión de cada quebrada. Frente a un levantamiento topográfico convencional, ofrece cobertura continua del cauce y sus laderas, registro visual verificable de las condiciones existentes y productos digitales que admiten mediciones posteriores. Términos Referencias.",
@@ -4268,7 +4627,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "El levantamiento aerofotogramétrico mediante RPAS permite obtener, en plazos acotados y sin exponer personal al interior de sectores de difícil acceso o inestables, información geométrica de alta resolución sobre la totalidad de la extensión de cada quebrada. Frente a un levantamiento topográfico convencional, ofrece cobertura continua del cauce y sus laderas, registro visual verificable de las condiciones existentes y productos digitales que admiten mediciones posteriores. Términos Referencias.",
    "direccion_entrega": "Arturo Prat 461 Piso 11- Región de Antofagasta ",
@@ -4302,7 +4661,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se requiere la contratación del servicio de consultoría y certificación para operación RPAS ante la DGAC, mas detalles en archivo adjunto. Los oferentes deberán adjuntar una cotización detallada del servicio como también adjuntar a su oferta, todos los anexos administrativos obligatorios debidamente completados y firmados, el incumplimiento de cualquiera de estos requisitos implicará que la oferta sea declarada inadmisible.",
    "direccion_entrega": "Padre Felipe Gómez de Vidaurre 1639",
@@ -4337,7 +4696,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se requiere la adquisición de 1 Dron Profesional compacto con control con pantalla integrada y kit de vuelo (3 baterías, centro de carga, bolso), similar o equivalente a DJI Mini 5 Pro Fly More Combo, para trabajo de campo. Monto máximo para la compra: $1.500.000 IVA incluido. Se debe revisar el documento adjunto para más especificaciones técnicas solicitadas.",
    "direccion_entrega": "Pedro Aguirre Cerda 1947",
@@ -4370,7 +4729,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "MATERIALES OFERTADOS DEBEN CUMPLIR CON LAS ESPECIFICACIONES TÉCNICAS DE REFERENCIA. MARCAS SOLO REFERENCIALES.",
    "direccion_entrega": "SANTA TERESA 1280, TEMUCO",
@@ -4403,7 +4762,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Para el uso de drones del Servicio cada equipo requiere de un espacio delimitado que permita tanto un despliegue como un aterrizaje de forma segura tanto para el equipo como para terceros.",
    "direccion_entrega": "Avenida Libertador Bernardo O\"Higgnis # 886, piso 7 Santiago Centro",
@@ -4437,7 +4796,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
    "direccion_entrega": "JUAN SALLATO N° 2701, BARRIO INDUSTRIAL, HUEQUEN, ANGOL",
@@ -4471,7 +4830,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Reparación Dron Dron Mavic Air 2S ejecutada exclusivamente por Servicio Técnico Autorizado DJI (OBLIGATORIO), utilizando repuestos 100% originales DJI y calibración de software mediante herramientas propietarias DJI (DJI Assistant 2 / Factory Calibration Tools).",
    "direccion_entrega": "Avenida Capitán Millán N° 342",
@@ -4479,7 +4838,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — Reparación para dron DJI Air 2S ejecutado obligatoriamente por Servicio Técnico Autorizado DJI. Incluye retiro y posterior despacho del equipo, suministro e instalación de repuestos 100% originales DJI: módulo gimbal/cámara, middle frame, brazos M3 y M4, y ejes de plegado. Contempla mano de obra, calibración de fábrica con software propietario DJI (gimbal y sensores), pruebas de vuelo, garantía técnica y devolución de piezas. REVISAR ESPECIFICACIONES ADJUNTAS."
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-10-06T21:05:10+00:00"
   },
   {
@@ -4506,7 +4865,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante para drones, 55 cm, doble cara, impermeable, plegable, con clavijas de tierra (bicolor) EL VALOR TOTAL DEBE SER CON FLETE INCLUIDO.",
    "direccion_entrega": "CALLE  PATRICIO LYNCH N° 50 IQUIQUE ",
@@ -4514,7 +4873,7 @@
    "productos": [
     "Paracaídas — \nSERVIU REGION DE TARAPACA: REQUIERE PARACAIDA Y PLATAFORMA DE ATERRIZAJE PARA DRON , SEGUN COMO SE INDICA.\n\n"
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-01T04:05:10+00:00"
   },
   {
@@ -4540,7 +4899,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00",
    "descripcion": "Se solicita Capacitación en el uso de Drone, se adjuntan términos de referencia, revisar obligatoriamente.",
@@ -4582,7 +4941,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-06T21:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-08T16:05:15+00:00"
@@ -4611,7 +4970,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se solicita la adquisición de un dron con capacitación y mantenimiento incluido según especificaciones del anexo adjunto, cotización debe incluir despacho a Caupolican 410, Los Ángeles. ANEXO DEBE SER COMPLETADO, FIRMADO Y SUBIDO A PLATAFORMA, DE LO CONTRARIO OFERTA SERÁ DECLARADA INADMISIBLE.",
    "direccion_entrega": "CAUPOLICAN 410",
@@ -4648,7 +5007,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CURSO DE MANEJO DE DRONES CON OBTENCIÓN CREDENCIAL ACREDITA POR LA DGAC, QUE DEBERA DESARROLLARSE EN LA CIUDAD DE TEMUCO, QUE INCLUYA CREDENCIAL DE OPERADOR DE RPA.\nLA PRESENTE SOLICITUD JUSTIFICA LA NECESIDAD DE CAPACITAR AL PERSONAL TÉCNICO EN EL \"CURSO OBTENCIÓN CREDENCIAL DGAC + OPERADOR DE RPA\".",
    "direccion_entrega": "A convenir",
@@ -4681,7 +5040,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Para el uso de drones del Servicio cada equipo requiere de un espacio delimitado que permita tanto un despliegue como un aterrizaje de forma segura tanto para el equipo como para terceros.",
    "direccion_entrega": "Alameda 887, piso 7",
@@ -4689,7 +5048,7 @@
    "productos": [
     "Campo de aterrizaje — Landing PAD 100x100 cm similar a\nCYNOVA con las siguientes\ncaracterísticas: ? Gran tamaño: Con 1 m, esta\nplataforma de aterrizaje es lo\nsuficientemente grande como\npara acomodar una variedad de\ndrones, incluyendo drones de la\ngama Enterprise. ? Material resistente: Fabricada\nen cuero sintético de alta calidad,\nesta plataforma de aterrizaje es\nimpermeable, resistente al\ndesgaste y soporta un uso\nintensivo. ? Diseño plegable: La plataforma\nde aterrizaje se pliega fácilmente\npara su almacenamiento "
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-02T04:05:10+00:00"
   },
   {
@@ -4724,8 +5083,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00"
   },
   {
@@ -4752,7 +5111,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
@@ -4787,7 +5146,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00",
    "descripcion": "U de La Serena, necesita el siguiente producto: Dron, sensor principal de 1\" CMOS 50MP, Cámaras dual, video máximo 4K 120 fps, color profesional 10-bit D-long M, con buen rendimiento nocturno, tiempo de vuelo 45 minutos, alta resistencia al viento, peso 800 grs aprox, control remoto, 3 baterías de vuelo, con centro de recarga para baterías,\n3 hélices de repuesto, juego de filtros ND, bolsa bandolera, cable PD tipo C a tipo C, protector del estabilizador. SC 51258.",
@@ -4895,7 +5254,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-05T18:56:09+00:00",
    "primera_deteccion": "2026-10-05T18:56:09+00:00",
    "cambio_estado": "2026-10-07T14:05:15+00:00"
@@ -4923,7 +5282,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
@@ -4963,7 +5322,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-06T17:05:11+00:00",
    "cambio_estado": "2026-10-07T21:05:10+00:00"
@@ -5058,7 +5417,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL PROVEEDOR AL ACEPTAR LA ORDEN DE COMPRA, ACEPTA TODO LO ESTIPULADO EN ANEXO DE COMPRA ÁGIL (revisar en sección adjuntos) ADQUISICIÓN SERÁ PAGADA CON RECURSOS LEY N° 21.796, LEY DE PRESUPUESTOS DEL AÑO 2026, IVA INCLUIDO. EL PAGO SE EFECTUARÁ MEDIANTE TRANSFERENCIA, EL PROVEEDOR DEBE INDICAR CTA. CTE Y BANCO. COPIA DE FACTURA ELECTRÓNICA DEBE SER REMITIDA AL CORREO: deptoab@dgtm.cl",
    "direccion_entrega": "ERRAZURIZ 537 VALPARAISO",
@@ -5093,7 +5452,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -5128,7 +5487,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "En el marco del Proyecto BID 2026, el SAG requiere equipamiento para fortalecer la operación de drones institucionales: estación base RTK, kit de trípode con poste topográfico, bolso y plataforma de aterrizaje. Los equipos deberán ser compatibles e interoperables con el dron DJI Matrice 400 existente, permitiendo posicionamiento centimétrico mediante correcciones GNSS en tiempo real y apoyando la detección y seguimiento de plagas y enfermedades fitozoosanitarias.",
    "direccion_entrega": "Avenida Alameda Libertador Bernardo O´Higgins 886, piso 10, Santiago.",
@@ -5138,7 +5497,7 @@
     "Trípodes — Kit de trípode con poste topográfico (con sistema de autobloqueo y bloqueo seguro) y bolso de transporte, compatibles con la estación base RTK ofertada. Especificaciones mínimas en anexo 1",
     "Receptores GPS — Estación base multifuncional de posicionamiento GNSS-RTK (Real-Time Kinematic), que entregue correcciones diferenciales en tiempo real para posicionamiento de precisión centimétrica. Deberá ser plenamente compatible e interoperable con el dron DJI Matrice 400 actualmente utilizado por el Servicio; el oferente deberá acreditar dicha compatibilidad. Especificaciones mínimas en anexo 1"
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00"
   },
   {
@@ -5164,7 +5523,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "MATERIALES OFERTADOS DEBEN CUMPLIR CON LAS ESPECIFICACIONES TÉCNICAS DE REFERENCIA. MARCAS SOLO REFERENCIALES.",
    "direccion_entrega": "SANTA TERESA 1280, TEMUCO",
@@ -5207,8 +5566,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
   },
@@ -5236,7 +5595,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
    "direccion_entrega": "JUAN SALLATO 2701, BARRIO INDUSTRIAL, HUEQUEN, ANGOL",
@@ -5276,7 +5635,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-19T00:05:10+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00"
@@ -5311,7 +5670,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-08T20:05:14+00:00"
@@ -5346,8 +5705,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T13:05:14+00:00"
   },
@@ -5382,7 +5741,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-14T19:05:10+00:00"
@@ -5416,7 +5775,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-08T15:05:13+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00"
@@ -5483,7 +5842,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONFORME ANEXO ADJUNTO.",
    "direccion_entrega": "AVDA. COPAYAPU N°3302",
@@ -5518,7 +5877,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Cantidad\nItem\n1 R. Mini 3 Pro Aircraft Upper Cover Module\n1 R. Mini 3 Pro Forward Vision Sensor Module Decorative Cover\n2 R. Mini 4 Pro/Mini 3 Pro Front Aircraft Arm Rotating Axis\n1 DJI Mini 3 Pro GPS & IMU Modul",
    "direccion_entrega": "Huerfanos 770, piso 7 Santiago",
@@ -5559,8 +5918,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00"
   },
@@ -5587,7 +5946,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-08T21:05:10+00:00",
    "descripcion": "SERVICIO DE CAPACITACIÓN OPERACIÓN DE DRONES DE ACUERDO A ESPECIFICACIONES TÉCNICAS ADJUNTAS. LA OFERTA QUE NO CUMPLA CON LAS ESPECIFICACIONES TÉCNICAS, NO PRESENTE COTIZACIÓN, NO PRESENTE EL ANEXO N°1 Y EXCEDA EL PRESUPUESTO SE DECLARA INADMISIBLE.",
    "direccion_entrega": "CAMINO SAN AGUSTIN KM 4",
@@ -5627,7 +5986,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-12T13:05:10+00:00",
    "primera_deteccion": "2026-10-09T15:05:12+00:00",
    "cambio_estado": "2026-10-12T13:05:10+00:00"
@@ -5662,8 +6021,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00",
    "cambio_estado": "2026-10-13T21:05:12+00:00"
   },
@@ -5806,8 +6165,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-08T19:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00"
   },
@@ -5834,7 +6193,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-13T22:05:13+00:00",
    "descripcion": "Se solicita la adquisición 6 LANDING PAD (Plataforma de Aterrizaje para Drones), según especificaciones. \nLANDING PAD 75 CM para uso de Drones",
    "direccion_entrega": "Avenida Libertador General Bernardo O´higgins N° 720, 4° piso. Santiago Centro",
@@ -5874,7 +6233,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-20T00:05:10+00:00",
    "primera_deteccion": "2026-10-14T23:05:10+00:00",
    "cambio_estado": "2026-10-15T23:05:11+00:00"
@@ -5940,8 +6299,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-14T23:05:10+00:00",
    "cambio_estado": "2026-10-16T23:05:11+00:00"
   },
@@ -5975,8 +6334,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-18T00:05:10+00:00"
   },
   {
@@ -6042,7 +6401,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00"
@@ -6076,7 +6435,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-19T16:05:10+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -6111,7 +6470,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-20T13:05:12+00:00"
@@ -6139,7 +6498,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "AL COTIZAR AGREGAR LOS DATOS DE CONTACTO, TALES COMO: NOMBRE, TELÉFONO Y CORREO ELECTRÓNICO. (PARA CUALQUIER EVENTUALIDAD).\nTENER PRESENTE, QUE AL MOMENTO DE CONTRATAR DEBE PERTENECER AL GIRO, RUBRO Y ACTIVIDAD ECONÓMICA A OBJETO DEL REQUERIMIENTO.\nEN EL CASO DE AGREGAR CARGOS O FLETES, INCLUIRLOS EN VALOR DE LOS PRODUCTOS Y/O SERVICIOS.\nEL PLAZO DE ENTREGA COMENZARÁ A REGIR DESPUÉS DE LAS 24 HRS DE ENVIADA LA ORDEN DE COMPRA, NO SE ACEPTARÁN OTROS ACUERDOS EN LAS OFERTAS DE LOS PROVEEDORES.",
    "direccion_entrega": "OTRA FORMA DE ENTREGA",
@@ -6147,7 +6506,7 @@
    "productos": [
     "Seguros contra accidentes — POLIZAS DE SEGUROS DE RESPONSABILIDAD CIVIL DE DRONES, CON VIGENCIA DE 1 AÑO, SE ADJUNTAN ESPECIFICACIONES TECNICAS."
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00"
   },
   {
@@ -6181,7 +6540,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-09T20:05:10+00:00",
    "cambio_estado": "2026-10-16T16:05:12+00:00"
@@ -6215,7 +6574,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00"
@@ -6244,7 +6603,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Con el propósito de resguardar el patrimonio de la Asociación de Municipalidades para la Seguridad Ciudadana de la Zona Oriente y asegurar la continuidad operativa de sus labores de televigilancia preventiva, se requiere contratar una póliza de seguro para dos drones marca DJI, incluyendo sus equipos, componentes, accesorios y demás bienes asociados a su operación, así como las coberturas de responsabilidad civil exigidas en la presente Solicitud de Cotización.",
    "direccion_entrega": "Avenida el Rodeo 13.541 Lo Barnechea.",
@@ -6252,7 +6611,7 @@
    "productos": [
     "Seguros contra accidentes — Contratación de póliza de seguro para drones marca DJI. Vigencia mínima: 12 meses, a contar del 26/11/2026. El plazo máximo para la entrega de las pólizas y/o certificados de cobertura será de siete (7) días hábiles, contado desde la aceptación de la Orden de Compra"
    ],
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00"
   },
   {
@@ -6385,7 +6744,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-19T17:05:15+00:00"
@@ -6420,8 +6779,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
   },
@@ -6454,8 +6813,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00"
   },
@@ -6488,8 +6847,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-15T23:05:11+00:00",
    "cambio_estado": "2026-10-21T13:40:52+00:00"
   },
@@ -6522,7 +6881,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00"
@@ -6557,7 +6916,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-09T17:05:11+00:00",
    "cambio_estado": "2026-10-13T18:05:11+00:00"
@@ -6592,8 +6951,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00",
    "cambio_estado": "2026-10-17T20:05:10+00:00"
   },
@@ -6626,7 +6985,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-16T23:05:11+00:00",
    "primera_deteccion": "2026-10-16T22:05:13+00:00",
    "cambio_estado": "2026-10-20T12:05:11+00:00"
@@ -6661,8 +7020,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-16T15:05:15+00:00",
    "cambio_estado": "2026-10-19T21:05:11+00:00"
   },
@@ -6695,7 +7054,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00",
    "cambio_estado": "2026-10-19T12:05:13+00:00"
@@ -6730,8 +7089,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-15T22:05:11+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00"
   },
@@ -6764,8 +7123,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-16T23:05:11+00:00",
    "cambio_estado": "2026-10-20T00:05:10+00:00"
   },
@@ -6866,8 +7225,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-15T23:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00"
   },
@@ -7053,8 +7412,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-19T21:05:11+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00"
   },
@@ -7088,8 +7447,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00"
   },
@@ -7126,8 +7485,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00"
   },
@@ -7161,8 +7520,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00",
    "cambio_estado": "2026-10-21T12:05:12+00:00"
   },
@@ -7195,8 +7554,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-19T15:05:10+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00"
   },
@@ -7279,8 +7638,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-19T20:05:11+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00"
   },
@@ -7313,8 +7672,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T00:05:10+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00"
   },
@@ -7348,8 +7707,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T14:55:05+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00"
   },
@@ -7382,8 +7741,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T19:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00"
   },
@@ -7416,8 +7775,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00"
   },
   {
@@ -7451,8 +7810,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00"
   },
   {
@@ -7484,8 +7843,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00"
   },
@@ -7519,8 +7878,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T21:05:10+00:00"
   },
   {
@@ -7558,8 +7917,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00"
   },
   {
@@ -7593,8 +7952,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00"
   },
   {
@@ -7627,8 +7986,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T16:05:14+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00"
   },
@@ -7661,8 +8020,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00"
   },
@@ -7695,8 +8054,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00"
   },
@@ -7730,8 +8089,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00"
   },
@@ -7766,8 +8125,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00"
   },
@@ -7800,8 +8159,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00"
   },
@@ -7834,8 +8193,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00"
   },
   {
@@ -7870,8 +8229,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00"
   },
@@ -7904,8 +8263,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00"
   },
@@ -7940,8 +8299,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00"
   },
@@ -8012,8 +8371,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00"
   },
@@ -8081,8 +8440,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00"
   },
@@ -8115,8 +8474,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00"
   },
@@ -8149,8 +8508,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00"
   },
@@ -8159,11 +8518,11 @@
    "fuente": "compra_agil",
    "codigo": "929-188-COT26",
    "nombre": "Dron para Inspección de Obras",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "desierta",
+   "estado_glosa": "Desierta",
    "fecha_publicacion": "2026-10-22T12:20:00-03:00",
    "fecha_cierre": "2026-10-27T12:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-27 12:35",
+   "fecha_ultimo_cambio": "2026-11-04 16:25",
    "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
    "unidad": "Direccion Regional Metropolitana",
    "region": "Región Metropolitana de Santiago",
@@ -8183,9 +8542,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
-   "primera_deteccion": "2026-10-23T00:05:11+00:00"
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-10-23T00:05:11+00:00",
+   "cambio_estado": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "CA:2333-737-COT26",
@@ -8217,8 +8577,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00"
   },
@@ -8252,8 +8612,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00"
   },
@@ -8287,8 +8647,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00"
   },
@@ -8326,8 +8686,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00"
   },
@@ -8360,8 +8720,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00"
   },
@@ -8394,8 +8754,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00"
   },
@@ -8428,8 +8788,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00"
   },
@@ -8494,8 +8854,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00"
   },
   {
@@ -8529,8 +8889,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00"
   },
   {
@@ -8562,8 +8922,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00"
   },
   {
@@ -8595,8 +8955,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-11-01T04:05:10+00:00"
   },
@@ -8631,8 +8991,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00"
   },
@@ -8665,8 +9025,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00"
   },
   {
@@ -8701,8 +9061,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00"
   },
@@ -8772,8 +9132,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00"
   },
@@ -8782,11 +9142,11 @@
    "fuente": "compra_agil",
    "codigo": "945256-61-COT26",
    "nombre": "ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) ULTRA LIGERO CON KIT DE AUTONOMÍA EXTENDIDA Y CONTROL CON PANTALLA INTEGRADA.",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-28T14:56:00-03:00",
    "fecha_cierre": "2026-10-29T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29 16:05",
+   "fecha_ultimo_cambio": "2026-11-04 15:45",
    "organismo": "Zona de Bienestar Valparaíso",
    "unidad": "Zona de Bienestar Valparaíso",
    "region": "Región de Valparaíso ",
@@ -8807,9 +9167,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
-   "primera_deteccion": "2026-10-29T02:21:05+00:00"
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-10-29T02:21:05+00:00",
+   "cambio_estado": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "CA:2704-2071-COT26",
@@ -8842,8 +9203,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00"
   },
@@ -8876,8 +9237,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00"
   },
@@ -8943,8 +9304,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00"
   },
   {
@@ -9012,8 +9373,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00"
   },
@@ -9049,8 +9410,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00"
   },
   {
@@ -9084,8 +9445,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00"
   },
@@ -9120,8 +9481,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00"
   },
@@ -9130,11 +9491,11 @@
    "fuente": "compra_agil",
    "codigo": "3567-485-COT26",
    "nombre": "ADQUISICIÓN DE DRON PARA REALIZAR VIGILANCIA AEREA. EQUIPO UTILIZADO POR LA DIRECCIÓN DE SEGURIDAD.",
-   "estado": "adjudicada",
-   "estado_glosa": "Proveedor seleccionado",
+   "estado": "desierta",
+   "estado_glosa": "Desierta",
    "fecha_publicacion": "2026-10-30T09:35:00-03:00",
    "fecha_cierre": "2026-11-02T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-02 09:50",
+   "fecha_ultimo_cambio": "2026-11-04 16:30",
    "organismo": "I MUNICIPALIDAD DE FLORIDA",
    "unidad": "Ilustre Municipalidad De Florida",
    "region": "Región del Biobío ",
@@ -9157,10 +9518,10 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
-   "cambio_estado": "2026-11-03T04:05:15+00:00"
+   "cambio_estado": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "CA:1533460-80-COT26",
@@ -9192,8 +9553,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00"
   },
@@ -9290,8 +9651,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-04T23:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T23:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -9322,8 +9683,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-04T23:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T23:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00"
   },
   {
@@ -9362,66 +9723,21 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00"
-  },
-  {
-   "id": "CA:2852-278-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2852-278-COT26",
-   "nombre": "Adquirir equipamiento operativo, de seguridad, comunicaciones, iluminación y apoyo técnico para el Departamento de Gestión del Riesgo de Desastres",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-10-30T07:54:00-03:00",
-   "fecha_cierre": "2026-11-03T08:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03 08:05",
-   "organismo": "I MUNICIPALIDAD DE PUERTO VARAS",
-   "unidad": "Adquisiciones Municipalidad",
-   "region": "Región de los Lagos ",
-   "monto": 7100000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2852-278-COT26",
-   "descripcion": "Adquirir equipamiento operativo, de seguridad, comunicaciones, iluminación y apoyo técnico destinado a fortalecer las capacidades de respuesta, coordinación y despliegue del Departamento de Gestión del Riesgo y Desastres, permitiendo mejorar la preparación, atención y respuesta ante emergencias, desastres y otras situaciones que requieran la intervención de equipos municipales en terreno.\nEL OFERENTE DEBERÁ REVISAR DOCUMENTO ADJUNTO.",
-   "direccion_entrega": "Colón N° 251, esquina Del Huemul, Dirección de Seguridad Pública, Puerto Varas.",
-   "plazo_entrega_dias": 20,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — Helipuerto RPA / Dron\nCompatible con DJI Flip, Mavic 3, Matrice 4T, DJI Avata, DJI FPV y drones pequeños\nSuperficie con peso integrado para mayor       estabilidad, medidas de (65x65)\nMaterial impermeable y resistente al desgaste\nFormato plegable y fácil de transportar\nDiseño doble cara para mejor visibilidad",
-    "Paneles de control eléctrico para generadores — Tablero Sistema Comando de Incidentes\nEstuche de polímero negro resistente a la intemperie\nRuedas en línea de alta resistencia.\nVálvula de aire de ajuste automático que no deje entrar agua\nPatas de acero con recubrimiento en polvo, plegables y con bloqueo permanentemente fijadas.\nSuperficie de almacenamiento debajo de la hoja de trabajo inferior.\nÁreas tácticas separadas para la gestión",
-    "Linternas de queroseno, propano o butano — Linterna Portátil Manual\nLinterna de Ángulo recto\nPotencia lumínica: Hasta 175 lúmenes en modo alto y 60 lúmenes en modo bajo.\nAlcance del haz: Hasta 400 metros en potencia máxima, como mínimo\nAutonomía: Aproximadamente 4 horas en modo alto y 15 horas en modo bajo, como mínimo.\nResistencia: Certificación IPX4",
-    "Linternas de queroseno, propano o butano — Linterna Portátil Morral\n\n2 niveles de iluminación: Alto: 4.700 candelas (intensidad máxima del haz), 1500 lúmenes, hasta 8 horas, mínimo\nBajo: 1.000 candelas (intensidad máxima del haz), 350 lúmenes, hasta 20 horas. mínimo\nAro de la óptica y empuñadura revestidos de caucho de protección contra impactos.\nClasificación IPX4 para funcionamiento resistente a la intemperie.",
-    "Sistemas de control de iluminación — Torres de Iluminación Portátiles + Baterías de Reemplazo\nTorre iluminación inalámbrica\n6.000 lúmenes de luz multidireccional.\n3 Cabezales de luz pivotantes independientes.\nCabezal de iluminación extensible y multidireccional\n2,1 Mts de Altura máxima extendida.\nBolso de Transporte",
-    "Aparatos de observación de superficie del viento — Anemómetro\nDigital \nPantalla LCD retroiluminada\nMedición temperatura del aire\nApagado automático\nIndicador de batería baja\nRetención de Datos\nFunción Máx./Min/AVG\nMedición humedad del aire",
-    "Estuches o bolsas de primeros auxilios para los servicios médicos de urgencias o accesorios — Botiquín Aeronáutico DGAC\nGasas de 15 x 15 (5 unidades)\nAntiséptico (alcohol, bialcohol o clorhexidina)\nTela/cinta Adhesiva o equivalente\nTijera 10 cm\nApósito 20 x 10 (2 unidades)\nSuero fisiológico 20 ml (5 ampollas)\nCaja transportadora",
-    "Equipo básico de radio — Radios UHF\nRangos de frecuencia:\nVHF: 136–174 MHz como mínimo\nUHF: 400–520 MHz como mínimo\nResistencia: Mínimo IP67 o superior\nPotencia de transmisión 5 W nominales o superior\nCanales 128 Programables\nProgramable mediante computador\nPantalla LCD Retroiluminada\nBatería Recargable de ion-litio",
-    "Delimitadores o conos de tráfico — Conos\nBase de Polipropileno\nCuerpo de tela Reflectante\nVisible desde todas las direcciones hasta 1000metros\nAltura máxima 40cm\nPlegable",
-    "Extintores — Extintor Portátil Seguridad CO2\nPotencial de Extinción 2-B:C\nTemperatura Limite de Operación 40°C / 49°C\nPresión de Trabajo 174 Bar\nAgente de extinción: dióxido de carbono (CO2)\nConstrucción de válvula totalmente metálica\nContenido nominal: 2 Kg.\nPARA MAS DETALLES DE ESTA COMPRA DEBE REVISAR DOCUMENTO ADJUNTO.",
-    "Equipo de paracaídas — Paracaídas para Dron\nModelos compatibles: DJI Matrice 4T, DJI Mavic 3\nVelocidad de caída: 5,5 m/s\nTiempo de resistencia: 4,5 h\nDistancia de reacción: 8 m\nOperación hasta 4.000 m de altitud.\nEnergía cinética de aterrizaje: 5,1198 J\nActivación automática con sensores APS 3.0."
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
-   "primera_deteccion": "2026-10-31T04:05:10+00:00"
   },
   {
    "id": "CA:696027-90-COT26",
    "fuente": "compra_agil",
    "codigo": "696027-90-COT26",
    "nombre": "Seguro de responsabilidad civil para sistema DJI Enterprise Matrice 30 Series",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-31T17:36:00-03:00",
    "fecha_cierre": "2026-11-03T08:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03 08:05",
+   "fecha_ultimo_cambio": "2026-11-04 08:20",
    "organismo": "MINISTERIO PUBLICO",
    "unidad": "FR ARICA Y PARINACOTA",
    "region": "Región de Arica y Parinacota",
@@ -9441,9 +9757,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
-   "primera_deteccion": "2026-11-01T04:05:10+00:00"
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "primera_deteccion": "2026-11-01T04:05:10+00:00",
+   "cambio_estado": "2026-11-05T06:05:10+00:00"
   },
   {
    "id": "CA:685-15-COT26",
@@ -9474,43 +9791,9 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00"
-  },
-  {
-   "id": "CA:2422-713-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2422-713-COT26",
-   "nombre": "S.A. 946147 MANTENCION Y REPARACION DRON MATRICE 30T",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-11-02T13:38:00-03:00",
-   "fecha_cierre": "2026-11-03T18:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03 18:05",
-   "organismo": "I MUNICIPALIDAD DE PUENTE ALTO",
-   "unidad": "I MUNICIPALIDAD DE PUENTE ALTO",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1000000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2422-713-COT26",
-   "descripcion": "NECESIDAD DE ADMINISTRACION MUNICIPAL.",
-   "direccion_entrega": "AVENIDA CONCHA Y TORO 1691, PUENTE ALTO.",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Módulos de servicio para aeronaves — SERVICIO DE MANTENCION Y REPARACION PARA EQUIPO DRON MATRICE 30T DE ACUERDO A LO INDICADO EN ANEXO ADJUNTO. OFERENTES DEBERAN ADJUNTAR PROPUESTA TECNICAS DEL SERVICIO A OFERTAR Y CERTIFICADO SOLICITADO. CASO CONTRARIO OFERTA NO SERA CONSIDERADA."
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
-   "primera_deteccion": "2026-11-03T04:05:15+00:00"
   },
   {
    "id": "CA:5297-35-COT26",
@@ -9518,16 +9801,16 @@
    "codigo": "5297-35-COT26",
    "nombre": "SERVICIO POR CAPACITACIÓN PROFESIONAL PARA 10 PERSONAS OPERADORES (RPAS) MODALIDAD DIURNA Y NOCTURNA, DE ACUERDO A TODO LO SOLICITADO EN ANEXO ADJUNTO EN PORTAL.",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-02T09:14:00-03:00",
    "fecha_cierre": "2026-11-04T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-02 09:15",
+   "fecha_ultimo_cambio": "2026-11-04 10:10",
    "organismo": "PREDIOS FISCALES IIa. ZONA NAVAL",
    "unidad": "PREDIOS FISCALES IIa. ZONA NAVAL",
    "region": "Región del Biobío ",
    "monto": 2600000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 4,
    "url": "https://buscador.mercadopublico.cl/ficha?code=5297-35-COT26",
    "descripcion": "SERVICIO POR CAPACITACIÓN PROFESIONAL PARA 10 PERSONAS OPERADORES (RPAS) MODALIDAD DIURNA Y NOCTURNA. CON EL OBJETO DE DESARROLLAR LAS COMPETENCIAS NECESARIAS EN LO QUE RESPECTA A LA PLANIFICACIÓN, OPERACIÓN Y SUPERVISIÓN DE SISTEMAS DE AERONAVES PILOTADAS A DISTANCIA, SEGURIDAD OPERACIONAL Y LA APLICACIÓN DE LA NORMATIVA  AERONÁUTICA CHILENA, DE ACUERDO A TODO LO SOLICITADO EN ANEXO ADJUNTO, EN OFERTA SE DEBE ADJUNTAR COTIZACIÓN FORMAL CON TODAS LAS ESPECIFICACIONES TÉCNICAS SOLICITADAS Y FECHA",
    "direccion_entrega": "AVDA. MICHIMALONGO S/N. LAS CANCHAS TALCAHUANO",
@@ -9542,8 +9825,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00"
   },
   {
@@ -9552,16 +9835,16 @@
    "codigo": "2656-1331-COT26",
    "nombre": "ADQUISICION INSUMOS Y ACCESORIOS PARA DRON",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-03T13:25:00-03:00",
    "fecha_cierre": "2026-11-04T13:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03 13:30",
+   "fecha_ultimo_cambio": "2026-11-04 13:35",
    "organismo": "I MUNICIPALIDAD DE TOME",
    "unidad": "Dirección de Administración y Finanzas",
    "region": "Región del Biobío ",
    "monto": 830000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=2656-1331-COT26",
    "descripcion": "ADQUISICION INSUMOS Y ACCESORIOS PARA DRON",
    "direccion_entrega": "CALLE SAN GERMAN N° 1244 BODEGA DE MATERIALES",
@@ -9575,8 +9858,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00"
   },
   {
@@ -9621,16 +9904,16 @@
    "codigo": "905-63-COT26",
    "nombre": "El Servicio Agrícola y Ganadero de la Región de O’Higgins solicita la contratación de un curso de operación de drones para seis funcionarios, orientado a la obtención de la credencial de operador RPAS",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-02T17:22:00-03:00",
    "fecha_cierre": "2026-11-04T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-02 17:25",
+   "fecha_ultimo_cambio": "2026-11-04 16:05",
    "organismo": "SERVICIO AGRICOLA Y GANADERO",
    "unidad": "SAG - Libertador Bernardo O'higgins",
    "region": "Región del Libertador General Bernardo O´Higgins",
    "monto": 900000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 3,
    "url": "https://buscador.mercadopublico.cl/ficha?code=905-63-COT26",
    "descripcion": "Se adjunta anexo N°1 con detalle del servicio requerido. El proveedor debe especificar de forma clara y precisa el servicio ofrecido en su cotización, la cual debe adjuntarse; En caso contrario, el SAG estará facultado para declarar inadmisible la propuesta, por no ajustarse a lo solicitado.",
    "direccion_entrega": "Las clases teóricas podrán dictarse de manera telemática y/o presencial en instalaciones del proveedor, considerando una jornada de lunes a viernes de 8:00 a 17:00 horas. En cuanto a las clases prácticas, estas deberán desarrollarse en la región de O´Higgins, en lugar que será determinado por el proveedor.",
@@ -9647,8 +9930,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-04T05:05:12+00:00",
-   "detalle_actualizado": "2026-11-04T05:05:12+00:00",
+   "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00"
   }
  ]
