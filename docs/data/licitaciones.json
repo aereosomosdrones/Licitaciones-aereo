@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-05T14:05:09+00:00",
- "proxima_actualizacion": "2026-11-05T15:05:09+00:00",
+ "generado": "2026-11-05T15:05:11+00:00",
+ "proxima_actualizacion": "2026-11-05T16:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T14:05:09+00:00",
+   "ultima_ok": "2026-11-05T15:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5158,
-   "detalles_consultados": 44,
+   "revisadas": 5189,
+   "detalles_consultados": 57,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-05T14:05:09+00:00",
+   "ultima_ok": "2026-11-05T15:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -74,39 +74,11 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:883-38-LP26",
+  "LIC:2963-41-LP26"
+ ],
  "items": [
-  {
-   "id": "LIC:4192-68-LE26",
-   "fuente": "licitacion",
-   "codigo": "4192-68-LE26",
-   "nombre": "ADQUISICIÓN DE UN DRON PROFESIONAL",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-05T12:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4192-68-LE26",
-   "descripcion": "Las presentes bases tienen por objetivo determinar y definir las condiciones generales que se deberán tener presente en la licitación para “ADQUISICIÓN DE UN DRON PROFESIONAL DE ALTA PRECISIÓN Y EFICIENCIA, MÁS ACCESORIOS, PARA ESTUDIOS DE CARTOGRAFÍA Y LEVANTAMIENTOS TOPOGRÁFICOS Y GEOESPACIALES”, para la Ilustre Municipalidad de Caldera.\r\n\r\nLa presente licitación, y los derechos y obligaciones de las partes se regularán por las presentes bases administrativas, las bases técnicas, las aclaraciones y la respectiva oferta. Supletoriamente se aplicará la Ley de Compras Públicas N°19.886 y su respectivo Reglamento.",
-   "organismo": "I MUNICIPALIDAD DE CALDERA",
-   "unidad": "Secpla",
-   "region": "Región de Atacama",
-   "comuna": "Caldera",
-   "fecha_publicacion": "2026-10-26T17:38:30-03:00",
-   "fecha_adjudicacion": "2026-11-20T16:00:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Construcción de obras civiles — APRUEBA LLAMADO A LICITACION PÚBLICA, BASES ADMINISTRATIVAS Y BASES TÉCNICAS PARA “ADQUISICIÓN DE UN DRON PROFESIONAL DE ALTA PRECISIÓN Y EFICIENCIA, MÁS ACCESORIOS, PARA ESTUDIOS DE CARTOGRAFÍA Y LEVANTAMIENTOS TOPOGRÁFICOS Y GEOESPACIALES”."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
-   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
-   "primera_deteccion": "2026-10-26T21:05:12+00:00"
-  },
   {
    "id": "CA:1137833-207-COT26",
    "fuente": "compra_agil",
@@ -271,7 +243,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T12:05:14+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -304,7 +276,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
   },
@@ -475,7 +447,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -506,7 +478,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -736,7 +708,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T12:05:14+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -770,7 +742,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T12:05:14+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -804,7 +776,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T12:05:14+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -870,7 +842,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -902,7 +874,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T10:41:35+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -934,9 +906,41 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
-   "detalle_actualizado": "2026-11-05T08:05:13+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
+  },
+  {
+   "id": "LIC:2963-41-LP26",
+   "fuente": "licitacion",
+   "codigo": "2963-41-LP26",
+   "nombre": "SEGUROS DE BIENES MUEBLES E INMUEBLES",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-16T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2963-41-LP26",
+   "descripcion": "El servicio considerado, comprende la contratación de los seguros en los siguientes rubros con el fin de resguardar su patrimonio, según se detalla a continuación:\r\n•\tRUBRO 1: Edificios Municipales y sus contenidos.\r\n•\tRUBRO 2: Edificios de Salud y sus contenidos. \r\n•\tRUBRO 3: Vehículos Municipal y sus contenidos.\r\n•\tRUBRO 4: Vehículos Salud y sus contenidos. \r\n•\tRUBRO 5: Dron Municipal.\r\n•\tRUBRO 6: Equipos Móviles.\r\n•\tRUBRO 7: Remesas de Valores.",
+   "organismo": "I MUNICIPALIDAD DE LA GRANJA",
+   "unidad": "SECPLA",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "La Granja",
+   "fecha_publicacion": "2026-11-05T11:58:58-03:00",
+   "fecha_adjudicacion": "2026-12-24T23:59:00-03:00",
+   "monto": 7898.05,
+   "moneda": "CLF",
+   "tipo": "LP",
+   "productos": [
+    "Seguros de edificios o de su contenido — El servicio considerado, comprende la contratación de los seguros en los siguientes rubros con el fin de resguardar su patrimonio, según se detalla a continuación:\r\n•\tRUBRO 1: Edificios Municipales y sus contenidos.\r\n•\tRUBRO 2: Edificios de Salud y sus co"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-05T15:05:11+00:00",
+   "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
   {
    "id": "LIC:1388961-56-LP26",
@@ -965,7 +969,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -997,7 +1001,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -1028,7 +1032,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -1069,8 +1073,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
-   "detalle_actualizado": "2026-11-05T08:05:13+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-05T15:05:11+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
   {
@@ -1103,7 +1107,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -1135,7 +1139,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T12:05:14+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -1174,9 +1178,41 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
    "detalle_actualizado": "2026-11-05T13:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
+  },
+  {
+   "id": "LIC:883-38-LP26",
+   "fuente": "licitacion",
+   "codigo": "883-38-LP26",
+   "nombre": "SERVICIO DE CONTROL DE AVIFAUNA A TRAVES DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA EN EL AEROPUERTO ARTURO MERINO BENITEZ",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-25T10:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=883-38-LP26",
+   "descripcion": "LA NECESIDAD DE LA DGAC DE CONTRATAR EL SERVICIO DE CONTROL DE AVIFAUNA A TRAVES DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA EN EL AEROPUERTO ARTURO MERINO BENÍTEZ (E102RT9)",
+   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+   "unidad": "UNIDAD DE COMPRA AMB",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Pudahuel",
+   "fecha_publicacion": "2026-11-05T11:13:25-03:00",
+   "fecha_adjudicacion": "2026-12-11T18:00:00-03:00",
+   "monto": 202424361.0,
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Protección de la fauna — SERVICIO DE CONTROL DE AVIFAUNA A TRAVÉS DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA POR UN PERIODO DE TRECE MESES, DE ACUERDO A BASES TÉCNICAS ADJUNTAS."
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-05T15:05:11+00:00",
+   "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
   {
    "id": "CA:614-39-COT26",
@@ -9924,6 +9960,37 @@
    "ultima_actualizacion": "2026-11-05T06:05:10+00:00",
    "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "LIC:4192-68-LE26",
+   "fuente": "licitacion",
+   "codigo": "4192-68-LE26",
+   "nombre": "ADQUISICIÓN DE UN DRON PROFESIONAL",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-05T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4192-68-LE26",
+   "descripcion": "Las presentes bases tienen por objetivo determinar y definir las condiciones generales que se deberán tener presente en la licitación para “ADQUISICIÓN DE UN DRON PROFESIONAL DE ALTA PRECISIÓN Y EFICIENCIA, MÁS ACCESORIOS, PARA ESTUDIOS DE CARTOGRAFÍA Y LEVANTAMIENTOS TOPOGRÁFICOS Y GEOESPACIALES”, para la Ilustre Municipalidad de Caldera.\r\n\r\nLa presente licitación, y los derechos y obligaciones de las partes se regularán por las presentes bases administrativas, las bases técnicas, las aclaraciones y la respectiva oferta. Supletoriamente se aplicará la Ley de Compras Públicas N°19.886 y su respectivo Reglamento.",
+   "organismo": "I MUNICIPALIDAD DE CALDERA",
+   "unidad": "Secpla",
+   "region": "Región de Atacama",
+   "comuna": "Caldera",
+   "fecha_publicacion": "2026-10-26T17:38:30-03:00",
+   "fecha_adjudicacion": "2026-11-20T16:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Construcción de obras civiles — APRUEBA LLAMADO A LICITACION PÚBLICA, BASES ADMINISTRATIVAS Y BASES TÉCNICAS PARA “ADQUISICIÓN DE UN DRON PROFESIONAL DE ALTA PRECISIÓN Y EFICIENCIA, MÁS ACCESORIOS, PARA ESTUDIOS DE CARTOGRAFÍA Y LEVANTAMIENTOS TOPOGRÁFICOS Y GEOESPACIALES”."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-05T14:05:09+00:00",
+   "detalle_actualizado": "2026-11-05T12:05:14+00:00",
+   "primera_deteccion": "2026-10-26T21:05:12+00:00"
   }
  ]
 }
