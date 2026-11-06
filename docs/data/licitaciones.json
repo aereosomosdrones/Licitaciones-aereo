@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-06T20:05:12+00:00",
- "proxima_actualizacion": "2026-11-06T21:05:12+00:00",
+ "generado": "2026-11-06T20:48:38+00:00",
+ "proxima_actualizacion": "2026-11-06T21:48:38+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-06T20:05:12+00:00",
+   "ultima_ok": "2026-11-06T20:48:38+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5272,
-   "detalles_consultados": 99,
+   "revisadas": 5284,
+   "detalles_consultados": 21,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
@@ -71,40 +71,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:2788-602-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2788-602-COT26",
-   "nombre": "BATERIAS DRON - OF. DE EMERGENCIA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-04T16:59:00-03:00",
-   "fecha_cierre": "2026-11-06T17:42:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05 17:45",
-   "organismo": "I MUNICIPALIDAD DE PAINE",
-   "unidad": "DEPARTAMENTO DE ADQUISICIONES",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1249500.0,
-   "moneda": "CLP",
-   "ofertas": 4,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2788-602-COT26",
-   "descripcion": "ADQUISICION DE BATERIAS PARA DRON Y CARGADOR DE BATERIAS. SC. N° 1009, 04.11.2026-EMERGENCIAS. ADJUNTAR COTIZACION FORMAL Y DETALLADA, EN CASO DE QUE EXISTA COBRO POR DESPACHO, INCLUIR EN EL VALOR DE LOS PRODUCTOS.",
-   "direccion_entrega": "AVDA. 18 DE SEPTIEMBRE N° 35",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Baterías recargables — BATERIAS Y CARGADOR DE BATERIAS, SEGUN TTRR. Y EETT."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
-   "primera_deteccion": "2026-11-05T06:05:10+00:00",
-   "cambio_estado": "2026-11-06T06:05:10+00:00"
-  },
   {
    "id": "CA:3436-414-COT26",
    "fuente": "compra_agil",
@@ -333,7 +299,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -367,7 +333,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T20:05:12+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -435,7 +401,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T20:05:12+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -500,7 +466,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00"
   },
@@ -533,7 +499,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -565,7 +531,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T20:05:12+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -597,7 +563,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T17:05:11+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -629,7 +595,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T17:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -660,7 +626,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -692,7 +658,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -723,7 +689,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -764,7 +730,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T17:05:11+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -798,7 +764,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -831,7 +797,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T20:05:12+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -863,7 +829,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T20:05:12+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -902,7 +868,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -934,7 +900,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T20:05:12+00:00",
+   "ultima_actualizacion": "2026-11-06T20:48:38+00:00",
    "detalle_actualizado": "2026-11-06T17:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -10159,6 +10125,40 @@
    "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00"
+  },
+  {
+   "id": "CA:2788-602-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2788-602-COT26",
+   "nombre": "BATERIAS DRON - OF. DE EMERGENCIA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-04T16:59:00-03:00",
+   "fecha_cierre": "2026-11-06T17:42:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-05 17:45",
+   "organismo": "I MUNICIPALIDAD DE PAINE",
+   "unidad": "DEPARTAMENTO DE ADQUISICIONES",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1249500.0,
+   "moneda": "CLP",
+   "ofertas": 4,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2788-602-COT26",
+   "descripcion": "ADQUISICION DE BATERIAS PARA DRON Y CARGADOR DE BATERIAS. SC. N° 1009, 04.11.2026-EMERGENCIAS. ADJUNTAR COTIZACION FORMAL Y DETALLADA, EN CASO DE QUE EXISTA COBRO POR DESPACHO, INCLUIR EN EL VALOR DE LOS PRODUCTOS.",
+   "direccion_entrega": "AVDA. 18 DE SEPTIEMBRE N° 35",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Baterías recargables — BATERIAS Y CARGADOR DE BATERIAS, SEGUN TTRR. Y EETT."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00",
+   "cambio_estado": "2026-11-06T06:05:10+00:00"
   }
  ]
 }
