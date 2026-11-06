@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-06T12:05:10+00:00",
- "proxima_actualizacion": "2026-11-06T13:05:10+00:00",
+ "generado": "2026-11-06T13:05:10+00:00",
+ "proxima_actualizacion": "2026-11-06T14:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-06T12:05:10+00:00",
+   "ultima_ok": "2026-11-06T13:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 5194,
-   "detalles_consultados": 11,
+   "detalles_consultados": 34,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-06T12:05:10+00:00",
+   "ultima_ok": "2026-11-06T13:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -76,110 +76,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:2332-1075-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2332-1075-COT26",
-   "nombre": "N° 8372 Dron para Programa MAIS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-05T09:04:00-03:00",
-   "fecha_cierre": "2026-11-06T09:15:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05 09:05",
-   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
-   "unidad": "Oficina de Adquisiciones del Departamento de Salud",
-   "region": "Región de los Lagos ",
-   "monto": 535500.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2332-1075-COT26",
-   "descripcion": "SE DEBE SUBIR DOCUMENTACIÓN SOLICITADA EN LAS ESPECIFICACIONES TÉCNICAS ADJUNTAS. ANEXO DE IDENTIFICACIÓN DEBE INCLUIR LOS DATOS DEL PROVEEDOR Y LA CUENTA DE PAGO, DEBE INCORPORARSE EN LA OFERTA, O SERA SOLICITADA POR CORREO ELECTRÓNICO UNA VEZ ADJUDICADO EL PROVEEDOR. SI NO SE ADJUNTA TODA LA DEMAS DOCUMENTACIÓN SOLICITADA, LA OFERTA SERÁ RECHAZADA.",
-   "direccion_entrega": "Avenida ferrocarril Km 3.5 ruta V-505 Bodega 3, horario de atención lunes a Jueves 08:30-12:30 / 14:30-16:30, Viernes 08:30-12:30 / 14:30-15:30.",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — MINI DRON, según especificaciones técnicas adjuntas"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
-   "primera_deteccion": "2026-11-06T06:05:10+00:00"
-  },
-  {
-   "id": "CA:2585-1517-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2585-1517-COT26",
-   "nombre": "ADQ. SEGUROS RESPONSABILIDAD CIVIL POR DAÑOS A TERCEROS A DRONES MEMO. N° 110/2026  PRENSA, IMA, SRR",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-05T09:39:00-03:00",
-   "fecha_cierre": "2026-11-06T09:45:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05 09:40",
-   "organismo": "I MUNICIPALIDAD DE ARICA",
-   "unidad": "FINANZAS IMA",
-   "region": "Región de Arica y Parinacota",
-   "monto": 1190000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2585-1517-COT26",
-   "descripcion": "ADQ. SEGUROS RESPONSABILIDAD CIVIL POR DAÑOS A TERCEROS Y A DRONES MUNICIPALES, AL COTIZAR AGREGAR LOS DATOS DE CONTACTO: NOMBRE, TELÉFONO Y CORREO ELECTRÓNICO EN EL CASO DE AGREGAR CARGOS, ESTOS DEBEN SER INCLUIDOS EN EL VALOR DE LOS PRODUCTOS Y/O SERVICIOS. EVALUACIÓN DE LAS OFERTAS, DEBERÁ CUMPLIR CON LA TOTALIDAD DEL REQUERIMIENTO, PRESUPUESTO DISPONIBLE, ESPECIFICACIONES TÉCNICAS, PERTENECER AL GIRO, RUBRO Y ACTIVIDAD ECONÓMICA DEL REQUERIMIENTO Y PLAZO MÁXIMO DE ENTREGA.",
-   "direccion_entrega": "BODEGA RENATO ROCCA N° 1585",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Seguros contra accidentes — CONTRATACIÓN DE DOS (2) PÓLIZAS DE SEGURO DE RESPONSABILIDAD CIVIL POR DAÑOS A TERCEROS PARA DRONES MUNICIPALES, AERONAVES ASEGURADAS: (1) DJI AIR 3S Y (2) DJI MINI 4 PRO, AMBAS DE PROPIEDAD DE LA ILUSTRE MUNICIPALIDAD DE ARICA. CADA PÓLIZA DEBERÁ IDENTIFICAR EXPRESAMENTE LA AERONAVE ASEGURADA, INCLUYENDO MARCA, MODELO Y NÚMERO DE SERIE SEGÚN LOS REGISTROS RPA PROPORCIONADOS POR LA MUNICIPALIDAD, SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS, DEBE ADJUNTAR COTIZACION DETALLADA"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
-   "primera_deteccion": "2026-11-06T06:05:10+00:00"
-  },
-  {
-   "id": "CA:3885-363-COT26",
-   "fuente": "compra_agil",
-   "codigo": "3885-363-COT26",
-   "nombre": "SEGURO DE RESPONSABILIDAD CIVIL PARA DRONE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-02T12:53:00-03:00",
-   "fecha_cierre": "2026-11-06T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03 16:05",
-   "organismo": "I MUNICIPALIDAD DE PICA",
-   "unidad": "Municipalidad de Pica",
-   "region": "Región de Tarapacá  ",
-   "monto": 412583.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3885-363-COT26",
-   "descripcion": "Contratación de seguro para Drone, conforme a lo estipulado en requerimiento adjunto en formulario de cotización. Adjuntar cotización",
-   "direccion_entrega": "plaza de armas #20",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Seguro por responsabilidad civil — póliza de seguro de responsabilidad civil para drone DJI Matrice 350 RTK 2024 N° serie 1581F6GKB24CH00400A, N° de Registro RPA-5644, Zona de uso urbano - rural-territorio nacional, jornada de uso diurna - nocturna, según especificaciones indicadas en requerimiento."
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
-   "primera_deteccion": "2026-11-03T04:05:15+00:00",
-   "cambio_estado": "2026-11-04T05:05:12+00:00"
-  },
   {
    "id": "CA:3658-552-COT26",
    "fuente": "compra_agil",
@@ -311,7 +207,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
   },
@@ -342,7 +238,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-10-27T14:20:19+00:00"
   },
@@ -641,7 +537,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T07:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -675,7 +571,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T07:05:11+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -743,7 +639,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T07:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -808,7 +704,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00"
   },
@@ -841,7 +737,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -873,7 +769,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T07:05:11+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -905,7 +801,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T11:05:10+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -937,7 +833,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T11:05:10+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -968,7 +864,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -1000,7 +896,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -1031,7 +927,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -1072,7 +968,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T11:05:10+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -1106,7 +1002,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -1139,7 +1035,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T07:05:11+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -1171,7 +1067,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T07:05:11+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -1210,7 +1106,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -1242,7 +1138,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T12:05:10+00:00",
+   "ultima_actualizacion": "2026-11-06T13:05:10+00:00",
    "detalle_actualizado": "2026-11-06T11:05:10+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -10164,6 +10060,110 @@
    "ultima_actualizacion": "2026-11-06T09:05:10+00:00",
    "detalle_actualizado": "2026-11-06T09:05:10+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00"
+  },
+  {
+   "id": "CA:2332-1075-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2332-1075-COT26",
+   "nombre": "N° 8372 Dron para Programa MAIS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-05T09:04:00-03:00",
+   "fecha_cierre": "2026-11-06T09:15:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-05 09:05",
+   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
+   "unidad": "Oficina de Adquisiciones del Departamento de Salud",
+   "region": "Región de los Lagos ",
+   "monto": 535500.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2332-1075-COT26",
+   "descripcion": "SE DEBE SUBIR DOCUMENTACIÓN SOLICITADA EN LAS ESPECIFICACIONES TÉCNICAS ADJUNTAS. ANEXO DE IDENTIFICACIÓN DEBE INCLUIR LOS DATOS DEL PROVEEDOR Y LA CUENTA DE PAGO, DEBE INCORPORARSE EN LA OFERTA, O SERA SOLICITADA POR CORREO ELECTRÓNICO UNA VEZ ADJUDICADO EL PROVEEDOR. SI NO SE ADJUNTA TODA LA DEMAS DOCUMENTACIÓN SOLICITADA, LA OFERTA SERÁ RECHAZADA.",
+   "direccion_entrega": "Avenida ferrocarril Km 3.5 ruta V-505 Bodega 3, horario de atención lunes a Jueves 08:30-12:30 / 14:30-16:30, Viernes 08:30-12:30 / 14:30-15:30.",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — MINI DRON, según especificaciones técnicas adjuntas"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "primera_deteccion": "2026-11-06T06:05:10+00:00"
+  },
+  {
+   "id": "CA:2585-1517-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2585-1517-COT26",
+   "nombre": "ADQ. SEGUROS RESPONSABILIDAD CIVIL POR DAÑOS A TERCEROS A DRONES MEMO. N° 110/2026  PRENSA, IMA, SRR",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-05T09:39:00-03:00",
+   "fecha_cierre": "2026-11-06T09:45:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-05 09:40",
+   "organismo": "I MUNICIPALIDAD DE ARICA",
+   "unidad": "FINANZAS IMA",
+   "region": "Región de Arica y Parinacota",
+   "monto": 1190000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2585-1517-COT26",
+   "descripcion": "ADQ. SEGUROS RESPONSABILIDAD CIVIL POR DAÑOS A TERCEROS Y A DRONES MUNICIPALES, AL COTIZAR AGREGAR LOS DATOS DE CONTACTO: NOMBRE, TELÉFONO Y CORREO ELECTRÓNICO EN EL CASO DE AGREGAR CARGOS, ESTOS DEBEN SER INCLUIDOS EN EL VALOR DE LOS PRODUCTOS Y/O SERVICIOS. EVALUACIÓN DE LAS OFERTAS, DEBERÁ CUMPLIR CON LA TOTALIDAD DEL REQUERIMIENTO, PRESUPUESTO DISPONIBLE, ESPECIFICACIONES TÉCNICAS, PERTENECER AL GIRO, RUBRO Y ACTIVIDAD ECONÓMICA DEL REQUERIMIENTO Y PLAZO MÁXIMO DE ENTREGA.",
+   "direccion_entrega": "BODEGA RENATO ROCCA N° 1585",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Seguros contra accidentes — CONTRATACIÓN DE DOS (2) PÓLIZAS DE SEGURO DE RESPONSABILIDAD CIVIL POR DAÑOS A TERCEROS PARA DRONES MUNICIPALES, AERONAVES ASEGURADAS: (1) DJI AIR 3S Y (2) DJI MINI 4 PRO, AMBAS DE PROPIEDAD DE LA ILUSTRE MUNICIPALIDAD DE ARICA. CADA PÓLIZA DEBERÁ IDENTIFICAR EXPRESAMENTE LA AERONAVE ASEGURADA, INCLUYENDO MARCA, MODELO Y NÚMERO DE SERIE SEGÚN LOS REGISTROS RPA PROPORCIONADOS POR LA MUNICIPALIDAD, SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS, DEBE ADJUNTAR COTIZACION DETALLADA"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "primera_deteccion": "2026-11-06T06:05:10+00:00"
+  },
+  {
+   "id": "CA:3885-363-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3885-363-COT26",
+   "nombre": "SEGURO DE RESPONSABILIDAD CIVIL PARA DRONE",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-02T12:53:00-03:00",
+   "fecha_cierre": "2026-11-06T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-03 16:05",
+   "organismo": "I MUNICIPALIDAD DE PICA",
+   "unidad": "Municipalidad de Pica",
+   "region": "Región de Tarapacá  ",
+   "monto": 412583.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3885-363-COT26",
+   "descripcion": "Contratación de seguro para Drone, conforme a lo estipulado en requerimiento adjunto en formulario de cotización. Adjuntar cotización",
+   "direccion_entrega": "plaza de armas #20",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Seguro por responsabilidad civil — póliza de seguro de responsabilidad civil para drone DJI Matrice 350 RTK 2024 N° serie 1581F6GKB24CH00400A, N° de Registro RPA-5644, Zona de uso urbano - rural-territorio nacional, jornada de uso diurna - nocturna, según especificaciones indicadas en requerimiento."
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "primera_deteccion": "2026-11-03T04:05:15+00:00",
+   "cambio_estado": "2026-11-04T05:05:12+00:00"
   }
  ]
 }
