@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-06T18:05:09+00:00",
- "proxima_actualizacion": "2026-11-06T19:05:09+00:00",
+ "generado": "2026-11-06T19:05:09+00:00",
+ "proxima_actualizacion": "2026-11-06T20:05:09+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-06T18:05:09+00:00",
+   "ultima_ok": "2026-11-06T19:05:09+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5212,
-   "detalles_consultados": 38,
+   "revisadas": 5219,
+   "detalles_consultados": 82,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
@@ -71,37 +71,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "LIC:3693-177-LE26",
-   "fuente": "licitacion",
-   "codigo": "3693-177-LE26",
-   "nombre": "ADQUISICIÓN DE EQUIPAMIENTO ACCESORIOS Y SERVICIO",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-06T15:10:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3693-177-LE26",
-   "descripcion": "ADQUISICIÓN DE EQUIPAMIENTO, ACCESORIOS Y SERVICIOS PARA ACTUALIZACIÓN DE FLOTA RPAS DE LA MUNICIPALIDAD DE EL QUISCO",
-   "organismo": "I MUNICIPALIDAD DE EL QUISCO",
-   "unidad": "Departamento SECPLA",
-   "region": "Región de Valparaíso",
-   "comuna": "El Quisco",
-   "fecha_publicacion": "2026-10-27T11:05:49-03:00",
-   "fecha_adjudicacion": "2026-11-30T13:20:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — ADQUISICIÓN DE EQUIPAMIENTO, ACCESORIOS Y SERVICIOS PARA ACTUALIZACIÓN DE FLOTA RPAS DE LA MUNICIPALIDAD DE EL QUISCO"
-   ],
-   "terminos": [
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
-   "detalle_actualizado": "2026-11-06T15:05:11+00:00",
-   "primera_deteccion": "2026-10-27T14:20:19+00:00"
-  },
   {
    "id": "CA:2735-1389-COT26",
    "fuente": "compra_agil",
@@ -397,7 +366,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T14:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -431,7 +400,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T14:05:11+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -499,7 +468,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T14:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -564,7 +533,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00"
   },
@@ -597,7 +566,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -629,7 +598,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T14:05:11+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -661,7 +630,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T17:05:11+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -693,7 +662,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T17:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -724,7 +693,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -756,7 +725,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -787,7 +756,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -828,7 +797,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T17:05:11+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -862,7 +831,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -895,7 +864,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T14:05:11+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -927,7 +896,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T14:05:11+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -966,7 +935,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -998,7 +967,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "ultima_actualizacion": "2026-11-06T19:05:09+00:00",
    "detalle_actualizado": "2026-11-06T17:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -10159,6 +10128,37 @@
    "ultima_actualizacion": "2026-11-06T17:05:11+00:00",
    "detalle_actualizado": "2026-11-06T15:05:11+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00"
+  },
+  {
+   "id": "LIC:3693-177-LE26",
+   "fuente": "licitacion",
+   "codigo": "3693-177-LE26",
+   "nombre": "ADQUISICIÓN DE EQUIPAMIENTO ACCESORIOS Y SERVICIO",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-06T15:10:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3693-177-LE26",
+   "descripcion": "ADQUISICIÓN DE EQUIPAMIENTO, ACCESORIOS Y SERVICIOS PARA ACTUALIZACIÓN DE FLOTA RPAS DE LA MUNICIPALIDAD DE EL QUISCO",
+   "organismo": "I MUNICIPALIDAD DE EL QUISCO",
+   "unidad": "Departamento SECPLA",
+   "region": "Región de Valparaíso",
+   "comuna": "El Quisco",
+   "fecha_publicacion": "2026-10-27T11:05:49-03:00",
+   "fecha_adjudicacion": "2026-11-30T13:20:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICIÓN DE EQUIPAMIENTO, ACCESORIOS Y SERVICIOS PARA ACTUALIZACIÓN DE FLOTA RPAS DE LA MUNICIPALIDAD DE EL QUISCO"
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-06T18:05:09+00:00",
+   "detalle_actualizado": "2026-11-06T15:05:11+00:00",
+   "primera_deteccion": "2026-10-27T14:20:19+00:00"
   }
  ]
 }
