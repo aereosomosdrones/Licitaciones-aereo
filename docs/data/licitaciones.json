@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-07T19:05:10+00:00",
- "proxima_actualizacion": "2026-11-07T20:05:10+00:00",
+ "generado": "2026-11-07T20:05:09+00:00",
+ "proxima_actualizacion": "2026-11-07T21:05:09+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-07T19:05:10+00:00",
+   "ultima_ok": "2026-11-07T20:05:09+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5282,
-   "detalles_consultados": 0,
+   "revisadas": 5283,
+   "detalles_consultados": 1,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
@@ -69,7 +69,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:2460-143-LE26"
+ ],
  "items": [
   {
    "id": "CA:2852-278-COT26",
@@ -252,7 +254,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T15:05:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -286,7 +288,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T15:05:13+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -354,7 +356,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T15:05:13+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -419,7 +421,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T17:05:10+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00"
   },
@@ -452,7 +454,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T17:05:10+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -484,7 +486,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T15:05:13+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -516,7 +518,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T18:05:11+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -548,7 +550,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T18:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -579,7 +581,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T17:05:10+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -611,7 +613,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T17:05:10+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -642,7 +644,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T17:05:10+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -683,7 +685,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T18:05:11+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -717,7 +719,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T17:05:10+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -750,9 +752,53 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T15:05:13+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
+  },
+  {
+   "id": "LIC:2460-143-LE26",
+   "fuente": "licitacion",
+   "codigo": "2460-143-LE26",
+   "nombre": "Adquisición de Bienes para Comunicaciones",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-18T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2460-143-LE26",
+   "descripcion": "Contar con todos los elementos solicitados por Ejecución Presupuestaria 2026, con objeto de adquirir los implementos necesarios para sus labores.",
+   "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+   "unidad": "Dirección de Administración y Finanzas",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Providencia",
+   "fecha_publicacion": "2026-11-07T16:48:42-03:00",
+   "fecha_adjudicacion": "2026-12-09T18:00:00-03:00",
+   "monto": 8464990.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Guillotinas de imprenta — Línea N°1 \"Guillotina\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Pilas alcalinas — Línea N°2 \"Pilas\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Baterías de litio — Línea N°3 \"Batería para Dron\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Baterías de litio — Línea N°4 \"Batería para cámara tipo 1\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Baterías de litio — Línea N°5 \"Batería para cámara tipo 2\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Baterías recargables — Línea N°6 \"Batería externa\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Micrófonos — Línea N°7 \"Micrófonos y accesorios\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Mochilas — Línea N°8 \"Mochila para cámara\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Mochilas — Línea N°9 \"Mochila traker\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Tabletas gráficas — Línea N°10 \"Tableta gráfica\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Sistemas de iluminación de escenario o estudio — Línea N°11 \"Luz Led\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Sistemas de control de iluminación — Línea N°12 \"Controlador DMX\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Receptores o transmisores de radiofrecuencia — Línea N°13 \"Radio portátil\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
+   "detalle_actualizado": "2026-11-07T20:05:09+00:00",
+   "primera_deteccion": "2026-11-07T20:05:09+00:00"
   },
   {
    "id": "LIC:411-52-LE26",
@@ -782,7 +828,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T15:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -821,7 +867,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T17:05:10+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -853,7 +899,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-07T19:05:10+00:00",
+   "ultima_actualizacion": "2026-11-07T20:05:09+00:00",
    "detalle_actualizado": "2026-11-07T18:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
