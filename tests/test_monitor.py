@@ -266,6 +266,20 @@ class TestCompraAgil(unittest.TestCase):
         self.assertEqual(len(ventanas), 4)  # 45 días → 4 tramos de ~11 días
         self.assertIn("CA:9-1-COT26", {i["id"] for i in datos["items"]})
 
+    def test_api_caida_deja_de_insistir(self):
+        llamadas = []
+
+        def caida(url, headers=None):
+            if "api2" in url:
+                llamadas.append(url)
+                raise urllib.error.HTTPError(url, 504, "Timeout", {}, None)
+            return {"Listado": []}
+
+        datos, _ = crear_radar(caida).ejecutar()
+        self.assertFalse(datos["fuentes"]["compra_agil"]["ok"])
+        consultadas = {dict(urllib.parse.parse_qsl(urllib.parse.urlparse(u).query))["q"] for u in llamadas}
+        self.assertEqual(len(consultadas), 3)  # tras 3 búsquedas fallidas no se prueban las demás
+
     def test_cuota_agotada_no_borra_datos(self):
         previos = {"items": [{"id": "CA:1", "fuente": "compra_agil", "codigo": "1", "nombre": "Dron", "estado": "abierta", "terminos": ["Dron"]}]}
 

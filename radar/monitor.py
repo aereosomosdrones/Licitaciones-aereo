@@ -61,6 +61,7 @@ class Config:
     barrido_completo_horas = 24  # entre barridos completos solo se piden cambios recientes
     max_detalles_compra_agil = 120
     presupuesto_busquedas_segundos = 15 * 60
+    max_busquedas_fallidas_seguidas = 3  # sin ninguna exitosa, se da la API por caída
     # General
     presupuesto_segundos = 10 * 60  # tiempo máximo pidiendo detalles, por fuente y ejecución
     dias_retencion = 180  # se olvidan procesos cerrados hace más de esto
@@ -294,9 +295,16 @@ class Radar:
 
         encontrados: dict[str, dict] = {}
         fallidas: list[str] = []
+        exitosas = 0
         consultas = self.dicc.consultas_compra_agil
         self._inicio_busquedas = self.reloj()
         for n, consulta in enumerate(consultas):
+            if not exitosas and len(fallidas) >= self.cfg.max_busquedas_fallidas_seguidas:
+                # Si las primeras búsquedas fallan todas, la API está caída: no tiene
+                # sentido gastar el resto de la hora insistiendo.
+                log.warning("Compra Ágil: la API no responde; se reintenta en la próxima ejecución")
+                fallidas.extend(consultas[n:])
+                break
             if self.reloj() - self._inicio_busquedas > self.cfg.presupuesto_busquedas_segundos:
                 log.warning("Compra Ágil: sin tiempo para las búsquedas restantes")
                 fallidas.extend(consultas[n:])
@@ -305,6 +313,7 @@ class Radar:
             try:
                 resultados = self._buscar_ventana(consulta, campo, desde, self.ahora)
                 log.info("Compra Ágil: '%s' → %s resultados (%.0f s)", consulta, len(resultados), self.reloj() - t0)
+                exitosas += 1
             except CuotaAgotada:
                 fallidas.extend(consultas[n:])
                 self.limitada = True
