@@ -1,0 +1,23 @@
+name: Diagnóstico API Compra Ágil
+
+# Se lanza a mano (Actions → Diagnóstico API Compra Ágil → Run workflow) cuando el
+# dashboard muestra que Compra Ágil no responde. Solo consulta y muestra resultados.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probar la API de Compra Ágil
+        env:
+          MERCADO_PUBLICO_TICKET: ${{ secrets.MERCADO_PUBLICO_TICKET }}
+        run: python -m tools.diagnostico_compra_agil
