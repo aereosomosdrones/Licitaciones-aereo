@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-09T18:05:13+00:00",
- "proxima_actualizacion": "2026-11-09T19:05:13+00:00",
+ "generado": "2026-11-09T18:40:03+00:00",
+ "proxima_actualizacion": "2026-11-09T19:40:03+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-09T18:05:13+00:00",
+   "ultima_ok": "2026-11-09T18:40:03+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5146,
-   "detalles_consultados": 37,
+   "revisadas": 4992,
+   "detalles_consultados": 23,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
@@ -71,76 +71,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "LIC:650-60-CO26",
-   "fuente": "licitacion",
-   "codigo": "650-60-CO26",
-   "nombre": "DRON MULTIRROTOR KIT DE ACCESORIOS Y CAPACITACION",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-09T15:10:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=650-60-CO26",
-   "descripcion": "Adquisición de 1 Dron Multirrotor RTKPPK, Modelo de equipo de referencia DJI Matrice 4E o equivalente con sus software de procesamiento aerofotogramétrico en modalidad RTK Real Time Kinematic y PPK Post Processed Kinematic que permitan obtener imágenes alta resolución para las labores de topografía de la Unidad de Gestión de Suelos y otras unidades del Departamento Técnico SERVIU Antofagasta",
-   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
-   "unidad": "SERVIU II Región",
-   "region": "Región de Antofagasta",
-   "comuna": "Antofagasta",
-   "fecha_publicacion": "2026-10-29T16:23:07-03:00",
-   "fecha_adjudicacion": "2026-11-16T17:00:00-03:00",
-   "monto": 13600000.0,
-   "moneda": "CLP",
-   "tipo": "CO",
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — 01 Drone, accesorios, 03 licencias de software y capacitación"
-   ],
-   "terminos": [
-    "Dron",
-    "Multirrotor",
-    "Marcas (DJI, Autel…)",
-    "Fotogrametría / ortomosaico"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-09T18:05:13+00:00",
-   "primera_deteccion": "2026-10-29T20:05:10+00:00"
-  },
-  {
-   "id": "LIC:1561172-1-L126",
-   "fuente": "licitacion",
-   "codigo": "1561172-1-L126",
-   "nombre": "DRON CON CÁMARA DE ALTA RESOLUCIÓN  PARA  FUNCIONARIOS  EN  INDUCCIÓN  OPERACIONES  DE DE MONITOREO AÉREO",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-09T15:40:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1561172-1-L126",
-   "descripcion": "ADQUISICIÓN DE UN DRON CON CÁMARA DE ALTA RESOLUCIÓN PARA INDUCCIÓN DE FUNCIONARIOS EN OPERACIONES DE MONITOREO AÉREO POR INVESTIGACIÓN FISCALIZACIÓN INTELIGENTE EN PESQUERÍAS ESTRATÉGICAS  CODIGO BIP N°40075904-0 PARA EL SERVICIO NACIONAL DE PESCA Y ACUICULTURA REGIÓN DE COQUIMBO",
-   "organismo": "SERV NACIONAL DE PESCA",
-   "unidad": "IV Sernapesca Coquimbo Cuenta Extrapresupuestaria",
-   "region": "Región de Coquimbo",
-   "comuna": "Coquimbo",
-   "fecha_publicacion": "2026-11-02T15:21:37-03:00",
-   "fecha_adjudicacion": "2026-11-11T15:40:00-03:00",
-   "monto": 1139000.0,
-   "moneda": "CLP",
-   "tipo": "L1",
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — DRON CON CÁMARA DE ALTA RESOLUCIÓN PARA FUNCIONARIOS EN INDUCCIÓN DE OPERACIONES DE MONITOREO AÉREO "
-   ],
-   "terminos": [
-    "Dron",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-09T18:05:13+00:00",
-   "primera_deteccion": "2026-11-02T19:05:10+00:00"
-  },
   {
    "id": "CA:2279-740-COT26",
    "fuente": "compra_agil",
@@ -205,7 +135,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T18:05:13+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -243,6 +173,42 @@
    "primera_deteccion": "2026-11-05T06:05:10+00:00"
   },
   {
+   "id": "LIC:650-60-CO26",
+   "fuente": "licitacion",
+   "codigo": "650-60-CO26",
+   "nombre": "DRON MULTIRROTOR KIT DE ACCESORIOS Y CAPACITACION",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-11T15:10:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=650-60-CO26",
+   "descripcion": "Adquisición de 1 Dron Multirrotor RTKPPK, Modelo de equipo de referencia DJI Matrice 4E o equivalente con sus software de procesamiento aerofotogramétrico en modalidad RTK Real Time Kinematic y PPK Post Processed Kinematic que permitan obtener imágenes alta resolución para las labores de topografía de la Unidad de Gestión de Suelos y otras unidades del Departamento Técnico SERVIU Antofagasta",
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
+   "unidad": "SERVIU II Región",
+   "region": "Región de Antofagasta",
+   "comuna": "Antofagasta",
+   "fecha_publicacion": "2026-10-29T16:23:07-03:00",
+   "fecha_adjudicacion": "2026-11-16T17:00:00-03:00",
+   "monto": 13600000.0,
+   "moneda": "CLP",
+   "tipo": "CO",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — 01 Drone, accesorios, 03 licencias de software y capacitación"
+   ],
+   "terminos": [
+    "Dron",
+    "Multirrotor",
+    "Marcas (DJI, Autel…)",
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
+   "detalle_actualizado": "2026-11-09T18:05:13+00:00",
+   "primera_deteccion": "2026-10-29T20:05:10+00:00"
+  },
+  {
    "id": "LIC:1232565-45-L126",
    "fuente": "licitacion",
    "codigo": "1232565-45-L126",
@@ -270,7 +236,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00"
   },
@@ -303,7 +269,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -335,7 +301,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T18:05:13+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -367,7 +333,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -399,7 +365,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -430,7 +396,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -462,7 +428,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -493,7 +459,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -534,7 +500,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -568,7 +534,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -601,7 +567,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T18:05:13+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -645,7 +611,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T17:05:11+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00"
   },
@@ -677,7 +643,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T18:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -716,7 +682,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -748,7 +714,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
    "detalle_actualizado": "2026-11-09T14:05:14+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -10204,6 +10170,40 @@
    "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "LIC:1561172-1-L126",
+   "fuente": "licitacion",
+   "codigo": "1561172-1-L126",
+   "nombre": "DRON CON CÁMARA DE ALTA RESOLUCIÓN  PARA  FUNCIONARIOS  EN  INDUCCIÓN  OPERACIONES  DE DE MONITOREO AÉREO",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-09T15:40:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1561172-1-L126",
+   "descripcion": "ADQUISICIÓN DE UN DRON CON CÁMARA DE ALTA RESOLUCIÓN PARA INDUCCIÓN DE FUNCIONARIOS EN OPERACIONES DE MONITOREO AÉREO POR INVESTIGACIÓN FISCALIZACIÓN INTELIGENTE EN PESQUERÍAS ESTRATÉGICAS  CODIGO BIP N°40075904-0 PARA EL SERVICIO NACIONAL DE PESCA Y ACUICULTURA REGIÓN DE COQUIMBO",
+   "organismo": "SERV NACIONAL DE PESCA",
+   "unidad": "IV Sernapesca Coquimbo Cuenta Extrapresupuestaria",
+   "region": "Región de Coquimbo",
+   "comuna": "Coquimbo",
+   "fecha_publicacion": "2026-11-02T15:21:37-03:00",
+   "fecha_adjudicacion": "2026-11-11T15:40:00-03:00",
+   "monto": 1139000.0,
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — DRON CON CÁMARA DE ALTA RESOLUCIÓN PARA FUNCIONARIOS EN INDUCCIÓN DE OPERACIONES DE MONITOREO AÉREO "
+   ],
+   "terminos": [
+    "Dron",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-09T18:40:03+00:00",
+   "detalle_actualizado": "2026-11-09T18:05:13+00:00",
+   "primera_deteccion": "2026-11-02T19:05:10+00:00"
   }
  ]
 }
