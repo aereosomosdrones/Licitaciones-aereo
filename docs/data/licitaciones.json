@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-09T12:05:11+00:00",
- "proxima_actualizacion": "2026-11-09T13:05:11+00:00",
+ "generado": "2026-11-09T13:05:11+00:00",
+ "proxima_actualizacion": "2026-11-09T14:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-09T12:05:11+00:00",
+   "ultima_ok": "2026-11-09T13:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5297,
-   "detalles_consultados": 21,
+   "revisadas": 5322,
+   "detalles_consultados": 26,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
@@ -71,41 +71,6 @@
  ],
  "nuevas_en_esta_ejecucion": [],
  "items": [
-  {
-   "id": "CA:2735-1396-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2735-1396-COT26",
-   "nombre": "CURSO DE ESPECIALIZACIÓN EN OPERACIONES DE VUELO NOCTURNO CON AERONAVES PILOTADAS A DISTANCIA (RPAS)",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-04T15:28:00-03:00",
-   "fecha_cierre": "2026-11-09T09:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-04 15:30",
-   "organismo": "I MUNICIPALIDAD LO BARNECHEA",
-   "unidad": "Municipalidad de lo Barnechea - Adquisiciones - Consistorial",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 800000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2735-1396-COT26",
-   "descripcion": "LA DIRECCIÓN DE ASESORIA URBANA Y ESPACIO PÚBLICO, REQUIERE CURSO DE ESPECIALIZACIÓN EN OPERACIONES DE VUELO NOCTURNO CON AERONAVES PILOTADAS A DISTANCIA (RPAS) PARA 3 FUNCIONARIOS MUNICIPALES QUE CUENTAN CON CREDENCIAL DGAC DE OPERADOR RPA VIGENTE. SE TRATA DE UNA ESPECIALIZACIÓN POSTERIOR A LA CREDENCIAL, ORIENTADA A HABILITAR LA OPERACIÓN NOCTURNA CONFORME A LA NORMATIVA DE LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL (DGAC). OFERTAS DEBEN CUMPLIR CON ESPECIFICACIONES EN ARCHIVO ADJUNTO.",
-   "direccion_entrega": "El Rodeo 12.777",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Simuladores de vuelo para aviones — curso de especialización en operaciones de vuelo nocturno con aeronaves pilotadas a distancia \n(RPAS) para 3 funcionarios municipales que cuentan con credencial DGAC de operador RPA vigente. Se trata \nde una especialización posterior a la credencial, orientada a habilitar la operación nocturna conforme a la \nnormativa de la Dirección General de Aeronáutica Civil (DGAC), ampliando la capacidad de levantamiento, \ninspección y catastro de espacio público en horario nocturno. . EETT. EN ADJUNTO.\n\n\n"
-   ],
-   "terminos": [
-    "RPA / RPAS",
-    "Aeronave no tripulada",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
-   "primera_deteccion": "2026-11-05T06:05:10+00:00"
-  },
   {
    "id": "CA:1491850-51-COT26",
    "fuente": "compra_agil",
@@ -206,7 +171,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T12:05:11+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -240,7 +205,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T12:05:11+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00"
   },
@@ -308,7 +273,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T12:05:11+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00"
   },
@@ -373,7 +338,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00"
   },
@@ -406,7 +371,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -438,7 +403,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T12:05:11+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -470,7 +435,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -502,7 +467,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -533,7 +498,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -565,7 +530,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -596,7 +561,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -637,7 +602,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -671,7 +636,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -704,7 +669,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T12:05:11+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -748,7 +713,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T10:05:12+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00"
   },
@@ -780,7 +745,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T12:05:11+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -819,7 +784,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -851,7 +816,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-09T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-09T13:05:11+00:00",
    "detalle_actualizado": "2026-11-09T08:05:10+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -10204,6 +10169,41 @@
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00"
+  },
+  {
+   "id": "CA:2735-1396-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2735-1396-COT26",
+   "nombre": "CURSO DE ESPECIALIZACIÓN EN OPERACIONES DE VUELO NOCTURNO CON AERONAVES PILOTADAS A DISTANCIA (RPAS)",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-04T15:28:00-03:00",
+   "fecha_cierre": "2026-11-09T09:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04 15:30",
+   "organismo": "I MUNICIPALIDAD LO BARNECHEA",
+   "unidad": "Municipalidad de lo Barnechea - Adquisiciones - Consistorial",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 800000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2735-1396-COT26",
+   "descripcion": "LA DIRECCIÓN DE ASESORIA URBANA Y ESPACIO PÚBLICO, REQUIERE CURSO DE ESPECIALIZACIÓN EN OPERACIONES DE VUELO NOCTURNO CON AERONAVES PILOTADAS A DISTANCIA (RPAS) PARA 3 FUNCIONARIOS MUNICIPALES QUE CUENTAN CON CREDENCIAL DGAC DE OPERADOR RPA VIGENTE. SE TRATA DE UNA ESPECIALIZACIÓN POSTERIOR A LA CREDENCIAL, ORIENTADA A HABILITAR LA OPERACIÓN NOCTURNA CONFORME A LA NORMATIVA DE LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL (DGAC). OFERTAS DEBEN CUMPLIR CON ESPECIFICACIONES EN ARCHIVO ADJUNTO.",
+   "direccion_entrega": "El Rodeo 12.777",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Simuladores de vuelo para aviones — curso de especialización en operaciones de vuelo nocturno con aeronaves pilotadas a distancia \n(RPAS) para 3 funcionarios municipales que cuentan con credencial DGAC de operador RPA vigente. Se trata \nde una especialización posterior a la credencial, orientada a habilitar la operación nocturna conforme a la \nnormativa de la Dirección General de Aeronáutica Civil (DGAC), ampliando la capacidad de levantamiento, \ninspección y catastro de espacio público en horario nocturno. . EETT. EN ADJUNTO.\n\n\n"
+   ],
+   "terminos": [
+    "RPA / RPAS",
+    "Aeronave no tripulada",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-06T06:05:10+00:00",
+   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00"
   }
  ]
 }
