@@ -58,6 +58,21 @@ El dashboard ([`docs/index.html`](docs/index.html), HTML estático sin dependenc
 > ejecución más reciente (la del cron o la de un push). Si la cadena se corta (p. ej. GitHub
 > cancela una ejecución), basta con un *Run workflow* manual para retomarla.
 
+## Respaldo manual de Compra Ágil
+
+La API de Compra Ágil de ChileCompra es beta y puede caerse (desde el 6/7-nov-2026 responde
+504 para todos). El buscador público bloquea consultas automáticas desde servidores, así que el
+respaldo es una revisión manual guiada:
+
+- **Recordatorio:** mientras la API falle, a las 9:00, 13:00 y 17:00 (hora de Chile) el radar abre
+  un issue asignado al dueño del repo (llega por correo) con el enlace al buscador público y los
+  términos a buscar. Al abrirse uno nuevo se cierra el anterior; cuando la API vuelve, se cierran todos.
+- **Ingreso:** cada Compra Ágil encontrada se registra con el formulario
+  *Issues → New issue → Agregar Compra Ágil (revisión manual)*. En la siguiente revisión horaria
+  aparece en el dashboard con la etiqueta **MANUAL**. Si después la API la trae, mandan los datos
+  oficiales.
+- **Diagnóstico:** *Actions → Diagnóstico API Compra Ágil → Run workflow* muestra si la API ya responde.
+
 ## Diseño y acceso
 
 - El dashboard usa el sistema de diseño de aereo.cl (repo `aereo-web`: `partials/chrome.css` y

@@ -97,6 +97,11 @@ main.wrap { padding-top: 28px; padding-bottom: 64px; }
 .alert { border: 1px solid var(--line-strong); border-left: 4px solid var(--petrol); border-radius: 4px; background: #fff; padding: 12px 16px; margin-bottom: 12px; display: flex; gap: 10px; align-items: flex-start; font-size: 14px; color: var(--ink-2); }
 .alert strong { display: block; font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 16px; color: var(--ink); letter-spacing: .02em; }
 .alert.err { border-left-color: var(--red); }
+.alert-manual { margin: 8px 0 0; color: var(--ink); }
+.alert-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+.alert-actions .btn { font-size: 14px; padding: 9px 13px; text-decoration: none; }
+.btn-ghost { background: #fff; }
+.tag.manual { background: var(--ink); color: #fff; border-color: var(--ink); font-weight: 700; text-decoration: none; }
 
 /* ---------- Indicadores (stats de aereo-ui) ---------- */
 .kpis { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); border: 1px solid var(--line); background: #fff; margin: 4px 0 24px; }
@@ -330,6 +335,8 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
 (() => {
   "use strict";
   const DATA_URL = "data/licitaciones.json";
+  const BUSCADOR_CA = "https://buscador.mercadopublico.cl/compra-agil";
+  const FORM_MANUAL = "https://github.com/aereosomosdrones/Licitaciones-aereo/issues/new?template=compra-agil-manual.yml";
   const REMOTE_URL = document.querySelector('meta[name="radar-datos"]')?.content;
   const POLL_MS = 10 * 60 * 1000; // consulta si hay datos nuevos cada 10 min (el radar corre cada hora)
   const PAGE = 40;
@@ -363,7 +370,8 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
     if (m < 60) return `${m} min`;
     const h = Math.floor(m / 60);
     if (h < 48) return `${h} h${m % 60 && h < 6 ? ` ${m % 60} min` : ""}`;
-    return `${Math.floor(a / DAY)} días`;
+    const d = Math.floor(m / 1440);
+    return d === 1 ? "1 día" : `${d} días`;
   };
   function deadline(item, now) {
     if (!item.fecha_cierre) return { cls: "past", text: "Sin fecha de cierre" };
@@ -456,7 +464,9 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
     $("#alerts").innerHTML = errs.map(([k, label]) => {
       const f = fuentes[k];
       const last = f.ultima_ok ? ` Última revisión exitosa: ${fmtDate.format(new Date(f.ultima_ok))}.` : "";
-      return `<div class="alert err" role="alert"><span aria-hidden="true">⚠</span><div><strong>${label}: no se pudo revisar en la última ejecución</strong>${esc(f.mensaje)}${last} Se muestran los últimos datos conocidos.</div></div>`;
+      const manual = k === "compra_agil" ? `<p class="alert-manual">Mientras tanto, revisión manual (3 veces al día): busca en el buscador público y registra lo que encuentres; aparecerá aquí con la etiqueta MANUAL.</p>
+        <div class="alert-actions"><a class="btn" href="${BUSCADOR_CA}" target="_blank" rel="noopener">Abrir buscador Compra Ágil ↗</a><a class="btn btn-ghost" href="${FORM_MANUAL}" target="_blank" rel="noopener">+ Agregar Compra Ágil</a></div>` : "";
+      return `<div class="alert err" role="alert"><span aria-hidden="true">⚠</span><div><strong>${label}: no se pudo revisar en la última ejecución</strong>${esc(f.mensaje)}${last} Se muestran los últimos datos conocidos.${manual}</div></div>`;
     }).join("");
     Object.entries(names).forEach(([k, label]) => {
       const adv = fuentes[k]?.ok && fuentes[k].advertencias;
@@ -615,6 +625,7 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
         <div class="badges">
           <span class="src ${i.fuente}">${i.fuente === "compra_agil" ? "Compra Ágil" : "Licitación"}</span>
           ${isNew(i, now) ? `<span class="tag new">NUEVA</span>` : ""}
+          ${i.origen === "manual" ? `<a class="tag manual" href="${esc(i.issue_url || FORM_MANUAL)}" target="_blank" rel="noopener" title="Ingresada a mano desde el buscador público">MANUAL</a>` : ""}
           <span class="tag estado-${esc(i.estado)}">${esc(i.estado_glosa || i.estado)}</span>
           <span class="code">${esc(i.codigo)}</span>
         </div>

@@ -308,6 +308,7 @@ def compra_agil_desde_listado(i: dict) -> dict:
     return {
         "id": f"CA:{codigo}",
         "fuente": "compra_agil",
+        "origen": "api",
         "codigo": codigo,
         "nombre": (i.get("nombre") or "").strip(),
         "estado": ESTADOS_COMPRA_AGIL.get(estado_api, "otro"),

@@ -16,6 +16,7 @@ on:
 permissions:
   contents: write
   actions: write
+  issues: write  # ingresos manuales de Compra Ágil y recordatorios
 
 jobs:
   radar:
@@ -41,7 +42,16 @@ jobs:
         continue-on-error: true
         env:
           MERCADO_PUBLICO_TICKET: ${{ secrets.MERCADO_PUBLICO_TICKET }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: python -m radar.monitor
+
+      # Si la API de Compra Ágil no responde, a las 9, 13 y 17 h de Chile se abre un
+      # issue asignado al dueño del repo con los pasos de la revisión manual.
+      - name: Recordatorio de revisión manual de Compra Ágil
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m radar.manual recordatorio
 
       - name: Guardar datos en el repositorio
         run: |
