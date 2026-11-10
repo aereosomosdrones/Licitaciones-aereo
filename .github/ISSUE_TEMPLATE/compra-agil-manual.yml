@@ -1,0 +1,52 @@
+name: Agregar Compra Ágil (revisión manual)
+description: Registra una Compra Ágil de drones encontrada en el buscador público para que aparezca en el radar.
+title: "[Compra Ágil manual] "
+labels: ["compra-agil-manual"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Úsalo cuando la API de Compra Ágil no responde. Copia los datos desde
+        https://buscador.mercadopublico.cl/compra-agil. El radar la agrega al dashboard
+        en su próxima revisión (dentro de la hora). Cierra este issue cuando ya no sea necesario seguirla.
+  - type: input
+    id: codigo
+    attributes:
+      label: Código de la Compra Ágil
+      description: Tal como aparece en el buscador.
+      placeholder: 1234567-89-COT26
+    validations:
+      required: true
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre
+      placeholder: Adquisición de dron con cámara térmica
+    validations:
+      required: true
+  - type: input
+    id: organismo
+    attributes:
+      label: Organismo comprador
+      placeholder: Municipalidad de …
+  - type: input
+    id: region
+    attributes:
+      label: Región
+      placeholder: Región Metropolitana de Santiago
+  - type: input
+    id: cierre
+    attributes:
+      label: Fecha de cierre
+      description: Formato dd-mm-aaaa hh:mm (hora de Chile).
+      placeholder: 14-11-2026 15:00
+  - type: input
+    id: monto
+    attributes:
+      label: Monto disponible (CLP)
+      placeholder: "2500000"
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas
+      description: Descripción o productos solicitados (opcional).

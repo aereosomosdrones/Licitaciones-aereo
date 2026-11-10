@@ -106,8 +106,10 @@ class Radar:
         ahora: datetime,
         config: Config | None = None,
         reloj=time.monotonic,
+        manuales: list[dict] | None = None,
     ):
         self.dicc = diccionario
+        self.manuales = manuales or []
         self.lic = api_licitaciones
         self.ca = api_compra_agil
         self.ahora = ahora
@@ -116,6 +118,7 @@ class Radar:
         self.inicio = reloj()
         self.items: dict[str, dict] = {i["id"]: i for i in datos_previos.get("items", [])}
         self.cache = {
+            **cache,  # conserva otras claves (p. ej. las del recordatorio manual)
             # Códigos de licitaciones activas cuyo detalle ya se revisó (lista ordenada en disco).
             "lic_revisadas": set(cache.get("lic_revisadas", [])),
             "ca_descartadas": cache.get("ca_descartadas", {}),
@@ -406,11 +409,22 @@ class Radar:
             log.error("%s: %s", nombre, e)
             return {"ok": False, "mensaje": str(e)[:300], "ultima_ok": previo.get("ultima_ok")}
 
+    def _agregar_manuales(self) -> None:
+        """Compras Ágiles ingresadas a mano (respaldo cuando la API no responde)."""
+        for manual in self.manuales:
+            previo = self.items.get(manual["id"])
+            if previo and previo.get("origen") != "manual":
+                previo["issue_url"] = manual.get("issue_url")  # la API ya la trajo: manda la API
+                continue
+            self._guardar(manual, self._terminos(manual) or ["Ingreso manual"], detalle=False)
+
     def _reevaluar(self) -> None:
         """Aplica los términos vigentes a todo lo guardado: si se corrige config/terminos.json,
         los procesos que ya no coinciden desaparecen y las etiquetas se actualizan."""
         for id_, item in list(self.items.items()):
             terminos = self._terminos(item)
+            if not terminos and item.get("origen") == "manual":
+                terminos = ["Ingreso manual"]  # la eligió una persona: se conserva
             if not terminos:
                 log.info("Ya no coincide con los términos: %s %s", item.get("codigo"), (item.get("nombre") or "")[:80])
                 del self.items[id_]
@@ -438,6 +452,7 @@ class Radar:
             "licitaciones": self._ejecutar_fuente("licitaciones", self.lic, self.revisar_licitaciones),
             "compra_agil": self._ejecutar_fuente("compra_agil", self.ca, self.revisar_compra_agil),
         }
+        self._agregar_manuales()
         self._reevaluar()
         self._cierre_por_fecha()
         self._podar()
@@ -475,6 +490,11 @@ def main(argv: list[str] | None = None) -> int:
     api_lic = ApiLicitaciones(ticket, http) if ticket and args.solo != "compra_agil" else None
     api_ca = ApiCompraAgil(ticket, ClienteHTTP(reintentos=1)) if ticket and args.solo != "licitaciones" else None
 
+    from .manual import github_desde_entorno, leer_ingresos_manuales
+
+    manuales = leer_ingresos_manuales(github_desde_entorno())
+    if manuales:
+        log.info("Compras Ágiles ingresadas a mano: %s", len(manuales))
     radar = Radar(
         Diccionario.desde_archivo(args.terminos),
         api_lic,
@@ -482,6 +502,7 @@ def main(argv: list[str] | None = None) -> int:
         _leer_json(args.datos, {}),
         _leer_json(args.cache, {}),
         ahora_utc(),
+        manuales=manuales,
     )
     datos, cache = radar.ejecutar()
     _escribir_json(args.datos, datos)
