@@ -1,0 +1,31 @@
+name: Explorar buscador Compra Ágil
+
+# Herramienta de diagnóstico: abre el buscador público de Compra Ágil en un navegador
+# y registra de dónde obtiene los datos. Se lanza a mano.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  explorar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar navegador
+        run: |
+          pip install playwright==1.48.0
+          python -m playwright install --with-deps chromium
+      - name: Explorar buscador.mercadopublico.cl
+        run: python -m tools.explorar_buscador exploracion
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: exploracion-buscador
+          path: exploracion
+          retention-days: 7
