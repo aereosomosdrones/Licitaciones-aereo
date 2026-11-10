@@ -21,8 +21,11 @@ def z(fecha: datetime) -> str:
     return fecha.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def probar(nombre: str, url: str, ticket: str) -> None:
-    pedido = urllib.request.Request(url, headers={"ticket": ticket, "Accept": "application/json"})
+def probar(nombre: str, url: str, ticket: str | None) -> None:
+    cabeceras = {"Accept": "application/json"}
+    if ticket is not None:
+        cabeceras["ticket"] = ticket
+    pedido = urllib.request.Request(url, headers=cabeceras)
     inicio = time.monotonic()
     try:
         with urllib.request.urlopen(pedido, timeout=45) as resp:
@@ -67,6 +70,10 @@ def main() -> None:
         ("q=VANT publicados últimos 7 días", q(q="VANT", publicado_desde=z(ahora - timedelta(days=7)), publicado_hasta=z(ahora), tamano_pagina=10)),
     ]
     print(f"Diagnóstico Compra Ágil · {z(ahora)}")
+    # Sin ticket y con uno inventado: si responden rápido (401/403) y el ticket real se
+    # queda colgado, el problema es del ticket; si también se cuelgan, la API está caída.
+    probar("SIN ticket", q(estado="publicada", tamano_pagina=10), None)
+    probar("ticket inventado", q(estado="publicada", tamano_pagina=10), "00000000-0000-0000-0000-000000000000")
     for nombre, url in pruebas:
         probar(nombre, url, ticket)
         time.sleep(1)
