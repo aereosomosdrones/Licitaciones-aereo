@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Licitaciones · AÉREO</title>
+<!-- Copia de los datos que el radar actualiza cada hora en GitHub. Si se puede leer (repositorio
+     público), el dashboard la usa aunque el sitio se haya publicado una sola vez (p. ej. en Netlify). -->
+<meta name="radar-datos" content="https://raw.githubusercontent.com/aereosomosdrones/Licitaciones-aereo/main/docs/data/licitaciones.json">
+<meta name="description" content="Licitaciones y Compras Ágiles de Mercado Público relacionadas con drones, RPAS y servicios aéreos. Se actualiza cada hora.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0A0C0D">
+<link rel="icon" type="image/png" href="assets/aereo-iso-black.png">
+<link rel="preload" href="assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/roboto.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* Tipografías y paleta de aereo.cl (partials/chrome.css y assets/aereo-ui.css del sitio). */
+@font-face{font-family:"Big Shoulders Display";src:url("assets/fonts/big-shoulders.woff2") format("woff2-variations");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Roboto";src:url("assets/fonts/roboto.woff2") format("woff2-variations");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Roboto Mono";src:url("assets/fonts/roboto-mono.woff2") format("woff2-variations");font-weight:100 700;font-display:swap}
+:root {
+  color-scheme: light;
+  --yellow: #ECE31D; --yellow-deep: #D8CF12; --yellow-soft: #FBF9C8;
+  --petrol: #425D76; --blue: #104A7F; --green: #156B69; --red: #d23b1f;
+  --bg: #FFFFFF; --bg-2: #F4F5F6; --bg-3: #EDEFF1;
+  --line: #E2E5E8; --line-strong: #C9CDD1;
+  --ink: #0A0C0D; --ink-2: #5C636A; --ink-3: #6A6F76;
+  --hd: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+  --bd: 'Roboto', system-ui, sans-serif;
+  --mn: 'Roboto Mono', ui-monospace, monospace;
+  --ease: cubic-bezier(.22,.61,.36,1);
+  --maxw: 1240px;
+}
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { font-optical-sizing: none; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 300 15px/1.6 var(--bd); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+h1, h2, h3 { font-family: var(--hd); text-transform: uppercase; font-weight: 900; letter-spacing: .4px; line-height: .95; margin: 0; }
+a { color: var(--blue); }
+b, strong { font-weight: 700; }
+button, input, select { font: inherit; color: inherit; }
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
+@media (min-width: 820px) { .wrap { padding: 0 34px; } }
+.mono { font-family: var(--mn); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
+
+/* ---------- Banda superior + nav ---------- */
+.topbar { background: var(--ink); color: #fff; }
+.topbar-in { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; height: 30px; display: flex; align-items: center; justify-content: space-between; gap: 16px; overflow: hidden; }
+.tb-main { font-family: var(--mn); font-weight: 500; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; margin: 0; white-space: nowrap; }
+.tb-creds { display: none; list-style: none; margin: 0; padding: 0; }
+.tb-creds li { font-family: var(--mn); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--yellow); padding: 0 14px; position: relative; white-space: nowrap; }
+.tb-creds li + li::before { content: ""; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 1px; height: 10px; background: rgba(255,255,255,.28); }
+.tb-creds li:last-child { padding-right: 0; color: rgba(255,255,255,.6); }
+@media (min-width: 760px) { .tb-creds { display: flex; } }
+.nav { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.88); backdrop-filter: saturate(160%) blur(12px); -webkit-backdrop-filter: saturate(160%) blur(12px); }
+.nav-in { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; height: 66px; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+@media (min-width: 820px) { .nav-in { padding: 0 34px; } }
+.brand { display: flex; align-items: center; gap: 11px; text-decoration: none; min-width: 0; }
+.brand img { height: 21px; width: auto; display: block; }
+.brand .brand-tag { font-family: var(--mn); font-size: 9px; letter-spacing: .3em; text-transform: uppercase; color: var(--ink-3); border-left: 1px solid var(--line); padding-left: 11px; white-space: nowrap; display: none; }
+@media (min-width: 560px) { .brand .brand-tag { display: block; } }
+.nav-meta { display: flex; align-items: center; gap: 10px; }
+#sources { display: none; gap: 8px; }
+@media (min-width: 900px) { #sources { display: flex; } }
+.pill { display: inline-flex; align-items: center; gap: 7px; font-family: var(--mn); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); border: 1px solid var(--line-strong); border-radius: 30px; padding: 5px 11px; background: #fff; white-space: nowrap; }
+.pill .dot { width: 8px; height: 8px; border-radius: 50%; }
+.pill.ok .dot { background: var(--green); }
+.pill.err { border-color: var(--red); color: var(--red); }
+.pill.err .dot { background: var(--red); }
+.nav-ghost { font-family: var(--mn); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; background: #fff; border: 1px solid #000; border-radius: 2px; padding: 8px 11px; cursor: pointer; white-space: nowrap; }
+.nav-ghost:hover { background: var(--yellow-soft); }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 14px; letter-spacing: .02em; background: var(--yellow); color: #000; padding: 10px 14px; border: 1px solid #000; border-radius: 2px; box-shadow: 3px 3px 0 #000; text-decoration: none; white-space: nowrap; transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
+.nav-cta:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 #000; }
+
+/* ---------- Hero ---------- */
+.hero { position: relative; overflow: hidden; padding: 36px 0 32px; border-bottom: 1px solid var(--line); }
+@media (min-width: 820px) { .hero { padding: 52px 0 44px; } }
+.hero .wrap { position: relative; z-index: 2; }
+.eyebrow { font-family: var(--mn); font-weight: 500; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--petrol); display: inline-flex; align-items: center; gap: 10px; }
+.eyebrow::before { content: ""; width: 22px; height: 1px; background: var(--petrol); }
+.eyebrow .idx { color: var(--ink-3); }
+.hero h1 { font-size: clamp(40px, 6.4vw, 74px); max-width: 18ch; margin-top: 16px; }
+.hero h1 .hl { background: linear-gradient(transparent 64%, var(--yellow) 64%); padding: 0 .06em; }
+.hero .sub { font-size: clamp(16px, 2vw, 19px); color: var(--ink-2); margin: 20px 0 0; max-width: 58ch; }
+.hero-tags { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-family: var(--mn); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); border: 1px solid var(--line-strong); border-radius: 30px; padding: 6px 13px; background: #fff; }
+.chip b { color: var(--ink); }
+.radar { position: absolute; right: -40px; top: 50%; width: 340px; height: 340px; transform: translateY(-50%); pointer-events: none; z-index: 1; display: none; }
+@media (min-width: 980px) { .radar { display: block; } }
+.radar .ring { position: absolute; inset: 0; border: 1px solid var(--line); border-radius: 50%; }
+.radar .r2 { inset: 15%; } .radar .r3 { inset: 30%; } .radar .r4 { inset: 45%; }
+.radar .sweep { position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg, rgba(236,227,29,.55), transparent 26%); animation: spin 4.8s linear infinite; -webkit-mask: radial-gradient(circle, transparent 7%, #000 8%); mask: radial-gradient(circle, transparent 7%, #000 8%); }
+.radar .blip { position: absolute; width: 10px; height: 10px; border-radius: 50%; background: #000; box-shadow: 0 0 0 4px var(--yellow); }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+main.wrap { padding-top: 28px; padding-bottom: 64px; }
+.alert { border: 1px solid var(--line-strong); border-left: 4px solid var(--petrol); border-radius: 4px; background: #fff; padding: 12px 16px; margin-bottom: 12px; display: flex; gap: 10px; align-items: flex-start; font-size: 14px; color: var(--ink-2); }
+.alert strong { display: block; font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 16px; color: var(--ink); letter-spacing: .02em; }
+.alert.err { border-left-color: var(--red); }
+
+/* ---------- Indicadores (stats de aereo-ui) ---------- */
+.kpis { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); border: 1px solid var(--line); background: #fff; margin: 4px 0 24px; }
+@media (min-width: 760px) { .kpis { grid-template-columns: repeat(4, minmax(0,1fr)); } }
+.kpi { text-align: left; background: #fff; border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 22px 18px; cursor: pointer; transition: background .2s; }
+.kpi:hover { background: var(--yellow-soft); }
+.kpi .value { font-family: var(--hd); font-weight: 900; font-size: clamp(34px, 4.6vw, 52px); line-height: 1; font-variant-numeric: tabular-nums; }
+.kpi .label { font-family: var(--mn); font-size: 11px; letter-spacing: .13em; text-transform: uppercase; color: var(--ink-3); margin-top: 8px; }
+.kpi .sub { font-size: 12.5px; color: var(--ink-2); margin-top: 4px; }
+
+/* ---------- Gráficos ---------- */
+.charts { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 28px; }
+.card { background: #fff; border: 1px solid var(--line-strong); border-radius: 4px; }
+.chart { padding: 22px 22px 18px; position: relative; min-width: 0; }
+.chart h2 { font-size: 22px; letter-spacing: .02em; }
+.chart p.sub { margin: 4px 0 14px; font-family: var(--mn); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+.chart svg { display: block; width: 100%; overflow: visible; }
+.chart .axis { fill: var(--ink-3); font: 400 10.5px var(--mn); }
+.chart .lbl { fill: var(--ink-2); font: 400 12.5px var(--bd); }
+.chart .val { fill: var(--ink); font: 800 15px var(--hd); }
+.chart .bar { fill: var(--yellow); stroke: #000; stroke-width: 1; }
+.chart .hit { fill: transparent; cursor: pointer; }
+.chart g.row:hover .bar, .chart g.row.on .bar { fill: #000; }
+.chart g.row.on .lbl { fill: var(--ink); font-weight: 700; }
+.chart .gridline { stroke: var(--line); }
+.tip { position: absolute; pointer-events: none; background: #000; color: #fff; padding: 6px 10px; border-radius: 2px; font: 400 12px var(--mn); white-space: nowrap; transform: translate(-50%, -110%); opacity: 0; transition: opacity .1s; z-index: 5; box-shadow: 3px 3px 0 var(--yellow); }
+.empty-chart { color: var(--ink-3); font-size: 14px; padding: 28px 0; text-align: center; }
+
+/* ---------- Filtros ---------- */
+.sec-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin: 8px 0 16px; }
+.sec-head h2 { font-size: clamp(30px, 5vw, 46px); margin-top: 10px; }
+.filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; padding: 14px; margin-bottom: 12px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 4px; }
+.filters input[type=search] { flex: 1 1 100%; min-width: 0; padding: 12px 14px; border: 1px solid #000; border-radius: 2px; background: #fff; font-weight: 400; }
+.filters input[type=search]:focus, .filters select:focus { outline: 3px solid var(--yellow); outline-offset: 0; }
+.filters select { padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 2px; background: #fff; max-width: 100%; font-weight: 400; }
+.seg { display: inline-flex; border: 1px solid #000; border-radius: 2px; overflow: hidden; }
+.seg button { border: 0; background: #fff; padding: 9px 13px; cursor: pointer; white-space: nowrap; font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 15px; letter-spacing: .02em; }
+.seg button + button { border-left: 1px solid #000; }
+.seg button[aria-pressed=true] { background: var(--yellow); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-family: var(--hd); font-weight: 800; text-transform: uppercase; letter-spacing: .02em; font-size: 15px; line-height: 1; padding: 11px 16px; color: #000; background: var(--yellow); border: 1px solid #000; border-radius: 2px; box-shadow: 3px 3px 0 #000; cursor: pointer; white-space: nowrap; transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
+.btn:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 #000; }
+.btn:active { transform: translate(2px,2px); box-shadow: 1px 1px 0 #000; }
+.chips-active { display: flex; gap: 6px; flex-wrap: wrap; margin: 0 0 10px; }
+.chip-x { font-family: var(--mn); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; border: 1px solid #000; background: var(--yellow); border-radius: 30px; padding: 5px 12px; cursor: pointer; }
+.count { font-family: var(--mn); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 10px; }
+
+/* ---------- Resultados ---------- */
+.list { display: flex; flex-direction: column; gap: 12px; }
+.item { display: grid; grid-template-columns: minmax(0,1fr) 230px; gap: 20px; padding: 20px 22px; transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
+.item:hover { transform: translate(-3px,-3px); box-shadow: 7px 7px 0 var(--ink); }
+.item.closed { background: var(--bg-2); }
+.item.closed h3 a { color: var(--ink-2); }
+.badges { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+.src { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mn); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-2); font-weight: 500; }
+.src::before { content: ""; width: 9px; height: 9px; background: var(--c); border: 1px solid #000; }
+.src.licitacion { --c: var(--blue); }
+.src.compra_agil { --c: var(--yellow); }
+.tag { font-family: var(--mn); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; border-radius: 3px; padding: 3px 8px; border: 1px solid var(--line-strong); color: var(--ink-2); background: #fff; }
+.tag.new { background: var(--yellow); color: #000; border-color: #000; font-weight: 700; }
+.tag.estado-abierta { color: var(--green); border-color: var(--green); }
+.code { font-family: var(--mn); font-size: 11px; color: var(--ink-3); letter-spacing: .04em; }
+.item h3 { font-size: clamp(20px, 2.2vw, 25px); line-height: 1.02; font-weight: 800; letter-spacing: .01em; }
+.item h3 a { color: var(--ink); text-decoration: none; background-image: linear-gradient(var(--yellow), var(--yellow)); background-size: 0 40%; background-position: 0 88%; background-repeat: no-repeat; transition: background-size .3s var(--ease); }
+.item h3 a:hover { background-size: 100% 40%; }
+.org { color: var(--ink-2); font-size: 14px; margin-top: 6px; font-weight: 400; }
+.terms { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
+.term { font-family: var(--mn); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; padding: 4px 9px; border-radius: 30px; background: #fff; color: var(--ink); border: 1px solid var(--line-strong); cursor: pointer; }
+.term:hover { border-color: #000; background: var(--yellow-soft); }
+.term.derivado { color: var(--petrol); border-style: dashed; }
+details { margin-top: 12px; font-size: 14px; color: var(--ink-2); }
+details summary { cursor: pointer; font-family: var(--mn); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--petrol); width: fit-content; }
+details p { white-space: pre-line; margin: 8px 0; }
+details ul { margin: 6px 0; padding-left: 18px; }
+.side { text-align: right; display: flex; flex-direction: column; gap: 5px; align-items: flex-end; border-left: 1px solid var(--line); padding-left: 20px; }
+.amount { font-family: var(--hd); font-weight: 900; font-size: 28px; line-height: 1; font-variant-numeric: tabular-nums; }
+.amount.none { font-family: var(--mn); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); font-weight: 400; }
+.deadline { font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 16px; letter-spacing: .02em; display: inline-flex; align-items: center; gap: 7px; margin-top: 4px; }
+.deadline .ico { width: 10px; height: 10px; border-radius: 50%; flex: none; border: 1px solid #000; }
+.deadline.critical { color: var(--red); } .deadline.critical .ico { background: var(--red); border-color: var(--red); }
+.deadline.warning .ico { background: var(--yellow); }
+.deadline.good { color: var(--green); } .deadline.good .ico { background: var(--green); border-color: var(--green); }
+.deadline.past { color: var(--ink-3); } .deadline.past .ico { background: var(--line-strong); border-color: var(--line-strong); }
+.date { font-family: var(--mn); font-size: 10.5px; letter-spacing: .04em; color: var(--ink-3); }
+.empty { text-align: center; padding: 52px 16px; color: var(--ink-2); }
+.empty b { display: block; font-family: var(--hd); text-transform: uppercase; font-weight: 900; color: var(--ink); font-size: 26px; margin-bottom: 6px; }
+.more { margin: 18px auto 0; display: flex; }
+
+/* ---------- Pie ---------- */
+footer { border-top: 1px solid var(--line); padding: 40px 0 34px; }
+.ft-top { display: grid; gap: 26px; grid-template-columns: 1fr; }
+@media (min-width: 760px) { .ft-top { grid-template-columns: 1fr 1.6fr; } }
+.ft-brand img { height: 26px; width: auto; display: block; margin-bottom: 12px; }
+.ft-brand p { font-size: 14px; color: var(--ink-2); margin: 0; }
+footer h4 { font-family: var(--mn); font-weight: 500; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 10px; }
+footer .terms-list { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+footer .terms-list .term { cursor: default; }
+footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
+.ft-bottom { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); font-family: var(--mn); font-size: 10.5px; letter-spacing: .08em; color: var(--ink-3); text-transform: uppercase; }
+.ft-bottom a { color: var(--ink-3); }
+
+.toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%) translateY(120%); background: #000; color: #fff; border: 1px solid #000; box-shadow: 4px 4px 0 var(--yellow); padding: 12px 18px; border-radius: 2px; font: 400 13px var(--mn); letter-spacing: .04em; transition: transform .25s, opacity .25s; z-index: 60; max-width: calc(100% - 32px); opacity: 0; visibility: hidden; }
+.toast.show { transform: translateX(-50%) translateY(0); opacity: 1; visibility: visible; }
+
+@media (max-width: 900px) { .charts { grid-template-columns: 1fr; } }
+@media (max-width: 640px) {
+  .item { grid-template-columns: 1fr; gap: 12px; padding: 18px; }
+  .side { text-align: left; align-items: flex-start; border-left: 0; border-top: 1px solid var(--line); padding: 12px 0 0; }
+  .nav-cta .lbl { display: none; }
+  .seg button { padding: 9px 10px; font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar-in">
+    <p class="tb-main">Radar de licitaciones · drones y RPAS</p>
+    <ul class="tb-creds"><li>Mercado Público</li><li>Compra Ágil</li><li>Se actualiza cada hora</li></ul>
+  </div>
+</div>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="https://aereo.cl" target="_blank" rel="noopener" aria-label="AÉREO">
+      <img src="assets/aereo-wordmark-black.png" alt="AÉREO" width="1725" height="282">
+      <span class="brand-tag">Radar de licitaciones</span>
+    </a>
+    <div class="nav-meta">
+      <span id="sources"></span>
+      <button class="nav-ghost" id="notify" type="button" hidden>🔔 Avisarme</button>
+      <a class="nav-cta" href="https://aereo.cl" target="_blank" rel="noopener"><span class="lbl">Ir a</span> aereo.cl ↗</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="radar" aria-hidden="true">
+    <div class="ring"></div><div class="ring r2"></div><div class="ring r3"></div><div class="ring r4"></div>
+    <div class="sweep"></div>
+    <span class="blip" style="left:30%;top:36%"></span><span class="blip" style="left:62%;top:24%"></span><span class="blip" style="left:56%;top:70%"></span>
+  </div>
+  <div class="wrap">
+    <span class="eyebrow"><span class="idx">01</span> Mercado Público · Compra Ágil</span>
+    <h1>Radar de <span class="hl">licitaciones</span> de drones</h1>
+    <p class="sub">Todas las licitaciones y compras ágiles del Estado relacionadas con drones, RPAS y servicios aéreos, revisadas automáticamente cada hora.</p>
+    <div class="hero-tags">
+      <span class="chip" id="updated" title="">Cargando…</span>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div id="alerts"></div>
+
+  <section class="kpis" aria-label="Resumen">
+    <button class="kpi" data-kpi="abiertas"><div class="value" id="k-abiertas">–</div><div class="label">Abiertas ahora</div><div class="sub" id="k-abiertas-sub">&nbsp;</div></button>
+    <button class="kpi" data-kpi="nuevas"><div class="value" id="k-nuevas">–</div><div class="label">Nuevas · 24 h</div><div class="sub">detectadas por el radar</div></button>
+    <button class="kpi" data-kpi="cierran"><div class="value" id="k-cierran">–</div><div class="label">Cierran en ≤ 7 días</div><div class="sub" id="k-cierran-sub">&nbsp;</div></button>
+    <div class="kpi" style="cursor:default"><div class="value" id="k-monto">–</div><div class="label">Monto abierto</div><div class="sub">CLP · procesos con monto publicado</div></div>
+  </section>
+
+  <section class="charts">
+    <div class="card chart" id="chart-terms">
+      <h2>Abiertos por término</h2>
+      <p class="sub">Clic en una barra para filtrar</p>
+      <div class="body"></div>
+      <div class="tip"></div>
+    </div>
+    <div class="card chart" id="chart-weeks">
+      <h2>Publicados por semana</h2>
+      <p class="sub">Últimas 12 semanas · todos los estados</p>
+      <div class="body"></div>
+      <div class="tip"></div>
+    </div>
+  </section>
+
+  <div class="sec-head">
+    <div>
+      <span class="eyebrow"><span class="idx">02</span> Oportunidades</span>
+      <h2>Procesos detectados</h2>
+    </div>
+  </div>
+  <section class="filters" aria-label="Filtros">
+    <input type="search" id="q" placeholder="Buscar por nombre, organismo, código o descripción…" aria-label="Buscar">
+    <div class="seg" role="group" aria-label="Fuente">
+      <button type="button" data-fuente="" aria-pressed="true">Todas</button>
+      <button type="button" data-fuente="licitacion" aria-pressed="false">Licitaciones</button>
+      <button type="button" data-fuente="compra_agil" aria-pressed="false">Compra Ágil</button>
+    </div>
+    <select id="estado" aria-label="Estado">
+      <option value="abierta">Abiertas</option>
+      <option value="">Todos los estados</option>
+      <option value="cerrada">Cerradas (en evaluación)</option>
+      <option value="adjudicada">Adjudicadas</option>
+      <option value="desierta">Desiertas</option>
+      <option value="cancelada">Canceladas / revocadas</option>
+    </select>
+    <select id="region" aria-label="Región"><option value="">Todas las regiones</option></select>
+    <select id="orden" aria-label="Orden">
+      <option value="cierre">Cierre más próximo</option>
+      <option value="nuevas">Detectadas más recientemente</option>
+      <option value="publicacion">Publicadas más recientemente</option>
+      <option value="monto">Mayor monto</option>
+    </select>
+    <button class="btn" id="csv" type="button">⬇ Exportar CSV</button>
+  </section>
+  <div class="chips-active" id="active"></div>
+  <p class="count" id="count"></p>
+  <section class="list" id="list" aria-live="polite"></section>
+  <button class="btn more" id="more" type="button" hidden>Mostrar más</button>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="ft-top">
+      <div class="ft-brand">
+        <img src="assets/aereo-wordmark-black.png" alt="AÉREO" width="1725" height="282">
+        <p>Escuela profesional de pilotos RPAS · AOC 2144 · Somos drones</p>
+      </div>
+      <div>
+        <h4>Términos monitoreados</h4>
+        <div class="terms-list" id="terms-list"></div>
+        <p class="note">Fuente: API pública de <a href="https://www.mercadopublico.cl" target="_blank" rel="noopener">Mercado Público</a> (Licitaciones y Compra Ágil) · ChileCompra. El radar revisa automáticamente cada hora y esta página se refresca sola. Verifica siempre las bases en la ficha oficial antes de postular.</p>
+      </div>
+    </div>
+    <div class="ft-bottom"><span>© AÉREO SpA · Uso interno</span><a href="https://aereo.cl" target="_blank" rel="noopener">aereo.cl</a></div>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(() => {
+  "use strict";
+  const DATA_URL = "data/licitaciones.json";
+  const REMOTE_URL = document.querySelector('meta[name="radar-datos"]')?.content;
+  const POLL_MS = 10 * 60 * 1000; // consulta si hay datos nuevos cada 10 min (el radar corre cada hora)
+  const PAGE = 40;
+  const TZ = "America/Santiago";
+  const DAY = 864e5;
+
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const norm = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+  };
+
+  const fmtCLP = new Intl.NumberFormat("es-CL", { style: "currency", currency: "CLP", maximumFractionDigits: 0 });
+  const fmtNum = new Intl.NumberFormat("es-CL");
+  const fmtDate = new Intl.DateTimeFormat("es-CL", { timeZone: TZ, day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" });
+  const fmtDay = new Intl.DateTimeFormat("es-CL", { timeZone: TZ, day: "numeric", month: "short" });
+  const compactCLP = n => n >= 1e9 ? `$${(n / 1e9).toLocaleString("es-CL", { maximumFractionDigits: 1 })} mil M`
+    : n >= 1e6 ? `$${(n / 1e6).toLocaleString("es-CL", { maximumFractionDigits: 1 })} M` : fmtCLP.format(n);
+
+  let data = null;
+  let shown = PAGE;
+  const st = { q: "", fuente: "", estado: "abierta", region: "", orden: "cierre", termino: "", soloNuevas: false, cierran7: false };
+
+  // ---------- Tiempo ----------
+  const rel = (ms) => {
+    const a = Math.abs(ms), m = Math.round(a / 6e4);
+    if (m < 1) return "un momento";
+    if (m < 60) return `${m} min`;
+    const h = Math.floor(m / 60);
+    if (h < 48) return `${h} h${m % 60 && h < 6 ? ` ${m % 60} min` : ""}`;
+    return `${Math.floor(a / DAY)} días`;
+  };
+  function deadline(item, now) {
+    if (!item.fecha_cierre) return { cls: "past", text: "Sin fecha de cierre" };
+    const diff = new Date(item.fecha_cierre) - now;
+    if (diff <= 0 || item.estado !== "abierta") return { cls: "past", text: `Cerró ${fmtDay.format(new Date(item.fecha_cierre))}` };
+    const cls = diff < 2 * DAY ? "critical" : diff < 7 * DAY ? "warning" : "good";
+    return { cls, text: `Cierra en ${rel(diff)}` };
+  }
+  const isNew = (i, now) => i.primera_deteccion && now - new Date(i.primera_deteccion) < DAY;
+  const isOpen = i => i.estado === "abierta";
+
+  // ---------- Carga ----------
+  async function load(silent) {
+    try {
+      // Se usa la copia más reciente entre la publicada junto al sitio y la de GitHub.
+      const get = url => fetch(`${url}?t=${Date.now()}`, { cache: "no-store" }).then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      });
+      const results = await Promise.allSettled([DATA_URL, REMOTE_URL].filter(Boolean).map(get));
+      const ok = results.filter(r => r.status === "fulfilled" && r.value?.generado).map(r => r.value);
+      if (!ok.length) throw results[0].reason || new Error("sin datos");
+      const next = ok.reduce((a, b) => (new Date(b.generado) > new Date(a.generado) ? b : a));
+      const prevIds = data ? new Set(data.items.map(i => i.id)) : null;
+      const changed = !data || next.generado !== data.generado;
+      data = next;
+      if (changed) {
+        renderAll();
+        if (prevIds) {
+          const fresh = data.items.filter(i => !prevIds.has(i.id));
+          if (fresh.length) announce(fresh);
+        }
+      }
+    } catch (e) {
+      if (!data) {
+        $("#updated").textContent = "Sin datos";
+        $("#list").innerHTML = `<div class="card empty"><b>Aún no hay datos publicados</b>El radar todavía no se ha ejecutado o no se pudo leer <code>${DATA_URL}</code>.</div>`;
+      } else if (!silent) console.warn(e);
+    }
+  }
+
+  function announce(fresh) {
+    const n = fresh.length;
+    toast(`${n} ${n === 1 ? "nueva oportunidad detectada" : "nuevas oportunidades detectadas"}`);
+    if ("Notification" in window && Notification.permission === "granted") {
+      try {
+        new Notification(`aéreo · ${n} ${n === 1 ? "nueva licitación" : "nuevas licitaciones"} de drones`, {
+          body: fresh.slice(0, 3).map(i => `• ${i.nombre}`).join("\n"),
+        });
+      } catch {}
+    }
+  }
+  function toast(msg) {
+    const t = $("#toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    setTimeout(() => t.classList.remove("show"), 6000);
+  }
+
+  // ---------- Render ----------
+  function renderAll() {
+    renderHeader();
+    renderKpis();
+    renderRegions();
+    renderTermsChart();
+    renderWeeksChart();
+    renderFooter();
+    shown = PAGE;
+    renderList();
+  }
+
+  function renderHeader() {
+    const now = Date.now();
+    const gen = new Date(data.generado);
+    const next = data.proxima_actualizacion ? new Date(data.proxima_actualizacion) : null;
+    const up = $("#updated");
+    up.textContent = `Actualizado hace ${rel(now - gen)}` + (next ? (next > now ? ` · próxima en ${rel(next - now)}` : " · actualización en curso") : "");
+    up.title = fmtDate.format(gen);
+
+    const names = { licitaciones: "Licitaciones", compra_agil: "Compra Ágil" };
+    const fuentes = data.fuentes || {};
+    $("#sources").innerHTML = Object.entries(names).map(([k, label]) => {
+      const f = fuentes[k] || {};
+      const ok = !!f.ok;
+      const title = ok ? `${label}: OK · ${fmtNum.format(f.revisadas || 0)} procesos revisados` : `${label}: ${f.mensaje || "sin datos"}`;
+      return `<span class="pill ${ok ? "ok" : "err"}" title="${esc(title)}"><span class="dot"></span>${ok ? "✓" : "⚠"} ${label}</span>`;
+    }).join(" ");
+
+    const errs = Object.entries(names).filter(([k]) => fuentes[k] && !fuentes[k].ok);
+    $("#alerts").innerHTML = errs.map(([k, label]) => {
+      const f = fuentes[k];
+      const last = f.ultima_ok ? ` Última revisión exitosa: ${fmtDate.format(new Date(f.ultima_ok))}.` : "";
+      return `<div class="alert err" role="alert"><span aria-hidden="true">⚠</span><div><strong>${label}: no se pudo revisar en la última ejecución</strong>${esc(f.mensaje)}${last} Se muestran los últimos datos conocidos.</div></div>`;
+    }).join("");
+    Object.entries(names).forEach(([k, label]) => {
+      const adv = fuentes[k]?.ok && fuentes[k].advertencias;
+      if (adv && adv.length) $("#alerts").insertAdjacentHTML("beforeend", `<div class="alert"><span aria-hidden="true">ℹ</span><div><strong>${label}: revisión parcial en la última ejecución</strong>${esc(adv.join(" · "))}</div></div>`);
+    });
+    const pend = fuentes.licitaciones?.pendientes_por_revisar;
+    if (pend > 0) {
+      $("#alerts").insertAdjacentHTML("beforeend", `<div class="alert"><span aria-hidden="true">ℹ</span><div><strong>Revisión en profundidad en progreso</strong>Quedan ${fmtNum.format(pend)} licitaciones activas por revisar en su descripción e ítems (las que mencionan drones en el nombre ya están incluidas). Se completan en las próximas ejecuciones horarias.</div></div>`);
+    }
+  }
+
+  function renderKpis() {
+    const now = Date.now();
+    const open = data.items.filter(isOpen);
+    $("#k-abiertas").textContent = fmtNum.format(open.length);
+    const lic = open.filter(i => i.fuente === "licitacion").length;
+    $("#k-abiertas-sub").textContent = `${lic} licitaciones · ${open.length - lic} compras ágiles`;
+    $("#k-nuevas").textContent = fmtNum.format(data.items.filter(i => isNew(i, now)).length);
+    const soon = open.filter(i => i.fecha_cierre && new Date(i.fecha_cierre) - now < 7 * DAY);
+    $("#k-cierran").textContent = fmtNum.format(soon.length);
+    const h48 = soon.filter(i => new Date(i.fecha_cierre) - now < 2 * DAY).length;
+    $("#k-cierran-sub").textContent = h48 ? `${h48} en menos de 48 h` : "ninguna en menos de 48 h";
+    const total = open.reduce((s, i) => s + (i.moneda === "CLP" || !i.moneda ? (i.monto || 0) : 0), 0);
+    $("#k-monto").textContent = total ? compactCLP(total) : "–";
+  }
+
+  function renderRegions() {
+    const sel = $("#region");
+    const regions = [...new Set(data.items.map(i => i.region).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
+    sel.innerHTML = `<option value="">Todas las regiones</option>` + regions.map(r => `<option ${r === st.region ? "selected" : ""}>${esc(r)}</option>`).join("");
+  }
+
+  function tipHandlers(container, rows) {
+    const tip = $(".tip", container);
+    rows.forEach(({ el, text }) => {
+      el.addEventListener("mousemove", ev => {
+        const box = container.getBoundingClientRect();
+        tip.textContent = text;
+        tip.style.left = `${Math.min(Math.max(ev.clientX - box.left, 60), box.width - 60)}px`;
+        tip.style.top = `${ev.clientY - box.top - 6}px`;
+        tip.style.opacity = 1;
+      });
+      el.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
+    });
+  }
+
+  function renderTermsChart() {
+    const box = $("#chart-terms");
+    const body = $(".body", box);
+    const counts = new Map();
+    data.items.filter(isOpen).forEach(i => (i.terminos || []).forEach(t => counts.set(t, (counts.get(t) || 0) + 1)));
+    const rows = [...counts].sort((a, b) => b[1] - a[1]).slice(0, 8);
+    if (!rows.length) { body.innerHTML = `<div class="empty-chart">Sin procesos abiertos por ahora.</div>`; return; }
+    const W = Math.max(260, body.clientWidth || 520), rowH = 26, labelW = Math.min(170, Math.round(W * 0.45)), valueW = 34;
+    const max = Math.max(...rows.map(r => r[1]));
+    const plotW = W - labelW - valueW;
+    const H = rows.length * rowH;
+    body.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Procesos abiertos por término">${rows.map(([t, n], k) => {
+      const y = k * rowH, w = Math.max(4, (n / max) * plotW);
+      return `<g class="row${st.termino === t ? " on" : ""}" data-term="${esc(t)}">
+        <rect class="hit" x="0" y="${y}" width="${W}" height="${rowH}"/>
+        <text class="lbl" x="${labelW - 8}" y="${y + rowH / 2 + 4}" text-anchor="end">${esc(t)}</text>
+        <path class="bar" d="M${labelW},${y + 5} h${w - 4} a4,4 0 0 1 4,4 v${rowH - 18} a4,4 0 0 1 -4,4 h${-(w - 4)} z"/>
+        <text class="val" x="${labelW + w + 6}" y="${y + rowH / 2 + 4}">${n}</text></g>`;
+    }).join("")}</svg>`;
+    const gs = $$("g.row", body);
+    gs.forEach(g => g.addEventListener("click", () => { st.termino = st.termino === g.dataset.term ? "" : g.dataset.term; shown = PAGE; renderTermsChart(); renderList(); }));
+    tipHandlers(box, gs.map((g, k) => ({ el: g, text: `${rows[k][0]}: ${rows[k][1]} abiertos` })));
+  }
+
+  function renderWeeksChart() {
+    const box = $("#chart-weeks");
+    const body = $(".body", box);
+    const now = new Date();
+    const monday = new Date(now); monday.setHours(0, 0, 0, 0); monday.setDate(monday.getDate() - ((monday.getDay() + 6) % 7));
+    const weeks = Array.from({ length: 12 }, (_, k) => {
+      const start = new Date(monday); start.setDate(start.getDate() - (11 - k) * 7);
+      return { start, end: new Date(start.getTime() + 7 * DAY), n: 0 };
+    });
+    data.items.forEach(i => {
+      if (!i.fecha_publicacion) return;
+      const d = new Date(i.fecha_publicacion);
+      const w = weeks.find(w => d >= w.start && d < w.end);
+      if (w) w.n++;
+    });
+    if (!weeks.some(w => w.n)) { body.innerHTML = `<div class="empty-chart">Aún no hay suficientes publicaciones registradas.</div>`; return; }
+    const W = Math.max(260, body.clientWidth || 520), H = 170, padL = 28, padB = 22, padT = 16;
+    const max = Math.max(...weeks.map(w => w.n));
+    const step = Math.max(1, Math.ceil(max / 4));
+    const top = step * Math.ceil(max / step);
+    const plotH = H - padB - padT, slot = (W - padL) / weeks.length, bw = Math.min(28, slot - 6);
+    const y = v => padT + plotH - (v / top) * plotH;
+    let grid = "";
+    for (let v = 0; v <= top; v += step) grid += `<line class="gridline" x1="${padL}" x2="${W}" y1="${y(v)}" y2="${y(v)}"/><text class="axis" x="${padL - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`;
+    const bars = weeks.map((w, k) => {
+      const x = padL + k * slot + (slot - bw) / 2, h = (w.n / top) * plotH;
+      const bar = w.n ? `<path class="bar" d="M${x},${y(0)} v${-(h - 4)} a4,4 0 0 1 4,-4 h${bw - 8} a4,4 0 0 1 4,4 v${h - 4} z"/>` : "";
+      const every = W < 420 ? 3 : 2;
+      const label = (weeks.length - 1 - k) % every === 0 ? `<text class="axis" x="${x + bw / 2}" y="${H - 6}" text-anchor="middle">${fmtDay.format(w.start)}</text>` : "";
+      return `<g class="row"><rect class="hit" x="${padL + k * slot}" y="${padT}" width="${slot}" height="${plotH}"/>${bar}${label}</g>`;
+    }).join("");
+    body.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Procesos publicados por semana">${grid}${bars}</svg>`;
+    tipHandlers(box, $$("g.row", body).map((g, k) => ({ el: g, text: `Semana del ${fmtDay.format(weeks[k].start)}: ${weeks[k].n} ${weeks[k].n === 1 ? "proceso" : "procesos"}` })));
+  }
+
+  function renderFooter() {
+    $("#terms-list").innerHTML = (data.terminos || []).map(t => `<span class="term ${t.categoria === "derivado" ? "derivado" : ""}">${esc(t.etiqueta)}</span>`).join("");
+  }
+
+  function filtered() {
+    const now = Date.now();
+    const q = norm(st.q).trim();
+    const words = q ? q.split(/\s+/) : [];
+    let rows = data.items.filter(i => {
+      if (st.fuente && i.fuente !== st.fuente) return false;
+      if (st.estado === "cancelada" ? !["cancelada", "revocada", "suspendida"].includes(i.estado) : st.estado && i.estado !== st.estado) return false;
+      if (st.region && i.region !== st.region) return false;
+      if (st.termino && !(i.terminos || []).includes(st.termino)) return false;
+      if (st.soloNuevas && !isNew(i, now)) return false;
+      if (st.cierran7 && !(isOpen(i) && i.fecha_cierre && new Date(i.fecha_cierre) - now < 7 * DAY)) return false;
+      if (words.length) {
+        const hay = norm([i.nombre, i.organismo, i.unidad, i.codigo, i.descripcion, i.region, ...(i.productos || [])].join(" "));
+        if (!words.every(w => hay.includes(w))) return false;
+      }
+      return true;
+    });
+    const t = v => v ? new Date(v).getTime() : 0;
+    const sorters = {
+      cierre: (a, b) => (isOpen(b) - isOpen(a)) || ((isOpen(a) ? 1 : -1) * ((t(a.fecha_cierre) || 9e15) - (t(b.fecha_cierre) || 9e15))),
+      nuevas: (a, b) => t(b.primera_deteccion) - t(a.primera_deteccion),
+      publicacion: (a, b) => t(b.fecha_publicacion) - t(a.fecha_publicacion),
+      monto: (a, b) => (b.monto || 0) - (a.monto || 0),
+    };
+    return rows.sort(sorters[st.orden] || sorters.cierre);
+  }
+
+  function renderActive() {
+    const chips = [];
+    if (st.termino) chips.push(["termino", `Término: ${st.termino}`]);
+    if (st.soloNuevas) chips.push(["soloNuevas", "Solo nuevas (24 h)"]);
+    if (st.cierran7) chips.push(["cierran7", "Cierran en ≤ 7 días"]);
+    $("#active").innerHTML = chips.map(([k, l]) => `<button class="chip-x" data-k="${k}">${esc(l)} ✕</button>`).join("");
+    $$("#active .chip-x").forEach(b => b.onclick = () => {
+      st[b.dataset.k] = b.dataset.k === "termino" ? "" : false;
+      shown = PAGE; renderTermsChart(); renderList();
+    });
+  }
+
+  function itemHTML(i, now) {
+    const dl = deadline(i, now);
+    const termCat = new Map((data.terminos || []).map(t => [t.etiqueta, t.categoria]));
+    const monto = i.monto ? `<div class="amount">${(i.moneda && i.moneda !== "CLP") ? `${esc(i.moneda)} ${fmtNum.format(i.monto)}` : fmtCLP.format(i.monto)}</div>` : `<div class="amount none">Monto no publicado</div>`;
+    const detalle = (i.descripcion || (i.productos || []).length) ? `<details><summary>Ver descripción</summary>${i.descripcion ? `<p>${esc(i.descripcion)}</p>` : ""}${(i.productos || []).length ? `<ul>${i.productos.map(p => `<li>${esc(p)}</li>`).join("")}</ul>` : ""}${i.direccion_entrega ? `<p>Entrega: ${esc(i.direccion_entrega)}</p>` : ""}</details>` : "";
+    return `<article class="card item${isOpen(i) ? "" : " closed"}">
+      <div>
+        <div class="badges">
+          <span class="src ${i.fuente}">${i.fuente === "compra_agil" ? "Compra Ágil" : "Licitación"}</span>
+          ${isNew(i, now) ? `<span class="tag new">NUEVA</span>` : ""}
+          <span class="tag estado-${esc(i.estado)}">${esc(i.estado_glosa || i.estado)}</span>
+          <span class="code">${esc(i.codigo)}</span>
+        </div>
+        <h3><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.nombre || "(sin nombre)")}</a></h3>
+        <div class="org">${esc([i.organismo, i.region].filter(Boolean).join(" · ") || "Organismo por confirmar")}</div>
+        <div class="terms">${(i.terminos || []).map(t => `<button class="term ${termCat.get(t) === "derivado" ? "derivado" : ""}" data-term="${esc(t)}">${esc(t)}</button>`).join("")}</div>
+        ${detalle}
+      </div>
+      <div class="side">
+        ${monto}
+        <span class="deadline ${dl.cls}"><span class="ico" aria-hidden="true"></span>${esc(dl.text)}</span>
+        ${i.fecha_cierre ? `<span class="date">Cierre: ${fmtDate.format(new Date(i.fecha_cierre))}</span>` : ""}
+        ${i.fecha_publicacion ? `<span class="date">Publicada: ${fmtDay.format(new Date(i.fecha_publicacion))}</span>` : ""}
+        ${i.ofertas != null && i.fuente === "compra_agil" ? `<span class="date">${i.ofertas} ${i.ofertas === 1 ? "cotización" : "cotizaciones"}</span>` : ""}
+      </div>
+    </article>`;
+  }
+
+  function renderList() {
+    if (!data) return;
+    renderActive();
+    const now = Date.now();
+    const rows = filtered();
+    $("#count").textContent = `${fmtNum.format(rows.length)} ${rows.length === 1 ? "proceso" : "procesos"}`;
+    const list = $("#list");
+    if (!data.items.length) {
+      list.innerHTML = `<div class="card empty"><b>Todavía no hay procesos detectados</b>El radar revisa Mercado Público cada hora. Cuando aparezca una licitación o Compra Ágil de drones, se mostrará aquí.</div>`;
+    } else if (!rows.length) {
+      list.innerHTML = `<div class="card empty"><b>Sin resultados con estos filtros</b>Prueba con “Todos los estados” o limpia la búsqueda.</div>`;
+    } else {
+      list.innerHTML = rows.slice(0, shown).map(i => itemHTML(i, now)).join("");
+    }
+    $("#more").hidden = rows.length <= shown;
+    $$("#list .term").forEach(b => b.onclick = () => { st.termino = b.dataset.term; shown = PAGE; renderTermsChart(); renderList(); window.scrollTo({ top: $(".filters").offsetTop - 8, behavior: "smooth" }); });
+  }
+
+  // ---------- Controles ----------
+  let qTimer;
+  $("#q").addEventListener("input", e => { clearTimeout(qTimer); qTimer = setTimeout(() => { st.q = e.target.value; shown = PAGE; renderList(); }, 150); });
+  $$(".seg button").forEach(b => b.onclick = () => {
+    st.fuente = b.dataset.fuente;
+    $$(".seg button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    shown = PAGE; renderList();
+  });
+  ["estado", "region", "orden"].forEach(id => $("#" + id).addEventListener("change", e => { st[id] = e.target.value; shown = PAGE; renderList(); }));
+  $("#more").onclick = () => { shown += PAGE; renderList(); };
+  $$(".kpi[data-kpi]").forEach(k => k.onclick = () => {
+    const kind = k.dataset.kpi;
+    st.estado = kind === "nuevas" ? "" : "abierta";
+    st.soloNuevas = kind === "nuevas";
+    st.cierran7 = kind === "cierran";
+    if (kind === "cierran") st.orden = "cierre";
+    if (kind === "nuevas") st.orden = "nuevas";
+    $("#estado").value = st.estado; $("#orden").value = st.orden;
+    shown = PAGE; renderList();
+    window.scrollTo({ top: $(".filters").offsetTop - 8, behavior: "smooth" });
+  });
+
+  $("#csv").onclick = () => {
+    if (!data) return;
+    const cols = [["fuente", "Fuente"], ["codigo", "Código"], ["nombre", "Nombre"], ["organismo", "Organismo"], ["region", "Región"], ["estado_glosa", "Estado"], ["monto", "Monto"], ["moneda", "Moneda"], ["fecha_publicacion", "Publicación"], ["fecha_cierre", "Cierre"], ["terminos", "Términos"], ["url", "Enlace"]];
+    const cell = v => `"${String(Array.isArray(v) ? v.join(", ") : v ?? "").replace(/"/g, '""')}"`;
+    const csv = [cols.map(c => cell(c[1])).join(";"), ...filtered().map(i => cols.map(([k]) => cell(i[k])).join(";"))].join("\r\n");
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8" }));
+    a.download = `licitaciones-drones-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  };
+
+  const notifyBtn = $("#notify");
+  if ("Notification" in window && Notification.permission === "default") {
+    notifyBtn.hidden = false;
+    notifyBtn.onclick = async () => {
+      const p = await Notification.requestPermission();
+      notifyBtn.hidden = true;
+      if (p === "granted") toast("Te avisaremos aquí cuando aparezcan nuevas oportunidades (con esta pestaña abierta).");
+    };
+  }
+
+  let rTimer;
+  addEventListener("resize", () => { clearTimeout(rTimer); rTimer = setTimeout(() => { if (data) { renderTermsChart(); renderWeeksChart(); } }, 150); });
+
+  load();
+  setInterval(() => load(true), POLL_MS);
+  setInterval(() => { if (data) { renderHeader(); } }, 60 * 1000);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) load(true); });
+})();
+</script>
+</body>
+</html>
