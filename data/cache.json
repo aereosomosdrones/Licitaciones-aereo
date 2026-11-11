@@ -1625,7 +1625,6 @@
   "1979-226-LP26",
   "1979-227-LP26",
   "1979-228-LP26",
-  "1984-4-L126",
   "1986-3-LE26",
   "1987-7-LE26",
   "1995-2-LE26",
@@ -5066,7 +5065,7 @@
   }
  },
  "ca_ultimo_barrido_completo": "2026-11-10T14:05:12+00:00",
- "ca_ultima_ejecucion_ok": "2026-11-11T00:05:14+00:00",
+ "ca_ultima_ejecucion_ok": "2026-11-11T01:05:11+00:00",
  "ultimo_recordatorio": "2026-11-10 09",
  "recordatorios_abiertos": []
 }
