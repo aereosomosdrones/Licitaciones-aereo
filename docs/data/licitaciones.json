@@ -1,22 +1,22 @@
 {
- "generado": "2026-11-11T11:05:12+00:00",
- "proxima_actualizacion": "2026-11-11T12:05:12+00:00",
+ "generado": "2026-11-11T12:05:12+00:00",
+ "proxima_actualizacion": "2026-11-11T13:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-11T11:05:12+00:00",
+   "ultima_ok": "2026-11-11T12:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4978,
-   "detalles_consultados": 31,
+   "revisadas": 4972,
+   "detalles_consultados": 10,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-11T11:05:12+00:00",
+   "ultima_ok": "2026-11-11T12:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 0,
@@ -77,40 +77,6 @@
  "nuevas_en_esta_ejecucion": [],
  "items": [
   {
-   "id": "CA:3325-37-COT26",
-   "fuente": "compra_agil",
-   "codigo": "3325-37-COT26",
-   "nombre": "SEGURO SIN DEDUCIBLE RESPONSABILIDAD CIVIL - DRONES PDI COYHAIQUE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-04T17:38:00-03:00",
-   "fecha_cierre": "2026-11-11T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-04T17:40:00.987Z",
-   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
-   "unidad": "LOGISTICA COYHAIQUE",
-   "region": "Región Aysén del General Carlos Ibáñez del Campo",
-   "monto": 800000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3325-37-COT26",
-   "descripcion": "SE SOLICITA 2 SEGUROS DE RESPONSABILIDAD CIVIL PARA DRONES DE LA PDI DE LA CIUDAD DE COYHAIQUE, DE ACUERDO A ESPECIFICACIONES TÉCNICAS. SE DEBE INCLUIR COTIZACIÓN QUE INCLUYA A LO MENOS, LO SOLICITADO EN LAS ESPECIFICACIONES. NO SE ACEPTARÁN OFERTAS QUE NO CUMPLAN TÉCNICAMENTE CON LO SOLICITADO. LOS SEGUROS DEBERÁN SER SIN DEDUCIBLE.",
-   "direccion_entrega": "BAQUEDANO 511",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Seguros contra accidentes — SE SOLICITA 2 SEGUROS DE RESPONSABILIDAD CIVIL PARA DRONES DE LA PDI DE LA CIUDAD DE COYHAIQUE, DE ACUERDO A ESPECIFICACIONES TÉCNICAS. SE DEBE INCLUIR COTIZACIÓN QUE INCLUYA A LO MENOS, LO SOLICITADO EN LAS ESPECIFICACIONES. NO SE ACEPTARÁN OFERTAS QUE NO CUMPLAN TÉCNICAMENTE CON LO SOLICITADO. LOS SEGUROS DEBERÁN SER SIN DEDUCIBLE."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-10T14:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
-   "primera_deteccion": "2026-11-05T06:05:10+00:00",
-   "origen": "api"
-  },
-  {
    "id": "LIC:650-60-CO26",
    "fuente": "licitacion",
    "codigo": "650-60-CO26",
@@ -142,7 +108,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T10:05:14+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00"
   },
@@ -176,7 +142,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T10:05:14+00:00",
    "primera_deteccion": "2026-11-02T19:05:10+00:00",
    "cambio_estado": "2026-11-09T19:05:13+00:00"
@@ -209,7 +175,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00"
   },
@@ -328,7 +294,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -360,7 +326,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T10:05:14+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -392,7 +358,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -424,7 +390,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -455,7 +421,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -487,7 +453,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -518,7 +484,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -559,7 +525,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -593,7 +559,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -626,7 +592,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T10:05:14+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -670,7 +636,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T07:05:11+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00"
   },
@@ -702,7 +668,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T10:05:14+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
   },
@@ -741,7 +707,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -773,7 +739,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T12:05:12+00:00",
    "detalle_actualizado": "2026-11-11T11:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -10565,6 +10531,40 @@
    "ultima_actualizacion": "2026-11-10T14:05:12+00:00",
    "detalle_actualizado": "2026-11-10T14:05:12+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00"
+  },
+  {
+   "id": "CA:3325-37-COT26",
+   "fuente": "compra_agil",
+   "codigo": "3325-37-COT26",
+   "nombre": "SEGURO SIN DEDUCIBLE RESPONSABILIDAD CIVIL - DRONES PDI COYHAIQUE",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-04T17:38:00-03:00",
+   "fecha_cierre": "2026-11-11T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-04T17:40:00.987Z",
+   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+   "unidad": "LOGISTICA COYHAIQUE",
+   "region": "Región Aysén del General Carlos Ibáñez del Campo",
+   "monto": 800000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3325-37-COT26",
+   "descripcion": "SE SOLICITA 2 SEGUROS DE RESPONSABILIDAD CIVIL PARA DRONES DE LA PDI DE LA CIUDAD DE COYHAIQUE, DE ACUERDO A ESPECIFICACIONES TÉCNICAS. SE DEBE INCLUIR COTIZACIÓN QUE INCLUYA A LO MENOS, LO SOLICITADO EN LAS ESPECIFICACIONES. NO SE ACEPTARÁN OFERTAS QUE NO CUMPLAN TÉCNICAMENTE CON LO SOLICITADO. LOS SEGUROS DEBERÁN SER SIN DEDUCIBLE.",
+   "direccion_entrega": "BAQUEDANO 511",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Seguros contra accidentes — SE SOLICITA 2 SEGUROS DE RESPONSABILIDAD CIVIL PARA DRONES DE LA PDI DE LA CIUDAD DE COYHAIQUE, DE ACUERDO A ESPECIFICACIONES TÉCNICAS. SE DEBE INCLUIR COTIZACIÓN QUE INCLUYA A LO MENOS, LO SOLICITADO EN LAS ESPECIFICACIONES. NO SE ACEPTARÁN OFERTAS QUE NO CUMPLAN TÉCNICAMENTE CON LO SOLICITADO. LOS SEGUROS DEBERÁN SER SIN DEDUCIBLE."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-10T14:05:12+00:00",
+   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00",
+   "origen": "api"
   }
  ]
 }
