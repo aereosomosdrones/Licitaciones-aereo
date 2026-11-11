@@ -1,26 +1,24 @@
 {
- "generado": "2026-11-11T18:05:11+00:00",
- "proxima_actualizacion": "2026-11-11T19:05:11+00:00",
+ "generado": "2026-11-11T19:05:12+00:00",
+ "proxima_actualizacion": "2026-11-11T20:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-11T18:05:11+00:00",
+   "ultima_ok": "2026-11-11T19:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5012,
-   "detalles_consultados": 22,
+   "revisadas": 5001,
+   "detalles_consultados": 65,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-11T18:05:11+00:00",
+   "ultima_ok": "2026-11-11T19:05:12+00:00",
    "errores_detalle": 0,
-   "advertencias": [
-    "1 de 15 búsquedas no respondieron: antidrones"
-   ],
+   "advertencias": [],
    "revisadas": 0,
    "detalles_consultados": 0,
    "modo": "incremental"
@@ -76,146 +74,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:1469-365-L126"
+ ],
  "items": [
-  {
-   "id": "LIC:650-60-CO26",
-   "fuente": "licitacion",
-   "codigo": "650-60-CO26",
-   "nombre": "DRON MULTIRROTOR KIT DE ACCESORIOS Y CAPACITACION",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-11T15:10:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=650-60-CO26",
-   "descripcion": "Adquisición de 1 Dron Multirrotor RTKPPK, Modelo de equipo de referencia DJI Matrice 4E o equivalente con sus software de procesamiento aerofotogramétrico en modalidad RTK Real Time Kinematic y PPK Post Processed Kinematic que permitan obtener imágenes alta resolución para las labores de topografía de la Unidad de Gestión de Suelos y otras unidades del Departamento Técnico SERVIU Antofagasta",
-   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
-   "unidad": "SERVIU II Región",
-   "region": "Región de Antofagasta",
-   "comuna": "Antofagasta",
-   "fecha_publicacion": "2026-10-29T16:23:00-03:00",
-   "fecha_adjudicacion": "2026-11-18T17:00:00-03:00",
-   "monto": 13600000.0,
-   "moneda": "CLP",
-   "tipo": "CO",
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — 01 Drone, accesorios, 03 licencias de software y capacitación"
-   ],
-   "terminos": [
-    "Dron",
-    "Multirrotor",
-    "Marcas (DJI, Autel…)",
-    "Fotogrametría / ortomosaico"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T17:05:12+00:00",
-   "primera_deteccion": "2026-10-29T20:05:10+00:00"
-  },
-  {
-   "id": "LIC:1561172-1-L126",
-   "fuente": "licitacion",
-   "codigo": "1561172-1-L126",
-   "nombre": "DRON CON CÁMARA DE ALTA RESOLUCIÓN  PARA  FUNCIONARIOS  EN  INDUCCIÓN  OPERACIONES  DE DE MONITOREO AÉREO",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-11T15:40:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1561172-1-L126",
-   "descripcion": "ADQUISICIÓN DE UN DRON CON CÁMARA DE ALTA RESOLUCIÓN PARA INDUCCIÓN DE FUNCIONARIOS EN OPERACIONES DE MONITOREO AÉREO POR INVESTIGACIÓN FISCALIZACIÓN INTELIGENTE EN PESQUERÍAS ESTRATÉGICAS  CODIGO BIP N°40075904-0 PARA EL SERVICIO NACIONAL DE PESCA Y ACUICULTURA REGIÓN DE COQUIMBO",
-   "organismo": "SERV NACIONAL DE PESCA",
-   "unidad": "IV Sernapesca Coquimbo Cuenta Extrapresupuestaria",
-   "region": "Región de Coquimbo",
-   "comuna": "Coquimbo",
-   "fecha_publicacion": "2026-11-02T15:21:37-03:00",
-   "fecha_adjudicacion": "2026-11-13T15:40:00-03:00",
-   "monto": 1139000.0,
-   "moneda": "CLP",
-   "tipo": "L1",
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — DRON CON CÁMARA DE ALTA RESOLUCIÓN PARA FUNCIONARIOS EN INDUCCIÓN DE OPERACIONES DE MONITOREO AÉREO "
-   ],
-   "terminos": [
-    "Dron",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T17:05:12+00:00",
-   "primera_deteccion": "2026-11-02T19:05:10+00:00",
-   "cambio_estado": "2026-11-09T19:05:13+00:00"
-  },
-  {
-   "id": "CA:2656-1331-COT26",
-   "fuente": "compra_agil",
-   "codigo": "2656-1331-COT26",
-   "nombre": "ADQUISICION INSUMOS Y ACCESORIOS PARA DRON",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-03T13:25:00-03:00",
-   "fecha_cierre": "2026-11-11T15:45:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10 15:45",
-   "organismo": "I MUNICIPALIDAD DE TOME",
-   "unidad": "Dirección de Administración y Finanzas",
-   "region": "Región del Biobío ",
-   "monto": 830000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2656-1331-COT26",
-   "descripcion": "ADQUISICION INSUMOS Y ACCESORIOS PARA DRON",
-   "direccion_entrega": "CALLE SAN GERMAN N° 1244 BODEGA DE MATERIALES",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Servicios de vigilancia — ADQUISICION INSUMOS Y ACCESORIOS PARA DRON   SEGUN LISTADO EN FICHA DE COTIZACION"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
-   "primera_deteccion": "2026-11-04T05:05:12+00:00",
-   "origen": "api",
-   "cambio_estado": "2026-11-11T15:05:11+00:00"
-  },
-  {
-   "id": "LIC:1232565-45-L126",
-   "fuente": "licitacion",
-   "codigo": "1232565-45-L126",
-   "nombre": "Drone y Accesorios, ULS 23992",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-11T16:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1232565-45-L126",
-   "descripcion": "Drone y Accesorios, ULS 23992 según SC 51867",
-   "organismo": "UNIVERSIDAD DE LA SERENA",
-   "unidad": "DIRECCIÓN DE GESTIÓN ESTRATÉGICA INSTITUCIONAL",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Santiago",
-   "fecha_publicacion": "2026-11-05T16:47:34-03:00",
-   "fecha_adjudicacion": "2026-12-26T18:00:00-03:00",
-   "monto": 6653000.0,
-   "moneda": "CLP",
-   "tipo": "L1",
-   "productos": [
-    "Equipos multimedia — El oferente deberá suministrar un Drone profesional, nuevo y sin uso, incluyendo control remoto, accesorios y capacitación, que cumpla como mínimo con las siguientes especificaciones técnicas:"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T17:05:12+00:00",
-   "primera_deteccion": "2026-11-05T20:05:11+00:00"
-  },
   {
    "id": "CA:2805-697-COT26",
    "fuente": "compra_agil",
@@ -515,7 +377,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -547,7 +409,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
   },
@@ -607,7 +469,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -639,7 +501,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -670,7 +532,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -702,7 +564,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00"
   },
@@ -734,7 +596,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -765,7 +627,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -806,7 +668,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
   },
@@ -840,7 +702,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -873,7 +735,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -917,8 +779,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-11T19:05:12+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00"
   },
   {
@@ -949,9 +811,51 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
+  },
+  {
+   "id": "LIC:1469-365-L126",
+   "fuente": "licitacion",
+   "codigo": "1469-365-L126",
+   "nombre": "ADQUISICIÓN DE EQUIPAMIENTO AUDIOVISUAL PARA LA DIRECCIÓN DE CREACIÓN, UNIVERSIDAD DE TALCA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-19T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-365-L126",
+   "descripcion": "La Universidad de Talca requiere Equipamiento para la Dirección de Creación destinado a fortalecer la producción, el registro y la difusión de obras, así como el apoyo a la formulación y desarrollo de proyectos de creación generados por las distintas unidades.",
+   "organismo": "UNIVERSIDAD DE TALCA",
+   "unidad": "Universidad de Talca",
+   "region": "Región del Maule",
+   "comuna": "Curicó",
+   "fecha_publicacion": "2026-11-11T15:23:35-03:00",
+   "fecha_adjudicacion": "2026-11-23T17:30:00-03:00",
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Conjuntos de cámara — Cámara compacta con estabilizador",
+    "Kits de cámara — Dron",
+    "Tarjetas de entrada de video — Tarjeta Micro SD",
+    "Discos duros — Disco Duro Externo",
+    "Soportes de la cámara — Trípode Cámara con Cabezal Fluido",
+    "Kits de cámara — Cámara Mirrorles",
+    "Kits de cámara — Lente para Cámara",
+    "Micrófonos — Micrófono Ambiente",
+    "Kits de cámara — Estabilizador Cámara",
+    "Cable de alimentación — Alargadores",
+    "Grabadoras — Grabadora de voz",
+    "Kits de cámara — Lente para Cámara"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-11T19:05:12+00:00",
+   "primera_deteccion": "2026-11-11T19:05:12+00:00"
   },
   {
    "id": "LIC:634-105-LE26",
@@ -988,7 +892,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
   },
@@ -1020,7 +924,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-11T19:05:12+00:00",
    "detalle_actualizado": "2026-11-11T17:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -10842,6 +10746,144 @@
    ],
    "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00"
+  },
+  {
+   "id": "LIC:650-60-CO26",
+   "fuente": "licitacion",
+   "codigo": "650-60-CO26",
+   "nombre": "DRON MULTIRROTOR KIT DE ACCESORIOS Y CAPACITACION",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-11T15:10:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=650-60-CO26",
+   "descripcion": "Adquisición de 1 Dron Multirrotor RTKPPK, Modelo de equipo de referencia DJI Matrice 4E o equivalente con sus software de procesamiento aerofotogramétrico en modalidad RTK Real Time Kinematic y PPK Post Processed Kinematic que permitan obtener imágenes alta resolución para las labores de topografía de la Unidad de Gestión de Suelos y otras unidades del Departamento Técnico SERVIU Antofagasta",
+   "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION II REGION",
+   "unidad": "SERVIU II Región",
+   "region": "Región de Antofagasta",
+   "comuna": "Antofagasta",
+   "fecha_publicacion": "2026-10-29T16:23:00-03:00",
+   "fecha_adjudicacion": "2026-11-18T17:00:00-03:00",
+   "monto": 13600000.0,
+   "moneda": "CLP",
+   "tipo": "CO",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — 01 Drone, accesorios, 03 licencias de software y capacitación"
+   ],
+   "terminos": [
+    "Dron",
+    "Multirrotor",
+    "Marcas (DJI, Autel…)",
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-11T17:05:12+00:00",
+   "primera_deteccion": "2026-10-29T20:05:10+00:00"
+  },
+  {
+   "id": "LIC:1561172-1-L126",
+   "fuente": "licitacion",
+   "codigo": "1561172-1-L126",
+   "nombre": "DRON CON CÁMARA DE ALTA RESOLUCIÓN  PARA  FUNCIONARIOS  EN  INDUCCIÓN  OPERACIONES  DE DE MONITOREO AÉREO",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-11T15:40:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1561172-1-L126",
+   "descripcion": "ADQUISICIÓN DE UN DRON CON CÁMARA DE ALTA RESOLUCIÓN PARA INDUCCIÓN DE FUNCIONARIOS EN OPERACIONES DE MONITOREO AÉREO POR INVESTIGACIÓN FISCALIZACIÓN INTELIGENTE EN PESQUERÍAS ESTRATÉGICAS  CODIGO BIP N°40075904-0 PARA EL SERVICIO NACIONAL DE PESCA Y ACUICULTURA REGIÓN DE COQUIMBO",
+   "organismo": "SERV NACIONAL DE PESCA",
+   "unidad": "IV Sernapesca Coquimbo Cuenta Extrapresupuestaria",
+   "region": "Región de Coquimbo",
+   "comuna": "Coquimbo",
+   "fecha_publicacion": "2026-11-02T15:21:37-03:00",
+   "fecha_adjudicacion": "2026-11-13T15:40:00-03:00",
+   "monto": 1139000.0,
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — DRON CON CÁMARA DE ALTA RESOLUCIÓN PARA FUNCIONARIOS EN INDUCCIÓN DE OPERACIONES DE MONITOREO AÉREO "
+   ],
+   "terminos": [
+    "Dron",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-11T17:05:12+00:00",
+   "primera_deteccion": "2026-11-02T19:05:10+00:00",
+   "cambio_estado": "2026-11-09T19:05:13+00:00"
+  },
+  {
+   "id": "CA:2656-1331-COT26",
+   "fuente": "compra_agil",
+   "codigo": "2656-1331-COT26",
+   "nombre": "ADQUISICION INSUMOS Y ACCESORIOS PARA DRON",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_publicacion": "2026-11-03T13:25:00-03:00",
+   "fecha_cierre": "2026-11-11T15:45:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-10 15:45",
+   "organismo": "I MUNICIPALIDAD DE TOME",
+   "unidad": "Dirección de Administración y Finanzas",
+   "region": "Región del Biobío ",
+   "monto": 830000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2656-1331-COT26",
+   "descripcion": "ADQUISICION INSUMOS Y ACCESORIOS PARA DRON",
+   "direccion_entrega": "CALLE SAN GERMAN N° 1244 BODEGA DE MATERIALES",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Servicios de vigilancia — ADQUISICION INSUMOS Y ACCESORIOS PARA DRON   SEGUN LISTADO EN FICHA DE COTIZACION"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "primera_deteccion": "2026-11-04T05:05:12+00:00",
+   "origen": "api",
+   "cambio_estado": "2026-11-11T15:05:11+00:00"
+  },
+  {
+   "id": "LIC:1232565-45-L126",
+   "fuente": "licitacion",
+   "codigo": "1232565-45-L126",
+   "nombre": "Drone y Accesorios, ULS 23992",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-11T16:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1232565-45-L126",
+   "descripcion": "Drone y Accesorios, ULS 23992 según SC 51867",
+   "organismo": "UNIVERSIDAD DE LA SERENA",
+   "unidad": "DIRECCIÓN DE GESTIÓN ESTRATÉGICA INSTITUCIONAL",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago",
+   "fecha_publicacion": "2026-11-05T16:47:34-03:00",
+   "fecha_adjudicacion": "2026-12-26T18:00:00-03:00",
+   "monto": 6653000.0,
+   "moneda": "CLP",
+   "tipo": "L1",
+   "productos": [
+    "Equipos multimedia — El oferente deberá suministrar un Drone profesional, nuevo y sin uso, incluyendo control remoto, accesorios y capacitación, que cumpla como mínimo con las siguientes especificaciones técnicas:"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-11T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-11T17:05:12+00:00",
+   "primera_deteccion": "2026-11-05T20:05:11+00:00"
   }
  ]
 }
