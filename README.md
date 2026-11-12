@@ -24,23 +24,41 @@ Cada hora, [`.github/workflows/radar.yml`](.github/workflows/radar.yml) ejecuta 
    todas. Además revisa la **descripción y los ítems** de cada licitación nueva (hasta 250
    por hora; la primera vez tarda algunas horas en cubrir todas las activas). Las que ya
    sigue se refrescan cada 6 h hasta que se adjudican, quedan desiertas o se revocan.
-2. **Compra Ágil** (API v2): consulta el buscador oficial con cada término y verifica cada
-   resultado contra los patrones (si no aparece en el nombre, revisa la descripción y los
-   productos solicitados). Barrido completo de los últimos 45 días una vez al día y, entre medio,
-   solo los cambios recientes, para cuidar la cuota del ticket.
-3. Guarda el resultado en [`docs/data/licitaciones.json`](docs/data/licitaciones.json)
+2. **Compra Ágil** (API v2), en tres pasos:
+   - **Consultas precisas** (dron, RPAS, RPA, DJI…) sobre lo publicado en las últimas 72 h, cada
+     hora; una vez al día, sobre los 45 días completos. Las fechas de los filtros van en **hora
+     de Chile**: la API ignora la zona, y una ventana en UTC queda 3 h adelantada y no devuelve
+     lo recién publicado (ese defecto atrasó las detecciones hasta 24 h entre oct. y nov. de 2026).
+   - **Segunda pasada**: consultas amplias de capacitación (`consultas_amplias`: curso,
+     capacitación, DGAC, credencial…). Se abre el detalle de cada resultado y solo se guarda si
+     los productos o los nombres de los adjuntos hablan de drones. Así aparecen las compras
+     cuyo título no lo dice («6 cuotas de inscripción de curso», «Departamento de geología»).
+     Las que solo dicen «capacitación según archivo adjunto» quedan en la lista **por revisar**
+     del dashboard: la API no permite leer los adjuntos.
+   - **Resultados**: a las compras cerradas se les consulta el detalle hasta que Mercado Público
+     publica las ofertas; se guarda cuántas hubo, quién fue seleccionado y si AÉREO cotizó.
+3. **Relaciona cada proceso con el ecosistema AÉREO** ([`radar/areas.py`](radar/areas.py)):
+   01 Capacitación (AÉREO Empresas), 02 Servicios, 03 Asesorías (Certifica, Gestión),
+   04 Venta de drones (Tienda) u «otros» (seguros). Y le pone relevancia: **alta** si el título
+   o lo que se pide habla de drones, **baja** si es solo una mención al pasar.
+4. Guarda el resultado en [`docs/data/licitaciones.json`](docs/data/licitaciones.json)
    (hace commit en el repo, así queda historial). El dashboard publicado en Netlify
    (licitaciones.aereo.cl) lee ese archivo directamente desde GitHub.
+5. **Avisa por correo**: cada oportunidad nueva de las áreas de `avisar_areas`
+   (`config/terminos.json`; por defecto capacitación, asesorías y servicios) abre un issue
+   asignado al dueño del repo, que GitHub envía por correo, y lo cierra cuando la compra cierra.
+   Con `"avisar_areas": []` no se envían avisos.
 
-El dashboard ([`docs/index.html`](docs/index.html), HTML estático sin dependencias) muestra:
+El dashboard ([`docs/index.html`](docs/index.html), HTML estático sin dependencias) usa el
+sistema gráfico de AÉREO y muestra:
 
-- Abiertas ahora, nuevas en las últimas 24 h, las que cierran en ≤ 7 días y el monto abierto.
-- Procesos abiertos por término (clic para filtrar) y publicados por semana.
-- Lista filtrable por texto, fuente, estado, región y término, con cuenta regresiva al cierre
-  (rojo < 48 h, amarillo < 7 días), enlace directo a la ficha oficial y descripción.
-- Exportación a CSV (abre directo en Excel).
-- Se refresca sola: consulta datos nuevos cada 10 minutos, avisa con un mensaje cuando hay
-  oportunidades nuevas y, si se activa "🔔 Avisarme", con una notificación del navegador.
+- Qué hay para cotizar: abiertas, las que cierran en 24 h, nuevas y presupuesto abierto.
+- Las áreas del ecosistema con su sello: un clic filtra todo el tablero por área.
+- La lista agrupada por urgencia (cierran hoy, mañana, esta semana), con búsqueda, filtros y CSV.
+  Las menciones indirectas quedan ocultas salvo que se marque «Incluir menciones indirectas».
+- **Cómo nos fue**: adjudicadas, cobertura (cuántas cotizó AÉREO), efectividad, quién se las
+  adjudicó y las últimas adjudicadas con la oferta de AÉREO y su lugar en precio.
+- Se refresca sola: consulta datos nuevos cada 10 minutos.
 
 ## Puesta en marcha (una sola vez)
 
@@ -75,9 +93,10 @@ respaldo es una revisión manual guiada:
 
 ## Diseño y acceso
 
-- El dashboard usa el sistema de diseño de aereo.cl (repo `aereo-web`: `partials/chrome.css` y
-  `assets/aereo-ui.css`): amarillo `#ECE31D`, Big Shoulders Display + Roboto + Roboto Mono
-  (copiadas en `docs/assets/fonts/`) y sombras duras negras.
+- El dashboard usa la identidad de AÉREO vigente (repo `aereo-web`, `partials/chrome.css`,
+  26-10-2026): amarillo `#ECE31D`, negro, petróleo `#425D76` y blanco, sin rojo ni verde (los
+  estados se dicen con palabras); Big Shoulders Display, Roboto y Roboto Mono; logo horizontal
+  y sellos de área copiados en `docs/assets/`.
 - En Netlify (proyecto `aereo-licitaciones`, licitaciones.aereo.cl) el sitio está protegido con
   la contraseña de visitantes de Netlify (*Project configuration → Access & security → Visitor
   access*). Los datos de `docs/data/licitaciones.json` son información pública de Mercado Público.
@@ -128,6 +147,8 @@ Tests: `python3 -m unittest discover -s tests -t .`
 ```
 config/terminos.json        términos, patrones y exclusiones
 radar/terminos.py           normalización y detección de términos
+radar/areas.py              relación de cada proceso con las áreas del ecosistema AÉREO
+radar/manual.py             avisos por correo, recordatorios e ingreso manual (GitHub Issues)
 radar/fuentes.py            clientes de las APIs (Licitaciones v1, Compra Ágil v2)
 radar/monitor.py            orquestación, fusión con datos previos, JSON de salida
 docs/index.html             dashboard

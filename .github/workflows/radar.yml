@@ -45,13 +45,13 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python -m radar.monitor
 
-      # Si la API de Compra Ágil no responde, a las 9, 13 y 17 h de Chile se abre un
-      # issue asignado al dueño del repo con los pasos de la revisión manual.
-      - name: Recordatorio de revisión manual de Compra Ágil
+      # Avisos por correo (issues asignados al dueño del repo): una oportunidad nueva de las
+      # áreas de 'avisar_areas', y el recordatorio de revisión manual si la API no responde.
+      - name: Avisos de oportunidades nuevas
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python -m radar.manual recordatorio
+        run: python -m radar.manual avisos
 
       - name: Guardar datos en el repositorio
         run: |

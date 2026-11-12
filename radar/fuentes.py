@@ -52,6 +52,8 @@ ESTADOS_COMPRA_AGIL = {
     "oc_emitida": "adjudicada",
 }
 ESTADOS_FINALES = {"adjudicada", "desierta", "cancelada", "revocada"}
+# RUT con que AÉREO SpA aparece como oferente en los resultados públicos de Compra Ágil.
+RUT_AEREO = "78255088-8"
 
 
 class ErrorAPI(Exception):
@@ -169,6 +171,16 @@ def fecha_iso(valor: str | None) -> str | None:
     if fecha.tzinfo is None:
         fecha = fecha.replace(tzinfo=ZONA_CHILE)
     return fecha.isoformat()
+
+
+def fecha_filtro_compra_agil(fecha: datetime) -> str:
+    """Fecha para los filtros de la API de Compra Ágil (publicado_*/cambio_*).
+
+    La API guarda y compara en hora de Chile e ignora la zona que se le envíe: una
+    ventana en UTC queda 3-4 horas adelantada y no devuelve lo recién publicado
+    (verificado contra la API el 12-11-2026). Por eso va en hora local, sin zona.
+    """
+    return fecha.astimezone(ZONA_CHILE).strftime("%Y-%m-%dT%H:%M:%S")
 
 
 def a_numero(valor: Any) -> float | None:
@@ -326,6 +338,36 @@ def compra_agil_desde_listado(i: dict) -> dict:
     }
 
 
+def _rut(valor: str | None) -> str:
+    return (valor or "").replace(".", "").strip().upper()
+
+
+def resultado_compra_agil(d: dict) -> dict | None:
+    """Quién cotizó y quién ganó. Mercado Público publica las ofertas solo cuando ya
+    hay proveedor seleccionado, así que antes de eso devuelve None."""
+    ofertas = [o for o in (d.get("proveedores_cotizando") or []) if a_numero(o.get("monto_total"))]
+    if not ofertas:
+        return None
+    ofertas.sort(key=lambda o: a_numero(o.get("monto_total")))
+
+    def seleccionada(o: dict) -> bool:
+        return o.get("proveedor_seleccionado") in (1, True) or bool((o.get("seleccion") or {}).get("proveedor_seleccionado"))
+
+    resultado: dict = {"ofertas": len(ofertas), "oferta_minima": a_numero(ofertas[0].get("monto_total"))}
+    ganadora = next((o for o in ofertas if seleccionada(o)), None)
+    if ganadora:
+        resultado["ganador"] = {
+            "nombre": (ganadora.get("razon_social") or "").strip(),
+            "monto": a_numero(ganadora.get("monto_total")),
+            "es_aereo": _rut(ganadora.get("rut_proveedor")) == RUT_AEREO,
+        }
+    for lugar, o in enumerate(ofertas, start=1):
+        if _rut(o.get("rut_proveedor")) == RUT_AEREO:
+            resultado["aereo"] = {"monto": a_numero(o.get("monto_total")), "lugar": lugar, "gano": seleccionada(o)}
+            break
+    return resultado
+
+
 def compra_agil_desde_detalle(d: dict) -> dict:
     item = compra_agil_desde_listado(d)
     entrega = d.get("entrega") or {}
@@ -338,8 +380,14 @@ def compra_agil_desde_detalle(d: dict) -> dict:
                 " — ".join(x for x in (p.get("nombre"), p.get("descripcion")) if x)
                 for p in (d.get("productos_solicitados") or [])
             ][:15],
+            # Los nombres de los adjuntos suelen decir el tema cuando el título no lo dice
+            # ("TR N° 188 Capacitación dron.pdf"); el contenido no se puede leer por la API.
+            "adjuntos": [str(a.get("nombre") or "").strip() for a in (d.get("documentos") or []) if a.get("nombre")][:10],
+            "resultado": resultado_compra_agil(d),
         }
     )
+    if item["ofertas"] is None:
+        item["ofertas"] = (d.get("resumen") or {}).get("total_ofertas_recibidas")
     return item
 
 

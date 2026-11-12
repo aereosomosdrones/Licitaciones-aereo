@@ -1,15 +1,15 @@
 {
-  "_ayuda": "Los patrones son expresiones regulares que se aplican sobre el texto normalizado (minúsculas y sin tildes). 'excluir_si' descarta la coincidencia de ESE término cuando el texto contiene alguna de esas frases. 'consultas_compra_agil' son las palabras que se envían al buscador de Compra Ágil (parámetro q); los resultados se verifican después contra los patrones. El buscador de Compra Ágil trata varias palabras como 'cualquiera de ellas', por eso solo se usan palabras sueltas y precisas.",
+  "_ayuda": "Los patrones son expresiones regulares sobre el texto normalizado (minúsculas, sin tildes). 'excluir_si' descarta la coincidencia de ESE término cuando el texto contiene alguna de esas frases. 'consultas_compra_agil' son las palabras precisas que se envían al buscador de la API (parámetro q), que busca por palabra completa en título y descripción. 'consultas_amplias' son palabras genéricas de capacitación: sus resultados no se aceptan directo, se abre el detalle de cada uno y solo se guarda si los productos o los nombres de los adjuntos hablan de drones (segunda pasada). 'avisar_areas' son las áreas del ecosistema AÉREO cuyas oportunidades nuevas generan un aviso por correo (issue de GitHub); déjalo vacío [] para no recibir avisos.",
   "terminos": [
     {
       "etiqueta": "Dron",
       "categoria": "nucleo",
-      "patron": "\\bdron(es)?\\b|\\bdrones?\\b|\\bdrone\\b"
+      "patron": "\\bdron(es)?\\b|\\bdrones?\\b|\\bdrone\\b|\\bdorones\\b"
     },
     {
       "etiqueta": "RPA / RPAS",
       "categoria": "nucleo",
-      "patron": "\\brpas?\\b",
+      "patron": "(?<!seccion )(?<!seccion regional )\\brpas?\\b",
       "excluir_si": [
         "automatizacion robotica",
         "automatizacion de procesos",
@@ -26,7 +26,12 @@
         "software rpa",
         "rpa de software",
         "direccion de tecnologia",
-        "automatizar procesos"
+        "automatizar procesos",
+        "defensa penal",
+        "responsabilidad penal",
+        "defensa rpa",
+        "defensoria penal",
+        "penal adolescente"
       ]
     },
     {
@@ -63,7 +68,7 @@
     {
       "etiqueta": "Credencial / piloto",
       "categoria": "nucleo",
-      "patron": "credencial(es)?.{0,40}(dron|rpas?|uav|aeronave)|piloto(s)? (de |a )?(dron|rpas?|uav|aeronaves? no tripulad|distancia)|piloto(s)? remoto|operador(es)? de (dron|rpas?|uav)|\\bdan[ -]?151\\b"
+      "patron": "credencial(es)?.{0,40}(dron|rpas?|uav|aeronave)|piloto(s)? (de |a )?(dron|rpas?|uav|aeronaves? no tripulad|distancia)|piloto(s)? remoto|operador(es)? de (dron|rpas?|uav)|\\bdan[ -]?151\\b|(curso|capacitacion|certificacion|credencial|licencia|acreditacion|renovacion)[^|]{0,80}\\bdgac\\b|\\bdgac\\b[^|]{0,60}(curso|credencial|licencia)|(curso|capacitacion|habilitacion|especializacion)[^|]{0,60}vuelo nocturno"
     },
     {
       "etiqueta": "Antidrones",
@@ -91,6 +96,7 @@
     "drones",
     "drone",
     "RPAS",
+    "RPA",
     "UAV",
     "VANT",
     "multirrotor",
@@ -102,5 +108,18 @@
     "fotogrametria",
     "LiDAR",
     "multiespectral"
+  ],
+  "consultas_amplias": [
+    "capacitacion",
+    "curso",
+    "DGAC",
+    "credencial",
+    "piloto",
+    "vuelo"
+  ],
+  "avisar_areas": [
+    "capacitacion",
+    "certifica",
+    "servicios"
   ]
 }

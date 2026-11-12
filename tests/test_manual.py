@@ -5,6 +5,7 @@ from radar.manual import (
     PREFIJO_TITULO,
     GitHub,
     fecha_chile,
+    gestionar_avisos,
     gestionar_recordatorio,
     item_desde_issue,
     leer_ingresos_manuales,
@@ -162,6 +163,46 @@ class TestRecordatorio(unittest.TestCase):
         cache = gestionar_recordatorio(gh, datos_ca(True), {"recordatorios_abiertos": [41]}, [], self.AHORA, "d")
         self.assertEqual(cache["recordatorios_abiertos"], [])
         self.assertIn(("PATCH", "/issues/41", {"state": "closed", "state_reason": "completed"}), gh.llamadas)
+
+
+class TestAvisos(unittest.TestCase):
+    AHORA = datetime(2026, 11, 12, 15, 0, tzinfo=timezone.utc)
+
+    def item(self, id_, area="capacitacion", estado="abierta", detectada="2026-11-12T14:05:00+00:00", **extra):
+        return {"id": id_, "codigo": id_[3:], "nombre": "Curso piloto de dron", "area": area, "estado": estado, "relevancia": "alta",
+                "primera_deteccion": detectada, "fecha_cierre": "2026-11-14T15:00:00-03:00", "organismo": "Mun. X", "monto": 800000,
+                "url": "https://buscador.mercadopublico.cl/ficha?code=1", **extra}
+
+    def test_avisa_solo_lo_nuevo_de_las_areas_elegidas(self):
+        datos = {"items": [
+            self.item("CA:1"),
+            self.item("CA:2", area="tienda"),
+            self.item("CA:3", detectada="2026-11-01T00:00:00+00:00"),
+            self.item("CA:4", relevancia="baja"),
+        ]}
+        gh = GitHubFalso()
+        cache = gestionar_avisos(gh, datos, {}, ["capacitacion", "servicios"], self.AHORA, "duenio")
+        creados = [d for m, r, d in gh.llamadas if r == "/issues"]
+        self.assertEqual(len(creados), 1)
+        self.assertIn("Capacitación", creados[0]["title"])
+        self.assertIn("cierra 14-11 15:00", creados[0]["title"])
+        self.assertIn("$800.000", creados[0]["body"])
+        self.assertEqual(list(cache["avisos"]), ["CA:1"])
+        # No se repite en la siguiente ejecución.
+        gh2 = GitHubFalso()
+        gestionar_avisos(gh2, datos, cache, ["capacitacion"], self.AHORA, "duenio")
+        self.assertEqual(gh2.llamadas, [])
+
+    def test_cierra_el_aviso_cuando_la_compra_cierra(self):
+        gh = GitHubFalso()
+        cache = gestionar_avisos(gh, {"items": [self.item("CA:1", estado="cerrada", estado_glosa="Cerrada")]}, {"avisos": {"CA:1": 55}}, ["capacitacion"], self.AHORA, "d")
+        self.assertEqual(cache["avisos"], {})
+        self.assertIn(("PATCH", "/issues/55", {"state": "closed", "state_reason": "completed"}), gh.llamadas)
+
+    def test_sin_areas_no_avisa(self):
+        gh = GitHubFalso()
+        gestionar_avisos(gh, {"items": [self.item("CA:1")]}, {}, [], self.AHORA, "d")
+        self.assertEqual(gh.llamadas, [])
 
 
 if __name__ == "__main__":

@@ -239,12 +239,77 @@ class TestCompraAgil(unittest.TestCase):
         self.assertIn("200-1-COT26", cache["ca_descartadas"])
         self.assertEqual(datos["fuentes"]["compra_agil"]["modo"], "completo")
 
-        # Segunda ejecución: incremental y sin volver a pedir el detalle descartado.
+        # Segunda ejecución: solo lo publicado en las últimas 72 h, con la ventana en hora
+        # de Chile (la API ignora la zona), y sin volver a pedir el detalle descartado.
         api.urls.clear()
         datos2, _ = crear_radar(api, previos=datos, cache=cache, ahora=AHORA + timedelta(hours=1)).ejecutar()
-        self.assertEqual(datos2["fuentes"]["compra_agil"]["modo"], "incremental")
-        self.assertTrue(all("cambio_desde=" in u for u in api.urls if u.split("?")[0].endswith("/compra-agil")))
+        self.assertEqual(datos2["fuentes"]["compra_agil"]["modo"], "recientes")
+        consulta = next(dict(urllib.parse.parse_qsl(urllib.parse.urlparse(u).query)) for u in api.urls if "q=dron&" in u)
+        # AHORA + 1 h = 16:00 UTC = 13:00 en Chile; 72 h antes, sin zona.
+        self.assertEqual(consulta["publicado_desde"], "2026-10-02T13:00:00")
+        self.assertEqual(consulta["publicado_hasta"], "2026-10-05T14:00:00")
         self.assertFalse(any(u.endswith("/200-1-COT26") for u in api.urls))
+
+    def test_segunda_pasada_encuentra_lo_que_el_titulo_no_dice(self):
+        generica = ca_item("400-1-COT26", "ADQ DE 6 CUOTAS DE INSCRIPCIÓN DE CURSO. SECCIÓN PERSONAL")
+        excel = ca_item("500-1-COT26", "Curso de Excel avanzado")
+        sin_tema = ca_item("600-1-COT26", "SOL 682 / FINANZAS / CAPACITACION")
+        api = ApiFalsa(
+            busqueda_ca={"curso": [generica, excel], "capacitacion": [sin_tema]},
+            detalles_ca={
+                "400-1-COT26": {**generica, "descripcion": "Remitirse al adjunto",
+                                "productos_solicitados": [{"nombre": "Asesorías educativas", "descripcion": "CAPACITACIÓN EN OPERACIÓN DE RPAS (DRONES)"}]},
+                "500-1-COT26": {**excel, "descripcion": "Curso de Excel avanzado para 10 funcionarios"},
+                "600-1-COT26": {**sin_tema, "descripcion": "CAPACITACION",
+                                "productos_solicitados": [{"nombre": "Capacitación a empleados", "descripcion": "CAPACITACION SEGUN ARCHIVO ADJUNTO"}],
+                                "documentos": [{"id": 1, "nombre": "CAPACITACION.pdf"}]},
+            },
+        )
+        datos, cache = crear_radar(api).ejecutar()
+        item = next(i for i in datos["items"] if i["codigo"] == "400-1-COT26")
+        self.assertEqual(item["via"], "segunda pasada")
+        self.assertEqual((item["area"], item["relevancia"], item["coincide_en"]), ("capacitacion", "alta", "detalle"))
+        self.assertNotIn("500-1-COT26", {i["codigo"] for i in datos["items"]})
+        self.assertIn("500-1-COT26", cache["ca_descartadas"])
+        # La que no dice el tema y remite al adjunto queda para revisión de una persona.
+        self.assertEqual([p["codigo"] for p in datos["por_revisar"]], ["600-1-COT26"])
+        self.assertEqual(cache["ca_pendientes"], {})
+
+    def test_nombre_del_adjunto_cuenta(self):
+        fila = ca_item("700-1-COT26", "Capacitación funcionarios Vialidad")
+        api = ApiFalsa(busqueda_ca={"capacitacion": [fila]},
+                       detalles_ca={"700-1-COT26": {**fila, "descripcion": "Según TR", "documentos": [{"id": 9, "nombre": "TR N° 188 Capacitación dron.pdf"}]}})
+        datos, _ = crear_radar(api).ejecutar()
+        self.assertEqual([i["codigo"] for i in datos["items"]], ["700-1-COT26"])
+
+    def test_resultado_de_las_cerradas(self):
+        previo = {"id": "CA:800-1-COT26", "fuente": "compra_agil", "origen": "api", "codigo": "800-1-COT26", "nombre": "Curso piloto dron",
+                  "estado": "cerrada", "fecha_cierre": "2026-10-03T12:00:00-03:00", "terminos": ["Dron"],
+                  "detalle_actualizado": "2026-10-04T00:00:00+00:00"}
+        detalle = {**ca_item("800-1-COT26", "Curso piloto dron", estado="proveedor_seleccionado"),
+                   "proveedores_cotizando": [
+                       {"razon_social": "AEREO SPA", "rut_proveedor": "78.255.088-8", "monto_total": 749000, "proveedor_seleccionado": 0},
+                       {"razon_social": "DRON CHILE SPA", "rut_proveedor": "77.188.923-9", "monto_total": 790000, "proveedor_seleccionado": 1},
+                       {"razon_social": "OTRA SPA", "rut_proveedor": "76.000.000-0", "monto_total": 984000, "proveedor_seleccionado": 0}]}
+        api = ApiFalsa(detalles_ca={"800-1-COT26": detalle})
+        datos, _ = crear_radar(api, previos={"items": [previo]}).ejecutar()
+        r = datos["items"][0]["resultado"]
+        self.assertEqual(datos["items"][0]["estado"], "adjudicada")
+        self.assertEqual(r["ofertas"], 3)
+        self.assertEqual(r["ganador"], {"nombre": "DRON CHILE SPA", "monto": 790000.0, "es_aereo": False})
+        self.assertEqual(r["aereo"], {"monto": 749000.0, "lugar": 1, "gano": False})
+        # Ya tiene resultado: no se vuelve a consultar.
+        api.urls.clear()
+        crear_radar(api, previos=datos, ahora=AHORA + timedelta(days=1)).ejecutar()
+        self.assertFalse(any(u.endswith("/800-1-COT26") for u in api.urls))
+
+    def test_relevancia_baja_si_solo_es_una_mencion(self):
+        fila = ca_item("900-1-COT26", "Adquisición de 3 Workstations teclado y mouse")
+        productos = [{"nombre": f"Equipo {n}", "descripcion": "workstation"} for n in range(5)]
+        api = ApiFalsa(busqueda_ca={"dron": [fila]},
+                       detalles_ca={"900-1-COT26": {**fila, "descripcion": "Para procesar imágenes de dron", "productos_solicitados": productos}})
+        datos, _ = crear_radar(api).ejecutar()
+        self.assertEqual((datos["items"][0]["relevancia"], datos["items"][0]["coincide_en"]), ("baja", "mencion"))
 
     def test_divide_la_ventana_si_la_api_no_alcanza_a_responder(self):
         api = ApiFalsa(busqueda_ca={"dron": [ca_item("9-1-COT26", "Dron")]}, detalles_ca={"9-1-COT26": ca_item("9-1-COT26", "Dron")})
