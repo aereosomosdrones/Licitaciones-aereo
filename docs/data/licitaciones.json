@@ -1,27 +1,27 @@
 {
- "generado": "2026-11-12T14:05:11+00:00",
- "proxima_actualizacion": "2026-11-12T15:05:11+00:00",
+ "generado": "2026-11-12T15:05:12+00:00",
+ "proxima_actualizacion": "2026-11-12T16:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-12T14:05:11+00:00",
+   "ultima_ok": "2026-11-12T15:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5140,
-   "detalles_consultados": 43,
+   "revisadas": 5172,
+   "detalles_consultados": 58,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-12T14:05:11+00:00",
+   "ultima_ok": "2026-11-12T15:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 0,
-   "detalles_consultados": 0,
-   "modo": "incremental"
+   "revisadas": 179,
+   "detalles_consultados": 46,
+   "modo": "completo"
   }
  },
  "terminos": [
@@ -74,98 +74,15 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:5420-27-LE26",
+  "CA:1238177-124-COT26",
+  "CA:2859-1516-COT26",
+  "CA:924-316-COT26",
+  "CA:2427-1391-COT26",
+  "CA:2859-1498-COT26"
+ ],
  "items": [
-  {
-   "id": "CA:831-251-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "831-251-COT26",
-   "nombre": "Adquisición y Habilitación de Dron",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-10T07:56:00-03:00",
-   "fecha_cierre": "2026-11-12T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10 08:00",
-   "organismo": "GOBIERNO REGIONAL DE LA REGION DEL BIO BIO",
-   "unidad": "Gobierno Regional de la Región del Bío Bío",
-   "region": "Región del Biobío ",
-   "monto": 3500000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=831-251-COT26",
-   "descripcion": "Se requiere la contratación de un Dron según el pliego de condiciones adjunta, que requiera todos los elementos adicionales que permitan su adecuada habilitación e implementación.",
-   "direccion_entrega": "Av. Prat 525",
-   "plazo_entrega_dias": 3,
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
-   "primera_deteccion": "2026-11-10T14:05:12+00:00"
-  },
-  {
-   "id": "CA:929-201-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "929-201-COT26",
-   "nombre": "DRON PARA INSPECCIÓN DE OBRAS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-10T12:48:00-03:00",
-   "fecha_cierre": "2026-11-12T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10 12:50",
-   "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
-   "unidad": "Direccion Regional Metropolitana",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 465000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=929-201-COT26",
-   "descripcion": "SE REQUIERE DE DRON PARA INSPECCIÓN DE OBRAS. \nSE ADJUNTA REQUERIMIENTO CON DETALLE DEL PRODUCTO SOLICITADO. \nSE SOLICITA ADJUNTAR COTIZACIÓN CON DETALLE DEL PRODUCTO OFERTADO.",
-   "direccion_entrega": "COYANCURA #2241, 2DO PISO ",
-   "plazo_entrega_dias": 3,
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
-   "primera_deteccion": "2026-11-11T15:05:11+00:00"
-  },
-  {
-   "id": "CA:697036-88-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "697036-88-COT26",
-   "nombre": "SERVICIO DE CAPACITACIÓN PARA OPERADOR DE DRONES Y HABILITACIÓN DE VUELO NOCTURNO PARA OFICINAS ECOH ANTOFAGASTA Y CALAMA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-10T12:37:00-03:00",
-   "fecha_cierre": "2026-11-12T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10T12:40:00.777Z",
-   "organismo": "MINISTERIO PUBLICO",
-   "unidad": "FR ANTOFAGASTA",
-   "region": "Región de Antofagasta ",
-   "monto": 2400000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=697036-88-COT26",
-   "terminos": [
-    "Dron",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "primera_deteccion": "2026-11-11T15:05:11+00:00"
-  },
   {
    "id": "CA:2833-862-COT26",
    "fuente": "compra_agil",
@@ -193,9 +110,73 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00"
+  },
+  {
+   "id": "CA:3897-164-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "3897-164-COT26",
+   "nombre": "SEGURO OPERACION DRONE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-10T13:10:00-03:00",
+   "fecha_cierre": "2026-11-12T16:49:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-11T15:05:00.500Z",
+   "organismo": "I MUNICIPALIDAD DE FUTALEUFU",
+   "unidad": "Adquisiciones",
+   "region": "Región de los Lagos ",
+   "monto": 150000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3897-164-COT26",
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-11T15:05:11+00:00",
+   "cambio_estado": "2026-11-12T15:05:12+00:00"
+  },
+  {
+   "id": "CA:2427-1391-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2427-1391-COT26",
+   "nombre": "ADQUISICIÓN DE DRON Y PARACAÍDAS, D. DESARROLLO ECONÓMICO Y CI, GESTIÓN PATRIMONIAL",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-11T16:35:00-03:00",
+   "fecha_cierre": "2026-11-13T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-11 16:40",
+   "organismo": "I MUNICIPALIDAD DE VALPARAISO",
+   "unidad": "ABASTECIMIENTO",
+   "region": "Región de Valparaíso ",
+   "monto": 2050000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2427-1391-COT26",
+   "descripcion": "PEDIDO Nº 34, D. DESARROLLO ECONÓMICO Y CI. GESTIÓN PATRIMONIAL, REQUIERE DRON, SEGÚN BASES TÉCNICAS ADJUNTAS CON DETALLE. *PARA OFERTAR: DEBE ADJUNTAR PATENTE MUNICIPAL 2º SEMESTRE 2026 Y COTIZACIÓN FORMAL INDICANDO PLAZO DE ENTREGA, EN CASO DE NO ADJUNTAR SE SOLICITARÁ VÍA CORREO Y TENDRÁ UN PLAZO DE 24 HORAS PARA ADJUNTAR*",
+   "direccion_entrega": "CALLE SERRANO 580",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — DRON (DJI AIR 3S FLY MORE COMBO (DJI RC 2) O SIMILAR), SEGÚN BASES TÉCNCAS ADJUNTAS CON DETALLE. MONTO MÁXIMO $1.900.000.- IMPUESTO INCLUIDO.",
+    "Aviones objetivo o de reconocimiento — PARACAÍDAS (FLYFIRE MANTI 3 O SIMILAR), DEBE SER COMPATIBLE PARA AERONAVE DJI AIR 3S FLY MORE, SEGÚN BASES TÉCNICAS ADJUNTAS CON DETALLE. MONTO REFERENCIAL $150.000.- IMPUESTO INCLUIDO"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "CA:1107281-262-COT26",
@@ -207,7 +188,7 @@
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-11-10T22:28:00-03:00",
    "fecha_cierre": "2026-11-13T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10 22:30",
+   "fecha_ultimo_cambio": "2026-11-10T22:30:00.390Z",
    "organismo": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
    "unidad": "CARILLANCA",
    "region": "Región de la Araucanía ",
@@ -224,9 +205,45 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00"
+  },
+  {
+   "id": "CA:924-316-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "924-316-COT26",
+   "nombre": "SERVICIO DE REGISTRO AÉREO CON DRON",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-11T17:08:00-03:00",
+   "fecha_cierre": "2026-11-13T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-11 17:10",
+   "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
+   "unidad": "Seremi Salud R.M.",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 660000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=924-316-COT26",
+   "descripcion": "Servicio de registro aéreo con dron para tres fiscalizaciones: Til Til(dos predios), Las Condes y Lo Echevers, Quilicura.",
+   "direccion_entrega": "Catedral 1401",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Servicios Audio Visuales — Servicio de registro aéreo con dron para tres fiscalizaciones: Til Til\n(dos predios), Las Condes y Lo Echevers, Quilicura. Hasta 4 horas por fiscalización. Debe incluir imágenes y videos georreferenciados, con referencia al norte magnético.\n - DETALLES EN TERMINOS DE REFERENCIA ADJUNTOS.\n"
+   ],
+   "terminos": [
+    "Dron",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "CA:5648-51-COT26",
@@ -253,7 +270,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00"
   },
   {
@@ -285,7 +302,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00"
   },
@@ -317,9 +334,46 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00"
+  },
+  {
+   "id": "CA:748891-243-COT26",
+   "fuente": "compra_agil",
+   "codigo": "748891-243-COT26",
+   "nombre": "ADQUISICIÓN DE SERVICIO DE DRON PARA OBTENER INFORMACIÓN PARA META PACCC",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-03T13:35:00-03:00",
+   "fecha_cierre": "2026-11-14T06:13:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-12 10:50",
+   "organismo": "I MUNICIPALIDAD DE CONCEPCION",
+   "unidad": "DIRECCION MEDIO AMBIENTE",
+   "region": "Región del Biobío ",
+   "monto": 1600000.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=748891-243-COT26",
+   "descripcion": "El servicio tiene por objeto generar, mediante levantamiento fotogramétrico con dron",
+   "direccion_entrega": "EJERCITO 1020 2DO PISO",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Servicios de investigación o medición — DETALLES TECNICOS Y ESPECIFICACIONES EN ARCHIVO ADJUNTO"
+   ],
+   "terminos": [
+    "Dron",
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-04T05:05:12+00:00",
+   "origen": "api",
+   "cambio_estado": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "CA:377-399-COT26",
@@ -346,7 +400,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00"
   },
   {
@@ -377,7 +431,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00"
   },
@@ -409,7 +463,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -440,7 +494,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00"
   },
@@ -472,7 +526,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T10:05:12+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00"
   },
@@ -504,7 +558,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-10-15T18:05:11+00:00"
   },
@@ -535,7 +589,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-10-15T19:01:36+00:00"
   },
@@ -576,9 +630,44 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00"
+  },
+  {
+   "id": "CA:2859-1498-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2859-1498-COT26",
+   "nombre": "Adquisición de dron",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-11T12:52:00-03:00",
+   "fecha_cierre": "2026-11-17T13:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-11 12:55",
+   "organismo": "UNIVERSIDAD DE ATACAMA",
+   "unidad": "SECCIÓN ABASTECIMIENTO",
+   "region": "Región de Atacama ",
+   "monto": 2600000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2859-1498-COT26",
+   "descripcion": "Se solicita dron. Proveedor deberá procurar informar en su cotización todo lo solicitado, ya sea en el formulario de cotización de la plataforma o complementando con documento adjunto, como por ejemplo: datos\ntécnicos, plazo de entrega, datos del proveedor, valor presupuestado incluye IVA y despacho, etc. De no adjuntar lo solicitado, su oferta será declarada inadmisible",
+   "direccion_entrega": "Avenida Copayapu 485, Universidad de Atacama",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Dron DJI Air 3S Fly o equivalente técnico, con sistema de doble cámara. Garantía de 12 meses. Se debe incluir capacitación teórica y práctica; preparación para examen de conocimiento exigido por DGAC. Revisar archivo adjunto para ver todos los aspectos técnicos requeridos."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "LIC:2981-317-LP26",
@@ -610,7 +699,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00"
   },
@@ -643,7 +732,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00"
   },
@@ -687,9 +776,45 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-12T08:05:12+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00"
+  },
+  {
+   "id": "CA:2859-1516-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2859-1516-COT26",
+   "nombre": "Compra de accesorios para Dron",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-11T18:39:00-03:00",
+   "fecha_cierre": "2026-11-18T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-11 18:40",
+   "organismo": "UNIVERSIDAD DE ATACAMA",
+   "unidad": "SECCIÓN ABASTECIMIENTO",
+   "region": "Región de Atacama ",
+   "monto": 340000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2859-1516-COT26",
+   "descripcion": "El monto presupuestado incluye IVA y costos de despacho. La oferta debe realizarse por la totalidad del producto solicitado y su plazo de entrega debe ser acorde al lugar de destino y a los plazos requeridos. Quedará automáticamente fuera del proceso la oferta que no presente especificaciones técnicas fehacientes o que no adjunte la cotización detallada correspondiente.",
+   "direccion_entrega": "Avenida Copayapu N°485, Universidad de Atacama.",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Baterías recargables — Batería de larga duración para Dron similar o superior a DJI Mini 3 Pro Intelligent Flight Battery Plus con las siguientes características: Debe ser compatible con el dron DJI Mini 3 Pro, Debe durar al menos 45 minutos.",
+    "Bolsos — Bolso maleta para dron DJI Mini Pro con las siguientes características: Debe ser compatible con el dron DJI Mini 3 Pro, Impermeable, Antigolpes, Dimensiones iguales o superiores a: 17.5 cm de alto, 23.2cm de ancho y 92cm de profundidad."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "LIC:411-52-LE26",
@@ -719,9 +844,44 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00"
+  },
+  {
+   "id": "CA:1238177-124-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1238177-124-COT26",
+   "nombre": "MANTENCION DRON",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-12T10:44:00-03:00",
+   "fecha_cierre": "2026-11-18T18:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-12 10:45",
+   "organismo": "ASOCIACION DE MUNICIPIOS METROPOLITANOS PARA LA SE",
+   "unidad": "PROYECTO SEGURIDAD PROVIDENCIA",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 400000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1238177-124-COT26",
+   "descripcion": "SE REQUIERE SERVCIO DE MANTENCION PARA DRON DJI MODELO MATRICE 4T, SE ADJUNTA DOCUMENTO CON REQUERIMIENTO TECNICO.-",
+   "direccion_entrega": "ALFEREZ REAL 936",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — SE REQUIERE SERVCIO DE MANTENCION PARA DRON DJI MODELO MATRICE 4T, SE ADJUNTA DOCUMENTO CON REQUERIMIENTO TECNICO.-"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "LIC:1469-365-L126",
@@ -761,8 +921,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-12T08:05:12+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00"
   },
   {
@@ -800,9 +960,42 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00"
+  },
+  {
+   "id": "LIC:5420-27-LE26",
+   "fuente": "licitacion",
+   "codigo": "5420-27-LE26",
+   "nombre": "Adquisición de dron topográfico RTK y software",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-23T15:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5420-27-LE26",
+   "descripcion": "El Gobierno Regional de Arica y Parinacota requiere adquirir una solución integrada de equipamiento y software para levantamientos topográficos y fotogramétricos, compuesta por dron RTK con control remoto, estación base GNSS multifuncional, sistema de paracaídas de emergencia y software fotogramétrico, conforme a las Bases Administrativas y Técnicas adjuntas.",
+   "organismo": "GOBIERNO REGIONAL DE ARICA-PARINACOTA",
+   "unidad": "Gobierno Regional de Arica y Parinacota",
+   "region": "Región de Arica y Parinacota",
+   "comuna": "Arica",
+   "fecha_publicacion": "2026-11-12T11:48:52-03:00",
+   "fecha_adjudicacion": "2026-12-10T21:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Sistemas de topografía — Solución integrada de dron topográfico RTK con control remoto, estación base GNSS, paracaídas de emergencia y software fotogramétrico, incluidos accesorios, licencias y prestaciones obligatorias, según Bases Técnicas adjuntas."
+   ],
+   "terminos": [
+    "Dron",
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "LIC:883-38-LP26",
@@ -832,7 +1025,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-12T12:05:14+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00"
   },
@@ -3969,7 +4162,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-05T20:10:04+00:00",
    "descripcion": "El levantamiento aerofotogramétrico mediante RPAS permite obtener, en plazos acotados y sin exponer personal al interior de sectores de difícil acceso o inestables, información geométrica de alta resolución sobre la totalidad de la extensión de cada quebrada. Frente a un levantamiento topográfico convencional, ofrece cobertura continua del cauce y sus laderas, registro visual verificable de las condiciones existentes y productos digitales que admiten mediciones posteriores. Términos Referencias.",
@@ -4006,7 +4199,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "El levantamiento aerofotogramétrico mediante RPAS permite obtener, en plazos acotados y sin exponer personal al interior de sectores de difícil acceso o inestables, información geométrica de alta resolución sobre la totalidad de la extensión de cada quebrada. Frente a un levantamiento topográfico convencional, ofrece cobertura continua del cauce y sus laderas, registro visual verificable de las condiciones existentes y productos digitales que admiten mediciones posteriores. Términos Referencias.",
    "direccion_entrega": "Arturo Prat 461 Piso 11- Región de Antofagasta ",
@@ -4077,7 +4270,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se requiere la adquisición de 1 Dron Profesional compacto con control con pantalla integrada y kit de vuelo (3 baterías, centro de carga, bolso), similar o equivalente a DJI Mini 5 Pro Fly More Combo, para trabajo de campo. Monto máximo para la compra: $1.500.000 IVA incluido. Se debe revisar el documento adjunto para más especificaciones técnicas solicitadas.",
    "direccion_entrega": "Pedro Aguirre Cerda 1947",
@@ -4111,7 +4304,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "MATERIALES OFERTADOS DEBEN CUMPLIR CON LAS ESPECIFICACIONES TÉCNICAS DE REFERENCIA. MARCAS SOLO REFERENCIALES.",
    "direccion_entrega": "SANTA TERESA 1280, TEMUCO",
@@ -4213,7 +4406,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Reparación Dron Dron Mavic Air 2S ejecutada exclusivamente por Servicio Técnico Autorizado DJI (OBLIGATORIO), utilizando repuestos 100% originales DJI y calibración de software mediante herramientas propietarias DJI (DJI Assistant 2 / Factory Calibration Tools).",
    "direccion_entrega": "Avenida Capitán Millán N° 342",
@@ -4249,7 +4442,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante para drones, 55 cm, doble cara, impermeable, plegable, con clavijas de tierra (bicolor) EL VALOR TOTAL DEBE SER CON FLETE INCLUIDO.",
    "direccion_entrega": "CALLE  PATRICIO LYNCH N° 50 IQUIQUE ",
@@ -4284,7 +4477,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00",
    "descripcion": "Se solicita Capacitación en el uso de Drone, se adjuntan términos de referencia, revisar obligatoriamente.",
@@ -4327,7 +4520,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-06T21:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-08T16:05:15+00:00",
@@ -4357,7 +4550,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se solicita la adquisición de un dron con capacitación y mantenimiento incluido según especificaciones del anexo adjunto, cotización debe incluir despacho a Caupolican 410, Los Ángeles. ANEXO DEBE SER COMPLETADO, FIRMADO Y SUBIDO A PLATAFORMA, DE LO CONTRARIO OFERTA SERÁ DECLARADA INADMISIBLE.",
    "direccion_entrega": "CAUPOLICAN 410",
@@ -4395,7 +4588,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CURSO DE MANEJO DE DRONES CON OBTENCIÓN CREDENCIAL ACREDITA POR LA DGAC, QUE DEBERA DESARROLLARSE EN LA CIUDAD DE TEMUCO, QUE INCLUYA CREDENCIAL DE OPERADOR DE RPA.\nLA PRESENTE SOLICITUD JUSTIFICA LA NECESIDAD DE CAPACITAR AL PERSONAL TÉCNICO EN EL \"CURSO OBTENCIÓN CREDENCIAL DGAC + OPERADOR DE RPA\".",
    "direccion_entrega": "A convenir",
@@ -4429,7 +4622,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Para el uso de drones del Servicio cada equipo requiere de un espacio delimitado que permita tanto un despliegue como un aterrizaje de forma segura tanto para el equipo como para terceros.",
    "direccion_entrega": "Alameda 887, piso 7",
@@ -4501,7 +4694,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
@@ -4537,7 +4730,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00",
    "descripcion": "U de La Serena, necesita el siguiente producto: Dron, sensor principal de 1\" CMOS 50MP, Cámaras dual, video máximo 4K 120 fps, color profesional 10-bit D-long M, con buen rendimiento nocturno, tiempo de vuelo 45 minutos, alta resistencia al viento, peso 800 grs aprox, control remoto, 3 baterías de vuelo, con centro de recarga para baterías,\n3 hélices de repuesto, juego de filtros ND, bolsa bandolera, cable PD tipo C a tipo C, protector del estabilizador. SC 51258.",
@@ -4646,7 +4839,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-05T18:56:09+00:00",
    "primera_deteccion": "2026-10-05T18:56:09+00:00",
    "cambio_estado": "2026-10-07T14:05:15+00:00",
@@ -4675,7 +4868,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
@@ -4716,7 +4909,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-07T20:32:51+00:00",
    "primera_deteccion": "2026-10-06T17:05:11+00:00",
    "cambio_estado": "2026-10-07T21:05:10+00:00",
@@ -4812,7 +5005,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL PROVEEDOR AL ACEPTAR LA ORDEN DE COMPRA, ACEPTA TODO LO ESTIPULADO EN ANEXO DE COMPRA ÁGIL (revisar en sección adjuntos) ADQUISICIÓN SERÁ PAGADA CON RECURSOS LEY N° 21.796, LEY DE PRESUPUESTOS DEL AÑO 2026, IVA INCLUIDO. EL PAGO SE EFECTUARÁ MEDIANTE TRANSFERENCIA, EL PROVEEDOR DEBE INDICAR CTA. CTE Y BANCO. COPIA DE FACTURA ELECTRÓNICA DEBE SER REMITIDA AL CORREO: deptoab@dgtm.cl",
    "direccion_entrega": "ERRAZURIZ 537 VALPARAISO",
@@ -4848,7 +5041,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -4884,7 +5077,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "En el marco del Proyecto BID 2026, el SAG requiere equipamiento para fortalecer la operación de drones institucionales: estación base RTK, kit de trípode con poste topográfico, bolso y plataforma de aterrizaje. Los equipos deberán ser compatibles e interoperables con el dron DJI Matrice 400 existente, permitiendo posicionamiento centimétrico mediante correcciones GNSS en tiempo real y apoyando la detección y seguimiento de plagas y enfermedades fitozoosanitarias.",
    "direccion_entrega": "Avenida Alameda Libertador Bernardo O´Higgins 886, piso 10, Santiago.",
@@ -4921,7 +5114,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "MATERIALES OFERTADOS DEBEN CUMPLIR CON LAS ESPECIFICACIONES TÉCNICAS DE REFERENCIA. MARCAS SOLO REFERENCIALES.",
    "direccion_entrega": "SANTA TERESA 1280, TEMUCO",
@@ -4965,7 +5158,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00",
@@ -4995,7 +5188,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
    "direccion_entrega": "JUAN SALLATO 2701, BARRIO INDUSTRIAL, HUEQUEN, ANGOL",
@@ -5036,7 +5229,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-19T00:05:10+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00",
@@ -5072,7 +5265,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
@@ -5108,8 +5301,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "origen": "api"
@@ -5145,7 +5338,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T15:05:12+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-14T19:05:10+00:00",
@@ -5180,7 +5373,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-09T20:47:57+00:00",
    "primera_deteccion": "2026-10-08T15:05:13+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00",
@@ -5325,7 +5518,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00",
@@ -5354,7 +5547,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-08T21:05:10+00:00",
    "descripcion": "SERVICIO DE CAPACITACIÓN OPERACIÓN DE DRONES DE ACUERDO A ESPECIFICACIONES TÉCNICAS ADJUNTAS. LA OFERTA QUE NO CUMPLA CON LAS ESPECIFICACIONES TÉCNICAS, NO PRESENTE COTIZACIÓN, NO PRESENTE EL ANEXO N°1 Y EXCEDA EL PRESUPUESTO SE DECLARA INADMISIBLE.",
    "direccion_entrega": "CAMINO SAN AGUSTIN KM 4",
@@ -5395,7 +5588,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-12T13:05:10+00:00",
    "primera_deteccion": "2026-10-09T15:05:12+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00",
@@ -5431,8 +5624,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00",
    "cambio_estado": "2026-10-13T21:05:12+00:00",
    "origen": "api"
@@ -5576,8 +5769,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-08T19:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
    "origen": "api"
@@ -5605,7 +5798,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-13T22:05:13+00:00",
    "descripcion": "Se solicita la adquisición 6 LANDING PAD (Plataforma de Aterrizaje para Drones), según especificaciones. \nLANDING PAD 75 CM para uso de Drones",
    "direccion_entrega": "Avenida Libertador General Bernardo O´higgins N° 720, 4° piso. Santiago Centro",
@@ -5646,7 +5839,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-20T00:05:10+00:00",
    "primera_deteccion": "2026-10-14T23:05:10+00:00",
    "cambio_estado": "2026-10-15T23:05:11+00:00",
@@ -5713,7 +5906,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-14T23:05:10+00:00",
    "cambio_estado": "2026-10-16T23:05:11+00:00",
@@ -5749,7 +5942,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-18T00:05:10+00:00",
    "origen": "api"
@@ -5817,7 +6010,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-10-15T12:05:12+00:00",
@@ -5852,7 +6045,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-19T16:05:10+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00",
@@ -5888,7 +6081,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-20T13:05:12+00:00",
@@ -5917,7 +6110,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "AL COTIZAR AGREGAR LOS DATOS DE CONTACTO, TALES COMO: NOMBRE, TELÉFONO Y CORREO ELECTRÓNICO. (PARA CUALQUIER EVENTUALIDAD).\nTENER PRESENTE, QUE AL MOMENTO DE CONTRATAR DEBE PERTENECER AL GIRO, RUBRO Y ACTIVIDAD ECONÓMICA A OBJETO DEL REQUERIMIENTO.\nEN EL CASO DE AGREGAR CARGOS O FLETES, INCLUIRLOS EN VALOR DE LOS PRODUCTOS Y/O SERVICIOS.\nEL PLAZO DE ENTREGA COMENZARÁ A REGIR DESPUÉS DE LAS 24 HRS DE ENVIADA LA ORDEN DE COMPRA, NO SE ACEPTARÁN OTROS ACUERDOS EN LAS OFERTAS DE LOS PROVEEDORES.",
    "direccion_entrega": "OTRA FORMA DE ENTREGA",
@@ -5960,7 +6153,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-09T20:05:10+00:00",
    "cambio_estado": "2026-10-16T16:05:12+00:00",
@@ -5995,7 +6188,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00",
@@ -6167,7 +6360,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-14T23:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-19T17:05:15+00:00",
@@ -6203,8 +6396,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00",
    "origen": "api"
@@ -6238,8 +6431,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00",
    "origen": "api"
@@ -6273,7 +6466,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-15T23:05:11+00:00",
    "cambio_estado": "2026-10-21T13:40:52+00:00",
@@ -6308,7 +6501,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-15T23:05:11+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00",
@@ -6344,7 +6537,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-09T17:05:11+00:00",
    "cambio_estado": "2026-10-13T18:05:11+00:00",
@@ -6380,7 +6573,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00",
    "cambio_estado": "2026-10-17T20:05:10+00:00",
@@ -6415,7 +6608,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-16T23:05:11+00:00",
    "primera_deteccion": "2026-10-16T22:05:13+00:00",
    "cambio_estado": "2026-10-20T12:05:11+00:00",
@@ -6451,8 +6644,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-16T15:05:15+00:00",
    "cambio_estado": "2026-10-19T21:05:11+00:00",
    "origen": "api"
@@ -6486,7 +6679,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-10-15T15:05:16+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00",
    "cambio_estado": "2026-10-19T12:05:13+00:00",
@@ -6522,8 +6715,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-15T22:05:11+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00",
    "origen": "api"
@@ -6557,7 +6750,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-16T23:05:11+00:00",
    "cambio_estado": "2026-10-20T00:05:10+00:00",
@@ -6660,7 +6853,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-15T23:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -6848,8 +7041,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-19T21:05:11+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00",
    "origen": "api"
@@ -6884,8 +7077,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api"
@@ -6923,8 +7116,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api"
@@ -6959,7 +7152,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00",
    "cambio_estado": "2026-10-21T12:05:12+00:00",
@@ -6994,8 +7187,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-19T15:05:10+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api"
@@ -7079,8 +7272,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-19T20:05:11+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00",
    "origen": "api"
@@ -7114,7 +7307,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T00:05:10+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
@@ -7150,7 +7343,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T14:55:05+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00",
@@ -7185,7 +7378,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T19:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
@@ -7196,11 +7389,11 @@
    "fuente": "compra_agil",
    "codigo": "1001-48-COT26",
    "nombre": "SERVICIO DE MANTENCIÓN Y CALIBRACIÓN PREVENTIVA ANUAL DE EQUIPOS SOUTH",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-20T15:44:00-03:00",
    "fecha_cierre": "2026-10-22T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-22T10:10:01.610Z",
+   "fecha_ultimo_cambio": "2026-11-11T13:20:00.373Z",
    "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
    "unidad": "Dirección de Vialidad - IX Región - Dirección Regional",
    "region": "Región de la Araucanía ",
@@ -7220,10 +7413,11 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00",
-   "origen": "api"
+   "origen": "api",
+   "cambio_estado": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "CA:2927-384-COT26",
@@ -7256,8 +7450,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00",
    "origen": "api"
   },
@@ -7290,8 +7484,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api"
@@ -7326,7 +7520,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-20T21:05:10+00:00",
    "origen": "api"
@@ -7366,7 +7560,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "origen": "api"
@@ -7380,7 +7574,7 @@
    "estado_glosa": "Cancelada",
    "fecha_publicacion": "2026-10-21T15:32:00-03:00",
    "fecha_cierre": "2026-10-23T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-21 15:35",
+   "fecha_ultimo_cambio": "2026-10-21T15:35:01.453Z",
    "organismo": "UNIVERSIDAD DE LA FRONTERA",
    "unidad": "Universidad de la Frontera",
    "region": "Región de la Araucanía ",
@@ -7402,7 +7596,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "origen": "api"
@@ -7437,8 +7631,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-20T16:05:14+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api"
@@ -7472,7 +7666,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00",
@@ -7487,7 +7681,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-21T14:40:00-03:00",
    "fecha_cierre": "2026-10-23T15:19:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-26 18:25",
+   "fecha_ultimo_cambio": "2026-10-26T18:25:01.053Z",
    "organismo": "UNIVERSIDAD DE VALPARAISO",
    "unidad": "22 Organismo Central-Vic de Investigación e Innova",
    "region": "Región de Valparaíso ",
@@ -7507,7 +7701,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
@@ -7543,7 +7737,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -7580,7 +7774,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -7595,7 +7789,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-22T17:09:00-03:00",
    "fecha_cierre": "2026-10-26T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06 16:00",
+   "fecha_ultimo_cambio": "2026-11-06T16:00:00.863Z",
    "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
    "unidad": "Dirección de Vialidad - Nivel Central - Abastecimiento",
    "region": "Región Metropolitana de Santiago",
@@ -7615,7 +7809,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -7653,7 +7847,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00",
@@ -7688,8 +7882,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00",
    "origen": "api"
@@ -7703,7 +7897,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-23T11:50:00-03:00",
    "fecha_cierre": "2026-10-26T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10 16:00",
+   "fecha_ultimo_cambio": "2026-11-10T16:00:00.413Z",
    "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTA CORINA",
    "unidad": "COMPRAS Y LICITACIONES",
    "region": "Región Metropolitana de Santiago",
@@ -7725,7 +7919,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -7799,7 +7993,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
@@ -7847,7 +8041,7 @@
    "estado_glosa": "Desierta",
    "fecha_publicacion": "2026-10-21T16:12:00-03:00",
    "fecha_cierre": "2026-10-27T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-09 16:05",
+   "fecha_ultimo_cambio": "2026-11-09T16:05:01.293Z",
    "organismo": "SERVICIO AGRICOLA Y GANADERO",
    "unidad": "SAG - Valparaíso",
    "region": "Región de Valparaíso ",
@@ -7870,7 +8064,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
@@ -7905,7 +8099,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -7940,7 +8134,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
@@ -7955,7 +8149,7 @@
    "estado_glosa": "Desierta",
    "fecha_publicacion": "2026-10-22T12:20:00-03:00",
    "fecha_cierre": "2026-10-27T12:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-04 16:25",
+   "fecha_ultimo_cambio": "2026-11-04T16:25:00.993Z",
    "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
    "unidad": "Direccion Regional Metropolitana",
    "region": "Región Metropolitana de Santiago",
@@ -7975,7 +8169,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
@@ -7990,7 +8184,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-26T14:54:00-03:00",
    "fecha_cierre": "2026-10-27T15:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-30 10:30",
+   "fecha_ultimo_cambio": "2026-10-30T10:30:00.967Z",
    "organismo": "I MUNICIPALIDAD DE LINARES",
    "unidad": "ILUSTRE MUNICIPALIDAD DE LINARES",
    "region": "Región del Maule ",
@@ -8011,7 +8205,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00",
@@ -8047,7 +8241,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
@@ -8062,7 +8256,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T10:32:00-03:00",
    "fecha_cierre": "2026-10-28T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-28 12:05",
+   "fecha_ultimo_cambio": "2026-10-28T12:05:02.787Z",
    "organismo": "CORP MUNICIPAL DE DESARROLLO SOCIAL DE PUDAHUEL",
    "unidad": "Adquisiciones",
    "region": "Región Metropolitana de Santiago",
@@ -8083,7 +8277,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
@@ -8123,7 +8317,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
@@ -8158,7 +8352,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00",
@@ -8193,7 +8387,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
@@ -8208,7 +8402,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T13:29:00-03:00",
    "fecha_cierre": "2026-10-28T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29 11:50",
+   "fecha_ultimo_cambio": "2026-10-29T11:50:00.733Z",
    "organismo": "UNIVERSIDAD DE VALPARAISO",
    "unidad": "08 Facultad de Arquitectura",
    "region": "Región de Valparaíso ",
@@ -8228,7 +8422,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00",
@@ -8274,7 +8468,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-27T16:52:00-03:00",
    "fecha_cierre": "2026-10-29T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29 09:05",
+   "fecha_ultimo_cambio": "2026-10-29T09:05:01.370Z",
    "organismo": "I MUNICIPALIDAD DE VICUNA",
    "unidad": "Ilustre Municipalidad de Vicuña",
    "region": "Región de Coquimbo ",
@@ -8295,7 +8489,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "origen": "api"
@@ -8309,7 +8503,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-27T13:14:00-03:00",
    "fecha_cierre": "2026-10-29T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29 09:05",
+   "fecha_ultimo_cambio": "2026-10-29T09:05:01.370Z",
    "organismo": "DELEGACIÓN PRESIDENCIAL REGIONAL DE VALPARAÍSO",
    "unidad": "EMERGENCIAS",
    "region": "Región de Valparaíso ",
@@ -8331,7 +8525,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "origen": "api"
@@ -8345,7 +8539,7 @@
    "estado_glosa": "Cancelada",
    "fecha_publicacion": "2026-10-26T13:55:00-03:00",
    "fecha_cierre": "2026-10-29T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-26 14:00",
+   "fecha_ultimo_cambio": "2026-10-26T14:00:00.823Z",
    "organismo": "I MUNICIPALIDAD DE VALPARAISO",
    "unidad": "ABASTECIMIENTO",
    "region": "Región de Valparaíso ",
@@ -8365,7 +8559,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "origen": "api"
@@ -8399,7 +8593,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-11-01T04:05:10+00:00",
@@ -8414,7 +8608,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T12:24:00-03:00",
    "fecha_cierre": "2026-10-29T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-30 16:30",
+   "fecha_ultimo_cambio": "2026-10-30T16:30:00.497Z",
    "organismo": "SERVICIO AGRICOLA Y GANADERO",
    "unidad": "SAG - Los Lagos",
    "region": "Región de los Lagos ",
@@ -8436,7 +8630,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00",
@@ -8451,7 +8645,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T11:39:00-03:00",
    "fecha_cierre": "2026-10-29T12:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05 16:10",
+   "fecha_ultimo_cambio": "2026-11-05T16:10:01.093Z",
    "organismo": "UNIVERSIDAD DE LA SERENA",
    "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
    "region": "Región de Coquimbo ",
@@ -8471,7 +8665,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-06T06:05:10+00:00",
@@ -8509,8 +8703,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00",
    "origen": "api"
@@ -8559,7 +8753,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T11:30:00-03:00",
    "fecha_cierre": "2026-10-29T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03 16:30",
+   "fecha_ultimo_cambio": "2026-11-03T16:30:00.997Z",
    "organismo": "I MUNICIPALIDAD DE LA PINTANA",
    "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
    "region": "Región Metropolitana de Santiago",
@@ -8582,7 +8776,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
@@ -8618,8 +8812,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
    "origen": "api"
@@ -8655,8 +8849,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
    "origen": "api"
@@ -8690,8 +8884,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api"
@@ -8759,7 +8953,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-06T06:05:10+00:00",
@@ -8830,7 +9024,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
@@ -8868,7 +9062,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-05T18:39:13+00:00",
@@ -8905,7 +9099,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
@@ -8942,8 +9136,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api"
@@ -8980,8 +9174,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
    "origen": "api"
@@ -9016,8 +9210,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
    "origen": "api"
@@ -9160,7 +9354,7 @@
    "estado_glosa": "Desierta",
    "fecha_publicacion": "2026-10-22T18:01:00-03:00",
    "fecha_cierre": "2026-11-03T07:10:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-11 11:25",
+   "fecha_ultimo_cambio": "2026-11-11T11:25:00.953Z",
    "organismo": "I MUNICIPALIDAD DE ALGARROBO",
    "unidad": "MUNICIPALIDAD DE ALGARROBO-ADQUISICIONES",
    "region": "Región de Valparaíso ",
@@ -9187,7 +9381,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00",
@@ -9222,7 +9416,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-05T06:05:10+00:00",
    "primera_deteccion": "2026-11-01T04:05:10+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
@@ -9257,7 +9451,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "origen": "api"
@@ -9292,7 +9486,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "origen": "api",
@@ -9366,7 +9560,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "origen": "api",
@@ -9402,7 +9596,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-30T03:05:10+00:00",
    "origen": "api",
@@ -9438,44 +9632,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
-   "primera_deteccion": "2026-11-04T05:05:12+00:00",
-   "origen": "api"
-  },
-  {
-   "id": "CA:748891-243-COT26",
-   "fuente": "compra_agil",
-   "codigo": "748891-243-COT26",
-   "nombre": "ADQUISICIÓN DE SERVICIO DE DRON PARA OBTENER INFORMACIÓN PARA META PACCC",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-11-03T13:35:00-03:00",
-   "fecha_cierre": "2026-11-05T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05 09:05",
-   "organismo": "I MUNICIPALIDAD DE CONCEPCION",
-   "unidad": "DIRECCION MEDIO AMBIENTE",
-   "region": "Región del Biobío ",
-   "monto": 1600000.0,
-   "moneda": "CLP",
-   "ofertas": 3,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=748891-243-COT26",
-   "descripcion": "El servicio tiene por objeto generar, mediante levantamiento fotogramétrico con dron",
-   "direccion_entrega": "EJERCITO 1020 2DO PISO",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Servicios de investigación o medición — DETALLES TECNICOS Y ESPECIFICACIONES EN ARCHIVO ADJUNTO"
-   ],
-   "terminos": [
-    "Dron",
-    "Fotogrametría / ortomosaico"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api"
   },
@@ -9510,8 +9668,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-10T14:05:12+00:00"
@@ -9521,11 +9679,11 @@
    "fuente": "compra_agil",
    "codigo": "4190-261-COT26",
    "nombre": "Seguro para Dron",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-03T11:57:00-03:00",
    "fecha_cierre": "2026-11-05T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05 10:05",
+   "fecha_ultimo_cambio": "2026-11-12 11:20",
    "organismo": "I MUNICIPALIDAD DE CALDERA",
    "unidad": "Adquisiciones",
    "region": "Región de Atacama ",
@@ -9546,10 +9704,11 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
-   "origen": "api"
+   "origen": "api",
+   "cambio_estado": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "LIC:3553-38-LE26",
@@ -9647,7 +9806,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
@@ -9714,7 +9873,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-06T06:05:10+00:00",
@@ -9750,8 +9909,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-05T18:39:13+00:00",
    "origen": "api"
@@ -9761,11 +9920,11 @@
    "fuente": "compra_agil",
    "codigo": "2422-713-COT26",
    "nombre": "S.A. 946147 MANTENCION Y REPARACION DRON MATRICE 30T",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-02T13:38:00-03:00",
    "fecha_cierre": "2026-11-05T16:35:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05 16:40",
+   "fecha_ultimo_cambio": "2026-11-11 16:20",
    "organismo": "I MUNICIPALIDAD DE PUENTE ALTO",
    "unidad": "I MUNICIPALIDAD DE PUENTE ALTO",
    "region": "Región Metropolitana de Santiago",
@@ -9786,10 +9945,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
-   "cambio_estado": "2026-11-05T06:05:10+00:00",
+   "cambio_estado": "2026-11-12T15:05:12+00:00",
    "origen": "api"
   },
   {
@@ -9862,11 +10021,11 @@
    "fuente": "compra_agil",
    "codigo": "2332-1075-COT26",
    "nombre": "N° 8372 Dron para Programa MAIS",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-05T09:04:00-03:00",
    "fecha_cierre": "2026-11-06T09:15:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06 09:20",
+   "fecha_ultimo_cambio": "2026-11-11 16:20",
    "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
    "unidad": "Oficina de Adquisiciones del Departamento de Salud",
    "region": "Región de los Lagos ",
@@ -9886,10 +10045,11 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
-   "origen": "api"
+   "origen": "api",
+   "cambio_estado": "2026-11-12T15:05:12+00:00"
   },
   {
    "id": "CA:2585-1517-COT26",
@@ -9922,7 +10082,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api"
@@ -9958,7 +10118,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
@@ -9993,8 +10153,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api"
   },
@@ -10007,7 +10167,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-26T16:00:00-03:00",
    "fecha_cierre": "2026-11-06T11:41:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06 11:45",
+   "fecha_ultimo_cambio": "2026-11-06T11:45:01.330Z",
    "organismo": "Subsecretaria de las Culturas y las Artes Región  de Arica y Parinacota",
    "unidad": "Dirección Regional de Arica y Parinacota",
    "region": "Región de Arica y Parinacota",
@@ -10027,7 +10187,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
@@ -10063,8 +10223,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-30T03:05:10+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "origen": "api"
@@ -10163,8 +10323,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-10T14:05:12+00:00"
@@ -10174,11 +10334,11 @@
    "fuente": "compra_agil",
    "codigo": "2788-602-COT26",
    "nombre": "BATERIAS DRON - OF. DE EMERGENCIA",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-04T16:59:00-03:00",
    "fecha_cierre": "2026-11-06T17:42:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06 17:45",
+   "fecha_ultimo_cambio": "2026-11-11 13:25",
    "organismo": "I MUNICIPALIDAD DE PAINE",
    "unidad": "DEPARTAMENTO DE ADQUISICIONES",
    "region": "Región Metropolitana de Santiago",
@@ -10198,10 +10358,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
-   "cambio_estado": "2026-11-06T06:05:10+00:00",
+   "cambio_estado": "2026-11-12T15:05:12+00:00",
    "origen": "api"
   },
   {
@@ -10246,8 +10406,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "origen": "api"
@@ -10293,7 +10453,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
@@ -10330,7 +10490,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
@@ -10367,7 +10527,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api"
@@ -10401,7 +10561,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api"
@@ -10415,7 +10575,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-22T11:20:00-03:00",
    "fecha_cierre": "2026-11-09T15:41:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-11 10:20",
+   "fecha_ultimo_cambio": "2026-11-11T10:20:00.110Z",
    "organismo": "ILUSTRE MUNICIPALIDAD DE PUDAHUEL",
    "unidad": "IMUNI_PUDAHUEL ADQUISICIONES",
    "region": "Región Metropolitana de Santiago",
@@ -10435,7 +10595,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00",
@@ -10466,7 +10626,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00"
   },
   {
@@ -10495,7 +10655,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00"
   },
@@ -10523,7 +10683,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00"
   },
@@ -10593,8 +10753,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00"
   },
   {
@@ -10626,37 +10786,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api"
-  },
-  {
-   "id": "CA:3897-164-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "3897-164-COT26",
-   "nombre": "SEGURO OPERACION DRONE",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
-   "fecha_publicacion": "2026-11-10T13:10:00-03:00",
-   "fecha_cierre": "2026-11-11T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10T13:15:00.753Z",
-   "organismo": "I MUNICIPALIDAD DE FUTALEUFU",
-   "unidad": "Adquisiciones",
-   "region": "Región de los Lagos ",
-   "monto": 150000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3897-164-COT26",
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "primera_deteccion": "2026-11-11T15:05:11+00:00"
   },
   {
    "id": "LIC:650-60-CO26",
@@ -10735,16 +10868,16 @@
    "codigo": "2656-1331-COT26",
    "nombre": "ADQUISICION INSUMOS Y ACCESORIOS PARA DRON",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-03T13:25:00-03:00",
    "fecha_cierre": "2026-11-11T15:45:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10 15:45",
+   "fecha_ultimo_cambio": "2026-11-11 15:50",
    "organismo": "I MUNICIPALIDAD DE TOME",
    "unidad": "Dirección de Administración y Finanzas",
    "region": "Región del Biobío ",
    "monto": 830000.0,
    "moneda": "CLP",
-   "ofertas": 1,
+   "ofertas": 2,
    "url": "https://buscador.mercadopublico.cl/ficha?code=2656-1331-COT26",
    "descripcion": "ADQUISICION INSUMOS Y ACCESORIOS PARA DRON",
    "direccion_entrega": "CALLE SAN GERMAN N° 1244 BODEGA DE MATERIALES",
@@ -10758,8 +10891,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-11T15:05:11+00:00"
@@ -10803,16 +10936,16 @@
    "codigo": "2805-697-COT26",
    "nombre": "DRON DJI MINI 4K FLY MORE COMBO QUE SE INCORPÓREN TRES BATERIAS",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-11T09:14:00-03:00",
    "fecha_cierre": "2026-11-12T09:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-11 09:15",
+   "fecha_ultimo_cambio": "2026-11-12 09:35",
    "organismo": "ILUSTRE MUNICIPALIDAD DE LLANQUIHUE-DEPTO. DE SALUD",
    "unidad": "ILUSTRE MUNICIPALIDAD DE LLANQUIHUE-DEPTO. DE SALUD",
    "region": "Región de los Lagos ",
    "monto": 1000000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 9,
    "url": "https://buscador.mercadopublico.cl/ficha?code=2805-697-COT26",
    "descripcion": "DRON DJI MINI 4K FLY MORE COMBO QUE SE INCORPÓREN TRES BATERIAS, SE ADJUNTA ARCHIVO CON IMAGEN DE REFERENCIA, FAVOR ADJUNTAR COTIZACION FORMAL Y NUMERO DE CONTACTO",
    "direccion_entrega": "AVENIDA LOS VOLCANES 487",
@@ -10827,8 +10960,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00"
   },
   {
@@ -10838,16 +10971,16 @@
    "codigo": "642-40-COT26",
    "nombre": "Adquisición de Kit receptor GNSS RTK rover y Curso de operación de drones, mantención y seguro para los equipos RPAS del SERVIU de la Región de O’Higgins",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-10T11:30:00-03:00",
    "fecha_cierre": "2026-11-12T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10T11:35:01.133Z",
+   "fecha_ultimo_cambio": "2026-11-12T10:05:01.290Z",
    "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION VI REGION",
    "unidad": "SERVIU VI REGION",
    "region": "Región del Libertador General Bernardo O´Higgins",
    "monto": 7240000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 2,
    "url": "https://buscador.mercadopublico.cl/ficha?code=642-40-COT26",
    "terminos": [
     "Dron",
@@ -10856,7 +10989,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00"
   },
   {
@@ -10865,17 +10998,17 @@
    "origen": "api",
    "codigo": "6-105-COT26",
    "nombre": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-09T09:45:00-03:00",
    "fecha_cierre": "2026-11-12T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-09T09:50:01.090Z",
+   "fecha_ultimo_cambio": "2026-11-12T11:35:00.810Z",
    "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION I REGION",
    "unidad": "SERVIU I Región",
    "region": "Región de Tarapacá  ",
    "monto": 385000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 4,
    "url": "https://buscador.mercadopublico.cl/ficha?code=6-105-COT26",
    "terminos": [
     "Marcas (DJI, Autel…)"
@@ -10883,8 +11016,102 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-11T15:05:11+00:00",
-   "primera_deteccion": "2026-11-10T14:05:12+00:00"
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-10T14:05:12+00:00",
+   "cambio_estado": "2026-11-12T15:05:12+00:00"
+  },
+  {
+   "id": "CA:831-251-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "831-251-COT26",
+   "nombre": "Adquisición y Habilitación de Dron",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-10T07:56:00-03:00",
+   "fecha_cierre": "2026-11-12T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-12 12:05",
+   "organismo": "GOBIERNO REGIONAL DE LA REGION DEL BIO BIO",
+   "unidad": "Gobierno Regional de la Región del Bío Bío",
+   "region": "Región del Biobío ",
+   "monto": 3500000.0,
+   "moneda": "CLP",
+   "ofertas": 9,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=831-251-COT26",
+   "descripcion": "Se requiere la contratación de un Dron según el pliego de condiciones adjunta, que requiera todos los elementos adicionales que permitan su adecuada habilitación e implementación.",
+   "direccion_entrega": "Av. Prat 525",
+   "plazo_entrega_dias": 3,
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-10T14:05:12+00:00",
+   "cambio_estado": "2026-11-12T15:05:12+00:00"
+  },
+  {
+   "id": "CA:929-201-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "929-201-COT26",
+   "nombre": "DRON PARA INSPECCIÓN DE OBRAS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-10T12:48:00-03:00",
+   "fecha_cierre": "2026-11-12T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-12 12:10",
+   "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+   "unidad": "Direccion Regional Metropolitana",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 465000.0,
+   "moneda": "CLP",
+   "ofertas": 5,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=929-201-COT26",
+   "descripcion": "SE REQUIERE DE DRON PARA INSPECCIÓN DE OBRAS. \nSE ADJUNTA REQUERIMIENTO CON DETALLE DEL PRODUCTO SOLICITADO. \nSE SOLICITA ADJUNTAR COTIZACIÓN CON DETALLE DEL PRODUCTO OFERTADO.",
+   "direccion_entrega": "COYANCURA #2241, 2DO PISO ",
+   "plazo_entrega_dias": 3,
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-11T15:05:11+00:00",
+   "cambio_estado": "2026-11-12T15:05:12+00:00"
+  },
+  {
+   "id": "CA:697036-88-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "697036-88-COT26",
+   "nombre": "SERVICIO DE CAPACITACIÓN PARA OPERADOR DE DRONES Y HABILITACIÓN DE VUELO NOCTURNO PARA OFICINAS ECOH ANTOFAGASTA Y CALAMA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-10T12:37:00-03:00",
+   "fecha_cierre": "2026-11-12T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-12T12:05:01.650Z",
+   "organismo": "MINISTERIO PUBLICO",
+   "unidad": "FR ANTOFAGASTA",
+   "region": "Región de Antofagasta ",
+   "monto": 2400000.0,
+   "moneda": "CLP",
+   "ofertas": 4,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=697036-88-COT26",
+   "terminos": [
+    "Dron",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
+   "primera_deteccion": "2026-11-11T15:05:11+00:00",
+   "cambio_estado": "2026-11-12T15:05:12+00:00"
   }
  ]
 }
