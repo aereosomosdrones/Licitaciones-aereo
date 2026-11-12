@@ -40,6 +40,8 @@ class Termino:
 class Diccionario:
     terminos: list[Termino]
     consultas_compra_agil: list[str]
+    consultas_amplias: list[str] = field(default_factory=list)
+    avisar_areas: list[str] = field(default_factory=list)
 
     @classmethod
     def desde_archivo(cls, ruta: Path) -> "Diccionario":
@@ -53,7 +55,12 @@ class Diccionario:
             )
             for t in datos["terminos"]
         ]
-        return cls(terminos=terminos, consultas_compra_agil=datos.get("consultas_compra_agil", []))
+        return cls(
+            terminos=terminos,
+            consultas_compra_agil=datos.get("consultas_compra_agil", []),
+            consultas_amplias=datos.get("consultas_amplias", []),
+            avisar_areas=datos.get("avisar_areas", []),
+        )
 
     def buscar(self, *textos: str | None) -> list[str]:
         """Etiquetas de los términos presentes en cualquiera de los textos."""

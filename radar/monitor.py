@@ -20,11 +20,13 @@ import argparse
 import json
 import logging
 import os
+import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from .areas import clasificar
 from .fuentes import (
     ESTADOS_FINALES,
     ApiCompraAgil,
@@ -35,10 +37,11 @@ from .fuentes import (
     ahora_utc,
     compra_agil_desde_detalle,
     compra_agil_desde_listado,
+    fecha_filtro_compra_agil,
     licitacion_desde_detalle,
     licitacion_desde_resumen,
 )
-from .terminos import Diccionario
+from .terminos import Diccionario, normalizar
 
 log = logging.getLogger("radar")
 
@@ -58,13 +61,41 @@ class Config:
     # Compra Ágil
     dias_ventana_compra_agil = 45
     max_paginas_compra_agil = 8  # páginas de 10 resultados por término
-    barrido_completo_horas = 24  # entre barridos completos solo se piden cambios recientes
+    barrido_completo_horas = 24  # una vez al día se repasan los 45 días completos
+    horas_ventana_recientes = 72  # cada hora se busca lo publicado en estas últimas horas
     max_detalles_compra_agil = 120
+    max_refrescos_compra_agil = 40  # compras cerradas a las que se les consulta el resultado, por ejecución
+    min_refrescos_compra_agil = 15
+    presupuesto_refresco_segundos = 4 * 60
+    refrescar_cerradas_horas = 8
     presupuesto_busquedas_segundos = 15 * 60
     max_busquedas_fallidas_seguidas = 3  # sin ninguna exitosa, se da la API por caída
     # General
     presupuesto_segundos = 10 * 60  # tiempo máximo pidiendo detalles, por fuente y ejecución
     dias_retencion = 180  # se olvidan procesos cerrados hace más de esto
+
+
+_CAPACITACION = re.compile(r"capacitaci|\bcursos?\b|\btaller(es)?\b|certificacion|cuotas? de inscripcion")
+_REMITE_A_ADJUNTO = re.compile(
+    r"adjunt|anexo|terminos de referencia|\btdr\b|\bbases\b|especificaciones tecnicas|requerimientos? tecnicos?|segun (archivo|documento|detalle)"
+)
+_PALABRAS_SIN_TEMA = re.compile(
+    r"\b(capacitacion(es)?|cursos?|taller(es)?|servicios?|adquisicion|adq|compra|contratacion|solicitud|sol|segun|archivo|documento"
+    r"|adjuntos?|anexos?|detalles?|caracteristicas|especificaciones|tecnicas?|terminos|referencia|bases|favor|revisar|ver|se|requiere"
+    r"|para|por|con|del?|la|las|el|los|en|un|una|y|o|a|al|funcionari[oa]s?|personal|municipal(es)?|departamento|direccion|unidad"
+    r"|programa|oficina|seccion|cuotas?|inscripcion|empleados|n|no|nro|numero|cdp|sc|oc|id)\b|\d+"
+)
+
+
+def es_capacitacion_sin_tema(item: dict) -> bool:
+    """Capacitación cuyo texto público no dice de qué trata y remite a un adjunto
+    ("CAPACITACIÓN SEGÚN ARCHIVO ADJUNTO"). El radar no puede leer el adjunto: queda
+    para revisión de una persona."""
+    texto = normalizar(" | ".join([item.get("nombre") or "", item.get("descripcion") or "", *(item.get("productos") or [])]))
+    if not _CAPACITACION.search(texto) or not _REMITE_A_ADJUNTO.search(texto):
+        return False
+    tema = _PALABRAS_SIN_TEMA.sub(" ", texto.replace("|", " ")).split()
+    return len({p for p in tema if len(p) > 3}) <= 4
 
 
 def _iso(fecha: datetime) -> str:
@@ -122,6 +153,8 @@ class Radar:
             # Códigos de licitaciones activas cuyo detalle ya se revisó (lista ordenada en disco).
             "lic_revisadas": set(cache.get("lic_revisadas", [])),
             "ca_descartadas": cache.get("ca_descartadas", {}),
+            "ca_pendientes": cache.get("ca_pendientes", {}),  # candidatas de la segunda pasada sin revisar
+            "ca_por_revisar": cache.get("ca_por_revisar", {}),  # capacitaciones cuyo tema solo está en el adjunto
             "ca_ultimo_barrido_completo": cache.get("ca_ultimo_barrido_completo"),
             "ca_ultima_ejecucion_ok": cache.get("ca_ultima_ejecucion_ok"),
         }
@@ -140,7 +173,23 @@ class Radar:
         return self.reloj() - self.inicio < self.cfg.presupuesto_segundos
 
     def _terminos(self, item: dict) -> list[str]:
-        return self.dicc.buscar(*(item.get(c) for c in CAMPOS_TEXTO), *(item.get("productos") or []))
+        return self.dicc.buscar(
+            *(item.get(c) for c in CAMPOS_TEXTO), *(item.get("productos") or []), *(item.get("adjuntos") or [])
+        )
+
+    def _relevancia(self, item: dict) -> tuple[str, str]:
+        """('alta'|'baja', dónde coincide). Alta: el título habla de drones, o lo hace lo que
+        se pide (productos, adjuntos). Baja: solo una mención al pasar en un texto largo."""
+        if item.get("origen") == "manual":
+            return "alta", "manual"
+        if self.dicc.buscar(item.get("nombre")):
+            return "alta", "titulo"
+        productos = item.get("productos") or []
+        lineas = [*productos, *(item.get("adjuntos") or [])]
+        con_termino = [linea for linea in lineas if self.dicc.buscar(linea)]
+        if con_termino and (len(productos) <= 3 or 2 * len(con_termino) >= len(lineas)):
+            return "alta", "detalle"
+        return "baja", "mencion"
 
     def _guardar(self, nuevo: dict, terminos: list[str], detalle: bool) -> None:
         """Fusiona el proceso con lo ya conocido conservando la fecha de detección."""
@@ -256,7 +305,7 @@ class Radar:
     def _buscar_ventana(self, consulta: str, campo: str, desde: datetime, hasta: datetime, nivel: int = 0) -> list[dict]:
         """Busca en [desde, hasta]. Si la API no alcanza a responder (504) o hay más
         resultados de los que se leen, divide la ventana de fechas en dos y repite."""
-        z = lambda f: _iso(f).replace("+00:00", "Z")
+        z = fecha_filtro_compra_agil
         divisible = hasta - desde > timedelta(hours=12) and nivel < 6
         if self.reloj() - self._inicio_busquedas > self.cfg.presupuesto_busquedas_segundos:
             raise ErrorAPI("sin tiempo para completar la búsqueda")
@@ -282,26 +331,15 @@ class Radar:
             )
         return items
 
-    def revisar_compra_agil(self) -> dict:
-        ultimo_completo = _parse(self.cache.get("ca_ultimo_barrido_completo"))
-        ultima_ok = _parse(self.cache.get("ca_ultima_ejecucion_ok"))
-        completo = (
-            ultimo_completo is None
-            or ultima_ok is None
-            or self.ahora - ultimo_completo > timedelta(hours=self.cfg.barrido_completo_horas)
-        )
-        if completo:
-            campo, desde = "publicado", self.ahora - timedelta(days=self.cfg.dias_ventana_compra_agil)
-        else:
-            campo, desde = "cambio", ultima_ok - timedelta(minutes=30)
-        log.info("Compra Ágil: barrido %s", "completo" if completo else "incremental")
-
+    def _barrer(self, consultas: list[str], desde: datetime) -> tuple[dict[str, dict], list[str]]:
+        """Busca cada consulta entre lo publicado desde `desde`. Devuelve {código: fila} y las consultas que fallaron."""
         encontrados: dict[str, dict] = {}
         fallidas: list[str] = []
         exitosas = 0
-        consultas = self.dicc.consultas_compra_agil
-        self._inicio_busquedas = self.reloj()
         for n, consulta in enumerate(consultas):
+            if self.limitada:
+                fallidas.extend(consultas[n:])
+                break
             if not exitosas and len(fallidas) >= self.cfg.max_busquedas_fallidas_seguidas:
                 # Si las primeras búsquedas fallan todas, la API está caída: no tiene
                 # sentido gastar el resto de la hora insistiendo.
@@ -314,7 +352,7 @@ class Radar:
                 break
             t0 = self.reloj()
             try:
-                resultados = self._buscar_ventana(consulta, campo, desde, self.ahora)
+                resultados = self._buscar_ventana(consulta, "publicado", desde, self.ahora + timedelta(hours=1))
                 log.info("Compra Ágil: '%s' → %s resultados (%.0f s)", consulta, len(resultados), self.reloj() - t0)
                 exitosas += 1
             except CuotaAgotada:
@@ -328,13 +366,66 @@ class Radar:
             for bruto in resultados:
                 if bruto.get("codigo"):
                     encontrados[bruto["codigo"]] = bruto
-        if fallidas and len(fallidas) == len(consultas):
+        return encontrados, fallidas
+
+    def revisar_compra_agil(self) -> dict:
+        """Tres pasos por ejecución:
+
+        1. Consultas precisas (dron, RPAS, DJI…) sobre lo publicado en las últimas 72 h
+           (una vez al día, sobre los 45 días completos).
+        2. Segunda pasada: consultas amplias de capacitación (curso, capacitación, DGAC…).
+           Sus resultados solo se guardan si el detalle (productos, adjuntos) habla de
+           drones; así aparecen las compras cuyo título no lo dice.
+        3. Resultado de las compras ya cerradas: quién cotizó, quién ganó y si AÉREO participó.
+        """
+        cfg = self.cfg
+        ultimo_completo = _parse(self.cache.get("ca_ultimo_barrido_completo"))
+        ultima_ok = _parse(self.cache.get("ca_ultima_ejecucion_ok"))
+        completo = (
+            ultimo_completo is None
+            or ultima_ok is None
+            or self.ahora - ultimo_completo > timedelta(hours=cfg.barrido_completo_horas)
+        )
+        recientes = timedelta(hours=cfg.horas_ventana_recientes)
+        log.info("Compra Ágil: barrido %s", "completo" if completo else "de lo publicado recién")
+
+        # 1. Consultas precisas ------------------------------------------------
+        self._inicio_busquedas = self.reloj()
+        precisas = self.dicc.consultas_compra_agil
+        desde = self.ahora - (timedelta(days=cfg.dias_ventana_compra_agil) if completo else recientes)
+        encontrados, fallidas = self._barrer(precisas, desde)
+        if fallidas and len(fallidas) == len(precisas):
             raise ErrorAPI("Ninguna búsqueda de Compra Ágil respondió (la API puede estar caída o limitando consultas).")
         if fallidas:
-            self.advertencias.append(f"{len(fallidas)} de {len(consultas)} búsquedas no respondieron: {', '.join(fallidas[:6])}")
+            self.advertencias.append(f"{len(fallidas)} de {len(precisas)} búsquedas no respondieron: {', '.join(fallidas[:6])}")
 
-        detalles = 0
+        # 2. Segunda pasada: candidatas de capacitación --------------------------
         descartadas = self.cache["ca_descartadas"]
+        pendientes = self.cache["ca_pendientes"]
+        amplias = self.dicc.consultas_amplias
+        ultima_amplia = _parse(self.cache.get("ca_ultima_amplia"))
+        if amplias:
+            if completo or ultima_amplia is None:
+                desde_amplia = self.ahora - recientes
+            else:
+                desde_amplia = max(ultima_amplia - timedelta(hours=3), self.ahora - recientes)
+            self._inicio_busquedas = self.reloj()
+            candidatas, fallidas_amplias = self._barrer(amplias, desde_amplia)
+            for codigo, fila in candidatas.items():
+                if codigo in encontrados or f"CA:{codigo}" in self.items or codigo in descartadas or codigo in pendientes:
+                    continue
+                if self.dicc.buscar(fila.get("nombre")):
+                    encontrados[codigo] = fila  # el título ya habla de drones
+                else:
+                    cierre = compra_agil_desde_listado(fila).get("fecha_cierre")
+                    pendientes[codigo] = {"cierre": cierre, "visto": _iso(self.ahora)}
+            if fallidas_amplias:
+                self.advertencias.append(f"Segunda pasada incompleta: {', '.join(fallidas_amplias[:6])}")
+            else:
+                self.cache["ca_ultima_amplia"] = _iso(self.ahora)
+
+        # Detalle de lo encontrado por las consultas precisas ---------------------
+        detalles = 0
         self.inicio = self.reloj()  # el presupuesto de detalles empieza después de las búsquedas
         for codigo, bruto in encontrados.items():
             base = compra_agil_desde_listado(bruto)
@@ -347,7 +438,7 @@ class Radar:
 
             cambio_previo = (previo or {}).get("fecha_ultimo_cambio")
             pedir_detalle = previo is None or cambio_previo != cambio or not previo.get("detalle_actualizado")
-            if pedir_detalle and detalles < self.cfg.max_detalles_compra_agil and self._con_tiempo():
+            if pedir_detalle and detalles < cfg.max_detalles_compra_agil and self._con_tiempo():
                 detalle = self._detalle(self.ca, codigo)
                 detalles += 1
                 if detalle:
@@ -364,21 +455,90 @@ class Radar:
                 terminos = sorted(set(terminos) | set((previo or {}).get("terminos", [])))
                 self._guardar(base, terminos, detalle=False)
 
-        limite = self.ahora - timedelta(days=self.cfg.dias_ventana_compra_agil + 15)
+        # Detalle de las candidatas de la segunda pasada (primero las que cierran antes) --
+        segunda_pasada = 0
+        for codigo in sorted(pendientes, key=lambda c: pendientes[c].get("cierre") or "9"):
+            cierre = _parse(pendientes[codigo].get("cierre"))
+            if cierre and cierre < self.ahora:
+                del pendientes[codigo]  # ya cerró: no sirve para cotizar
+                continue
+            if detalles >= cfg.max_detalles_compra_agil or not self._con_tiempo():
+                break
+            detalle = self._detalle(self.ca, codigo)
+            detalles += 1
+            if not detalle:
+                continue
+            del pendientes[codigo]
+            item = compra_agil_desde_detalle(detalle)
+            terminos = self._terminos(item)
+            if terminos:
+                item["via"] = "segunda pasada"
+                self._guardar(item, terminos, detalle=True)
+                segunda_pasada += 1
+                log.info("Segunda pasada: %s | %s", codigo, item["nombre"][:80])
+            else:
+                descartadas[codigo] = {"visto": _iso(self.ahora)}
+                if es_capacitacion_sin_tema(item):
+                    self.cache["ca_por_revisar"][codigo] = {
+                        k: item.get(k)
+                        for k in ("id", "codigo", "nombre", "organismo", "region", "fecha_publicacion", "fecha_cierre", "monto", "url", "adjuntos")
+                    }
+
+        detalles += self._refrescar_compra_agil(cfg.max_detalles_compra_agil - detalles)
+
+        limite = self.ahora - timedelta(days=cfg.dias_ventana_compra_agil + 15)
         self.cache["ca_descartadas"] = {
             c: v for c, v in descartadas.items() if (_parse(v.get("visto")) or self.ahora) > limite
         }
+        self.cache["ca_por_revisar"] = {
+            c: v for c, v in self.cache["ca_por_revisar"].items() if (_parse(v.get("fecha_cierre")) or self.ahora) > self.ahora
+        }
+        resumen = {
+            "revisadas": len(encontrados),
+            "detalles_consultados": detalles,
+            "segunda_pasada": segunda_pasada,
+            "pendientes_segunda_pasada": len(pendientes),
+            "modo": "completo" if completo else "recientes",
+        }
         if fallidas:
-            # No avanzar la ventana incremental: lo que no respondió se vuelve a pedir.
-            return {"revisadas": len(encontrados), "detalles_consultados": detalles, "modo": "completo" if completo else "incremental"}
+            # No se da por buena la ejecución: lo que no respondió se vuelve a pedir completo.
+            return resumen
         self.cache["ca_ultima_ejecucion_ok"] = _iso(self.ahora)
         if completo:
             self.cache["ca_ultimo_barrido_completo"] = _iso(self.ahora)
-        return {
-            "revisadas": len(encontrados),
-            "detalles_consultados": detalles,
-            "modo": "completo" if completo else "incremental",
-        }
+        return resumen
+
+    def _refrescar_compra_agil(self, cupo: int) -> int:
+        """Consulta el detalle de las compras que ya cerraron hasta conocer su resultado
+        (quién cotizó, quién ganó). Mercado Público lo publica al seleccionar proveedor."""
+        por_refrescar = []
+        for item in self.items.values():
+            if item.get("fuente") != "compra_agil" or item.get("origen") == "manual":
+                continue
+            estado = item.get("estado")
+            cierre = _parse(item.get("fecha_cierre"))
+            if estado in ("desierta", "cancelada") or (estado == "adjudicada" and "resultado" in item):
+                continue
+            if estado == "abierta" and (cierre is None or cierre > self.ahora):
+                continue
+            if self._necesita_refresco(item, self.cfg.refrescar_cerradas_horas):
+                por_refrescar.append(item)
+        por_refrescar.sort(key=lambda i: i.get("fecha_cierre") or "", reverse=True)
+        hechos = 0
+        # Tiempo propio: que una segunda pasada larga no deje sin resultados a las cerradas.
+        limite = self.reloj() + self.cfg.presupuesto_refresco_segundos
+        for item in por_refrescar[: max(self.cfg.min_refrescos_compra_agil, min(cupo, self.cfg.max_refrescos_compra_agil))]:
+            if self.limitada or self.reloj() > limite:
+                break
+            detalle = self._detalle(self.ca, item["codigo"])
+            hechos += 1
+            if not detalle:
+                continue
+            actualizado = compra_agil_desde_detalle(detalle)
+            self._guardar(actualizado, self._terminos(actualizado) or item.get("terminos", []), detalle=True)
+            if actualizado.get("estado") == "adjudicada":
+                self.items[item["id"]].setdefault("resultado", {})  # sin ofertas publicadas: no insistir
+        return hechos
 
     # ------------------------------------------------------------- ejecución
 
@@ -425,6 +585,9 @@ class Radar:
             terminos = self._terminos(item)
             if not terminos and item.get("origen") == "manual":
                 terminos = ["Ingreso manual"]  # la eligió una persona: se conserva
+            if terminos:
+                item["area"] = clasificar(item)
+                item["relevancia"], item["coincide_en"] = self._relevancia(item)
             if not terminos:
                 log.info("Ya no coincide con los términos: %s %s", item.get("codigo"), (item.get("nombre") or "")[:80])
                 del self.items[id_]
@@ -467,6 +630,7 @@ class Radar:
             "fuentes": fuentes,
             "terminos": [{"etiqueta": t.etiqueta, "categoria": t.categoria} for t in self.dicc.terminos],
             "nuevas_en_esta_ejecucion": self.nuevas,
+            "por_revisar": sorted(self.cache["ca_por_revisar"].values(), key=lambda i: i.get("fecha_cierre") or "9"),
             "items": items,
         }
         return datos, {**self.cache, "lic_revisadas": sorted(self.cache["lic_revisadas"])}
@@ -488,7 +652,7 @@ def main(argv: list[str] | None = None) -> int:
     # La API de Licitaciones limita las consultas seguidas (HTTP 429): se espacian más.
     http = ClienteHTTP(pausa=2.0)
     api_lic = ApiLicitaciones(ticket, http) if ticket and args.solo != "compra_agil" else None
-    api_ca = ApiCompraAgil(ticket, ClienteHTTP(reintentos=1)) if ticket and args.solo != "licitaciones" else None
+    api_ca = ApiCompraAgil(ticket, ClienteHTTP(reintentos=1, pausa=1.2)) if ticket and args.solo != "licitaciones" else None
 
     from .manual import github_desde_entorno, leer_ingresos_manuales
 

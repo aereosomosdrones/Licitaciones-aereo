@@ -12,8 +12,12 @@ GITHUB_TOKEN del workflow):
    Chile se abre un issue asignado al dueño del repositorio (GitHub lo notifica
    por correo) con los pasos de la revisión. Cuando la API vuelve, se cierran.
 
+3. Avisos: cada oportunidad nueva de las áreas de 'avisar_areas' (config/terminos.json)
+   abre un issue asignado al dueño del repositorio, que GitHub envía por correo; se
+   cierra solo cuando la compra deja de estar abierta.
+
 Uso en el workflow:
-    python -m radar.manual recordatorio
+    python -m radar.manual avisos
 """
 
 from __future__ import annotations
@@ -38,6 +42,17 @@ log = logging.getLogger("radar")
 PREFIJO_TITULO = "[Compra Ágil manual]"
 ETIQUETA_INGRESO = "compra-agil-manual"
 ETIQUETA_RECORDATORIO = "recordatorio-compra-agil"
+ETIQUETA_AVISO = "oportunidad"
+MAX_AVISOS_POR_EJECUCION = 8
+DASHBOARD = "https://licitaciones.aereo.cl"
+NOMBRES_AREA = {
+    "capacitacion": "Capacitación",
+    "servicios": "Servicios",
+    "certifica": "Asesoría · Certifica",
+    "gestion": "Asesoría · Gestión",
+    "tienda": "Venta de drones",
+    "otros": "Otros",
+}
 HORAS_RECORDATORIO = (9, 13, 17)  # hora de Chile
 BUSCADOR = "https://buscador.mercadopublico.cl/compra-agil"
 RAIZ = Path(__file__).resolve().parent.parent
@@ -248,10 +263,82 @@ def gestionar_recordatorio(gh: GitHub, datos: dict, cache: dict, terminos: list[
     return {**cache, "ultimo_recordatorio": clave, "recordatorios_abiertos": [issue["number"]]}
 
 
+# ------------------------------------------------------------------------ avisos
+
+
+def _fecha_corta(iso: str | None) -> str:
+    if not iso:
+        return "sin fecha"
+    return datetime.fromisoformat(iso).astimezone(ZONA_CHILE).strftime("%d-%m %H:%M")
+
+
+def cuerpo_aviso(item: dict, duenio: str) -> str:
+    monto = f"${int(item['monto']):,}".replace(",", ".") if item.get("monto") else "no publicado"
+    lineas = [
+        f"@{duenio} el radar detectó una oportunidad nueva de **{NOMBRES_AREA.get(item.get('area'), 'drones')}**.",
+        "",
+        f"**{item.get('nombre')}**",
+        "",
+        f"- Comprador: {item.get('organismo') or 'sin dato'}" + (f" · {item['region']}" if item.get("region") else ""),
+        f"- Presupuesto: {monto}",
+        f"- Cierra: **{_fecha_corta(item.get('fecha_cierre'))}** (hora de Chile)",
+        f"- Publicada: {_fecha_corta(item.get('fecha_publicacion'))}",
+        f"- Ficha en Mercado Público: {item.get('url')}",
+        f"- Radar: {DASHBOARD}",
+    ]
+    if item.get("via") == "segunda pasada":
+        lineas.append("- El título no menciona drones: se encontró por los productos o adjuntos de la compra.")
+    lineas += ["", "Este aviso se cierra solo cuando la compra deja de estar abierta."]
+    return "\n".join(lineas)
+
+
+def gestionar_avisos(gh: GitHub, datos: dict, cache: dict, areas: list[str], ahora: datetime, duenio: str) -> dict:
+    """Abre un aviso por cada oportunidad nueva de las áreas indicadas y cierra los de las que ya no están abiertas."""
+    avisos = dict(cache.get("avisos") or {})  # id del proceso → número de issue
+    items = {i["id"]: i for i in datos.get("items") or []}
+
+    for id_, numero in list(avisos.items()):
+        item = items.get(id_)
+        if item is None or item.get("estado") != "abierta":
+            estado = (item or {}).get("estado_glosa") or "ya no está en el radar"
+            try:
+                gh.comentar_y_cerrar(numero, f"La compra ya no está abierta ({estado}).")
+            except (urllib.error.URLError, OSError) as e:
+                log.warning("No se pudo cerrar el aviso #%s: %s", numero, e)
+                continue
+            del avisos[id_]
+
+    if not areas:
+        return {**cache, "avisos": avisos}
+
+    def es_nueva(item: dict) -> bool:
+        detectada = item.get("primera_deteccion")
+        return bool(detectada) and (ahora - datetime.fromisoformat(detectada)).total_seconds() < 24 * 3600
+
+    por_avisar = [
+        i for i in items.values()
+        if i["id"] not in avisos and i.get("estado") == "abierta" and i.get("area") in areas
+        and i.get("relevancia", "alta") == "alta" and es_nueva(i)
+    ]
+    por_avisar.sort(key=lambda i: i.get("fecha_cierre") or "9")
+    if por_avisar:
+        gh.crear_etiqueta(ETIQUETA_AVISO, "ECE31D", "Oportunidad nueva detectada por el radar")
+    for item in por_avisar[:MAX_AVISOS_POR_EJECUCION]:
+        titulo = f"Nueva · {NOMBRES_AREA.get(item.get('area'), '')} · cierra {_fecha_corta(item.get('fecha_cierre'))} · {(item.get('nombre') or '')[:90]}"
+        try:
+            issue = gh.crear_issue(titulo, cuerpo_aviso(item, duenio), [ETIQUETA_AVISO], [duenio])
+        except (urllib.error.URLError, OSError) as e:
+            log.warning("No se pudo crear el aviso de %s: %s", item["id"], e)
+            continue
+        avisos[item["id"]] = issue["number"]
+        log.info("Aviso creado: #%s %s", issue.get("number"), item["id"])
+    return {**cache, "avisos": avisos}
+
+
 def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     args = argv if argv is not None else sys.argv[1:]
-    if args[:1] != ["recordatorio"]:
+    if args[:1] not in (["recordatorio"], ["avisos"]):
         print(__doc__)
         return 2
     gh = github_desde_entorno()
@@ -260,10 +347,12 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     datos = json.loads(RUTA_DATOS.read_text(encoding="utf-8"))
     cache = json.loads(RUTA_CACHE.read_text(encoding="utf-8"))
-    terminos = json.loads(RUTA_TERMINOS.read_text(encoding="utf-8")).get("consultas_compra_agil", [])
+    config = json.loads(RUTA_TERMINOS.read_text(encoding="utf-8"))
     duenio = gh.repo.split("/")[0]
-    nuevo = gestionar_recordatorio(gh, datos, cache, terminos, datetime.now(timezone.utc), duenio)
-    if nuevo is not cache:
+    ahora = datetime.now(timezone.utc)
+    nuevo = gestionar_recordatorio(gh, datos, cache, config.get("consultas_compra_agil", []), ahora, duenio)
+    nuevo = gestionar_avisos(gh, datos, nuevo, config.get("avisar_areas", []), ahora, duenio)
+    if nuevo != cache:
         RUTA_CACHE.write_text(json.dumps(nuevo, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return 0
 

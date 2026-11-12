@@ -7,24 +7,26 @@
 <!-- Copia de los datos que el radar actualiza cada hora en GitHub. Si se puede leer (repositorio
      público), el dashboard la usa aunque el sitio se haya publicado una sola vez (p. ej. en Netlify). -->
 <meta name="radar-datos" content="https://raw.githubusercontent.com/aereosomosdrones/Licitaciones-aereo/main/docs/data/licitaciones.json">
-<meta name="description" content="Licitaciones y Compras Ágiles de Mercado Público relacionadas con drones, RPAS y servicios aéreos. Se actualiza cada hora.">
+<meta name="description" content="Licitaciones y Compras Ágiles de Mercado Público para el ecosistema de drones AÉREO. Se actualiza cada hora.">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#0A0C0D">
-<link rel="icon" type="image/png" href="assets/aereo-iso-black.png">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/svg+xml" href="assets/aereo-sello-amarillo.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon-sello-180.png">
 <link rel="preload" href="assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/roboto.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-/* Tipografías y paleta de aereo.cl (partials/chrome.css y assets/aereo-ui.css del sitio). */
+/* SISTEMA GRÁFICO AÉREO (identidad 26-10-2026, aereo-web/partials/chrome.css).
+   Cuatro colores: amarillo, negro, petróleo y blanco, más sus tonos de interfaz. No hay
+   rojo ni verde: un estado (cierra hoy, ganada, no cotizó) se dice con una palabra. */
 @font-face{font-family:"Big Shoulders Display";src:url("assets/fonts/big-shoulders.woff2") format("woff2-variations");font-weight:100 900;font-display:swap}
 @font-face{font-family:"Roboto";src:url("assets/fonts/roboto.woff2") format("woff2-variations");font-weight:100 900;font-display:swap}
 @font-face{font-family:"Roboto Mono";src:url("assets/fonts/roboto-mono.woff2") format("woff2-variations");font-weight:100 700;font-display:swap}
 :root {
   color-scheme: light;
-  --yellow: #ECE31D; --yellow-deep: #D8CF12; --yellow-soft: #FBF9C8;
-  --petrol: #425D76; --blue: #104A7F; --green: #156B69; --red: #d23b1f;
-  --bg: #FFFFFF; --bg-2: #F4F5F6; --bg-3: #EDEFF1;
-  --line: #E2E5E8; --line-strong: #C9CDD1;
-  --ink: #0A0C0D; --ink-2: #5C636A; --ink-3: #6A6F76;
+  --yellow: #ECE31D; --yellow-deep: #D4CC1A; --yellow-soft: #FCFBDD;
+  --ink: #000000; --petrol: #425D76;
+  --p950: #141C23; --p800: #2E4153; --p300: #97A6B4; --line: #D0D6DD; --bg-2: #ECEFF1;
+  --bg: #FFFFFF;
   --hd: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
   --bd: 'Roboto', system-ui, sans-serif;
   --mn: 'Roboto Mono', ui-monospace, monospace;
@@ -33,270 +35,297 @@
 }
 *, *::before, *::after { box-sizing: border-box; }
 [hidden] { display: none !important; }
-html { font-optical-sizing: none; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 300 15px/1.6 var(--bd); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
-h1, h2, h3 { font-family: var(--hd); text-transform: uppercase; font-weight: 900; letter-spacing: .4px; line-height: .95; margin: 0; }
-a { color: var(--blue); }
-b, strong { font-weight: 700; }
+html { font-optical-sizing: none; scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 15px/1.55 var(--bd); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+h1, h2, h3 { font-family: var(--hd); text-transform: uppercase; font-weight: 900; letter-spacing: .3px; line-height: .95; margin: 0; isolation: isolate; }
+h1 em, h2 em { font-style: normal; position: relative; z-index: -1; display: inline-block;
+  background: linear-gradient(102deg, transparent .22em, var(--yellow) .22em, var(--yellow) calc(100% - .22em), transparent calc(100% - .22em));
+  padding: 0 .3em; margin: 0 -.16em; }
+a { color: var(--ink); }
 button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
 .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
 @media (min-width: 820px) { .wrap { padding: 0 34px; } }
-.mono { font-family: var(--mn); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
+.mono { font-family: var(--mn); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--petrol); }
+.eyebrow { font-family: var(--mn); font-weight: 700; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--petrol); display: inline-flex; align-items: center; gap: 10px; }
+.eyebrow::before { content: ""; width: 22px; height: 2px; background: var(--petrol); }
 
 /* ---------- Banda superior + nav ---------- */
 .topbar { background: var(--ink); color: #fff; }
-.topbar-in { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; height: 30px; display: flex; align-items: center; justify-content: space-between; gap: 16px; overflow: hidden; }
-.tb-main { font-family: var(--mn); font-weight: 500; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; margin: 0; white-space: nowrap; }
+.topbar-in { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; min-height: 30px; display: flex; align-items: center; justify-content: space-between; gap: 16px; overflow: hidden; }
+.tb-main { font-family: var(--mn); font-weight: 500; font-size: 10px; letter-spacing: .18em; text-transform: uppercase; margin: 0; white-space: nowrap; }
 .tb-creds { display: none; list-style: none; margin: 0; padding: 0; }
 .tb-creds li { font-family: var(--mn); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--yellow); padding: 0 14px; position: relative; white-space: nowrap; }
 .tb-creds li + li::before { content: ""; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 1px; height: 10px; background: rgba(255,255,255,.28); }
-.tb-creds li:last-child { padding-right: 0; color: rgba(255,255,255,.6); }
+.tb-creds li:last-child { padding-right: 0; }
 @media (min-width: 760px) { .tb-creds { display: flex; } }
-.nav { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.88); backdrop-filter: saturate(160%) blur(12px); -webkit-backdrop-filter: saturate(160%) blur(12px); }
-.nav-in { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; height: 66px; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.nav { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.92); backdrop-filter: saturate(160%) blur(12px); -webkit-backdrop-filter: saturate(160%) blur(12px); }
+.nav-in { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
 @media (min-width: 820px) { .nav-in { padding: 0 34px; } }
-.brand { display: flex; align-items: center; gap: 11px; text-decoration: none; min-width: 0; }
-.brand img { height: 21px; width: auto; display: block; }
-.brand .brand-tag { font-family: var(--mn); font-size: 9px; letter-spacing: .3em; text-transform: uppercase; color: var(--ink-3); border-left: 1px solid var(--line); padding-left: 11px; white-space: nowrap; display: none; }
-@media (min-width: 560px) { .brand .brand-tag { display: block; } }
-.nav-meta { display: flex; align-items: center; gap: 10px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; min-width: 0; }
+.brand img { height: 30px; width: auto; display: block; }
+.brand-tag { font-family: var(--mn); font-size: 9.5px; letter-spacing: .26em; text-transform: uppercase; color: var(--petrol); border-left: 1px solid var(--line); padding-left: 12px; white-space: nowrap; display: none; }
+@media (min-width: 620px) { .brand-tag { display: block; } }
+.nav-meta { display: flex; align-items: center; gap: 8px; }
 #sources { display: none; gap: 8px; }
-@media (min-width: 900px) { #sources { display: flex; } }
-.pill { display: inline-flex; align-items: center; gap: 7px; font-family: var(--mn); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); border: 1px solid var(--line-strong); border-radius: 30px; padding: 5px 11px; background: #fff; white-space: nowrap; }
-.pill .dot { width: 8px; height: 8px; border-radius: 50%; }
-.pill.ok .dot { background: var(--green); }
-.pill.err { border-color: var(--red); color: var(--red); }
-.pill.err .dot { background: var(--red); }
-.nav-ghost { font-family: var(--mn); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; background: #fff; border: 1px solid #000; border-radius: 2px; padding: 8px 11px; cursor: pointer; white-space: nowrap; }
+@media (min-width: 940px) { #sources { display: flex; } }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mn); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--petrol); border: 1px solid var(--line); border-radius: 30px; padding: 5px 11px; background: #fff; white-space: nowrap; }
+.pill.err { border: 2px solid var(--ink); color: var(--ink); font-weight: 700; background: var(--yellow); }
+.nav-ghost { font-family: var(--mn); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; background: #fff; border: 1px solid var(--ink); border-radius: 2px; padding: 8px 11px; cursor: pointer; white-space: nowrap; }
 .nav-ghost:hover { background: var(--yellow-soft); }
 .nav-cta { display: inline-flex; align-items: center; gap: 8px; font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 14px; letter-spacing: .02em; background: var(--yellow); color: #000; padding: 10px 14px; border: 1px solid #000; border-radius: 2px; box-shadow: 3px 3px 0 #000; text-decoration: none; white-space: nowrap; transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
 .nav-cta:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 #000; }
 
-/* ---------- Hero ---------- */
-.hero { position: relative; overflow: hidden; padding: 36px 0 32px; border-bottom: 1px solid var(--line); }
-@media (min-width: 820px) { .hero { padding: 52px 0 44px; } }
-.hero .wrap { position: relative; z-index: 2; }
-.eyebrow { font-family: var(--mn); font-weight: 500; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--petrol); display: inline-flex; align-items: center; gap: 10px; }
-.eyebrow::before { content: ""; width: 22px; height: 1px; background: var(--petrol); }
-.eyebrow .idx { color: var(--ink-3); }
-.hero h1 { font-size: clamp(40px, 6.4vw, 74px); max-width: 18ch; margin-top: 16px; }
-.hero h1 .hl { background: linear-gradient(transparent 64%, var(--yellow) 64%); padding: 0 .06em; }
-.hero .sub { font-size: clamp(16px, 2vw, 19px); color: var(--ink-2); margin: 20px 0 0; max-width: 58ch; }
-.hero-tags { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
-.chip { font-family: var(--mn); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); border: 1px solid var(--line-strong); border-radius: 30px; padding: 6px 13px; background: #fff; }
-.chip b { color: var(--ink); }
-.radar { position: absolute; right: -40px; top: 50%; width: 340px; height: 340px; transform: translateY(-50%); pointer-events: none; z-index: 1; display: none; }
-@media (min-width: 980px) { .radar { display: block; } }
-.radar .ring { position: absolute; inset: 0; border: 1px solid var(--line); border-radius: 50%; }
-.radar .r2 { inset: 15%; } .radar .r3 { inset: 30%; } .radar .r4 { inset: 45%; }
-.radar .sweep { position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg, rgba(236,227,29,.55), transparent 26%); animation: spin 4.8s linear infinite; -webkit-mask: radial-gradient(circle, transparent 7%, #000 8%); mask: radial-gradient(circle, transparent 7%, #000 8%); }
-.radar .blip { position: absolute; width: 10px; height: 10px; border-radius: 50%; background: #000; box-shadow: 0 0 0 4px var(--yellow); }
-@keyframes spin { to { transform: rotate(360deg); } }
+/* ---------- Sello de área (igual al de aereo.cl) ---------- */
+.sello { display: inline-flex; align-items: stretch; vertical-align: middle; font-style: normal; border: 2px solid var(--ink); border-radius: 3px; overflow: hidden; font-size: 11px; line-height: 1; white-space: nowrap; max-width: 100%; }
+.sello i { font-style: normal; }
+.sello .sello-n { display: inline-flex; align-items: center; gap: .45em; background: var(--ink); color: var(--yellow); padding: .45em .6em; font-family: var(--mn); font-weight: 700; letter-spacing: .06em; }
+.sello .sello-n svg { width: 1.45em; height: 1.45em; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; }
+.sello .sello-t { display: inline-flex; align-items: center; gap: .3em; background: var(--yellow); color: var(--ink); padding: .45em .65em; font-family: var(--hd); font-weight: 700; text-transform: uppercase; letter-spacing: .05em; font-size: 1.14em; }
+.sello .sello-t i { font-weight: 900; }
+.sello.fuera { border: 2px dashed var(--ink); }
+.sello.fuera .sello-t { background: #fff; }
 
-main.wrap { padding-top: 28px; padding-bottom: 64px; }
-.alert { border: 1px solid var(--line-strong); border-left: 4px solid var(--petrol); border-radius: 4px; background: #fff; padding: 12px 16px; margin-bottom: 12px; display: flex; gap: 10px; align-items: flex-start; font-size: 14px; color: var(--ink-2); }
+/* ---------- Hero ---------- */
+.hero { padding: 34px 0 26px; border-bottom: 1px solid var(--line); }
+@media (min-width: 820px) { .hero { padding: 46px 0 34px; } }
+.hero h1 { font-size: clamp(38px, 6.2vw, 72px); margin-top: 14px; }
+.lead { margin: 22px 0 0; background: var(--yellow-soft); border-left: 6px solid var(--yellow); padding: 16px 20px; font-size: clamp(15px, 1.7vw, 17.5px); line-height: 1.55; max-width: 900px; }
+.lead b { font-weight: 700; }
+.lead .cuando { display: block; margin-top: 6px; font-family: var(--mn); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--petrol); }
+
+main.wrap { padding-top: 26px; padding-bottom: 64px; }
+.alert { border: 2px solid var(--ink); border-radius: 3px; background: #fff; padding: 12px 16px; margin-bottom: 12px; display: flex; gap: 12px; align-items: flex-start; font-size: 14px; color: var(--p800); }
+.alert .ico { font-family: var(--mn); font-weight: 700; font-size: 10px; letter-spacing: .12em; background: var(--ink); color: var(--yellow); padding: 4px 7px; border-radius: 2px; white-space: nowrap; }
 .alert strong { display: block; font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 16px; color: var(--ink); letter-spacing: .02em; }
-.alert.err { border-left-color: var(--red); }
+.alert.info { border: 1px solid var(--line); }
+.alert.info .ico { background: var(--bg-2); color: var(--petrol); }
 .alert-manual { margin: 8px 0 0; color: var(--ink); }
 .alert-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
 .alert-actions .btn { font-size: 14px; padding: 9px 13px; text-decoration: none; }
-.btn-ghost { background: #fff; }
-.tag.manual { background: var(--ink); color: #fff; border-color: var(--ink); font-weight: 700; text-decoration: none; }
 
-/* ---------- Indicadores (stats de aereo-ui) ---------- */
-.kpis { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); border: 1px solid var(--line); background: #fff; margin: 4px 0 24px; }
-@media (min-width: 760px) { .kpis { grid-template-columns: repeat(4, minmax(0,1fr)); } }
-.kpi { text-align: left; background: #fff; border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 22px 18px; cursor: pointer; transition: background .2s; }
-.kpi:hover { background: var(--yellow-soft); }
-.kpi .value { font-family: var(--hd); font-weight: 900; font-size: clamp(34px, 4.6vw, 52px); line-height: 1; font-variant-numeric: tabular-nums; }
-.kpi .label { font-family: var(--mn); font-size: 11px; letter-spacing: .13em; text-transform: uppercase; color: var(--ink-3); margin-top: 8px; }
-.kpi .sub { font-size: 12.5px; color: var(--ink-2); margin-top: 4px; }
+/* ---------- Indicadores (como las fichas del estudio) ---------- */
+.tiles { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; margin: 0 0 30px; }
+@media (min-width: 860px) { .tiles { grid-template-columns: repeat(4, minmax(0,1fr)); } }
+.tile { text-align: left; background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--ink); padding: 16px 16px 14px; cursor: pointer; transition: transform .2s var(--ease), box-shadow .2s var(--ease); }
+.tile:hover { transform: translate(-2px,-2px); box-shadow: 5px 5px 0 var(--ink); }
+.tile .label { font-family: var(--mn); font-weight: 700; font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--petrol); }
+.tile .value { font-family: var(--hd); font-weight: 900; font-size: clamp(34px, 4.8vw, 54px); line-height: 1.05; font-variant-numeric: tabular-nums; margin-top: 4px; }
+.tile .sub { font-size: 12.5px; color: var(--p800); line-height: 1.4; }
+.tile.negro { background: var(--ink); color: #fff; border-color: var(--ink); }
+.tile.negro .label, .tile.negro .sub { color: #fff; }
+.tile.negro .value { color: var(--yellow); }
+.tile.negro:hover { box-shadow: 5px 5px 0 var(--yellow); }
+.tile.fijo { cursor: default; }
+.tile.fijo:hover { transform: none; box-shadow: none; }
 
-/* ---------- Gráficos ---------- */
-.charts { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 28px; }
-.card { background: #fff; border: 1px solid var(--line-strong); border-radius: 4px; }
-.chart { padding: 22px 22px 18px; position: relative; min-width: 0; }
-.chart h2 { font-size: 22px; letter-spacing: .02em; }
-.chart p.sub { margin: 4px 0 14px; font-family: var(--mn); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
-.chart svg { display: block; width: 100%; overflow: visible; }
-.chart .axis { fill: var(--ink-3); font: 400 10.5px var(--mn); }
-.chart .lbl { fill: var(--ink-2); font: 400 12.5px var(--bd); }
-.chart .val { fill: var(--ink); font: 800 15px var(--hd); }
-.chart .bar { fill: var(--yellow); stroke: #000; stroke-width: 1; }
-.chart .hit { fill: transparent; cursor: pointer; }
-.chart g.row:hover .bar, .chart g.row.on .bar { fill: #000; }
-.chart g.row.on .lbl { fill: var(--ink); font-weight: 700; }
-.chart .gridline { stroke: var(--line); }
-.tip { position: absolute; pointer-events: none; background: #000; color: #fff; padding: 6px 10px; border-radius: 2px; font: 400 12px var(--mn); white-space: nowrap; transform: translate(-50%, -110%); opacity: 0; transition: opacity .1s; z-index: 5; box-shadow: 3px 3px 0 var(--yellow); }
-.empty-chart { color: var(--ink-3); font-size: 14px; padding: 28px 0; text-align: center; }
+/* ---------- Encabezados de sección ---------- */
+.sec-head { margin: 34px 0 16px; }
+.sec-head h2 { font-size: clamp(28px, 4.6vw, 44px); margin-top: 10px; }
+.sec-head p { margin: 10px 0 0; color: var(--p800); max-width: 78ch; }
+h3.sub { font-size: 20px; letter-spacing: .02em; margin: 26px 0 10px; }
+
+/* ---------- Áreas del ecosistema ---------- */
+.areas { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+@media (min-width: 700px) { .areas { grid-template-columns: repeat(4, minmax(0,1fr)); } }
+@media (min-width: 1100px) { .areas { grid-template-columns: repeat(7, minmax(0,1fr)); } }
+.area { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; text-align: left; background: #fff; border: 2px solid var(--line); border-radius: 4px; padding: 12px 12px 10px; cursor: pointer; min-width: 0; transition: transform .18s var(--ease), box-shadow .18s var(--ease), border-color .18s; }
+.area:hover { border-color: var(--ink); }
+.area[aria-pressed=true] { border-color: var(--ink); box-shadow: 5px 5px 0 var(--yellow); transform: translate(-2px,-2px); }
+.area .base { font-family: var(--mn); font-weight: 700; font-size: 9.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--petrol); }
+.area .n { font-family: var(--hd); font-weight: 900; font-size: 34px; line-height: 1; font-variant-numeric: tabular-nums; }
+.area .n small { font-family: var(--mn); font-weight: 400; font-size: 10px; letter-spacing: .1em; color: var(--petrol); text-transform: uppercase; margin-left: 4px; }
+.area .plata { font-family: var(--mn); font-size: 10.5px; color: var(--p800); }
+.area .sello { font-size: 9.5px; }
+@media (min-width: 1100px) { .area { padding: 12px 9px 10px; } .area .sello { font-size: 8.4px; } }
+.area .todas { font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 15px; letter-spacing: .04em; border: 2px solid var(--ink); border-radius: 3px; padding: .32em .6em; }
 
 /* ---------- Filtros ---------- */
-.sec-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin: 8px 0 16px; }
-.sec-head h2 { font-size: clamp(30px, 5vw, 46px); margin-top: 10px; }
-.filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; padding: 14px; margin-bottom: 12px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 4px; }
-.filters input[type=search] { flex: 1 1 100%; min-width: 0; padding: 12px 14px; border: 1px solid #000; border-radius: 2px; background: #fff; font-weight: 400; }
+.filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; padding: 14px; margin: 18px 0 12px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 4px; }
+.filters input[type=search] { flex: 1 1 100%; min-width: 0; padding: 12px 14px; border: 1px solid #000; border-radius: 2px; background: #fff; }
 .filters input[type=search]:focus, .filters select:focus { outline: 3px solid var(--yellow); outline-offset: 0; }
-.filters select { padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 2px; background: #fff; max-width: 100%; font-weight: 400; }
+.filters select { padding: 10px 12px; border: 1px solid var(--p300); border-radius: 2px; background: #fff; max-width: 100%; }
 .seg { display: inline-flex; border: 1px solid #000; border-radius: 2px; overflow: hidden; }
 .seg button { border: 0; background: #fff; padding: 9px 13px; cursor: pointer; white-space: nowrap; font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 15px; letter-spacing: .02em; }
 .seg button + button { border-left: 1px solid #000; }
 .seg button[aria-pressed=true] { background: var(--yellow); }
-.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-family: var(--hd); font-weight: 800; text-transform: uppercase; letter-spacing: .02em; font-size: 15px; line-height: 1; padding: 11px 16px; color: #000; background: var(--yellow); border: 1px solid #000; border-radius: 2px; box-shadow: 3px 3px 0 #000; cursor: pointer; white-space: nowrap; transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
+.check { display: inline-flex; align-items: center; gap: 7px; font-size: 13.5px; color: var(--p800); cursor: pointer; }
+.check input { width: 16px; height: 16px; accent-color: #000; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-family: var(--hd); font-weight: 800; text-transform: uppercase; letter-spacing: .02em; font-size: 15px; line-height: 1; padding: 11px 16px; color: #000; background: var(--yellow); border: 1px solid #000; border-radius: 2px; box-shadow: 3px 3px 0 #000; cursor: pointer; white-space: nowrap; text-decoration: none; transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
 .btn:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 #000; }
 .btn:active { transform: translate(2px,2px); box-shadow: 1px 1px 0 #000; }
-.chips-active { display: flex; gap: 6px; flex-wrap: wrap; margin: 0 0 10px; }
-.chip-x { font-family: var(--mn); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; border: 1px solid #000; background: var(--yellow); border-radius: 30px; padding: 5px 12px; cursor: pointer; }
-.count { font-family: var(--mn); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 10px; }
+.btn-ghost { background: #fff; }
+.count { font-family: var(--mn); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--petrol); margin: 0 0 4px; }
 
-/* ---------- Resultados ---------- */
-.list { display: flex; flex-direction: column; gap: 12px; }
-.item { display: grid; grid-template-columns: minmax(0,1fr) 230px; gap: 20px; padding: 20px 22px; transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
-.item:hover { transform: translate(-3px,-3px); box-shadow: 7px 7px 0 var(--ink); }
-.item.closed { background: var(--bg-2); }
-.item.closed h3 a { color: var(--ink-2); }
-.badges { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
-.src { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mn); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-2); font-weight: 500; }
-.src::before { content: ""; width: 9px; height: 9px; background: var(--c); border: 1px solid #000; }
-.src.licitacion { --c: var(--blue); }
-.src.compra_agil { --c: var(--yellow); }
-.tag { font-family: var(--mn); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; border-radius: 3px; padding: 3px 8px; border: 1px solid var(--line-strong); color: var(--ink-2); background: #fff; }
+/* ---------- Lista ---------- */
+.grupo { display: flex; align-items: baseline; gap: 12px; margin: 22px 0 10px; padding-bottom: 7px; border-bottom: 2px solid var(--ink); }
+.grupo h3 { font-size: 22px; letter-spacing: .02em; }
+.grupo span { font-family: var(--mn); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--petrol); }
+.list { display: flex; flex-direction: column; gap: 10px; }
+.item { display: grid; grid-template-columns: minmax(0,1fr) 250px; gap: 20px; padding: 18px 20px; background: #fff; border: 1px solid var(--p300); border-radius: 4px; transition: transform .2s var(--ease), box-shadow .2s var(--ease); }
+.item:hover { transform: translate(-3px,-3px); box-shadow: 6px 6px 0 var(--ink); }
+.item.closed { background: var(--bg-2); border-color: var(--line); }
+.badges { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 9px; }
+.fuente { font-family: var(--mn); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--petrol); font-weight: 700; }
+.tag { font-family: var(--mn); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; border-radius: 2px; padding: 3px 7px; border: 1px solid var(--p300); color: var(--p800); background: #fff; text-decoration: none; white-space: nowrap; }
 .tag.new { background: var(--yellow); color: #000; border-color: #000; font-weight: 700; }
-.tag.estado-abierta { color: var(--green); border-color: var(--green); }
-.code { font-family: var(--mn); font-size: 11px; color: var(--ink-3); letter-spacing: .04em; }
-.item h3 { font-size: clamp(20px, 2.2vw, 25px); line-height: 1.02; font-weight: 800; letter-spacing: .01em; }
+.tag.negro { background: var(--ink); color: #fff; border-color: var(--ink); font-weight: 700; }
+.code { font-family: var(--mn); font-size: 10.5px; color: var(--petrol); letter-spacing: .04em; }
+.item h3 { font-size: clamp(19px, 2.1vw, 24px); line-height: 1.04; font-weight: 800; letter-spacing: .01em; }
 .item h3 a { color: var(--ink); text-decoration: none; background-image: linear-gradient(var(--yellow), var(--yellow)); background-size: 0 40%; background-position: 0 88%; background-repeat: no-repeat; transition: background-size .3s var(--ease); }
 .item h3 a:hover { background-size: 100% 40%; }
-.org { color: var(--ink-2); font-size: 14px; margin-top: 6px; font-weight: 400; }
-.terms { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
-.term { font-family: var(--mn); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; padding: 4px 9px; border-radius: 30px; background: #fff; color: var(--ink); border: 1px solid var(--line-strong); cursor: pointer; }
-.term:hover { border-color: #000; background: var(--yellow-soft); }
-.term.derivado { color: var(--petrol); border-style: dashed; }
-details { margin-top: 12px; font-size: 14px; color: var(--ink-2); }
-details summary { cursor: pointer; font-family: var(--mn); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--petrol); width: fit-content; }
+.org { color: var(--p800); font-size: 14px; margin-top: 6px; }
+.nota { margin-top: 8px; font-size: 13px; color: var(--p800); border-left: 3px solid var(--yellow); padding-left: 9px; }
+.terms { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.term { font-family: var(--mn); font-size: 10px; letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border-radius: 30px; background: #fff; color: var(--p800); border: 1px solid var(--line); }
+details { margin-top: 10px; font-size: 14px; color: var(--p800); }
+details summary { cursor: pointer; font-family: var(--mn); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--petrol); width: fit-content; }
 details p { white-space: pre-line; margin: 8px 0; }
 details ul { margin: 6px 0; padding-left: 18px; }
-.side { text-align: right; display: flex; flex-direction: column; gap: 5px; align-items: flex-end; border-left: 1px solid var(--line); padding-left: 20px; }
+.side { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; text-align: right; border-left: 1px solid var(--line); padding-left: 20px; }
 .amount { font-family: var(--hd); font-weight: 900; font-size: 28px; line-height: 1; font-variant-numeric: tabular-nums; }
-.amount.none { font-family: var(--mn); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); font-weight: 400; }
-.deadline { font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 16px; letter-spacing: .02em; display: inline-flex; align-items: center; gap: 7px; margin-top: 4px; }
-.deadline .ico { width: 10px; height: 10px; border-radius: 50%; flex: none; border: 1px solid #000; }
-.deadline.critical { color: var(--red); } .deadline.critical .ico { background: var(--red); border-color: var(--red); }
-.deadline.warning .ico { background: var(--yellow); }
-.deadline.good { color: var(--green); } .deadline.good .ico { background: var(--green); border-color: var(--green); }
-.deadline.past { color: var(--ink-3); } .deadline.past .ico { background: var(--line-strong); border-color: var(--line-strong); }
-.date { font-family: var(--mn); font-size: 10.5px; letter-spacing: .04em; color: var(--ink-3); }
-.empty { text-align: center; padding: 52px 16px; color: var(--ink-2); }
-.empty b { display: block; font-family: var(--hd); text-transform: uppercase; font-weight: 900; color: var(--ink); font-size: 26px; margin-bottom: 6px; }
+.amount.none { font-family: var(--mn); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--petrol); font-weight: 400; }
+.plazo { font-family: var(--hd); font-weight: 800; text-transform: uppercase; font-size: 16px; letter-spacing: .03em; padding: 4px 9px; border-radius: 2px; border: 2px solid var(--ink); line-height: 1.1; }
+.plazo.hoy { background: var(--ink); color: var(--yellow); }
+.plazo.pronto { background: var(--yellow); }
+.plazo.past { border-color: var(--line); color: var(--petrol); font-weight: 700; }
+.date { font-family: var(--mn); font-size: 10.5px; letter-spacing: .03em; color: var(--petrol); }
+.resultado { margin-top: 10px; font-size: 13.5px; color: var(--ink); display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.empty { text-align: center; padding: 44px 16px; color: var(--p800); border: 1px dashed var(--p300); border-radius: 4px; }
+.empty b { display: block; font-family: var(--hd); text-transform: uppercase; font-weight: 900; color: var(--ink); font-size: 24px; margin-bottom: 6px; }
 .more { margin: 18px auto 0; display: flex; }
 
-/* ---------- Pie ---------- */
-footer { border-top: 1px solid var(--line); padding: 40px 0 34px; }
-.ft-top { display: grid; gap: 26px; grid-template-columns: 1fr; }
-@media (min-width: 760px) { .ft-top { grid-template-columns: 1fr 1.6fr; } }
-.ft-brand img { height: 26px; width: auto; display: block; margin-bottom: 12px; }
-.ft-brand p { font-size: 14px; color: var(--ink-2); margin: 0; }
-footer h4 { font-family: var(--mn); font-weight: 500; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 10px; }
-footer .terms-list { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
-footer .terms-list .term { cursor: default; }
-footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
-.ft-bottom { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); font-family: var(--mn); font-size: 10.5px; letter-spacing: .08em; color: var(--ink-3); text-transform: uppercase; }
-.ft-bottom a { color: var(--ink-3); }
+/* ---------- Por revisar ---------- */
+.revisar { margin-top: 26px; border: 1px dashed var(--ink); border-radius: 4px; padding: 14px 18px; }
+.revisar > summary { font-family: var(--hd); font-weight: 800; font-size: 18px; letter-spacing: .02em; color: var(--ink); text-transform: uppercase; }
+.revisar ul { list-style: none; padding: 0; margin: 10px 0 0; }
+.revisar li { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; padding: 9px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.revisar li a { font-weight: 500; }
+.revisar li button { margin-left: auto; font-family: var(--mn); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; background: #fff; border: 1px solid var(--p300); border-radius: 2px; padding: 4px 8px; cursor: pointer; }
 
-.toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%) translateY(120%); background: #000; color: #fff; border: 1px solid #000; box-shadow: 4px 4px 0 var(--yellow); padding: 12px 18px; border-radius: 2px; font: 400 13px var(--mn); letter-spacing: .04em; transition: transform .25s, opacity .25s; z-index: 60; max-width: calc(100% - 32px); opacity: 0; visibility: hidden; }
+/* ---------- Resultados ---------- */
+.dos { display: grid; grid-template-columns: minmax(0, 1fr); gap: 26px; }
+.dos > div { min-width: 0; }
+@media (min-width: 980px) { .dos { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.tabla-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th { font-family: var(--mn); font-weight: 700; font-size: 9.5px; letter-spacing: .14em; text-transform: uppercase; text-align: left; color: var(--ink); padding: 8px 10px; border-bottom: 2px solid var(--ink); white-space: nowrap; vertical-align: bottom; }
+td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+td.num, th.num { text-align: right; font-family: var(--mn); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.aereo td { background: var(--yellow-soft); }
+tr.aereo td:first-child { box-shadow: inset 4px 0 0 var(--yellow); font-weight: 700; }
+td .barra { display: inline-block; height: 9px; background: var(--petrol); vertical-align: middle; margin-right: 7px; border-radius: 1px; min-width: 2px; }
+tr.aereo td .barra { background: var(--ink); }
+td a { text-decoration: none; }
+td a:hover { text-decoration: underline; }
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; overflow: visible; }
+.chart .axis { fill: var(--petrol); font: 400 10px var(--mn); }
+.chart .bar { fill: var(--petrol); }
+.chart .bar.actual { fill: var(--yellow); stroke: #000; stroke-width: 1; }
+.chart .hit { fill: transparent; }
+.chart g.row:hover .bar { fill: var(--ink); }
+.chart .gridline { stroke: var(--line); }
+.chart .val { fill: var(--ink); font: 800 13px var(--hd); }
+.tip { position: absolute; pointer-events: none; background: #000; color: #fff; padding: 6px 10px; border-radius: 2px; font: 400 11px var(--mn); white-space: nowrap; transform: translate(-50%, -110%); opacity: 0; transition: opacity .1s; z-index: 5; box-shadow: 3px 3px 0 var(--yellow); }
+
+/* ---------- Pie ---------- */
+footer { border-top: 2px solid var(--ink); padding: 34px 0 30px; margin-top: 20px; }
+.ft-top { display: grid; gap: 26px; grid-template-columns: 1fr; }
+@media (min-width: 760px) { .ft-top { grid-template-columns: 1fr 1.7fr; } }
+.ft-brand img { height: 34px; width: auto; display: block; margin-bottom: 10px; }
+.ft-brand p { font-family: var(--mn); font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--petrol); margin: 0; }
+footer h4 { font-family: var(--mn); font-weight: 700; font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--petrol); margin: 0 0 10px; }
+footer .terms-list { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+footer .note { font-size: 13px; color: var(--p800); margin: 0; }
+.ft-bottom { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); font-family: var(--mn); font-size: 10px; letter-spacing: .1em; color: var(--petrol); text-transform: uppercase; }
+
+.toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%) translateY(120%); background: #000; color: #fff; box-shadow: 4px 4px 0 var(--yellow); padding: 12px 18px; border-radius: 2px; font: 400 12.5px var(--mn); letter-spacing: .04em; transition: transform .25s, opacity .25s; z-index: 60; max-width: calc(100% - 32px); opacity: 0; visibility: hidden; }
 .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; visibility: visible; }
 
-@media (max-width: 900px) { .charts { grid-template-columns: 1fr; } }
-@media (max-width: 640px) {
-  .item { grid-template-columns: 1fr; gap: 12px; padding: 18px; }
+@media (max-width: 680px) {
+  .item { grid-template-columns: 1fr; gap: 12px; padding: 16px; }
   .side { text-align: left; align-items: flex-start; border-left: 0; border-top: 1px solid var(--line); padding: 12px 0 0; }
   .nav-cta .lbl { display: none; }
   .seg button { padding: 9px 10px; font-size: 14px; }
+  .brand img { height: 26px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
 </style>
 </head>
 <body>
+<!-- Pictogramas de los sellos de área (los mismos de aereo.cl). -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="s-empresas" viewBox="0 0 24 24"><path d="M4 21V4h10v17"/><path d="M14 9h6v12"/><path d="M2.5 21h19"/><path d="M7.5 8h3M7.5 12h3M7.5 16h3M17 13h0M17 17h0"/></symbol>
+  <symbol id="s-certifica" viewBox="0 0 24 24"><circle cx="12" cy="9.5" r="6"/><path d="m9.3 9.6 1.8 1.8 3.6-3.6"/><path d="m8.6 14.6-1.6 6.4 5-2.4 5 2.4-1.6-6.4"/></symbol>
+  <symbol id="s-gestion" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="9" rx="1.2"/><rect x="13.5" y="3" width="7.5" height="5" rx="1.2"/><rect x="13.5" y="11" width="7.5" height="10" rx="1.2"/><rect x="3" y="15" width="7.5" height="6" rx="1.2"/></symbol>
+  <symbol id="s-servicios" viewBox="0 0 24 24"><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9.5 9.5 7 7M14.5 9.5 17 7M9.5 14.5 7 17M14.5 14.5 17 17"/><circle cx="5" cy="5" r="2.8"/><circle cx="19" cy="5" r="2.8"/><circle cx="5" cy="19" r="2.8"/><circle cx="19" cy="19" r="2.8"/></symbol>
+  <symbol id="s-tienda" viewBox="0 0 24 24"><path d="M4.5 8h15l-1.3 12a1.6 1.6 0 0 1-1.6 1.4H7.4a1.6 1.6 0 0 1-1.6-1.4Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></symbol>
+</svg>
+
 <div class="topbar">
   <div class="topbar-in">
-    <p class="tb-main">Radar de licitaciones · drones y RPAS</p>
-    <ul class="tb-creds"><li>Mercado Público</li><li>Compra Ágil</li><li>Se actualiza cada hora</li></ul>
+    <p class="tb-main">Ecosistema de drones · Radar de licitaciones</p>
+    <ul class="tb-creds"><li>Mercado Público</li><li>Compra Ágil</li><li>Revisión cada hora</li></ul>
   </div>
 </div>
 <header class="nav">
   <div class="nav-in">
-    <a class="brand" href="https://aereo.cl" target="_blank" rel="noopener" aria-label="AÉREO">
-      <img src="assets/aereo-wordmark-black.png" alt="AÉREO" width="1725" height="282">
+    <a class="brand" href="https://aereo.cl" target="_blank" rel="noopener" aria-label="AÉREO — Ecosistema de drones">
+      <img src="assets/aereo-horizontal-negro.svg" alt="AÉREO — Ecosistema de drones" width="1656" height="342">
       <span class="brand-tag">Radar de licitaciones</span>
     </a>
     <div class="nav-meta">
       <span id="sources"></span>
-      <button class="nav-ghost" id="notify" type="button" hidden>🔔 Avisarme</button>
+      <button class="nav-ghost" id="notify" type="button" hidden>Avisarme aquí</button>
       <a class="nav-cta" href="https://aereo.cl" target="_blank" rel="noopener"><span class="lbl">Ir a</span> aereo.cl ↗</a>
     </div>
   </div>
 </header>
 
 <section class="hero">
-  <div class="radar" aria-hidden="true">
-    <div class="ring"></div><div class="ring r2"></div><div class="ring r3"></div><div class="ring r4"></div>
-    <div class="sweep"></div>
-    <span class="blip" style="left:30%;top:36%"></span><span class="blip" style="left:62%;top:24%"></span><span class="blip" style="left:56%;top:70%"></span>
-  </div>
   <div class="wrap">
-    <span class="eyebrow"><span class="idx">01</span> Mercado Público · Compra Ágil</span>
-    <h1>Radar de <span class="hl">licitaciones</span> de drones</h1>
-    <p class="sub">Todas las licitaciones y compras ágiles del Estado relacionadas con drones, RPAS y servicios aéreos, revisadas automáticamente cada hora.</p>
-    <div class="hero-tags">
-      <span class="chip" id="updated" title="">Cargando…</span>
-    </div>
+    <span class="eyebrow">Mercado Público · Compra Ágil y licitaciones</span>
+    <h1>¿Qué hay para <em>cotizar hoy</em>?</h1>
+    <p class="lead" id="lead">Cargando el radar…</p>
   </div>
 </section>
 
 <main class="wrap">
   <div id="alerts"></div>
 
-  <section class="kpis" aria-label="Resumen">
-    <button class="kpi" data-kpi="abiertas"><div class="value" id="k-abiertas">–</div><div class="label">Abiertas ahora</div><div class="sub" id="k-abiertas-sub">&nbsp;</div></button>
-    <button class="kpi" data-kpi="nuevas"><div class="value" id="k-nuevas">–</div><div class="label">Nuevas · 24 h</div><div class="sub">detectadas por el radar</div></button>
-    <button class="kpi" data-kpi="cierran"><div class="value" id="k-cierran">–</div><div class="label">Cierran en ≤ 7 días</div><div class="sub" id="k-cierran-sub">&nbsp;</div></button>
-    <div class="kpi" style="cursor:default"><div class="value" id="k-monto">–</div><div class="label">Monto abierto</div><div class="sub">CLP · procesos con monto publicado</div></div>
+  <section class="tiles" aria-label="Resumen">
+    <button class="tile negro" data-tile="abiertas"><div class="label">Abiertas para cotizar</div><div class="value" id="k-abiertas">–</div><div class="sub" id="k-abiertas-sub">&nbsp;</div></button>
+    <button class="tile" data-tile="hoy"><div class="label">Cierran en 24 horas</div><div class="value" id="k-hoy">–</div><div class="sub" id="k-hoy-sub">&nbsp;</div></button>
+    <button class="tile" data-tile="nuevas"><div class="label">Nuevas · últimas 24 h</div><div class="value" id="k-nuevas">–</div><div class="sub" id="k-nuevas-sub">detectadas por el radar</div></button>
+    <div class="tile fijo"><div class="label">Presupuesto abierto</div><div class="value" id="k-monto">–</div><div class="sub">suma de lo abierto con monto publicado</div></div>
   </section>
 
-  <section class="charts">
-    <div class="card chart" id="chart-terms">
-      <h2>Abiertos por término</h2>
-      <p class="sub">Clic en una barra para filtrar</p>
-      <div class="body"></div>
-      <div class="tip"></div>
-    </div>
-    <div class="card chart" id="chart-weeks">
-      <h2>Publicados por semana</h2>
-      <p class="sub">Últimas 12 semanas · todos los estados</p>
-      <div class="body"></div>
-      <div class="tip"></div>
-    </div>
-  </section>
+  <div class="sec-head" id="sec-areas">
+    <span class="eyebrow">01 · El ecosistema</span>
+    <h2>¿A qué <em>área</em> le sirve?</h2>
+    <p>Cada proceso se relaciona con el área de AÉREO que podría atenderlo. Elige un área para ver solo lo suyo.</p>
+  </div>
+  <div class="areas" id="areas" role="group" aria-label="Áreas del ecosistema AÉREO"></div>
 
-  <div class="sec-head">
-    <div>
-      <span class="eyebrow"><span class="idx">02</span> Oportunidades</span>
-      <h2>Procesos detectados</h2>
-    </div>
+  <div class="sec-head" id="sec-lista">
+    <span class="eyebrow">02 · Oportunidades</span>
+    <h2 id="titulo-lista">Procesos <em>abiertos</em></h2>
   </div>
   <section class="filters" aria-label="Filtros">
     <input type="search" id="q" placeholder="Buscar por nombre, organismo, código o descripción…" aria-label="Buscar">
     <div class="seg" role="group" aria-label="Fuente">
       <button type="button" data-fuente="" aria-pressed="true">Todas</button>
-      <button type="button" data-fuente="licitacion" aria-pressed="false">Licitaciones</button>
       <button type="button" data-fuente="compra_agil" aria-pressed="false">Compra Ágil</button>
+      <button type="button" data-fuente="licitacion" aria-pressed="false">Licitaciones</button>
     </div>
     <select id="estado" aria-label="Estado">
       <option value="abierta">Abiertas</option>
-      <option value="">Todos los estados</option>
-      <option value="cerrada">Cerradas (en evaluación)</option>
+      <option value="cerrada">Cerradas, en evaluación</option>
       <option value="adjudicada">Adjudicadas</option>
       <option value="desierta">Desiertas</option>
-      <option value="cancelada">Canceladas / revocadas</option>
+      <option value="cancelada">Canceladas o revocadas</option>
+      <option value="">Todos los estados</option>
     </select>
     <select id="region" aria-label="Región"><option value="">Todas las regiones</option></select>
     <select id="orden" aria-label="Orden">
@@ -305,25 +334,52 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
       <option value="publicacion">Publicadas más recientemente</option>
       <option value="monto">Mayor monto</option>
     </select>
-    <button class="btn" id="csv" type="button">⬇ Exportar CSV</button>
+    <label class="check"><input type="checkbox" id="indirectas"> <span id="indirectas-lbl">Incluir menciones indirectas</span></label>
+    <button class="btn" id="csv" type="button">Exportar CSV</button>
   </section>
-  <div class="chips-active" id="active"></div>
   <p class="count" id="count"></p>
-  <section class="list" id="list" aria-live="polite"></section>
-  <button class="btn more" id="more" type="button" hidden>Mostrar más</button>
+  <section id="list" aria-live="polite"></section>
+  <button class="btn btn-ghost more" id="more" type="button" hidden>Mostrar más</button>
+
+  <details class="revisar" id="revisar" hidden>
+    <summary id="revisar-titulo">Capacitaciones que no dicen el tema</summary>
+    <p style="margin:8px 0 0">Su texto público solo dice «capacitación según archivo adjunto». El radar no puede leer los adjuntos de Mercado Público, así que conviene abrir la ficha y mirar el documento: a veces son cursos de drones.</p>
+    <ul id="revisar-lista"></ul>
+  </details>
+
+  <div class="sec-head" id="sec-resultados">
+    <span class="eyebrow">03 · Resultados de Compra Ágil</span>
+    <h2>Cómo <em>nos fue</em></h2>
+    <p id="resultados-intro"></p>
+  </div>
+  <section class="tiles" id="res-tiles" aria-label="Resultados"></section>
+  <div class="dos">
+    <div id="res-ranking-box">
+      <h3 class="sub">Quién se las adjudicó</h3>
+      <div class="tabla-wrap" id="res-ranking"></div>
+    </div>
+    <div>
+      <h3 class="sub">Publicadas por semana</h3>
+      <div class="chart" id="chart-weeks"><div class="body"></div><div class="tip"></div></div>
+    </div>
+  </div>
+  <div id="res-tabla-box">
+    <h3 class="sub">Últimas adjudicadas</h3>
+    <div class="tabla-wrap" id="res-tabla"></div>
+  </div>
 </main>
 
 <footer>
   <div class="wrap">
     <div class="ft-top">
       <div class="ft-brand">
-        <img src="assets/aereo-wordmark-black.png" alt="AÉREO" width="1725" height="282">
-        <p>Escuela profesional de pilotos RPAS · AOC 2144 · Somos drones</p>
+        <img src="assets/aereo-horizontal-negro.svg" alt="AÉREO — Ecosistema de drones" width="1656" height="342">
+        <p>Ecosistema de drones · AOC 2144</p>
       </div>
       <div>
-        <h4>Términos monitoreados</h4>
+        <h4>Términos que busca el radar</h4>
         <div class="terms-list" id="terms-list"></div>
-        <p class="note">Fuente: API pública de <a href="https://www.mercadopublico.cl" target="_blank" rel="noopener">Mercado Público</a> (Licitaciones y Compra Ágil) · ChileCompra. El radar revisa automáticamente cada hora y esta página se refresca sola. Verifica siempre las bases en la ficha oficial antes de postular.</p>
+        <p class="note">Fuente: API pública de <a href="https://www.mercadopublico.cl" target="_blank" rel="noopener">Mercado Público</a> (Licitaciones y Compra Ágil) · ChileCompra. El radar revisa cada hora y esta página se refresca sola. Los resultados (quién cotizó y quién ganó) los publica Mercado Público al seleccionar proveedor. Verifica siempre las bases en la ficha oficial antes de cotizar.</p>
       </div>
     </div>
     <div class="ft-bottom"><span>© AÉREO SpA · Uso interno</span><a href="https://aereo.cl" target="_blank" rel="noopener">aereo.cl</a></div>
@@ -341,7 +397,17 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
   const POLL_MS = 10 * 60 * 1000; // consulta si hay datos nuevos cada 10 min (el radar corre cada hora)
   const PAGE = 40;
   const TZ = "America/Santiago";
-  const DAY = 864e5;
+  const HOUR = 36e5, DAY = 864e5;
+
+  // Áreas del ecosistema AÉREO (mismos sellos y numeración que aereo.cl).
+  const AREAS = {
+    capacitacion: { n: "01", base: "Capacitación", sello: "Empresas", icono: "empresas" },
+    servicios: { n: "02", base: "Servicios", sello: "Servicios", icono: "servicios" },
+    certifica: { n: "03", base: "Asesorías", sello: "Certifica", icono: "certifica" },
+    gestion: { n: "03", base: "Asesorías", sello: "Gestión", icono: "gestion" },
+    tienda: { n: "04", base: "Venta de drones", sello: "Tienda", icono: "tienda" },
+    otros: { n: "—", base: "Fuera del ecosistema", sello: null },
+  };
 
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -356,12 +422,31 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
   const fmtNum = new Intl.NumberFormat("es-CL");
   const fmtDate = new Intl.DateTimeFormat("es-CL", { timeZone: TZ, day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" });
   const fmtDay = new Intl.DateTimeFormat("es-CL", { timeZone: TZ, day: "numeric", month: "short" });
+  const fmtWeekday = new Intl.DateTimeFormat("es-CL", { timeZone: TZ, weekday: "short", day: "numeric", month: "short" });
+  const fmtHour = new Intl.DateTimeFormat("es-CL", { timeZone: TZ, hour: "2-digit", minute: "2-digit", hour12: false });
+  const dayKey = d => new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(d);
   const compactCLP = n => n >= 1e9 ? `$${(n / 1e9).toLocaleString("es-CL", { maximumFractionDigits: 1 })} mil M`
     : n >= 1e6 ? `$${(n / 1e6).toLocaleString("es-CL", { maximumFractionDigits: 1 })} M` : fmtCLP.format(n);
+  const plural = (n, uno, varios) => `${fmtNum.format(n)} ${n === 1 ? uno : varios}`;
 
   let data = null;
   let shown = PAGE;
-  const st = { q: "", fuente: "", estado: "abierta", region: "", orden: "cierre", termino: "", soloNuevas: false, cierran7: false };
+  const st = { q: "", fuente: "", estado: "abierta", region: "", orden: "cierre", area: store.get("area", ""), indirectas: false, soloNuevas: false, solo24: false };
+  if (st.area && !AREAS[st.area]) st.area = "";
+
+  const areaDe = i => (AREAS[i.area] ? i.area : "otros");
+  const esDirecta = i => (i.relevancia || "alta") === "alta";
+  const isOpen = i => i.estado === "abierta";
+  const isNew = (i, now) => i.primera_deteccion && now - new Date(i.primera_deteccion) < DAY;
+  const enArea = i => !st.area || areaDe(i) === st.area;
+  const visibles = () => data.items.filter(i => st.indirectas || esDirecta(i));
+  const montoCLP = i => (i.moneda === "CLP" || !i.moneda ? (i.monto || 0) : 0);
+
+  function selloHTML(area) {
+    const a = AREAS[area] || AREAS.otros;
+    if (!a.sello) return `<i class="sello fuera" title="Fuera del ecosistema AÉREO (seguros y otros)"><i class="sello-t">Otros</i></i>`;
+    return `<i class="sello" title="${esc(a.base)} · AÉREO ${esc(a.sello)}"><i class="sello-n"><svg aria-hidden="true"><use href="#s-${a.icono}"/></svg>${a.n}</i><i class="sello-t">AÉREO <i>${esc(a.sello)}</i></i></i>`;
+  }
 
   // ---------- Tiempo ----------
   const rel = (ms) => {
@@ -373,15 +458,15 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
     const d = Math.floor(m / 1440);
     return d === 1 ? "1 día" : `${d} días`;
   };
-  function deadline(item, now) {
-    if (!item.fecha_cierre) return { cls: "past", text: "Sin fecha de cierre" };
-    const diff = new Date(item.fecha_cierre) - now;
-    if (diff <= 0 || item.estado !== "abierta") return { cls: "past", text: `Cerró ${fmtDay.format(new Date(item.fecha_cierre))}` };
-    const cls = diff < 2 * DAY ? "critical" : diff < 7 * DAY ? "warning" : "good";
-    return { cls, text: `Cierra en ${rel(diff)}` };
+  function plazo(item, now) {
+    if (!item.fecha_cierre) return { cls: "past", text: "Sin fecha de cierre", grupo: "despues" };
+    const cierre = new Date(item.fecha_cierre), diff = cierre - now;
+    if (diff <= 0 || !isOpen(item)) return { cls: "past", text: `Cerró el ${fmtDay.format(cierre)}`, grupo: "cerrada" };
+    const hoy = dayKey(new Date(now)), manana = dayKey(new Date(now + DAY)), dia = dayKey(cierre);
+    if (dia === hoy) return { cls: "hoy", text: `Cierra hoy · ${fmtHour.format(cierre)}`, grupo: "hoy" };
+    if (dia === manana) return { cls: "pronto", text: `Cierra mañana · ${fmtHour.format(cierre)}`, grupo: "manana" };
+    return { cls: "", text: `Cierra en ${rel(diff)}`, grupo: diff < 7 * DAY ? "semana" : "despues" };
   }
-  const isNew = (i, now) => i.primera_deteccion && now - new Date(i.primera_deteccion) < DAY;
-  const isOpen = i => i.estado === "abierta";
 
   // ---------- Carga ----------
   async function load(silent) {
@@ -401,24 +486,24 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
       if (changed) {
         renderAll();
         if (prevIds) {
-          const fresh = data.items.filter(i => !prevIds.has(i.id));
+          const fresh = data.items.filter(i => !prevIds.has(i.id) && esDirecta(i));
           if (fresh.length) announce(fresh);
         }
       }
     } catch (e) {
       if (!data) {
-        $("#updated").textContent = "Sin datos";
-        $("#list").innerHTML = `<div class="card empty"><b>Aún no hay datos publicados</b>El radar todavía no se ha ejecutado o no se pudo leer <code>${DATA_URL}</code>.</div>`;
+        $("#lead").textContent = "No se pudieron leer los datos del radar. Recarga la página en unos minutos.";
+        $("#list").innerHTML = `<div class="empty"><b>Aún no hay datos publicados</b>El radar todavía no se ha ejecutado o no se pudo leer <code>${DATA_URL}</code>.</div>`;
       } else if (!silent) console.warn(e);
     }
   }
 
   function announce(fresh) {
     const n = fresh.length;
-    toast(`${n} ${n === 1 ? "nueva oportunidad detectada" : "nuevas oportunidades detectadas"}`);
+    toast(n === 1 ? "1 oportunidad nueva detectada" : `${n} oportunidades nuevas detectadas`);
     if ("Notification" in window && Notification.permission === "granted") {
       try {
-        new Notification(`aéreo · ${n} ${n === 1 ? "nueva licitación" : "nuevas licitaciones"} de drones`, {
+        new Notification(`AÉREO · ${n === 1 ? "1 oportunidad nueva" : `${n} oportunidades nuevas`}`, {
           body: fresh.slice(0, 3).map(i => `• ${i.nombre}`).join("\n"),
         });
       } catch {}
@@ -434,63 +519,93 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
   // ---------- Render ----------
   function renderAll() {
     renderHeader();
-    renderKpis();
     renderRegions();
-    renderTermsChart();
-    renderWeeksChart();
     renderFooter();
+    renderArea();
+  }
+  // Todo lo que depende del área elegida.
+  function renderArea() {
+    renderLead();
+    renderTiles();
+    renderAreas();
     shown = PAGE;
     renderList();
+    renderRevisar();
+    renderResultados();
+    renderWeeksChart();
   }
 
   function renderHeader() {
-    const now = Date.now();
-    const gen = new Date(data.generado);
-    const next = data.proxima_actualizacion ? new Date(data.proxima_actualizacion) : null;
-    const up = $("#updated");
-    up.textContent = `Actualizado hace ${rel(now - gen)}` + (next ? (next > now ? ` · próxima en ${rel(next - now)}` : " · actualización en curso") : "");
-    up.title = fmtDate.format(gen);
-
     const names = { licitaciones: "Licitaciones", compra_agil: "Compra Ágil" };
     const fuentes = data.fuentes || {};
     $("#sources").innerHTML = Object.entries(names).map(([k, label]) => {
       const f = fuentes[k] || {};
       const ok = !!f.ok;
-      const title = ok ? `${label}: OK · ${fmtNum.format(f.revisadas || 0)} procesos revisados` : `${label}: ${f.mensaje || "sin datos"}`;
-      return `<span class="pill ${ok ? "ok" : "err"}" title="${esc(title)}"><span class="dot"></span>${ok ? "✓" : "⚠"} ${label}</span>`;
+      const title = ok ? `${label}: revisada sin problemas` : `${label}: ${f.mensaje || "sin datos"}`;
+      return `<span class="pill ${ok ? "" : "err"}" title="${esc(title)}">${ok ? "✓" : "Falla ·"} ${label}</span>`;
     }).join(" ");
 
     const errs = Object.entries(names).filter(([k]) => fuentes[k] && !fuentes[k].ok);
     $("#alerts").innerHTML = errs.map(([k, label]) => {
       const f = fuentes[k];
       const last = f.ultima_ok ? ` Última revisión exitosa: ${fmtDate.format(new Date(f.ultima_ok))}.` : "";
-      const manual = k === "compra_agil" ? `<p class="alert-manual">Mientras tanto, revisión manual (3 veces al día): busca en el buscador público y registra lo que encuentres; aparecerá aquí con la etiqueta MANUAL.</p>
+      const manual = k === "compra_agil" ? `<p class="alert-manual">Mientras tanto, revisa a mano el buscador público y registra lo que encuentres: aparecerá aquí con la etiqueta MANUAL.</p>
         <div class="alert-actions"><a class="btn" href="${BUSCADOR_CA}" target="_blank" rel="noopener">Abrir buscador Compra Ágil ↗</a><a class="btn btn-ghost" href="${FORM_MANUAL}" target="_blank" rel="noopener">+ Agregar Compra Ágil</a></div>` : "";
-      return `<div class="alert err" role="alert"><span aria-hidden="true">⚠</span><div><strong>${label}: no se pudo revisar en la última ejecución</strong>${esc(f.mensaje)}${last} Se muestran los últimos datos conocidos.${manual}</div></div>`;
+      return `<div class="alert" role="alert"><span class="ico">Falla</span><div><strong>${label}: no se pudo revisar en la última ejecución</strong>${esc(f.mensaje)}${last} Se muestran los últimos datos conocidos.${manual}</div></div>`;
     }).join("");
     Object.entries(names).forEach(([k, label]) => {
       const adv = fuentes[k]?.ok && fuentes[k].advertencias;
-      if (adv && adv.length) $("#alerts").insertAdjacentHTML("beforeend", `<div class="alert"><span aria-hidden="true">ℹ</span><div><strong>${label}: revisión parcial en la última ejecución</strong>${esc(adv.join(" · "))}</div></div>`);
+      if (adv && adv.length) $("#alerts").insertAdjacentHTML("beforeend", `<div class="alert info"><span class="ico">Aviso</span><div><strong>${label}: revisión parcial en la última ejecución</strong>${esc(adv.join(" · "))}</div></div>`);
     });
-    const pend = fuentes.licitaciones?.pendientes_por_revisar;
-    if (pend > 0) {
-      $("#alerts").insertAdjacentHTML("beforeend", `<div class="alert"><span aria-hidden="true">ℹ</span><div><strong>Revisión en profundidad en progreso</strong>Quedan ${fmtNum.format(pend)} licitaciones activas por revisar en su descripción e ítems (las que mencionan drones en el nombre ya están incluidas). Se completan en las próximas ejecuciones horarias.</div></div>`);
-    }
   }
 
-  function renderKpis() {
+  function renderLead() {
     const now = Date.now();
-    const open = data.items.filter(isOpen);
+    const open = visibles().filter(i => isOpen(i) && enArea(i));
+    const en24 = open.filter(i => i.fecha_cierre && new Date(i.fecha_cierre) - now < DAY).length;
+    const total = open.reduce((s, i) => s + montoCLP(i), 0);
+    const gen = new Date(data.generado);
+    const next = data.proxima_actualizacion ? new Date(data.proxima_actualizacion) : null;
+    const donde = st.area ? ` para <b>AÉREO ${esc(AREAS[st.area].sello || "· otros")}</b>` : " en todo el ecosistema";
+    const frase = open.length
+      ? `Hay <b>${plural(open.length, "proceso abierto", "procesos abiertos")}</b>${donde}${total ? `, por <b>${compactCLP(total)}</b>` : ""}. ${en24 ? `<b>${plural(en24, "cierra", "cierran")} en las próximas 24 horas.</b>` : "Ninguno cierra en las próximas 24 horas."}`
+      : `No hay procesos abiertos${donde} en este momento.`;
+    const cuando = `Revisado hace ${rel(now - gen)}` + (next ? (next > now ? ` · próxima revisión en ${rel(next - now)}` : " · revisión en curso") : "");
+    $("#lead").innerHTML = `${frase}<span class="cuando" title="${esc(fmtDate.format(gen))}">${cuando}</span>`;
+  }
+
+  function renderTiles() {
+    const now = Date.now();
+    const base = visibles().filter(enArea);
+    const open = base.filter(isOpen);
+    const ca = open.filter(i => i.fuente === "compra_agil").length;
     $("#k-abiertas").textContent = fmtNum.format(open.length);
-    const lic = open.filter(i => i.fuente === "licitacion").length;
-    $("#k-abiertas-sub").textContent = `${lic} licitaciones · ${open.length - lic} compras ágiles`;
-    $("#k-nuevas").textContent = fmtNum.format(data.items.filter(i => isNew(i, now)).length);
-    const soon = open.filter(i => i.fecha_cierre && new Date(i.fecha_cierre) - now < 7 * DAY);
-    $("#k-cierran").textContent = fmtNum.format(soon.length);
-    const h48 = soon.filter(i => new Date(i.fecha_cierre) - now < 2 * DAY).length;
-    $("#k-cierran-sub").textContent = h48 ? `${h48} en menos de 48 h` : "ninguna en menos de 48 h";
-    const total = open.reduce((s, i) => s + (i.moneda === "CLP" || !i.moneda ? (i.monto || 0) : 0), 0);
+    $("#k-abiertas-sub").textContent = `${plural(ca, "compra ágil", "compras ágiles")} · ${plural(open.length - ca, "licitación", "licitaciones")}`;
+    const en24 = open.filter(i => i.fecha_cierre && new Date(i.fecha_cierre) - now < DAY);
+    $("#k-hoy").textContent = fmtNum.format(en24.length);
+    const en48 = open.filter(i => i.fecha_cierre && new Date(i.fecha_cierre) - now < 2 * DAY).length;
+    $("#k-hoy-sub").textContent = `${fmtNum.format(en48)} en 48 horas`;
+    const nuevas = base.filter(i => isNew(i, now));
+    $("#k-nuevas").textContent = fmtNum.format(nuevas.length);
+    const total = open.reduce((s, i) => s + montoCLP(i), 0);
     $("#k-monto").textContent = total ? compactCLP(total) : "–";
+  }
+
+  function renderAreas() {
+    const open = visibles().filter(isOpen);
+    const card = (key, inner, n, monto) => `<button class="area" type="button" data-area="${key}" aria-pressed="${st.area === key}">
+        ${inner}<span class="n">${fmtNum.format(n)}<small>${n === 1 ? "abierta" : "abiertas"}</small></span><span class="plata">${monto ? compactCLP(monto) : "sin monto"}</span></button>`;
+    const html = [card("", `<span class="base">Todo</span><span class="todas">Todas las áreas</span>`, open.length, open.reduce((s, i) => s + montoCLP(i), 0))];
+    Object.entries(AREAS).forEach(([key, a]) => {
+      const de = open.filter(i => areaDe(i) === key);
+      html.push(card(key, `<span class="base">${esc(a.base)}</span>${selloHTML(key)}`, de.length, de.reduce((s, i) => s + montoCLP(i), 0)));
+    });
+    $("#areas").innerHTML = html.join("");
+    $$("#areas .area").forEach(b => b.onclick = () => {
+      st.area = b.dataset.area;
+      store.set("area", st.area);
+      renderArea();
+    });
   }
 
   function renderRegions() {
@@ -499,96 +614,24 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
     sel.innerHTML = `<option value="">Todas las regiones</option>` + regions.map(r => `<option ${r === st.region ? "selected" : ""}>${esc(r)}</option>`).join("");
   }
 
-  function tipHandlers(container, rows) {
-    const tip = $(".tip", container);
-    rows.forEach(({ el, text }) => {
-      el.addEventListener("mousemove", ev => {
-        const box = container.getBoundingClientRect();
-        tip.textContent = text;
-        tip.style.left = `${Math.min(Math.max(ev.clientX - box.left, 60), box.width - 60)}px`;
-        tip.style.top = `${ev.clientY - box.top - 6}px`;
-        tip.style.opacity = 1;
-      });
-      el.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
-    });
-  }
-
-  function renderTermsChart() {
-    const box = $("#chart-terms");
-    const body = $(".body", box);
-    const counts = new Map();
-    data.items.filter(isOpen).forEach(i => (i.terminos || []).forEach(t => counts.set(t, (counts.get(t) || 0) + 1)));
-    const rows = [...counts].sort((a, b) => b[1] - a[1]).slice(0, 8);
-    if (!rows.length) { body.innerHTML = `<div class="empty-chart">Sin procesos abiertos por ahora.</div>`; return; }
-    const W = Math.max(260, body.clientWidth || 520), rowH = 26, labelW = Math.min(170, Math.round(W * 0.45)), valueW = 34;
-    const max = Math.max(...rows.map(r => r[1]));
-    const plotW = W - labelW - valueW;
-    const H = rows.length * rowH;
-    body.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Procesos abiertos por término">${rows.map(([t, n], k) => {
-      const y = k * rowH, w = Math.max(4, (n / max) * plotW);
-      return `<g class="row${st.termino === t ? " on" : ""}" data-term="${esc(t)}">
-        <rect class="hit" x="0" y="${y}" width="${W}" height="${rowH}"/>
-        <text class="lbl" x="${labelW - 8}" y="${y + rowH / 2 + 4}" text-anchor="end">${esc(t)}</text>
-        <path class="bar" d="M${labelW},${y + 5} h${w - 4} a4,4 0 0 1 4,4 v${rowH - 18} a4,4 0 0 1 -4,4 h${-(w - 4)} z"/>
-        <text class="val" x="${labelW + w + 6}" y="${y + rowH / 2 + 4}">${n}</text></g>`;
-    }).join("")}</svg>`;
-    const gs = $$("g.row", body);
-    gs.forEach(g => g.addEventListener("click", () => { st.termino = st.termino === g.dataset.term ? "" : g.dataset.term; shown = PAGE; renderTermsChart(); renderList(); }));
-    tipHandlers(box, gs.map((g, k) => ({ el: g, text: `${rows[k][0]}: ${rows[k][1]} abiertos` })));
-  }
-
-  function renderWeeksChart() {
-    const box = $("#chart-weeks");
-    const body = $(".body", box);
-    const now = new Date();
-    const monday = new Date(now); monday.setHours(0, 0, 0, 0); monday.setDate(monday.getDate() - ((monday.getDay() + 6) % 7));
-    const weeks = Array.from({ length: 12 }, (_, k) => {
-      const start = new Date(monday); start.setDate(start.getDate() - (11 - k) * 7);
-      return { start, end: new Date(start.getTime() + 7 * DAY), n: 0 };
-    });
-    data.items.forEach(i => {
-      if (!i.fecha_publicacion) return;
-      const d = new Date(i.fecha_publicacion);
-      const w = weeks.find(w => d >= w.start && d < w.end);
-      if (w) w.n++;
-    });
-    if (!weeks.some(w => w.n)) { body.innerHTML = `<div class="empty-chart">Aún no hay suficientes publicaciones registradas.</div>`; return; }
-    const W = Math.max(260, body.clientWidth || 520), H = 170, padL = 28, padB = 22, padT = 16;
-    const max = Math.max(...weeks.map(w => w.n));
-    const step = Math.max(1, Math.ceil(max / 4));
-    const top = step * Math.ceil(max / step);
-    const plotH = H - padB - padT, slot = (W - padL) / weeks.length, bw = Math.min(28, slot - 6);
-    const y = v => padT + plotH - (v / top) * plotH;
-    let grid = "";
-    for (let v = 0; v <= top; v += step) grid += `<line class="gridline" x1="${padL}" x2="${W}" y1="${y(v)}" y2="${y(v)}"/><text class="axis" x="${padL - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`;
-    const bars = weeks.map((w, k) => {
-      const x = padL + k * slot + (slot - bw) / 2, h = (w.n / top) * plotH;
-      const bar = w.n ? `<path class="bar" d="M${x},${y(0)} v${-(h - 4)} a4,4 0 0 1 4,-4 h${bw - 8} a4,4 0 0 1 4,4 v${h - 4} z"/>` : "";
-      const every = W < 420 ? 3 : 2;
-      const label = (weeks.length - 1 - k) % every === 0 ? `<text class="axis" x="${x + bw / 2}" y="${H - 6}" text-anchor="middle">${fmtDay.format(w.start)}</text>` : "";
-      return `<g class="row"><rect class="hit" x="${padL + k * slot}" y="${padT}" width="${slot}" height="${plotH}"/>${bar}${label}</g>`;
-    }).join("");
-    body.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Procesos publicados por semana">${grid}${bars}</svg>`;
-    tipHandlers(box, $$("g.row", body).map((g, k) => ({ el: g, text: `Semana del ${fmtDay.format(weeks[k].start)}: ${weeks[k].n} ${weeks[k].n === 1 ? "proceso" : "procesos"}` })));
-  }
-
   function renderFooter() {
-    $("#terms-list").innerHTML = (data.terminos || []).map(t => `<span class="term ${t.categoria === "derivado" ? "derivado" : ""}">${esc(t.etiqueta)}</span>`).join("");
+    $("#terms-list").innerHTML = (data.terminos || []).map(t => `<span class="term">${esc(t.etiqueta)}</span>`).join("");
   }
 
   function filtered() {
     const now = Date.now();
     const q = norm(st.q).trim();
     const words = q ? q.split(/\s+/) : [];
-    let rows = data.items.filter(i => {
+    const rows = data.items.filter(i => {
+      if (!st.indirectas && !esDirecta(i)) return false;
+      if (!enArea(i)) return false;
       if (st.fuente && i.fuente !== st.fuente) return false;
       if (st.estado === "cancelada" ? !["cancelada", "revocada", "suspendida"].includes(i.estado) : st.estado && i.estado !== st.estado) return false;
       if (st.region && i.region !== st.region) return false;
-      if (st.termino && !(i.terminos || []).includes(st.termino)) return false;
       if (st.soloNuevas && !isNew(i, now)) return false;
-      if (st.cierran7 && !(isOpen(i) && i.fecha_cierre && new Date(i.fecha_cierre) - now < 7 * DAY)) return false;
+      if (st.solo24 && !(isOpen(i) && i.fecha_cierre && new Date(i.fecha_cierre) - now < DAY)) return false;
       if (words.length) {
-        const hay = norm([i.nombre, i.organismo, i.unidad, i.codigo, i.descripcion, i.region, ...(i.productos || [])].join(" "));
+        const hay = norm([i.nombre, i.organismo, i.unidad, i.codigo, i.descripcion, i.region, ...(i.productos || []), ...(i.adjuntos || [])].join(" "));
         if (!words.every(w => hay.includes(w))) return false;
       }
       return true;
@@ -603,63 +646,179 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
     return rows.sort(sorters[st.orden] || sorters.cierre);
   }
 
-  function renderActive() {
-    const chips = [];
-    if (st.termino) chips.push(["termino", `Término: ${st.termino}`]);
-    if (st.soloNuevas) chips.push(["soloNuevas", "Solo nuevas (24 h)"]);
-    if (st.cierran7) chips.push(["cierran7", "Cierran en ≤ 7 días"]);
-    $("#active").innerHTML = chips.map(([k, l]) => `<button class="chip-x" data-k="${k}">${esc(l)} ✕</button>`).join("");
-    $$("#active .chip-x").forEach(b => b.onclick = () => {
-      st[b.dataset.k] = b.dataset.k === "termino" ? "" : false;
-      shown = PAGE; renderTermsChart(); renderList();
-    });
+  function resultadoHTML(i) {
+    const r = i.resultado;
+    if (i.fuente !== "compra_agil" || i.estado !== "adjudicada" || !r || !r.ofertas) return "";
+    const g = r.ganador;
+    const etiqueta = r.aereo ? (r.aereo.gano ? `<span class="tag new">Ganada por AÉREO</span>` : `<span class="tag negro">Perdida</span>`) : `<span class="tag">AÉREO no cotizó</span>`;
+    const gano = g ? `Seleccionado: <b>${esc(g.nombre)}</b> · ${fmtCLP.format(g.monto || 0)}` : "Sin proveedor identificado";
+    const nuestra = r.aereo && !r.aereo.gano ? ` · AÉREO ofertó ${fmtCLP.format(r.aereo.monto)} (${r.aereo.lugar}.º de ${r.ofertas} en precio)` : "";
+    return `<div class="resultado">${etiqueta}<span>${gano}${nuestra} · ${plural(r.ofertas, "oferta", "ofertas")}</span></div>`;
   }
 
   function itemHTML(i, now) {
-    const dl = deadline(i, now);
-    const termCat = new Map((data.terminos || []).map(t => [t.etiqueta, t.categoria]));
+    const p = plazo(i, now);
     const monto = i.monto ? `<div class="amount">${(i.moneda && i.moneda !== "CLP") ? `${esc(i.moneda)} ${fmtNum.format(i.monto)}` : fmtCLP.format(i.monto)}</div>` : `<div class="amount none">Monto no publicado</div>`;
-    const detalle = (i.descripcion || (i.productos || []).length) ? `<details><summary>Ver descripción</summary>${i.descripcion ? `<p>${esc(i.descripcion)}</p>` : ""}${(i.productos || []).length ? `<ul>${i.productos.map(p => `<li>${esc(p)}</li>`).join("")}</ul>` : ""}${i.direccion_entrega ? `<p>Entrega: ${esc(i.direccion_entrega)}</p>` : ""}</details>` : "";
-    return `<article class="card item${isOpen(i) ? "" : " closed"}">
+    const detalle = (i.descripcion || (i.productos || []).length) ? `<details><summary>Ver qué piden</summary>${i.descripcion ? `<p>${esc(i.descripcion)}</p>` : ""}${(i.productos || []).length ? `<ul>${i.productos.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${(i.adjuntos || []).length ? `<p>Adjuntos: ${i.adjuntos.map(esc).join(" · ")}</p>` : ""}${i.direccion_entrega ? `<p>Entrega: ${esc(i.direccion_entrega)}</p>` : ""}</details>` : "";
+    const nota = i.coincide_en === "detalle" ? `<div class="nota">El título no menciona drones: aparece en los productos o adjuntos de la compra.</div>`
+      : i.coincide_en === "mencion" ? `<div class="nota">Mención indirecta: los drones solo se nombran al pasar en la descripción.</div>` : "";
+    return `<article class="item${isOpen(i) ? "" : " closed"}">
       <div>
         <div class="badges">
-          <span class="src ${i.fuente}">${i.fuente === "compra_agil" ? "Compra Ágil" : "Licitación"}</span>
-          ${isNew(i, now) ? `<span class="tag new">NUEVA</span>` : ""}
-          ${i.origen === "manual" ? `<a class="tag manual" href="${esc(i.issue_url || FORM_MANUAL)}" target="_blank" rel="noopener" title="Ingresada a mano desde el buscador público">MANUAL</a>` : ""}
-          <span class="tag estado-${esc(i.estado)}">${esc(i.estado_glosa || i.estado)}</span>
+          ${selloHTML(areaDe(i))}
+          <span class="fuente">${i.fuente === "compra_agil" ? "Compra Ágil" : "Licitación"}</span>
+          ${isNew(i, now) ? `<span class="tag new">Nueva</span>` : ""}
+          ${i.origen === "manual" ? `<a class="tag negro" href="${esc(i.issue_url || FORM_MANUAL)}" target="_blank" rel="noopener" title="Ingresada a mano desde el buscador público">Manual</a>` : ""}
+          ${isOpen(i) ? "" : `<span class="tag">${esc(i.estado_glosa || i.estado)}</span>`}
           <span class="code">${esc(i.codigo)}</span>
         </div>
         <h3><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.nombre || "(sin nombre)")}</a></h3>
         <div class="org">${esc([i.organismo, i.region].filter(Boolean).join(" · ") || "Organismo por confirmar")}</div>
-        <div class="terms">${(i.terminos || []).map(t => `<button class="term ${termCat.get(t) === "derivado" ? "derivado" : ""}" data-term="${esc(t)}">${esc(t)}</button>`).join("")}</div>
+        ${nota}
+        ${resultadoHTML(i)}
         ${detalle}
       </div>
       <div class="side">
         ${monto}
-        <span class="deadline ${dl.cls}"><span class="ico" aria-hidden="true"></span>${esc(dl.text)}</span>
-        ${i.fecha_cierre ? `<span class="date">Cierre: ${fmtDate.format(new Date(i.fecha_cierre))}</span>` : ""}
+        <span class="plazo ${p.cls}">${esc(p.text)}</span>
+        ${i.fecha_cierre ? `<span class="date">${isOpen(i) ? "Cierre" : "Cerró"}: ${fmtWeekday.format(new Date(i.fecha_cierre))} · ${fmtHour.format(new Date(i.fecha_cierre))}</span>` : ""}
         ${i.fecha_publicacion ? `<span class="date">Publicada: ${fmtDay.format(new Date(i.fecha_publicacion))}</span>` : ""}
-        ${i.ofertas != null && i.fuente === "compra_agil" ? `<span class="date">${i.ofertas} ${i.ofertas === 1 ? "cotización" : "cotizaciones"}</span>` : ""}
+        ${i.ofertas != null && i.fuente === "compra_agil" && !i.resultado?.ofertas ? `<span class="date">${plural(i.ofertas, "cotización recibida", "cotizaciones recibidas")}</span>` : ""}
       </div>
     </article>`;
   }
 
+  const GRUPOS = [["hoy", "Cierran hoy"], ["manana", "Cierran mañana"], ["semana", "Cierran esta semana"], ["despues", "Más adelante"]];
+  const TITULOS = { abierta: "Procesos <em>abiertos</em>", cerrada: "En <em>evaluación</em>", adjudicada: "<em>Adjudicadas</em>", desierta: "<em>Desiertas</em>", cancelada: "<em>Canceladas</em>", "": "Todos los <em>procesos</em>" };
+
   function renderList() {
     if (!data) return;
-    renderActive();
     const now = Date.now();
     const rows = filtered();
-    $("#count").textContent = `${fmtNum.format(rows.length)} ${rows.length === 1 ? "proceso" : "procesos"}`;
+    const indirectas = data.items.filter(i => !esDirecta(i) && enArea(i) && (!st.estado || i.estado === st.estado)).length;
+    $("#indirectas-lbl").textContent = `Incluir menciones indirectas (${fmtNum.format(indirectas)})`;
+    $("#titulo-lista").innerHTML = TITULOS[st.estado] ?? TITULOS[""];
+    const extra = [st.area && `área ${AREAS[st.area].sello ? "AÉREO " + AREAS[st.area].sello : "otros"}`, st.soloNuevas && "solo nuevas (24 h)", st.solo24 && "cierran en 24 h"].filter(Boolean).join(" · ");
+    $("#count").textContent = `${plural(rows.length, "proceso", "procesos")}${extra ? " · " + extra : ""}`;
     const list = $("#list");
+    const page = rows.slice(0, shown);
     if (!data.items.length) {
-      list.innerHTML = `<div class="card empty"><b>Todavía no hay procesos detectados</b>El radar revisa Mercado Público cada hora. Cuando aparezca una licitación o Compra Ágil de drones, se mostrará aquí.</div>`;
+      list.innerHTML = `<div class="empty"><b>Todavía no hay procesos detectados</b>El radar revisa Mercado Público cada hora. Cuando aparezca una licitación o Compra Ágil de drones, se mostrará aquí.</div>`;
     } else if (!rows.length) {
-      list.innerHTML = `<div class="card empty"><b>Sin resultados con estos filtros</b>Prueba con “Todos los estados” o limpia la búsqueda.</div>`;
+      list.innerHTML = `<div class="empty"><b>Nada con estos filtros</b>Prueba con otra área, con «Todos los estados» o limpia la búsqueda.</div>`;
+    } else if (st.estado === "abierta" && st.orden === "cierre") {
+      // Agrupadas por urgencia: lo que cierra hoy va primero y se nombra con palabras.
+      list.innerHTML = GRUPOS.map(([key, titulo]) => {
+        const del = page.filter(i => plazo(i, now).grupo === key);
+        return del.length ? `<div class="grupo"><h3>${titulo}</h3><span>${plural(del.length, "proceso", "procesos")}</span></div><div class="list">${del.map(i => itemHTML(i, now)).join("")}</div>` : "";
+      }).join("");
     } else {
-      list.innerHTML = rows.slice(0, shown).map(i => itemHTML(i, now)).join("");
+      list.innerHTML = `<div class="list">${page.map(i => itemHTML(i, now)).join("")}</div>`;
     }
     $("#more").hidden = rows.length <= shown;
-    $$("#list .term").forEach(b => b.onclick = () => { st.termino = b.dataset.term; shown = PAGE; renderTermsChart(); renderList(); window.scrollTo({ top: $(".filters").offsetTop - 8, behavior: "smooth" }); });
+  }
+
+  function renderRevisar() {
+    const ocultas = new Set(store.get("revisar_ocultas", []));
+    const lista = (data.por_revisar || []).filter(i => !ocultas.has(i.codigo) && (!i.fecha_cierre || new Date(i.fecha_cierre) > Date.now()));
+    const box = $("#revisar");
+    box.hidden = !lista.length || (st.area && st.area !== "capacitacion");
+    if (box.hidden) return;
+    $("#revisar-titulo").textContent = `${plural(lista.length, "capacitación abierta que no dice", "capacitaciones abiertas que no dicen")} el tema · revisar el adjunto`;
+    $("#revisar-lista").innerHTML = lista.map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.nombre)}</a><span>${esc(i.organismo || "")}</span><span class="date">${i.fecha_cierre ? "Cierra " + fmtWeekday.format(new Date(i.fecha_cierre)) + " · " + fmtHour.format(new Date(i.fecha_cierre)) : ""}${i.monto ? " · " + fmtCLP.format(i.monto) : ""}</span><button type="button" data-codigo="${esc(i.codigo)}">Ya la revisé</button></li>`).join("");
+    $$("#revisar-lista button").forEach(b => b.onclick = () => { store.set("revisar_ocultas", [...ocultas, b.dataset.codigo]); renderRevisar(); });
+  }
+
+  // ---------- Resultados: quién cotizó y quién ganó (Compra Ágil) ----------
+  function renderResultados() {
+    const area = st.area;
+    const adj = data.items.filter(i => i.fuente === "compra_agil" && i.estado === "adjudicada" && i.resultado && i.resultado.ofertas && esDirecta(i) && enArea(i));
+    const donde = area ? `del área ${AREAS[area].sello ? "AÉREO " + AREAS[area].sello : "«otros»"}` : "de todas las áreas";
+    const tiles = $("#res-tiles");
+    $("#res-ranking-box").hidden = $("#res-tabla-box").hidden = !adj.length;
+    if (!adj.length) {
+      $("#resultados-intro").textContent = `Todavía no hay compras ágiles adjudicadas ${donde} con resultado registrado. El radar los va completando cada hora, a medida que Mercado Público publica quién fue seleccionado.`;
+      tiles.innerHTML = ""; $("#res-ranking").innerHTML = ""; $("#res-tabla").innerHTML = "";
+      return;
+    }
+    const fechas = adj.map(i => new Date(i.fecha_cierre || i.fecha_publicacion)).sort((a, b) => a - b);
+    const cotizadas = adj.filter(i => i.resultado.aereo);
+    const ganadas = adj.filter(i => i.resultado.ganador?.es_aereo);
+    const sin = adj.filter(i => !i.resultado.aereo);
+    const montoSin = sin.reduce((s, i) => s + (i.resultado.ganador?.monto || 0), 0);
+    const pct = (a, b) => b ? `${Math.round(100 * a / b)} %` : "–";
+    $("#resultados-intro").innerHTML = `Compras ágiles ${donde} adjudicadas que el radar tiene registradas (cierres entre el ${fmtDay.format(fechas[0])} y el ${fmtDay.format(fechas[fechas.length - 1])}). Mercado Público publica las ofertas al seleccionar proveedor, así se sabe si AÉREO cotizó y quién ganó.`;
+    tiles.innerHTML = `
+      <div class="tile negro fijo"><div class="label">AÉREO ganó</div><div class="value">${fmtNum.format(ganadas.length)}</div><div class="sub">de ${plural(adj.length, "adjudicada", "adjudicadas")} · ${pct(ganadas.length, adj.length)}</div></div>
+      <div class="tile fijo"><div class="label">Cobertura</div><div class="value">${pct(cotizadas.length, adj.length)}</div><div class="sub">AÉREO cotizó ${fmtNum.format(cotizadas.length)} de ${fmtNum.format(adj.length)}</div></div>
+      <div class="tile fijo"><div class="label">Cuando AÉREO cotiza</div><div class="value">${pct(ganadas.length, cotizadas.length)}</div><div class="sub">gana ${fmtNum.format(ganadas.length)} de ${fmtNum.format(cotizadas.length)}</div></div>
+      <div class="tile fijo"><div class="label">Se fueron sin cotizar</div><div class="value">${fmtNum.format(sin.length)}</div><div class="sub">${montoSin ? "adjudicadas por " + compactCLP(montoSin) : "sin monto registrado"}</div></div>`;
+
+    const por = new Map();
+    adj.forEach(i => {
+      const g = i.resultado.ganador;
+      if (!g) return;
+      const key = g.es_aereo ? "AÉREO SpA" : g.nombre;
+      const r = por.get(key) || { nombre: key, n: 0, monto: 0, aereo: !!g.es_aereo };
+      r.n++; r.monto += g.monto || 0; por.set(key, r);
+    });
+    const ranking = [...por.values()].sort((a, b) => b.n - a.n || b.monto - a.monto);
+    const top = ranking.slice(0, 7), resto = ranking.slice(7);
+    if (resto.length) top.push({ nombre: `Otros ${resto.length} proveedores`, n: resto.reduce((s, r) => s + r.n, 0), monto: resto.reduce((s, r) => s + r.monto, 0) });
+    const max = Math.max(...top.map(r => r.n));
+    $("#res-ranking").innerHTML = `<table><thead><tr><th>Proveedor</th><th>Adjudicadas</th><th class="num">%</th><th class="num">Monto</th></tr></thead><tbody>${top.map(r =>
+      `<tr class="${r.aereo ? "aereo" : ""}"><td>${esc(r.nombre)}</td><td style="white-space:nowrap"><span class="barra" style="width:${Math.round(90 * r.n / max)}px"></span>${r.n}</td><td class="num">${pct(r.n, adj.length)}</td><td class="num">${fmtCLP.format(r.monto)}</td></tr>`).join("")}</tbody></table>`;
+
+    const recientes = [...adj].sort((a, b) => new Date(b.fecha_cierre || 0) - new Date(a.fecha_cierre || 0)).slice(0, 15);
+    $("#res-tabla").innerHTML = `<table><thead><tr><th>Cierre</th><th>Comprador</th><th>Compra</th><th class="num">Of.</th><th>Seleccionado</th><th class="num">Monto</th><th class="num">Oferta AÉREO</th><th>Resultado</th></tr></thead><tbody>${recientes.map(i => {
+      const r = i.resultado, g = r.ganador || {};
+      const res = r.aereo ? (r.aereo.gano ? `<span class="tag new">Ganada</span>` : `<span class="tag negro">Perdida</span>`) : `<span class="tag">No cotizó</span>`;
+      return `<tr class="${g.es_aereo ? "aereo" : ""}"><td style="white-space:nowrap">${i.fecha_cierre ? fmtDay.format(new Date(i.fecha_cierre)) : ""}</td><td>${esc(i.organismo || "")}</td><td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc((i.nombre || "").slice(0, 80))}</a></td><td class="num">${r.ofertas}</td><td>${esc(g.es_aereo ? "AÉREO SpA" : g.nombre || "–")}</td><td class="num">${g.monto ? fmtCLP.format(g.monto) : "–"}</td><td class="num">${r.aereo ? `${fmtCLP.format(r.aereo.monto)} · ${r.aereo.lugar}.º` : "–"}</td><td>${res}</td></tr>`;
+    }).join("")}</tbody></table>`;
+  }
+
+  function renderWeeksChart() {
+    const box = $("#chart-weeks");
+    const body = $(".body", box);
+    const now = new Date();
+    const monday = new Date(now); monday.setHours(0, 0, 0, 0); monday.setDate(monday.getDate() - ((monday.getDay() + 6) % 7));
+    const weeks = Array.from({ length: 10 }, (_, k) => {
+      const start = new Date(monday); start.setDate(start.getDate() - (9 - k) * 7);
+      return { start, end: new Date(start.getTime() + 7 * DAY), n: 0 };
+    });
+    data.items.forEach(i => {
+      if (!i.fecha_publicacion || !esDirecta(i) || !enArea(i)) return;
+      const d = new Date(i.fecha_publicacion);
+      const w = weeks.find(w => d >= w.start && d < w.end);
+      if (w) w.n++;
+    });
+    if (!weeks.some(w => w.n)) { body.innerHTML = `<p class="mono" style="padding:24px 0">Sin publicaciones registradas en estas semanas.</p>`; return; }
+    const W = Math.max(260, body.clientWidth || 520), H = 190, padL = 26, padB = 22, padT = 20;
+    const max = Math.max(...weeks.map(w => w.n));
+    const step = Math.max(1, Math.ceil(max / 4));
+    const top = step * Math.ceil(max / step);
+    const plotH = H - padB - padT, slot = (W - padL) / weeks.length, bw = Math.min(34, slot - 8);
+    const y = v => padT + plotH - (v / top) * plotH;
+    let grid = "";
+    for (let v = 0; v <= top; v += step) grid += `<line class="gridline" x1="${padL}" x2="${W}" y1="${y(v)}" y2="${y(v)}"/><text class="axis" x="${padL - 6}" y="${y(v) + 3}" text-anchor="end">${v}</text>`;
+    const bars = weeks.map((w, k) => {
+      const x = padL + k * slot + (slot - bw) / 2, h = (w.n / top) * plotH, last = k === weeks.length - 1;
+      const bar = w.n ? `<rect class="bar${last ? " actual" : ""}" x="${x}" y="${y(0) - h}" width="${bw}" height="${h}"/><text class="val" x="${x + bw / 2}" y="${y(0) - h - 5}" text-anchor="middle">${w.n}</text>` : "";
+      const label = (weeks.length - 1 - k) % (W < 420 ? 3 : 2) === 0 ? `<text class="axis" x="${x + bw / 2}" y="${H - 6}" text-anchor="middle">${fmtDay.format(w.start)}</text>` : "";
+      return `<g class="row"><rect class="hit" x="${padL + k * slot}" y="${padT}" width="${slot}" height="${plotH}"/>${bar}${label}</g>`;
+    }).join("");
+    body.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Procesos publicados por semana">${grid}${bars}</svg>`;
+    const tip = $(".tip", box);
+    $$("g.row", body).forEach((g, k) => {
+      g.addEventListener("mousemove", ev => {
+        const b = box.getBoundingClientRect();
+        tip.textContent = `Semana del ${fmtDay.format(weeks[k].start)}: ${plural(weeks[k].n, "proceso publicado", "procesos publicados")}${k === weeks.length - 1 ? " (en curso)" : ""}`;
+        tip.style.left = `${Math.min(Math.max(ev.clientX - b.left, 90), b.width - 90)}px`;
+        tip.style.top = `${ev.clientY - b.top - 6}px`;
+        tip.style.opacity = 1;
+      });
+      g.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
+    });
   }
 
   // ---------- Controles ----------
@@ -670,28 +829,28 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
     $$(".seg button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
     shown = PAGE; renderList();
   });
-  ["estado", "region", "orden"].forEach(id => $("#" + id).addEventListener("change", e => { st[id] = e.target.value; shown = PAGE; renderList(); }));
+  ["estado", "region", "orden"].forEach(id => $("#" + id).addEventListener("change", e => { st[id] = e.target.value; st.soloNuevas = st.solo24 = false; shown = PAGE; renderList(); }));
+  $("#indirectas").addEventListener("change", e => { st.indirectas = e.target.checked; renderArea(); });
   $("#more").onclick = () => { shown += PAGE; renderList(); };
-  $$(".kpi[data-kpi]").forEach(k => k.onclick = () => {
-    const kind = k.dataset.kpi;
+  $$(".tile[data-tile]").forEach(k => k.onclick = () => {
+    const kind = k.dataset.tile;
     st.estado = kind === "nuevas" ? "" : "abierta";
     st.soloNuevas = kind === "nuevas";
-    st.cierran7 = kind === "cierran";
-    if (kind === "cierran") st.orden = "cierre";
-    if (kind === "nuevas") st.orden = "nuevas";
+    st.solo24 = kind === "hoy";
+    st.orden = kind === "nuevas" ? "nuevas" : "cierre";
     $("#estado").value = st.estado; $("#orden").value = st.orden;
     shown = PAGE; renderList();
-    window.scrollTo({ top: $(".filters").offsetTop - 8, behavior: "smooth" });
+    $("#sec-lista").scrollIntoView({ block: "start" });
   });
 
   $("#csv").onclick = () => {
     if (!data) return;
-    const cols = [["fuente", "Fuente"], ["codigo", "Código"], ["nombre", "Nombre"], ["organismo", "Organismo"], ["region", "Región"], ["estado_glosa", "Estado"], ["monto", "Monto"], ["moneda", "Moneda"], ["fecha_publicacion", "Publicación"], ["fecha_cierre", "Cierre"], ["terminos", "Términos"], ["url", "Enlace"]];
+    const cols = [["area", "Área AÉREO"], ["fuente", "Fuente"], ["codigo", "Código"], ["nombre", "Nombre"], ["organismo", "Organismo"], ["region", "Región"], ["estado_glosa", "Estado"], ["monto", "Monto"], ["moneda", "Moneda"], ["fecha_publicacion", "Publicación"], ["fecha_cierre", "Cierre"], ["terminos", "Términos"], ["url", "Enlace"]];
     const cell = v => `"${String(Array.isArray(v) ? v.join(", ") : v ?? "").replace(/"/g, '""')}"`;
     const csv = [cols.map(c => cell(c[1])).join(";"), ...filtered().map(i => cols.map(([k]) => cell(i[k])).join(";"))].join("\r\n");
     const a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8" }));
-    a.download = `licitaciones-drones-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.download = `radar-aereo-${new Date().toISOString().slice(0, 10)}.csv`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   };
@@ -702,16 +861,16 @@ footer .note { font-size: 13px; color: var(--ink-2); margin: 0; }
     notifyBtn.onclick = async () => {
       const p = await Notification.requestPermission();
       notifyBtn.hidden = true;
-      if (p === "granted") toast("Te avisaremos aquí cuando aparezcan nuevas oportunidades (con esta pestaña abierta).");
+      if (p === "granted") toast("Listo: con esta pestaña abierta, te avisaremos cuando aparezca algo nuevo.");
     };
   }
 
   let rTimer;
-  addEventListener("resize", () => { clearTimeout(rTimer); rTimer = setTimeout(() => { if (data) { renderTermsChart(); renderWeeksChart(); } }, 150); });
+  addEventListener("resize", () => { clearTimeout(rTimer); rTimer = setTimeout(() => { if (data) renderWeeksChart(); }, 150); });
 
   load();
   setInterval(() => load(true), POLL_MS);
-  setInterval(() => { if (data) { renderHeader(); } }, 60 * 1000);
+  setInterval(() => { if (data) { renderLead(); } }, 60 * 1000);
   document.addEventListener("visibilitychange", () => { if (!document.hidden) load(true); });
 })();
 </script>
