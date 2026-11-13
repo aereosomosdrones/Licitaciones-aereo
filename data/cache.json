@@ -5797,7 +5797,7 @@
   }
  },
  "ca_ultimo_barrido_completo": "2026-11-12T15:05:12+00:00",
- "ca_ultima_ejecucion_ok": "2026-11-13T09:05:13+00:00",
+ "ca_ultima_ejecucion_ok": "2026-11-13T10:05:11+00:00",
  "ultimo_recordatorio": "2026-11-10 09",
  "recordatorios_abiertos": [],
  "ca_pendientes": {},
@@ -5831,7 +5831,7 @@
    ]
   }
  },
- "ca_ultima_amplia": "2026-11-13T09:05:13+00:00",
+ "ca_ultima_amplia": "2026-11-13T10:05:11+00:00",
  "avisos": {
   "CA:924-316-COT26": 15,
   "CA:2755-386-COT26": 16
