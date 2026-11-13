@@ -1,28 +1,28 @@
 {
- "generado": "2026-11-12T23:38:28+00:00",
- "proxima_actualizacion": "2026-11-13T00:38:28+00:00",
+ "generado": "2026-11-13T00:05:11+00:00",
+ "proxima_actualizacion": "2026-11-13T01:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-12T23:38:28+00:00",
+   "ultima_ok": "2026-11-13T00:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 5198,
-   "detalles_consultados": 2,
+   "detalles_consultados": 1,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-12T23:38:28+00:00",
+   "ultima_ok": "2026-11-13T00:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 20,
-   "detalles_consultados": 135,
+   "detalles_consultados": 120,
    "segunda_pasada": 0,
-   "pendientes_segunda_pasada": 66,
+   "pendientes_segunda_pasada": 0,
    "modo": "recientes"
   }
  },
@@ -76,13 +76,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:2755-386-COT26",
-  "CA:1238177-125-COT26",
-  "CA:907-104-COT26",
-  "CA:1195-569-COT26",
-  "CA:3213-131-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "por_revisar": [
   {
    "id": "CA:4020-1173-COT26",
@@ -97,49 +91,23 @@
    "adjuntos": [
     "Especificaciones_Tecnicas_Curso_Oficina_Tecnica_Obras.pdf"
    ]
+  },
+  {
+   "id": "CA:2675-397-COT26",
+   "codigo": "2675-397-COT26",
+   "nombre": "CAPACITACION INTERSECTORIAL PAP / OFICINA LOCAL DE LA NIÑEZ",
+   "organismo": "I MUNICIPALIDAD DE MOSTAZAL",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "fecha_publicacion": "2026-11-12T09:40:00-03:00",
+   "fecha_cierre": "2026-11-16T09:00:00-03:00",
+   "monto": 1000000.0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2675-397-COT26",
+   "adjuntos": [
+    "Solicitud Tecnica_Capacitacion_Intersectorial_PAP .pdf"
+   ]
   }
  ],
  "items": [
-  {
-   "id": "CA:1195-569-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1195-569-COT26",
-   "nombre": "CONTRATACIÓN DE SERVICIOS DE ASESORÍA AUDIOVISUAL PARA EL EVENTO DEPORTIVO “LOS 4 LAGOS MTB RACE”",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-10T18:08:00-03:00",
-   "fecha_cierre": "2026-11-12T21:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-10 18:10",
-   "organismo": "I MUNICIPALIDAD DE COYHAIQUE",
-   "unidad": "Ilustre Municipalidad de Coyhaique",
-   "region": "Región Aysén del General Carlos Ibáñez del Campo",
-   "monto": 1200000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1195-569-COT26",
-   "descripcion": "Se requiere contratar servicio de asesoría audiovisual para la cobertura integral del evento deportivo Los 4 Lagos MTB Race, a realizarse los días 21 y 22 de noviembre de 2026 en Lago Pollux, Coyhaique. El servicio contempla registro fotográfico y audiovisual, grabación aérea con drone, video de seguridad, reel promocional, cobertura de ambas jornadas, edición y postproducción, entrega de fotografías editadas, reels para redes sociales, video resumen oficial y material digital organizado",
-   "direccion_entrega": "magallanes 283",
-   "plazo_entrega_dias": 1,
-   "adjuntos": [
-    "BASES TÉCNICAS CONTRATACIÓN DE SERVICIOS DE ASESORÍA AUDIOVISUAL .docx",
-    "BASES TÉCNICAS CONTRATACIÓN DE SERVICIOS DE ASESORÍA AUDIOVISUAL .pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
-   "primera_deteccion": "2026-11-12T23:38:28+00:00",
-   "area": "servicios",
-   "relevancia": "baja",
-   "coincide_en": "mencion"
-  },
   {
    "id": "CA:2427-1391-COT26",
    "fuente": "compra_agil",
@@ -172,8 +140,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "basestecnicas34_001122.pdf",
@@ -210,7 +178,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "servicios",
@@ -249,8 +217,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "TDR.pdf"
@@ -323,8 +291,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -359,7 +327,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00",
    "area": "otros",
@@ -394,7 +362,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00",
    "area": "servicios",
@@ -475,8 +443,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -507,12 +475,12 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "descripcion": "USO: SECPLAC",
    "direccion_entrega": "AV PEÑALANCA 250",
    "plazo_entrega_dias": 3,
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -551,8 +519,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -586,7 +554,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00",
    "area": "tienda",
@@ -621,7 +589,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -655,7 +623,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00",
    "area": "tienda",
@@ -690,7 +658,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T23:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
@@ -734,7 +702,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
@@ -773,8 +741,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "Document_20261111_0001.pdf"
@@ -813,7 +781,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -849,7 +817,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -896,7 +864,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T21:05:13+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -935,8 +903,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -970,7 +938,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -1008,8 +976,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "CA_MANTENCION_DRON.pdf"
@@ -1056,7 +1024,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T21:05:13+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -1097,8 +1065,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -1139,7 +1107,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1175,7 +1143,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T21:05:13+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1212,7 +1180,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T20:05:13+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1247,7 +1215,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T18:47:34+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1281,7 +1249,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "detalle_actualizado": "2026-11-12T23:38:28+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -9028,7 +8996,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-23T18:10:00-03:00",
    "fecha_cierre": "2026-10-28T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-02T10:55:00.270Z",
+   "fecha_ultimo_cambio": "2026-11-02 10:55",
    "organismo": "SERVICIO AEROFOTOGRAMETRICO DEL GENERAL JUAN SOLER MANFREDINI",
    "unidad": "Servicio Aerofotogramétrico",
    "region": "Región Metropolitana de Santiago",
@@ -9053,14 +9021,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "ESPECIFICACIONES TÉCNICAS.pdf"
+   ],
+   "resultado": {
+    "ofertas": 5,
+    "oferta_minima": 4605233.0,
+    "ganador": {
+     "nombre": "IMPORTADORA Y DISTRIBUIDORA UDENIO LTDA.",
+     "monto": 4740579.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:2686-534-COT26",
@@ -9071,7 +9051,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-26T16:53:00-03:00",
    "fecha_cierre": "2026-10-28T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29T15:30:00.323Z",
+   "fecha_ultimo_cambio": "2026-10-29 15:30",
    "organismo": "I MUNICIPALIDAD DE COLINA",
    "unidad": "SECPLAN",
    "region": "Región Metropolitana de Santiago",
@@ -9091,14 +9071,26 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "detalle"
+   "coincide_en": "detalle",
+   "adjuntos": [
+    "img26102026_0002.pdf"
+   ],
+   "resultado": {
+    "ofertas": 1,
+    "oferta_minima": 6799999.0,
+    "ganador": {
+     "nombre": "REALTEK SPA",
+     "monto": 6799999.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:673663-83-COT26",
@@ -9109,7 +9101,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T12:16:00-03:00",
    "fecha_cierre": "2026-10-28T12:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-02T14:50:00.297Z",
+   "fecha_ultimo_cambio": "2026-11-02 14:50",
    "organismo": "I MUNICIPALIDAD DE ANDACOLLO",
    "unidad": "Secplan",
    "region": "Región de Coquimbo ",
@@ -9129,14 +9121,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "ESPECIFICACIONES TECNICAS ADQUISICION DE DRONE SECPLAN .pdf"
+   ],
+   "resultado": {
+    "ofertas": 6,
+    "oferta_minima": 6604500.0,
+    "ganador": {
+     "nombre": "GEOSERENA SPA",
+     "monto": 7214970.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:5035-101-COT26",
@@ -9147,7 +9151,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T13:29:00-03:00",
    "fecha_cierre": "2026-10-28T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29T11:50:00.733Z",
+   "fecha_ultimo_cambio": "2026-10-29 11:50",
    "organismo": "UNIVERSIDAD DE VALPARAISO",
    "unidad": "08 Facultad de Arquitectura",
    "region": "Región de Valparaíso ",
@@ -9167,14 +9171,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "baja",
-   "coincide_en": "mencion"
+   "coincide_en": "mencion",
+   "adjuntos": [
+    "EETT ADQUISICIÓN DE DROM PARA LA FACULTAD DE AQRUITECTURA.pdf"
+   ],
+   "resultado": {
+    "ofertas": 10,
+    "oferta_minima": 1832256.0,
+    "ganador": {
+     "nombre": "DISTRIBUIDORA DE PRODUCTOS ELECTRÓNICOS Y MAQUINARIA SPA",
+     "monto": 1897931.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "LIC:4290-73-LE26",
@@ -9219,7 +9235,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-27T16:52:00-03:00",
    "fecha_cierre": "2026-10-29T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29T09:05:01.370Z",
+   "fecha_ultimo_cambio": "2026-10-29 09:05",
    "organismo": "I MUNICIPALIDAD DE VICUNA",
    "unidad": "Ilustre Municipalidad de Vicuña",
    "region": "Región de Coquimbo ",
@@ -9240,13 +9256,16 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "origen": "api",
    "area": "otros",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Solicitud Seguro para Dron.pdf"
+   ]
   },
   {
    "id": "CA:1212563-1-COT26",
@@ -9257,7 +9276,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-27T13:14:00-03:00",
    "fecha_cierre": "2026-10-29T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29T09:05:01.370Z",
+   "fecha_ultimo_cambio": "2026-10-29 09:05",
    "organismo": "DELEGACIÓN PRESIDENCIAL REGIONAL DE VALPARAÍSO",
    "unidad": "EMERGENCIAS",
    "region": "Región de Valparaíso ",
@@ -9279,13 +9298,16 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "REQUERIMIENTO TÉCNICO DRON.pdf"
+   ]
   },
   {
    "id": "CA:2427-1232-COT26",
@@ -9333,7 +9355,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-26T12:55:00-03:00",
    "fecha_cierre": "2026-10-29T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-31T11:40:01.060Z",
+   "fecha_ultimo_cambio": "2026-10-31 11:40",
    "organismo": "SECCIÓN COMPRAS II ZONA",
    "unidad": "SECCIÓN DE COMPRAS ZONA ANTOFAGASTA",
    "region": "Región de Antofagasta ",
@@ -9348,19 +9370,32 @@
     "Módulos de servicio para aeronaves — TODO PROVEEDOR DEBERÁ ADJUNTAR COTIZACIÓN CONFORME A ANEXO N.° 1, INDICANDO EL SERVICIO A REQUERIR, PLAZO DE ENTREGA, GARANTÍA, NUMERO DE CONTACTO TELEFÓNICO Y CORREO ELECTRÓNICO."
    ],
    "terminos": [
+    "Dron",
     "Marcas (DJI, Autel…)"
    ],
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-11-01T04:05:10+00:00",
    "origen": "api",
    "area": "gestion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "ANEXO NRO 1 (MANTENCION Y REPARACION DRONE).xlsx"
+   ],
+   "resultado": {
+    "ofertas": 1,
+    "oferta_minima": 149000.0,
+    "ganador": {
+     "nombre": "ESENERGY SPA",
+     "monto": 149000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:1161-302-COT26",
@@ -9371,7 +9406,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T12:24:00-03:00",
    "fecha_cierre": "2026-10-29T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-30T16:30:00.497Z",
+   "fecha_ultimo_cambio": "2026-10-30 16:30",
    "organismo": "SERVICIO AGRICOLA Y GANADERO",
    "unidad": "SAG - Los Lagos",
    "region": "Región de los Lagos ",
@@ -9393,14 +9428,31 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00",
    "origen": "api",
    "area": "capacitacion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Requerimiento.pdf"
+   ],
+   "resultado": {
+    "ofertas": 9,
+    "oferta_minima": 740000.0,
+    "ganador": {
+     "nombre": "DRON CHILE SPA",
+     "monto": 740000.0,
+     "es_aereo": false
+    },
+    "aereo": {
+     "monto": 749000.0,
+     "lugar": 2,
+     "gano": false
+    }
+   }
   },
   {
    "id": "CA:5416-792-COT26",
@@ -9411,7 +9463,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T11:39:00-03:00",
    "fecha_cierre": "2026-10-29T12:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05T16:10:01.093Z",
+   "fecha_ultimo_cambio": "2026-11-05 16:10",
    "organismo": "UNIVERSIDAD DE LA SERENA",
    "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
    "region": "Región de Coquimbo ",
@@ -9431,14 +9483,27 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Especificaciones Tecnicas DRON.pdf",
+    "CLÁUSULAS PARA COMPRA ÁGIL.pdf"
+   ],
+   "resultado": {
+    "ofertas": 9,
+    "oferta_minima": 5831000.0,
+    "ganador": {
+     "nombre": "FELIX JESUS NILO BUSTIOS",
+     "monto": 6700000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:1538637-19-COT26",
@@ -9472,14 +9537,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00",
    "origen": "api",
    "area": "servicios",
    "relevancia": "baja",
-   "coincide_en": "mencion"
+   "coincide_en": "mencion",
+   "adjuntos": [
+    "Compra Agil - Triatlon Corporacion Deportiva.docx.pdf"
+   ],
+   "resultado": {
+    "ofertas": 3,
+    "oferta_minima": 5.0,
+    "ganador": {
+     "nombre": "ORGANIZACION Y PROMOCION DE EVENTOS DEPORTIVOS OS SPA",
+     "monto": 4950400.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "LIC:1107276-27-LE26",
@@ -9528,7 +9605,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-27T11:30:00-03:00",
    "fecha_cierre": "2026-10-29T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03T16:30:00.997Z",
+   "fecha_ultimo_cambio": "2026-11-03 16:30",
    "organismo": "I MUNICIPALIDAD DE LA PINTANA",
    "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
    "region": "Región Metropolitana de Santiago",
@@ -9551,14 +9628,27 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-11T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "area": "gestion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Requerimientos compra agil (61).docx",
+    "Anexo-1-EETT-Mantencion-Dron-2026 (1).docx"
+   ],
+   "resultado": {
+    "ofertas": 1,
+    "oferta_minima": 5000000.0,
+    "ganador": {
+     "nombre": "DRON CHILE SPA",
+     "monto": 5000000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:945256-61-COT26",
@@ -9590,14 +9680,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "ADQUISICIÓN DE SISTEMA DE AERONAVE PILOTADA A DISTANCIA (DRON) UL.pdf"
+   ],
+   "resultado": {
+    "ofertas": 7,
+    "oferta_minima": 1386957.0,
+    "ganador": {
+     "nombre": "COMERCIAL N&K SOLUTION SPA",
+     "monto": 1386957.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:2704-2071-COT26",
@@ -9630,14 +9732,27 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
    "origen": "api",
    "area": "servicios",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "INDICACIONES PARA COMPRA AGILES-3 (1).pdf",
+    "sc 7204.pdf"
+   ],
+   "resultado": {
+    "ofertas": 2,
+    "oferta_minima": 2499000.0,
+    "ganador": {
+     "nombre": "SOLUCIONES AUDIOVISUALES SOTO Y OJEDA LIMITADA",
+     "monto": 2499000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:2427-1246-COT26",
@@ -9668,14 +9783,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "TTR DSC N°19 REPUESTO DRON.pdf"
+   ],
+   "resultado": {
+    "ofertas": 1,
+    "oferta_minima": 329000.0,
+    "ganador": {
+     "nombre": "ESENERGY SPA",
+     "monto": 329000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "LIC:1242997-1-LE26",
@@ -9722,7 +9849,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-23T11:26:00-03:00",
    "fecha_cierre": "2026-10-30T13:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05T12:50:01.143Z",
+   "fecha_ultimo_cambio": "2026-11-05 12:50",
    "organismo": "Ministerio de Vivienda y Urbanismo",
    "unidad": "SEREMI MINVU REGION  ARICA Y PARINACOTA",
    "region": "Región de Arica y Parinacota",
@@ -9743,14 +9870,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "FORMATO SOLICITUD COTIZACION COMPRA AGIL PARACAÍDAS DJI MATRICE 4E.pdf"
+   ],
+   "resultado": {
+    "ofertas": 5,
+    "oferta_minima": 616420.0,
+    "ganador": {
+     "nombre": "FLYDRONE SPA",
+     "monto": 616420.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "LIC:2585-139-LE26",
@@ -9799,7 +9938,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-16T13:13:00-03:00",
    "fecha_cierre": "2026-11-01T14:03:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-01T14:10:00.440Z",
+   "fecha_ultimo_cambio": "2026-11-01 14:10",
    "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
    "unidad": "Dirección de Vialidad - IX Región - Dirección Regional",
    "region": "Región de la Araucanía ",
@@ -9820,14 +9959,21 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
    "area": "gestion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "TERMINOS DE REFERENCIA 42.pdf"
+   ],
+   "resultado": {
+    "ofertas": 2,
+    "oferta_minima": 1650250.0
+   }
   },
   {
    "id": "CA:511505-543-COT26",
@@ -9838,7 +9984,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-28T15:39:00-03:00",
    "fecha_cierre": "2026-11-02T08:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05T15:40:01.123Z",
+   "fecha_ultimo_cambio": "2026-11-05 15:40",
    "organismo": "UNIVERSIDAD DE ATACAMA",
    "unidad": "FACULTAD DE INGENIERIA (1)",
    "region": "Región de Atacama ",
@@ -9861,14 +10007,28 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-05T18:39:13+00:00",
    "origen": "api",
    "area": "capacitacion",
    "relevancia": "alta",
-   "coincide_en": "detalle"
+   "coincide_en": "detalle",
+   "resultado": {
+    "ofertas": 3,
+    "oferta_minima": 1190000.0,
+    "ganador": {
+     "nombre": "AEREO SPA",
+     "monto": 1190000.0,
+     "es_aereo": true
+    },
+    "aereo": {
+     "monto": 1190000.0,
+     "lugar": 1,
+     "gano": true
+    }
+   }
   },
   {
    "id": "CA:3885-350-COT26",
@@ -9941,14 +10101,27 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "area": "capacitacion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Requerimiento_Capacitacion_Operador_Dron_RPA.docx",
+    "Declaración postulante no afecto a inhabilidades (2) (1) (1) (1).doc"
+   ],
+   "resultado": {
+    "ofertas": 2,
+    "oferta_minima": 600000.0,
+    "ganador": {
+     "nombre": "ALTITUDSUR SPA",
+     "monto": 600000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:3567-485-COT26",
@@ -10021,14 +10194,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
    "origen": "api",
    "area": "capacitacion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Licencia de Dron.pdf"
+   ],
+   "resultado": {
+    "ofertas": 12,
+    "oferta_minima": 214200.0,
+    "ganador": {
+     "nombre": "DRON CHILE SPA",
+     "monto": 240000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "LIC:1079563-36-LP26",
@@ -10225,7 +10410,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-31T17:36:00-03:00",
    "fecha_cierre": "2026-11-03T08:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-04T08:20:00.820Z",
+   "fecha_ultimo_cambio": "2026-11-04 08:20",
    "organismo": "MINISTERIO PUBLICO",
    "unidad": "FR ARICA Y PARINACOTA",
    "region": "Región de Arica y Parinacota",
@@ -10245,14 +10430,29 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-05T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-01T04:05:10+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "area": "otros",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Declaración Jurada Simple Obligatoria a Presentar por Proveedores.docx",
+    "Poder Simple para Abono en Cuenta Bancaria, Persona Natural.docx",
+    "Poder Simple para Abono en Cuenta Bancaria, Persona Jurídica.docx",
+    "Solicitud de Compra , 696027-90-COT26.docx"
+   ],
+   "resultado": {
+    "ofertas": 11,
+    "oferta_minima": 450000.0,
+    "ganador": {
+     "nombre": "DRON CHILE SPA",
+     "monto": 450000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:685-15-COT26",
@@ -10263,7 +10463,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-30T08:13:00-03:00",
    "fecha_cierre": "2026-11-03T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03T12:10:01.080Z",
+   "fecha_ultimo_cambio": "2026-11-03 12:10",
    "organismo": "SEREMI Bienes Nacionales Región Metropolitana",
    "unidad": "SEREMI Metropolitana",
    "region": "Región Metropolitana de Santiago",
@@ -10283,13 +10483,16 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Características Tablet Drone.docx"
+   ]
   },
   {
    "id": "CA:5297-35-COT26",
@@ -10300,7 +10503,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-02T09:14:00-03:00",
    "fecha_cierre": "2026-11-04T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T10:10:02.150Z",
+   "fecha_ultimo_cambio": "2026-11-06 10:10",
    "organismo": "PREDIOS FISCALES IIa. ZONA NAVAL",
    "unidad": "PREDIOS FISCALES IIa. ZONA NAVAL",
    "region": "Región del Biobío ",
@@ -10315,20 +10518,40 @@
     "Capacitación a empleados — SERVICIO POR CAPACITACIÓN PROFESIONAL PARA 10 PERSONAS OPERADORES (RPAS) MODALIDAD DIURNA Y NOCTURNA. CON EL OBJETO DE DESARROLLAR LAS COMPETENCIAS NECESARIAS EN LO QUE RESPECTA A LA PLANIFICACIÓN, OPERACIÓN Y SUPERVISIÓN DE SISTEMAS DE AERONAVES PILOTADAS A DISTANCIA, SEGURIDAD OPERACIONAL Y LA APLICACIÓN DE LA NORMATIVA  AERONÁUTICA CHILENA, DE ACUERDO A TODO LO SOLICITADO EN ANEXO ADJUNTO, TRATAMIENTO TRIBUTARIO FACTURA EXENTA DE IVA."
    ],
    "terminos": [
+    "Dron",
     "RPA / RPAS",
-    "Aeronave no tripulada"
+    "Aeronave no tripulada",
+    "Credencial / piloto"
    ],
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "ANEXO -A- INFORME TÉCNICO PARA CAPACITACIÓN DE OPERADOR DE DRONE-.docx",
+    "TÉRMINOS DE REFERENCIA 5297-35-COT26--.pdf"
+   ],
+   "resultado": {
+    "ofertas": 4,
+    "oferta_minima": 1990000.0,
+    "ganador": {
+     "nombre": "AEREO SPA",
+     "monto": 1990000.0,
+     "es_aereo": true
+    },
+    "aereo": {
+     "monto": 1990000.0,
+     "lugar": 1,
+     "gano": true
+    }
+   }
   },
   {
    "id": "LIC:4631-24-LP26",
@@ -10378,7 +10601,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-02T17:22:00-03:00",
    "fecha_cierre": "2026-11-04T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T10:50:00.473Z",
+   "fecha_ultimo_cambio": "2026-11-06 10:50",
    "organismo": "SERVICIO AGRICOLA Y GANADERO",
    "unidad": "SAG - Libertador Bernardo O'higgins",
    "region": "Región del Libertador General Bernardo O´Higgins",
@@ -10401,14 +10624,31 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "01_Anexo_1_Solicitud_cotizacion-vf.docx"
+   ],
+   "resultado": {
+    "ofertas": 3,
+    "oferta_minima": 654000.0,
+    "ganador": {
+     "nombre": "DRON CHILE SPA",
+     "monto": 654000.0,
+     "es_aereo": false
+    },
+    "aereo": {
+     "monto": 660000.0,
+     "lugar": 2,
+     "gano": false
+    }
+   }
   },
   {
    "id": "CA:4650-43-COT26",
@@ -10419,7 +10659,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-29T12:17:00-03:00",
    "fecha_cierre": "2026-11-05T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T10:10:02.150Z",
+   "fecha_ultimo_cambio": "2026-11-06 10:10",
    "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
    "unidad": "CONSEJO DE MONUMENTOS NACIONALES",
    "region": "Región Metropolitana de Santiago",
@@ -10435,19 +10675,36 @@
    ],
    "terminos": [
     "Dron",
+    "RPA / RPAS",
     "Marcas (DJI, Autel…)"
    ],
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-30T03:05:10+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "area": "otros",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "9.multas-sanciones-procedimientos.pdf",
+    "Certificado RPAS 3193.pdf",
+    "Compra ágil - Caracteristicas Técnicas -Seguro Drone2026.pdf",
+    "ANEXO Nº 1 y 2_seguros.doc",
+    "Certificado RPAS 3137.pdf"
+   ],
+   "resultado": {
+    "ofertas": 3,
+    "oferta_minima": 620000.0,
+    "ganador": {
+     "nombre": "BIDASSOA CONSULTORES LIMITADA",
+     "monto": 798830.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:4507-10-COT26",
@@ -10479,13 +10736,17 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "ANEXO DE POSTULACIÓN  DRON (2).docx",
+    "Especificaciones técnicas  Dron BMS.docx"
+   ]
   },
   {
    "id": "CA:5586-3002-COT26",
@@ -10518,14 +10779,26 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "5130.docx"
+   ],
+   "resultado": {
+    "ofertas": 7,
+    "oferta_minima": 517638.0,
+    "ganador": {
+     "nombre": "ALCÁNTARA HG SPA",
+     "monto": 585645.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:4190-261-COT26",
@@ -10557,14 +10830,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "area": "otros",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "EEPP_Seguro Dron Secplan_001009.pdf"
+   ],
+   "resultado": {
+    "ofertas": 2,
+    "oferta_minima": 309995.0,
+    "ganador": {
+     "nombre": "DRON CHILE SPA",
+     "monto": 750000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "LIC:3553-38-LE26",
@@ -10647,7 +10932,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-04T10:48:00-03:00",
    "fecha_cierre": "2026-11-05T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T21:00:00.977Z",
+   "fecha_ultimo_cambio": "2026-11-06 21:00",
    "organismo": "CORPORACION DE DESARROLLO TERRITORIAL Y TURISMO DE LA REGION METROPOLITANA",
    "unidad": "CORPORACION DE DESARROLLO TERRITORIAL Y TURISMO DE LA REGION METROPOLI",
    "region": "Región Metropolitana de Santiago",
@@ -10668,14 +10953,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
-   "coincide_en": "detalle"
+   "coincide_en": "detalle",
+   "adjuntos": [
+    "TDR AG 1422039-312-COT26.pdf"
+   ],
+   "resultado": {
+    "ofertas": 9,
+    "oferta_minima": 809200.0,
+    "ganador": {
+     "nombre": "NOTHING MATTERS SPA",
+     "monto": 1200000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "LIC:4192-68-LE26",
@@ -10720,7 +11017,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-04T13:53:00-03:00",
    "fecha_cierre": "2026-11-05T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-05T16:50:00.770Z",
+   "fecha_ultimo_cambio": "2026-11-05 16:50",
    "organismo": "CORPORACION DE LA CULTURA Y LAS ARTES DE LA ILUSTRE MUNICIPALIDAD DE R",
    "unidad": "Administración y Finanzas",
    "region": "Región del Libertador General Bernardo O´Higgins",
@@ -10741,14 +11038,26 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "area": "servicios",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Sol cot, SDC N° 194 PYP CDP.pdf"
+   ],
+   "resultado": {
+    "ofertas": 2,
+    "oferta_minima": 700000.0,
+    "ganador": {
+     "nombre": "RG DRONE SPA",
+     "monto": 714000.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:5485-922-COT26",
@@ -10780,14 +11089,17 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-05T18:39:13+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "CARACTERISTICAS DRON Y CÁMARA.pdf"
+   ]
   },
   {
    "id": "CA:2422-713-COT26",
@@ -10819,14 +11131,27 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "origen": "api",
    "area": "gestion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "SOLICITUD 946147.pdf",
+    "ANEXO ECONOMICO.xlsx"
+   ],
+   "resultado": {
+    "ofertas": 1,
+    "oferta_minima": 968531.0,
+    "ganador": {
+     "nombre": "GEOCOM S A",
+     "monto": 968531.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "LIC:3960-76-L126",
@@ -10928,14 +11253,27 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "EETT__CA_Dron_Mais (1) (1).pdf",
+    "ANEXO IDENTIFICACION - OFERTA ECONOMICA....docx"
+   ],
+   "resultado": {
+    "ofertas": 1,
+    "oferta_minima": 293800.0,
+    "ganador": {
+     "nombre": "INGENIERÍA Y SERVICIOS BFK LIMITADA",
+     "monto": 293800.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:2585-1517-COT26",
@@ -10946,7 +11284,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-05T09:39:00-03:00",
    "fecha_cierre": "2026-11-06T09:45:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T09:50:00.280Z",
+   "fecha_ultimo_cambio": "2026-11-06 09:50",
    "organismo": "I MUNICIPALIDAD DE ARICA",
    "unidad": "FINANZAS IMA",
    "region": "Región de Arica y Parinacota",
@@ -10968,13 +11306,16 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "area": "otros",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "ESPECIFICACIONES TECNICAS.pdf"
+   ]
   },
   {
    "id": "CA:3885-363-COT26",
@@ -10985,7 +11326,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-02T12:53:00-03:00",
    "fecha_cierre": "2026-11-06T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T10:00:01.060Z",
+   "fecha_ultimo_cambio": "2026-11-06 10:00",
    "organismo": "I MUNICIPALIDAD DE PICA",
    "unidad": "Municipalidad de Pica",
    "region": "Región de Tarapacá  ",
@@ -11007,14 +11348,21 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-06T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "area": "otros",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "2834_261102124345_001.pdf"
+   ],
+   "resultado": {
+    "ofertas": 1,
+    "oferta_minima": 9.877
+   }
   },
   {
    "id": "CA:3658-552-COT26",
@@ -11045,13 +11393,16 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-12T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "area": "capacitacion",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Propuesta_Bases_Capacitacion_Dron_Revisada.docx"
+   ]
   },
   {
    "id": "CA:5642-53-COT26",
@@ -12074,8 +12425,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "adjuntos": [
     "DRON DJI MINI 4K FLY MORE COMBO QUE SE INCORPÓREN TRES BATERIAS.docx"
@@ -12109,7 +12460,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "descripcion": "Adquisición de Kit receptor GNSS RTK rover y Curso de operación de drones y apoyo a credencial para un funcionario del Departamento Técnico de Construcciones y Urbanización, mantención y seguro para los equipos RPAS del SERVIU de la Región de O’Higgins\n\nDe acuerdo a lo solicitado en cotización 642-40-COT26 adjunta",
    "direccion_entrega": "Brasil N° 912",
@@ -12117,7 +12468,7 @@
    "adjuntos": [
     "642-40-COT26.pdf"
    ],
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -12197,8 +12548,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
@@ -12235,8 +12586,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
@@ -12271,7 +12622,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "descripcion": "Contratación de curso de capacitación para operadores de drones y habilitación de vuelo nocturno según especificaciones técnicas adjuntas en documentos anexos.",
@@ -12283,7 +12634,7 @@
     "ANEXO 1 Declaración  Jurada de Proveedores .pdf",
     "Anexo B-2.pdf"
    ],
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -12315,8 +12666,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "adjuntos": [
     "APLICATIVO COMPRA AGIL.pdf",
@@ -12351,7 +12702,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-12T23:38:28+00:00",
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "descripcion": "PROYECTO SEGURIDAD EN RED-COMUNIDAD PROTEGIDA",
@@ -12360,10 +12711,51 @@
    "adjuntos": [
     "REGISTRO NACIONAL DE RPA.pdf"
    ],
-   "detalle_actualizado": "2026-11-12T23:38:28+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:1195-569-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1195-569-COT26",
+   "nombre": "CONTRATACIÓN DE SERVICIOS DE ASESORÍA AUDIOVISUAL PARA EL EVENTO DEPORTIVO “LOS 4 LAGOS MTB RACE”",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-10T18:08:00-03:00",
+   "fecha_cierre": "2026-11-12T21:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-12 21:05",
+   "organismo": "I MUNICIPALIDAD DE COYHAIQUE",
+   "unidad": "Ilustre Municipalidad de Coyhaique",
+   "region": "Región Aysén del General Carlos Ibáñez del Campo",
+   "monto": 1200000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1195-569-COT26",
+   "descripcion": "Se requiere contratar servicio de asesoría audiovisual para la cobertura integral del evento deportivo Los 4 Lagos MTB Race, a realizarse los días 21 y 22 de noviembre de 2026 en Lago Pollux, Coyhaique. El servicio contempla registro fotográfico y audiovisual, grabación aérea con drone, video de seguridad, reel promocional, cobertura de ambas jornadas, edición y postproducción, entrega de fotografías editadas, reels para redes sociales, video resumen oficial y material digital organizado",
+   "direccion_entrega": "magallanes 283",
+   "plazo_entrega_dias": 1,
+   "adjuntos": [
+    "BASES TÉCNICAS CONTRATACIÓN DE SERVICIOS DE ASESORÍA AUDIOVISUAL .docx",
+    "BASES TÉCNICAS CONTRATACIÓN DE SERVICIOS DE ASESORÍA AUDIOVISUAL .pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-13T00:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T00:05:11+00:00",
+   "primera_deteccion": "2026-11-12T23:38:28+00:00",
+   "area": "servicios",
+   "relevancia": "baja",
+   "coincide_en": "mencion",
+   "cambio_estado": "2026-11-13T00:05:11+00:00"
   }
  ]
 }
