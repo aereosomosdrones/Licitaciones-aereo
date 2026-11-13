@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-13T17:05:12+00:00",
- "proxima_actualizacion": "2026-11-13T18:05:12+00:00",
+ "generado": "2026-11-13T18:05:11+00:00",
+ "proxima_actualizacion": "2026-11-13T19:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-13T17:05:12+00:00",
+   "ultima_ok": "2026-11-13T18:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5322,
-   "detalles_consultados": 36,
+   "revisadas": 5230,
+   "detalles_consultados": 41,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-13T17:05:12+00:00",
+   "ultima_ok": "2026-11-13T18:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 16,
-   "detalles_consultados": 23,
+   "detalles_consultados": 26,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -109,77 +109,6 @@
  ],
  "items": [
   {
-   "id": "LIC:3553-40-LE26",
-   "fuente": "licitacion",
-   "codigo": "3553-40-LE26",
-   "nombre": "Seguros de responsabilidad civil para Drones",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-13T15:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3553-40-LE26",
-   "descripcion": "Que, con el objetivo de cumplir con la normativa regulada por la Dirección General de Aeronáutica Civil D.G.A.C, que involucra el funcionamiento habitual de los equipos dron RPAS Remotely Piloted Aircraft System, es necesaria la contratación de “Seguros de responsabilidad civil para los Equipos dron RPAS Remotely Piloted Aircraft System del Ministerio de Bienes Nacionales”, por un periodo de 12 meses, a contar del 01 de enero de 2027 al 31 de diciembre de 2027.",
-   "organismo": "MINISTERIO DE BIENES NACIONALES",
-   "unidad": "MINISTERIO DE BIENES NACIONALES",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Santiago Centro",
-   "fecha_publicacion": "2026-11-02T09:56:49-03:00",
-   "fecha_adjudicacion": "2026-11-25T18:00:00-03:00",
-   "monto": 240.0,
-   "moneda": "CLF",
-   "tipo": "LE",
-   "productos": [
-    "Seguro por responsabilidad civil — Seguros de responsabilidad civil para los Equipos dron (RPAS Remotely Piloted Aircraft System) del Ministerio de Bienes Nacionales"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T13:05:12+00:00",
-   "primera_deteccion": "2026-11-02T13:05:13+00:00",
-   "area": "otros",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
-   "id": "LIC:3065-63-LE26",
-   "fuente": "licitacion",
-   "codigo": "3065-63-LE26",
-   "nombre": "SERVICIO DE INSTALACIÓN SANITARIA Y FUNDACIONES",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-13T15:01:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3065-63-LE26",
-   "descripcion": "CONTRUIR FUNDACIONES E INSTALACIÓN SANITARIA PARA HANGAR DE DRONES",
-   "organismo": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA",
-   "unidad": "COMANDANCIA AVIACION NAVAL",
-   "region": "Región de Valparaíso",
-   "comuna": "Concón",
-   "fecha_publicacion": "2026-11-03T15:16:38-03:00",
-   "fecha_adjudicacion": "2027-01-15T15:35:00-03:00",
-   "monto": 12500000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Construcción de obras civiles — SERVICIO DE INSTALACIÓN SANITARIA Y FUNDACIONES PARA HANGAR DE DRONES"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T13:05:12+00:00",
-   "primera_deteccion": "2026-11-03T19:05:25+00:00",
-   "area": "servicios",
-   "relevancia": "alta",
-   "coincide_en": "detalle"
-  },
-  {
    "id": "CA:748891-243-COT26",
    "fuente": "compra_agil",
    "codigo": "748891-243-COT26",
@@ -257,8 +186,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -332,7 +261,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "capacitacion",
@@ -373,7 +302,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
@@ -408,7 +337,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T13:05:12+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00",
    "area": "tienda",
@@ -442,7 +371,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T13:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00",
    "area": "tienda",
@@ -477,8 +406,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T11:05:25+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -521,7 +450,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T13:05:12+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
@@ -560,7 +489,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T13:05:12+00:00",
    "area": "gestion",
@@ -641,8 +570,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "Document_20261111_0001.pdf"
@@ -681,7 +610,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T13:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -717,7 +646,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T13:05:12+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -752,7 +681,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T13:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -799,8 +728,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T11:05:25+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -838,8 +767,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -873,7 +802,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T13:05:12+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -911,8 +840,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "CA_MANTENCION_DRON.pdf"
@@ -959,8 +888,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T11:05:25+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -1000,8 +929,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -1042,7 +971,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T13:05:12+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1078,8 +1007,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T11:05:25+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1111,7 +1040,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1148,7 +1077,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T15:05:15+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1183,7 +1112,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T13:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1217,7 +1146,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T12:05:14+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1253,7 +1182,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T16:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -8378,7 +8307,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-15T16:18:00-03:00",
    "fecha_cierre": "2026-10-17T16:21:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-17T16:25:00.553Z",
+   "fecha_ultimo_cambio": "2026-10-17 16:25",
    "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
    "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
    "region": "Región Metropolitana de Santiago",
@@ -8399,8 +8328,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T09:05:13+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00",
    "cambio_estado": "2026-10-17T20:05:10+00:00",
    "origen": "api",
@@ -9096,7 +9025,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-19T08:41:00-03:00",
    "fecha_cierre": "2026-10-21T08:48:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-21T08:55:00.290Z",
+   "fecha_ultimo_cambio": "2026-10-21 08:55",
    "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
    "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
    "region": "Región Metropolitana de Santiago",
@@ -9117,8 +9046,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T09:05:13+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00",
    "cambio_estado": "2026-10-21T12:05:12+00:00",
    "origen": "api",
@@ -9587,7 +9516,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-20T17:53:00-03:00",
    "fecha_cierre": "2026-10-23T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-23T10:10:02.080Z",
+   "fecha_ultimo_cambio": "2026-10-23 10:10",
    "organismo": "GOBIERNO REGIONAL DE LA ARAUCANIA",
    "unidad": "Gobierno Regional de La Araucanía",
    "region": "Región de la Araucanía ",
@@ -9608,8 +9537,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T09:05:13+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-20T21:05:10+00:00",
    "origen": "api",
    "area": "tienda",
@@ -9628,7 +9557,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-21T17:27:00-03:00",
    "fecha_cierre": "2026-10-23T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-23T10:05:01.090Z",
+   "fecha_ultimo_cambio": "2026-10-23 10:05",
    "organismo": "Servicio Local de Educación Pública Licancabur",
    "unidad": "Servicio Local de Educación Pública Licancabur",
    "region": "Región de Antofagasta ",
@@ -9654,8 +9583,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T09:05:13+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "origen": "api",
    "area": "tienda",
@@ -10383,7 +10312,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-22T11:36:00-03:00",
    "fecha_cierre": "2026-10-27T09:11:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-27T09:15:01.033Z",
+   "fecha_ultimo_cambio": "2026-10-27 09:15",
    "organismo": "I MUNICIPALIDAD DE SAN BERNARDO",
    "unidad": "OFICINA DE ADQUISICIONES",
    "region": "Región Metropolitana de Santiago",
@@ -10403,8 +10332,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T09:05:13+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
    "origen": "api",
@@ -11571,7 +11500,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-16T13:13:00-03:00",
    "fecha_cierre": "2026-11-01T14:03:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-01T14:10:00.440Z",
+   "fecha_ultimo_cambio": "2026-11-01 14:10",
    "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
    "unidad": "Dirección de Vialidad - IX Región - Dirección Regional",
    "region": "Región de la Araucanía ",
@@ -11592,8 +11521,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T09:05:13+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
@@ -12103,7 +12032,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-30T08:13:00-03:00",
    "fecha_cierre": "2026-11-03T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03T12:10:01.080Z",
+   "fecha_ultimo_cambio": "2026-11-03 12:10",
    "organismo": "SEREMI Bienes Nacionales Región Metropolitana",
    "unidad": "SEREMI Metropolitana",
    "region": "Región Metropolitana de Santiago",
@@ -12123,8 +12052,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T09:05:13+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "origen": "api",
    "area": "tienda",
@@ -12924,7 +12853,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-05T09:39:00-03:00",
    "fecha_cierre": "2026-11-06T09:45:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T09:50:00.280Z",
+   "fecha_ultimo_cambio": "2026-11-06 09:50",
    "organismo": "I MUNICIPALIDAD DE ARICA",
    "unidad": "FINANZAS IMA",
    "region": "Región de Arica y Parinacota",
@@ -12946,8 +12875,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T09:05:13+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "area": "otros",
@@ -12966,7 +12895,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-02T12:53:00-03:00",
    "fecha_cierre": "2026-11-06T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T10:00:01.060Z",
+   "fecha_ultimo_cambio": "2026-11-06 10:00",
    "organismo": "I MUNICIPALIDAD DE PICA",
    "unidad": "Municipalidad de Pica",
    "region": "Región de Tarapacá  ",
@@ -12988,8 +12917,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T09:05:13+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -14119,8 +14048,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "adjuntos": [
     "DRON DJI MINI 4K FLY MORE COMBO QUE SE INCORPÓREN TRES BATERIAS.docx"
@@ -14360,8 +14289,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "adjuntos": [
     "APLICATIVO COMPRA AGIL.pdf",
@@ -14443,7 +14372,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "servicios",
@@ -14483,8 +14412,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "basestecnicas34_001122.pdf",
@@ -14522,8 +14451,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -14565,8 +14494,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "TDR.pdf"
@@ -14651,13 +14580,84 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "baja",
    "coincide_en": "mencion",
    "cambio_estado": "2026-11-13T17:05:12+00:00"
+  },
+  {
+   "id": "LIC:3553-40-LE26",
+   "fuente": "licitacion",
+   "codigo": "3553-40-LE26",
+   "nombre": "Seguros de responsabilidad civil para Drones",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-13T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3553-40-LE26",
+   "descripcion": "Que, con el objetivo de cumplir con la normativa regulada por la Dirección General de Aeronáutica Civil D.G.A.C, que involucra el funcionamiento habitual de los equipos dron RPAS Remotely Piloted Aircraft System, es necesaria la contratación de “Seguros de responsabilidad civil para los Equipos dron RPAS Remotely Piloted Aircraft System del Ministerio de Bienes Nacionales”, por un periodo de 12 meses, a contar del 01 de enero de 2027 al 31 de diciembre de 2027.",
+   "organismo": "MINISTERIO DE BIENES NACIONALES",
+   "unidad": "MINISTERIO DE BIENES NACIONALES",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-11-02T09:56:49-03:00",
+   "fecha_adjudicacion": "2026-11-25T18:00:00-03:00",
+   "monto": 240.0,
+   "moneda": "CLF",
+   "tipo": "LE",
+   "productos": [
+    "Seguro por responsabilidad civil — Seguros de responsabilidad civil para los Equipos dron (RPAS Remotely Piloted Aircraft System) del Ministerio de Bienes Nacionales"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-13T13:05:12+00:00",
+   "primera_deteccion": "2026-11-02T13:05:13+00:00",
+   "area": "otros",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:3065-63-LE26",
+   "fuente": "licitacion",
+   "codigo": "3065-63-LE26",
+   "nombre": "SERVICIO DE INSTALACIÓN SANITARIA Y FUNDACIONES",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-13T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3065-63-LE26",
+   "descripcion": "CONTRUIR FUNDACIONES E INSTALACIÓN SANITARIA PARA HANGAR DE DRONES",
+   "organismo": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA",
+   "unidad": "COMANDANCIA AVIACION NAVAL",
+   "region": "Región de Valparaíso",
+   "comuna": "Concón",
+   "fecha_publicacion": "2026-11-03T15:16:38-03:00",
+   "fecha_adjudicacion": "2027-01-15T15:35:00-03:00",
+   "monto": 12500000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Construcción de obras civiles — SERVICIO DE INSTALACIÓN SANITARIA Y FUNDACIONES PARA HANGAR DE DRONES"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-13T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-13T13:05:12+00:00",
+   "primera_deteccion": "2026-11-03T19:05:25+00:00",
+   "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "detalle"
   }
  ]
 }
