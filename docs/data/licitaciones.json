@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-13T19:05:12+00:00",
- "proxima_actualizacion": "2026-11-13T20:05:12+00:00",
+ "generado": "2026-11-13T20:05:14+00:00",
+ "proxima_actualizacion": "2026-11-13T21:05:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-13T19:05:12+00:00",
+   "ultima_ok": "2026-11-13T20:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5220,
-   "detalles_consultados": 111,
+   "revisadas": 5256,
+   "detalles_consultados": 73,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-13T19:05:12+00:00",
+   "ultima_ok": "2026-11-13T20:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 17,
-   "detalles_consultados": 26,
+   "revisadas": 18,
+   "detalles_consultados": 18,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -77,8 +77,7 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "CA:587-236-COT26",
-  "CA:732-218-COT26"
+  "CA:1422039-333-COT26"
  ],
  "por_revisar": [
   {
@@ -203,12 +202,52 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:1422039-333-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1422039-333-COT26",
+   "nombre": "SC084 SERVICIOS AUDIOVISUALES THE 50 BEST VINEYARDS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-13T16:38:00-03:00",
+   "fecha_cierre": "2026-11-14T16:45:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-13 16:40",
+   "organismo": "CORPORACION DE DESARROLLO TERRITORIAL Y TURISMO DE LA REGION METROPOLITANA",
+   "unidad": "CORPORACION DE DESARROLLO TERRITORIAL Y TURISMO DE LA REGION METROPOLI",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 2500000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1422039-333-COT26",
+   "descripcion": "La Corporación de Desarrollo Territorial y Turismo de la Región Metropolitana realiza compra ágil para contratar el servicio de registro fotográfico y audiovisual de las actividades de The 50 Best Vineyards, que se realizarán los días 16, 17 y 18 de noviembre de 2026 en las comunas de Vitacura, Santiago y Pirque. El servicio incluye tomas aéreas con dron, edición, musicalización y entrega de material. Se invita a los proveedores interesados a revisar los términos de referencia adjuntos.",
+   "direccion_entrega": "Bandera 84, piso 8, Santiago. El material se entrega en formato digital.",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Producción de vídeo — Servicio audiovisual (fotografía y video) para The 50 Best Vineyards: Welcome Dinner 16-11 PM (Vitacura), 50 Best Talks 17-11 AM (Santiago) y Ceremonia de premiación 18-11 PM (Pirque). Incluye mínimo 400 fotografías editadas, tomas aéreas con dron conforme a normativa DGAC, 1 video resumen de 120 s (16:9) y 1 reel de 45 s (9:16), musicalización libre de derechos y entrega del material bruto y editado. Entrega final hasta 48 h después del último hito. Detalle en TDR adjunto."
+   ],
+   "adjuntos": [
+    "TDR 1422039-333-COT26.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
+   "primera_deteccion": "2026-11-13T20:05:14+00:00",
+   "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "detalle"
   },
   {
    "id": "CA:377-399-COT26",
@@ -278,7 +317,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "capacitacion",
@@ -319,7 +358,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
@@ -354,7 +393,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00",
    "area": "tienda",
@@ -388,7 +427,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00",
    "area": "tienda",
@@ -423,7 +462,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
@@ -462,8 +501,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "basestecnicas34_001122.pdf",
@@ -511,7 +550,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
@@ -550,7 +589,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T13:05:12+00:00",
    "area": "gestion",
@@ -634,8 +673,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -673,8 +712,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "Document_20261111_0001.pdf"
@@ -713,7 +752,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -749,7 +788,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -784,7 +823,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -831,7 +870,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -870,8 +909,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -905,7 +944,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -943,8 +982,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "CA_MANTENCION_DRON.pdf"
@@ -987,8 +1026,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -1032,7 +1071,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -1073,8 +1112,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -1115,7 +1154,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1151,7 +1190,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T18:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1184,8 +1223,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -1221,7 +1260,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T15:05:15+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1256,7 +1295,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1290,7 +1329,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1326,7 +1365,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T16:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -14193,8 +14232,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "adjuntos": [
     "DRON DJI MINI 4K FLY MORE COMBO QUE SE INCORPÓREN TRES BATERIAS.docx"
@@ -14517,7 +14556,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "servicios",
@@ -14552,8 +14591,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -14595,8 +14634,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "TDR.pdf"
@@ -14681,8 +14720,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T19:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T19:05:12+00:00",
+   "ultima_actualizacion": "2026-11-13T20:05:14+00:00",
+   "detalle_actualizado": "2026-11-13T20:05:14+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "baja",
