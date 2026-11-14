@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-14T09:05:11+00:00",
- "proxima_actualizacion": "2026-11-14T10:05:11+00:00",
+ "generado": "2026-11-14T10:04:26+00:00",
+ "proxima_actualizacion": "2026-11-14T11:04:26+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-14T09:05:11+00:00",
+   "ultima_ok": "2026-11-14T10:04:26+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 5266,
-   "detalles_consultados": 32,
+   "detalles_consultados": 0,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-14T09:05:11+00:00",
+   "ultima_ok": "2026-11-14T10:04:26+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 16,
-   "detalles_consultados": 17,
+   "detalles_consultados": 13,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -123,50 +123,6 @@
  ],
  "items": [
   {
-   "id": "CA:748891-243-COT26",
-   "fuente": "compra_agil",
-   "codigo": "748891-243-COT26",
-   "nombre": "ADQUISICIÓN DE SERVICIO DE DRON PARA OBTENER INFORMACIÓN PARA META PACCC",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-03T13:35:00-03:00",
-   "fecha_cierre": "2026-11-14T06:13:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-12 10:50",
-   "organismo": "I MUNICIPALIDAD DE CONCEPCION",
-   "unidad": "DIRECCION MEDIO AMBIENTE",
-   "region": "Región del Biobío ",
-   "monto": 1600000.0,
-   "moneda": "CLP",
-   "ofertas": 3,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=748891-243-COT26",
-   "descripcion": "El servicio tiene por objeto generar, mediante levantamiento fotogramétrico con dron",
-   "direccion_entrega": "EJERCITO 1020 2DO PISO",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Servicios de investigación o medición — DETALLES TECNICOS Y ESPECIFICACIONES EN ARCHIVO ADJUNTO"
-   ],
-   "terminos": [
-    "Dron",
-    "Fotogrametría / ortomosaico"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
-   "primera_deteccion": "2026-11-04T05:05:12+00:00",
-   "origen": "api",
-   "cambio_estado": "2026-11-12T15:05:12+00:00",
-   "area": "servicios",
-   "relevancia": "alta",
-   "coincide_en": "titulo",
-   "adjuntos": [
-    "Requerimientos del servicio de Dron (1).pdf",
-    "Compra ágil.pdf"
-   ]
-  },
-  {
    "id": "CA:2755-386-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -200,8 +156,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -240,8 +196,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-13T20:05:14+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -353,7 +309,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "capacitacion",
@@ -394,7 +350,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
@@ -429,7 +385,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00",
    "area": "tienda",
@@ -463,7 +419,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00",
    "area": "tienda",
@@ -498,7 +454,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T06:05:22+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
@@ -537,8 +493,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "basestecnicas34_001122.pdf",
@@ -586,7 +542,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
@@ -625,7 +581,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T13:05:12+00:00",
    "area": "gestion",
@@ -709,8 +665,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -748,8 +704,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "Document_20261111_0001.pdf"
@@ -788,7 +744,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -824,7 +780,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -859,7 +815,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -906,7 +862,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T06:05:22+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -945,8 +901,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -980,7 +936,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -1018,8 +974,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "CA_MANTENCION_DRON.pdf"
@@ -1062,8 +1018,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -1107,7 +1063,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T06:05:22+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -1148,8 +1104,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -1190,7 +1146,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1226,7 +1182,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T06:05:22+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1259,7 +1215,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1296,7 +1252,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T04:05:11+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1331,7 +1287,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1365,7 +1321,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T09:05:11+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1401,7 +1357,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
    "detalle_actualizado": "2026-11-14T05:05:17+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -14283,8 +14239,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "adjuntos": [
     "DRON DJI MINI 4K FLY MORE COMBO QUE SE INCORPÓREN TRES BATERIAS.docx"
@@ -14656,8 +14612,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "TDR.pdf"
@@ -14742,8 +14698,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -14820,6 +14776,59 @@
    "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "detalle"
+  },
+  {
+   "id": "CA:748891-243-COT26",
+   "fuente": "compra_agil",
+   "codigo": "748891-243-COT26",
+   "nombre": "ADQUISICIÓN DE SERVICIO DE DRON PARA OBTENER INFORMACIÓN PARA META PACCC",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-03T13:35:00-03:00",
+   "fecha_cierre": "2026-11-14T06:13:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-14 06:15",
+   "organismo": "I MUNICIPALIDAD DE CONCEPCION",
+   "unidad": "DIRECCION MEDIO AMBIENTE",
+   "region": "Región del Biobío ",
+   "monto": 1600000.0,
+   "moneda": "CLP",
+   "ofertas": 5,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=748891-243-COT26",
+   "descripcion": "El servicio tiene por objeto generar, mediante levantamiento fotogramétrico con dron",
+   "direccion_entrega": "EJERCITO 1020 2DO PISO",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Servicios de investigación o medición — DETALLES TECNICOS Y ESPECIFICACIONES EN ARCHIVO ADJUNTO"
+   ],
+   "terminos": [
+    "Dron",
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
+   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
+   "primera_deteccion": "2026-11-04T05:05:12+00:00",
+   "origen": "api",
+   "cambio_estado": "2026-11-14T10:04:26+00:00",
+   "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "Requerimientos del servicio de Dron (1).pdf",
+    "Compra ágil.pdf"
+   ],
+   "resultado": {
+    "ofertas": 2,
+    "oferta_minima": 1390000.0,
+    "aereo": {
+     "monto": 1390000.0,
+     "lugar": 1,
+     "gano": false
+    }
+   }
   }
  ]
 }
