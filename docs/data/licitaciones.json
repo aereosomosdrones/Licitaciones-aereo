@@ -1,29 +1,29 @@
 {
- "generado": "2026-11-14T15:05:11+00:00",
- "proxima_actualizacion": "2026-11-14T16:05:11+00:00",
+ "generado": "2026-11-14T16:05:10+00:00",
+ "proxima_actualizacion": "2026-11-14T17:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-14T15:05:11+00:00",
+   "ultima_ok": "2026-11-14T16:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5270,
-   "detalles_consultados": 33,
+   "revisadas": 5272,
+   "detalles_consultados": 2,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-14T15:05:11+00:00",
+   "ultima_ok": "2026-11-14T16:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 15,
-   "detalles_consultados": 14,
+   "revisadas": 179,
+   "detalles_consultados": 100,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
-   "modo": "recientes"
+   "modo": "completo"
   }
  },
  "terminos": [
@@ -156,8 +156,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -196,8 +196,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-13T20:05:14+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -230,8 +230,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T01:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -266,7 +266,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T16:05:12+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "descripcion": "USO: SECPLAC",
    "direccion_entrega": "AV PEÑALANCA 250",
@@ -309,7 +309,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "capacitacion",
@@ -350,7 +350,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
@@ -385,7 +385,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00",
    "area": "tienda",
@@ -419,7 +419,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00",
    "area": "tienda",
@@ -454,7 +454,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T13:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
@@ -493,8 +493,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "basestecnicas34_001122.pdf",
@@ -542,7 +542,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
@@ -581,7 +581,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T13:05:12+00:00",
    "area": "gestion",
@@ -665,8 +665,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -704,8 +704,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "Document_20261111_0001.pdf"
@@ -744,7 +744,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -780,7 +780,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -815,7 +815,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -862,7 +862,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T13:05:10+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -901,8 +901,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -936,7 +936,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -974,8 +974,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "CA_MANTENCION_DRON.pdf"
@@ -1018,8 +1018,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -1063,7 +1063,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T13:05:10+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -1104,8 +1104,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -1146,7 +1146,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1182,7 +1182,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T13:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1215,7 +1215,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1252,7 +1252,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T11:05:13+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1287,7 +1287,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1321,7 +1321,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T15:05:11+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1357,7 +1357,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-14T12:05:11+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -5623,7 +5623,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se requiere la adquisición de 1 Dron Profesional compacto con control con pantalla integrada y kit de vuelo (3 baterías, centro de carga, bolso), similar o equivalente a DJI Mini 5 Pro Fly More Combo, para trabajo de campo. Monto máximo para la compra: $1.500.000 IVA incluido. Se debe revisar el documento adjunto para más especificaciones técnicas solicitadas.",
    "direccion_entrega": "Pedro Aguirre Cerda 1947",
@@ -5631,7 +5631,7 @@
    "productos": [
     "Registradores visuales digitales — Dron profesional compacto para trabajo de campo. Incluye control con pantalla integrada y kit de accesorios: 3 baterías de vuelo, centro de carga, cargador, hélices de repuesto y bolso de transporte. Sensor CMOS de 1\", autonomía mín. 35 min, detección omnidireccional y retorno inteligente"
    ],
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
@@ -5836,7 +5836,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00",
    "descripcion": "Se solicita Capacitación en el uso de Drone, se adjuntan términos de referencia, revisar obligatoriamente.",
@@ -5900,8 +5900,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-08T16:05:15+00:00",
    "origen": "api",
@@ -5945,7 +5945,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Se solicita la adquisición de un dron con capacitación y mantenimiento incluido según especificaciones del anexo adjunto, cotización debe incluir despacho a Caupolican 410, Los Ángeles. ANEXO DEBE SER COMPLETADO, FIRMADO Y SUBIDO A PLATAFORMA, DE LO CONTRARIO OFERTA SERÁ DECLARADA INADMISIBLE.",
    "direccion_entrega": "CAUPOLICAN 410",
@@ -5954,7 +5954,7 @@
     "Cámaras aéreas — DRON SIMILAR A DJI MAVIC 4 PRO FLY MORE COMBO\nCámara principal: Hasselblad de 100 MP con sensor 4/3 CMOS. Doble tele cámara: sensores grandes CMOS de 1/ 1.3” y 1/ 1.5” \nCalidad de video: HDR en 6k a 60 fps y cámara lenta en 4K a 120 fps. \nGimbal: Infinity Gimbal con rotación completa 360. Seguridad: Detección de obstáculos omnidireccional avanzada, incluso en escenas nocturnas de baja iluminación (0.1 lux) Transmisión: Sistema O4+ de largo alcance. Peso y dimensiones: Aprox. 1063 g. Plegado ",
     "Formación, capacitación y entrenamiento de personal — Capacitación de uso de equipo a personal de la UPF (online o presencial, de ser presencial considerar ubicación más cercana a Caupolicán 410, Los Ángeles.) "
    ],
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "cambio_estado": "2026-10-05T20:10:04+00:00",
    "origen": "api",
    "area": "tienda",
@@ -6044,7 +6044,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "Para el uso de drones del Servicio cada equipo requiere de un espacio delimitado que permita tanto un despliegue como un aterrizaje de forma segura tanto para el equipo como para terceros.",
    "direccion_entrega": "Alameda 887, piso 7",
@@ -6122,7 +6122,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "COMPRA DE BATERIA PARA DRON DE OFICINA DIRECCION DE OBRAS MUNICIPAL",
    "direccion_entrega": "CALLE LINARES S/N, BODEGA MUNICIPAL",
@@ -6131,7 +6131,7 @@
     "Baterías recargables — Bateria inteligente de vuelo para Dron DJI Mavic 3, según esepcificaciones y caracteristicas técnicas adjuntas solicidas",
     "Cargadores de baterías — Hub de carga para Dron DJI Mavic 3, según esepcificaciones y caracteristicas técnicas adjuntas solicidas"
    ],
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "cambio_estado": "2026-10-06T13:05:13+00:00",
    "origen": "api",
    "area": "tienda",
@@ -6174,7 +6174,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-08T13:05:50+00:00",
    "descripcion": "U de La Serena, necesita el siguiente producto: Dron, sensor principal de 1\" CMOS 50MP, Cámaras dual, video máximo 4K 120 fps, color profesional 10-bit D-long M, con buen rendimiento nocturno, tiempo de vuelo 45 minutos, alta resistencia al viento, peso 800 grs aprox, control remoto, 3 baterías de vuelo, con centro de recarga para baterías,\n3 hélices de repuesto, juego de filtros ND, bolsa bandolera, cable PD tipo C a tipo C, protector del estabilizador. SC 51258.",
@@ -6183,7 +6183,7 @@
    "productos": [
     "Aviones objetivo o de reconocimiento — U de La Serena, necesita el siguiente producto: Dron, sensor principal de 1\" CMOS 50MP, Cámaras dual, video máximo 4K 120 fps, color profesional 10-bit D-long M, con buen rendimiento nocturno, tiempo de vuelo 45 minutos, alta resistencia al viento, peso 800 grs aprox, control remoto, 3 baterías de vuelo, con centro de recarga para baterías,\n3 hélices de repuesto, juego de filtros ND, bolsa bandolera, cable PD tipo C a tipo C, protector del estabilizador. "
    ],
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "origen": "api",
    "area": "tienda",
    "relevancia": "alta",
@@ -6305,7 +6305,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T02:05:11+00:00",
    "primera_deteccion": "2026-10-05T18:56:09+00:00",
    "cambio_estado": "2026-10-07T14:05:15+00:00",
@@ -6355,7 +6355,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "CONTRATACIÓN PÓLIZA SEGURO DRONE PARA EL TERCER TRIBUNAL AMBIENTAL: se adjunta archivo con el servicio solicitado.",
    "direccion_entrega": "GENERAL LAGOS 837 VALDIVIA",
@@ -6411,7 +6411,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T02:05:11+00:00",
    "primera_deteccion": "2026-10-06T17:05:11+00:00",
    "cambio_estado": "2026-10-07T21:05:10+00:00",
@@ -6530,7 +6530,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "EL PROVEEDOR AL ACEPTAR LA ORDEN DE COMPRA, ACEPTA TODO LO ESTIPULADO EN ANEXO DE COMPRA ÁGIL (revisar en sección adjuntos) ADQUISICIÓN SERÁ PAGADA CON RECURSOS LEY N° 21.796, LEY DE PRESUPUESTOS DEL AÑO 2026, IVA INCLUIDO. EL PAGO SE EFECTUARÁ MEDIANTE TRANSFERENCIA, EL PROVEEDOR DEBE INDICAR CTA. CTE Y BANCO. COPIA DE FACTURA ELECTRÓNICA DEBE SER REMITIDA AL CORREO: deptoab@dgtm.cl",
    "direccion_entrega": "ERRAZURIZ 537 VALPARAISO",
@@ -6538,7 +6538,7 @@
    "productos": [
     "Capacitación a empleados — CURSO DE OPEERADOR DE DRON, SEGUN BASES TECNICAS ADJUNTAS."
    ],
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "cambio_estado": "2026-10-20T20:05:09+00:00",
    "origen": "api",
    "area": "capacitacion",
@@ -6588,7 +6588,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-15T13:05:11+00:00",
    "descripcion": "La Dirección de Obras Municipales, solicita la adquisición de un Drone DJI Mini 5 Pro Fly More Combo Plus (DJI RC2) para dicho departamento y potenciar sus actividades domo DOM.",
@@ -6700,8 +6700,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-10-09T16:05:01+00:00",
    "origen": "api",
@@ -6745,7 +6745,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS Y ADJUNTAR COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA, CON CONTACTO TELEFÓNICO. LOS PRODUCTOS DEBERÁN SER NUEVOS Y CUMPLIR LAS ESPECIFICACIONES TÉCNICAS. LAS MARCAS SON REFERENCIALES, ACEPTÁNDOSE EQUIVALENTES. EL ADJUDICADO ASUMIRÁ LOS COSTOS DE ADQUISICIÓN, TRANSPORTE, FLETE Y ENTREGA EN LA DIRECCIÓN INDICADA.",
    "direccion_entrega": "JUAN SALLATO 2701, BARRIO INDUSTRIAL, HUEQUEN, ANGOL",
@@ -6801,8 +6801,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00",
    "origen": "api",
@@ -6852,7 +6852,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-10-08T20:05:14+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
@@ -6891,8 +6891,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T20:10:04+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "origen": "api",
@@ -6938,8 +6938,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-06T15:00:37+00:00",
    "cambio_estado": "2026-10-14T19:05:10+00:00",
    "origen": "api",
@@ -7120,7 +7120,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T02:05:11+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00",
@@ -7165,7 +7165,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-08T21:05:10+00:00",
    "descripcion": "SERVICIO DE CAPACITACIÓN OPERACIÓN DE DRONES DE ACUERDO A ESPECIFICACIONES TÉCNICAS ADJUNTAS. LA OFERTA QUE NO CUMPLA CON LAS ESPECIFICACIONES TÉCNICAS, NO PRESENTE COTIZACIÓN, NO PRESENTE EL ANEXO N°1 Y EXCEDA EL PRESUPUESTO SE DECLARA INADMISIBLE.",
    "direccion_entrega": "CAMINO SAN AGUSTIN KM 4",
@@ -7229,7 +7229,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T02:05:11+00:00",
    "primera_deteccion": "2026-10-09T15:05:12+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00",
@@ -7280,8 +7280,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-09T13:05:14+00:00",
    "cambio_estado": "2026-10-13T21:05:12+00:00",
    "origen": "api",
@@ -7454,8 +7454,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-08T19:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
    "origen": "api",
@@ -7498,7 +7498,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-13T22:05:13+00:00",
    "descripcion": "Se solicita la adquisición 6 LANDING PAD (Plataforma de Aterrizaje para Drones), según especificaciones. \nLANDING PAD 75 CM para uso de Drones",
    "direccion_entrega": "Avenida Libertador General Bernardo O´higgins N° 720, 4° piso. Santiago Centro",
@@ -7554,7 +7554,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T02:05:11+00:00",
    "primera_deteccion": "2026-10-14T23:05:10+00:00",
    "cambio_estado": "2026-10-15T23:05:11+00:00",
@@ -7639,7 +7639,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T02:05:11+00:00",
    "primera_deteccion": "2026-10-14T23:05:10+00:00",
    "cambio_estado": "2026-10-16T23:05:11+00:00",
@@ -7690,7 +7690,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T02:05:11+00:00",
    "primera_deteccion": "2026-10-18T00:05:10+00:00",
    "origen": "api",
@@ -7776,8 +7776,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-09T16:05:01+00:00",
    "cambio_estado": "2026-11-14T08:05:10+00:00",
    "origen": "api",
@@ -7818,8 +7818,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-13T14:05:12+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00",
    "origen": "api",
@@ -7868,8 +7868,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-20T13:05:12+00:00",
    "origen": "api",
@@ -7970,8 +7970,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-09T20:05:10+00:00",
    "cambio_estado": "2026-10-16T16:05:12+00:00",
    "origen": "api",
@@ -8021,7 +8021,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-10-15T17:05:13+00:00",
    "primera_deteccion": "2026-10-07T14:05:15+00:00",
    "cambio_estado": "2026-10-19T16:05:10+00:00",
@@ -8222,8 +8222,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-07T20:32:51+00:00",
    "cambio_estado": "2026-10-19T17:05:15+00:00",
    "origen": "api",
@@ -8273,8 +8273,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-14T22:05:10+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00",
    "origen": "api",
@@ -8323,8 +8323,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-10-15T19:01:36+00:00",
    "origen": "api",
@@ -8364,7 +8364,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T02:05:11+00:00",
    "primera_deteccion": "2026-10-15T23:05:11+00:00",
    "cambio_estado": "2026-10-21T13:40:52+00:00",
@@ -8414,8 +8414,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-15T21:05:15+00:00",
    "cambio_estado": "2026-10-19T12:54:17+00:00",
    "origen": "api",
@@ -8465,7 +8465,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-10-13T18:05:11+00:00",
    "primera_deteccion": "2026-10-09T17:05:11+00:00",
    "cambio_estado": "2026-10-13T18:05:11+00:00",
@@ -8504,8 +8504,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00",
    "cambio_estado": "2026-10-17T20:05:10+00:00",
    "origen": "api",
@@ -8545,7 +8545,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-16T22:05:13+00:00",
    "cambio_estado": "2026-10-20T12:05:11+00:00",
@@ -8596,8 +8596,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-16T15:05:15+00:00",
    "cambio_estado": "2026-10-19T21:05:11+00:00",
    "origen": "api",
@@ -8637,8 +8637,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00",
    "cambio_estado": "2026-10-19T12:05:13+00:00",
    "origen": "api",
@@ -8680,8 +8680,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-15T22:05:11+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00",
    "origen": "api",
@@ -8730,7 +8730,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-16T23:05:11+00:00",
    "cambio_estado": "2026-10-20T00:05:10+00:00",
@@ -8855,7 +8855,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-15T23:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -9070,8 +9070,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-19T21:05:11+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00",
    "origen": "api",
@@ -9121,8 +9121,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-14T13:05:10+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -9176,8 +9176,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-14T19:05:10+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
@@ -9222,8 +9222,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00",
    "cambio_estado": "2026-10-21T12:05:12+00:00",
    "origen": "api",
@@ -9263,8 +9263,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-19T15:05:10+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
@@ -9361,8 +9361,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-19T20:05:11+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00",
    "origen": "api",
@@ -9413,7 +9413,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-20T00:05:10+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
@@ -9466,7 +9466,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-20T14:55:05+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00",
@@ -9517,7 +9517,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-20T19:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
@@ -9570,7 +9570,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00",
    "origen": "api",
@@ -9622,8 +9622,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00",
    "origen": "api",
    "area": "tienda",
@@ -9662,8 +9662,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
@@ -9713,8 +9713,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-20T21:05:10+00:00",
    "origen": "api",
    "area": "tienda",
@@ -9759,8 +9759,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "origen": "api",
    "area": "tienda",
@@ -9801,7 +9801,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "origen": "api",
@@ -9839,8 +9839,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-20T16:05:14+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
@@ -9891,7 +9891,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-24T00:27:11+00:00",
@@ -9942,8 +9942,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
    "origen": "api",
@@ -9990,7 +9990,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -10043,7 +10043,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -10081,7 +10081,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -10134,7 +10134,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00",
@@ -10184,8 +10184,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00",
    "origen": "api",
@@ -10231,7 +10231,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -10323,7 +10323,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
@@ -10419,7 +10419,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
@@ -10457,7 +10457,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-28T02:05:12+00:00",
@@ -10508,8 +10508,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
    "origen": "api",
@@ -10554,7 +10554,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
@@ -10593,7 +10593,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00",
@@ -10650,7 +10650,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
@@ -10702,7 +10702,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T01:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
@@ -10758,7 +10758,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
@@ -10808,7 +10808,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00",
@@ -10858,7 +10858,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
@@ -10908,8 +10908,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00",
    "origen": "api",
@@ -10994,8 +10994,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "origen": "api",
    "area": "otros",
@@ -11036,8 +11036,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "origen": "api",
    "area": "tienda",
@@ -11076,7 +11076,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "origen": "api",
@@ -11114,7 +11114,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-11-01T04:05:10+00:00",
@@ -11166,8 +11166,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-10-31T04:05:10+00:00",
    "origen": "api",
@@ -11221,7 +11221,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-06T06:05:10+00:00",
@@ -11275,8 +11275,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-10-30T03:05:10+00:00",
    "origen": "api",
@@ -11366,7 +11366,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
@@ -11418,8 +11418,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
    "origen": "api",
@@ -11470,8 +11470,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
    "origen": "api",
@@ -11521,8 +11521,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -11608,7 +11608,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-24T00:27:11+00:00",
    "cambio_estado": "2026-11-06T06:05:10+00:00",
@@ -11697,8 +11697,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
@@ -11745,7 +11745,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-29T02:21:05+00:00",
    "cambio_estado": "2026-11-05T18:39:13+00:00",
@@ -11799,7 +11799,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-06T06:05:10+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
@@ -11839,8 +11839,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -11893,8 +11893,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
    "origen": "api",
@@ -11939,8 +11939,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-03T04:05:15+00:00",
    "origen": "api",
@@ -12137,7 +12137,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-11T15:05:11+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00",
@@ -12175,7 +12175,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-01T04:05:10+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
@@ -12228,8 +12228,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "origen": "api",
    "area": "tienda",
@@ -12271,7 +12271,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "origen": "api",
@@ -12369,7 +12369,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "origen": "api",
@@ -12426,7 +12426,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-10-30T03:05:10+00:00",
    "origen": "api",
@@ -12481,8 +12481,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "area": "tienda",
@@ -12524,8 +12524,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
@@ -12575,8 +12575,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
@@ -12698,7 +12698,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
@@ -12783,7 +12783,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-13T00:05:11+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-06T06:05:10+00:00",
@@ -12834,8 +12834,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-05T18:39:13+00:00",
    "origen": "api",
@@ -12876,8 +12876,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "origen": "api",
@@ -12998,8 +12998,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
@@ -13051,8 +13051,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "area": "otros",
@@ -13093,8 +13093,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -13138,8 +13138,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "area": "capacitacion",
@@ -13178,8 +13178,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -13225,8 +13225,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-30T03:05:10+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "origen": "api",
@@ -13342,8 +13342,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
@@ -13399,8 +13399,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "origen": "api",
@@ -13463,8 +13463,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-10T14:05:12+00:00",
    "origen": "api",
@@ -13517,8 +13517,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
    "origen": "api",
@@ -13564,7 +13564,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-12T23:38:28+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
@@ -13626,8 +13626,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "adjuntos": [
@@ -13666,8 +13666,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "adjuntos": [
@@ -13706,7 +13706,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "detalle_actualizado": "2026-11-12T23:38:28+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00",
@@ -13752,7 +13752,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "descripcion": "YFF SE REQUIERE COTIZAR  SISTEMA DE PARACAIDA PARA DRONE DJI PHANTON 4 PRO",
    "direccion_entrega": "Av. Ogana 1060 piso 2 SAG",
@@ -13799,7 +13799,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00",
    "descripcion": "El Servicio de Biodiversidad y Áreas Protegidas, en adelante el SBAP, llama a proveedores a \nparticipar en la presentación de ofertas destinadas a proveer un curso de operación de drones \n(RPAS) para 16 funcionarios y funcionarias del SBAP, en modalidad online fase teórica y fase \npráctica de forma presencial) en 15 regiones del país (todas, excepto la Región de Aysén), \nconducente a la obtención de la credencial de piloto a distancia otorgada por la Dirección General \nde Aeronáutica Civil (DGAC",
@@ -13849,7 +13849,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "cambio_estado": "2026-11-11T15:05:11+00:00",
    "descripcion": "LOS OFERENTES DEBERÁN POSTULAR POR LA TOTALIDAD DE LOS PRODUCTOS REQUERIDOS, ADJUNTANDO A TRAVÉS DEL SISTEMA UNA COTIZACIÓN FORMAL, DETALLADA Y VALORIZADA. LOS PRODUCTOS Y/O SERVICIOS OFERTADOS DEBERÁN SER NUEVOS, SIN USO Y CUMPLIR ÍNTEGRAMENTE CON LAS ESPECIFICACIONES TÉCNICAS SOLICITADAS. ASIMISMO, EL DESPACHO SE REALIZARÁ EN LA DIRECCIÓN INDICADA EN LA ORDEN DE COMPRA, SIENDO DE EXCLUSIVO CARGO DEL PROVEEDOR TODOS LOS COSTOS ASOCIADOS A TRANSPORTE, FLETE Y ENTREGA.",
@@ -13901,7 +13901,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T23:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-13T15:05:15+00:00",
    "descripcion": "CONTRATACIÓN ACTIVIDAD DE CAPACITACIÓN “PILOTO DE RPA CON ESPECIALIZACIÓN EN RTK Y FOTOGRAMETRÍA” DIRECCIÓN DE VIALIDAD",
    "direccion_entrega": "Moneda 1040",
@@ -13912,7 +13912,7 @@
    "adjuntos": [
     "TR N° 188 Capaxitación dron.pdf"
    ],
-   "detalle_actualizado": "2026-11-13T23:05:15+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
    "coincide_en": "titulo",
@@ -14001,8 +14001,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "adjuntos": [
     "MEMO N°013 - TAPATI.pdf"
@@ -14040,8 +14040,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T09:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "adjuntos": [
@@ -14157,8 +14157,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-11T15:05:11+00:00",
@@ -14239,8 +14239,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T12:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "adjuntos": [
     "DRON DJI MINI 4K FLY MORE COMBO QUE SE INCORPÓREN TRES BATERIAS.docx"
@@ -14274,7 +14274,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "descripcion": "Adquisición de Kit receptor GNSS RTK rover y Curso de operación de drones y apoyo a credencial para un funcionario del Departamento Técnico de Construcciones y Urbanización, mantención y seguro para los equipos RPAS del SERVIU de la Región de O’Higgins\n\nDe acuerdo a lo solicitado en cotización 642-40-COT26 adjunta",
    "direccion_entrega": "Brasil N° 912",
@@ -14282,7 +14282,7 @@
    "adjuntos": [
     "642-40-COT26.pdf"
    ],
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -14312,7 +14312,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "descripcion": "SERVIU REGION DE TARAPACA REQUIERE: (1) Paracaídas Manti 3 Plus para DJI Phantom 2 / 3 / 4 Mejorar la seguridad Reducir la velocidad de caída, (1) Plataforma de aterrizaje CQT universal reflectante para drones, 55 cm, doble cara, impermeable, plegable, con clavijas de tierra (bicolor) EL VALOR TOTAL DEBE SER CON FLETE INCLUIDO.",
@@ -14362,8 +14362,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
@@ -14400,8 +14400,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T08:05:10+00:00",
-   "detalle_actualizado": "2026-11-14T08:05:10+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
@@ -14436,7 +14436,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "descripcion": "Contratación de curso de capacitación para operadores de drones y habilitación de vuelo nocturno según especificaciones técnicas adjuntas en documentos anexos.",
@@ -14448,7 +14448,7 @@
     "ANEXO 1 Declaración  Jurada de Proveedores .pdf",
     "Anexo B-2.pdf"
    ],
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -14480,8 +14480,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "adjuntos": [
     "APLICATIVO COMPRA AGIL.pdf",
@@ -14516,7 +14516,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "descripcion": "PROYECTO SEGURIDAD EN RED-COMUNIDAD PROTEGIDA",
@@ -14525,7 +14525,7 @@
    "adjuntos": [
     "REGISTRO NACIONAL DE RPA.pdf"
    ],
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "area": "otros",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -14563,8 +14563,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-13T21:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T21:05:12+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "servicios",
    "relevancia": "baja",
@@ -14612,8 +14612,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "TDR.pdf"
@@ -14648,7 +14648,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T11:05:13+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -14662,7 +14662,7 @@
    "adjuntos": [
     "FORMATO SOLICITUD COTIZACION COMPRA AGIL CAPACITACION DRONE.pdf"
    ],
-   "detalle_actualizado": "2026-11-14T11:05:13+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "cambio_estado": "2026-11-13T17:05:12+00:00"
   },
   {
@@ -14698,8 +14698,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T15:05:11+00:00",
-   "detalle_actualizado": "2026-11-14T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -14808,8 +14808,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-14T10:04:26+00:00",
-   "detalle_actualizado": "2026-11-14T10:04:26+00:00",
+   "ultima_actualizacion": "2026-11-14T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-14T16:05:10+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-14T10:04:26+00:00",
