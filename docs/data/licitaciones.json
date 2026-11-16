@@ -1,30 +1,28 @@
 {
- "generado": "2026-11-16T19:13:02+00:00",
- "proxima_actualizacion": "2026-11-16T20:13:02+00:00",
+ "generado": "2026-11-16T20:05:10+00:00",
+ "proxima_actualizacion": "2026-11-16T21:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-16T19:13:02+00:00",
+   "ultima_ok": "2026-11-16T20:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4865,
-   "detalles_consultados": 120,
+   "revisadas": 4873,
+   "detalles_consultados": 88,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-16T19:13:02+00:00",
+   "ultima_ok": "2026-11-16T20:05:10+00:00",
    "errores_detalle": 0,
-   "advertencias": [
-    "La API limitó las consultas (HTTP 429). Se continuará en la próxima ejecución."
-   ],
-   "revisadas": 7,
-   "detalles_consultados": 17,
-   "segunda_pasada": 0,
-   "pendientes_segunda_pasada": 24,
+   "advertencias": [],
+   "revisadas": 6,
+   "detalles_consultados": 38,
+   "segunda_pasada": 3,
+   "pendientes_segunda_pasada": 0,
    "modo": "recientes"
   }
  },
@@ -79,9 +77,10 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "CA:6-110-COT26",
-  "CA:85-74-COT26",
-  "CA:2324-1207-COT26"
+  "LIC:2952-23-LP26",
+  "CA:1515304-340-COT26",
+  "CA:1515304-338-COT26",
+  "CA:1515304-339-COT26"
  ],
  "por_revisar": [
   {
@@ -137,7 +136,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
@@ -217,8 +216,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
-   "detalle_actualizado": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
    "primera_deteccion": "2026-11-14T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -260,8 +259,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
-   "detalle_actualizado": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -423,7 +422,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -459,7 +458,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -494,7 +493,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -541,7 +540,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -615,7 +614,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -660,7 +659,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -701,8 +700,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
-   "detalle_actualizado": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -743,8 +742,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
-   "detalle_actualizado": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -855,8 +854,8 @@
    "plazo_entrega_dias": 5,
    "productos": [
     "Aviones objetivo o de reconocimiento — Dron ultraligero. Ver detalles en ficha adjunta.",
-    "Cámaras digitales — Cámaras para streaming y creadores de contenidos con pantalla frontal. Ver detalles en ficha adjunta. ",
     "Cámaras digitales — Cámara fotográfica digital profesional. Ver detalles en ficha adjunta. ",
+    "Cámaras digitales — Cámaras para streaming y creadores de contenidos con pantalla frontal. Ver detalles en ficha adjunta. ",
     "Kits de cámara — Kit de grabación portátil con estabilización mecánica. Ver detalles en ficha adjunta. ",
     "Flashes o iluminación de cámaras — Flash compacto de alta velocidad. Ver detalles en ficha adjunta.",
     "Correas de cámara — Correa de cámara para el hombro. Ver detalles en ficha adjunta.",
@@ -871,8 +870,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
-   "detalle_actualizado": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
    "relevancia": "baja",
@@ -916,7 +915,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -1041,10 +1040,136 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:1515304-340-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-340-COT26",
+   "nombre": "CONTRATACIÓN DE CURSO ESTRUCTURAS NIVEL 2, PARA MECÁNICOS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-16T16:11:00-03:00",
+   "fecha_cierre": "2026-11-20T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-16 16:15",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 4200000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-340-COT26",
+   "descripcion": "DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 50 HORAS DE INSTRUCCIÓN.\nEL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).\nEL CURSO CONSIDERA LA PARTICIPACIÓN DE 04 ALUMNOS.\nPROCESO EDUCACIONAL EXCLUÍDO DE IVA",
+   "direccion_entrega": "AVDA. ALCALDE FERNANDO CASTILLO VELASCO (EX AVDA. LARRAÍN) NRO. 7941, COMUNA DE LA REINA, PREFECTURA AÉREA DE CARABINEROS, INTERIOR AERÓDROMO TOBALABA, DE LUNES A VIERNES EN HORARIO ENTRE 08:00 HRS. A 18:00 HRS",
+   "plazo_entrega_dias": 20,
+   "productos": [
+    "Capacitación a empleados — \nCONTRATACIÓN DE CURSO ESTRUCTURAS NIVEL 2, PARA MECÁNICOS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE"
+   ],
+   "adjuntos": [
+    "REQUERIMIENTOS TÉCNICOS CARP. 256.docx",
+    "Certificado_Refrendacion_240 (1).pdf"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
+   "primera_deteccion": "2026-11-16T20:05:10+00:00",
+   "area": "capacitacion",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:1515304-338-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-338-COT26",
+   "nombre": "CONTRATACIÓN DEL CURSO DE ELECTRICIDAD BÁSICA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-16T15:25:00-03:00",
+   "fecha_cierre": "2026-11-20T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-16 15:30",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 4500000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-338-COT26",
+   "descripcion": "DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 60 HORAS DE INSTRUCCIÓN.\nEL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).\nEL CURSO CONSIDERA LA PARTICIPACIÓN DE 06 ALUMNOS.\nPROCESO EDUCACIONAL EXCLUÍDO DE IVA",
+   "direccion_entrega": "Avda. Alcalde Fernando Castillo Velasco (ex Avda. Larraín) N° 7941",
+   "plazo_entrega_dias": 20,
+   "productos": [
+    "Capacitación a empleados — ONTRATACIÓN DEL CURSO DE ELECTRICIDAD BÁSICA"
+   ],
+   "adjuntos": [
+    "BASES_COMPRA_AGIL_CARP 266-2026 (1).docx",
+    "Certificado_Refrendacion_245.pdf"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
+   "primera_deteccion": "2026-11-16T20:05:10+00:00",
+   "area": "capacitacion",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:1515304-339-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-339-COT26",
+   "nombre": "CURSO SISTEMAS AUXILIARES, SISTEMAS DE OXÍGENO Y EXTINTORES DE INCENDIO",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-16T15:44:00-03:00",
+   "fecha_cierre": "2026-11-20T11:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-16 15:45",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 3292800.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-339-COT26",
+   "descripcion": "DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 15 HORAS DE INSTRUCCIÓN.\nEL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).\nEL CURSO CONSIDERA LA PARTICIPACIÓN DE 05 ALUMNOS.\nPROCESO EDUCACIONAL EXCLUÍDO DE IVA",
+   "direccion_entrega": "AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 COMUNA ",
+   "plazo_entrega_dias": 20,
+   "productos": [
+    "Capacitación a empleados — \nCURSO SISTEMAS AUXILIARES, SISTEMAS DE OXÍGENO Y EXTINTORES DE INCENDIO"
+   ],
+   "adjuntos": [
+    "BASES_COMPRA_AGIL_CARP 260-2026.docx",
+    "Certificado_Refrendacion_229 (2).pdf"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
+   "primera_deteccion": "2026-11-16T20:05:10+00:00",
+   "area": "capacitacion",
    "relevancia": "baja",
    "coincide_en": "mencion"
   },
@@ -1077,7 +1202,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1110,7 +1235,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1147,7 +1272,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T15:05:11+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1182,7 +1307,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1216,7 +1341,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1252,12 +1377,47 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T19:13:02+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:2952-23-LP26",
+   "fuente": "licitacion",
+   "codigo": "2952-23-LP26",
+   "nombre": "SERVICIO DE DESARROLLO DE CONTROLADOR DE VUELO",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-12-07T15:01:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2952-23-LP26",
+   "descripcion": "LA NECESIDAD DE CONTRATAR EL “SERVICIO DE DESARROLLO, IMPLEMENTACIÓN E INTEGRACIÓN PROGRESIVA DE CONTROLADOR DE VUELO GENÉRICO, CON SUMINISTRO DE PLATAFORMAS RPAS Y SISTEMA DE DETECCIÓN ASOCIADO”, SEGÚN ESPECIFICACIONES TECNICAS DESCRITAS EN ANEXO A ADJUNTO.",
+   "organismo": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA",
+   "unidad": "ARSENAL NAVAL TALCAHUANO",
+   "region": "Región del Biobío",
+   "comuna": "Talcahuano",
+   "fecha_publicacion": "2026-11-16T16:35:30-03:00",
+   "fecha_adjudicacion": "2026-12-10T17:00:00-03:00",
+   "monto": 235000.0,
+   "moneda": "USD",
+   "tipo": "LP",
+   "productos": [
+    "Servicios de cooperación técnica — LA NECESIDAD DE CONTRATAR EL“SERVICIO DE DESARROLLO, IMPLEMENTACIÓN E INTEGRACIÓN PROGRESIVA DE CONTROLADOR DE VUELO GENÉRICO, CON SUMINISTRO DE PLATAFORMAS RPAS Y SISTEMA DE DETECCIÓN ASOCIADO”, SEGÚN ESPECIFICACIONES TECNICAS DESCRITAS EN \"ANEXO A\""
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
+   "primera_deteccion": "2026-11-16T20:05:10+00:00",
+   "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "detalle"
   },
   {
    "id": "CA:614-39-COT26",
@@ -14640,8 +14800,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T11:05:24+00:00",
-   "detalle_actualizado": "2026-11-16T11:05:24+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -14675,8 +14835,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T11:05:24+00:00",
-   "detalle_actualizado": "2026-11-16T11:05:24+00:00",
+   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00",
    "area": "servicios",
    "relevancia": "alta",
