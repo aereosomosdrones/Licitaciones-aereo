@@ -700,6 +700,7 @@
   "1114595-2-LP26",
   "1114608-6-LE26",
   "1116003-6-LE26",
+  "1116005-10-LE26",
   "1116005-9-LE26",
   "1125-10-LE26",
   "1126922-43-LP26",
@@ -6173,10 +6174,13 @@
   },
   "1523-1100-COT26": {
    "visto": "2026-11-14T16:05:10+00:00"
+  },
+  "1057532-593-COT26": {
+   "visto": "2026-11-16T11:05:24+00:00"
   }
  },
  "ca_ultimo_barrido_completo": "2026-11-15T16:56:38+00:00",
- "ca_ultima_ejecucion_ok": "2026-11-16T10:05:12+00:00",
+ "ca_ultima_ejecucion_ok": "2026-11-16T11:05:24+00:00",
  "ultimo_recordatorio": "2026-11-10 09",
  "recordatorios_abiertos": [],
  "ca_pendientes": {},
@@ -6208,23 +6212,9 @@
    "adjuntos": [
     "ESPECIFICACIONES TECNICAS C. SOLDADURA _000011.pdf"
    ]
-  },
-  "4020-1177-COT26": {
-   "id": "CA:4020-1177-COT26",
-   "codigo": "4020-1177-COT26",
-   "nombre": "CURSO DE CAPACITACIÓN",
-   "organismo": "I MUNICIPALIDAD DE CANETE",
-   "region": "Región del Biobío ",
-   "fecha_publicacion": "2026-11-13T15:41:00-03:00",
-   "fecha_cierre": "2026-11-16T08:00:00-03:00",
-   "monto": 772200.0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=4020-1177-COT26",
-   "adjuntos": [
-    "Especificaciones_Tecnicas_Oficina_Tecnica_Obras.pdf"
-   ]
   }
  },
- "ca_ultima_amplia": "2026-11-16T10:05:12+00:00",
+ "ca_ultima_amplia": "2026-11-16T11:05:24+00:00",
  "avisos": {
   "CA:2483-572-COT26": 17,
   "LIC:1422035-47-LE26": 18,
