@@ -1,27 +1,27 @@
 {
- "generado": "2026-11-16T20:05:10+00:00",
- "proxima_actualizacion": "2026-11-16T21:05:10+00:00",
+ "generado": "2026-11-16T21:05:19+00:00",
+ "proxima_actualizacion": "2026-11-16T22:05:19+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-16T20:05:10+00:00",
+   "ultima_ok": "2026-11-16T21:05:19+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4873,
-   "detalles_consultados": 88,
+   "revisadas": 4904,
+   "detalles_consultados": 81,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-16T20:05:10+00:00",
+   "ultima_ok": "2026-11-16T21:05:19+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 6,
-   "detalles_consultados": 38,
-   "segunda_pasada": 3,
+   "detalles_consultados": 17,
+   "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
   }
@@ -77,10 +77,7 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "LIC:2952-23-LP26",
-  "CA:1515304-340-COT26",
-  "CA:1515304-338-COT26",
-  "CA:1515304-339-COT26"
+  "LIC:611669-27-LP26"
  ],
  "por_revisar": [
   {
@@ -136,7 +133,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
@@ -216,8 +213,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
-   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
+   "detalle_actualizado": "2026-11-16T21:05:19+00:00",
    "primera_deteccion": "2026-11-14T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -259,8 +256,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
-   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
+   "detalle_actualizado": "2026-11-16T21:05:19+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -422,7 +419,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -458,7 +455,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -493,7 +490,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -540,7 +537,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -614,7 +611,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -659,7 +656,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -700,8 +697,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
-   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
+   "detalle_actualizado": "2026-11-16T21:05:19+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -742,8 +739,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
-   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
+   "detalle_actualizado": "2026-11-16T21:05:19+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -854,8 +851,8 @@
    "plazo_entrega_dias": 5,
    "productos": [
     "Aviones objetivo o de reconocimiento — Dron ultraligero. Ver detalles en ficha adjunta.",
-    "Cámaras digitales — Cámara fotográfica digital profesional. Ver detalles en ficha adjunta. ",
     "Cámaras digitales — Cámaras para streaming y creadores de contenidos con pantalla frontal. Ver detalles en ficha adjunta. ",
+    "Cámaras digitales — Cámara fotográfica digital profesional. Ver detalles en ficha adjunta. ",
     "Kits de cámara — Kit de grabación portátil con estabilización mecánica. Ver detalles en ficha adjunta. ",
     "Flashes o iluminación de cámaras — Flash compacto de alta velocidad. Ver detalles en ficha adjunta.",
     "Correas de cámara — Correa de cámara para el hombro. Ver detalles en ficha adjunta.",
@@ -870,8 +867,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
-   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
+   "detalle_actualizado": "2026-11-16T21:05:19+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
    "relevancia": "baja",
@@ -915,7 +912,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -1040,7 +1037,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1202,7 +1199,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1235,7 +1232,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1272,8 +1269,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
-   "detalle_actualizado": "2026-11-16T15:05:11+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
+   "detalle_actualizado": "2026-11-16T21:05:19+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1307,7 +1304,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1341,7 +1338,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T19:13:02+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1377,12 +1374,57 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:611669-27-LP26",
+   "fuente": "licitacion",
+   "codigo": "611669-27-LP26",
+   "nombre": "EQUIPOS DE FISCALIZACIÓN AMBIENTAL",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-30T16:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=611669-27-LP26",
+   "descripcion": "La SMA requiere contar con EQUIPOS DE FISCALIZACIÓN AMBIENTAL, para sus actividades de fiscalización ambiental, inspección ambiental, examen de información yo muestreo, medición y o análisis, que permitan levantar de medios de prueba robustos en el marco de los procesos de fiscalización.",
+   "organismo": "Superintendencia del Medio Ambiente",
+   "unidad": "Superintendencia del Medio Ambiente -Nivel Central",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-11-16T17:25:18-03:00",
+   "fecha_adjudicacion": "2026-12-10T19:00:00-03:00",
+   "monto": 100000000.0,
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Receptores GPS — Línea N° 1 - GPS de mano, según especificaciones técnicas",
+    "Aviones objetivo o de reconocimiento — Línea N° 2 - Dron tipo 1, según especificaciones técnicas",
+    "Aviones objetivo o de reconocimiento — Línea N° 3 - Dron tipo 2, según especificaciones técnicas",
+    "Luxómetros — Línea N° 4 - Luxómetro, según especificaciones técnicas",
+    "Medidores de PH — Línea N° 5 - Medidor portátil de pH / TDS / conductividad, según especificaciones técnicas",
+    "Monitores de pantalla táctil — Línea N° 6 - Tablet, según especificaciones técnicas",
+    "Sondas de medida — Línea N° 7 - Sonda multiparámetros, según especificaciones técnicas",
+    "Calibradores de sonda — Línea N° 8 - Kit de Soluciones de calibración para sonda multiparámetros marca Hanna, según especificaciones técnicas",
+    "Calibradores de sonda — Línea N° 9 - Kit Soluciones de calibración de turbidez para sonda multiparámetros marca Hanna, según especificaciones técnicas",
+    "Trípodes de instrumentos — Línea N° 10 - Trípode para sonómetro, según especificaciones técnicas",
+    "Cajas para material y equipos — Línea N° 11 - Maleta rígida para sonómetro, según especificaciones técnicas"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
+   "detalle_actualizado": "2026-11-16T21:05:19+00:00",
+   "primera_deteccion": "2026-11-16T21:05:19+00:00",
+   "area": "tienda",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
   },
   {
    "id": "LIC:2952-23-LP26",
@@ -1412,7 +1454,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "detalle_actualizado": "2026-11-16T20:05:10+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15040,11 +15082,11 @@
    "origen": "api",
    "codigo": "377-399-COT26",
    "nombre": "CURSO RENOVACION CREDENCIAL DE PILOTOS RPAS",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-10T13:23:00-03:00",
    "fecha_cierre": "2026-11-16T08:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16T08:35:01.363Z",
+   "fecha_ultimo_cambio": "2026-11-16 16:05",
    "organismo": "I MUNICIPALIDAD DE ALGARROBO",
    "unidad": "MUNICIPALIDAD DE ALGARROBO-ADQUISICIONES",
    "region": "Región de Valparaíso ",
@@ -15059,16 +15101,30 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "descripcion": "USO: SECPLAC",
    "direccion_entrega": "AV PEÑALANCA 250",
    "plazo_entrega_dias": 3,
-   "detalle_actualizado": "2026-11-16T12:05:13+00:00",
+   "detalle_actualizado": "2026-11-16T21:05:19+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
    "coincide_en": "titulo",
-   "cambio_estado": "2026-11-16T12:05:13+00:00"
+   "cambio_estado": "2026-11-16T21:05:19+00:00",
+   "resultado": {
+    "ofertas": 1,
+    "oferta_minima": 99000.0,
+    "ganador": {
+     "nombre": "AEREO SPA",
+     "monto": 99000.0,
+     "es_aereo": true
+    },
+    "aereo": {
+     "monto": 99000.0,
+     "lugar": 1,
+     "gano": true
+    }
+   }
   },
   {
    "id": "CA:2483-572-COT26",
@@ -15080,7 +15136,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-13T10:23:00-03:00",
    "fecha_cierre": "2026-11-16T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16T09:15:01.980Z",
+   "fecha_ultimo_cambio": "2026-11-16 09:15",
    "organismo": "I MUNICIPALIDAD DE QUILICURA",
    "unidad": "DEPARTAMENTO COMPRAS PÚBLICAS",
    "region": "Región Metropolitana de Santiago",
@@ -15103,8 +15159,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T21:05:19+00:00",
+   "detalle_actualizado": "2026-11-16T21:05:19+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
