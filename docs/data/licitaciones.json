@@ -1,27 +1,27 @@
 {
- "generado": "2026-11-16T13:05:13+00:00",
- "proxima_actualizacion": "2026-11-16T14:05:13+00:00",
+ "generado": "2026-11-16T14:05:12+00:00",
+ "proxima_actualizacion": "2026-11-16T15:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-16T13:05:13+00:00",
+   "ultima_ok": "2026-11-16T14:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5322,
-   "detalles_consultados": 33,
+   "revisadas": 5369,
+   "detalles_consultados": 48,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-16T13:05:13+00:00",
+   "ultima_ok": "2026-11-16T14:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5,
+   "revisadas": 4,
    "detalles_consultados": 17,
-   "segunda_pasada": 0,
+   "segunda_pasada": 1,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
   }
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:1515304-336-COT26"
+ ],
  "por_revisar": [
   {
    "id": "CA:5003-50-COT26",
@@ -163,7 +165,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00",
    "area": "tienda",
@@ -197,7 +199,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-10-27T19:05:13+00:00",
    "area": "tienda",
@@ -232,7 +234,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T09:05:12+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
@@ -320,7 +322,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
@@ -400,8 +402,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
-   "detalle_actualizado": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
+   "detalle_actualizado": "2026-11-16T14:05:12+00:00",
    "primera_deteccion": "2026-11-14T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -484,8 +486,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
-   "detalle_actualizado": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
+   "detalle_actualizado": "2026-11-16T14:05:12+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -563,7 +565,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -599,7 +601,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -634,7 +636,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -681,7 +683,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T09:05:12+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -755,7 +757,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -837,8 +839,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
-   "detalle_actualizado": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
+   "detalle_actualizado": "2026-11-16T14:05:12+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -882,7 +884,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T09:05:12+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -931,6 +933,48 @@
    "coincide_en": "titulo"
   },
   {
+   "id": "CA:1515304-336-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-336-COT26",
+   "nombre": "CURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-16T10:53:00-03:00",
+   "fecha_cierre": "2026-11-19T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-16 10:55",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 5200000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-336-COT26",
+   "descripcion": "CONTRATACIÓN DE CURSO MATERIALES COMPUESTOS, PARA MECÁNI-COS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE. EL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC). EL CURSO CONSIDERA LA PARTICIPACIÓN DE 02 ALUMNOS. PROCESO EDUCACIONAL EXCLUÍDO DE IVA",
+   "direccion_entrega": "AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 ",
+   "plazo_entrega_dias": 18,
+   "productos": [
+    "Capacitación a empleados — \nCURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA\n\n"
+   ],
+   "adjuntos": [
+    "Certificado_Refrendacion_233 (2).pdf",
+    "REQUERIMIENTOS TÉCNICOS CARP. 264 (1).docx"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
+   "detalle_actualizado": "2026-11-16T14:05:12+00:00",
+   "primera_deteccion": "2026-11-16T14:05:12+00:00",
+   "area": "capacitacion",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
+  },
+  {
    "id": "LIC:634-105-LE26",
    "fuente": "licitacion",
    "codigo": "634-105-LE26",
@@ -965,7 +1009,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1001,7 +1045,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T09:05:12+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1034,7 +1078,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1071,7 +1115,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T08:05:13+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1106,7 +1150,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1140,7 +1184,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T11:05:24+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1176,7 +1220,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
    "detalle_actualizado": "2026-11-16T09:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -14724,8 +14768,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-16T13:05:13+00:00",
-   "detalle_actualizado": "2026-11-16T13:05:13+00:00",
+   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
+   "detalle_actualizado": "2026-11-16T14:05:12+00:00",
    "primera_deteccion": "2026-11-13T20:05:14+00:00",
    "area": "servicios",
    "relevancia": "alta",
