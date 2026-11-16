@@ -6176,7 +6176,7 @@
   }
  },
  "ca_ultimo_barrido_completo": "2026-11-15T16:56:38+00:00",
- "ca_ultima_ejecucion_ok": "2026-11-16T09:05:12+00:00",
+ "ca_ultima_ejecucion_ok": "2026-11-16T09:25:27+00:00",
  "ultimo_recordatorio": "2026-11-10 09",
  "recordatorios_abiertos": [],
  "ca_pendientes": {},
@@ -6224,7 +6224,7 @@
    ]
   }
  },
- "ca_ultima_amplia": "2026-11-16T09:05:12+00:00",
+ "ca_ultima_amplia": "2026-11-16T09:25:27+00:00",
  "avisos": {
   "CA:2483-572-COT26": 17,
   "LIC:1422035-47-LE26": 18,
