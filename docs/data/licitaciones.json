@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-17T18:05:11+00:00",
- "proxima_actualizacion": "2026-11-17T19:05:11+00:00",
+ "generado": "2026-11-17T19:05:14+00:00",
+ "proxima_actualizacion": "2026-11-17T20:05:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T18:05:11+00:00",
+   "ultima_ok": "2026-11-17T19:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4889,
-   "detalles_consultados": 16,
+   "revisadas": 4848,
+   "detalles_consultados": 62,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T18:05:11+00:00",
+   "ultima_ok": "2026-11-17T19:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 10,
-   "detalles_consultados": 20,
+   "revisadas": 11,
+   "detalles_consultados": 34,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,44 +76,11 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:669-20-COT26"
+ ],
  "por_revisar": [],
  "items": [
-  {
-   "id": "LIC:2963-41-LP26",
-   "fuente": "licitacion",
-   "codigo": "2963-41-LP26",
-   "nombre": "SEGUROS DE BIENES MUEBLES E INMUEBLES",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-17T15:30:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2963-41-LP26",
-   "descripcion": "El servicio considerado, comprende la contratación de los seguros en los siguientes rubros con el fin de resguardar su patrimonio, según se detalla a continuación:\r\n•\tRUBRO 1: Edificios Municipales y sus contenidos.\r\n•\tRUBRO 2: Edificios de Salud y sus contenidos. \r\n•\tRUBRO 3: Vehículos Municipal y sus contenidos.\r\n•\tRUBRO 4: Vehículos Salud y sus contenidos. \r\n•\tRUBRO 5: Dron Municipal.\r\n•\tRUBRO 6: Equipos Móviles.\r\n•\tRUBRO 7: Remesas de Valores.",
-   "organismo": "I MUNICIPALIDAD DE LA GRANJA",
-   "unidad": "SECPLA",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "La Granja",
-   "fecha_publicacion": "2026-11-05T11:58:00-03:00",
-   "fecha_adjudicacion": "2026-12-24T23:59:00-03:00",
-   "monto": 7898.05,
-   "moneda": "CLF",
-   "tipo": "LP",
-   "productos": [
-    "Seguros de edificios o de su contenido — El servicio considerado, comprende la contratación de los seguros en los siguientes rubros con el fin de resguardar su patrimonio, según se detalla a continuación:\r\n•\tRUBRO 1: Edificios Municipales y sus contenidos.\r\n•\tRUBRO 2: Edificios de Salud y sus co"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
-   "primera_deteccion": "2026-11-05T15:05:11+00:00",
-   "area": "otros",
-   "relevancia": "baja",
-   "coincide_en": "mencion"
-  },
   {
    "id": "CA:5485-922-COT26",
    "fuente": "compra_agil",
@@ -189,8 +156,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -232,8 +199,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -279,7 +246,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -358,8 +325,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -393,7 +360,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -438,7 +405,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -479,8 +446,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -521,7 +488,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -560,7 +527,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -684,8 +651,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -773,7 +740,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
@@ -818,7 +785,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -909,6 +876,41 @@
    "coincide_en": "mencion"
   },
   {
+   "id": "LIC:2963-41-LP26",
+   "fuente": "licitacion",
+   "codigo": "2963-41-LP26",
+   "nombre": "SEGUROS DE BIENES MUEBLES E INMUEBLES",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-19T15:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2963-41-LP26",
+   "descripcion": "El servicio considerado, comprende la contratación de los seguros en los siguientes rubros con el fin de resguardar su patrimonio, según se detalla a continuación:\r\n•\tRUBRO 1: Edificios Municipales y sus contenidos.\r\n•\tRUBRO 2: Edificios de Salud y sus contenidos. \r\n•\tRUBRO 3: Vehículos Municipal y sus contenidos.\r\n•\tRUBRO 4: Vehículos Salud y sus contenidos. \r\n•\tRUBRO 5: Dron Municipal.\r\n•\tRUBRO 6: Equipos Móviles.\r\n•\tRUBRO 7: Remesas de Valores.",
+   "organismo": "I MUNICIPALIDAD DE LA GRANJA",
+   "unidad": "SECPLA",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "La Granja",
+   "fecha_publicacion": "2026-11-05T11:58:00-03:00",
+   "fecha_adjudicacion": "2026-12-24T23:59:00-03:00",
+   "monto": 7898.05,
+   "moneda": "CLF",
+   "tipo": "LP",
+   "productos": [
+    "Seguros de edificios o de su contenido — El servicio considerado, comprende la contratación de los seguros en los siguientes rubros con el fin de resguardar su patrimonio, según se detalla a continuación:\r\n•\tRUBRO 1: Edificios Municipales y sus contenidos.\r\n•\tRUBRO 2: Edificios de Salud y sus co"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "primera_deteccion": "2026-11-05T15:05:11+00:00",
+   "area": "otros",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
+  },
+  {
    "id": "LIC:634-105-LE26",
    "fuente": "licitacion",
    "codigo": "634-105-LE26",
@@ -943,7 +945,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1077,6 +1079,46 @@
    "coincide_en": "mencion"
   },
   {
+   "id": "CA:669-20-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "669-20-COT26",
+   "nombre": "DRON LIGERO PARA UNIDAD DE BIENES DC.724532",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-17T15:38:00-03:00",
+   "fecha_cierre": "2026-11-20T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-17 15:40",
+   "organismo": "SEREMI Bienes Nacionales IV Región",
+   "unidad": "SEREMI de Coquimbo",
+   "region": "Región de Coquimbo ",
+   "monto": 216540.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=669-20-COT26",
+   "descripcion": "DRON LIGERO PARA UNIDAD DE BIENES DC.724532",
+   "direccion_entrega": "PRAT Nº 255, OF 410",
+   "plazo_entrega_dias": 7,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — DRON LIGERO SPEKTRA, PESO MAXIMO 750GRAMOS, QUE INCLUYA 2 A 3 BATERIAS RECARGABLES PARA VDISPOSITIVGOS DE ALTO CONSUMO, SE ADJUNTA IMAGEN DE REFERENCIA"
+   ],
+   "adjuntos": [
+    "IMAGENES_DE_REFERENCIA_DRONE.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
+   "primera_deteccion": "2026-11-17T19:05:14+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
    "id": "LIC:5420-27-LE26",
    "fuente": "licitacion",
    "codigo": "5420-27-LE26",
@@ -1105,7 +1147,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1138,7 +1180,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1175,7 +1217,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1210,7 +1252,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1244,7 +1286,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1280,7 +1322,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1325,7 +1367,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1360,7 +1402,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -12219,11 +12261,11 @@
    "fuente": "compra_agil",
    "codigo": "685-15-COT26",
    "nombre": "Compra de tablet para drone",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-10-30T08:13:00-03:00",
    "fecha_cierre": "2026-11-03T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-03T12:10:01.080Z",
+   "fecha_ultimo_cambio": "2026-11-17 15:40",
    "organismo": "SEREMI Bienes Nacionales Región Metropolitana",
    "unidad": "SEREMI Metropolitana",
    "region": "Región Metropolitana de Santiago",
@@ -12243,8 +12285,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "origen": "api",
    "area": "tienda",
@@ -12252,7 +12294,17 @@
    "coincide_en": "titulo",
    "adjuntos": [
     "Características Tablet Drone.docx"
-   ]
+   ],
+   "resultado": {
+    "ofertas": 32,
+    "oferta_minima": 240380.0,
+    "ganador": {
+     "nombre": "COMERCIALIZADORA JK SPA",
+     "monto": 491100.0,
+     "es_aereo": false
+    }
+   },
+   "cambio_estado": "2026-11-17T19:05:14+00:00"
   },
   {
    "id": "CA:5297-35-COT26",
@@ -13002,7 +13054,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-02T12:53:00-03:00",
    "fecha_cierre": "2026-11-06T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T10:00:01.060Z",
+   "fecha_ultimo_cambio": "2026-11-06 10:00",
    "organismo": "I MUNICIPALIDAD DE PICA",
    "unidad": "Municipalidad de Pica",
    "region": "Región de Tarapacá  ",
@@ -13024,8 +13076,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -13089,7 +13141,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-26T16:00:00-03:00",
    "fecha_cierre": "2026-11-06T11:41:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T11:45:01.330Z",
+   "fecha_ultimo_cambio": "2026-11-06 11:45",
    "organismo": "Subsecretaria de las Culturas y las Artes Región  de Arica y Parinacota",
    "unidad": "Dirección Regional de Arica y Parinacota",
    "region": "Región de Arica y Parinacota",
@@ -13109,8 +13161,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -13416,7 +13468,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-30T07:54:00-03:00",
    "fecha_cierre": "2026-11-08T15:24:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-08T15:30:00.267Z",
+   "fecha_ultimo_cambio": "2026-11-08 15:30",
    "organismo": "I MUNICIPALIDAD DE PUERTO VARAS",
    "unidad": "Adquisiciones Municipalidad",
    "region": "Región de los Lagos ",
@@ -13448,8 +13500,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-10-31T04:05:10+00:00",
    "cambio_estado": "2026-11-05T06:05:10+00:00",
    "origen": "api",
@@ -13535,7 +13587,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-05T17:41:00-03:00",
    "fecha_cierre": "2026-11-09T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-09T11:05:01.260Z",
+   "fecha_ultimo_cambio": "2026-11-09 11:05",
    "organismo": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
    "unidad": "FONDOS CENTRALES DE INVESTIGACION",
    "region": "Región Metropolitana de Santiago",
@@ -13557,8 +13609,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "adjuntos": [
@@ -13577,7 +13629,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-04T18:40:00-03:00",
    "fecha_cierre": "2026-11-09T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-09T15:05:01.473Z",
+   "fecha_ultimo_cambio": "2026-11-09 15:05",
    "organismo": "GOBIERNO REGIONAL VII REGION",
    "unidad": "Gobierno Regional del Maule",
    "region": "Región del Maule ",
@@ -13597,8 +13649,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "adjuntos": [
@@ -13951,7 +14003,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-04T17:38:00-03:00",
    "fecha_cierre": "2026-11-11T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-11T09:10:00.257Z",
+   "fecha_ultimo_cambio": "2026-11-11 09:10",
    "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
    "unidad": "LOGISTICA COYHAIQUE",
    "region": "Región Aysén del General Carlos Ibáñez del Campo",
@@ -13971,8 +14023,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "adjuntos": [
@@ -14195,7 +14247,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-10T11:30:00-03:00",
    "fecha_cierre": "2026-11-12T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-12T10:05:01.290Z",
+   "fecha_ultimo_cambio": "2026-11-12 10:05",
    "organismo": "SERVICIO DE VIVIENDA Y URBANIZACION VI REGION",
    "unidad": "SERVIU VI REGION",
    "region": "Región del Libertador General Bernardo O´Higgins",
@@ -14210,7 +14262,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "descripcion": "Adquisición de Kit receptor GNSS RTK rover y Curso de operación de drones y apoyo a credencial para un funcionario del Departamento Técnico de Construcciones y Urbanización, mantención y seguro para los equipos RPAS del SERVIU de la Región de O’Higgins\n\nDe acuerdo a lo solicitado en cotización 642-40-COT26 adjunta",
    "direccion_entrega": "Brasil N° 912",
@@ -14218,7 +14270,7 @@
    "adjuntos": [
     "642-40-COT26.pdf"
    ],
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -14357,7 +14409,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-10T12:37:00-03:00",
    "fecha_cierre": "2026-11-12T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-12T12:05:01.650Z",
+   "fecha_ultimo_cambio": "2026-11-12 12:05",
    "organismo": "MINISTERIO PUBLICO",
    "unidad": "FR ANTOFAGASTA",
    "region": "Región de Antofagasta ",
@@ -14372,7 +14424,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "descripcion": "Contratación de curso de capacitación para operadores de drones y habilitación de vuelo nocturno según especificaciones técnicas adjuntas en documentos anexos.",
@@ -14384,7 +14436,7 @@
     "ANEXO 1 Declaración  Jurada de Proveedores .pdf",
     "Anexo B-2.pdf"
    ],
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -14579,7 +14631,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-09T12:55:00-03:00",
    "fecha_cierre": "2026-11-13T13:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-13T13:35:01.007Z",
+   "fecha_ultimo_cambio": "2026-11-13 13:35",
    "organismo": "Ministerio de Vivienda y Urbanismo",
    "unidad": "SEREMI MINVU REGION  ARICA Y PARINACOTA",
    "region": "Región de Arica y Parinacota",
@@ -14594,7 +14646,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -14608,7 +14660,7 @@
    "adjuntos": [
     "FORMATO SOLICITUD COTIZACION COMPRA AGIL CAPACITACION DRONE.pdf"
    ],
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "cambio_estado": "2026-11-13T17:05:12+00:00"
   },
   {
@@ -14621,7 +14673,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-11T15:47:00-03:00",
    "fecha_cierre": "2026-11-13T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-13T14:05:01.380Z",
+   "fecha_ultimo_cambio": "2026-11-13 14:05",
    "organismo": "I MUNICIPALIDAD DE COLLIPULLI",
    "unidad": "Departamento de Salud",
    "region": "Región de la Araucanía ",
@@ -14644,8 +14696,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -15015,7 +15067,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-12T15:12:00-03:00",
    "fecha_cierre": "2026-11-16T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16T12:10:01.233Z",
+   "fecha_ultimo_cambio": "2026-11-16 12:10",
    "organismo": "SERVICIO AGRICOLA Y GANADERO",
    "unidad": "SAG - Aysen",
    "region": "Región Aysén del General Carlos Ibáñez del Campo",
@@ -15039,8 +15091,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T11:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15319,8 +15371,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T19:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T19:05:14+00:00",
    "primera_deteccion": "2026-11-14T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
