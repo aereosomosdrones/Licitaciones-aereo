@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-17T15:05:15+00:00",
- "proxima_actualizacion": "2026-11-17T16:05:15+00:00",
+ "generado": "2026-11-17T16:05:12+00:00",
+ "proxima_actualizacion": "2026-11-17T17:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T15:05:15+00:00",
+   "ultima_ok": "2026-11-17T16:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4921,
-   "detalles_consultados": 46,
+   "revisadas": 4958,
+   "detalles_consultados": 49,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T15:05:15+00:00",
+   "ultima_ok": "2026-11-17T16:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 9,
-   "detalles_consultados": 16,
+   "revisadas": 10,
+   "detalles_consultados": 20,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:1469-4195-COT26"
+ ],
  "por_revisar": [
   {
    "id": "CA:3880-564-COT26",
@@ -94,48 +96,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:2859-1498-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2859-1498-COT26",
-   "nombre": "Adquisición de dron",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-11T12:52:00-03:00",
-   "fecha_cierre": "2026-11-17T13:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-11 12:55",
-   "organismo": "UNIVERSIDAD DE ATACAMA",
-   "unidad": "SECCIÓN ABASTECIMIENTO",
-   "region": "Región de Atacama ",
-   "monto": 2600000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2859-1498-COT26",
-   "descripcion": "Se solicita dron. Proveedor deberá procurar informar en su cotización todo lo solicitado, ya sea en el formulario de cotización de la plataforma o complementando con documento adjunto, como por ejemplo: datos\ntécnicos, plazo de entrega, datos del proveedor, valor presupuestado incluye IVA y despacho, etc. De no adjuntar lo solicitado, su oferta será declarada inadmisible",
-   "direccion_entrega": "Avenida Copayapu 485, Universidad de Atacama",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — Dron DJI Air 3S Fly o equivalente técnico, con sistema de doble cámara. Garantía de 12 meses. Se debe incluir capacitación teórica y práctica; preparación para examen de conocimiento exigido por DGAC. Revisar archivo adjunto para ver todos los aspectos técnicos requeridos."
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-16T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-16T17:05:12+00:00",
-   "primera_deteccion": "2026-11-12T15:05:12+00:00",
-   "adjuntos": [
-    "Document_20261111_0001.pdf"
-   ],
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "LIC:2981-317-LP26",
    "fuente": "licitacion",
@@ -166,7 +126,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -202,7 +162,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -237,7 +197,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -277,8 +237,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -320,8 +280,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -367,7 +327,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T11:05:11+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -414,6 +374,46 @@
    "coincide_en": "titulo"
   },
   {
+   "id": "CA:1469-4195-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1469-4195-COT26",
+   "nombre": "20-45579 Adquisición de Equipo dron con accesorios",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-17T12:49:00-03:00",
+   "fecha_cierre": "2026-11-18T12:50:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-17 12:50",
+   "organismo": "UNIVERSIDAD DE TALCA",
+   "unidad": "Universidad de Talca",
+   "region": "Región del Maule ",
+   "monto": 2000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1469-4195-COT26",
+   "descripcion": "Se requiere la adquisición de Equipo dron con accesorios , conforme a las especificaciones técnicas adjuntas. La oferta deberá considerar la totalidad de los productos solicitados, despacho incluido y sin costo adicional. Se deberá adjuntar cotización indicando bienes ofertados, precios y plazo de entrega.",
+   "direccion_entrega": "Facultad de Psicología, Universidad de Talca  Avda. Lirca2 S/N",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Baterías de litio — Dron con cámara 360° de resolución 8K, gafas inmersivas Vision, controlador Grip y tecnología de captura panorámica. Incluye 3 baterías de alta capacidad, lector rápido, hub de carga, estuche de transporte, bandolera y 8 hélices de repuesto. Peso desde 249 g y autonomía de hasta 39 minutos. Modos de vuelo FreeMotion y FPV. Permite capturar imágenes desde todos los ángulos en una sola toma. Se adjuntan especificaciones técnicas e imagen referencial del producto."
+   ],
+   "adjuntos": [
+    "ESPEC.TÉCNICAS 20-45579.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
+   "primera_deteccion": "2026-11-17T16:05:12+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
    "id": "LIC:411-52-LE26",
    "fuente": "licitacion",
    "codigo": "411-52-LE26",
@@ -441,7 +441,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -486,7 +486,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -527,8 +527,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -569,8 +569,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -608,8 +608,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -732,8 +732,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -762,8 +762,8 @@
    "plazo_entrega_dias": 5,
    "productos": [
     "Aviones objetivo o de reconocimiento — Dron ultraligero. Ver detalles en ficha adjunta.",
-    "Cámaras digitales — Cámaras para streaming y creadores de contenidos con pantalla frontal. Ver detalles en ficha adjunta. ",
     "Cámaras digitales — Cámara fotográfica digital profesional. Ver detalles en ficha adjunta. ",
+    "Cámaras digitales — Cámaras para streaming y creadores de contenidos con pantalla frontal. Ver detalles en ficha adjunta. ",
     "Kits de cámara — Kit de grabación portátil con estabilización mecánica. Ver detalles en ficha adjunta. ",
     "Flashes o iluminación de cámaras — Flash compacto de alta velocidad. Ver detalles en ficha adjunta.",
     "Correas de cámara — Correa de cámara para el hombro. Ver detalles en ficha adjunta.",
@@ -778,8 +778,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
    "relevancia": "baja",
@@ -823,7 +823,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T11:05:11+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -948,7 +948,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1110,7 +1110,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T11:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1143,7 +1143,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1180,8 +1180,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T10:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1215,7 +1215,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1249,7 +1249,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1285,7 +1285,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T11:05:11+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1330,8 +1330,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T10:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -1365,7 +1365,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15393,8 +15393,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T15:05:15+00:00",
-   "detalle_actualizado": "2026-11-17T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-14T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15484,6 +15484,49 @@
    "area": "gestion",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:2859-1498-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2859-1498-COT26",
+   "nombre": "Adquisición de dron",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-11T12:52:00-03:00",
+   "fecha_cierre": "2026-11-17T13:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-17 13:05",
+   "organismo": "UNIVERSIDAD DE ATACAMA",
+   "unidad": "SECCIÓN ABASTECIMIENTO",
+   "region": "Región de Atacama ",
+   "monto": 2600000.0,
+   "moneda": "CLP",
+   "ofertas": 6,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2859-1498-COT26",
+   "descripcion": "Se solicita dron. Proveedor deberá procurar informar en su cotización todo lo solicitado, ya sea en el formulario de cotización de la plataforma o complementando con documento adjunto, como por ejemplo: datos\ntécnicos, plazo de entrega, datos del proveedor, valor presupuestado incluye IVA y despacho, etc. De no adjuntar lo solicitado, su oferta será declarada inadmisible",
+   "direccion_entrega": "Avenida Copayapu 485, Universidad de Atacama",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Dron DJI Air 3S Fly o equivalente técnico, con sistema de doble cámara. Garantía de 12 meses. Se debe incluir capacitación teórica y práctica; preparación para examen de conocimiento exigido por DGAC. Revisar archivo adjunto para ver todos los aspectos técnicos requeridos."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
+   "primera_deteccion": "2026-11-12T15:05:12+00:00",
+   "adjuntos": [
+    "Document_20261111_0001.pdf"
+   ],
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-17T16:05:12+00:00"
   }
  ]
 }
