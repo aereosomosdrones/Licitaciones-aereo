@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-17T22:05:11+00:00",
- "proxima_actualizacion": "2026-11-17T23:05:11+00:00",
+ "generado": "2026-11-17T23:05:10+00:00",
+ "proxima_actualizacion": "2026-11-18T00:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T22:05:11+00:00",
+   "ultima_ok": "2026-11-17T23:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4946,
-   "detalles_consultados": 6,
+   "revisadas": 4950,
+   "detalles_consultados": 11,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T22:05:11+00:00",
+   "ultima_ok": "2026-11-17T23:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 10,
-   "detalles_consultados": 8,
+   "revisadas": 11,
+   "detalles_consultados": 10,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,8 +76,25 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
- "por_revisar": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:1079486-229-COT26"
+ ],
+ "por_revisar": [
+  {
+   "id": "CA:2091-50-COT26",
+   "codigo": "2091-50-COT26",
+   "nombre": "Capacitacion",
+   "organismo": "Departamento Provincial San Felipe-Los Andes",
+   "region": "Región de Valparaíso ",
+   "fecha_publicacion": "2026-11-17T19:45:00-03:00",
+   "fecha_cierre": "2026-11-19T09:00:00-03:00",
+   "monto": 1000000.0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2091-50-COT26",
+   "adjuntos": [
+    "Terminos_de_Referencia 26.11.pdf"
+   ]
+  }
+ ],
  "items": [
   {
    "id": "CA:5485-922-COT26",
@@ -154,8 +171,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -197,8 +214,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -244,7 +261,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -323,8 +340,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -358,7 +375,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -403,7 +420,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -444,8 +461,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -486,7 +503,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -525,7 +542,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -649,8 +666,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -700,6 +717,46 @@
    "cambio_estado": "2026-11-17T17:05:12+00:00"
   },
   {
+   "id": "CA:1079486-229-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1079486-229-COT26",
+   "nombre": "ADQUISICIÓN DE ACCESORIOS PARA DRONES, DE CARGO DE LA SECCIÓN RPAS DE LA 5TA. COM. COP ATACAMA.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-17T19:27:00-03:00",
+   "fecha_cierre": "2026-11-19T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-17 19:30",
+   "organismo": "SECCIÓN COMPRAS III ZONA",
+   "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS ATACAMA",
+   "region": "Región de Atacama ",
+   "monto": 766400.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1079486-229-COT26",
+   "descripcion": "CONFORME ANEXO ADJUNTO",
+   "direccion_entrega": "AVDA. COPAYAPU N°3302",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — requerimiento conforme anexo adjunto."
+   ],
+   "adjuntos": [
+    "ANEXO REQUERIMIENTO ACCESORIOS DRON COP..docx"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
+   "primera_deteccion": "2026-11-17T23:05:10+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
    "id": "CA:85-74-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -738,7 +795,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
@@ -783,7 +840,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -901,7 +958,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -943,7 +1000,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1109,8 +1166,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1145,7 +1202,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1178,7 +1235,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1215,8 +1272,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1250,7 +1307,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1284,7 +1341,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1320,7 +1377,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1365,8 +1422,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -1400,7 +1457,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T22:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15025,7 +15082,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-13T10:23:00-03:00",
    "fecha_cierre": "2026-11-16T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16T09:15:01.980Z",
+   "fecha_ultimo_cambio": "2026-11-16 09:15",
    "organismo": "I MUNICIPALIDAD DE QUILICURA",
    "unidad": "DEPARTAMENTO COMPRAS PÚBLICAS",
    "region": "Región Metropolitana de Santiago",
@@ -15048,8 +15105,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
