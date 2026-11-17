@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-17T12:05:14+00:00",
- "proxima_actualizacion": "2026-11-17T13:05:14+00:00",
+ "generado": "2026-11-17T13:04:15+00:00",
+ "proxima_actualizacion": "2026-11-17T14:04:15+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T12:05:14+00:00",
+   "ultima_ok": "2026-11-17T13:04:15+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4865,
-   "detalles_consultados": 17,
+   "revisadas": 4868,
+   "detalles_consultados": 36,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T12:05:14+00:00",
+   "ultima_ok": "2026-11-17T13:04:15+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 6,
-   "detalles_consultados": 23,
+   "revisadas": 8,
+   "detalles_consultados": 14,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,10 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:760-102-COT26",
+  "CA:3897-167-COT26"
+ ],
  "por_revisar": [
   {
    "id": "CA:3880-564-COT26",
@@ -94,130 +97,6 @@
   }
  ],
  "items": [
-  {
-   "id": "LIC:3265-58-LE26",
-   "fuente": "licitacion",
-   "codigo": "3265-58-LE26",
-   "nombre": "Adquisición de Equipamiento Computacional",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-17T09:30:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3265-58-LE26",
-   "descripcion": "La Ilustre Municipalidad de Río Hurtado invita a los proveedores de Mercado Público a participar en la Presente Licitación Pública denominada “Adquisición de Equipamiento Computacional”, los cuales serán utilizados para mejorar la gestión interna y así entregar un mejor servicio a la Comunidad.",
-   "organismo": "I MUNICIPALIDAD DE RIO HURTADO",
-   "unidad": "Direccion de  Administracion y Finanzas",
-   "region": "Región de Coquimbo",
-   "comuna": "Río Hurtado",
-   "fecha_publicacion": "2026-11-04T15:08:00-03:00",
-   "fecha_adjudicacion": "2026-12-23T15:30:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Notebook, laptop o computador portátil excepto Tablet PC — Notebook 15”, Según especificaciones técnicas Adjuntas. ",
-    "Notebook, laptop o computador portátil excepto Tablet PC — All in one Pantalla Touch 23,8”, Según especificaciones técnicas Adjuntas.\t",
-    "Escáner — Scanner DS 530II, Según especificaciones técnicas Adjuntas.",
-    "Impresoras de chorro de tinta — Impresora SmartTank 750, Según especificaciones técnicas Adjuntas.\t",
-    "Aviones objetivo o de reconocimiento — DJI Air 3S Fly More Combo RC2, Según especificaciones técnicas Adjuntas.",
-    "Servidores — Servidor Dell PowerEdge R660xs Xeon Silver 4514Y 32GB DDR5 IDRAC9 Servidor 1U. Debe Incluir (2) Rieles Rackeables para Servidores, (2) Licencias Windows Server 2022, (2) Licencia SQL Server 2022. Según especificaciones técnicas Adjuntas.",
-    "Discos duros — Discos Duros SSD 1 TB Servidor Dell + Chasis Discos (Compatible con servidor). Según especificaciones técnicas Adjuntas.",
-    "Estaciones de base de fidelidad inalámbrica (WiFi) — Access Point Wifi 6 Linksys LAPAX3600CC.Según especificaciones técnicas Adjuntas.",
-    "Cajas de conmutadores — Switch Mikrotic CRS328-24-1000 POE.Según especificaciones técnicas Adjuntas.",
-    "Cajas de conmutadores — Switch Mikrotik CS610-8P-2S+IN. Según especificaciones técnicas Adjuntas.",
-    "Programas de desvío o conmutación — Router Mikrotik CRS112-8P. Según especificaciones técnicas Adjuntas."
-   ],
-   "terminos": [
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
-   "detalle_actualizado": "2026-11-17T08:05:12+00:00",
-   "primera_deteccion": "2026-11-04T19:05:12+00:00",
-   "area": "tienda",
-   "relevancia": "baja",
-   "coincide_en": "mencion"
-  },
-  {
-   "id": "CA:3553-100-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "3553-100-COT26",
-   "nombre": "Servicio de Mantención y Reparación para dos (2) drones Autel Evo",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-13T09:45:00-03:00",
-   "fecha_cierre": "2026-11-17T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-13T09:45:00.690Z",
-   "organismo": "MINISTERIO DE BIENES NACIONALES",
-   "unidad": "MINISTERIO DE BIENES NACIONALES",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1400000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3553-100-COT26",
-   "descripcion": "Servicio de Mantención y Reparación para 2 drones Autel Evo. Inspección general, actualización software y firmware, calibración sensores, limpieza, revisión de baterías y certificación con pruebas de vuelo.\nProveedor debe garantizar la certificación al momento de ofertar.",
-   "direccion_entrega": "Av. Libertador General Bernardo O´higgins N° 720",
-   "plazo_entrega_dias": 4,
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — Reemplazo de Brazo de aterrizaje superior izquierdo de 1 dron Autel Evo. Certificación con pruebas de vuelo.",
-    "Aeronave de reconocimiento o vigilancia — Mantención preventiva completa de dos drones Autel Evo. Inspección general, actualización software y firmware, calibración sensores, limpieza, revisión de baterías y certificación con pruebas de vuelo"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-16T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-13T14:05:11+00:00",
-   "primera_deteccion": "2026-11-13T13:05:12+00:00",
-   "area": "gestion",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
-   "id": "CA:1157-217-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1157-217-COT26",
-   "nombre": "Adquisición de conos de seguridad y botiquín de primeros auxilios utilización de Drones de RM según normativa de seguridad operacional de Dirección General de Aviación Civil (DGAC).",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-14T16:39:00-03:00",
-   "fecha_cierre": "2026-11-17T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-14 16:40",
-   "organismo": "SERVICIO AGRICOLA Y GANADERO",
-   "unidad": "SAG - Región Metropolitana",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 202000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1157-217-COT26",
-   "descripcion": "E1O2RT9 Se requiere la adquisición de conos de seguridad y botiquín de primeros auxilios para salidas a terreno utilizando DRON de Unidad de Recursos Naturales Renovables RM.",
-   "direccion_entrega": "Av. Portales #3396",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Estuches o bolsas de primeros auxilios para los servicios médicos de urgencias o accesorios — botiquín de primeros auxilios, iva y despacho incluido, detalle en anexo 1",
-    "Delimitadores o conos de tráfico — conos de seguridad, ivas y despacho incluido, detalle en anexo 1"
-   ],
-   "adjuntos": [
-    "Anexo 1 Requerimiento.docx"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
-   "primera_deteccion": "2026-11-14T20:05:09+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:3877-589-COT26",
    "fuente": "compra_agil",
@@ -254,8 +133,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
+   "detalle_actualizado": "2026-11-17T13:04:15+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -417,7 +296,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T08:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
@@ -453,7 +332,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T08:05:12+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
@@ -488,7 +367,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T08:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -535,7 +414,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T11:05:11+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -609,7 +488,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T08:05:12+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -654,7 +533,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -695,8 +574,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
+   "detalle_actualizado": "2026-11-17T13:04:15+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -737,10 +616,49 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
+   "detalle_actualizado": "2026-11-17T13:04:15+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:3897-167-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "3897-167-COT26",
+   "nombre": "SEGURO OPERACION DRONE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-17T09:51:00-03:00",
+   "fecha_cierre": "2026-11-18T17:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-17 09:55",
+   "organismo": "I MUNICIPALIDAD DE FUTALEUFU",
+   "unidad": "Adquisiciones",
+   "region": "Región de los Lagos ",
+   "monto": 250000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3897-167-COT26",
+   "descripcion": "PROYECTO SEGURIDAD EN RED-COMUNIDAD PROTEGIDA",
+   "direccion_entrega": "PEDRO AGUIRRE CERDA 271",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Seguros contra accidentes — SEGURO OPERACION PARA SISTEMA DRONES RPA X 12 MESES \nMODELO DJI MATRICE 4T\nNUMERO DE SERIA 1581F7K3C257MOOD82XK "
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
+   "detalle_actualizado": "2026-11-17T13:04:15+00:00",
+   "primera_deteccion": "2026-11-17T13:04:15+00:00",
+   "area": "otros",
    "relevancia": "alta",
    "coincide_en": "titulo"
   },
@@ -827,6 +745,48 @@
    "coincide_en": "titulo"
   },
   {
+   "id": "CA:760-102-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "760-102-COT26",
+   "nombre": "Curso Piloto de Dron (RPA) para acreditarse ante DGAC",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-17T09:16:00-03:00",
+   "fecha_cierre": "2026-11-19T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-17 09:20",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "SAG - Valparaíso",
+   "region": "Región de Valparaíso ",
+   "monto": 600000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=760-102-COT26",
+   "descripcion": "Curso Piloto de Dron (RPA) para acreditarse ante DGAC, para 4 personas",
+   "direccion_entrega": "Freire 765",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Capacitación a empleados — Curso Piloto de Dron (RPA) para acreditarse ante DGAC, para 4 personas "
+   ],
+   "adjuntos": [
+    "ANEXO N°1 REQUERIMIENTO CURSO DRON V1F.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
+   "detalle_actualizado": "2026-11-17T13:04:15+00:00",
+   "primera_deteccion": "2026-11-17T13:04:15+00:00",
+   "area": "capacitacion",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
    "id": "CA:85-74-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -849,8 +809,8 @@
    "plazo_entrega_dias": 5,
    "productos": [
     "Aviones objetivo o de reconocimiento — Dron ultraligero. Ver detalles en ficha adjunta.",
-    "Cámaras digitales — Cámara fotográfica digital profesional. Ver detalles en ficha adjunta. ",
     "Cámaras digitales — Cámaras para streaming y creadores de contenidos con pantalla frontal. Ver detalles en ficha adjunta. ",
+    "Cámaras digitales — Cámara fotográfica digital profesional. Ver detalles en ficha adjunta. ",
     "Kits de cámara — Kit de grabación portátil con estabilización mecánica. Ver detalles en ficha adjunta. ",
     "Flashes o iluminación de cámaras — Flash compacto de alta velocidad. Ver detalles en ficha adjunta.",
     "Correas de cámara — Correa de cámara para el hombro. Ver detalles en ficha adjunta.",
@@ -865,8 +825,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
+   "detalle_actualizado": "2026-11-17T13:04:15+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
    "relevancia": "baja",
@@ -910,7 +870,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T11:05:11+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -1035,7 +995,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T08:05:12+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1197,7 +1157,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T11:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1230,7 +1190,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T08:05:12+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1267,7 +1227,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T10:05:11+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1302,7 +1262,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T08:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1336,7 +1296,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T08:05:12+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1372,7 +1332,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T11:05:11+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1417,7 +1377,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T10:05:11+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1452,7 +1412,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
    "detalle_actualizado": "2026-11-17T08:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15359,6 +15319,132 @@
     "ofertas": 5,
     "oferta_minima": 1945000.0
    }
+  },
+  {
+   "id": "LIC:3265-58-LE26",
+   "fuente": "licitacion",
+   "codigo": "3265-58-LE26",
+   "nombre": "Adquisición de Equipamiento Computacional",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-17T09:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3265-58-LE26",
+   "descripcion": "La Ilustre Municipalidad de Río Hurtado invita a los proveedores de Mercado Público a participar en la Presente Licitación Pública denominada “Adquisición de Equipamiento Computacional”, los cuales serán utilizados para mejorar la gestión interna y así entregar un mejor servicio a la Comunidad.",
+   "organismo": "I MUNICIPALIDAD DE RIO HURTADO",
+   "unidad": "Direccion de  Administracion y Finanzas",
+   "region": "Región de Coquimbo",
+   "comuna": "Río Hurtado",
+   "fecha_publicacion": "2026-11-04T15:08:00-03:00",
+   "fecha_adjudicacion": "2026-12-23T15:30:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Notebook, laptop o computador portátil excepto Tablet PC — Notebook 15”, Según especificaciones técnicas Adjuntas. ",
+    "Notebook, laptop o computador portátil excepto Tablet PC — All in one Pantalla Touch 23,8”, Según especificaciones técnicas Adjuntas.\t",
+    "Escáner — Scanner DS 530II, Según especificaciones técnicas Adjuntas.",
+    "Impresoras de chorro de tinta — Impresora SmartTank 750, Según especificaciones técnicas Adjuntas.\t",
+    "Aviones objetivo o de reconocimiento — DJI Air 3S Fly More Combo RC2, Según especificaciones técnicas Adjuntas.",
+    "Servidores — Servidor Dell PowerEdge R660xs Xeon Silver 4514Y 32GB DDR5 IDRAC9 Servidor 1U. Debe Incluir (2) Rieles Rackeables para Servidores, (2) Licencias Windows Server 2022, (2) Licencia SQL Server 2022. Según especificaciones técnicas Adjuntas.",
+    "Discos duros — Discos Duros SSD 1 TB Servidor Dell + Chasis Discos (Compatible con servidor). Según especificaciones técnicas Adjuntas.",
+    "Estaciones de base de fidelidad inalámbrica (WiFi) — Access Point Wifi 6 Linksys LAPAX3600CC.Según especificaciones técnicas Adjuntas.",
+    "Cajas de conmutadores — Switch Mikrotic CRS328-24-1000 POE.Según especificaciones técnicas Adjuntas.",
+    "Cajas de conmutadores — Switch Mikrotik CS610-8P-2S+IN. Según especificaciones técnicas Adjuntas.",
+    "Programas de desvío o conmutación — Router Mikrotik CRS112-8P. Según especificaciones técnicas Adjuntas."
+   ],
+   "terminos": [
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T12:05:14+00:00",
+   "detalle_actualizado": "2026-11-17T08:05:12+00:00",
+   "primera_deteccion": "2026-11-04T19:05:12+00:00",
+   "area": "tienda",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:3553-100-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "3553-100-COT26",
+   "nombre": "Servicio de Mantención y Reparación para dos (2) drones Autel Evo",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-13T09:45:00-03:00",
+   "fecha_cierre": "2026-11-17T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-17 10:10",
+   "organismo": "MINISTERIO DE BIENES NACIONALES",
+   "unidad": "MINISTERIO DE BIENES NACIONALES",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1400000.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3553-100-COT26",
+   "descripcion": "Servicio de Mantención y Reparación para 2 drones Autel Evo. Inspección general, actualización software y firmware, calibración sensores, limpieza, revisión de baterías y certificación con pruebas de vuelo.\nProveedor debe garantizar la certificación al momento de ofertar.",
+   "direccion_entrega": "Av. Libertador General Bernardo O´higgins N° 720",
+   "plazo_entrega_dias": 4,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — Reemplazo de Brazo de aterrizaje superior izquierdo de 1 dron Autel Evo. Certificación con pruebas de vuelo.",
+    "Aeronave de reconocimiento o vigilancia — Mantención preventiva completa de dos drones Autel Evo. Inspección general, actualización software y firmware, calibración sensores, limpieza, revisión de baterías y certificación con pruebas de vuelo"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
+   "detalle_actualizado": "2026-11-17T13:04:15+00:00",
+   "primera_deteccion": "2026-11-13T13:05:12+00:00",
+   "area": "gestion",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-17T13:04:15+00:00"
+  },
+  {
+   "id": "CA:1157-217-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1157-217-COT26",
+   "nombre": "Adquisición de conos de seguridad y botiquín de primeros auxilios utilización de Drones de RM según normativa de seguridad operacional de Dirección General de Aviación Civil (DGAC).",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-14T16:39:00-03:00",
+   "fecha_cierre": "2026-11-17T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-17 10:10",
+   "organismo": "SERVICIO AGRICOLA Y GANADERO",
+   "unidad": "SAG - Región Metropolitana",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 202000.0,
+   "moneda": "CLP",
+   "ofertas": 6,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1157-217-COT26",
+   "descripcion": "E1O2RT9 Se requiere la adquisición de conos de seguridad y botiquín de primeros auxilios para salidas a terreno utilizando DRON de Unidad de Recursos Naturales Renovables RM.",
+   "direccion_entrega": "Av. Portales #3396",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Estuches o bolsas de primeros auxilios para los servicios médicos de urgencias o accesorios — botiquín de primeros auxilios, iva y despacho incluido, detalle en anexo 1",
+    "Delimitadores o conos de tráfico — conos de seguridad, ivas y despacho incluido, detalle en anexo 1"
+   ],
+   "adjuntos": [
+    "Anexo 1 Requerimiento.docx"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T13:04:15+00:00",
+   "detalle_actualizado": "2026-11-17T13:04:15+00:00",
+   "primera_deteccion": "2026-11-14T20:05:09+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-17T13:04:15+00:00"
   }
  ]
 }
