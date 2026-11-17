@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-17T20:05:11+00:00",
- "proxima_actualizacion": "2026-11-17T21:05:11+00:00",
+ "generado": "2026-11-17T21:05:13+00:00",
+ "proxima_actualizacion": "2026-11-17T22:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T20:05:11+00:00",
+   "ultima_ok": "2026-11-17T21:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4886,
-   "detalles_consultados": 67,
+   "revisadas": 4935,
+   "detalles_consultados": 90,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T20:05:11+00:00",
+   "ultima_ok": "2026-11-17T21:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 10,
-   "detalles_consultados": 18,
+   "detalles_consultados": 21,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -154,8 +154,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -197,8 +197,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -244,7 +244,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -323,8 +323,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -358,8 +358,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -403,7 +403,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -444,8 +444,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -486,7 +486,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -525,7 +525,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -649,8 +649,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -738,7 +738,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
@@ -783,7 +783,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -888,7 +888,7 @@
    "region": "Región Metropolitana de Santiago",
    "comuna": "La Granja",
    "fecha_publicacion": "2026-11-05T11:58:00-03:00",
-   "fecha_adjudicacion": "2026-12-24T23:59:00-03:00",
+   "fecha_adjudicacion": "2026-12-29T09:59:00-03:00",
    "monto": 7898.05,
    "moneda": "CLF",
    "tipo": "LP",
@@ -901,8 +901,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
    "relevancia": "baja",
@@ -943,8 +943,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -1109,8 +1109,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1145,7 +1145,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1178,8 +1178,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -1215,7 +1215,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1250,8 +1250,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -1284,8 +1284,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1320,7 +1320,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1365,7 +1365,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1400,8 +1400,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -7036,8 +7036,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -7377,8 +7377,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -7457,8 +7457,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "cambio_estado": "2026-10-13T19:05:12+00:00",
    "area": "tienda",
@@ -7781,8 +7781,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -8526,7 +8526,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-15T16:18:00-03:00",
    "fecha_cierre": "2026-10-17T16:21:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-17T16:25:00.553Z",
+   "fecha_ultimo_cambio": "2026-10-17 16:25",
    "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
    "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
    "region": "Región Metropolitana de Santiago",
@@ -8547,8 +8547,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00",
    "cambio_estado": "2026-10-17T20:05:10+00:00",
    "origen": "api",
@@ -8961,8 +8961,8 @@
    "fuente": "licitacion",
    "codigo": "660-14-LP26",
    "nombre": "MODIFICACIÓN PLAN REGULADOR COMUNAL DE VICTORIA",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Adjudicada",
    "fecha_cierre": "2026-10-19T15:10:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=660-14-LP26",
    "descripcion": "MODIFICACIÓN PLAN REGULADOR COMUNAL DE VICTORIA, LOCALIDADES DE VICTORIA, QUINO, PÚA Y SELVA OSCURA. LEVANTAMIENTO AEROFOTOGRAMÉTRICO Y CARTOGRAFÍA BASE",
@@ -8971,7 +8971,7 @@
    "region": "Región de la Araucanía",
    "comuna": "Temuco",
    "fecha_publicacion": "2026-09-25T10:55:10-03:00",
-   "fecha_adjudicacion": "2026-11-17T15:34:00-03:00",
+   "fecha_adjudicacion": "2026-11-17T17:00:00-03:00",
    "monto": 75000000.0,
    "moneda": "CLP",
    "tipo": "LP",
@@ -8984,10 +8984,10 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-07T03:05:11+00:00",
-   "cambio_estado": "2026-10-19T19:05:11+00:00",
+   "cambio_estado": "2026-11-17T21:05:13+00:00",
    "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "detalle"
@@ -9244,7 +9244,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-19T08:41:00-03:00",
    "fecha_cierre": "2026-10-21T08:48:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-21T08:55:00.290Z",
+   "fecha_ultimo_cambio": "2026-10-21 08:55",
    "organismo": "ASOCIACION DE MUNICIPALIDADES PARA LA SEGURIDAD CIUDADANA EN LA ZONA ORIENTE",
    "unidad": "Asociación de Municipalidades para la Seguridad en la Zona Oriente",
    "region": "Región Metropolitana de Santiago",
@@ -9265,8 +9265,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00",
    "cambio_estado": "2026-10-21T12:05:12+00:00",
    "origen": "api",
@@ -9735,7 +9735,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-20T17:53:00-03:00",
    "fecha_cierre": "2026-10-23T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-23T10:10:02.080Z",
+   "fecha_ultimo_cambio": "2026-10-23 10:10",
    "organismo": "GOBIERNO REGIONAL DE LA ARAUCANIA",
    "unidad": "Gobierno Regional de La Araucanía",
    "region": "Región de la Araucanía ",
@@ -9756,8 +9756,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-20T21:05:10+00:00",
    "origen": "api",
    "area": "tienda",
@@ -9776,7 +9776,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-21T17:27:00-03:00",
    "fecha_cierre": "2026-10-23T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-23T10:05:01.090Z",
+   "fecha_ultimo_cambio": "2026-10-23 10:05",
    "organismo": "Servicio Local de Educación Pública Licancabur",
    "unidad": "Servicio Local de Educación Pública Licancabur",
    "region": "Región de Antofagasta ",
@@ -9802,8 +9802,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "origen": "api",
    "area": "tienda",
@@ -10531,7 +10531,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-22T11:36:00-03:00",
    "fecha_cierre": "2026-10-27T09:11:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-27T09:15:01.033Z",
+   "fecha_ultimo_cambio": "2026-10-27 09:15",
    "organismo": "I MUNICIPALIDAD DE SAN BERNARDO",
    "unidad": "OFICINA DE ADQUISICIONES",
    "region": "Región Metropolitana de Santiago",
@@ -10551,8 +10551,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
    "origen": "api",
@@ -11067,7 +11067,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-27T13:14:00-03:00",
    "fecha_cierre": "2026-10-29T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-10-29T09:05:01.370Z",
+   "fecha_ultimo_cambio": "2026-10-29 09:05",
    "organismo": "DELEGACIÓN PRESIDENCIAL REGIONAL DE VALPARAÍSO",
    "unidad": "EMERGENCIAS",
    "region": "Región de Valparaíso ",
@@ -11089,8 +11089,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "origen": "api",
    "area": "tienda",
@@ -11713,8 +11713,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -11729,7 +11729,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-10-16T13:13:00-03:00",
    "fecha_cierre": "2026-11-01T14:03:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-01T14:10:00.440Z",
+   "fecha_ultimo_cambio": "2026-11-01 14:10",
    "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
    "unidad": "Dirección de Vialidad - IX Región - Dirección Regional",
    "region": "Región de la Araucanía ",
@@ -11750,8 +11750,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T12:05:14+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
@@ -12042,8 +12042,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -12077,8 +12077,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -12089,8 +12089,8 @@
    "fuente": "licitacion",
    "codigo": "3269-15-LE26",
    "nombre": "SA. N 109 SERVICIO DE MANTENIMIENTO DE OFICINAS",
-   "estado": "otro",
-   "estado_glosa": "Desconocido",
+   "estado": "adjudicada",
+   "estado_glosa": "Adjudicada",
    "fecha_cierre": "2026-11-02T15:01:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3269-15-LE26",
    "descripcion": "SE REQUIERE EL MANTENIMIENTO Y REPARACIÓN DEL OFICINAS DEL EDIFICIO COORPORATIVO DEL SERVICIO AEROFOTOGRAMÉTRICO.",
@@ -12099,7 +12099,7 @@
    "region": "Región Metropolitana de Santiago",
    "comuna": "Pudahuel",
    "fecha_publicacion": "2026-10-22T14:21:57-03:00",
-   "fecha_adjudicacion": "2026-11-17T19:00:00-03:00",
+   "fecha_adjudicacion": "2026-11-17T11:12:47-03:00",
    "monto": 21000000.0,
    "moneda": "CLP",
    "tipo": "LE",
@@ -12112,21 +12112,21 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00",
    "area": "gestion",
    "relevancia": "baja",
    "coincide_en": "mencion",
-   "cambio_estado": "2026-11-17T14:05:13+00:00"
+   "cambio_estado": "2026-11-17T21:05:13+00:00"
   },
   {
    "id": "LIC:3269-18-LE26",
    "fuente": "licitacion",
    "codigo": "3269-18-LE26",
    "nombre": "SA.N 103 SVC. DE REPARACIÓN ESTACIONAMIENTOS",
-   "estado": "otro",
-   "estado_glosa": "Desconocido",
+   "estado": "adjudicada",
+   "estado_glosa": "Adjudicada",
    "fecha_cierre": "2026-11-02T15:01:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3269-18-LE26",
    "descripcion": "SERVICIO DE REPARACIÓN DE RAMPAS DE ACCESO Y REMOCIÓN, LIMPIEZA Y DEMARCACIÓN VIAL DE LOS ESTACIONAMIENTOS DEL SERVICIO AEROFOTOGRAMÉTRICO, DE ACUERDO A LAS BASES TÉCNICAS.",
@@ -12135,7 +12135,7 @@
    "region": "Región Metropolitana de Santiago",
    "comuna": "Pudahuel",
    "fecha_publicacion": "2026-10-22T14:24:20-03:00",
-   "fecha_adjudicacion": "2026-11-17T19:00:00-03:00",
+   "fecha_adjudicacion": "2026-11-17T11:12:54-03:00",
    "monto": 15000000.0,
    "moneda": "CLP",
    "tipo": "LE",
@@ -12148,13 +12148,13 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-22T18:05:13+00:00",
    "area": "gestion",
    "relevancia": "baja",
    "coincide_en": "mencion",
-   "cambio_estado": "2026-11-17T14:05:13+00:00"
+   "cambio_estado": "2026-11-17T21:05:13+00:00"
   },
   {
    "id": "CA:377-384-COT26",
@@ -12394,8 +12394,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00",
    "cambio_estado": "2026-11-04T18:05:16+00:00",
    "area": "tienda",
@@ -12690,8 +12690,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -12811,8 +12811,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -12949,8 +12949,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -12985,8 +12985,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-26T23:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -13252,8 +13252,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -13943,8 +13943,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -14064,8 +14064,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -14187,8 +14187,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -14731,8 +14731,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-02T13:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -14766,8 +14766,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-03T19:05:25+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -15125,8 +15125,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-04T13:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15288,8 +15288,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T14:05:13+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -15305,7 +15305,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-13T09:45:00-03:00",
    "fecha_cierre": "2026-11-17T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-17T10:10:01.603Z",
+   "fecha_ultimo_cambio": "2026-11-17 10:10",
    "organismo": "MINISTERIO DE BIENES NACIONALES",
    "unidad": "MINISTERIO DE BIENES NACIONALES",
    "region": "Región Metropolitana de Santiago",
@@ -15327,8 +15327,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T13:04:15+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-13T13:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -15510,7 +15510,7 @@
    "codigo": "2981-317-LP26",
    "nombre": "SUBDICOR- ADQ.11 VEHICULOS NO TRIPULADOS DRONES",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_cierre": "2026-11-17T15:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-317-LP26",
    "descripcion": "ADQUISICION DE 11 VEHICULOS AEREOS NO TRIPULADOS DRONES CON CAMARA TERMICA  TIPO MATRICE 4 TD EQUIVALENTE O SUPERIOR",
@@ -15534,8 +15534,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15547,7 +15547,7 @@
    "codigo": "2981-331-LE26",
    "nombre": "01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_cierre": "2026-11-17T15:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-331-LE26",
    "descripcion": "SE REQUIERE LA ADQUISICIÓN DE 01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR, SEGÚN RESOLEX ADJUNTA.",
@@ -15570,8 +15570,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "ultima_actualizacion": "2026-11-17T21:05:13+00:00",
+   "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
