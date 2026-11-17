@@ -1,29 +1,29 @@
 {
- "generado": "2026-11-17T17:05:12+00:00",
- "proxima_actualizacion": "2026-11-17T18:05:12+00:00",
+ "generado": "2026-11-17T18:05:11+00:00",
+ "proxima_actualizacion": "2026-11-17T19:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T17:05:12+00:00",
+   "ultima_ok": "2026-11-17T18:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4972,
-   "detalles_consultados": 30,
+   "revisadas": 4889,
+   "detalles_consultados": 16,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-17T17:05:12+00:00",
+   "ultima_ok": "2026-11-17T18:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 178,
-   "detalles_consultados": 71,
+   "revisadas": 10,
+   "detalles_consultados": 20,
    "segunda_pasada": 0,
-   "pendientes_segunda_pasada": 6,
-   "modo": "completo"
+   "pendientes_segunda_pasada": 0,
+   "modo": "recientes"
   }
  },
  "terminos": [
@@ -80,79 +80,6 @@
  "por_revisar": [],
  "items": [
   {
-   "id": "LIC:2981-317-LP26",
-   "fuente": "licitacion",
-   "codigo": "2981-317-LP26",
-   "nombre": "SUBDICOR- ADQ.11 VEHICULOS NO TRIPULADOS DRONES",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-17T15:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-317-LP26",
-   "descripcion": "ADQUISICION DE 11 VEHICULOS AEREOS NO TRIPULADOS DRONES CON CAMARA TERMICA  TIPO MATRICE 4 TD EQUIVALENTE O SUPERIOR",
-   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
-   "unidad": "DEPARTAMENTO ADMINISTRATIVO",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Santiago Centro",
-   "fecha_publicacion": "2026-11-02T12:59:55-03:00",
-   "fecha_adjudicacion": "2026-12-22T17:30:00-03:00",
-   "monto": 132000000.0,
-   "moneda": "CLP",
-   "tipo": "LP",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — VEHICULOS AEREOS NO TRIPULADO (DRON) CON CAMARA TERMICA TIPO MATRICE 4TD, EQUIVALENTE O SUPERIOR"
-   ],
-   "terminos": [
-    "Dron",
-    "Aeronave no tripulada",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
-   "primera_deteccion": "2026-11-02T16:05:12+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
-   "id": "LIC:2981-331-LE26",
-   "fuente": "licitacion",
-   "codigo": "2981-331-LE26",
-   "nombre": "01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-17T15:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-331-LE26",
-   "descripcion": "SE REQUIERE LA ADQUISICIÓN DE 01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR, SEGÚN RESOLEX ADJUNTA.",
-   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
-   "unidad": "DEPARTAMENTO ADMINISTRATIVO",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Santiago Centro",
-   "fecha_publicacion": "2026-11-05T14:54:03-03:00",
-   "fecha_adjudicacion": "2026-11-26T17:00:00-03:00",
-   "monto": 35000000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — SE REQUIERE LA ADQUISICIÓN DE 01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR, SEGÚN RESOLEX ADJUNTA."
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
-   "primera_deteccion": "2026-11-05T18:39:13+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
    "id": "LIC:2963-41-LP26",
    "fuente": "licitacion",
    "codigo": "2963-41-LP26",
@@ -180,7 +107,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -262,8 +189,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -305,8 +232,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -352,7 +279,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -431,8 +358,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -466,7 +393,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -511,7 +438,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -552,8 +479,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -594,7 +521,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -633,7 +560,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -757,8 +684,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -846,7 +773,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
@@ -891,7 +818,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -1016,7 +943,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1178,7 +1105,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1211,7 +1138,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1248,7 +1175,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1283,7 +1210,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1317,7 +1244,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1353,7 +1280,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T17:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1398,7 +1325,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1433,7 +1360,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
    "detalle_actualizado": "2026-11-17T14:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15392,8 +15319,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-17T18:05:11+00:00",
+   "detalle_actualizado": "2026-11-17T18:05:11+00:00",
    "primera_deteccion": "2026-11-14T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15526,6 +15453,79 @@
    "relevancia": "alta",
    "coincide_en": "titulo",
    "cambio_estado": "2026-11-17T16:05:12+00:00"
+  },
+  {
+   "id": "LIC:2981-317-LP26",
+   "fuente": "licitacion",
+   "codigo": "2981-317-LP26",
+   "nombre": "SUBDICOR- ADQ.11 VEHICULOS NO TRIPULADOS DRONES",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-17T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-317-LP26",
+   "descripcion": "ADQUISICION DE 11 VEHICULOS AEREOS NO TRIPULADOS DRONES CON CAMARA TERMICA  TIPO MATRICE 4 TD EQUIVALENTE O SUPERIOR",
+   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+   "unidad": "DEPARTAMENTO ADMINISTRATIVO",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-11-02T12:59:55-03:00",
+   "fecha_adjudicacion": "2026-12-22T17:30:00-03:00",
+   "monto": 132000000.0,
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — VEHICULOS AEREOS NO TRIPULADO (DRON) CON CAMARA TERMICA TIPO MATRICE 4TD, EQUIVALENTE O SUPERIOR"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "primera_deteccion": "2026-11-02T16:05:12+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:2981-331-LE26",
+   "fuente": "licitacion",
+   "codigo": "2981-331-LE26",
+   "nombre": "01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-17T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-331-LE26",
+   "descripcion": "SE REQUIERE LA ADQUISICIÓN DE 01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR, SEGÚN RESOLEX ADJUNTA.",
+   "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+   "unidad": "DEPARTAMENTO ADMINISTRATIVO",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-11-05T14:54:03-03:00",
+   "fecha_adjudicacion": "2026-11-26T17:00:00-03:00",
+   "monto": 35000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — SE REQUIERE LA ADQUISICIÓN DE 01 DRON TIPO MATRICE 400 EQUIVALENTE O SUPERIOR, SEGÚN RESOLEX ADJUNTA."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
+   "detalle_actualizado": "2026-11-17T14:05:13+00:00",
+   "primera_deteccion": "2026-11-05T18:39:13+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
   }
  ]
 }
