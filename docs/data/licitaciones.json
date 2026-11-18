@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-18T15:05:14+00:00",
- "proxima_actualizacion": "2026-11-18T16:05:14+00:00",
+ "generado": "2026-11-18T16:05:12+00:00",
+ "proxima_actualizacion": "2026-11-18T17:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T15:05:14+00:00",
+   "ultima_ok": "2026-11-18T16:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5038,
-   "detalles_consultados": 48,
+   "revisadas": 5065,
+   "detalles_consultados": 38,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T15:05:14+00:00",
+   "ultima_ok": "2026-11-18T16:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 14,
-   "detalles_consultados": 33,
+   "revisadas": 16,
+   "detalles_consultados": 23,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -77,9 +77,8 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "CA:377-435-COT26",
-  "CA:3588-600-COT26",
-  "CA:1487-66-COT26"
+  "CA:1098710-238-COT26",
+  "CA:1098710-235-COT26"
  ],
  "por_revisar": [
   {
@@ -98,46 +97,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:1469-4195-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1469-4195-COT26",
-   "nombre": "20-45579 Adquisición de Equipo dron con accesorios",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-17T12:49:00-03:00",
-   "fecha_cierre": "2026-11-18T12:50:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-17 12:50",
-   "organismo": "UNIVERSIDAD DE TALCA",
-   "unidad": "Universidad de Talca",
-   "region": "Región del Maule ",
-   "monto": 2000000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1469-4195-COT26",
-   "descripcion": "Se requiere la adquisición de Equipo dron con accesorios , conforme a las especificaciones técnicas adjuntas. La oferta deberá considerar la totalidad de los productos solicitados, despacho incluido y sin costo adicional. Se deberá adjuntar cotización indicando bienes ofertados, precios y plazo de entrega.",
-   "direccion_entrega": "Facultad de Psicología, Universidad de Talca  Avda. Lirca2 S/N",
-   "plazo_entrega_dias": 2,
-   "productos": [
-    "Baterías de litio — Dron con cámara 360° de resolución 8K, gafas inmersivas Vision, controlador Grip y tecnología de captura panorámica. Incluye 3 baterías de alta capacidad, lector rápido, hub de carga, estuche de transporte, bandolera y 8 hélices de repuesto. Peso desde 249 g y autonomía de hasta 39 minutos. Modos de vuelo FreeMotion y FPV. Permite capturar imágenes desde todos los ángulos en una sola toma. Se adjuntan especificaciones técnicas e imagen referencial del producto."
-   ],
-   "adjuntos": [
-    "ESPEC.TÉCNICAS 20-45579.pdf"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
-   "primera_deteccion": "2026-11-17T16:05:12+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "LIC:411-52-LE26",
    "fuente": "licitacion",
@@ -166,7 +125,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -211,7 +170,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -252,52 +211,10 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
-   "id": "CA:2324-1207-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2324-1207-COT26",
-   "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE)/ DIRECCION DE SEGURIDAD PUBLICA.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-16T16:05:00-03:00",
-   "fecha_cierre": "2026-11-18T16:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16T16:10:01.057Z",
-   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
-   "unidad": "Departamento de Licitaciones y gestión de Abastecimiento",
-   "region": "Región de los Lagos ",
-   "monto": 3620000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2324-1207-COT26",
-   "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA.",
-   "direccion_entrega": "CALLE EL TENIENTE N° 65, BODEGA MUNICIPAL N°2, PARQUE INDUISTRIAL",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Módulos de servicio para aeronaves — SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA. \n"
-   ],
-   "adjuntos": [
-    "ANEXO N°1    COMPRA AGIL 2324-1207-COT26.docx",
-    "BASES TÉCNICAS SERVICIO REPUESTOS Y MANTENCION DE DRONES.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-17T16:05:12+00:00",
-   "primera_deteccion": "2026-11-16T19:13:02+00:00",
-   "area": "gestion",
    "relevancia": "alta",
    "coincide_en": "titulo"
   },
@@ -333,7 +250,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -457,8 +374,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -540,8 +457,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -586,7 +503,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
@@ -631,7 +548,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -678,6 +595,46 @@
    "area": "otros",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:1098710-238-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1098710-238-COT26",
+   "nombre": "Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-18T12:50:00-03:00",
+   "fecha_cierre": "2026-11-19T13:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 12:55",
+   "organismo": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
+   "unidad": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 6000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1098710-238-COT26",
+   "descripcion": "Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno, Consejo CTCI. Incluye grabación en 4K en los nodos de laboratorios (cámaras, lentes, drone con licencia DGA y micrófonos), mínimo 150 minutos de video editado por locación con corrección de color y línea de tiempo. Equipo con profesional de 10 años en comunicación pública de la ciencia. Pago en dos cuotas: plan de trabajo aprobado y entregable aprobado.",
+   "direccion_entrega": "Morandé 226",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Videos — Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno, Consejo CTCI. Incluye grabación en 4K en los nodos de laboratorios (cámaras, lentes, drone con licencia DGA y micrófonos), mínimo 150 minutos de video editado por locación con corrección de color y línea de tiempo. Equipo con profesional de 10 años en comunicación pública de la ciencia. Pago en dos cuotas: plan de trabajo aprobado y entregable aprobado. Entrega al 31/12/2026"
+   ],
+   "adjuntos": [
+    "TDR 2285.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
+   "primera_deteccion": "2026-11-18T16:05:12+00:00",
+   "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "detalle"
   },
   {
    "id": "CA:1515304-336-COT26",
@@ -749,7 +706,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -791,12 +748,54 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
    "relevancia": "baja",
    "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:2324-1207-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2324-1207-COT26",
+   "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE)/ DIRECCION DE SEGURIDAD PUBLICA.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-16T16:05:00-03:00",
+   "fecha_cierre": "2026-11-20T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 12:35",
+   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
+   "unidad": "Departamento de Licitaciones y gestión de Abastecimiento",
+   "region": "Región de los Lagos ",
+   "monto": 3620000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2324-1207-COT26",
+   "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA.",
+   "direccion_entrega": "CALLE EL TENIENTE N° 65, BODEGA MUNICIPAL N°2, PARQUE INDUISTRIAL",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Módulos de servicio para aeronaves — SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA. \n"
+   ],
+   "adjuntos": [
+    "ANEXO N°1    COMPRA AGIL 2324-1207-COT26.docx",
+    "BASES TÉCNICAS SERVICIO REPUESTOS Y MANTENCION DE DRONES.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
+   "primera_deteccion": "2026-11-16T19:13:02+00:00",
+   "area": "gestion",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
   },
   {
    "id": "CA:1515304-340-COT26",
@@ -874,8 +873,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -998,8 +997,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1081,8 +1080,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1117,7 +1116,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1150,7 +1149,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1187,7 +1186,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T11:05:11+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1234,8 +1233,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1269,7 +1268,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1303,7 +1302,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1339,7 +1338,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1384,7 +1383,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T11:05:11+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1419,7 +1418,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15639,8 +15638,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15683,8 +15682,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -15777,6 +15776,87 @@
    "relevancia": "alta",
    "coincide_en": "titulo",
    "cambio_estado": "2026-11-18T15:05:14+00:00"
+  },
+  {
+   "id": "CA:1469-4195-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1469-4195-COT26",
+   "nombre": "20-45579 Adquisición de Equipo dron con accesorios",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-17T12:49:00-03:00",
+   "fecha_cierre": "2026-11-18T12:50:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 12:55",
+   "organismo": "UNIVERSIDAD DE TALCA",
+   "unidad": "Universidad de Talca",
+   "region": "Región del Maule ",
+   "monto": 2000000.0,
+   "moneda": "CLP",
+   "ofertas": 11,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1469-4195-COT26",
+   "descripcion": "Se requiere la adquisición de Equipo dron con accesorios , conforme a las especificaciones técnicas adjuntas. La oferta deberá considerar la totalidad de los productos solicitados, despacho incluido y sin costo adicional. Se deberá adjuntar cotización indicando bienes ofertados, precios y plazo de entrega.",
+   "direccion_entrega": "Facultad de Psicología, Universidad de Talca  Avda. Lirca2 S/N",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Baterías de litio — Dron con cámara 360° de resolución 8K, gafas inmersivas Vision, controlador Grip y tecnología de captura panorámica. Incluye 3 baterías de alta capacidad, lector rápido, hub de carga, estuche de transporte, bandolera y 8 hélices de repuesto. Peso desde 249 g y autonomía de hasta 39 minutos. Modos de vuelo FreeMotion y FPV. Permite capturar imágenes desde todos los ángulos en una sola toma. Se adjuntan especificaciones técnicas e imagen referencial del producto."
+   ],
+   "adjuntos": [
+    "ESPEC.TÉCNICAS 20-45579.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
+   "primera_deteccion": "2026-11-17T16:05:12+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-18T16:05:12+00:00"
+  },
+  {
+   "id": "CA:1098710-235-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1098710-235-COT26",
+   "nombre": "Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno",
+   "estado": "cancelada",
+   "estado_glosa": "Cancelada",
+   "fecha_publicacion": "2026-11-18T12:18:00-03:00",
+   "fecha_cierre": "2026-11-23T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 12:35",
+   "organismo": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
+   "unidad": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 6000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1098710-235-COT26",
+   "descripcion": "Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno, Consejo CTCI. Incluye grabación en 4K en los nodos de laboratorios (cámaras, lentes, drone con licencia DGA y micrófonos), mínimo 150 minutos de video editado por locación con corrección de color y línea de tiempo. Equipo con profesional de 10 años en comunicación pública de la ciencia. Pago en dos cuotas: plan de trabajo aprobado y entregable aprobado. .",
+   "direccion_entrega": "Morandé 226",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Producción de vídeo — Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno, Consejo CTCI. Incluye grabación en 4K en los nodos de laboratorios (cámaras, lentes, drone con licencia DGA y micrófonos), mínimo 150 minutos de video editado por locación con corrección de color y línea de tiempo. Equipo con profesional de 10 años en comunicación pública de la ciencia. Pago en dos cuotas: plan de trabajo aprobado y entregable aprobado. Entrega al 31/12/2026."
+   ],
+   "adjuntos": [
+    "6af728289d56d (1).docx"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T16:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
+   "primera_deteccion": "2026-11-18T16:05:12+00:00",
+   "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "detalle"
   }
  ]
 }
