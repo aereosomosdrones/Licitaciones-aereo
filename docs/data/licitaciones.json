@@ -1,29 +1,29 @@
 {
- "generado": "2026-11-18T17:05:13+00:00",
- "proxima_actualizacion": "2026-11-18T18:05:13+00:00",
+ "generado": "2026-11-18T18:05:12+00:00",
+ "proxima_actualizacion": "2026-11-18T19:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T17:05:13+00:00",
+   "ultima_ok": "2026-11-18T18:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5079,
-   "detalles_consultados": 57,
+   "revisadas": 4986,
+   "detalles_consultados": 22,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T17:05:13+00:00",
+   "ultima_ok": "2026-11-18T18:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 185,
-   "detalles_consultados": 75,
+   "revisadas": 17,
+   "detalles_consultados": 21,
    "segunda_pasada": 0,
-   "pendientes_segunda_pasada": 8,
-   "modo": "completo"
+   "pendientes_segunda_pasada": 0,
+   "modo": "recientes"
   }
  },
  "terminos": [
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:1602-121-COT26"
+ ],
  "por_revisar": [
   {
    "id": "CA:2091-50-COT26",
@@ -94,51 +96,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:1984-20-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1984-20-COT26",
-   "nombre": "Curso formación de Operadores de aeronave pilotadas a distancia (RPA:Rmotely Piloted Aircraft)",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-16T13:07:00-03:00",
-   "fecha_cierre": "2026-11-18T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16T13:10:01.193Z",
-   "organismo": "Servicio Nacional de Pesca y Acuicultura",
-   "unidad": "IV - Servicio Nacional de Pesca y Acuicultura",
-   "region": "Región de Coquimbo ",
-   "monto": 1260000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1984-20-COT26",
-   "descripcion": "Contratar un servicio de capacitación especializado en Operación de Aeronaves Pilotadas a Distancia (RPA), destinado a desarrollar en los participantes los conocimientos, habilidades y competencias teóricas y prácticas necesarias para realizar operaciones de manera segura, responsable y conforme a la normativa aeronáutica vigente, proporcionándoles la preparación requerida para optar a la Credencial de Operador de RPA ante la Dirección General de Aeronáutica Civil (DGAC), de acuerdo con los requ",
-   "direccion_entrega": "Oficina 709, Piso 7, Edificio Arenas Coquimbo, Avenida Videla N°340, Coqimbp",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Capacitación a empleados — servicio de capacitación especializado en operación de Aeronaves Pilotadas a Distancia (RPA), orientado a proporcionar a los participantes los conocimientos teóricos y prácticos necesarios para desempeñarse como operadores de RPA, de conformidad con la normativa aeronáutica vigente establecida por la Dirección General de Aeronáutica Civil (DGAC), para seis funcionarios más un oyente, considerar el numeral 2.3 especificaciones técnicas y adjuntar los documentos solicitados en el numeral 7."
-   ],
-   "adjuntos": [
-    "Anexo N°2 Cotización Economica.docx",
-    "Compra ágil curso Operación Dron.pdf",
-    "ANEXO N°1 Compra Sustentables.docx"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Aeronave no tripulada",
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-16T16:05:13+00:00",
-   "primera_deteccion": "2026-11-16T16:05:13+00:00",
-   "area": "capacitacion",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:6-110-COT26",
    "fuente": "compra_agil",
@@ -173,8 +130,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -212,7 +169,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -336,8 +293,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -419,7 +376,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
@@ -465,7 +422,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
@@ -510,7 +467,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -567,8 +524,8 @@
    "estado": "abierta",
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-11-18T12:50:00-03:00",
-   "fecha_cierre": "2026-11-19T13:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18T12:55:01.133Z",
+   "fecha_cierre": "2026-11-19T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 14:50",
    "organismo": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
    "unidad": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
    "region": "Región Metropolitana de Santiago",
@@ -591,8 +548,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -641,6 +598,50 @@
    "coincide_en": "mencion"
   },
   {
+   "id": "CA:1602-121-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1602-121-COT26",
+   "nombre": "ADQUIRIR TRES AERONAVES PILOTADAS A DISTANCIA (RPAS-DRON) (jbt-168)",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-18T14:55:00-03:00",
+   "fecha_cierre": "2026-11-19T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 15:00",
+   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+   "unidad": "UNIDAD DE COMPRA SERVICIOS GENERALES",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 6199998.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1602-121-COT26",
+   "descripcion": "El Criterio de selección de oferta, cumplido los requerimientos, será: 3% Criterios Sustentables y 97% Precio Ofertado. ADJUNTAR DETALLADAMENTE SU OFERTA, de lo contrario no será considerada. Esta Inst. retiene por todas las compras un impuesto del 2% del total facturado art.37 de la ley 16.752. **SUBIR DECLARACIÓN JURADA ADJUNTA FIRMADA y FORMULARIO CRITERIOS SUSTENTABLES** E102RT9",
+   "direccion_entrega": "Miguel Claro 1314",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — AERONAVES PILOTADAS A DISTANCIA (RPAS-DRON) (Según Requerimientos Técnicos adjuntos) "
+   ],
+   "adjuntos": [
+    "CRITERIO SUSTENTABLE PARA PROVEEDORES.pdf",
+    "DECLARACION_CLAUSULA_DE_PROVEEDORES_DE_BIENES_Y_SERVICIOS__C_AGIL.pdf",
+    "REQUERIMIENTOS TÉCNICOS.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
+   "primera_deteccion": "2026-11-18T18:05:12+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
    "id": "LIC:2963-41-LP26",
    "fuente": "licitacion",
    "codigo": "2963-41-LP26",
@@ -668,7 +669,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T17:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -710,7 +711,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T17:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -752,7 +753,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -835,8 +836,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -959,8 +960,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1085,7 +1086,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -1121,7 +1122,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1154,7 +1155,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T17:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1191,7 +1192,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T17:05:13+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1238,8 +1239,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1273,7 +1274,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T17:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1307,7 +1308,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T17:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1343,7 +1344,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1388,7 +1389,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T17:05:13+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1423,7 +1424,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T17:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15622,8 +15623,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15666,8 +15667,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -15794,8 +15795,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15839,6 +15840,52 @@
    "cambio_estado": "2026-11-18T17:05:13+00:00"
   },
   {
+   "id": "CA:1984-20-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1984-20-COT26",
+   "nombre": "Curso formación de Operadores de aeronave pilotadas a distancia (RPA:Rmotely Piloted Aircraft)",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-16T13:07:00-03:00",
+   "fecha_cierre": "2026-11-18T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 15:05",
+   "organismo": "Servicio Nacional de Pesca y Acuicultura",
+   "unidad": "IV - Servicio Nacional de Pesca y Acuicultura",
+   "region": "Región de Coquimbo ",
+   "monto": 1260000.0,
+   "moneda": "CLP",
+   "ofertas": 4,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1984-20-COT26",
+   "descripcion": "Contratar un servicio de capacitación especializado en Operación de Aeronaves Pilotadas a Distancia (RPA), destinado a desarrollar en los participantes los conocimientos, habilidades y competencias teóricas y prácticas necesarias para realizar operaciones de manera segura, responsable y conforme a la normativa aeronáutica vigente, proporcionándoles la preparación requerida para optar a la Credencial de Operador de RPA ante la Dirección General de Aeronáutica Civil (DGAC), de acuerdo con los requ",
+   "direccion_entrega": "Oficina 709, Piso 7, Edificio Arenas Coquimbo, Avenida Videla N°340, Coqimbp",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Capacitación a empleados — servicio de capacitación especializado en operación de Aeronaves Pilotadas a Distancia (RPA), orientado a proporcionar a los participantes los conocimientos teóricos y prácticos necesarios para desempeñarse como operadores de RPA, de conformidad con la normativa aeronáutica vigente establecida por la Dirección General de Aeronáutica Civil (DGAC), para seis funcionarios más un oyente, considerar el numeral 2.3 especificaciones técnicas y adjuntar los documentos solicitados en el numeral 7."
+   ],
+   "adjuntos": [
+    "Anexo N°2 Cotización Economica.docx",
+    "Compra ágil curso Operación Dron.pdf",
+    "ANEXO N°1 Compra Sustentables.docx"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Aeronave no tripulada",
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-18T18:05:12+00:00",
+   "primera_deteccion": "2026-11-16T16:05:13+00:00",
+   "area": "capacitacion",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-18T18:05:12+00:00"
+  },
+  {
    "id": "CA:1098710-235-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -15871,7 +15918,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-18T18:05:12+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
