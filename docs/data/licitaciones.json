@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-18T12:55:15+00:00",
- "proxima_actualizacion": "2026-11-18T13:55:15+00:00",
+ "generado": "2026-11-18T14:05:11+00:00",
+ "proxima_actualizacion": "2026-11-18T15:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T12:55:15+00:00",
+   "ultima_ok": "2026-11-18T14:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4981,
-   "detalles_consultados": 22,
+   "revisadas": 5006,
+   "detalles_consultados": 63,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T12:55:15+00:00",
+   "ultima_ok": "2026-11-18T14:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 11,
-   "detalles_consultados": 18,
+   "detalles_consultados": 20,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -95,88 +95,6 @@
  ],
  "items": [
   {
-   "id": "CA:5485-922-COT26",
-   "fuente": "compra_agil",
-   "codigo": "5485-922-COT26",
-   "nombre": "COMPRA DE DRON Y CÁMARA 4K (PROVEEDORES ADJUNTAR COTIZACIONES Y IMAGENES DE PRODUCTOS), SE ADJUNTA PDF DE LO SOLICITADO.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-04T15:39:00-03:00",
-   "fecha_cierre": "2026-11-18T09:56:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-17 10:00",
-   "organismo": "UNIVERSIDAD DE CHILE",
-   "unidad": "FAC.CS.AGRONOMICAS Dirección Económ. y Adm",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 700000.0,
-   "moneda": "CLP",
-   "ofertas": 4,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5485-922-COT26",
-   "descripcion": "1 DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo.\n1 CÁMARA 4k con accesorios.\n\nSE ADJUNTA PDF DE LAS CARACTERISTICAS DE AMBOS PRODUCTOS.",
-   "direccion_entrega": "Av. Santa Rosa 11315, comuna La Pintana. Universidad de Chile.",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo. (se adjunta PDF de características técnicas)\n",
-    "Cámaras digitales — CÁMARA 4k con accesorios (se adjunta PDF de características técnicas)."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
-   "primera_deteccion": "2026-11-05T06:05:10+00:00",
-   "cambio_estado": "2026-11-17T17:05:12+00:00",
-   "origen": "api",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo",
-   "adjuntos": [
-    "CARACTERISTICAS DRON Y CÁMARA.pdf"
-   ]
-  },
-  {
-   "id": "CA:2424-2087-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2424-2087-COT26",
-   "nombre": "DRON /  N°163 / 4962 / IO",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-17T10:40:00-03:00",
-   "fecha_cierre": "2026-11-18T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-17 10:45",
-   "organismo": "I MUNICIPALIDAD DE VINA DEL MAR",
-   "unidad": "I MUNICIPALIDAD DE VINA DEL MAR",
-   "region": "Región de Valparaíso ",
-   "monto": 7122019.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2424-2087-COT26",
-   "descripcion": "SE REQUIERE DRON SEGÚN FICHA TÉCNICA ADJUNTA. EL OFERENTE DEBE ADJUNTAR COTIZACIÓN (CON DATOS DE CONTACTO) Y ANEXO TÉCNICO DETALLADO. EL VALOR DEBE INCLUIR FLETE/DESPACHO. NOTA: NO SE ACEPTARÁN OFERTAS QUE SUPEREN EL PLAZO DE ENTREGA ESTABLECIDO. SE DEBE OFERTAR LA TOTALIDAD DE LO SOLICITADO CUALQUIER OMISIÓN SERÁ DECLARADO INADMISIBLE",
-   "direccion_entrega": "ARLEGUI 615 VIÑA DEL MAR",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — SE REQUIERE TIPO DRONE SIMILAR O SUPERIOR SEGÚN FICHA TÉCNICA ADJUNTA. EL OFERENTE DEBE ADJUNTAR COTIZACIÓN (CON DATOS DE CONTACTO) Y ANEXO TÉCNICO DETALLADO. EL VALOR DEBE INCLUIR FLETE/DESPACHO. NOTA: NO SE ACEPTARÁN OFERTAS QUE SUPEREN EL PLAZO DE ENTREGA ESTABLECIDO. SE DEBE OFERTAR LA TOTALIDAD DE LO SOLICITADO CUALQUIER OMISIÓN SERÁ DECLARADO INADMISIBLE\n\n"
-   ],
-   "adjuntos": [
-    "DRONE.pdf"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T12:55:15+00:00",
-   "primera_deteccion": "2026-11-17T14:05:13+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
    "id": "CA:3877-589-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -212,8 +130,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -259,8 +177,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T07:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -338,8 +256,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -373,7 +291,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -418,7 +336,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -459,8 +377,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -501,7 +419,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -540,7 +458,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -664,8 +582,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -747,8 +665,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -793,7 +711,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
@@ -838,8 +756,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T07:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -956,7 +874,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -998,7 +916,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1164,8 +1082,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1200,8 +1118,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T07:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1233,7 +1151,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1270,7 +1188,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T11:05:11+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1305,7 +1223,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1339,7 +1257,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1375,8 +1293,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
-   "detalle_actualizado": "2026-11-18T07:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -1420,7 +1338,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T11:05:11+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1455,7 +1373,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T12:55:15+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15255,8 +15173,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T07:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T07:05:14+00:00",
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15635,6 +15553,93 @@
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:5485-922-COT26",
+   "fuente": "compra_agil",
+   "codigo": "5485-922-COT26",
+   "nombre": "COMPRA DE DRON Y CÁMARA 4K (PROVEEDORES ADJUNTAR COTIZACIONES Y IMAGENES DE PRODUCTOS), SE ADJUNTA PDF DE LO SOLICITADO.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-04T15:39:00-03:00",
+   "fecha_cierre": "2026-11-18T09:56:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 10:00",
+   "organismo": "UNIVERSIDAD DE CHILE",
+   "unidad": "FAC.CS.AGRONOMICAS Dirección Económ. y Adm",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 700000.0,
+   "moneda": "CLP",
+   "ofertas": 8,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5485-922-COT26",
+   "descripcion": "1 DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo.\n1 CÁMARA 4k con accesorios.\n\nSE ADJUNTA PDF DE LAS CARACTERISTICAS DE AMBOS PRODUCTOS.",
+   "direccion_entrega": "Av. Santa Rosa 11315, comuna La Pintana. Universidad de Chile.",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo. (se adjunta PDF de características técnicas)\n",
+    "Cámaras digitales — CÁMARA 4k con accesorios (se adjunta PDF de características técnicas)."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
+   "primera_deteccion": "2026-11-05T06:05:10+00:00",
+   "cambio_estado": "2026-11-18T14:05:11+00:00",
+   "origen": "api",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "adjuntos": [
+    "CARACTERISTICAS DRON Y CÁMARA.pdf"
+   ],
+   "resultado": {
+    "ofertas": 4,
+    "oferta_minima": 878980.0
+   }
+  },
+  {
+   "id": "CA:2424-2087-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2424-2087-COT26",
+   "nombre": "DRON /  N°163 / 4962 / IO",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-17T10:40:00-03:00",
+   "fecha_cierre": "2026-11-18T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 11:05",
+   "organismo": "I MUNICIPALIDAD DE VINA DEL MAR",
+   "unidad": "I MUNICIPALIDAD DE VINA DEL MAR",
+   "region": "Región de Valparaíso ",
+   "monto": 7122019.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2424-2087-COT26",
+   "descripcion": "SE REQUIERE DRON SEGÚN FICHA TÉCNICA ADJUNTA. EL OFERENTE DEBE ADJUNTAR COTIZACIÓN (CON DATOS DE CONTACTO) Y ANEXO TÉCNICO DETALLADO. EL VALOR DEBE INCLUIR FLETE/DESPACHO. NOTA: NO SE ACEPTARÁN OFERTAS QUE SUPEREN EL PLAZO DE ENTREGA ESTABLECIDO. SE DEBE OFERTAR LA TOTALIDAD DE LO SOLICITADO CUALQUIER OMISIÓN SERÁ DECLARADO INADMISIBLE",
+   "direccion_entrega": "ARLEGUI 615 VIÑA DEL MAR",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — SE REQUIERE TIPO DRONE SIMILAR O SUPERIOR SEGÚN FICHA TÉCNICA ADJUNTA. EL OFERENTE DEBE ADJUNTAR COTIZACIÓN (CON DATOS DE CONTACTO) Y ANEXO TÉCNICO DETALLADO. EL VALOR DEBE INCLUIR FLETE/DESPACHO. NOTA: NO SE ACEPTARÁN OFERTAS QUE SUPEREN EL PLAZO DE ENTREGA ESTABLECIDO. SE DEBE OFERTAR LA TOTALIDAD DE LO SOLICITADO CUALQUIER OMISIÓN SERÁ DECLARADO INADMISIBLE\n\n"
+   ],
+   "adjuntos": [
+    "DRONE.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
+   "primera_deteccion": "2026-11-17T14:05:13+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-18T14:05:11+00:00"
   }
  ]
 }
