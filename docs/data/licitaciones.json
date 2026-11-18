@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-18T14:05:11+00:00",
- "proxima_actualizacion": "2026-11-18T15:05:11+00:00",
+ "generado": "2026-11-18T15:05:14+00:00",
+ "proxima_actualizacion": "2026-11-18T16:05:14+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T14:05:11+00:00",
+   "ultima_ok": "2026-11-18T15:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5006,
-   "detalles_consultados": 63,
+   "revisadas": 5038,
+   "detalles_consultados": 48,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T14:05:11+00:00",
+   "ultima_ok": "2026-11-18T15:05:14+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 11,
-   "detalles_consultados": 20,
+   "revisadas": 14,
+   "detalles_consultados": 33,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,11 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:377-435-COT26",
+  "CA:3588-600-COT26",
+  "CA:1487-66-COT26"
+ ],
  "por_revisar": [
   {
    "id": "CA:2091-50-COT26",
@@ -94,135 +98,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:3877-589-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "3877-589-COT26",
-   "nombre": "servicio de mantención y reparación del dron DJI Matrice 30T, equipamiento tecnológico utilizado como herramienta de apoyo para el desarrollo de labores de vigilancia aérea, patrullaje preventivo, mon",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-16T11:22:00-03:00",
-   "fecha_cierre": "2026-11-18T11:49:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-17 11:50",
-   "organismo": "I MUNICIPALIDAD DE LAMPA",
-   "unidad": "Adquisiciones",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1000000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3877-589-COT26",
-   "descripcion": "servicio de mantención y reparación del dron DJI Matrice 30T, equipamiento tecnológico\nutilizado como herramienta de apoyo para el desarrollo de labores de vigilancia aérea, patrullaje\npreventivo, monitoreo territorial y apoyo a procedimientos de seguridad pública en distintos\nsectores de la comuna, PROVEEDORES DEBEN ADJUNTAR COTIZACION FORMAL Y EETT DEL SERVICIO OFRECIDO, QUE SE DEBE AJUSTAR INTEGRAMENTE A LOS SOLICITADO EN EETT ADJUNTAS, DE LO CONTRARIO OFERTA QUEDARA INADMISIBLE",
-   "direccion_entrega": "ARTURO PRAT 1138",
-   "plazo_entrega_dias": 2,
-   "productos": [
-    "Servicios electromecánicos — Contratar un servicio técnico especializado para\nla mantención del dron DJI Matrice 30T y la\nreparación de su control remoto DJI RC Plus,\nmediante la revisión, intervención técnica,\nreposición de componentes y ejecución de\npruebas de funcionamiento que permitan\nrestablecer las condiciones operativas del\nequipamiento."
-   ],
-   "adjuntos": [
-    "FICHA 51 SEGURIDAD.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)",
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
-   "primera_deteccion": "2026-11-16T15:05:11+00:00",
-   "area": "gestion",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
-   "id": "LIC:2460-143-LE26",
-   "fuente": "licitacion",
-   "codigo": "2460-143-LE26",
-   "nombre": "Adquisición de Bienes para Comunicaciones",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-18T12:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2460-143-LE26",
-   "descripcion": "Contar con todos los elementos solicitados por Ejecución Presupuestaria 2026, con objeto de adquirir los implementos necesarios para sus labores.",
-   "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
-   "unidad": "Dirección de Administración y Finanzas",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Providencia",
-   "fecha_publicacion": "2026-11-07T16:48:42-03:00",
-   "fecha_adjudicacion": "2026-12-09T18:00:00-03:00",
-   "monto": 8464990.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Guillotinas de imprenta — Línea N°1 \"Guillotina\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Pilas alcalinas — Línea N°2 \"Pilas\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Baterías de litio — Línea N°3 \"Batería para Dron\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Baterías de litio — Línea N°4 \"Batería para cámara tipo 1\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Baterías de litio — Línea N°5 \"Batería para cámara tipo 2\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Baterías recargables — Línea N°6 \"Batería externa\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Micrófonos — Línea N°7 \"Micrófonos y accesorios\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Mochilas — Línea N°8 \"Mochila para cámara\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Mochilas — Línea N°9 \"Mochila traker\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Tabletas gráficas — Línea N°10 \"Tableta gráfica\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Sistemas de iluminación de escenario o estudio — Línea N°11 \"Luz Led\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Sistemas de control de iluminación — Línea N°12 \"Controlador DMX\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
-    "Receptores o transmisores de radiofrecuencia — Línea N°13 \"Radio portátil\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto."
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
-   "primera_deteccion": "2026-11-07T20:05:09+00:00",
-   "area": "tienda",
-   "relevancia": "baja",
-   "coincide_en": "mencion"
-  },
-  {
-   "id": "CA:2859-1516-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2859-1516-COT26",
-   "nombre": "Compra de accesorios para Dron",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-11T18:39:00-03:00",
-   "fecha_cierre": "2026-11-18T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-11 18:40",
-   "organismo": "UNIVERSIDAD DE ATACAMA",
-   "unidad": "SECCIÓN ABASTECIMIENTO",
-   "region": "Región de Atacama ",
-   "monto": 340000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2859-1516-COT26",
-   "descripcion": "El monto presupuestado incluye IVA y costos de despacho. La oferta debe realizarse por la totalidad del producto solicitado y su plazo de entrega debe ser acorde al lugar de destino y a los plazos requeridos. Quedará automáticamente fuera del proceso la oferta que no presente especificaciones técnicas fehacientes o que no adjunte la cotización detallada correspondiente.",
-   "direccion_entrega": "Avenida Copayapu N°485, Universidad de Atacama.",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Baterías recargables — Batería de larga duración para Dron similar o superior a DJI Mini 3 Pro Intelligent Flight Battery Plus con las siguientes características: Debe ser compatible con el dron DJI Mini 3 Pro, Debe durar al menos 45 minutos.",
-    "Bolsos — Bolso maleta para dron DJI Mini Pro con las siguientes características: Debe ser compatible con el dron DJI Mini 3 Pro, Impermeable, Antigolpes, Dimensiones iguales o superiores a: 17.5 cm de alto, 23.2cm de ancho y 92cm de profundidad."
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
-   "primera_deteccion": "2026-11-12T15:05:12+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:1469-4195-COT26",
    "fuente": "compra_agil",
@@ -256,8 +131,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -291,7 +166,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -336,7 +211,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -377,8 +252,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -419,7 +294,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -458,7 +333,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -582,8 +457,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -665,8 +540,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -711,7 +586,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
@@ -756,7 +631,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -874,7 +749,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -916,7 +791,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -964,6 +839,47 @@
    "area": "capacitacion",
    "relevancia": "baja",
    "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:3588-600-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "3588-600-COT26",
+   "nombre": "Dron tipo Mavic 3 Classic DJI",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-18T11:21:00-03:00",
+   "fecha_cierre": "2026-11-20T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 11:25",
+   "organismo": "I MUNICIPALIDAD DE YUNGAY",
+   "unidad": "Direccion Administración y Finanzas",
+   "region": "Región del Ñuble",
+   "monto": 2000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3588-600-COT26",
+   "descripcion": "Adquisición de un Dron para levantamiento de componentes ambientales, turisticos y fiscalizaciones, segun lo indicado en documentos anexos.\nAdjuntar cotizacion formal y detallada.",
+   "direccion_entrega": "Esmeralda 380, Yungay",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — Adquisición de un Dron para levantamiento de componentes ambientales, turisticos y fiscalizaciones, segun lo indicado en documentos anexos.\nAdjuntar cotizacion formal y detallada."
+   ],
+   "adjuntos": [
+    "Solicitud Interna N° 866.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "primera_deteccion": "2026-11-18T15:05:14+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
   },
   {
    "id": "CA:1515304-338-COT26",
@@ -1082,9 +998,92 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:2483-572-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2483-572-COT26",
+   "nombre": "ADQUISICIÓN Y RENOVACIÓN DE LICENCIAS PARA EQUIPOS DRONE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-13T10:23:00-03:00",
+   "fecha_cierre": "2026-11-21T08:41:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 10:10",
+   "organismo": "I MUNICIPALIDAD DE QUILICURA",
+   "unidad": "DEPARTAMENTO COMPRAS PÚBLICAS",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 2000000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2483-572-COT26",
+   "descripcion": "ADQUISICIÓN Y RENOVACIÓN DE LICENCIAS PARA EQUIPOS DRONE, PRESUPUESTO TOTAL DISPONIBLE $2.000.000.- IVA INCLUIDO.",
+   "direccion_entrega": "José Pedro Escobar, 487, Quilicura",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Software de vigilancia de redes — Los proveedores deben adjuntar a su cotización la ficha técnica que detalle el cumplimiento de cada requerimiento técnico y el plazo de entrega ofertado. Serán inadmisibles las ofertas que excedan el presupuesto disponible, omitan la ficha técnica o la documentación solicitada, no detallen lo requerido, superen el plazo máximo o fecha de inicio, o incumplan exigencias técnicas. El proveedor seleccionado deberá cumplir estricta y oportunamente su oferta; el incumplimiento será sancionado."
+   ],
+   "adjuntos": [
+    "EETT - 2026-11-13T101954.131.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "primera_deteccion": "2026-11-13T14:05:11+00:00",
+   "area": "capacitacion",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-18T15:05:14+00:00"
+  },
+  {
+   "id": "CA:1487-66-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1487-66-COT26",
+   "nombre": "Adquisición de equipos aéreo no tripulado (RPAS) -  Departamento de aeródromos y servicios aeronáuticos",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-18T11:16:00-03:00",
+   "fecha_cierre": "2026-11-23T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 11:20",
+   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+   "unidad": "UNIDAD DE COMPRA CONCEPCION",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 7000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1487-66-COT26",
+   "descripcion": "Adquisición de Equipos aéreos no tripulados para la DASA, conforme a características técnicas descritas en Anexo REQUISITOS TÉCNICOS adjunto. Las ofertas deberán contener las especificaciones técnicas de los productos ofertados. Según lo indicado en el Art.37 de la Ley N°16.752, LA DGAC RETIENE UN 2% DEL TOTAL FACTURADO. Si el proveedor oferta en la compra ágil, se entiende que ACEPTA dicha retención. **INCLUIR EL DESPACHO EN EL VALOR DEL PRODUCTO, NO EN ÍTEM APARTE**",
+   "direccion_entrega": " San Pablo # 8381, Pudahuel.",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia —  equipos aéreo no tripulado (RPAS) Remotely Piloted Aircraft System"
+   ],
+   "adjuntos": [
+    "BASES TECNICAS TECNICAS - DRONES SECCION FAPA.pdf",
+    "Ley N° 16752 del 17.FEB.1968.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -1118,7 +1117,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1151,7 +1150,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1188,9 +1187,56 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T11:05:11+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:377-435-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "377-435-COT26",
+   "nombre": "ACCESORIOS PARA DRON",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-18T11:52:00-03:00",
+   "fecha_cierre": "2026-11-24T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 11:55",
+   "organismo": "I MUNICIPALIDAD DE ALGARROBO",
+   "unidad": "MUNICIPALIDAD DE ALGARROBO-ADQUISICIONES",
+   "region": "Región de Valparaíso ",
+   "monto": 2927400.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=377-435-COT26",
+   "descripcion": "USO: DRON DJI MAVIC 3 PRO, REQUERIMIENTO DE SECPLAC",
+   "direccion_entrega": "AV PEÑABLANCA 250",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Kits de cámara — KIT DE BATERIAS PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Kits de cámara — PARACAIDAS DE RECUPERACION PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Kits de cámara — TARJETA MICRO SD PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Kits de cámara — MALETA RIGIDA PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Lentes o filtros para cámaras — GAFAS FPV Y CONTROL DE MOVIMIENTO PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Lentes o filtros para cámaras — FILTROS OPTICOS ND-PL PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Correas de cámara — CORREA DE CUELLO PARA DJI RC PARA DRON DJI MAVIC 3 PRO, VER ANEXO"
+   ],
+   "adjuntos": [
+    "ACCESORIOS DRON.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -1223,7 +1269,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1257,7 +1303,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1293,7 +1339,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T14:05:11+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1338,7 +1384,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T11:05:11+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1373,7 +1419,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
    "detalle_actualizado": "2026-11-18T10:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -8520,8 +8566,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T06:05:12+00:00",
-   "detalle_actualizado": "2026-11-18T06:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00",
    "cambio_estado": "2026-10-17T20:05:10+00:00",
    "origen": "api",
@@ -9242,8 +9288,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T06:05:12+00:00",
-   "detalle_actualizado": "2026-11-18T06:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-10-19T12:05:13+00:00",
    "cambio_estado": "2026-10-21T12:05:12+00:00",
    "origen": "api",
@@ -9733,8 +9779,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T06:05:12+00:00",
-   "detalle_actualizado": "2026-11-18T06:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-10-20T21:05:10+00:00",
    "origen": "api",
    "area": "tienda",
@@ -9779,8 +9825,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T06:05:12+00:00",
-   "detalle_actualizado": "2026-11-18T06:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "origen": "api",
    "area": "tienda",
@@ -10528,8 +10574,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T06:05:12+00:00",
-   "detalle_actualizado": "2026-11-18T06:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-10-23T00:05:11+00:00",
    "cambio_estado": "2026-10-27T01:05:11+00:00",
    "origen": "api",
@@ -11066,8 +11112,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T06:05:12+00:00",
-   "detalle_actualizado": "2026-11-18T06:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-10-28T02:05:12+00:00",
    "origen": "api",
    "area": "tienda",
@@ -11727,8 +11773,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T06:05:12+00:00",
-   "detalle_actualizado": "2026-11-18T06:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
@@ -14993,46 +15039,6 @@
    }
   },
   {
-   "id": "CA:2483-572-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2483-572-COT26",
-   "nombre": "ADQUISICIÓN Y RENOVACIÓN DE LICENCIAS PARA EQUIPOS DRONE",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-11-13T10:23:00-03:00",
-   "fecha_cierre": "2026-11-16T09:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16 09:15",
-   "organismo": "I MUNICIPALIDAD DE QUILICURA",
-   "unidad": "DEPARTAMENTO COMPRAS PÚBLICAS",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 2000000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2483-572-COT26",
-   "descripcion": "ADQUISICIÓN Y RENOVACIÓN DE LICENCIAS PARA EQUIPOS DRONE, PRESUPUESTO TOTAL DISPONIBLE $2.000.000.- IVA INCLUIDO.",
-   "direccion_entrega": "José Pedro Escobar, 487, Quilicura",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Software de vigilancia de redes — Los proveedores deben adjuntar a su cotización la ficha técnica que detalle el cumplimiento de cada requerimiento técnico y el plazo de entrega ofertado. Serán inadmisibles las ofertas que excedan el presupuesto disponible, omitan la ficha técnica o la documentación solicitada, no detallen lo requerido, superen el plazo máximo o fecha de inicio, o incumplan exigencias técnicas. El proveedor seleccionado deberá cumplir estricta y oportunamente su oferta; el incumplimiento será sancionado."
-   ],
-   "adjuntos": [
-    "EETT - 2026-11-13T101954.131.pdf"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-18T07:05:14+00:00",
-   "detalle_actualizado": "2026-11-18T07:05:14+00:00",
-   "primera_deteccion": "2026-11-13T14:05:11+00:00",
-   "area": "capacitacion",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
    "id": "CA:907-104-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -15304,8 +15310,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T06:05:12+00:00",
-   "detalle_actualizado": "2026-11-18T06:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-11-13T13:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -15633,13 +15639,144 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo",
    "cambio_estado": "2026-11-18T14:05:11+00:00"
+  },
+  {
+   "id": "CA:3877-589-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "3877-589-COT26",
+   "nombre": "servicio de mantención y reparación del dron DJI Matrice 30T, equipamiento tecnológico utilizado como herramienta de apoyo para el desarrollo de labores de vigilancia aérea, patrullaje preventivo, mon",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-16T11:22:00-03:00",
+   "fecha_cierre": "2026-11-18T11:49:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 11:55",
+   "organismo": "I MUNICIPALIDAD DE LAMPA",
+   "unidad": "Adquisiciones",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1000000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3877-589-COT26",
+   "descripcion": "servicio de mantención y reparación del dron DJI Matrice 30T, equipamiento tecnológico\nutilizado como herramienta de apoyo para el desarrollo de labores de vigilancia aérea, patrullaje\npreventivo, monitoreo territorial y apoyo a procedimientos de seguridad pública en distintos\nsectores de la comuna, PROVEEDORES DEBEN ADJUNTAR COTIZACION FORMAL Y EETT DEL SERVICIO OFRECIDO, QUE SE DEBE AJUSTAR INTEGRAMENTE A LOS SOLICITADO EN EETT ADJUNTAS, DE LO CONTRARIO OFERTA QUEDARA INADMISIBLE",
+   "direccion_entrega": "ARTURO PRAT 1138",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Servicios electromecánicos — Contratar un servicio técnico especializado para\nla mantención del dron DJI Matrice 30T y la\nreparación de su control remoto DJI RC Plus,\nmediante la revisión, intervención técnica,\nreposición de componentes y ejecución de\npruebas de funcionamiento que permitan\nrestablecer las condiciones operativas del\nequipamiento."
+   ],
+   "adjuntos": [
+    "FICHA 51 SEGURIDAD.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "primera_deteccion": "2026-11-16T15:05:11+00:00",
+   "area": "gestion",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-18T15:05:14+00:00"
+  },
+  {
+   "id": "LIC:2460-143-LE26",
+   "fuente": "licitacion",
+   "codigo": "2460-143-LE26",
+   "nombre": "Adquisición de Bienes para Comunicaciones",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-18T12:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2460-143-LE26",
+   "descripcion": "Contar con todos los elementos solicitados por Ejecución Presupuestaria 2026, con objeto de adquirir los implementos necesarios para sus labores.",
+   "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+   "unidad": "Dirección de Administración y Finanzas",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Providencia",
+   "fecha_publicacion": "2026-11-07T16:48:42-03:00",
+   "fecha_adjudicacion": "2026-12-09T18:00:00-03:00",
+   "monto": 8464990.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Guillotinas de imprenta — Línea N°1 \"Guillotina\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Pilas alcalinas — Línea N°2 \"Pilas\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Baterías de litio — Línea N°3 \"Batería para Dron\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Baterías de litio — Línea N°4 \"Batería para cámara tipo 1\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Baterías de litio — Línea N°5 \"Batería para cámara tipo 2\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Baterías recargables — Línea N°6 \"Batería externa\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Micrófonos — Línea N°7 \"Micrófonos y accesorios\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Mochilas — Línea N°8 \"Mochila para cámara\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Mochilas — Línea N°9 \"Mochila traker\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Tabletas gráficas — Línea N°10 \"Tableta gráfica\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Sistemas de iluminación de escenario o estudio — Línea N°11 \"Luz Led\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Sistemas de control de iluminación — Línea N°12 \"Controlador DMX\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto.",
+    "Receptores o transmisores de radiofrecuencia — Línea N°13 \"Radio portátil\", según Bases Administrativas, detalle en Formulario N°1 \"Oferta Económica\" adjunto."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-18T14:05:11+00:00",
+   "primera_deteccion": "2026-11-07T20:05:09+00:00",
+   "area": "tienda",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:2859-1516-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2859-1516-COT26",
+   "nombre": "Compra de accesorios para Dron",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-11T18:39:00-03:00",
+   "fecha_cierre": "2026-11-18T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-18 12:05",
+   "organismo": "UNIVERSIDAD DE ATACAMA",
+   "unidad": "SECCIÓN ABASTECIMIENTO",
+   "region": "Región de Atacama ",
+   "monto": 340000.0,
+   "moneda": "CLP",
+   "ofertas": 7,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2859-1516-COT26",
+   "descripcion": "El monto presupuestado incluye IVA y costos de despacho. La oferta debe realizarse por la totalidad del producto solicitado y su plazo de entrega debe ser acorde al lugar de destino y a los plazos requeridos. Quedará automáticamente fuera del proceso la oferta que no presente especificaciones técnicas fehacientes o que no adjunte la cotización detallada correspondiente.",
+   "direccion_entrega": "Avenida Copayapu N°485, Universidad de Atacama.",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Baterías recargables — Batería de larga duración para Dron similar o superior a DJI Mini 3 Pro Intelligent Flight Battery Plus con las siguientes características: Debe ser compatible con el dron DJI Mini 3 Pro, Debe durar al menos 45 minutos.",
+    "Bolsos — Bolso maleta para dron DJI Mini Pro con las siguientes características: Debe ser compatible con el dron DJI Mini 3 Pro, Impermeable, Antigolpes, Dimensiones iguales o superiores a: 17.5 cm de alto, 23.2cm de ancho y 92cm de profundidad."
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-18T15:05:14+00:00",
+   "detalle_actualizado": "2026-11-18T15:05:14+00:00",
+   "primera_deteccion": "2026-11-12T15:05:12+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-18T15:05:14+00:00"
   }
  ]
 }
