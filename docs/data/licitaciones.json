@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-18T01:05:10+00:00",
- "proxima_actualizacion": "2026-11-18T02:05:10+00:00",
+ "generado": "2026-11-18T02:05:09+00:00",
+ "proxima_actualizacion": "2026-11-18T03:05:09+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T01:05:10+00:00",
+   "ultima_ok": "2026-11-18T02:05:09+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4950,
-   "detalles_consultados": 1,
+   "revisadas": 4953,
+   "detalles_consultados": 3,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-18T01:05:10+00:00",
+   "ultima_ok": "2026-11-18T02:05:09+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 11,
-   "detalles_consultados": 8,
+   "detalles_consultados": 22,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -169,8 +169,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
-   "detalle_actualizado": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -212,8 +212,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
-   "detalle_actualizado": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-16T15:05:11+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -259,7 +259,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-18T00:05:25+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
@@ -338,8 +338,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
-   "detalle_actualizado": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -373,7 +373,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
@@ -418,7 +418,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-16T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
@@ -459,8 +459,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
-   "detalle_actualizado": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -501,7 +501,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -540,7 +540,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -664,8 +664,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
-   "detalle_actualizado": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -747,8 +747,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
-   "detalle_actualizado": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -793,7 +793,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
@@ -838,7 +838,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-18T00:05:25+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
@@ -956,7 +956,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -998,7 +998,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -1164,8 +1164,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
-   "detalle_actualizado": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1200,7 +1200,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-18T00:05:25+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -1233,7 +1233,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -1270,7 +1270,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -1305,7 +1305,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1339,7 +1339,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1375,7 +1375,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-18T00:05:25+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1420,7 +1420,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T23:05:10+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1455,7 +1455,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-18T01:05:10+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
    "detalle_actualizado": "2026-11-17T21:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -8735,8 +8735,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-10-15T13:05:11+00:00",
    "cambio_estado": "2026-10-19T12:05:13+00:00",
    "origen": "api",
@@ -9720,8 +9720,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00",
    "origen": "api",
    "area": "tienda",
@@ -10282,8 +10282,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-10-19T16:05:10+00:00",
    "cambio_estado": "2026-10-23T00:05:11+00:00",
    "origen": "api",
@@ -12601,8 +12601,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "area": "tienda",
@@ -13174,8 +13174,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "area": "capacitacion",
@@ -14037,8 +14037,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "adjuntos": [
     "MEMO N°013 - TAPATI.pdf"
@@ -14280,8 +14280,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "adjuntos": [
     "DRON DJI MINI 4K FLY MORE COMBO QUE SE INCORPÓREN TRES BATERIAS.docx"
@@ -14403,8 +14403,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
@@ -14441,8 +14441,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
@@ -14663,8 +14663,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "TDR.pdf"
@@ -14859,8 +14859,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "cambio_estado": "2026-11-14T10:04:26+00:00",
@@ -14915,8 +14915,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -15290,8 +15290,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "basestecnicas34_001122.pdf",
@@ -15509,8 +15509,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -15548,8 +15548,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-17T17:05:12+00:00",
-   "detalle_actualizado": "2026-11-17T17:05:12+00:00",
+   "ultima_actualizacion": "2026-11-18T02:05:09+00:00",
+   "detalle_actualizado": "2026-11-18T02:05:09+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "Document_20261111_0001.pdf"
