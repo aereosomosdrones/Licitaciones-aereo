@@ -1,29 +1,29 @@
 {
- "generado": "2026-11-19T17:05:13+00:00",
- "proxima_actualizacion": "2026-11-19T18:05:13+00:00",
+ "generado": "2026-11-19T18:05:10+00:00",
+ "proxima_actualizacion": "2026-11-19T19:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-19T17:05:13+00:00",
+   "ultima_ok": "2026-11-19T18:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5184,
-   "detalles_consultados": 38,
+   "revisadas": 5105,
+   "detalles_consultados": 33,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-19T17:05:13+00:00",
+   "ultima_ok": "2026-11-19T18:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 186,
-   "detalles_consultados": 91,
+   "revisadas": 19,
+   "detalles_consultados": 23,
    "segunda_pasada": 0,
-   "pendientes_segunda_pasada": 6,
-   "modo": "completo"
+   "pendientes_segunda_pasada": 0,
+   "modo": "recientes"
   }
  },
  "terminos": [
@@ -76,9 +76,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:3986-447-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "por_revisar": [
   {
    "id": "CA:2675-419-COT26",
@@ -107,135 +105,23 @@
    "adjuntos": [
     "Capacitación .pdf"
    ]
+  },
+  {
+   "id": "CA:615-57-COT26",
+   "codigo": "615-57-COT26",
+   "nombre": "SERVICIO DE CAPACITACION EN MANEJO DEL ESTRES Y PREVENCION DE BURNOUT",
+   "organismo": "Ministerio de Vivienda y Urbanismo",
+   "region": "Región del Libertador General Bernardo O´Higgins",
+   "fecha_publicacion": "2026-11-19T13:38:00-03:00",
+   "fecha_cierre": "2026-11-23T12:00:00-03:00",
+   "monto": 1450000.0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=615-57-COT26",
+   "adjuntos": [
+    "SOLICITUD COTIZACION CAPACITACION EN MANEJO DEL ESTRES Y PREVENCI.pdf"
+   ]
   }
  ],
  "items": [
-  {
-   "id": "CA:1098710-238-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1098710-238-COT26",
-   "nombre": "Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-18T12:50:00-03:00",
-   "fecha_cierre": "2026-11-19T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18T14:50:00.783Z",
-   "organismo": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
-   "unidad": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 6000000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1098710-238-COT26",
-   "descripcion": "Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno, Consejo CTCI. Incluye grabación en 4K en los nodos de laboratorios (cámaras, lentes, drone con licencia DGA y micrófonos), mínimo 150 minutos de video editado por locación con corrección de color y línea de tiempo. Equipo con profesional de 10 años en comunicación pública de la ciencia. Pago en dos cuotas: plan de trabajo aprobado y entregable aprobado.",
-   "direccion_entrega": "Morandé 226",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Videos — Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno, Consejo CTCI. Incluye grabación en 4K en los nodos de laboratorios (cámaras, lentes, drone con licencia DGA y micrófonos), mínimo 150 minutos de video editado por locación con corrección de color y línea de tiempo. Equipo con profesional de 10 años en comunicación pública de la ciencia. Pago en dos cuotas: plan de trabajo aprobado y entregable aprobado. Entrega al 31/12/2026"
-   ],
-   "adjuntos": [
-    "TDR 2285.pdf"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
-   "primera_deteccion": "2026-11-18T16:05:12+00:00",
-   "area": "servicios",
-   "relevancia": "alta",
-   "coincide_en": "detalle"
-  },
-  {
-   "id": "CA:1515304-336-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1515304-336-COT26",
-   "nombre": "CURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-16T10:53:00-03:00",
-   "fecha_cierre": "2026-11-19T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16 10:55",
-   "organismo": "Carabineros de Chile",
-   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 5200000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-336-COT26",
-   "descripcion": "CONTRATACIÓN DE CURSO MATERIALES COMPUESTOS, PARA MECÁNI-COS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE. EL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC). EL CURSO CONSIDERA LA PARTICIPACIÓN DE 02 ALUMNOS. PROCESO EDUCACIONAL EXCLUÍDO DE IVA",
-   "direccion_entrega": "AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 ",
-   "plazo_entrega_dias": 18,
-   "productos": [
-    "Capacitación a empleados — \nCURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA\n\n"
-   ],
-   "adjuntos": [
-    "Certificado_Refrendacion_233 (2).pdf",
-    "REQUERIMIENTOS TÉCNICOS CARP. 264 (1).docx"
-   ],
-   "via": "segunda pasada",
-   "terminos": [
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-16T14:05:12+00:00",
-   "detalle_actualizado": "2026-11-16T14:05:12+00:00",
-   "primera_deteccion": "2026-11-16T14:05:12+00:00",
-   "area": "capacitacion",
-   "relevancia": "baja",
-   "coincide_en": "mencion"
-  },
-  {
-   "id": "CA:1602-121-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1602-121-COT26",
-   "nombre": "ADQUIRIR TRES AERONAVES PILOTADAS A DISTANCIA (RPAS-DRON) (jbt-168)",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-18T14:55:00-03:00",
-   "fecha_cierre": "2026-11-19T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18 15:00",
-   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
-   "unidad": "UNIDAD DE COMPRA SERVICIOS GENERALES",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 6199998.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1602-121-COT26",
-   "descripcion": "El Criterio de selección de oferta, cumplido los requerimientos, será: 3% Criterios Sustentables y 97% Precio Ofertado. ADJUNTAR DETALLADAMENTE SU OFERTA, de lo contrario no será considerada. Esta Inst. retiene por todas las compras un impuesto del 2% del total facturado art.37 de la ley 16.752. **SUBIR DECLARACIÓN JURADA ADJUNTA FIRMADA y FORMULARIO CRITERIOS SUSTENTABLES** E102RT9",
-   "direccion_entrega": "Miguel Claro 1314",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Aviones objetivo o de reconocimiento — AERONAVES PILOTADAS A DISTANCIA (RPAS-DRON) (Según Requerimientos Técnicos adjuntos) "
-   ],
-   "adjuntos": [
-    "CRITERIO SUSTENTABLE PARA PROVEEDORES.pdf",
-    "DECLARACION_CLAUSULA_DE_PROVEEDORES_DE_BIENES_Y_SERVICIOS__C_AGIL.pdf",
-    "REQUERIMIENTOS TÉCNICOS.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
-   "primera_deteccion": "2026-11-18T18:05:12+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "LIC:2963-41-LP26",
    "fuente": "licitacion",
@@ -264,7 +150,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -306,7 +192,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -348,7 +234,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -431,8 +317,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -510,7 +396,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
@@ -592,8 +478,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -643,8 +529,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -735,6 +621,48 @@
    "cambio_estado": "2026-11-18T17:05:13+00:00"
   },
   {
+   "id": "CA:1515304-336-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-336-COT26",
+   "nombre": "CURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-16T10:53:00-03:00",
+   "fecha_cierre": "2026-11-22T19:06:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-19 15:05",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 5200000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-336-COT26",
+   "descripcion": "CONTRATACIÓN DE CURSO MATERIALES COMPUESTOS, PARA MECÁNI-COS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE. EL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC). EL CURSO CONSIDERA LA PARTICIPACIÓN DE 02 ALUMNOS. PROCESO EDUCACIONAL EXCLUÍDO DE IVA",
+   "direccion_entrega": "AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 ",
+   "plazo_entrega_dias": 18,
+   "productos": [
+    "Capacitación a empleados — \nCURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA\n\n"
+   ],
+   "adjuntos": [
+    "Certificado_Refrendacion_233 (2).pdf",
+    "REQUERIMIENTOS TÉCNICOS CARP. 264 (1).docx"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
+   "primera_deteccion": "2026-11-16T14:05:12+00:00",
+   "area": "capacitacion",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
+  },
+  {
    "id": "CA:1487-66-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -769,7 +697,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -814,7 +742,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T19:05:12+00:00",
    "area": "gestion",
@@ -850,7 +778,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T15:05:12+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -883,7 +811,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -920,7 +848,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -967,8 +895,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1014,8 +942,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-19T17:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1049,7 +977,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1083,7 +1011,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1119,7 +1047,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T15:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1164,7 +1092,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1212,7 +1140,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -1247,7 +1175,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15486,8 +15414,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15667,8 +15595,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15791,8 +15719,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -15831,7 +15759,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
@@ -15957,8 +15885,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -16045,8 +15973,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16092,8 +16020,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
-   "detalle_actualizado": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
    "relevancia": "baja",
@@ -16189,6 +16117,92 @@
    "cambio_estado": "2026-11-19T15:05:12+00:00"
   },
   {
+   "id": "CA:1098710-238-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1098710-238-COT26",
+   "nombre": "Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-18T12:50:00-03:00",
+   "fecha_cierre": "2026-11-19T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-19 15:05",
+   "organismo": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
+   "unidad": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 6000000.0,
+   "moneda": "CLP",
+   "ofertas": 5,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1098710-238-COT26",
+   "descripcion": "Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno, Consejo CTCI. Incluye grabación en 4K en los nodos de laboratorios (cámaras, lentes, drone con licencia DGA y micrófonos), mínimo 150 minutos de video editado por locación con corrección de color y línea de tiempo. Equipo con profesional de 10 años en comunicación pública de la ciencia. Pago en dos cuotas: plan de trabajo aprobado y entregable aprobado.",
+   "direccion_entrega": "Morandé 226",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Videos — Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno, Consejo CTCI. Incluye grabación en 4K en los nodos de laboratorios (cámaras, lentes, drone con licencia DGA y micrófonos), mínimo 150 minutos de video editado por locación con corrección de color y línea de tiempo. Equipo con profesional de 10 años en comunicación pública de la ciencia. Pago en dos cuotas: plan de trabajo aprobado y entregable aprobado. Entrega al 31/12/2026"
+   ],
+   "adjuntos": [
+    "TDR 2285.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
+   "primera_deteccion": "2026-11-18T16:05:12+00:00",
+   "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "detalle",
+   "cambio_estado": "2026-11-19T18:05:10+00:00"
+  },
+  {
+   "id": "CA:1602-121-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1602-121-COT26",
+   "nombre": "ADQUIRIR TRES AERONAVES PILOTADAS A DISTANCIA (RPAS-DRON) (jbt-168)",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-18T14:55:00-03:00",
+   "fecha_cierre": "2026-11-19T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-19 15:05",
+   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+   "unidad": "UNIDAD DE COMPRA SERVICIOS GENERALES",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 6199998.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1602-121-COT26",
+   "descripcion": "El Criterio de selección de oferta, cumplido los requerimientos, será: 3% Criterios Sustentables y 97% Precio Ofertado. ADJUNTAR DETALLADAMENTE SU OFERTA, de lo contrario no será considerada. Esta Inst. retiene por todas las compras un impuesto del 2% del total facturado art.37 de la ley 16.752. **SUBIR DECLARACIÓN JURADA ADJUNTA FIRMADA y FORMULARIO CRITERIOS SUSTENTABLES** E102RT9",
+   "direccion_entrega": "Miguel Claro 1314",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — AERONAVES PILOTADAS A DISTANCIA (RPAS-DRON) (Según Requerimientos Técnicos adjuntos) "
+   ],
+   "adjuntos": [
+    "CRITERIO SUSTENTABLE PARA PROVEEDORES.pdf",
+    "DECLARACION_CLAUSULA_DE_PROVEEDORES_DE_BIENES_Y_SERVICIOS__C_AGIL.pdf",
+    "REQUERIMIENTOS TÉCNICOS.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
+   "primera_deteccion": "2026-11-18T18:05:12+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-19T18:05:10+00:00"
+  },
+  {
    "id": "CA:1098710-235-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -16221,7 +16235,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T17:05:13+00:00",
+   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
