@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-19T15:05:12+00:00",
- "proxima_actualizacion": "2026-11-19T16:05:12+00:00",
+ "generado": "2026-11-19T16:05:13+00:00",
+ "proxima_actualizacion": "2026-11-19T17:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-19T15:05:12+00:00",
+   "ultima_ok": "2026-11-19T16:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5127,
-   "detalles_consultados": 64,
+   "revisadas": 5165,
+   "detalles_consultados": 45,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-19T15:05:12+00:00",
+   "ultima_ok": "2026-11-19T16:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 19,
-   "detalles_consultados": 25,
+   "detalles_consultados": 30,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:4019-35-LE26"
+ ],
  "por_revisar": [
   {
    "id": "CA:2675-419-COT26",
@@ -141,8 +143,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -227,8 +229,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T18:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -262,7 +264,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
@@ -304,7 +306,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
@@ -346,7 +348,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "gestion",
@@ -429,8 +431,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -508,8 +510,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -590,8 +592,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -641,8 +643,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -767,7 +769,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -812,8 +814,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -848,7 +850,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T15:05:12+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -881,7 +883,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -918,7 +920,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -965,8 +967,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1000,7 +1002,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1034,7 +1036,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1070,7 +1072,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T15:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1115,9 +1117,57 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
+   "area": "tienda",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
+  },
+  {
+   "id": "LIC:4019-35-LE26",
+   "fuente": "licitacion",
+   "codigo": "4019-35-LE26",
+   "nombre": "REGALOS DE NAVIDAD PARA NIÑOS Y NIÑAS DE LA COMUNA DE CAMIÑA: “ESTA NAVIDAD NOS UNIMOS EN LA AVENTURA DEL TRINEO LLEVANDO SONRISAS COMPARTIENDO FWLICIDAD Y LLENANDO NUESTRA COMUNA DE MAGIA SORPRESAS Y ESPIRITU”",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-30T17:27:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4019-35-LE26",
+   "descripcion": "Que la Ilustre Municipalidad de Camiña, a través de la Dirección Desarrollo Comunitario de la Ilustre Municipalidad de Camiña, llama a propuesta pública para adquisición de regalos para niños y niñas, para ejecución actividad Celebración Navidad en Camiña 2026, el cual se llevara a cabo en el mes de diciembre en la Comuna de Camiña, según especificaciones técnicas mínima solicitada en Bases Técnicas.\r\nQué actividad tiene por objetivo promover la cohesión comunitaria, la integración familiar y el bienestar psicosocial de los habitantes de la Comuna de Camiña, mediante el despliegue territorial de un evento navideño itinerante que fomente valores de solidaridad, generosidad y paz en el espacio público.",
+   "organismo": "ILUSTRE MUNICIPALIDAD DE CAMINA",
+   "unidad": "DAF - Adquisiciones",
+   "region": "Región de Tarapacá",
+   "comuna": "Camiña",
+   "fecha_publicacion": "2026-11-19T13:03:54-03:00",
+   "fecha_adjudicacion": "2026-12-03T10:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Regalos del educador — Embarazada Sexo Mujer-Cojín almohada maternal U + funda extra suave-multiuso.",
+    "Bañeras o tinas de bebé — 00 Años-Ambos Sexos-Tina bebe bañera plegable termómetro + cojín suave de baño.",
+    "Triciclos — 01 a 02 Años-Sexo Niño-Triciclo con manilla 2 en 1 colores unisex o Mesa didáctica multifuncional.",
+    "Vehículos de juguete — 01 a 02 Años-Sexo Niña-Auto correpasillos andador 2 en 1 con barra de empuje o Mesa didáctica multifuncional. ",
+    "Materiales para pizarra magnética — 03 a 04 Años-Sexo Niño-Escritorio pizarra y silla infantil, altura:75cm, ancho 40cm o Juegos de bloques de construcción magnéticos 3d de 100 piezas.",
+    "Materiales para pizarra magnética — 03 a 04 Años-Sexo Niña-Escritorio pizarra y silla infantil, altura:75cm ancho 40cm o Juegos de bloques magnéticos 3d de 100 piezas.",
+    "Taca-Taca o futbolines — 05 a 06 Años-Sexo Niño-Kit para hacer smile con brillos pelotitas y accesorios o Taca taca de mesa mini futbolín de mesa.",
+    "Patines de ruedas o patines en línea — 05 a 06 Años-Sexo Niña-Kit para hacer smile con brillos pelotitas y accesorios o Patines de 4 ruedas ajustables + kit de seguridad.",
+    "Armas de juguete — 07 a 08 Años-Sexo Niño-Fusil hidrogel de juguete lanzador + 6 accesorios o Consola portátil. ",
+    "Productos de pintura multicultural — 07 a 08 Años-Sexo Niña-Alfombra de baile electrónica o Set de manicure para niñas con secador.",
+    "Herramientas de juguete o kits de herramientas de juguete — 09 a 10 Años-Sexo Niño-Reloj inteligente o Drone de avión de control remoto rc.",
+    "Parlantes — 09 a 10 Años-Sexo Niña-Reloj inteligente o Combo mini parlante altavoz y micrófono + reloj smartwach.",
+    "Parlantes — 11 a 12 Años-Sexo Niño-Parlante bluetooth Alaxe o Maquina de boxeo musical bluetooth niños + guantes.",
+    "Parlantes — 11 a 12 Años-Sexo Niña-Kit de viaje para el pelo alisadora, rizadora y secador de marca reconocida o parlante bluetooth Alaxe.",
+    "Cobertor acolchado o plumón — Niños (as) Especiales-Sexo Unisex-Set de cobertor de 7 piezas: cobertor 1 1/2,juego de sabanas 1 1/2, juego de cortina, fundas de almohadas."
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
+   "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
    "relevancia": "baja",
    "coincide_en": "mencion"
@@ -1150,7 +1200,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-19T12:05:11+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15352,11 +15402,11 @@
    "origen": "api",
    "codigo": "2424-2087-COT26",
    "nombre": "DRON /  N°163 / 4962 / IO",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-17T10:40:00-03:00",
    "fecha_cierre": "2026-11-18T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18 11:05",
+   "fecha_ultimo_cambio": "2026-11-19 12:30",
    "organismo": "I MUNICIPALIDAD DE VINA DEL MAR",
    "unidad": "I MUNICIPALIDAD DE VINA DEL MAR",
    "region": "Región de Valparaíso ",
@@ -15379,13 +15429,22 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-17T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo",
-   "cambio_estado": "2026-11-18T14:05:11+00:00"
+   "cambio_estado": "2026-11-19T16:05:13+00:00",
+   "resultado": {
+    "ofertas": 3,
+    "oferta_minima": 6765918.0,
+    "ganador": {
+     "nombre": "IRONTERA SYSTEMS SPA",
+     "monto": 6999900.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:3877-589-COT26",
@@ -15551,8 +15610,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15633,8 +15692,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -15675,8 +15734,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -15715,8 +15774,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -15841,8 +15900,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -15929,8 +15988,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15960,8 +16019,8 @@
    "plazo_entrega_dias": 5,
    "productos": [
     "Aviones objetivo o de reconocimiento — Dron ultraligero. Ver detalles en ficha adjunta.",
-    "Cámaras digitales — Cámaras para streaming y creadores de contenidos con pantalla frontal. Ver detalles en ficha adjunta. ",
     "Cámaras digitales — Cámara fotográfica digital profesional. Ver detalles en ficha adjunta. ",
+    "Cámaras digitales — Cámaras para streaming y creadores de contenidos con pantalla frontal. Ver detalles en ficha adjunta. ",
     "Kits de cámara — Kit de grabación portátil con estabilización mecánica. Ver detalles en ficha adjunta. ",
     "Flashes o iluminación de cámaras — Flash compacto de alta velocidad. Ver detalles en ficha adjunta.",
     "Correas de cámara — Correa de cámara para el hombro. Ver detalles en ficha adjunta.",
@@ -15976,8 +16035,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
+   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
    "relevancia": "baja",
@@ -16105,7 +16164,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-19T15:05:12+00:00",
+   "ultima_actualizacion": "2026-11-19T16:05:13+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
