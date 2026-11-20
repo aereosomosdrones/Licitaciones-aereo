@@ -1,25 +1,25 @@
 {
- "generado": "2026-11-20T13:05:12+00:00",
- "proxima_actualizacion": "2026-11-20T14:05:12+00:00",
+ "generado": "2026-11-20T14:05:11+00:00",
+ "proxima_actualizacion": "2026-11-20T15:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T13:05:12+00:00",
+   "ultima_ok": "2026-11-20T14:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5105,
-   "detalles_consultados": 53,
+   "revisadas": 5147,
+   "detalles_consultados": 52,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T13:05:12+00:00",
+   "ultima_ok": "2026-11-20T14:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 18,
+   "revisadas": 17,
    "detalles_consultados": 21,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
@@ -165,85 +165,6 @@
  ],
  "items": [
   {
-   "id": "CA:1515304-338-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1515304-338-COT26",
-   "nombre": "CONTRATACIÓN DEL CURSO DE ELECTRICIDAD BÁSICA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-16T15:25:00-03:00",
-   "fecha_cierre": "2026-11-20T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16 15:30",
-   "organismo": "Carabineros de Chile",
-   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 4500000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-338-COT26",
-   "descripcion": "DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 60 HORAS DE INSTRUCCIÓN.\nEL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).\nEL CURSO CONSIDERA LA PARTICIPACIÓN DE 06 ALUMNOS.\nPROCESO EDUCACIONAL EXCLUÍDO DE IVA",
-   "direccion_entrega": "Avda. Alcalde Fernando Castillo Velasco (ex Avda. Larraín) N° 7941",
-   "plazo_entrega_dias": 20,
-   "productos": [
-    "Capacitación a empleados — ONTRATACIÓN DEL CURSO DE ELECTRICIDAD BÁSICA"
-   ],
-   "adjuntos": [
-    "BASES_COMPRA_AGIL_CARP 266-2026 (1).docx",
-    "Certificado_Refrendacion_245.pdf"
-   ],
-   "via": "segunda pasada",
-   "terminos": [
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
-   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
-   "primera_deteccion": "2026-11-16T20:05:10+00:00",
-   "area": "capacitacion",
-   "relevancia": "baja",
-   "coincide_en": "mencion"
-  },
-  {
-   "id": "CA:582-93-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "582-93-COT26",
-   "nombre": "ADQUISICIÓN DE MICRÓFONO PARA GET DPP CHILOÉ",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-19T11:02:00-03:00",
-   "fecha_cierre": "2026-11-20T11:05:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19T11:05:01.653Z",
-   "organismo": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE CHILOÉ",
-   "unidad": "Delegacion Presidencial Provincial de Chiloé",
-   "region": "Región de los Lagos ",
-   "monto": 144668.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=582-93-COT26",
-   "descripcion": "1 micrófono inalámbrico mini 2, similar a DJI o Ulanzi, que incluya tres preajustes de tono de voz, conexión mixta entre dispositivos, audio de alta calidad y cancelación de ruido de dos niveles. \nFavor adjuntar cotización detallada con imágenes de lo ofertado.",
-   "direccion_entrega": "O'higgins S/N, Castro",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Micrófonos — 1 micrófono inalámbrico mini 2, similar a DJI o Ulanzi, que incluya tres preajustes de tono de voz, conexión mixta entre dispositivos, audio de alta calidad y cancelación de ruido de dos niveles."
-   ],
-   "terminos": [
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
-   "primera_deteccion": "2026-11-19T14:05:13+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "detalle"
-  },
-  {
    "id": "CA:1515304-339-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -318,8 +239,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -359,8 +280,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-19T21:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -410,8 +331,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -578,7 +499,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -623,7 +544,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T19:05:12+00:00",
    "area": "gestion",
@@ -659,7 +580,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T11:05:20+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -692,7 +613,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -771,7 +692,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -818,8 +739,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -860,8 +781,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-20T12:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -907,8 +828,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-19T17:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -942,7 +863,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -984,8 +905,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -1018,7 +939,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1054,7 +975,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T11:05:20+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1089,7 +1010,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T09:05:11+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -1134,7 +1055,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1182,7 +1103,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T11:05:20+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -1216,7 +1137,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1251,7 +1172,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15704,8 +15625,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16082,8 +16003,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16258,8 +16179,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -16303,8 +16224,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-18T18:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16440,16 +16361,16 @@
    "codigo": "3588-600-COT26",
    "nombre": "Dron tipo Mavic 3 Classic DJI",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-18T11:21:00-03:00",
    "fecha_cierre": "2026-11-20T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18 11:25",
+   "fecha_ultimo_cambio": "2026-11-20 10:15",
    "organismo": "I MUNICIPALIDAD DE YUNGAY",
    "unidad": "Direccion Administración y Finanzas",
    "region": "Región del Ñuble",
    "monto": 2000000.0,
    "moneda": "CLP",
-   "ofertas": 0,
+   "ofertas": 6,
    "url": "https://buscador.mercadopublico.cl/ficha?code=3588-600-COT26",
    "descripcion": "Adquisición de un Dron para levantamiento de componentes ambientales, turisticos y fiscalizaciones, segun lo indicado en documentos anexos.\nAdjuntar cotizacion formal y detallada.",
    "direccion_entrega": "Esmeralda 380, Yungay",
@@ -16467,12 +16388,93 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:1515304-338-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-338-COT26",
+   "nombre": "CONTRATACIÓN DEL CURSO DE ELECTRICIDAD BÁSICA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-16T15:25:00-03:00",
+   "fecha_cierre": "2026-11-20T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-20 11:05",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 4500000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-338-COT26",
+   "descripcion": "DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 60 HORAS DE INSTRUCCIÓN.\nEL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).\nEL CURSO CONSIDERA LA PARTICIPACIÓN DE 06 ALUMNOS.\nPROCESO EDUCACIONAL EXCLUÍDO DE IVA",
+   "direccion_entrega": "Avda. Alcalde Fernando Castillo Velasco (ex Avda. Larraín) N° 7941",
+   "plazo_entrega_dias": 20,
+   "productos": [
+    "Capacitación a empleados — ONTRATACIÓN DEL CURSO DE ELECTRICIDAD BÁSICA"
+   ],
+   "adjuntos": [
+    "BASES_COMPRA_AGIL_CARP 266-2026 (1).docx",
+    "Certificado_Refrendacion_245.pdf"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "primera_deteccion": "2026-11-16T20:05:10+00:00",
+   "area": "capacitacion",
+   "relevancia": "baja",
+   "coincide_en": "mencion",
+   "cambio_estado": "2026-11-20T14:05:11+00:00"
+  },
+  {
+   "id": "CA:582-93-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "582-93-COT26",
+   "nombre": "ADQUISICIÓN DE MICRÓFONO PARA GET DPP CHILOÉ",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-19T11:02:00-03:00",
+   "fecha_cierre": "2026-11-20T11:05:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-20 11:10",
+   "organismo": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE CHILOÉ",
+   "unidad": "Delegacion Presidencial Provincial de Chiloé",
+   "region": "Región de los Lagos ",
+   "monto": 144668.0,
+   "moneda": "CLP",
+   "ofertas": 7,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=582-93-COT26",
+   "descripcion": "1 micrófono inalámbrico mini 2, similar a DJI o Ulanzi, que incluya tres preajustes de tono de voz, conexión mixta entre dispositivos, audio de alta calidad y cancelación de ruido de dos niveles. \nFavor adjuntar cotización detallada con imágenes de lo ofertado.",
+   "direccion_entrega": "O'higgins S/N, Castro",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Micrófonos — 1 micrófono inalámbrico mini 2, similar a DJI o Ulanzi, que incluya tres preajustes de tono de voz, conexión mixta entre dispositivos, audio de alta calidad y cancelación de ruido de dos niveles."
+   ],
+   "terminos": [
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "primera_deteccion": "2026-11-19T14:05:13+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "detalle",
+   "cambio_estado": "2026-11-20T14:05:11+00:00"
   },
   {
    "id": "CA:1098710-235-COT26",
@@ -16507,7 +16509,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
