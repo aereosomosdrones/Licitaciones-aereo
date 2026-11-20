@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-20T21:05:11+00:00",
- "proxima_actualizacion": "2026-11-20T22:05:11+00:00",
+ "generado": "2026-11-20T22:05:10+00:00",
+ "proxima_actualizacion": "2026-11-20T23:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T21:05:11+00:00",
+   "ultima_ok": "2026-11-20T22:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5173,
-   "detalles_consultados": 44,
+   "revisadas": 5187,
+   "detalles_consultados": 19,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T21:05:11+00:00",
+   "ultima_ok": "2026-11-20T22:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 21,
-   "detalles_consultados": 9,
+   "detalles_consultados": 7,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:1557463-2-LE26"
+ ],
  "por_revisar": [
   {
    "id": "CA:615-57-COT26",
@@ -167,7 +169,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
@@ -249,7 +251,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "tienda",
@@ -376,7 +378,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -421,7 +423,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T19:05:12+00:00",
    "area": "gestion",
@@ -462,7 +464,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T16:05:11+00:00",
    "area": "otros",
@@ -505,8 +507,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
    "primera_deteccion": "2026-11-20T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -544,7 +546,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "servicios",
@@ -585,8 +587,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
    "primera_deteccion": "2026-11-20T17:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -621,7 +623,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -654,7 +656,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -704,6 +706,49 @@
    "coincide_en": "mencion"
   },
   {
+   "id": "CA:2324-1207-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2324-1207-COT26",
+   "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE)/ DIRECCION DE SEGURIDAD PUBLICA.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-16T16:05:00-03:00",
+   "fecha_cierre": "2026-11-24T09:16:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-20 15:25",
+   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
+   "unidad": "Departamento de Licitaciones y gestión de Abastecimiento",
+   "region": "Región de los Lagos ",
+   "monto": 3620000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2324-1207-COT26",
+   "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA.",
+   "direccion_entrega": "CALLE EL TENIENTE N° 65, BODEGA MUNICIPAL N°2, PARQUE INDUISTRIAL",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Módulos de servicio para aeronaves — SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA. \n"
+   ],
+   "adjuntos": [
+    "ANEXO N°1    COMPRA AGIL 2324-1207-COT26.docx",
+    "BASES TÉCNICAS SERVICIO REPUESTOS Y MANTENCION DE DRONES.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
+   "primera_deteccion": "2026-11-16T19:13:02+00:00",
+   "area": "gestion",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-20T22:05:10+00:00"
+  },
+  {
    "id": "LIC:3384-25-LE26",
    "fuente": "licitacion",
    "codigo": "3384-25-LE26",
@@ -733,7 +778,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -780,7 +825,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -822,7 +867,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T12:05:11+00:00",
    "area": "otros",
@@ -862,8 +907,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
    "primera_deteccion": "2026-11-20T19:57:18+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -909,7 +954,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-19T17:05:13+00:00",
    "area": "tienda",
@@ -944,7 +989,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -986,7 +1031,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "otros",
@@ -1020,12 +1065,54 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:1557463-2-LE26",
+   "fuente": "licitacion",
+   "codigo": "1557463-2-LE26",
+   "nombre": "ADQUISICION HERRAMIENTAS TECNOLOGICAS TACTICA AUDIOVISUAL DE REGISTRO Y SOPORTE LOGISTICO SEGURIDAD PUBLICA II LLAMADO",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-11-25T18:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1557463-2-LE26",
+   "descripcion": "La Ilustre Municipalidad de Mejillones, a través de la Dirección de Seguridad Pública y Protección Civil, requiere la adquisición de herramientas para dotar al equipo técnico y operativo de las herramientas tecnológicas necesarias para la ejecución y cumplimiento de los objetivos establecidos en el convenio \"Soluciones estratégicas y tecnológicas\", el cual se desarrolla en el marco \"Programa de innovación y transferencia de capacidades para la prevención del delito\". A través de esta compra, se busca incorporar equipamiento táctico, audiovisual, de registro y soporte logístico, enfocado en optimizar las labores de vigilancia, recolección de evidencia legal, patrullaje preventivo y disuasión delictiva en el territorio.",
+   "organismo": "I MUNICIPALIDAD DE MEJILLONES",
+   "unidad": "DIRECCIÓN DE SEGURIDAD PÚBLICA Y PROTECCIÓN CIVIL",
+   "region": "Región de Antofagasta",
+   "fecha_publicacion": "2026-11-20T18:12:16-03:00",
+   "fecha_adjudicacion": "2026-11-30T23:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Aeronave No Tripulada \r\nDe acuerdo a lo establecido en el numeral 2. Adquisición requerida, de las Bases Administrativas y técnicas de licitación ",
+    "Baterías recargables — Baterías adicionales de Alto rendimiento \r\nDe acuerdo a lo establecido en el numeral 2. Adquisición requerida, de las Bases Administrativas y técnicas de licitación",
+    "Cámaras digitales — Cámaras Corporales / Bodycam\r\nDe acuerdo a lo establecido en el numeral 2. Adquisición requerida, de las Bases Administrativas y técnicas de licitación",
+    "Computadores portátiles tipo Tablet PC — Tablet uso rudo/ robustecidas \r\nDe acuerdo a lo establecido en el numeral 2. Adquisición requerida, de las Bases Administrativas y técnicas de licitación",
+    "Cargadores de baterías — Estación múltiple de carga y descarga / Docking station \r\n\r\nDe acuerdo a lo establecido en el numeral 2. Adquisición requerida, de las Bases Administrativas y técnicas de licitación",
+    "Accesorios eléctricos — sistema de paracaídas de emergencia\r\nDe acuerdo a lo establecido en el numeral 2. Adquisición requerida, de las Bases Administrativas y técnicas de licitación",
+    "Plafones — Foco de iluminación de alta potencia - accesorio para drone \r\nDe acuerdo a lo establecido en el numeral 2. Adquisición requerida, de las Bases Administrativas y técnicas de licitación",
+    "Almohadillas de altavoz y oídos de auriculares telefónicos — altavoz/ megáfono - accesorio para drone \r\nDe acuerdo a lo establecido en el numeral 2. Adquisición requerida, de las Bases Administrativas y técnicas de licitación",
+    "Correa de plástico — Correa / arnés para maleta de transporte \r\nDe acuerdo a lo establecido en el numeral 2. Adquisición requerida, de las Bases Administrativas y técnicas de licitación"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
+   "primera_deteccion": "2026-11-20T22:05:10+00:00",
+   "area": "tienda",
+   "relevancia": "baja",
+   "coincide_en": "mencion"
   },
   {
    "id": "LIC:4956-90-LE26",
@@ -1056,7 +1143,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1091,8 +1178,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1136,7 +1223,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1184,7 +1271,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -1218,7 +1305,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1253,7 +1340,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -12927,7 +13014,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-02T12:53:00-03:00",
    "fecha_cierre": "2026-11-06T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-06T10:00:01.060Z",
+   "fecha_ultimo_cambio": "2026-11-06 10:00",
    "organismo": "I MUNICIPALIDAD DE PICA",
    "unidad": "Municipalidad de Pica",
    "region": "Región de Tarapacá  ",
@@ -12949,8 +13036,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -14604,7 +14691,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-11T15:47:00-03:00",
    "fecha_cierre": "2026-11-13T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-13T14:05:01.380Z",
+   "fecha_ultimo_cambio": "2026-11-13 14:05",
    "organismo": "I MUNICIPALIDAD DE COLLIPULLI",
    "unidad": "Departamento de Salud",
    "region": "Región de la Araucanía ",
@@ -14627,8 +14714,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -16122,7 +16209,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
@@ -16298,7 +16385,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
@@ -16343,7 +16430,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T18:05:12+00:00",
    "area": "tienda",
@@ -16431,49 +16518,6 @@
    "cambio_estado": "2026-11-19T19:05:11+00:00"
   },
   {
-   "id": "CA:2324-1207-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2324-1207-COT26",
-   "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE)/ DIRECCION DE SEGURIDAD PUBLICA.",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-11-16T16:05:00-03:00",
-   "fecha_cierre": "2026-11-20T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20T10:10:00.910Z",
-   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
-   "unidad": "Departamento de Licitaciones y gestión de Abastecimiento",
-   "region": "Región de los Lagos ",
-   "monto": 3620000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2324-1207-COT26",
-   "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA.",
-   "direccion_entrega": "CALLE EL TENIENTE N° 65, BODEGA MUNICIPAL N°2, PARQUE INDUISTRIAL",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Módulos de servicio para aeronaves — SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA. \n"
-   ],
-   "adjuntos": [
-    "ANEXO N°1    COMPRA AGIL 2324-1207-COT26.docx",
-    "BASES TÉCNICAS SERVICIO REPUESTOS Y MANTENCION DE DRONES.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
-   "primera_deteccion": "2026-11-16T19:13:02+00:00",
-   "area": "gestion",
-   "relevancia": "alta",
-   "coincide_en": "titulo",
-   "cambio_estado": "2026-11-20T13:05:12+00:00"
-  },
-  {
    "id": "CA:3588-600-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -16507,7 +16551,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -16587,7 +16631,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
@@ -16713,8 +16757,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
    "primera_deteccion": "2026-11-19T21:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -16754,7 +16798,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
