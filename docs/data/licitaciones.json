@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-20T14:05:11+00:00",
- "proxima_actualizacion": "2026-11-20T15:05:11+00:00",
+ "generado": "2026-11-20T15:05:15+00:00",
+ "proxima_actualizacion": "2026-11-20T16:05:15+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T14:05:11+00:00",
+   "ultima_ok": "2026-11-20T15:05:15+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5147,
-   "detalles_consultados": 52,
+   "revisadas": 5157,
+   "detalles_consultados": 51,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T14:05:11+00:00",
+   "ultima_ok": "2026-11-20T15:05:15+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 17,
-   "detalles_consultados": 21,
+   "revisadas": 19,
+   "detalles_consultados": 28,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,22 +76,11 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:2940-197-COT26",
+  "CA:5485-1007-COT26"
+ ],
  "por_revisar": [
-  {
-   "id": "CA:2675-419-COT26",
-   "codigo": "2675-419-COT26",
-   "nombre": "CURSO DE CAPACITACION DE CIBERSEGURIDAD",
-   "organismo": "I MUNICIPALIDAD DE MOSTAZAL",
-   "region": "Región del Libertador General Bernardo O´Higgins",
-   "fecha_publicacion": "2026-11-19T10:24:00-03:00",
-   "fecha_cierre": "2026-11-20T12:00:00-03:00",
-   "monto": 6800000.0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2675-419-COT26",
-   "adjuntos": [
-    "Servicio de Capacitación.pdf"
-   ]
-  },
   {
    "id": "CA:2675-420-COT26",
    "codigo": "2675-420-COT26",
@@ -161,91 +150,24 @@
    "adjuntos": [
     "SOLICITUD COTIZACION CAPACITACION EN MANEJO DEL ESTRES Y PREVENCI.pdf"
    ]
+  },
+  {
+   "id": "CA:761-235-COT26",
+   "codigo": "761-235-COT26",
+   "nombre": "SERVICIO DE CATERING PARA \"JORNADA DE CAPACITACION URS\"  E13702/2026",
+   "organismo": "SUBSECRETARIA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
+   "region": "Región Metropolitana de Santiago",
+   "fecha_publicacion": "2026-11-20T11:21:00-03:00",
+   "fecha_cierre": "2026-11-24T12:00:00-03:00",
+   "monto": 550000.0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=761-235-COT26",
+   "adjuntos": [
+    "FORMULARIO DE COTIZACION - SERVICIO DE CATERING.xlsx",
+    "PROPUESTA REQUERIMIENTOS TECNICOS CATERING.docx"
+   ]
   }
  ],
  "items": [
-  {
-   "id": "CA:1515304-339-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1515304-339-COT26",
-   "nombre": "CURSO SISTEMAS AUXILIARES, SISTEMAS DE OXÍGENO Y EXTINTORES DE INCENDIO",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-16T15:44:00-03:00",
-   "fecha_cierre": "2026-11-20T11:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-16 15:45",
-   "organismo": "Carabineros de Chile",
-   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 3292800.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-339-COT26",
-   "descripcion": "DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 15 HORAS DE INSTRUCCIÓN.\nEL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).\nEL CURSO CONSIDERA LA PARTICIPACIÓN DE 05 ALUMNOS.\nPROCESO EDUCACIONAL EXCLUÍDO DE IVA",
-   "direccion_entrega": "AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 COMUNA ",
-   "plazo_entrega_dias": 20,
-   "productos": [
-    "Capacitación a empleados — \nCURSO SISTEMAS AUXILIARES, SISTEMAS DE OXÍGENO Y EXTINTORES DE INCENDIO"
-   ],
-   "adjuntos": [
-    "BASES_COMPRA_AGIL_CARP 260-2026.docx",
-    "Certificado_Refrendacion_229 (2).pdf"
-   ],
-   "via": "segunda pasada",
-   "terminos": [
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-16T20:05:10+00:00",
-   "detalle_actualizado": "2026-11-16T20:05:10+00:00",
-   "primera_deteccion": "2026-11-16T20:05:10+00:00",
-   "area": "capacitacion",
-   "relevancia": "baja",
-   "coincide_en": "mencion"
-  },
-  {
-   "id": "CA:669-20-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "669-20-COT26",
-   "nombre": "DRON LIGERO PARA UNIDAD DE BIENES DC.724532",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-17T15:38:00-03:00",
-   "fecha_cierre": "2026-11-20T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-17 15:40",
-   "organismo": "SEREMI Bienes Nacionales IV Región",
-   "unidad": "SEREMI de Coquimbo",
-   "region": "Región de Coquimbo ",
-   "monto": 216540.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=669-20-COT26",
-   "descripcion": "DRON LIGERO PARA UNIDAD DE BIENES DC.724532",
-   "direccion_entrega": "PRAT Nº 255, OF 410",
-   "plazo_entrega_dias": 7,
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia — DRON LIGERO SPEKTRA, PESO MAXIMO 750GRAMOS, QUE INCLUYA 2 A 3 BATERIAS RECARGABLES PARA VDISPOSITIVGOS DE ALTO CONSUMO, SE ADJUNTA IMAGEN DE REFERENCIA"
-   ],
-   "adjuntos": [
-    "IMAGENES_DE_REFERENCIA_DRONE.pdf"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
-   "primera_deteccion": "2026-11-17T19:05:14+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:1079505-528-COT26",
    "fuente": "compra_agil",
@@ -280,8 +202,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-19T21:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -331,8 +253,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -378,6 +300,47 @@
    "relevancia": "alta",
    "coincide_en": "titulo",
    "cambio_estado": "2026-11-18T15:05:14+00:00"
+  },
+  {
+   "id": "CA:5485-1007-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "5485-1007-COT26",
+   "nombre": "COMPRA DE DRON Y CÁMARA 4K (PROVEEDORES ADJUNTAR COTIZACIONES Y IMAGENES DE PRODUCTOS), SE ADJUNTA PDF DE LO SOLICITADO",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-20T11:14:00-03:00",
+   "fecha_cierre": "2026-11-21T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-20 11:15",
+   "organismo": "UNIVERSIDAD DE CHILE",
+   "unidad": "FAC.CS.AGRONOMICAS Dirección Económ. y Adm",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 760000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5485-1007-COT26",
+   "descripcion": "1 DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo. 1 CÁMARA 4k con accesorios. SE ADJUNTA PDF DE LAS CARACTERISTICAS DE AMBOS PRODUCTOS",
+   "direccion_entrega": "Av. Santa Rosa 11315, comuna La Pintana. Universidad de Chile., La Pintana, Región Metropolitana de Santiago",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — DRON Video 4K hasta 60 fps + fotos en 8K - 36 min vuelo. (se adjunta PDF de características técnicas",
+    "Cámaras digitales — CÁMARA 4k con accesorios (se adjunta PDF de características técnicas)."
+   ],
+   "adjuntos": [
+    "CARACTERISTICAS DRON Y CÁMARA.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
+   "primera_deteccion": "2026-11-20T15:05:15+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
   },
   {
    "id": "CA:1515304-327-COT26",
@@ -499,7 +462,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -544,10 +507,49 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T19:05:12+00:00",
    "area": "gestion",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:2940-197-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2940-197-COT26",
+   "nombre": "SERVICIO DE GRABACION Y EDICION DE VIDEOS MEDIANTE DRON PARA ENCUENTRO DE BANDAS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-20T11:18:00-03:00",
+   "fecha_cierre": "2026-11-23T13:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-20 11:20",
+   "organismo": "IMunicipalidad de San Pablo - Educación",
+   "unidad": "Educación",
+   "region": "Región de los Lagos ",
+   "monto": 360000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2940-197-COT26",
+   "descripcion": "SERVICIO DE GRABACION Y EDICION DE VIDEOS MEDIANTE DRON PARA ENCUENTRO DE BANDAS EL 26 DE NOVIEMBRE.",
+   "direccion_entrega": "BOLIVIA 498",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Grabadoras de sonido o vídeo de vigilancia — SERVICIO DE GRABACION Y EDICION DE VIDEOS MEDIANTE DRON PARA ENCUENTRO REGIONAL DE BANDAS ESCOLARES A REALIZARSE EL JUVES 26 DE NOVIEMBRE.EL SERVICIO DEBE CONTENER TOMAS DE IMAGENES Y VIDEO CON DRON, ELABORACION DE REEL PARA PLATAFORMAS DIGITALES, FOTOGRAFIAS DEL EVENTO Y VIDEOCLIP CON TODOS LOS DETALLES DE LA ACTIVIDAD."
+   ],
+   "terminos": [
+    "Dron",
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
+   "primera_deteccion": "2026-11-20T15:05:15+00:00",
+   "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "titulo"
   },
@@ -580,7 +582,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T11:05:20+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -613,7 +615,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -692,7 +694,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -739,8 +741,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -781,8 +783,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-20T12:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -828,8 +830,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-19T17:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -863,7 +865,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -905,8 +907,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -939,7 +941,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -975,7 +977,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T11:05:20+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1010,8 +1012,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T09:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1055,7 +1057,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1103,7 +1105,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T11:05:20+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -1137,7 +1139,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1172,7 +1174,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15625,8 +15627,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16003,8 +16005,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16179,8 +16181,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -16224,8 +16226,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-18T18:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16388,8 +16390,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16468,13 +16470,97 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "detalle",
    "cambio_estado": "2026-11-20T14:05:11+00:00"
+  },
+  {
+   "id": "CA:1515304-339-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-339-COT26",
+   "nombre": "CURSO SISTEMAS AUXILIARES, SISTEMAS DE OXÍGENO Y EXTINTORES DE INCENDIO",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-16T15:44:00-03:00",
+   "fecha_cierre": "2026-11-20T11:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-20 11:35",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 3292800.0,
+   "moneda": "CLP",
+   "ofertas": 5,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-339-COT26",
+   "descripcion": "DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 15 HORAS DE INSTRUCCIÓN.\nEL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).\nEL CURSO CONSIDERA LA PARTICIPACIÓN DE 05 ALUMNOS.\nPROCESO EDUCACIONAL EXCLUÍDO DE IVA",
+   "direccion_entrega": "AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 COMUNA ",
+   "plazo_entrega_dias": 20,
+   "productos": [
+    "Capacitación a empleados — \nCURSO SISTEMAS AUXILIARES, SISTEMAS DE OXÍGENO Y EXTINTORES DE INCENDIO"
+   ],
+   "adjuntos": [
+    "BASES_COMPRA_AGIL_CARP 260-2026.docx",
+    "Certificado_Refrendacion_229 (2).pdf"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
+   "primera_deteccion": "2026-11-16T20:05:10+00:00",
+   "area": "capacitacion",
+   "relevancia": "baja",
+   "coincide_en": "mencion",
+   "cambio_estado": "2026-11-20T15:05:15+00:00"
+  },
+  {
+   "id": "CA:669-20-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "669-20-COT26",
+   "nombre": "DRON LIGERO PARA UNIDAD DE BIENES DC.724532",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-17T15:38:00-03:00",
+   "fecha_cierre": "2026-11-20T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-20 12:05",
+   "organismo": "SEREMI Bienes Nacionales IV Región",
+   "unidad": "SEREMI de Coquimbo",
+   "region": "Región de Coquimbo ",
+   "monto": 216540.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=669-20-COT26",
+   "descripcion": "DRON LIGERO PARA UNIDAD DE BIENES DC.724532",
+   "direccion_entrega": "PRAT Nº 255, OF 410",
+   "plazo_entrega_dias": 7,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — DRON LIGERO SPEKTRA, PESO MAXIMO 750GRAMOS, QUE INCLUYA 2 A 3 BATERIAS RECARGABLES PARA VDISPOSITIVGOS DE ALTO CONSUMO, SE ADJUNTA IMAGEN DE REFERENCIA"
+   ],
+   "adjuntos": [
+    "IMAGENES_DE_REFERENCIA_DRONE.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
+   "detalle_actualizado": "2026-11-20T15:05:15+00:00",
+   "primera_deteccion": "2026-11-17T19:05:14+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-20T15:05:15+00:00"
   },
   {
    "id": "CA:1098710-235-COT26",
@@ -16509,7 +16595,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T15:05:15+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
