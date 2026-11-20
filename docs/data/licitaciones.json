@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-20T22:05:10+00:00",
- "proxima_actualizacion": "2026-11-20T23:05:10+00:00",
+ "generado": "2026-11-20T23:05:10+00:00",
+ "proxima_actualizacion": "2026-11-21T00:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T22:05:10+00:00",
+   "ultima_ok": "2026-11-20T23:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5187,
-   "detalles_consultados": 19,
+   "revisadas": 5176,
+   "detalles_consultados": 7,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T22:05:10+00:00",
+   "ultima_ok": "2026-11-20T23:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 21,
-   "detalles_consultados": 7,
+   "revisadas": 20,
+   "detalles_consultados": 6,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,9 +76,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "LIC:1557463-2-LE26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "por_revisar": [
   {
    "id": "CA:615-57-COT26",
@@ -125,57 +123,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:5611-67-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "5611-67-COT26",
-   "nombre": "Productos para el funcionamiento del DRON y DNSS",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-19T10:29:00-03:00",
-   "fecha_cierre": "2026-11-20T20:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19T10:30:01.120Z",
-   "organismo": "SERVICIO REGIONAL DE LA VIVIENDA Y URBAN",
-   "unidad": "Sección Compras y Servicios Generales",
-   "region": "Región de Arica y Parinacota",
-   "monto": 1815000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5611-67-COT26",
-   "descripcion": "SERVIU Región de Arica y Parinacota requiere  adquirir productos para el funcionamiento del DRON y DNSS de iguales o similares características a los que se indican",
-   "direccion_entrega": "18 de septiembre 122",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Sistemas de topografía — PUNTO CONTROL TOPOGRAFICO 100 X 100, segun especificaciones adjuntas",
-    "Sistemas de topografía — PUNTO CONTROL TOPOGRAFICO 50x50, segun especificaciones adjuntas",
-    "Aviones objetivo o de reconocimiento — BATERIA DRONE AUTEL EVO II, segun especificaciones adjuntas",
-    "Aviones objetivo o de reconocimiento — HELICES/ PROPELAS AUTEL EVO PRO LOW NOISE, segun especificaciones adjuntas",
-    "Aviones objetivo o de reconocimiento — PARACAIDAS MANTI 3 PLUS, segun especificaciones adjuntas",
-    "Aviones objetivo o de reconocimiento — MOCHILA PARA DRON Autel EVO II Pro RTK V2, segun especificaciones adjuntas",
-    "Aviones objetivo o de reconocimiento — MICRO SD A2 EXTREME PRO 512, segun especificaciones adjuntas",
-    "Aviones objetivo o de reconocimiento — CONO DE SEGREGACIÓN PARA REFORZAR ÁREA DE SEGURIDAD, segun especificaciones adjuntas",
-    "Aviones objetivo o de reconocimiento — LANDING PAD 75 CM PARA DRONES, segun especificaciones adjuntas ",
-    "Cajas de medicamentos de servicios médicos de urgencia — BOTIQUIN BASICO, segun especificaciones adjuntas",
-    "Extintores — EXINTORES DE INCENDIOS PORTATIL, segun especificaciones adjuntas"
-   ],
-   "adjuntos": [
-    "26-11-19 - Solicitud de compra agil firmada.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
-   "detalle_actualizado": "2026-11-20T17:05:17+00:00",
-   "primera_deteccion": "2026-11-19T14:05:13+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:2483-572-COT26",
    "fuente": "compra_agil",
@@ -251,7 +198,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "tienda",
@@ -378,7 +325,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -423,7 +370,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T19:05:12+00:00",
    "area": "gestion",
@@ -464,7 +411,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T16:05:11+00:00",
    "area": "otros",
@@ -507,8 +454,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
-   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T23:05:10+00:00",
    "primera_deteccion": "2026-11-20T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -546,7 +493,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "servicios",
@@ -587,8 +534,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
-   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T23:05:10+00:00",
    "primera_deteccion": "2026-11-20T17:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -623,7 +570,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -656,7 +603,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -778,7 +725,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -825,7 +772,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -867,7 +814,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T12:05:11+00:00",
    "area": "otros",
@@ -907,8 +854,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
-   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T23:05:10+00:00",
    "primera_deteccion": "2026-11-20T19:57:18+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -954,7 +901,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-19T17:05:13+00:00",
    "area": "tienda",
@@ -989,7 +936,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1031,7 +978,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "otros",
@@ -1065,7 +1012,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1107,7 +1054,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T22:05:10+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
@@ -1143,7 +1090,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1178,7 +1125,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T22:05:10+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -1223,7 +1170,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1271,7 +1218,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -1305,7 +1252,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1340,7 +1287,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -16385,7 +16332,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
@@ -16430,7 +16377,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T18:05:12+00:00",
    "area": "tienda",
@@ -16551,7 +16498,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -16593,8 +16540,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-20T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T23:05:10+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
@@ -16631,7 +16578,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
@@ -16757,13 +16704,65 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
-   "detalle_actualizado": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T23:05:10+00:00",
    "primera_deteccion": "2026-11-19T21:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
    "coincide_en": "titulo",
    "cambio_estado": "2026-11-20T21:05:11+00:00"
+  },
+  {
+   "id": "CA:5611-67-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "5611-67-COT26",
+   "nombre": "Productos para el funcionamiento del DRON y DNSS",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-19T10:29:00-03:00",
+   "fecha_cierre": "2026-11-20T20:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-20 20:05",
+   "organismo": "SERVICIO REGIONAL DE LA VIVIENDA Y URBAN",
+   "unidad": "Sección Compras y Servicios Generales",
+   "region": "Región de Arica y Parinacota",
+   "monto": 1815000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5611-67-COT26",
+   "descripcion": "SERVIU Región de Arica y Parinacota requiere  adquirir productos para el funcionamiento del DRON y DNSS de iguales o similares características a los que se indican",
+   "direccion_entrega": "18 de septiembre 122",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Sistemas de topografía — PUNTO CONTROL TOPOGRAFICO 100 X 100, segun especificaciones adjuntas",
+    "Sistemas de topografía — PUNTO CONTROL TOPOGRAFICO 50x50, segun especificaciones adjuntas",
+    "Aviones objetivo o de reconocimiento — BATERIA DRONE AUTEL EVO II, segun especificaciones adjuntas",
+    "Aviones objetivo o de reconocimiento — HELICES/ PROPELAS AUTEL EVO PRO LOW NOISE, segun especificaciones adjuntas",
+    "Aviones objetivo o de reconocimiento — PARACAIDAS MANTI 3 PLUS, segun especificaciones adjuntas",
+    "Aviones objetivo o de reconocimiento — MOCHILA PARA DRON Autel EVO II Pro RTK V2, segun especificaciones adjuntas",
+    "Aviones objetivo o de reconocimiento — MICRO SD A2 EXTREME PRO 512, segun especificaciones adjuntas",
+    "Aviones objetivo o de reconocimiento — CONO DE SEGREGACIÓN PARA REFORZAR ÁREA DE SEGURIDAD, segun especificaciones adjuntas",
+    "Aviones objetivo o de reconocimiento — LANDING PAD 75 CM PARA DRONES, segun especificaciones adjuntas ",
+    "Cajas de medicamentos de servicios médicos de urgencia — BOTIQUIN BASICO, segun especificaciones adjuntas",
+    "Extintores — EXINTORES DE INCENDIOS PORTATIL, segun especificaciones adjuntas"
+   ],
+   "adjuntos": [
+    "26-11-19 - Solicitud de compra agil firmada.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T23:05:10+00:00",
+   "primera_deteccion": "2026-11-19T14:05:13+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-20T23:05:10+00:00"
   },
   {
    "id": "CA:1098710-235-COT26",
@@ -16798,7 +16797,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-20T23:05:10+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
