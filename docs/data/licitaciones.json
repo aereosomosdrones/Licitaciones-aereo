@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-20T19:57:18+00:00",
- "proxima_actualizacion": "2026-11-20T20:57:18+00:00",
+ "generado": "2026-11-20T21:05:11+00:00",
+ "proxima_actualizacion": "2026-11-20T22:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T19:57:18+00:00",
+   "ultima_ok": "2026-11-20T21:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5170,
-   "detalles_consultados": 58,
+   "revisadas": 5173,
+   "detalles_consultados": 44,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T19:57:18+00:00",
+   "ultima_ok": "2026-11-20T21:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 21,
-   "detalles_consultados": 6,
+   "detalles_consultados": 9,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,24 +76,8 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:1404452-75-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "por_revisar": [
-  {
-   "id": "CA:3888-1162-COT26",
-   "codigo": "3888-1162-COT26",
-   "nombre": "Servicio de taller y Diseño Grafico para Mujeres Artesanas",
-   "organismo": "Ilustre Municipalidad de San Juan de la Costa",
-   "region": "Región de los Lagos ",
-   "fecha_publicacion": "2026-11-19T17:07:00-03:00",
-   "fecha_cierre": "2026-11-20T17:15:00-03:00",
-   "monto": 1200000.0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3888-1162-COT26",
-   "adjuntos": [
-    "DISEÑO ARTESANAS.pdf"
-   ]
-  },
   {
    "id": "CA:615-57-COT26",
    "codigo": "615-57-COT26",
@@ -140,47 +124,6 @@
  ],
  "items": [
   {
-   "id": "CA:1079505-528-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1079505-528-COT26",
-   "nombre": "MANTENCIÓN CALIBRACIÓN Y VERIFICACIÓN DE DRON DJI MAVIC 3 THERMAL DE LA UIAT LA SERENA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-19T17:16:00-03:00",
-   "fecha_cierre": "2026-11-20T17:20:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19T17:20:01.233Z",
-   "organismo": "SECCIÓN COMPRAS IV ZONA",
-   "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS COQUIMBO",
-   "region": "Región de Coquimbo ",
-   "monto": 420000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1079505-528-COT26",
-   "descripcion": "REQUIERE CONTRATAR UN SERVICIO DE MANTENCIÓN, CALIBRACIÓN Y VERIFICACIÓN DEL DRON DJI MAVIC 3 THERMAL DE CARGO DE LA U.I.A.T. LA SERENA. COTIZAR A NOMBRE DE LA ZONA DE CARABINEROS COQUIMBO RUT 60.505.206-1",
-   "direccion_entrega": "BALMACEDA 4828",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Servicio de mantenimiento de equipo de fabricación — Mantención y calibración de dron DJI Mavic 3 Thermal y control remoto de UIAT La Serena, según TDR adjuntos. Incluye revisión, limpieza, actualización, calibraciones, pruebas de vuelo, informe y certificado. Taller en La Serena o Coquimbo. Carabineros entrega y retira."
-   ],
-   "adjuntos": [
-    "TDR MANTENCION DRON UIAT LA SERENA.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
-   "detalle_actualizado": "2026-11-20T17:05:17+00:00",
-   "primera_deteccion": "2026-11-19T21:05:12+00:00",
-   "area": "gestion",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
    "id": "CA:5611-67-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -224,7 +167,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
@@ -306,7 +249,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "tienda",
@@ -433,7 +376,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -478,7 +421,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T19:05:12+00:00",
    "area": "gestion",
@@ -519,7 +462,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T16:05:11+00:00",
    "area": "otros",
@@ -562,8 +505,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
-   "detalle_actualizado": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T21:05:11+00:00",
    "primera_deteccion": "2026-11-20T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -601,7 +544,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "servicios",
@@ -642,8 +585,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
-   "detalle_actualizado": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T21:05:11+00:00",
    "primera_deteccion": "2026-11-20T17:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -678,7 +621,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -711,7 +654,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -790,7 +733,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -837,7 +780,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -879,7 +822,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T12:05:11+00:00",
    "area": "otros",
@@ -919,8 +862,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
-   "detalle_actualizado": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T21:05:11+00:00",
    "primera_deteccion": "2026-11-20T19:57:18+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -966,7 +909,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-19T17:05:13+00:00",
    "area": "tienda",
@@ -1001,7 +944,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -1043,7 +986,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "otros",
@@ -1077,7 +1020,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1113,7 +1056,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1148,7 +1091,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -1193,7 +1136,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1241,7 +1184,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -1275,7 +1218,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1310,7 +1253,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15943,7 +15886,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-17T09:51:00-03:00",
    "fecha_cierre": "2026-11-18T17:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18T17:05:01.363Z",
+   "fecha_ultimo_cambio": "2026-11-18 17:05",
    "organismo": "I MUNICIPALIDAD DE FUTALEUFU",
    "unidad": "Adquisiciones",
    "region": "Región de los Lagos ",
@@ -15965,8 +15908,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
-   "detalle_actualizado": "2026-11-20T12:05:11+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T21:05:11+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -16179,7 +16122,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
@@ -16355,7 +16298,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
@@ -16400,7 +16343,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T18:05:12+00:00",
    "area": "tienda",
@@ -16564,7 +16507,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -16644,7 +16587,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
@@ -16737,6 +16680,48 @@
    "cambio_estado": "2026-11-20T15:05:15+00:00"
   },
   {
+   "id": "CA:1079505-528-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1079505-528-COT26",
+   "nombre": "MANTENCIÓN CALIBRACIÓN Y VERIFICACIÓN DE DRON DJI MAVIC 3 THERMAL DE LA UIAT LA SERENA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-19T17:16:00-03:00",
+   "fecha_cierre": "2026-11-20T17:20:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-20 17:25",
+   "organismo": "SECCIÓN COMPRAS IV ZONA",
+   "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS COQUIMBO",
+   "region": "Región de Coquimbo ",
+   "monto": 420000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1079505-528-COT26",
+   "descripcion": "REQUIERE CONTRATAR UN SERVICIO DE MANTENCIÓN, CALIBRACIÓN Y VERIFICACIÓN DEL DRON DJI MAVIC 3 THERMAL DE CARGO DE LA U.I.A.T. LA SERENA. COTIZAR A NOMBRE DE LA ZONA DE CARABINEROS COQUIMBO RUT 60.505.206-1",
+   "direccion_entrega": "BALMACEDA 4828",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Servicio de mantenimiento de equipo de fabricación — Mantención y calibración de dron DJI Mavic 3 Thermal y control remoto de UIAT La Serena, según TDR adjuntos. Incluye revisión, limpieza, actualización, calibraciones, pruebas de vuelo, informe y certificado. Taller en La Serena o Coquimbo. Carabineros entrega y retira."
+   ],
+   "adjuntos": [
+    "TDR MANTENCION DRON UIAT LA SERENA.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-20T21:05:11+00:00",
+   "primera_deteccion": "2026-11-19T21:05:12+00:00",
+   "area": "gestion",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-20T21:05:11+00:00"
+  },
+  {
    "id": "CA:1098710-235-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -16769,7 +16754,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T19:57:18+00:00",
+   "ultima_actualizacion": "2026-11-20T21:05:11+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
