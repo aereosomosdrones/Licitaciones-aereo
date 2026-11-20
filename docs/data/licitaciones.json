@@ -1,29 +1,31 @@
 {
- "generado": "2026-11-20T17:05:17+00:00",
- "proxima_actualizacion": "2026-11-20T18:05:17+00:00",
+ "generado": "2026-11-20T18:05:10+00:00",
+ "proxima_actualizacion": "2026-11-20T19:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T17:05:17+00:00",
+   "ultima_ok": "2026-11-20T18:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5222,
-   "detalles_consultados": 36,
+   "revisadas": 5121,
+   "detalles_consultados": 40,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-20T17:05:17+00:00",
+   "ultima_ok": "2026-11-20T18:05:10+00:00",
    "errores_detalle": 0,
-   "advertencias": [],
-   "revisadas": 190,
-   "detalles_consultados": 70,
+   "advertencias": [
+    "La API limitó las consultas (HTTP 429). Se continuará en la próxima ejecución."
+   ],
+   "revisadas": 20,
+   "detalles_consultados": 2,
    "segunda_pasada": 0,
-   "pendientes_segunda_pasada": 6,
-   "modo": "completo"
+   "pendientes_segunda_pasada": 8,
+   "modo": "recientes"
   }
  },
  "terminos": [
@@ -76,9 +78,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:2927-485-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "por_revisar": [
   {
    "id": "CA:2675-431-COT26",
@@ -163,7 +163,7 @@
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-11-19T17:16:00-03:00",
    "fecha_cierre": "2026-11-20T17:20:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19 17:20",
+   "fecha_ultimo_cambio": "2026-11-19T17:20:01.233Z",
    "organismo": "SECCIÓN COMPRAS IV ZONA",
    "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS COQUIMBO",
    "region": "Región de Coquimbo ",
@@ -187,7 +187,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-19T21:05:12+00:00",
    "area": "gestion",
@@ -204,7 +204,7 @@
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-11-19T10:29:00-03:00",
    "fecha_cierre": "2026-11-20T20:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19 10:30",
+   "fecha_ultimo_cambio": "2026-11-19T10:30:01.120Z",
    "organismo": "SERVICIO REGIONAL DE LA VIVIENDA Y URBAN",
    "unidad": "Sección Compras y Servicios Generales",
    "region": "Región de Arica y Parinacota",
@@ -238,7 +238,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
@@ -296,7 +296,7 @@
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-11-20T11:14:00-03:00",
    "fecha_cierre": "2026-11-21T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20 11:15",
+   "fecha_ultimo_cambio": "2026-11-20T11:15:00.360Z",
    "organismo": "UNIVERSIDAD DE CHILE",
    "unidad": "FAC.CS.AGRONOMICAS Dirección Económ. y Adm",
    "region": "Región Metropolitana de Santiago",
@@ -320,7 +320,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "tienda",
@@ -447,7 +447,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -492,7 +492,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-19T16:05:13+00:00",
    "primera_deteccion": "2026-11-18T19:05:12+00:00",
    "area": "gestion",
@@ -533,7 +533,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T16:05:11+00:00",
    "area": "otros",
@@ -550,7 +550,7 @@
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-11-20T11:18:00-03:00",
    "fecha_cierre": "2026-11-23T13:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20 11:20",
+   "fecha_ultimo_cambio": "2026-11-20T11:20:01.117Z",
    "organismo": "IMunicipalidad de San Pablo - Educación",
    "unidad": "Educación",
    "region": "Región de los Lagos ",
@@ -572,7 +572,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "servicios",
@@ -613,8 +613,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
-   "detalle_actualizado": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-20T17:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -649,8 +649,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
-   "detalle_actualizado": "2026-11-20T11:05:20+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -682,7 +682,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -761,7 +761,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -778,7 +778,7 @@
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-11-18T11:52:00-03:00",
    "fecha_cierre": "2026-11-24T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18 11:55",
+   "fecha_ultimo_cambio": "2026-11-18T11:55:00.873Z",
    "organismo": "I MUNICIPALIDAD DE ALGARROBO",
    "unidad": "MUNICIPALIDAD DE ALGARROBO-ADQUISICIONES",
    "region": "Región de Valparaíso ",
@@ -808,7 +808,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -850,7 +850,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T12:05:11+00:00",
    "area": "otros",
@@ -897,7 +897,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-19T17:05:13+00:00",
    "area": "tienda",
@@ -932,7 +932,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -949,7 +949,7 @@
    "estado_glosa": "Publicada",
    "fecha_publicacion": "2026-11-19T15:48:00-03:00",
    "fecha_cierre": "2026-11-25T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19 15:50",
+   "fecha_ultimo_cambio": "2026-11-19T15:50:01.033Z",
    "organismo": "SERVICIO NACIONAL DE GEOLOGIA Y MINERIA",
    "unidad": "OVDAS",
    "region": "Región de la Araucanía ",
@@ -974,7 +974,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "otros",
@@ -1008,7 +1008,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -1044,8 +1044,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
-   "detalle_actualizado": "2026-11-20T11:05:20+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -1079,7 +1079,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T15:05:15+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -1124,7 +1124,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1172,8 +1172,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
-   "detalle_actualizado": "2026-11-20T11:05:20+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -1206,7 +1206,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1241,7 +1241,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T13:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15092,8 +15092,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T11:05:20+00:00",
-   "detalle_actualizado": "2026-11-20T11:05:20+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15638,8 +15638,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T11:05:20+00:00",
-   "detalle_actualizado": "2026-11-20T11:05:20+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -16110,7 +16110,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
@@ -16203,8 +16203,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T11:05:20+00:00",
-   "detalle_actualizado": "2026-11-20T11:05:20+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
+   "detalle_actualizado": "2026-11-20T18:05:10+00:00",
    "primera_deteccion": "2026-11-11T19:05:12+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -16259,11 +16259,11 @@
    "origen": "api",
    "codigo": "1098710-238-COT26",
    "nombre": "Servicio de registro audiovisual para la visibilización del potencial de los Laboratorios Naturales en terreno",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-18T12:50:00-03:00",
    "fecha_cierre": "2026-11-19T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19T15:05:02.370Z",
+   "fecha_ultimo_cambio": "2026-11-20T15:00:00.857Z",
    "organismo": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
    "unidad": "SUBSECRETARIA DE CIENCIA, TECNOLOGIA, CONOCIMIENTO E INNOVACION",
    "region": "Región Metropolitana de Santiago",
@@ -16286,13 +16286,13 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "detalle",
-   "cambio_estado": "2026-11-19T18:05:10+00:00"
+   "cambio_estado": "2026-11-20T18:05:10+00:00"
   },
   {
    "id": "CA:1602-121-COT26",
@@ -16304,7 +16304,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-18T14:55:00-03:00",
    "fecha_cierre": "2026-11-19T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19 15:05",
+   "fecha_ultimo_cambio": "2026-11-19T15:05:02.370Z",
    "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
    "unidad": "UNIDAD DE COMPRA SERVICIOS GENERALES",
    "region": "Región Metropolitana de Santiago",
@@ -16331,7 +16331,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T18:05:12+00:00",
    "area": "tienda",
@@ -16471,7 +16471,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-18T11:21:00-03:00",
    "fecha_cierre": "2026-11-20T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20 10:15",
+   "fecha_ultimo_cambio": "2026-11-20T10:15:01.400Z",
    "organismo": "I MUNICIPALIDAD DE YUNGAY",
    "unidad": "Direccion Administración y Finanzas",
    "region": "Región del Ñuble",
@@ -16495,7 +16495,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
@@ -16575,7 +16575,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
@@ -16636,7 +16636,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-17T15:38:00-03:00",
    "fecha_cierre": "2026-11-20T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20 12:05",
+   "fecha_ultimo_cambio": "2026-11-20T12:05:00.680Z",
    "organismo": "SEREMI Bienes Nacionales IV Región",
    "unidad": "SEREMI de Coquimbo",
    "region": "Región de Coquimbo ",
@@ -16659,7 +16659,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
@@ -16700,7 +16700,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-20T17:05:17+00:00",
+   "ultima_actualizacion": "2026-11-20T18:05:10+00:00",
    "detalle_actualizado": "2026-11-18T16:05:12+00:00",
    "primera_deteccion": "2026-11-18T16:05:12+00:00",
    "area": "servicios",
