@@ -7432,10 +7432,13 @@
   },
   "1570-37-COT26": {
    "visto": "2026-11-20T21:05:11+00:00"
+  },
+  "1392-120-COT26": {
+   "visto": "2026-11-21T13:05:15+00:00"
   }
  },
  "ca_ultimo_barrido_completo": "2026-11-20T17:05:17+00:00",
- "ca_ultima_ejecucion_ok": "2026-11-21T12:05:10+00:00",
+ "ca_ultima_ejecucion_ok": "2026-11-21T13:05:15+00:00",
  "ultimo_recordatorio": "2026-11-10 09",
  "recordatorios_abiertos": [],
  "ca_pendientes": {},
@@ -7484,7 +7487,7 @@
    ]
   }
  },
- "ca_ultima_amplia": "2026-11-21T12:05:10+00:00",
+ "ca_ultima_amplia": "2026-11-21T13:05:15+00:00",
  "avisos": {
   "LIC:1422035-47-LE26": 18,
   "LIC:4956-90-LE26": 20,
