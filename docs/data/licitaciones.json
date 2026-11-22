@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-22T22:05:10+00:00",
- "proxima_actualizacion": "2026-11-22T23:05:10+00:00",
+ "generado": "2026-11-22T23:05:13+00:00",
+ "proxima_actualizacion": "2026-11-23T00:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-22T22:05:10+00:00",
+   "ultima_ok": "2026-11-22T23:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 5188,
@@ -16,11 +16,11 @@
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-22T22:05:10+00:00",
+   "ultima_ok": "2026-11-22T23:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 8,
-   "detalles_consultados": 4,
+   "detalles_consultados": 6,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -123,48 +123,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:1515304-336-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1515304-336-COT26",
-   "nombre": "CURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-16T10:53:00-03:00",
-   "fecha_cierre": "2026-11-22T19:06:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19 15:05",
-   "organismo": "Carabineros de Chile",
-   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 5200000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-336-COT26",
-   "descripcion": "CONTRATACIÓN DE CURSO MATERIALES COMPUESTOS, PARA MECÁNI-COS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE. EL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC). EL CURSO CONSIDERA LA PARTICIPACIÓN DE 02 ALUMNOS. PROCESO EDUCACIONAL EXCLUÍDO DE IVA",
-   "direccion_entrega": "AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 ",
-   "plazo_entrega_dias": 18,
-   "productos": [
-    "Capacitación a empleados — \nCURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA\n\n"
-   ],
-   "adjuntos": [
-    "Certificado_Refrendacion_233 (2).pdf",
-    "REQUERIMIENTOS TÉCNICOS CARP. 264 (1).docx"
-   ],
-   "via": "segunda pasada",
-   "terminos": [
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-19T18:05:10+00:00",
-   "detalle_actualizado": "2026-11-19T18:05:10+00:00",
-   "primera_deteccion": "2026-11-16T14:05:12+00:00",
-   "area": "capacitacion",
-   "relevancia": "baja",
-   "coincide_en": "mencion"
-  },
   {
    "id": "CA:1487-66-COT26",
    "fuente": "compra_agil",
@@ -286,7 +244,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T16:05:11+00:00",
    "area": "otros",
@@ -329,8 +287,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
-   "detalle_actualizado": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
+   "detalle_actualizado": "2026-11-22T23:05:13+00:00",
    "primera_deteccion": "2026-11-20T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -368,7 +326,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "servicios",
@@ -409,8 +367,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
-   "detalle_actualizado": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
+   "detalle_actualizado": "2026-11-22T23:05:13+00:00",
    "primera_deteccion": "2026-11-20T17:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -445,7 +403,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T21:05:14+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -478,7 +436,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T17:05:16+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -600,7 +558,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T17:05:16+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -689,7 +647,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T12:05:11+00:00",
    "area": "otros",
@@ -729,8 +687,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
-   "detalle_actualizado": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
+   "detalle_actualizado": "2026-11-22T23:05:13+00:00",
    "primera_deteccion": "2026-11-20T19:57:18+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -811,7 +769,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T17:05:16+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -887,7 +845,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T17:05:16+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -929,7 +887,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T18:24:28+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
@@ -965,7 +923,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T21:05:14+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1000,7 +958,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T18:24:28+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -1045,7 +1003,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T17:05:16+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1093,7 +1051,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T21:05:14+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -1127,7 +1085,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T17:05:16+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1162,7 +1120,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
    "detalle_actualizado": "2026-11-22T17:05:16+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -16732,8 +16690,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T22:05:10+00:00",
-   "detalle_actualizado": "2026-11-22T22:05:10+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
+   "detalle_actualizado": "2026-11-22T23:05:13+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16746,11 +16704,11 @@
    "origen": "api",
    "codigo": "1515304-327-COT26",
    "nombre": "CONTRATACIÓN DE CURSO MANTENIMIENTO OVERHAUL MOTORES TURBINA GAS PT6A-28, PARA MECÁNICOS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "desierta",
+   "estado_glosa": "Desierta",
    "fecha_publicacion": "2026-11-13T11:32:00-03:00",
    "fecha_cierre": "2026-11-22T10:33:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-22 10:35",
+   "fecha_ultimo_cambio": "2026-11-22 12:25",
    "organismo": "Carabineros de Chile",
    "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
    "region": "Región Metropolitana de Santiago",
@@ -16775,13 +16733,60 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-22T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-22T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
+   "detalle_actualizado": "2026-11-22T23:05:13+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
    "coincide_en": "mencion",
-   "cambio_estado": "2026-11-22T14:05:11+00:00"
+   "cambio_estado": "2026-11-22T23:05:13+00:00"
+  },
+  {
+   "id": "CA:1515304-336-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-336-COT26",
+   "nombre": "CURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-16T10:53:00-03:00",
+   "fecha_cierre": "2026-11-22T19:06:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-22 19:10",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 5200000.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-336-COT26",
+   "descripcion": "CONTRATACIÓN DE CURSO MATERIALES COMPUESTOS, PARA MECÁNI-COS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE. EL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC). EL CURSO CONSIDERA LA PARTICIPACIÓN DE 02 ALUMNOS. PROCESO EDUCACIONAL EXCLUÍDO DE IVA",
+   "direccion_entrega": "AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 ",
+   "plazo_entrega_dias": 18,
+   "productos": [
+    "Capacitación a empleados — \nCURSO MATERIALES COMPUESTOS MECANICOS PREFECTURA AÉREA\n\n"
+   ],
+   "adjuntos": [
+    "Certificado_Refrendacion_233 (2).pdf",
+    "REQUERIMIENTOS TÉCNICOS CARP. 264 (1).docx"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-22T23:05:13+00:00",
+   "detalle_actualizado": "2026-11-22T23:05:13+00:00",
+   "primera_deteccion": "2026-11-16T14:05:12+00:00",
+   "area": "capacitacion",
+   "relevancia": "baja",
+   "coincide_en": "mencion",
+   "resultado": {
+    "ofertas": 3,
+    "oferta_minima": 5199991.0
+   },
+   "cambio_estado": "2026-11-22T23:05:13+00:00"
   },
   {
    "id": "CA:1098710-235-COT26",
