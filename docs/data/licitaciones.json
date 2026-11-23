@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-23T13:05:16+00:00",
- "proxima_actualizacion": "2026-11-23T14:05:16+00:00",
+ "generado": "2026-11-23T14:05:11+00:00",
+ "proxima_actualizacion": "2026-11-23T15:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-23T13:05:16+00:00",
+   "ultima_ok": "2026-11-23T14:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 5222,
-   "detalles_consultados": 50,
+   "revisadas": 5250,
+   "detalles_consultados": 32,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-23T13:05:16+00:00",
+   "ultima_ok": "2026-11-23T14:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 7,
-   "detalles_consultados": 14,
+   "revisadas": 8,
+   "detalles_consultados": 17,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:1984-21-COT26"
+ ],
  "por_revisar": [
   {
    "id": "CA:615-57-COT26",
@@ -120,96 +122,23 @@
     "FORMULARIO DE COTIZACION - SERVICIO DE CATERING.xlsx",
     "PROPUESTA REQUERIMIENTOS TECNICOS CATERING.docx"
    ]
+  },
+  {
+   "id": "CA:3888-1164-COT26",
+   "codigo": "3888-1164-COT26",
+   "nombre": "Curso Produccion de Huevos",
+   "organismo": "Ilustre Municipalidad de San Juan de la Costa",
+   "region": "Región de los Lagos ",
+   "fecha_publicacion": "2026-11-23T10:32:00-03:00",
+   "fecha_cierre": "2026-11-24T12:00:00-03:00",
+   "monto": 650000.0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3888-1164-COT26",
+   "adjuntos": [
+    "CAPACITACION HUEVOS.pdf"
+   ]
   }
  ],
  "items": [
-  {
-   "id": "CA:1487-66-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1487-66-COT26",
-   "nombre": "Adquisición de equipos aéreo no tripulado (RPAS) -  Departamento de aeródromos y servicios aeronáuticos",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-18T11:16:00-03:00",
-   "fecha_cierre": "2026-11-23T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18T11:20:01.120Z",
-   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
-   "unidad": "UNIDAD DE COMPRA CONCEPCION",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 7000000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1487-66-COT26",
-   "descripcion": "Adquisición de Equipos aéreos no tripulados para la DASA, conforme a características técnicas descritas en Anexo REQUISITOS TÉCNICOS adjunto. Las ofertas deberán contener las especificaciones técnicas de los productos ofertados. Según lo indicado en el Art.37 de la Ley N°16.752, LA DGAC RETIENE UN 2% DEL TOTAL FACTURADO. Si el proveedor oferta en la compra ágil, se entiende que ACEPTA dicha retención. **INCLUIR EL DESPACHO EN EL VALOR DEL PRODUCTO, NO EN ÍTEM APARTE**",
-   "direccion_entrega": " San Pablo # 8381, Pudahuel.",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Aeronave de reconocimiento o vigilancia —  equipos aéreo no tripulado (RPAS) Remotely Piloted Aircraft System"
-   ],
-   "adjuntos": [
-    "BASES TECNICAS TECNICAS - DRONES SECCION FAPA.pdf",
-    "Ley N° 16752 del 17.FEB.1968.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-22T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-18T16:05:12+00:00",
-   "primera_deteccion": "2026-11-18T15:05:14+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
-   "id": "CA:2273-1023-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2273-1023-COT26",
-   "nombre": "EX. 16466  MANTENCION Y REPARACION DRONE  MEMORANDUM 31065   SGL.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-18T15:25:00-03:00",
-   "fecha_cierre": "2026-11-23T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18T15:30:01.233Z",
-   "organismo": "I MUNICIPALIDAD DE LA PINTANA",
-   "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 5000000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2273-1023-COT26",
-   "descripcion": "MANTENCIÓN Y REPARACIÓN  DRONE\nJUAN IGNACIO OLAVE ZULOAGA DIRECTOR DIRECCIÓN SEGURIDAD HUMANA",
-   "direccion_entrega": "LOS TILOS 037 VILLA LA PINTANA PARADERO 47 SANTA ROSA",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Cámaras aéreas — REPARACION Y MANTENCION - DRONES DJI MAVIC3 TERMAL\n\nVER ANEXO ADJUNTO",
-    "Cámaras aéreas — REPARACION Y MANTENCION - DRON MATRICE 350\n\nVER ANEXO ADJUNTO",
-    "Cámaras aéreas — BATERIAS INTELIGENTE DJITB65 NUEVAS PARA MATRICE 350\nBaterías inteligente DJI TB 65,  entrega de acuerdo a stock del oferente.\nVER ANEX ADJUNTO",
-    "Cámaras aéreas — BATERIAS DE RESPUESTO NUEVAS PARA DRON MAVIC 3 TERMAL. \nBaterías nuevas de repuestos, entrega de acuerdo a stock del oferente.\nVER ANEXO ADJUNTO"
-   ],
-   "adjuntos": [
-    "REQUERIMIENTOS COMPRA AGIL.docx",
-    "ANEXO NRO 1   REPARACION MANTENCION DRONE.docx"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-22T18:05:11+00:00",
-   "detalle_actualizado": "2026-11-19T16:05:13+00:00",
-   "primera_deteccion": "2026-11-18T19:05:12+00:00",
-   "area": "gestion",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:2852-312-COT26",
    "fuente": "compra_agil",
@@ -244,7 +173,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T16:05:11+00:00",
    "primera_deteccion": "2026-11-20T16:05:11+00:00",
    "area": "otros",
@@ -287,8 +216,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
-   "detalle_actualizado": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T14:05:11+00:00",
    "primera_deteccion": "2026-11-20T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -326,7 +255,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-20T17:05:17+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "servicios",
@@ -367,8 +296,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
-   "detalle_actualizado": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T14:05:11+00:00",
    "primera_deteccion": "2026-11-20T17:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -403,7 +332,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T10:05:13+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
@@ -436,7 +365,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
@@ -558,7 +487,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -687,8 +616,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
-   "detalle_actualizado": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T14:05:11+00:00",
    "primera_deteccion": "2026-11-20T19:57:18+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -769,7 +698,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -819,6 +748,47 @@
    "coincide_en": "titulo"
   },
   {
+   "id": "CA:1984-21-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1984-21-COT26",
+   "nombre": "Seguro de Responsabilidad Civil por Daños a Terceros en la Superficie RPA (drones) para el Servicio Nacional de Pesca y Acuicultura de la Región de Coquimbo",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-23T10:32:00-03:00",
+   "fecha_cierre": "2026-11-25T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-23 10:35",
+   "organismo": "Servicio Nacional de Pesca y Acuicultura",
+   "unidad": "IV - Servicio Nacional de Pesca y Acuicultura",
+   "region": "Región de Coquimbo ",
+   "monto": 500000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1984-21-COT26",
+   "descripcion": "El Servicio Nacional de Pesca y Acuicultura de la Región de Coquimbo cuenta con un RPA (drones) que requieren obtener el permiso de vuelo ante la Dirección General de Aeronáutica Civil (DGAC), con el fin de quedar legalmente habilitados para su operación.\n\nPara realizar dicha inscripción, uno de los requisitos exigidos es contar con un seguro de responsabilidad civil por daños a terceros en la superficie, por lo que se hace necesario contratar este seguro.",
+   "direccion_entrega": "Avenida Videla N°340, Piso 7, Oficina N°709, Edificio Arenas Coquimbo",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Seguro por responsabilidad civil — Seguro de Responsabilidad Civil por Daños a Terceros en la Superficie RPA (drones) para el Servicio Nacional de Pesca y Acuicultura de la Región de Coquimbo"
+   ],
+   "adjuntos": [
+    "Requerimiento Tecnico_Compra Agil_Seguro de responsabilidad Civil.doc"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T14:05:11+00:00",
+   "primera_deteccion": "2026-11-23T14:05:11+00:00",
+   "area": "otros",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
    "id": "LIC:4290-83-LE26",
    "fuente": "licitacion",
    "codigo": "4290-83-LE26",
@@ -845,7 +815,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -887,8 +857,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
-   "detalle_actualizado": "2026-11-23T08:05:11+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T14:05:11+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -923,10 +893,55 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T10:05:13+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:2273-1023-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2273-1023-COT26",
+   "nombre": "EX. 16466  MANTENCION Y REPARACION DRONE  MEMORANDUM 31065   SGL.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-18T15:25:00-03:00",
+   "fecha_cierre": "2026-11-28T06:34:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-23 11:10",
+   "organismo": "I MUNICIPALIDAD DE LA PINTANA",
+   "unidad": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 5000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2273-1023-COT26",
+   "descripcion": "MANTENCIÓN Y REPARACIÓN  DRONE\nJUAN IGNACIO OLAVE ZULOAGA DIRECTOR DIRECCIÓN SEGURIDAD HUMANA",
+   "direccion_entrega": "LOS TILOS 037 VILLA LA PINTANA PARADERO 47 SANTA ROSA",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Cámaras aéreas — REPARACION Y MANTENCION - DRONES DJI MAVIC3 TERMAL\n\nVER ANEXO ADJUNTO",
+    "Cámaras aéreas — REPARACION Y MANTENCION - DRON MATRICE 350\n\nVER ANEXO ADJUNTO",
+    "Cámaras aéreas — BATERIAS INTELIGENTE DJITB65 NUEVAS PARA MATRICE 350\nBaterías inteligente DJI TB 65,  entrega de acuerdo a stock del oferente.\nVER ANEX ADJUNTO",
+    "Cámaras aéreas — BATERIAS DE RESPUESTO NUEVAS PARA DRON MAVIC 3 TERMAL. \nBaterías nuevas de repuestos, entrega de acuerdo a stock del oferente.\nVER ANEXO ADJUNTO"
+   ],
+   "adjuntos": [
+    "REQUERIMIENTOS COMPRA AGIL.docx",
+    "ANEXO NRO 1   REPARACION MANTENCION DRONE.docx"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T14:05:11+00:00",
+   "primera_deteccion": "2026-11-18T19:05:12+00:00",
+   "area": "gestion",
    "relevancia": "alta",
    "coincide_en": "titulo"
   },
@@ -958,8 +973,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
-   "detalle_actualizado": "2026-11-23T08:05:11+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T14:05:11+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1003,7 +1018,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -1051,7 +1066,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T10:05:13+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -1085,7 +1100,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1120,7 +1135,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -16699,8 +16714,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T13:05:16+00:00",
-   "detalle_actualizado": "2026-11-23T13:05:16+00:00",
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T14:05:11+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16836,6 +16851,49 @@
    "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "detalle"
+  },
+  {
+   "id": "CA:1487-66-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1487-66-COT26",
+   "nombre": "Adquisición de equipos aéreo no tripulado (RPAS) -  Departamento de aeródromos y servicios aeronáuticos",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-18T11:16:00-03:00",
+   "fecha_cierre": "2026-11-23T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-23 11:05",
+   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+   "unidad": "UNIDAD DE COMPRA CONCEPCION",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 7000000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1487-66-COT26",
+   "descripcion": "Adquisición de Equipos aéreos no tripulados para la DASA, conforme a características técnicas descritas en Anexo REQUISITOS TÉCNICOS adjunto. Las ofertas deberán contener las especificaciones técnicas de los productos ofertados. Según lo indicado en el Art.37 de la Ley N°16.752, LA DGAC RETIENE UN 2% DEL TOTAL FACTURADO. Si el proveedor oferta en la compra ágil, se entiende que ACEPTA dicha retención. **INCLUIR EL DESPACHO EN EL VALOR DEL PRODUCTO, NO EN ÍTEM APARTE**",
+   "direccion_entrega": " San Pablo # 8381, Pudahuel.",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia —  equipos aéreo no tripulado (RPAS) Remotely Piloted Aircraft System"
+   ],
+   "adjuntos": [
+    "BASES TECNICAS TECNICAS - DRONES SECCION FAPA.pdf",
+    "Ley N° 16752 del 17.FEB.1968.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-23T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T14:05:11+00:00",
+   "primera_deteccion": "2026-11-18T15:05:14+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-23T14:05:11+00:00"
   }
  ]
 }
