@@ -1,31 +1,31 @@
 {
- "generado": "2026-11-23T18:05:12+00:00",
- "proxima_actualizacion": "2026-11-23T19:05:12+00:00",
+ "generado": "2026-11-23T19:05:11+00:00",
+ "proxima_actualizacion": "2026-11-23T20:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-23T18:05:12+00:00",
+   "ultima_ok": "2026-11-23T19:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4966,
-   "detalles_consultados": 20,
+   "revisadas": 4740,
+   "detalles_consultados": 57,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-23T18:05:12+00:00",
+   "ultima_ok": "2026-11-23T19:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [
     "La API limitó las consultas (HTTP 429). Se continuará en la próxima ejecución."
    ],
-   "revisadas": 181,
-   "detalles_consultados": 5,
+   "revisadas": 4,
+   "detalles_consultados": 26,
    "segunda_pasada": 0,
-   "pendientes_segunda_pasada": 5,
-   "modo": "completo"
+   "pendientes_segunda_pasada": 0,
+   "modo": "recientes"
   }
  },
  "terminos": [
@@ -78,22 +78,11 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:3693-188-LE26",
+  "CA:4629-67-COT26"
+ ],
  "por_revisar": [
-  {
-   "id": "CA:875646-2859-COT26",
-   "codigo": "875646-2859-COT26",
-   "nombre": "JCB. Curso arsenalería quirúrgica",
-   "organismo": "Hospital Dr. Eduardo Pereira Ramirez",
-   "region": "Región de Valparaíso ",
-   "fecha_publicacion": "2026-11-20T15:47:00-03:00",
-   "fecha_cierre": "2026-11-23T16:00:00-03:00",
-   "monto": 5000000.0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=875646-2859-COT26",
-   "adjuntos": [
-    "Especificaciones técnicas Curso de Arsenalería Quirúrgica..pdf"
-   ]
-  },
   {
    "id": "CA:761-235-COT26",
    "codigo": "761-235-COT26",
@@ -125,75 +114,6 @@
   }
  ],
  "items": [
-  {
-   "id": "LIC:5420-27-LE26",
-   "fuente": "licitacion",
-   "codigo": "5420-27-LE26",
-   "nombre": "Adquisición de dron topográfico RTK y software",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-23T15:30:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5420-27-LE26",
-   "descripcion": "El Gobierno Regional de Arica y Parinacota requiere adquirir una solución integrada de equipamiento y software para levantamientos topográficos y fotogramétricos, compuesta por dron RTK con control remoto, estación base GNSS multifuncional, sistema de paracaídas de emergencia y software fotogramétrico, conforme a las Bases Administrativas y Técnicas adjuntas.",
-   "organismo": "GOBIERNO REGIONAL DE ARICA-PARINACOTA",
-   "unidad": "Gobierno Regional de Arica y Parinacota",
-   "region": "Región de Arica y Parinacota",
-   "comuna": "Arica",
-   "fecha_publicacion": "2026-11-12T11:48:52-03:00",
-   "fecha_adjudicacion": "2026-12-10T21:00:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Sistemas de topografía — Solución integrada de dron topográfico RTK con control remoto, estación base GNSS, paracaídas de emergencia y software fotogramétrico, incluidos accesorios, licencias y prestaciones obligatorias, según Bases Técnicas adjuntas."
-   ],
-   "terminos": [
-    "Dron",
-    "Fotogrametría / ortomosaico"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T16:05:25+00:00",
-   "primera_deteccion": "2026-11-12T15:05:12+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
-   "id": "LIC:1422035-47-LE26",
-   "fuente": "licitacion",
-   "codigo": "1422035-47-LE26",
-   "nombre": "PRODUCCIÓN Y TRANSMISIÓN EN VIVO WINE MAULE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-23T15:30:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1422035-47-LE26",
-   "descripcion": "Servicio integral de producción audiovisual, transmisión en vivo, cobertura periodística y generación de contenidos digitales para Wine Maule 2026 a realizarse los días 27, 28 y 29 de noviembre en Talca, Región del Maule.",
-   "organismo": "CORPORACION REGIONAL DE DESARROLLO PRODUCTIVO DE LA REGION DEL MAULE",
-   "unidad": "CORPORACION REGIONAL DE DESARROLLO PRODUCTIVO DE LA REGION DEL MAULE",
-   "region": "Región del Maule",
-   "fecha_publicacion": "2026-11-13T10:27:10-03:00",
-   "fecha_adjudicacion": "2026-11-26T16:00:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Servicios de fotografía aérea — Servicio De Producción Audiovisual Y Transmisión En Vivo Wine Maule 2026 CRDP Maule"
-   ],
-   "terminos": [
-    "Servicios aéreos"
-   ],
-   "categorias": [
-    "derivado"
-   ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T13:05:16+00:00",
-   "primera_deteccion": "2026-11-13T14:05:11+00:00",
-   "area": "servicios",
-   "relevancia": "alta",
-   "coincide_en": "detalle"
-  },
   {
    "id": "CA:1515304-340-COT26",
    "fuente": "compra_agil",
@@ -309,7 +229,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -438,7 +358,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T17:05:12+00:00",
    "primera_deteccion": "2026-11-20T19:57:18+00:00",
    "area": "tienda",
@@ -520,7 +440,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -603,7 +523,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T17:05:12+00:00",
    "primera_deteccion": "2026-11-23T14:05:11+00:00",
    "area": "otros",
@@ -678,7 +598,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -720,12 +640,53 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T14:05:11+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
    "relevancia": "baja",
    "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:4629-67-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "4629-67-COT26",
+   "nombre": "Adquisición por renovación de pólizas de seguro de responsabilidad civil para la operación de 2 drones modelo Dron DJI Mini 4 Pro Fly More Combo Plus institucionales.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-23T15:33:00-03:00",
+   "fecha_cierre": "2026-11-26T14:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-23 15:35",
+   "organismo": "DIRECCION DEL TRABAJO",
+   "unidad": "Nivel Central Santiago",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 12.0,
+   "moneda": "CLF",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=4629-67-COT26",
+   "descripcion": "La Dirección del Trabajo, requiere adquirir (renovar) póliza de seguro de responsabilidad civil para 2 drones institucionales modelo Dron DJI Mini 4 Pro Fly More Combo Plus, para operar sobre áreas pobladas, debido a que resulta ser obligatorio contar con una póliza de seguro de responsabilidad civil por daños a terceros.",
+   "direccion_entrega": "Agustinas N°1253",
+   "plazo_entrega_dias": 2,
+   "productos": [
+    "Seguro por responsabilidad civil — Las 2 pólizas de seguro, deben cumplir con las características señaladas en el numeral III. del Requerimiento Tecnico adjunto."
+   ],
+   "adjuntos": [
+    "RT Seguros Drones.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
+   "primera_deteccion": "2026-11-23T19:05:11+00:00",
+   "area": "otros",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
   },
   {
    "id": "LIC:4956-90-LE26",
@@ -756,7 +717,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T16:05:25+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -836,7 +797,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T14:05:11+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -881,7 +842,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -929,7 +890,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T16:05:25+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -963,12 +924,46 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:3693-188-LE26",
+   "fuente": "licitacion",
+   "codigo": "3693-188-LE26",
+   "nombre": "ADQUISICIÓN DE EQUIPAMIENTO ACCESORIOS Y SERVICIO",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-12-03T15:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3693-188-LE26",
+   "descripcion": "ADQUISICIÓN DE EQUIPAMIENTO, ACCESORIOS Y SERVICIOS PARA ACTUALIZACIÓN DE FLOTA RPAS DE LA MUNICIPALIDAD DE EL QUISCO",
+   "organismo": "I MUNICIPALIDAD DE EL QUISCO",
+   "unidad": "Departamento SECPLA",
+   "region": "Región de Valparaíso",
+   "comuna": "El Quisco",
+   "fecha_publicacion": "2026-11-23T15:39:15-03:00",
+   "fecha_adjudicacion": "2026-12-31T16:40:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICIÓN DE EQUIPAMIENTO, ACCESORIOS Y SERVICIOS PARA ACTUALIZACIÓN DE FLOTA RPAS DE LA MUNICIPALIDAD DE EL QUISCO"
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
+   "primera_deteccion": "2026-11-23T19:05:11+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "detalle"
   },
   {
    "id": "LIC:2952-23-LP26",
@@ -998,7 +993,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
    "detalle_actualizado": "2026-11-23T13:05:16+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -15890,7 +15885,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-16T15:44:00-03:00",
    "fecha_cierre": "2026-11-19T10:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19T10:35:00.607Z",
+   "fecha_ultimo_cambio": "2026-11-19 10:35",
    "organismo": "JUNTA NACIONAL DE AUXILIO ESCOLAR Y BECA",
    "unidad": "JUNTA NACIONAL DE AUXILIO ESCOLAR Y BECA",
    "region": "Región Metropolitana de Santiago",
@@ -15919,8 +15914,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-16T19:13:02+00:00",
    "area": "servicios",
    "relevancia": "baja",
@@ -15983,7 +15978,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-12T12:47:00-03:00",
    "fecha_cierre": "2026-11-19T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19T12:10:02.413Z",
+   "fecha_ultimo_cambio": "2026-11-19 12:10",
    "organismo": "ASOCIACION DE MUNICIPIOS METROPOLITANOS PARA LA SE",
    "unidad": "PROYECTO SEGURIDAD PROVIDENCIA",
    "region": "Región Metropolitana de Santiago",
@@ -16007,8 +16002,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -16075,7 +16070,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-18T14:55:00-03:00",
    "fecha_cierre": "2026-11-19T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-19T15:05:02.370Z",
+   "fecha_ultimo_cambio": "2026-11-19 15:05",
    "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
    "unidad": "UNIDAD DE COMPRA SERVICIOS GENERALES",
    "region": "Región Metropolitana de Santiago",
@@ -16102,8 +16097,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-18T18:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16199,7 +16194,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-18T11:21:00-03:00",
    "fecha_cierre": "2026-11-20T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20T10:15:01.400Z",
+   "fecha_ultimo_cambio": "2026-11-20 10:15",
    "organismo": "I MUNICIPALIDAD DE YUNGAY",
    "unidad": "Direccion Administración y Finanzas",
    "region": "Región del Ñuble",
@@ -16223,8 +16218,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16265,8 +16260,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T10:05:13+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
@@ -16283,7 +16278,7 @@
    "estado_glosa": "Proveedor seleccionado",
    "fecha_publicacion": "2026-11-19T11:02:00-03:00",
    "fecha_cierre": "2026-11-20T11:05:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-23T10:50:00.477Z",
+   "fecha_ultimo_cambio": "2026-11-23 10:50",
    "organismo": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE CHILOÉ",
    "unidad": "Delegacion Presidencial Provincial de Chiloé",
    "region": "Región de los Lagos ",
@@ -16303,13 +16298,22 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "detalle",
-   "cambio_estado": "2026-11-23T18:05:12+00:00"
+   "cambio_estado": "2026-11-23T18:05:12+00:00",
+   "resultado": {
+    "ofertas": 7,
+    "oferta_minima": 130900.0,
+    "ganador": {
+     "nombre": "COMERCIAL KOTAR SPA",
+     "monto": 130900.0,
+     "es_aereo": false
+    }
+   }
   },
   {
    "id": "CA:1515304-339-COT26",
@@ -16346,8 +16350,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T10:05:13+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
@@ -16364,7 +16368,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-17T15:38:00-03:00",
    "fecha_cierre": "2026-11-20T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20T12:05:00.680Z",
+   "fecha_ultimo_cambio": "2026-11-20 12:05",
    "organismo": "SEREMI Bienes Nacionales IV Región",
    "unidad": "SEREMI de Coquimbo",
    "region": "Región de Coquimbo ",
@@ -16387,8 +16391,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-17T19:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16456,7 +16460,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-19T10:29:00-03:00",
    "fecha_cierre": "2026-11-20T20:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20T20:05:00.700Z",
+   "fecha_ultimo_cambio": "2026-11-20 20:05",
    "organismo": "SERVICIO REGIONAL DE LA VIVIENDA Y URBAN",
    "unidad": "Sección Compras y Servicios Generales",
    "region": "Región de Arica y Parinacota",
@@ -16490,8 +16494,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-19T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16508,7 +16512,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-13T10:23:00-03:00",
    "fecha_cierre": "2026-11-21T08:41:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-21T08:45:00.920Z",
+   "fecha_ultimo_cambio": "2026-11-21 08:45",
    "organismo": "I MUNICIPALIDAD DE QUILICURA",
    "unidad": "DEPARTAMENTO COMPRAS PÚBLICAS",
    "region": "Región Metropolitana de Santiago",
@@ -16531,8 +16535,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-23T10:05:13+00:00",
+   "ultima_actualizacion": "2026-11-23T19:05:11+00:00",
+   "detalle_actualizado": "2026-11-23T19:05:11+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -16881,6 +16885,75 @@
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:5420-27-LE26",
+   "fuente": "licitacion",
+   "codigo": "5420-27-LE26",
+   "nombre": "Adquisición de dron topográfico RTK y software",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-23T15:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5420-27-LE26",
+   "descripcion": "El Gobierno Regional de Arica y Parinacota requiere adquirir una solución integrada de equipamiento y software para levantamientos topográficos y fotogramétricos, compuesta por dron RTK con control remoto, estación base GNSS multifuncional, sistema de paracaídas de emergencia y software fotogramétrico, conforme a las Bases Administrativas y Técnicas adjuntas.",
+   "organismo": "GOBIERNO REGIONAL DE ARICA-PARINACOTA",
+   "unidad": "Gobierno Regional de Arica y Parinacota",
+   "region": "Región de Arica y Parinacota",
+   "comuna": "Arica",
+   "fecha_publicacion": "2026-11-12T11:48:52-03:00",
+   "fecha_adjudicacion": "2026-12-10T21:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Sistemas de topografía — Solución integrada de dron topográfico RTK con control remoto, estación base GNSS, paracaídas de emergencia y software fotogramétrico, incluidos accesorios, licencias y prestaciones obligatorias, según Bases Técnicas adjuntas."
+   ],
+   "terminos": [
+    "Dron",
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-23T16:05:25+00:00",
+   "primera_deteccion": "2026-11-12T15:05:12+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:1422035-47-LE26",
+   "fuente": "licitacion",
+   "codigo": "1422035-47-LE26",
+   "nombre": "PRODUCCIÓN Y TRANSMISIÓN EN VIVO WINE MAULE",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-23T15:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1422035-47-LE26",
+   "descripcion": "Servicio integral de producción audiovisual, transmisión en vivo, cobertura periodística y generación de contenidos digitales para Wine Maule 2026 a realizarse los días 27, 28 y 29 de noviembre en Talca, Región del Maule.",
+   "organismo": "CORPORACION REGIONAL DE DESARROLLO PRODUCTIVO DE LA REGION DEL MAULE",
+   "unidad": "CORPORACION REGIONAL DE DESARROLLO PRODUCTIVO DE LA REGION DEL MAULE",
+   "region": "Región del Maule",
+   "fecha_publicacion": "2026-11-13T10:27:10-03:00",
+   "fecha_adjudicacion": "2026-11-26T16:00:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Servicios de fotografía aérea — Servicio De Producción Audiovisual Y Transmisión En Vivo Wine Maule 2026 CRDP Maule"
+   ],
+   "terminos": [
+    "Servicios aéreos"
+   ],
+   "categorias": [
+    "derivado"
+   ],
+   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-23T13:05:16+00:00",
+   "primera_deteccion": "2026-11-13T14:05:11+00:00",
+   "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "detalle"
   }
  ]
 }
