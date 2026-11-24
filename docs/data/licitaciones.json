@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-24T13:05:12+00:00",
- "proxima_actualizacion": "2026-11-24T14:05:12+00:00",
+ "generado": "2026-11-24T14:05:13+00:00",
+ "proxima_actualizacion": "2026-11-24T15:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-24T13:05:12+00:00",
+   "ultima_ok": "2026-11-24T14:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4688,
-   "detalles_consultados": 34,
+   "revisadas": 4721,
+   "detalles_consultados": 49,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-24T13:05:12+00:00",
+   "ultima_ok": "2026-11-24T14:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4,
-   "detalles_consultados": 11,
+   "revisadas": 5,
+   "detalles_consultados": 32,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:4482-29-COT26"
+ ],
  "por_revisar": [
   {
    "id": "CA:761-235-COT26",
@@ -109,48 +111,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:2348-83-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2348-83-COT26",
-   "nombre": "CONTRATACIÓN DE SEGURO DE RESPONSABILIDAD CIVIL PARA SISTEMA DE AERONAVE PILOTADA A DISTANCIA",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-20T08:52:00-03:00",
-   "fecha_cierre": "2026-11-24T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20T08:55:00.877Z",
-   "organismo": "I MUNICIPALIDAD DE PUNTA ARENAS",
-   "unidad": "Dirección de Administración y Finanzas",
-   "region": "Región de Magallanes y de la Antártica",
-   "monto": 450000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2348-83-COT26",
-   "descripcion": "La Ilustre Municipalidad de Punta Arenas requiere contratar un seguro de Responsabilidad Civil para un Sistema de Aeronave Pilotada a Distancia (RPAS), destinado a las funciones de la Dirección de Seguridad Pública, con el objeto de proteger el interés municipal frente a eventuales daños materiales, lesiones corporales o muerte ocasionados a terceros durante la operación del equipo.  \n\nLa póliza deberá tener una vigencia de doce (12) meses, contados desde el 01 de diciembre de 2026 hasta el 01 d",
-   "direccion_entrega": "JOSE NOGUEIRA N° 1238, PUNTA ARENAS",
-   "plazo_entrega_dias": 1,
-   "productos": [
-    "Seguro por responsabilidad civil — La Ilustre Municipalidad de Punta Arenas requiere contratar un seguro de Responsabilidad Civil para un Sistema de Aeronave Pilotada a Distancia (RPAS), destinado a las funciones de la Dirección de Seguridad Pública, con el objeto de proteger el interés municipal frente a eventuales daños materiales, lesiones corporales o muerte ocasionados a terceros durante la operación del equipo.  \nLa póliza deberá tener una vigencia de doce (12) meses."
-   ],
-   "adjuntos": [
-    "TÉRMINOS DE REFERENCIA DRON SEGURIDAD PÚBLICA.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T16:05:11+00:00",
-   "primera_deteccion": "2026-11-20T12:05:11+00:00",
-   "area": "otros",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:1404452-75-COT26",
    "fuente": "compra_agil",
@@ -222,8 +182,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -304,7 +264,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -387,7 +347,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-23T17:05:12+00:00",
    "primera_deteccion": "2026-11-23T14:05:11+00:00",
    "area": "otros",
@@ -462,7 +422,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -504,7 +464,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
@@ -553,6 +513,46 @@
    "coincide_en": "detalle"
   },
   {
+   "id": "CA:4482-29-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "4482-29-COT26",
+   "nombre": "ADQUISICIÓN SEGURO DE RESPONSABILIDAD CIVIL (DAÑO A TERCEROS) PARA DRON ILUSTRE MUNICIPALIDAD DE DALCAHUE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-24T10:08:00-03:00",
+   "fecha_cierre": "2026-11-26T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-24 10:10",
+   "organismo": "I MUNICIPALIDAD DE DALCAHUE",
+   "unidad": "Alcaldia",
+   "region": "Región de los Lagos ",
+   "monto": 500000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=4482-29-COT26",
+   "descripcion": "ADQUISICIÓN SEGURO DE RESPONSABILIDAD CIVIL (DAÑO A TERCEROS) PARA DRON ILUSTRE MUNICIPALIDAD DE DALCAHUE.",
+   "direccion_entrega": "Manuel Rodriguez N°110. ",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Seguro de equipo electrónico — SEGURO DE RESPONSABILIDAD CIVIL (DAÑO A TERCEROS) PARA DRON ILUSTRE MUNICIPALIDAD DE DALCAHUE.\nSEGÚN ESPECIFICACIONES ADJUNTAS"
+   ],
+   "adjuntos": [
+    "ESPECIFICACIONES TECNICAS COMPRA AGIL SEGURO A TERCEROS DRON.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
+   "primera_deteccion": "2026-11-24T14:05:13+00:00",
+   "area": "otros",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
    "id": "CA:4629-67-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -586,8 +586,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -622,7 +622,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-24T11:05:14+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -675,6 +675,48 @@
    "coincide_en": "titulo"
   },
   {
+   "id": "CA:2348-83-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2348-83-COT26",
+   "nombre": "CONTRATACIÓN DE SEGURO DE RESPONSABILIDAD CIVIL PARA SISTEMA DE AERONAVE PILOTADA A DISTANCIA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-20T08:52:00-03:00",
+   "fecha_cierre": "2026-11-28T13:07:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-24 11:05",
+   "organismo": "I MUNICIPALIDAD DE PUNTA ARENAS",
+   "unidad": "Dirección de Administración y Finanzas",
+   "region": "Región de Magallanes y de la Antártica",
+   "monto": 450000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2348-83-COT26",
+   "descripcion": "La Ilustre Municipalidad de Punta Arenas requiere contratar un seguro de Responsabilidad Civil para un Sistema de Aeronave Pilotada a Distancia (RPAS), destinado a las funciones de la Dirección de Seguridad Pública, con el objeto de proteger el interés municipal frente a eventuales daños materiales, lesiones corporales o muerte ocasionados a terceros durante la operación del equipo.  \n\nLa póliza deberá tener una vigencia de doce (12) meses, contados desde el 01 de diciembre de 2026 hasta el 01 d",
+   "direccion_entrega": "JOSE NOGUEIRA N° 1238, PUNTA ARENAS",
+   "plazo_entrega_dias": 1,
+   "productos": [
+    "Seguro por responsabilidad civil — La Ilustre Municipalidad de Punta Arenas requiere contratar un seguro de Responsabilidad Civil para un Sistema de Aeronave Pilotada a Distancia (RPAS), destinado a las funciones de la Dirección de Seguridad Pública, con el objeto de proteger el interés municipal frente a eventuales daños materiales, lesiones corporales o muerte ocasionados a terceros durante la operación del equipo.  \nLa póliza deberá tener una vigencia de doce (12) meses."
+   ],
+   "adjuntos": [
+    "TÉRMINOS DE REFERENCIA DRON SEGURIDAD PÚBLICA.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
+   "primera_deteccion": "2026-11-20T12:05:11+00:00",
+   "area": "otros",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
    "id": "LIC:1388961-63-LE26",
    "fuente": "licitacion",
    "codigo": "1388961-63-LE26",
@@ -702,7 +744,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -747,7 +789,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -795,7 +837,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-24T11:05:14+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -829,7 +871,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -863,8 +905,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-24T08:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -898,7 +940,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -12070,8 +12112,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-04T05:05:12+00:00",
    "origen": "api",
    "area": "tienda",
@@ -12599,8 +12641,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -12694,8 +12736,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-10-27T01:05:11+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -13142,8 +13184,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "adjuntos": [
@@ -13532,8 +13574,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "adjuntos": [
     "MEMO N°013 - TAPATI.pdf"
@@ -13571,8 +13613,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-05T06:05:10+00:00",
    "origen": "api",
    "adjuntos": [
@@ -13820,7 +13862,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "descripcion": "Adquisición de Kit receptor GNSS RTK rover y Curso de operación de drones y apoyo a credencial para un funcionario del Departamento Técnico de Construcciones y Urbanización, mantención y seguro para los equipos RPAS del SERVIU de la Región de O’Higgins\n\nDe acuerdo a lo solicitado en cotización 642-40-COT26 adjunta",
    "direccion_entrega": "Brasil N° 912",
@@ -13828,7 +13870,7 @@
    "adjuntos": [
     "642-40-COT26.pdf"
    ],
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -13908,8 +13950,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-10T14:05:12+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
@@ -13991,7 +14033,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "cambio_estado": "2026-11-12T15:05:12+00:00",
    "descripcion": "Contratación de curso de capacitación para operadores de drones y habilitación de vuelo nocturno según especificaciones técnicas adjuntas en documentos anexos.",
@@ -14003,7 +14045,7 @@
     "ANEXO 1 Declaración  Jurada de Proveedores .pdf",
     "Anexo B-2.pdf"
    ],
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -14286,8 +14328,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -14453,8 +14495,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -14802,8 +14844,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "basestecnicas34_001122.pdf",
@@ -14997,8 +15039,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -15348,8 +15390,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15389,8 +15431,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-17T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15471,8 +15513,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -15567,8 +15609,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -15606,8 +15648,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "adjuntos": [
     "CA_MANTENCION_DRON.pdf"
@@ -15650,8 +15692,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-13T19:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -15693,8 +15735,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-17T13:04:15+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -15732,8 +15774,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-06T06:05:10+00:00",
    "origen": "api",
    "area": "otros",
@@ -15781,8 +15823,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T05:05:13+00:00",
-   "detalle_actualizado": "2026-11-24T05:05:13+00:00",
+   "ultima_actualizacion": "2026-11-24T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-17T23:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
