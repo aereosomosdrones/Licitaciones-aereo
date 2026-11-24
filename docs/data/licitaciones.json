@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-24T12:05:12+00:00",
- "proxima_actualizacion": "2026-11-24T13:05:12+00:00",
+ "generado": "2026-11-24T13:05:12+00:00",
+ "proxima_actualizacion": "2026-11-24T14:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-24T12:05:12+00:00",
+   "ultima_ok": "2026-11-24T13:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4695,
-   "detalles_consultados": 15,
+   "revisadas": 4688,
+   "detalles_consultados": 34,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-24T12:05:12+00:00",
+   "ultima_ok": "2026-11-24T13:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 4,
-   "detalles_consultados": 6,
+   "detalles_consultados": 11,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -109,133 +109,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:2324-1207-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2324-1207-COT26",
-   "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE)/ DIRECCION DE SEGURIDAD PUBLICA.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-16T16:05:00-03:00",
-   "fecha_cierre": "2026-11-24T09:16:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20T15:25:00.933Z",
-   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
-   "unidad": "Departamento de Licitaciones y gestión de Abastecimiento",
-   "region": "Región de los Lagos ",
-   "monto": 3620000.0,
-   "moneda": "CLP",
-   "ofertas": 1,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2324-1207-COT26",
-   "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA.",
-   "direccion_entrega": "CALLE EL TENIENTE N° 65, BODEGA MUNICIPAL N°2, PARQUE INDUISTRIAL",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Módulos de servicio para aeronaves — SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA. \n"
-   ],
-   "adjuntos": [
-    "ANEXO N°1    COMPRA AGIL 2324-1207-COT26.docx",
-    "BASES TÉCNICAS SERVICIO REPUESTOS Y MANTENCION DE DRONES.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-22T18:05:11+00:00",
-   "primera_deteccion": "2026-11-16T19:13:02+00:00",
-   "area": "gestion",
-   "relevancia": "alta",
-   "coincide_en": "titulo",
-   "cambio_estado": "2026-11-20T22:05:10+00:00"
-  },
-  {
-   "id": "LIC:3384-25-LE26",
-   "fuente": "licitacion",
-   "codigo": "3384-25-LE26",
-   "nombre": "Adquisición de un dron fotogramétrico",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-24T10:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3384-25-LE26",
-   "descripcion": "Adquisición de un dron fotogramétrico con posicionamiento RTK y cámara RGB para el IGM. conforme a bases técnicas y administrativas adjuntas.",
-   "organismo": "DIVISION LOGISTICA DEL EJERCITO",
-   "unidad": "Instituto Geográfico Militar",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Santiago Centro",
-   "fecha_publicacion": "2026-11-12T16:35:06-03:00",
-   "fecha_adjudicacion": "2026-12-08T18:00:00-03:00",
-   "monto": 9000000.0,
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Cámaras aéreas — Adquisición de un dron fotogramétrico con posicionamiento RTK y cámara RGB para el IGM, de acuerdo a bases de licitación adjuntas."
-   ],
-   "terminos": [
-    "Dron",
-    "Fotogrametría / ortomosaico"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
-   "detalle_actualizado": "2026-11-24T10:05:24+00:00",
-   "primera_deteccion": "2026-11-12T20:05:13+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
-   "id": "CA:377-435-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "377-435-COT26",
-   "nombre": "ACCESORIOS PARA DRON",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-18T11:52:00-03:00",
-   "fecha_cierre": "2026-11-24T10:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18T11:55:00.873Z",
-   "organismo": "I MUNICIPALIDAD DE ALGARROBO",
-   "unidad": "MUNICIPALIDAD DE ALGARROBO-ADQUISICIONES",
-   "region": "Región de Valparaíso ",
-   "monto": 2927400.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=377-435-COT26",
-   "descripcion": "USO: DRON DJI MAVIC 3 PRO, REQUERIMIENTO DE SECPLAC",
-   "direccion_entrega": "AV PEÑABLANCA 250",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Kits de cámara — KIT DE BATERIAS PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Kits de cámara — PARACAIDAS DE RECUPERACION PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Kits de cámara — TARJETA MICRO SD PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Kits de cámara — MALETA RIGIDA PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Lentes o filtros para cámaras — GAFAS FPV Y CONTROL DE MOVIMIENTO PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Lentes o filtros para cámaras — FILTROS OPTICOS ND-PL PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
-    "Correas de cámara — CORREA DE CUELLO PARA DJI RC PARA DRON DJI MAVIC 3 PRO, VER ANEXO"
-   ],
-   "adjuntos": [
-    "ACCESORIOS DRON.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-23T18:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T17:05:17+00:00",
-   "primera_deteccion": "2026-11-18T15:05:14+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:2348-83-COT26",
    "fuente": "compra_agil",
@@ -349,8 +222,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
-   "detalle_actualizado": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-24T13:05:12+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -431,7 +304,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -514,7 +387,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-23T17:05:12+00:00",
    "primera_deteccion": "2026-11-23T14:05:11+00:00",
    "area": "otros",
@@ -589,7 +462,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -631,7 +504,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
@@ -713,8 +586,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
-   "detalle_actualizado": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-24T13:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -749,7 +622,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T11:05:14+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -829,7 +702,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -874,7 +747,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -922,7 +795,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T11:05:14+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -956,7 +829,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -990,7 +863,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T08:05:13+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1025,7 +898,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
    "detalle_actualizado": "2026-11-24T10:05:24+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -17042,6 +16915,134 @@
     "oferta_minima": 4200000.0
    },
    "cambio_estado": "2026-11-24T07:05:10+00:00"
+  },
+  {
+   "id": "CA:2324-1207-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2324-1207-COT26",
+   "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE)/ DIRECCION DE SEGURIDAD PUBLICA.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-16T16:05:00-03:00",
+   "fecha_cierre": "2026-11-24T09:16:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-24 09:20",
+   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
+   "unidad": "Departamento de Licitaciones y gestión de Abastecimiento",
+   "region": "Región de los Lagos ",
+   "monto": 3620000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2324-1207-COT26",
+   "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA.",
+   "direccion_entrega": "CALLE EL TENIENTE N° 65, BODEGA MUNICIPAL N°2, PARQUE INDUISTRIAL",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Módulos de servicio para aeronaves — SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA. \n"
+   ],
+   "adjuntos": [
+    "ANEXO N°1    COMPRA AGIL 2324-1207-COT26.docx",
+    "BASES TÉCNICAS SERVICIO REPUESTOS Y MANTENCION DE DRONES.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-24T13:05:12+00:00",
+   "primera_deteccion": "2026-11-16T19:13:02+00:00",
+   "area": "gestion",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-24T13:05:12+00:00"
+  },
+  {
+   "id": "LIC:3384-25-LE26",
+   "fuente": "licitacion",
+   "codigo": "3384-25-LE26",
+   "nombre": "Adquisición de un dron fotogramétrico",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-24T10:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3384-25-LE26",
+   "descripcion": "Adquisición de un dron fotogramétrico con posicionamiento RTK y cámara RGB para el IGM. conforme a bases técnicas y administrativas adjuntas.",
+   "organismo": "DIVISION LOGISTICA DEL EJERCITO",
+   "unidad": "Instituto Geográfico Militar",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-11-12T16:35:06-03:00",
+   "fecha_adjudicacion": "2026-12-08T18:00:00-03:00",
+   "monto": 9000000.0,
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Cámaras aéreas — Adquisición de un dron fotogramétrico con posicionamiento RTK y cámara RGB para el IGM, de acuerdo a bases de licitación adjuntas."
+   ],
+   "terminos": [
+    "Dron",
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-24T12:05:12+00:00",
+   "detalle_actualizado": "2026-11-24T10:05:24+00:00",
+   "primera_deteccion": "2026-11-12T20:05:13+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:377-435-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "377-435-COT26",
+   "nombre": "ACCESORIOS PARA DRON",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-18T11:52:00-03:00",
+   "fecha_cierre": "2026-11-24T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-24 10:05",
+   "organismo": "I MUNICIPALIDAD DE ALGARROBO",
+   "unidad": "MUNICIPALIDAD DE ALGARROBO-ADQUISICIONES",
+   "region": "Región de Valparaíso ",
+   "monto": 2927400.0,
+   "moneda": "CLP",
+   "ofertas": 3,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=377-435-COT26",
+   "descripcion": "USO: DRON DJI MAVIC 3 PRO, REQUERIMIENTO DE SECPLAC",
+   "direccion_entrega": "AV PEÑABLANCA 250",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Kits de cámara — KIT DE BATERIAS PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Kits de cámara — PARACAIDAS DE RECUPERACION PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Kits de cámara — TARJETA MICRO SD PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Kits de cámara — MALETA RIGIDA PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Lentes o filtros para cámaras — GAFAS FPV Y CONTROL DE MOVIMIENTO PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Lentes o filtros para cámaras — FILTROS OPTICOS ND-PL PARA DRON DJI MAVIC 3 PRO, VER ANEXO",
+    "Correas de cámara — CORREA DE CUELLO PARA DJI RC PARA DRON DJI MAVIC 3 PRO, VER ANEXO"
+   ],
+   "adjuntos": [
+    "ACCESORIOS DRON.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-24T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-24T13:05:12+00:00",
+   "primera_deteccion": "2026-11-18T15:05:14+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-24T13:05:12+00:00"
   }
  ]
 }
