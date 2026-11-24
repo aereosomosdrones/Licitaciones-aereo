@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-24T06:05:10+00:00",
- "proxima_actualizacion": "2026-11-24T07:05:10+00:00",
+ "generado": "2026-11-24T07:05:10+00:00",
+ "proxima_actualizacion": "2026-11-24T08:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-24T06:05:10+00:00",
+   "ultima_ok": "2026-11-24T07:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 4706,
@@ -16,11 +16,11 @@
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-24T06:05:10+00:00",
+   "ultima_ok": "2026-11-24T07:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 4,
-   "detalles_consultados": 2,
+   "detalles_consultados": 5,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -110,48 +110,6 @@
  ],
  "items": [
   {
-   "id": "CA:1515304-340-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1515304-340-COT26",
-   "nombre": "CONTRATACIÓN DE CURSO ESTRUCTURAS NIVEL 2, PARA MECÁNICOS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-16T16:11:00-03:00",
-   "fecha_cierre": "2026-11-24T03:48:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-20 10:10",
-   "organismo": "Carabineros de Chile",
-   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 4200000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-340-COT26",
-   "descripcion": "DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 50 HORAS DE INSTRUCCIÓN.\nEL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).\nEL CURSO CONSIDERA LA PARTICIPACIÓN DE 04 ALUMNOS.\nPROCESO EDUCACIONAL EXCLUÍDO DE IVA",
-   "direccion_entrega": "AVDA. ALCALDE FERNANDO CASTILLO VELASCO (EX AVDA. LARRAÍN) NRO. 7941, COMUNA DE LA REINA, PREFECTURA AÉREA DE CARABINEROS, INTERIOR AERÓDROMO TOBALABA, DE LUNES A VIERNES EN HORARIO ENTRE 08:00 HRS. A 18:00 HRS",
-   "plazo_entrega_dias": 20,
-   "productos": [
-    "Capacitación a empleados — \nCONTRATACIÓN DE CURSO ESTRUCTURAS NIVEL 2, PARA MECÁNICOS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE"
-   ],
-   "adjuntos": [
-    "REQUERIMIENTOS TÉCNICOS CARP. 256.docx",
-    "Certificado_Refrendacion_240 (1).pdf"
-   ],
-   "via": "segunda pasada",
-   "terminos": [
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-20T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-20T13:05:12+00:00",
-   "primera_deteccion": "2026-11-16T20:05:10+00:00",
-   "area": "capacitacion",
-   "relevancia": "baja",
-   "coincide_en": "mencion"
-  },
-  {
    "id": "CA:2324-1207-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -224,7 +182,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T03:05:14+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
@@ -391,8 +349,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
+   "detalle_actualizado": "2026-11-24T07:05:10+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -473,7 +431,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T03:05:14+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -556,7 +514,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-23T17:05:12+00:00",
    "primera_deteccion": "2026-11-23T14:05:11+00:00",
    "area": "otros",
@@ -631,7 +589,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T03:05:14+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -673,7 +631,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T03:05:14+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
@@ -755,8 +713,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
-   "detalle_actualizado": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
+   "detalle_actualizado": "2026-11-24T07:05:10+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -791,7 +749,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T05:05:13+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -871,7 +829,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T03:05:14+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -916,7 +874,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T03:05:14+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -964,7 +922,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T05:05:13+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -998,7 +956,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T03:05:14+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1032,7 +990,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T01:05:11+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1067,7 +1025,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T06:05:10+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
    "detalle_actualizado": "2026-11-24T03:05:14+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -16664,8 +16622,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T22:05:20+00:00",
-   "detalle_actualizado": "2026-11-23T22:05:20+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
+   "detalle_actualizado": "2026-11-24T07:05:10+00:00",
    "primera_deteccion": "2026-11-20T15:05:15+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16837,8 +16795,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-23T22:05:20+00:00",
-   "detalle_actualizado": "2026-11-23T22:05:20+00:00",
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
+   "detalle_actualizado": "2026-11-24T07:05:10+00:00",
    "primera_deteccion": "2026-11-18T15:05:14+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17037,6 +16995,53 @@
    "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "detalle"
+  },
+  {
+   "id": "CA:1515304-340-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-340-COT26",
+   "nombre": "CONTRATACIÓN DE CURSO ESTRUCTURAS NIVEL 2, PARA MECÁNICOS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-16T16:11:00-03:00",
+   "fecha_cierre": "2026-11-24T03:48:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-24 03:55",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 4200000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-340-COT26",
+   "descripcion": "DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 50 HORAS DE INSTRUCCIÓN.\nEL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).\nEL CURSO CONSIDERA LA PARTICIPACIÓN DE 04 ALUMNOS.\nPROCESO EDUCACIONAL EXCLUÍDO DE IVA",
+   "direccion_entrega": "AVDA. ALCALDE FERNANDO CASTILLO VELASCO (EX AVDA. LARRAÍN) NRO. 7941, COMUNA DE LA REINA, PREFECTURA AÉREA DE CARABINEROS, INTERIOR AERÓDROMO TOBALABA, DE LUNES A VIERNES EN HORARIO ENTRE 08:00 HRS. A 18:00 HRS",
+   "plazo_entrega_dias": 20,
+   "productos": [
+    "Capacitación a empleados — \nCONTRATACIÓN DE CURSO ESTRUCTURAS NIVEL 2, PARA MECÁNICOS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE"
+   ],
+   "adjuntos": [
+    "REQUERIMIENTOS TÉCNICOS CARP. 256.docx",
+    "Certificado_Refrendacion_240 (1).pdf"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-24T07:05:10+00:00",
+   "detalle_actualizado": "2026-11-24T07:05:10+00:00",
+   "primera_deteccion": "2026-11-16T20:05:10+00:00",
+   "area": "capacitacion",
+   "relevancia": "baja",
+   "coincide_en": "mencion",
+   "resultado": {
+    "ofertas": 2,
+    "oferta_minima": 4200000.0
+   },
+   "cambio_estado": "2026-11-24T07:05:10+00:00"
   }
  ]
 }
