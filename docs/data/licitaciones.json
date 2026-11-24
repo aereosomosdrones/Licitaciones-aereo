@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-24T17:05:21+00:00",
- "proxima_actualizacion": "2026-11-24T18:05:21+00:00",
+ "generado": "2026-11-24T17:27:56+00:00",
+ "proxima_actualizacion": "2026-11-24T18:27:56+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-24T17:05:21+00:00",
+   "ultima_ok": "2026-11-24T17:27:56+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4802,
-   "detalles_consultados": 62,
+   "revisadas": 4810,
+   "detalles_consultados": 8,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-24T17:05:21+00:00",
+   "ultima_ok": "2026-11-24T17:27:56+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 6,
-   "detalles_consultados": 7,
+   "revisadas": 7,
+   "detalles_consultados": 8,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:3608-716-COT26"
+ ],
  "por_revisar": [],
  "items": [
   {
@@ -150,8 +152,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
-   "detalle_actualizado": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
+   "detalle_actualizado": "2026-11-24T17:27:56+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -232,7 +234,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T17:05:21+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
@@ -315,7 +317,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-23T17:05:12+00:00",
    "primera_deteccion": "2026-11-23T14:05:11+00:00",
    "area": "otros",
@@ -358,9 +360,52 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
-   "detalle_actualizado": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
+   "detalle_actualizado": "2026-11-24T17:27:56+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:3608-716-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "3608-716-COT26",
+   "nombre": "ADQUISICION UN DRON ( ADMINISTRACION - GABINETE Y COMUNICACIONES )",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-24T14:16:00-03:00",
+   "fecha_cierre": "2026-11-25T14:20:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-24 14:20",
+   "organismo": "I MUNICIPALIDAD DE SAAVEDRA",
+   "unidad": "I MUNICIPALIDAD DE SAAVEDRA",
+   "region": "Región de la Araucanía ",
+   "monto": 1560000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3608-716-COT26",
+   "descripcion": "ADQUISICION UN DRON. DESTINADO A COBERTURA DE LAS DIFERENTES ACTIVIDADES - PROYECTOS - PROMOCIONES TURISTICAS - ETC. DE LOS DISTINTOS DEPARTAMENTOS MUNICIPALES. PROVEEDORES INGRESAR FORMATO DE COTIZACION PARA VERIFICACION DE LO OFERTADO - OFERENTES DEBEN CONTAR CON EL GIRO ADECUADO PARA LA VENTA DE LO REQUERIDO - PLAZO DE ENTREGA EL MAS BREVE (DE 1 A 5 DIAS HABILES) VER ARCHIVO ADJUNTO PARA ESPESIFICACIONES TECNICAS. ITEM 29.99 (S.P. N° 0588 ADMINISTRACION-GABINETE Y COMUNICACIONES)",
+   "direccion_entrega": "AVENIDA EJERCITO 1424 PUERTO SAAVEDRA",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Vehículos de servicio — DRON ( VER ARCHIVO ADJUNTO PARA EETT )"
+   ],
+   "adjuntos": [
+    "ESPECIFICACIONES TECNICAS COMPRA AGIL 3608-716-COT26.pdf",
+    "PRE OBLIGACION COMPRA AGIL 3608-716-COT26.pdf",
+    "S.P. N°  0588 PUBLICACION COMPRA AGIL 3608-716-COT26.pdf",
+    "CERTIFICADO DISPONIBILIDAD PRESUPUESTARIA COMPRA AGIL 3608-716-CO.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
+   "detalle_actualizado": "2026-11-24T17:27:56+00:00",
+   "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -433,7 +478,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T17:05:21+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -475,7 +520,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T17:05:21+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
@@ -556,8 +601,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
-   "detalle_actualizado": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
+   "detalle_actualizado": "2026-11-24T17:27:56+00:00",
    "primera_deteccion": "2026-11-24T14:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -597,8 +642,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
-   "detalle_actualizado": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
+   "detalle_actualizado": "2026-11-24T17:27:56+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -633,7 +678,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T17:05:21+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -755,7 +800,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T17:05:21+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -800,7 +845,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T17:05:21+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -848,7 +893,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T17:05:21+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -882,7 +927,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T17:05:21+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -916,7 +961,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T14:05:13+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -951,7 +996,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-24T17:05:21+00:00",
+   "ultima_actualizacion": "2026-11-24T17:27:56+00:00",
    "detalle_actualizado": "2026-11-24T17:05:21+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
