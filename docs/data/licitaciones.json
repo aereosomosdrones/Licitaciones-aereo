@@ -1,31 +1,29 @@
 {
- "generado": "2026-11-25T18:05:13+00:00",
- "proxima_actualizacion": "2026-11-25T19:05:13+00:00",
+ "generado": "2026-11-25T19:05:12+00:00",
+ "proxima_actualizacion": "2026-11-25T20:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-25T18:05:13+00:00",
+   "ultima_ok": "2026-11-25T19:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4868,
-   "detalles_consultados": 23,
+   "revisadas": 4830,
+   "detalles_consultados": 89,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-25T18:05:13+00:00",
+   "ultima_ok": "2026-11-25T19:05:12+00:00",
    "errores_detalle": 0,
-   "advertencias": [
-    "La API limitó las consultas (HTTP 429). Se continuará en la próxima ejecución."
-   ],
-   "revisadas": 192,
-   "detalles_consultados": 50,
+   "advertencias": [],
+   "revisadas": 15,
+   "detalles_consultados": 24,
    "segunda_pasada": 0,
-   "pendientes_segunda_pasada": 1,
-   "modo": "completo"
+   "pendientes_segunda_pasada": 0,
+   "modo": "recientes"
   }
  },
  "terminos": [
@@ -78,84 +76,26 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
- "por_revisar": [],
- "items": [
+ "nuevas_en_esta_ejecucion": [
+  "CA:2737-792-COT26"
+ ],
+ "por_revisar": [
   {
-   "id": "CA:4609-330-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "4609-330-COT26",
-   "nombre": "SERVICIO DE CAPACITACION",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-24T14:56:00-03:00",
-   "fecha_cierre": "2026-11-25T15:30:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-24 15:00",
-   "organismo": "I MUNICIPALIDAD DE CHILE CHICO",
-   "unidad": "Finanzas",
-   "region": "Región Aysén del General Carlos Ibáñez del Campo",
-   "monto": 3200000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=4609-330-COT26",
-   "descripcion": "COTIZACION SERVICIO DE CAPACITACION OPERACION DRONES AGRICOLAS",
-   "direccion_entrega": "MALLIN GRANDE",
-   "plazo_entrega_dias": 7,
-   "productos": [
-    "Capacitaciones directas en el concesionario — SERVICIO DE CAPACITACION TEORICO-PRACTICO EN MANEJO Y OPERACION DE DRONES AGRICOLAS. (Detalle en TDR adjunto)."
-   ],
+   "id": "CA:3880-595-COT26",
+   "codigo": "3880-595-COT26",
+   "nombre": "ADQUISICION  DE SERVICIO  DE CAPACITACION  PARA  FUNCIONARIOS  DEL PROGRAMA   REGISTRO   SOCIAL DE HOGARES  2026.-",
+   "organismo": "I MUNICIPALIDAD DE MAULE",
+   "region": "Región del Maule ",
+   "fecha_publicacion": "2026-11-25T15:31:00-03:00",
+   "fecha_cierre": "2026-11-27T14:00:00-03:00",
+   "monto": 2000000.0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3880-595-COT26",
    "adjuntos": [
-    "Términos de Referencia N° 00047-2026.pdf",
-    "Solicitud de Orden de Compra N° 00007-2026.pdf"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T18:05:13+00:00",
-   "primera_deteccion": "2026-11-24T18:05:12+00:00",
-   "area": "capacitacion",
-   "relevancia": "alta",
-   "coincide_en": "detalle"
-  },
-  {
-   "id": "LIC:4290-83-LE26",
-   "fuente": "licitacion",
-   "codigo": "4290-83-LE26",
-   "nombre": "Adq implementación sistema de drones de vigilancia",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-25T16:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4290-83-LE26",
-   "descripcion": "ADQUISICIÓN E IMPLEMENTACIÓN DE SISTEMA DE DRONES DE VIGILANCIA PARA LA COMUNA DE LIMACHE",
-   "organismo": "I MUNICIPALIDAD DE LIMACHE",
-   "unidad": "Secpla - MUNICIPALIDAD LIMACHE",
-   "region": "Región de Valparaíso",
-   "comuna": "Limache",
-   "fecha_publicacion": "2026-11-12T13:29:46-03:00",
-   "fecha_adjudicacion": "2026-12-11T19:55:00-03:00",
-   "moneda": "CLP",
-   "tipo": "LE",
-   "productos": [
-    "Aviones objetivo o de reconocimiento — ADQUISICIÓN E IMPLEMENTACIÓN DE SISTEMA DE DRONES DE VIGILANCIA PARA LA COMUNA DE LIMACHE"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
-   "primera_deteccion": "2026-11-12T17:05:11+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
+    "SOLICITUD DE COTIZACIÓN CAPACITACIÓN RSH 2026.pdf"
+   ]
+  }
+ ],
+ "items": [
   {
    "id": "LIC:1557463-2-LE26",
    "fuente": "licitacion",
@@ -191,8 +131,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -229,7 +169,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
@@ -311,8 +251,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-24T14:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -352,8 +292,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -394,7 +334,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "gestion",
@@ -436,7 +376,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "capacitacion",
@@ -472,8 +412,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -514,10 +454,50 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:2737-792-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2737-792-COT26",
+   "nombre": "SERVICIO DE INSPECCION GENERAL Y CORRECTIVO DRON",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-25T15:21:00-03:00",
+   "fecha_cierre": "2026-11-27T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-25 15:25",
+   "organismo": "I MUNICIPALIDAD DE SAN FELIPE",
+   "unidad": "ADQUISICIONES MUNISANFE",
+   "region": "Región de Valparaíso ",
+   "monto": 1053547.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2737-792-COT26",
+   "descripcion": "SE REQUIERE SERVICIO DE INSPECCIÓN GENERAL, CORRECTIVO, ELECTRONICO Y DOCUMENTAL DRON, DETALLES EN TTR ADJUNTO.",
+   "direccion_entrega": "COMBATE DE LAS COIMAS #99",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Software de dispositivos inalámbricos — SE REQUIERE EL SERVICIO DE INSPECCION GENERAL, CORRECTIVO, ELECTRONICO Y DOCUMENTAL DRON, DETALLES EN TTR ADJUNTO, SE SOLICITA COTIZACION FORMAL CON DETALLE DE EL SERVICIO OFERTADO.-"
+   ],
+   "adjuntos": [
+    "TTR SERVICIO DE INSPECCION GENERAL, CORRECTIVO, ELECTRONICO Y DOC.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
+   "primera_deteccion": "2026-11-25T19:05:12+00:00",
+   "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "titulo"
   },
@@ -556,7 +536,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T14:05:13+00:00",
    "area": "tienda",
@@ -598,7 +578,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
@@ -761,8 +741,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -806,8 +786,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -895,8 +875,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -935,8 +915,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -976,7 +956,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
    "detalle_actualizado": "2026-11-25T15:05:14+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
@@ -1010,8 +990,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1044,7 +1024,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
    "detalle_actualizado": "2026-11-25T18:05:13+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1079,8 +1059,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -6715,8 +6695,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -7056,8 +7036,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:23:32+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -11417,8 +11397,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -11782,8 +11762,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -12099,8 +12079,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00",
    "cambio_estado": "2026-11-04T18:05:16+00:00",
    "area": "tienda",
@@ -12400,8 +12380,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -12521,8 +12501,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -12636,8 +12616,8 @@
    "fuente": "licitacion",
    "codigo": "3960-76-L126",
    "nombre": "ADQUISICIÓN DE DRON INDUSTRIAL",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Adjudicada",
    "fecha_cierre": "2026-11-05T19:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3960-76-L126",
    "descripcion": "La Ilustre Municipalidad de Hualañé requiere realizar la ADQUISICIÓN DE DRON INDUSTRIAL MATRICE 4T, EQUIVALENTE O SUPERIOR, destinado a la oficina de Administración Municipal.",
@@ -12646,7 +12626,7 @@
    "region": "Región del Maule",
    "comuna": "Hualañé",
    "fecha_publicacion": "2026-10-29T16:23:04-03:00",
-   "fecha_adjudicacion": "2026-11-09T18:00:00-03:00",
+   "fecha_adjudicacion": "2026-11-25T10:50:24-03:00",
    "moneda": "CLP",
    "tipo": "L1",
    "productos": [
@@ -12659,12 +12639,13 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-25T19:05:12+00:00"
   },
   {
    "id": "LIC:2704-86-LE26",
@@ -12973,8 +12954,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -13654,8 +13635,8 @@
    "fuente": "licitacion",
    "codigo": "2464-24-LE26",
    "nombre": "SERVICIO DE ARRIENDO HORAS DE VUELO DRONES MUNICIPALIDAD DE QUILLOTA",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
+   "estado": "adjudicada",
+   "estado_glosa": "Adjudicada",
    "fecha_cierre": "2026-11-10T17:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2464-24-LE26",
    "descripcion": "Se requiere la contratación de SERVICIO DE ARRIENDO DE HORAS DE VUELO DE RPA o Dron en la comuna de Quillota con el objetivo de obtener información relevante para la prevención del delito e incivilidades.",
@@ -13664,7 +13645,7 @@
    "region": "Región de Valparaíso",
    "comuna": "Quillota",
    "fecha_publicacion": "2026-10-28T12:22:27-03:00",
-   "fecha_adjudicacion": "2026-11-30T13:23:00-03:00",
+   "fecha_adjudicacion": "2026-11-25T10:06:08-03:00",
    "monto": 37200000.0,
    "moneda": "CLP",
    "tipo": "LE",
@@ -13679,12 +13660,13 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-28T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
-   "coincide_en": "titulo"
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-25T19:05:12+00:00"
   },
   {
    "id": "CA:4044-672-COT26",
@@ -13800,8 +13782,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -13923,8 +13905,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -14449,7 +14431,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-11T15:47:00-03:00",
    "fecha_cierre": "2026-11-13T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-13T14:05:01.380Z",
+   "fecha_ultimo_cambio": "2026-11-13 14:05",
    "organismo": "I MUNICIPALIDAD DE COLLIPULLI",
    "unidad": "Departamento de Salud",
    "region": "Región de la Araucanía ",
@@ -14472,8 +14454,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T23:38:28+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -14950,8 +14932,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15042,8 +15024,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -15273,8 +15255,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15309,8 +15291,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15496,8 +15478,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -15621,8 +15603,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15639,7 +15621,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-16T13:07:00-03:00",
    "fecha_cierre": "2026-11-18T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-18T15:05:01.800Z",
+   "fecha_ultimo_cambio": "2026-11-18 15:05",
    "organismo": "Servicio Nacional de Pesca y Acuicultura",
    "unidad": "IV - Servicio Nacional de Pesca y Acuicultura",
    "region": "Región de Coquimbo ",
@@ -15667,8 +15649,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T16:05:13+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -16261,8 +16243,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
    "relevancia": "baja",
@@ -16304,8 +16286,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -16649,7 +16631,7 @@
    "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-13T10:23:00-03:00",
    "fecha_cierre": "2026-11-21T08:41:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-21T08:45:00.920Z",
+   "fecha_ultimo_cambio": "2026-11-21 08:45",
    "organismo": "I MUNICIPALIDAD DE QUILICURA",
    "unidad": "DEPARTAMENTO COMPRAS PÚBLICAS",
    "region": "Región Metropolitana de Santiago",
@@ -16672,8 +16654,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T11:05:12+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -17061,8 +17043,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17094,8 +17076,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -17226,8 +17208,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17343,7 +17325,7 @@
    "codigo": "883-38-LP26",
    "nombre": "SERVICIO DE CONTROL DE AVIFAUNA A TRAVES DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA EN EL AEROPUERTO ARTURO MERINO BENITEZ",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_cierre": "2026-11-25T10:00:00-03:00",
    "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=883-38-LP26",
    "descripcion": "LA NECESIDAD DE LA DGAC DE CONTRATAR EL SERVICIO DE CONTROL DE AVIFAUNA A TRAVES DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA EN EL AEROPUERTO ARTURO MERINO BENÍTEZ (E102RT9)",
@@ -17365,8 +17347,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -17449,8 +17431,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-23T14:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -17493,8 +17475,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17537,13 +17519,90 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T18:05:13+00:00",
-   "detalle_actualizado": "2026-11-25T18:05:13+00:00",
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo",
    "cambio_estado": "2026-11-25T18:05:13+00:00"
+  },
+  {
+   "id": "CA:4609-330-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "4609-330-COT26",
+   "nombre": "SERVICIO DE CAPACITACION",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-24T14:56:00-03:00",
+   "fecha_cierre": "2026-11-25T15:30:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-25 15:35",
+   "organismo": "I MUNICIPALIDAD DE CHILE CHICO",
+   "unidad": "Finanzas",
+   "region": "Región Aysén del General Carlos Ibáñez del Campo",
+   "monto": 3200000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=4609-330-COT26",
+   "descripcion": "COTIZACION SERVICIO DE CAPACITACION OPERACION DRONES AGRICOLAS",
+   "direccion_entrega": "MALLIN GRANDE",
+   "plazo_entrega_dias": 7,
+   "productos": [
+    "Capacitaciones directas en el concesionario — SERVICIO DE CAPACITACION TEORICO-PRACTICO EN MANEJO Y OPERACION DE DRONES AGRICOLAS. (Detalle en TDR adjunto)."
+   ],
+   "adjuntos": [
+    "Términos de Referencia N° 00047-2026.pdf",
+    "Solicitud de Orden de Compra N° 00007-2026.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
+   "primera_deteccion": "2026-11-24T18:05:12+00:00",
+   "area": "capacitacion",
+   "relevancia": "alta",
+   "coincide_en": "detalle",
+   "cambio_estado": "2026-11-25T19:05:12+00:00"
+  },
+  {
+   "id": "LIC:4290-83-LE26",
+   "fuente": "licitacion",
+   "codigo": "4290-83-LE26",
+   "nombre": "Adq implementación sistema de drones de vigilancia",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_cierre": "2026-11-25T16:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4290-83-LE26",
+   "descripcion": "ADQUISICIÓN E IMPLEMENTACIÓN DE SISTEMA DE DRONES DE VIGILANCIA PARA LA COMUNA DE LIMACHE",
+   "organismo": "I MUNICIPALIDAD DE LIMACHE",
+   "unidad": "Secpla - MUNICIPALIDAD LIMACHE",
+   "region": "Región de Valparaíso",
+   "comuna": "Limache",
+   "fecha_publicacion": "2026-11-12T13:29:46-03:00",
+   "fecha_adjudicacion": "2026-12-11T19:55:00-03:00",
+   "moneda": "CLP",
+   "tipo": "LE",
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICIÓN E IMPLEMENTACIÓN DE SISTEMA DE DRONES DE VIGILANCIA PARA LA COMUNA DE LIMACHE"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-25T19:05:12+00:00",
+   "detalle_actualizado": "2026-11-25T19:05:12+00:00",
+   "primera_deteccion": "2026-11-12T17:05:11+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-25T19:05:12+00:00"
   }
  ]
 }
