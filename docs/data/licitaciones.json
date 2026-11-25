@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-25T20:05:11+00:00",
- "proxima_actualizacion": "2026-11-25T21:05:11+00:00",
+ "generado": "2026-11-25T21:05:20+00:00",
+ "proxima_actualizacion": "2026-11-25T22:05:20+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-25T20:05:11+00:00",
+   "ultima_ok": "2026-11-25T21:05:20+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4858,
-   "detalles_consultados": 72,
+   "revisadas": 4891,
+   "detalles_consultados": 56,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-25T20:05:11+00:00",
+   "ultima_ok": "2026-11-25T21:05:20+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 15,
-   "detalles_consultados": 24,
+   "revisadas": 18,
+   "detalles_consultados": 23,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,8 +76,30 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:645-49-COT26",
+  "CA:1003-72-COT26",
+  "CA:1485217-173-COT26"
+ ],
  "por_revisar": [
+  {
+   "id": "CA:3206-286-COT26",
+   "codigo": "3206-286-COT26",
+   "nombre": "CONTRATACION CURSO DE JABONES NATURALES",
+   "organismo": "I MUNICIPALIDAD DE SAN RAFAEL",
+   "region": "Región del Maule ",
+   "fecha_publicacion": "2026-11-25T17:20:00-03:00",
+   "fecha_cierre": "2026-11-26T17:25:00-03:00",
+   "monto": 550000.0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3206-286-COT26",
+   "adjuntos": [
+    "Decreto Llamado.pdf",
+    "Programa Integridad.docx",
+    "Términos de Referencia.pdf",
+    "Anexo Nº 1 Identificación del Oferente.doc",
+    "Anexo Nº 2 Económica.doc"
+   ]
+  },
   {
    "id": "CA:3880-595-COT26",
    "codigo": "3880-595-COT26",
@@ -129,7 +151,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
@@ -167,7 +189,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
@@ -249,8 +271,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-24T14:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -290,8 +312,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -332,7 +354,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "gestion",
@@ -374,7 +396,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "capacitacion",
@@ -410,7 +432,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -452,9 +474,50 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:1485217-173-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1485217-173-COT26",
+   "nombre": "ARF// Adquisición Dron para Escuela Alemania",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-25T17:17:00-03:00",
+   "fecha_cierre": "2026-11-27T09:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-25 17:20",
+   "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTIAGO CENTR",
+   "unidad": "ESTABLECIMIENTOS EDUCACIONALES P02",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 550000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1485217-173-COT26",
+   "descripcion": "Adquirir Dron para Escuela Republica de Alemania dependiente del Servicio Local de Educación Pública de Santiago Centro. El equipo permitirá obtener material audiovisual desde distintas perspectivas, apoyar la difusión de experiencias y proyectos educativos y fortalecer las herramientas tecnológicas disponibles para el desarrollo de actividades de aprendizaje y participación de la comunidad educativa, considerando su utilización de manera responsable y conforme a las normas de seguridad vigente",
+   "direccion_entrega": "Libertas 1242",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Dron DJI Neo 2 Fly More Combo o Similar"
+   ],
+   "adjuntos": [
+    "TERMINOS DE REFERENCIA.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
+   "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
@@ -492,8 +555,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-25T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -534,7 +597,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T14:05:13+00:00",
    "area": "tienda",
@@ -576,7 +639,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
@@ -712,6 +775,87 @@
    "cambio_estado": "2026-11-25T18:05:13+00:00"
   },
   {
+   "id": "CA:645-49-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "645-49-COT26",
+   "nombre": "ADQUISICION DE EQUIPO DE DRON",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-25T17:55:00-03:00",
+   "fecha_cierre": "2026-11-30T10:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-25 18:00",
+   "organismo": "Ministerio de Vivienda y Urbanismo",
+   "unidad": "SEREMI MINVU III REGION",
+   "region": "Región de Atacama ",
+   "monto": 2000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=645-49-COT26",
+   "descripcion": "ADQUISICION DE EQUIPO DE DRON",
+   "direccion_entrega": "ATACAMA 711",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — dron de acuerdo a especificaciones tecnicas de TDR adjunto"
+   ],
+   "adjuntos": [
+    "TDR_Compra DRON_SIN ACCESORIOS_baa_pao_25.11.2026.docx"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
+   "primera_deteccion": "2026-11-25T21:05:20+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:1003-72-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1003-72-COT26",
+   "nombre": "ADQUISICIÓN DE DRON (AÉREO NO TRIPULADO) Y ACCESORIOS",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-25T17:28:00-03:00",
+   "fecha_cierre": "2026-11-30T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-25 17:30",
+   "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+   "unidad": "Dirección de Vialidad - XI Región - Dirección Regional",
+   "region": "Región Aysén del General Carlos Ibáñez del Campo",
+   "monto": 1500000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1003-72-COT26",
+   "descripcion": "Se requiere adquirir un sistema de aeronave pilotada a distancia (dron) con la finalidad de apoyar las labores de inspección en terreno, levantamiento de información geográfica, seguimiento ambiental, ordenamiento territorial, fiscalización forestal y catastro predial que desarrollan el Departamento de Proyectos, el Subdepartamento de Expropiaciones y el Subdepartamento de Ambiente y Territorio de la Dirección Regional de Vialidad de Aysén. Llamado de acuerdo a indicaciones de documento adjunto.",
+   "direccion_entrega": "RIQUELME N°465",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Aeronave de reconocimiento o vigilancia — ADQUISICIÓN DE DRON (AÉREO NO TRIPULADO) Y ACCESORIOS, SEGUN ESPECIFICACIONES E INDICACIONES DE DOCUMENTO ADJUNTO"
+   ],
+   "adjuntos": [
+    "Terminos de referencia dron 2026.docx"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
+   "primera_deteccion": "2026-11-25T21:05:20+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
    "id": "LIC:1388961-63-LE26",
    "fuente": "licitacion",
    "codigo": "1388961-63-LE26",
@@ -739,7 +883,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -784,7 +928,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -873,7 +1017,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -913,8 +1057,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -954,8 +1098,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T15:05:14+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -988,7 +1132,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1022,7 +1166,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T18:05:13+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1057,7 +1201,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
    "detalle_actualizado": "2026-11-25T19:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -16368,8 +16512,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
@@ -16458,8 +16602,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
@@ -17429,8 +17573,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-23T14:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -17473,8 +17617,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17517,8 +17661,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17559,8 +17703,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T20:05:11+00:00",
-   "detalle_actualizado": "2026-11-25T20:05:11+00:00",
+   "ultima_actualizacion": "2026-11-25T21:05:20+00:00",
+   "detalle_actualizado": "2026-11-25T21:05:20+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
