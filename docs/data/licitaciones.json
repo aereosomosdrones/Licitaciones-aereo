@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-25T12:33:19+00:00",
- "proxima_actualizacion": "2026-11-25T13:33:19+00:00",
+ "generado": "2026-11-25T13:05:11+00:00",
+ "proxima_actualizacion": "2026-11-25T14:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-25T12:33:19+00:00",
+   "ultima_ok": "2026-11-25T13:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4793,
-   "detalles_consultados": 44,
+   "revisadas": 4791,
+   "detalles_consultados": 19,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-25T12:33:19+00:00",
+   "ultima_ok": "2026-11-25T13:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 10,
-   "detalles_consultados": 17,
+   "detalles_consultados": 13,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,46 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:3325-44-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "por_revisar": [],
  "items": [
-  {
-   "id": "LIC:883-38-LP26",
-   "fuente": "licitacion",
-   "codigo": "883-38-LP26",
-   "nombre": "SERVICIO DE CONTROL DE AVIFAUNA A TRAVES DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA EN EL AEROPUERTO ARTURO MERINO BENITEZ",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_cierre": "2026-11-25T10:00:00-03:00",
-   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=883-38-LP26",
-   "descripcion": "LA NECESIDAD DE LA DGAC DE CONTRATAR EL SERVICIO DE CONTROL DE AVIFAUNA A TRAVES DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA EN EL AEROPUERTO ARTURO MERINO BENÍTEZ (E102RT9)",
-   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
-   "unidad": "UNIDAD DE COMPRA AMB",
-   "region": "Región Metropolitana de Santiago",
-   "comuna": "Pudahuel",
-   "fecha_publicacion": "2026-11-05T11:13:25-03:00",
-   "fecha_adjudicacion": "2026-12-11T18:00:00-03:00",
-   "monto": 202424361.0,
-   "moneda": "CLP",
-   "tipo": "LP",
-   "productos": [
-    "Protección de la fauna — SERVICIO DE CONTROL DE AVIFAUNA A TRAVÉS DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA POR UN PERIODO DE TRECE MESES, DE ACUERDO A BASES TÉCNICAS ADJUNTAS."
-   ],
-   "terminos": [
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
-   "primera_deteccion": "2026-11-05T15:05:11+00:00",
-   "area": "servicios",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:523059-17-COT26",
    "fuente": "compra_agil",
@@ -192,7 +155,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-23T17:05:12+00:00",
    "primera_deteccion": "2026-11-23T14:05:11+00:00",
    "area": "otros",
@@ -235,8 +198,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
+   "detalle_actualizado": "2026-11-25T13:05:11+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -278,8 +241,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
+   "detalle_actualizado": "2026-11-25T13:05:11+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -360,8 +323,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
+   "detalle_actualizado": "2026-11-25T13:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -394,7 +357,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-25T12:33:19+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
@@ -436,12 +399,51 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-25T12:33:19+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
    "relevancia": "baja",
    "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:1080286-231-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1080286-231-COT26",
+   "nombre": "ADQUISICION DE CARPA Y CUBRE CARPA PARA LA SEC. OPER. AERONAVES REM. PILOTADAS (RPAS)",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-23T18:10:00-03:00",
+   "fecha_cierre": "2026-11-26T09:56:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-25 09:55",
+   "organismo": "SECCIÓN COMPRAS ZONA METROPOLITANA",
+   "unidad": "SECCIÓN COMPRAS ZONA METROPOLITANA",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1756500.0,
+   "moneda": "CLP",
+   "ofertas": 6,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1080286-231-COT26",
+   "descripcion": "ADQUISICION DE CARPA Y CUBRE CARPA PARA LA SEC. OPER. AERONAVES REM. PILOTADAS (RPAS), ADJUNTAR COTIZACION Y FOTOS O NO SERA CONSIDERADO",
+   "direccion_entrega": "CARRION N° 1795",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Carpas — CARPA INFLABLE 8 A 12 PERSONAS. SIMILAR O SUPERIOR A TOURUS MODELO TSIT09\nCARPA INFLABLE PARA 8 A 12 PERSONAS, TIPO CAMPING GRUPAL. ESTRUCTURA CON COLUMNAS DE AIRE INFLABLES. MEDIDAS APROXIMADAS: 400 X 300 X 235 CM (12 M2). CUBIERTA EN TELA NYLON OXFORD 420D O SUPERIOR, CON IMPERMEABILIDAD MINIMA DE 3.000 MM. PESO NETO APROXIMADO 40 A 41 KG. DEBE INCLUIR: BOLSO DE TRANSPORTE, BOMBIN DE DOBLE ACCION CON MANOMETRO, KIT DE REPARACION, 16 ESTACAS Y TOLDO DE EXTENSION CON SUS PARANTES DE SOPORTE.",
+    "Carpas — CUBRETECHO CARPA TNC03. PARA SER USADA EN CARPA IT08 o IT09 SIMILAR O SUPERIOR A TOURUS PROTECCION PARA CARPA INFLABLE DE 8 A 12 PERSONAS (COMPATIBLE CON CARPA DE BASE 400 X 300 CM). SUPERFICIE DE COBERTURA APROXIMADA DE 19,03 M2, CON MEDIDAS DE 460 X 440 CM. DISENADO PARA PROTEGER LA ESTRUCTURA DE LA LLUVIA, HUMEDAD Y RADIACION SOLAR, ADEMAS DE OPTIMIZAR ESPACIOS DE CAMPING. FABRICADO EN MATERIAL RESISTENTE E IMPERMEABLE PARA USO INTENSIVO EN EXTERIORES, CON PUNTOS DE ANCLAJE Y SUJECION"
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
+   "detalle_actualizado": "2026-11-25T13:05:11+00:00",
+   "primera_deteccion": "2026-11-23T22:05:20+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-25T13:05:11+00:00"
   },
   {
    "id": "CA:1515304-355-COT26",
@@ -517,8 +519,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
+   "detalle_actualizado": "2026-11-25T13:05:11+00:00",
    "primera_deteccion": "2026-11-24T14:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -558,8 +560,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
+   "detalle_actualizado": "2026-11-25T13:05:11+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -600,8 +602,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
+   "detalle_actualizado": "2026-11-25T13:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -636,7 +638,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-25T12:33:19+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -758,7 +760,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-25T12:33:19+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -803,7 +805,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-25T12:33:19+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -851,7 +853,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-25T12:33:19+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -891,8 +893,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
+   "detalle_actualizado": "2026-11-25T13:05:11+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -925,7 +927,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-25T12:33:19+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -959,7 +961,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-25T11:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -994,7 +996,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "ultima_actualizacion": "2026-11-25T13:05:11+00:00",
    "detalle_actualizado": "2026-11-25T12:33:19+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -17206,45 +17208,6 @@
    "cambio_estado": "2026-11-24T20:05:11+00:00"
   },
   {
-   "id": "CA:1080286-231-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1080286-231-COT26",
-   "nombre": "ADQUISICION DE CARPA Y CUBRE CARPA PARA LA SEC. OPER. AERONAVES REM. PILOTADAS (RPAS)",
-   "estado": "cerrada",
-   "estado_glosa": "Cerrada",
-   "fecha_publicacion": "2026-11-23T18:10:00-03:00",
-   "fecha_cierre": "2026-11-24T18:15:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-24 18:20",
-   "organismo": "SECCIÓN COMPRAS ZONA METROPOLITANA",
-   "unidad": "SECCIÓN COMPRAS ZONA METROPOLITANA",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1756500.0,
-   "moneda": "CLP",
-   "ofertas": 6,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1080286-231-COT26",
-   "descripcion": "ADQUISICION DE CARPA Y CUBRE CARPA PARA LA SEC. OPER. AERONAVES REM. PILOTADAS (RPAS), ADJUNTAR COTIZACION Y FOTOS O NO SERA CONSIDERADO",
-   "direccion_entrega": "CARRION N° 1795",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Carpas — CARPA INFLABLE 8 A 12 PERSONAS. SIMILAR O SUPERIOR A TOURUS MODELO TSIT09\nCARPA INFLABLE PARA 8 A 12 PERSONAS, TIPO CAMPING GRUPAL. ESTRUCTURA CON COLUMNAS DE AIRE INFLABLES. MEDIDAS APROXIMADAS: 400 X 300 X 235 CM (12 M2). CUBIERTA EN TELA NYLON OXFORD 420D O SUPERIOR, CON IMPERMEABILIDAD MINIMA DE 3.000 MM. PESO NETO APROXIMADO 40 A 41 KG. DEBE INCLUIR: BOLSO DE TRANSPORTE, BOMBIN DE DOBLE ACCION CON MANOMETRO, KIT DE REPARACION, 16 ESTACAS Y TOLDO DE EXTENSION CON SUS PARANTES DE SOPORTE.",
-    "Carpas — CUBRETECHO CARPA TNC03. PARA SER USADA EN CARPA IT08 o IT09 SIMILAR O SUPERIOR A TOURUS PROTECCION PARA CARPA INFLABLE DE 8 A 12 PERSONAS (COMPATIBLE CON CARPA DE BASE 400 X 300 CM). SUPERFICIE DE COBERTURA APROXIMADA DE 19,03 M2, CON MEDIDAS DE 460 X 440 CM. DISENADO PARA PROTEGER LA ESTRUCTURA DE LA LLUVIA, HUMEDAD Y RADIACION SOLAR, ADEMAS DE OPTIMIZAR ESPACIOS DE CAMPING. FABRICADO EN MATERIAL RESISTENTE E IMPERMEABLE PARA USO INTENSIVO EN EXTERIORES, CON PUNTOS DE ANCLAJE Y SUJECION"
-   ],
-   "terminos": [
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
-   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
-   "primera_deteccion": "2026-11-23T22:05:20+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo",
-   "cambio_estado": "2026-11-24T22:05:11+00:00"
-  },
-  {
    "id": "CA:3986-447-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -17288,6 +17251,41 @@
    "detalle_actualizado": "2026-11-25T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T17:05:13+00:00",
    "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:883-38-LP26",
+   "fuente": "licitacion",
+   "codigo": "883-38-LP26",
+   "nombre": "SERVICIO DE CONTROL DE AVIFAUNA A TRAVES DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA EN EL AEROPUERTO ARTURO MERINO BENITEZ",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada (plazo vencido)",
+   "fecha_cierre": "2026-11-25T10:00:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=883-38-LP26",
+   "descripcion": "LA NECESIDAD DE LA DGAC DE CONTRATAR EL SERVICIO DE CONTROL DE AVIFAUNA A TRAVES DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA EN EL AEROPUERTO ARTURO MERINO BENÍTEZ (E102RT9)",
+   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+   "unidad": "UNIDAD DE COMPRA AMB",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Pudahuel",
+   "fecha_publicacion": "2026-11-05T11:13:25-03:00",
+   "fecha_adjudicacion": "2026-12-11T18:00:00-03:00",
+   "monto": 202424361.0,
+   "moneda": "CLP",
+   "tipo": "LP",
+   "productos": [
+    "Protección de la fauna — SERVICIO DE CONTROL DE AVIFAUNA A TRAVÉS DE VUELOS DISUASIVOS CON AVES RAPACES ADIESTRADAS Y MONITOREO DE FOCOS DE ATRACCIÓN DE AVES MEDIANTE EL USO DE RPA POR UN PERIODO DE TRECE MESES, DE ACUERDO A BASES TÉCNICAS ADJUNTAS."
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-25T12:33:19+00:00",
+   "detalle_actualizado": "2026-11-25T12:33:19+00:00",
+   "primera_deteccion": "2026-11-05T15:05:11+00:00",
+   "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "titulo"
   }
