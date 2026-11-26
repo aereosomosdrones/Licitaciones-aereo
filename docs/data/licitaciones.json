@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-26T12:05:17+00:00",
- "proxima_actualizacion": "2026-11-26T13:05:17+00:00",
+ "generado": "2026-11-26T13:05:12+00:00",
+ "proxima_actualizacion": "2026-11-26T14:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T12:05:17+00:00",
+   "ultima_ok": "2026-11-26T13:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4879,
-   "detalles_consultados": 10,
+   "revisadas": 4887,
+   "detalles_consultados": 38,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T12:05:17+00:00",
+   "ultima_ok": "2026-11-26T13:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 18,
-   "detalles_consultados": 16,
+   "revisadas": 17,
+   "detalles_consultados": 22,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -113,45 +113,6 @@
  ],
  "items": [
   {
-   "id": "CA:1080286-231-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1080286-231-COT26",
-   "nombre": "ADQUISICION DE CARPA Y CUBRE CARPA PARA LA SEC. OPER. AERONAVES REM. PILOTADAS (RPAS)",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-23T18:10:00-03:00",
-   "fecha_cierre": "2026-11-26T09:56:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-25T09:55:01.450Z",
-   "organismo": "SECCIÓN COMPRAS ZONA METROPOLITANA",
-   "unidad": "SECCIÓN COMPRAS ZONA METROPOLITANA",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 1756500.0,
-   "moneda": "CLP",
-   "ofertas": 6,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1080286-231-COT26",
-   "descripcion": "ADQUISICION DE CARPA Y CUBRE CARPA PARA LA SEC. OPER. AERONAVES REM. PILOTADAS (RPAS), ADJUNTAR COTIZACION Y FOTOS O NO SERA CONSIDERADO",
-   "direccion_entrega": "CARRION N° 1795",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Carpas — CARPA INFLABLE 8 A 12 PERSONAS. SIMILAR O SUPERIOR A TOURUS MODELO TSIT09\nCARPA INFLABLE PARA 8 A 12 PERSONAS, TIPO CAMPING GRUPAL. ESTRUCTURA CON COLUMNAS DE AIRE INFLABLES. MEDIDAS APROXIMADAS: 400 X 300 X 235 CM (12 M2). CUBIERTA EN TELA NYLON OXFORD 420D O SUPERIOR, CON IMPERMEABILIDAD MINIMA DE 3.000 MM. PESO NETO APROXIMADO 40 A 41 KG. DEBE INCLUIR: BOLSO DE TRANSPORTE, BOMBIN DE DOBLE ACCION CON MANOMETRO, KIT DE REPARACION, 16 ESTACAS Y TOLDO DE EXTENSION CON SUS PARANTES DE SOPORTE.",
-    "Carpas — CUBRETECHO CARPA TNC03. PARA SER USADA EN CARPA IT08 o IT09 SIMILAR O SUPERIOR A TOURUS PROTECCION PARA CARPA INFLABLE DE 8 A 12 PERSONAS (COMPATIBLE CON CARPA DE BASE 400 X 300 CM). SUPERFICIE DE COBERTURA APROXIMADA DE 19,03 M2, CON MEDIDAS DE 460 X 440 CM. DISENADO PARA PROTEGER LA ESTRUCTURA DE LA LLUVIA, HUMEDAD Y RADIACION SOLAR, ADEMAS DE OPTIMIZAR ESPACIOS DE CAMPING. FABRICADO EN MATERIAL RESISTENTE E IMPERMEABLE PARA USO INTENSIVO EN EXTERIORES, CON PUNTOS DE ANCLAJE Y SUJECION"
-   ],
-   "terminos": [
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-25T17:05:11+00:00",
-   "primera_deteccion": "2026-11-23T22:05:20+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo",
-   "cambio_estado": "2026-11-25T13:05:11+00:00"
-  },
-  {
    "id": "CA:1515304-355-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -225,8 +186,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-24T14:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -266,8 +227,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -308,7 +269,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "gestion",
@@ -350,7 +311,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "capacitacion",
@@ -392,8 +353,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -433,8 +394,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -473,8 +434,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-25T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -515,7 +476,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T14:05:13+00:00",
    "area": "tienda",
@@ -557,7 +518,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
@@ -725,8 +686,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -766,8 +727,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -801,7 +762,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -846,7 +807,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -935,7 +896,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -975,8 +936,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -1016,7 +977,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-26T10:05:17+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
@@ -1050,7 +1011,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1084,8 +1045,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T07:05:10+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1120,7 +1081,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1155,7 +1116,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -8304,8 +8265,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T04:53:20+00:00",
-   "detalle_actualizado": "2026-11-26T04:53:20+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-10-15T20:05:12+00:00",
    "cambio_estado": "2026-10-17T20:05:10+00:00",
    "origen": "api",
@@ -11531,8 +11492,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T04:53:20+00:00",
-   "detalle_actualizado": "2026-11-26T04:53:20+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-10-22T00:05:11+00:00",
    "cambio_estado": "2026-10-29T02:21:05+00:00",
    "origen": "api",
@@ -12863,8 +12824,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T04:53:20+00:00",
-   "detalle_actualizado": "2026-11-26T04:53:20+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-03T04:05:15+00:00",
    "cambio_estado": "2026-11-04T05:05:12+00:00",
    "origen": "api",
@@ -17562,8 +17523,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-23T14:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -17606,8 +17567,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17650,8 +17611,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17692,8 +17653,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T12:05:17+00:00",
-   "detalle_actualizado": "2026-11-26T12:05:17+00:00",
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -17776,6 +17737,49 @@
    "area": "tienda",
    "relevancia": "baja",
    "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:1080286-231-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1080286-231-COT26",
+   "nombre": "ADQUISICION DE CARPA Y CUBRE CARPA PARA LA SEC. OPER. AERONAVES REM. PILOTADAS (RPAS)",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-23T18:10:00-03:00",
+   "fecha_cierre": "2026-11-26T09:56:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-26 10:00",
+   "organismo": "SECCIÓN COMPRAS ZONA METROPOLITANA",
+   "unidad": "SECCIÓN COMPRAS ZONA METROPOLITANA",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 1756500.0,
+   "moneda": "CLP",
+   "ofertas": 10,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1080286-231-COT26",
+   "descripcion": "ADQUISICION DE CARPA Y CUBRE CARPA PARA LA SEC. OPER. AERONAVES REM. PILOTADAS (RPAS), ADJUNTAR COTIZACION Y FOTOS O NO SERA CONSIDERADO",
+   "direccion_entrega": "CARRION N° 1795",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Carpas — CARPA INFLABLE 8 A 12 PERSONAS. SIMILAR O SUPERIOR A TOURUS MODELO TSIT09\nCARPA INFLABLE PARA 8 A 12 PERSONAS, TIPO CAMPING GRUPAL. ESTRUCTURA CON COLUMNAS DE AIRE INFLABLES. MEDIDAS APROXIMADAS: 400 X 300 X 235 CM (12 M2). CUBIERTA EN TELA NYLON OXFORD 420D O SUPERIOR, CON IMPERMEABILIDAD MINIMA DE 3.000 MM. PESO NETO APROXIMADO 40 A 41 KG. DEBE INCLUIR: BOLSO DE TRANSPORTE, BOMBIN DE DOBLE ACCION CON MANOMETRO, KIT DE REPARACION, 16 ESTACAS Y TOLDO DE EXTENSION CON SUS PARANTES DE SOPORTE.",
+    "Carpas — CUBRETECHO CARPA TNC03. PARA SER USADA EN CARPA IT08 o IT09 SIMILAR O SUPERIOR A TOURUS PROTECCION PARA CARPA INFLABLE DE 8 A 12 PERSONAS (COMPATIBLE CON CARPA DE BASE 400 X 300 CM). SUPERFICIE DE COBERTURA APROXIMADA DE 19,03 M2, CON MEDIDAS DE 460 X 440 CM. DISENADO PARA PROTEGER LA ESTRUCTURA DE LA LLUVIA, HUMEDAD Y RADIACION SOLAR, ADEMAS DE OPTIMIZAR ESPACIOS DE CAMPING. FABRICADO EN MATERIAL RESISTENTE E IMPERMEABLE PARA USO INTENSIVO EN EXTERIORES, CON PUNTOS DE ANCLAJE Y SUJECION"
+   ],
+   "terminos": [
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "primera_deteccion": "2026-11-23T22:05:20+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-26T13:05:12+00:00",
+   "resultado": {
+    "ofertas": 4,
+    "oferta_minima": 1756502.0
+   }
   }
  ]
 }
