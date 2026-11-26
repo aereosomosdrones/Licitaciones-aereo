@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-26T17:05:14+00:00",
- "proxima_actualizacion": "2026-11-26T18:05:14+00:00",
+ "generado": "2026-11-26T18:05:12+00:00",
+ "proxima_actualizacion": "2026-11-26T19:05:12+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T17:05:14+00:00",
+   "ultima_ok": "2026-11-26T18:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4975,
-   "detalles_consultados": 35,
+   "revisadas": 4859,
+   "detalles_consultados": 28,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T17:05:14+00:00",
+   "ultima_ok": "2026-11-26T18:05:12+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 17,
-   "detalles_consultados": 17,
+   "detalles_consultados": 19,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:3553-47-LE26"
+ ],
  "por_revisar": [
   {
    "id": "CA:3206-286-COT26",
@@ -113,90 +115,6 @@
  ],
  "items": [
   {
-   "id": "CA:2324-1257-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "2324-1257-COT26",
-   "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE)/ DIRECCION DE SEGURIDAD PUBLICA.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-24T14:28:00-03:00",
-   "fecha_cierre": "2026-11-26T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-24T14:30:00.413Z",
-   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
-   "unidad": "Departamento de Licitaciones y gestión de Abastecimiento",
-   "region": "Región de los Lagos ",
-   "monto": 3620000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=2324-1257-COT26",
-   "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA.",
-   "direccion_entrega": " CALLE EL TENIENTE N° 65, BODEGA MUNICIPAL N°2, PARQUE INDUISTRIAL,",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Módulos de servicio para aeronaves — SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA."
-   ],
-   "adjuntos": [
-    "ANEXO N°1    COMPRA AGIL 2324-1257-COT26.docx",
-    "BASES TÉCNICAS SERVICIO REPUESTOS Y MANTENCION DE DRONES.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Aeronave no tripulada"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-25T17:05:11+00:00",
-   "primera_deteccion": "2026-11-24T18:05:12+00:00",
-   "area": "gestion",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
-   "id": "CA:5611-70-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "5611-70-COT26",
-   "nombre": "SERVICIO DE CAPACITACIÓN EN FOTOGRAMETRÍA CON DRONE PARA FUNCIONARIOS DEL DEPARTAMENTO TÉCNICO DEL SERVIU REGIÓN DE ARICA Y PARINACOTA.",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-25T11:30:00-03:00",
-   "fecha_cierre": "2026-11-26T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-25T11:35:00.950Z",
-   "organismo": "SERVICIO REGIONAL DE LA VIVIENDA Y URBAN",
-   "unidad": "Sección Compras y Servicios Generales",
-   "region": "Región de Arica y Parinacota",
-   "monto": 720000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=5611-70-COT26",
-   "descripcion": "El SERVIU Región de Arica y Parinacota requiere contratar el servicio de capacitación “Fotogrametría con Drone”, dirigido a 3 funcionarios del Departamento Técnico, de acuerdo con los términos de referencia adjuntos",
-   "direccion_entrega": "18 DE SEPTIEMBRE N° 122",
-   "plazo_entrega_dias": 5,
-   "productos": [
-    "Capacitación a empleados — se requiere desarrollar una capacitación teórico-práctica orientada al uso adecuado de drones para fines fotogramétricos y al procesamiento de la información obtenida, considerando criterios de planificación, captura, procesamiento, control de calidad y generación de productos técnicos"
-   ],
-   "adjuntos": [
-    "26-11-25 - Solicitud_Compra_Agil FOTOMETRIA_ - f.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Fotogrametría / ortomosaico"
-   ],
-   "categorias": [
-    "derivado",
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-25T17:05:11+00:00",
-   "primera_deteccion": "2026-11-25T15:05:14+00:00",
-   "area": "capacitacion",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
    "id": "CA:1062807-96-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -231,8 +149,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -272,8 +190,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -312,8 +230,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-25T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -354,7 +272,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T14:05:13+00:00",
    "area": "tienda",
@@ -396,7 +314,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
@@ -605,8 +523,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -646,8 +564,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -681,7 +599,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -726,7 +644,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -815,7 +733,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -858,8 +776,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-26T16:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -898,8 +816,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -939,7 +857,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-26T17:05:14+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
@@ -973,7 +891,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1007,7 +925,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1043,10 +961,46 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:3553-47-LE26",
+   "fuente": "licitacion",
+   "codigo": "3553-47-LE26",
+   "nombre": "Seguros de responsabilidad civil para Drones",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-12-07T15:10:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3553-47-LE26",
+   "descripcion": "Que, con el objetivo de cumplir con la normativa regulada por la Dirección General de Aeronáutica Civil D.G.A.C, que involucra el funcionamiento habitual de los equipos dron RPAS Remotely Piloted Aircraft System, es necesaria la contratación de “Seguros de responsabilidad civil para los Equipos dron RPAS Remotely Piloted Aircraft System del Ministerio de Bienes Nacionales”, por 12 meses.",
+   "organismo": "MINISTERIO DE BIENES NACIONALES",
+   "unidad": "MINISTERIO DE BIENES NACIONALES",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago Centro",
+   "fecha_publicacion": "2026-11-26T14:13:25-03:00",
+   "fecha_adjudicacion": "2026-12-15T19:00:00-03:00",
+   "monto": 273.0,
+   "moneda": "CLF",
+   "tipo": "LE",
+   "productos": [
+    "Seguro por responsabilidad civil — Seguros de responsabilidad civil para los Equipos dron (RPAS Remotely Piloted Aircraft System) del Ministerio de Bienes Nacionales"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
+   "primera_deteccion": "2026-11-26T18:05:12+00:00",
+   "area": "otros",
    "relevancia": "alta",
    "coincide_en": "titulo"
   },
@@ -1078,7 +1032,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -17529,8 +17483,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17573,8 +17527,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17615,8 +17569,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -17731,8 +17685,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17776,8 +17730,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-24T14:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -17791,16 +17745,16 @@
    "codigo": "4629-67-COT26",
    "nombre": "Adquisición por renovación de pólizas de seguro de responsabilidad civil para la operación de 2 drones modelo Dron DJI Mini 4 Pro Fly More Combo Plus institucionales.",
    "estado": "cerrada",
-   "estado_glosa": "Cerrada (plazo vencido)",
+   "estado_glosa": "Cerrada",
    "fecha_publicacion": "2026-11-23T15:33:00-03:00",
    "fecha_cierre": "2026-11-26T14:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-23 15:35",
+   "fecha_ultimo_cambio": "2026-11-26 14:10",
    "organismo": "DIRECCION DEL TRABAJO",
    "unidad": "Nivel Central Santiago",
    "region": "Región Metropolitana de Santiago",
    "monto": 12.0,
    "moneda": "CLF",
-   "ofertas": 0,
+   "ofertas": 1,
    "url": "https://buscador.mercadopublico.cl/ficha?code=4629-67-COT26",
    "descripcion": "La Dirección del Trabajo, requiere adquirir (renovar) póliza de seguro de responsabilidad civil para 2 drones institucionales modelo Dron DJI Mini 4 Pro Fly More Combo Plus, para operar sobre áreas pobladas, debido a que resulta ser obligatorio contar con una póliza de seguro de responsabilidad civil por daños a terceros.",
    "direccion_entrega": "Agustinas N°1253",
@@ -17818,12 +17772,98 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T17:05:14+00:00",
-   "detalle_actualizado": "2026-11-26T17:05:14+00:00",
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
    "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:2324-1257-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2324-1257-COT26",
+   "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE)/ DIRECCION DE SEGURIDAD PUBLICA.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-24T14:28:00-03:00",
+   "fecha_cierre": "2026-11-26T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-26 15:05",
+   "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
+   "unidad": "Departamento de Licitaciones y gestión de Abastecimiento",
+   "region": "Región de los Lagos ",
+   "monto": 3620000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2324-1257-COT26",
+   "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA.",
+   "direccion_entrega": " CALLE EL TENIENTE N° 65, BODEGA MUNICIPAL N°2, PARQUE INDUISTRIAL,",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Módulos de servicio para aeronaves — SERVICIO DE MANTENIMIENTO CORRECTIVO, TÉCNICO AVANZADO Y EL RECAMBIO POR VIDA ÚTIL Y DAÑOS DE REPUESTOS PARA LA AERONAVE NO TRIPULADA (DRONE), SEGÚN LO SOLICITADO EN LAS BASES TECNICAS, EL OFERENTE DEBE ADJUNTAR EL ANEXO N°1 Y LA FICHA TECNICA, AMBOS CON LA DESCRIPCION TECNICA DE SU OFERTA, NO ADJUNTA SU OFERTA NO SERA EVALUADA."
+   ],
+   "adjuntos": [
+    "ANEXO N°1    COMPRA AGIL 2324-1257-COT26.docx",
+    "BASES TÉCNICAS SERVICIO REPUESTOS Y MANTENCION DE DRONES.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
+   "primera_deteccion": "2026-11-24T18:05:12+00:00",
+   "area": "gestion",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-26T18:05:12+00:00"
+  },
+  {
+   "id": "CA:5611-70-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "5611-70-COT26",
+   "nombre": "SERVICIO DE CAPACITACIÓN EN FOTOGRAMETRÍA CON DRONE PARA FUNCIONARIOS DEL DEPARTAMENTO TÉCNICO DEL SERVIU REGIÓN DE ARICA Y PARINACOTA.",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-25T11:30:00-03:00",
+   "fecha_cierre": "2026-11-26T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-26 15:10",
+   "organismo": "SERVICIO REGIONAL DE LA VIVIENDA Y URBAN",
+   "unidad": "Sección Compras y Servicios Generales",
+   "region": "Región de Arica y Parinacota",
+   "monto": 720000.0,
+   "moneda": "CLP",
+   "ofertas": 2,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=5611-70-COT26",
+   "descripcion": "El SERVIU Región de Arica y Parinacota requiere contratar el servicio de capacitación “Fotogrametría con Drone”, dirigido a 3 funcionarios del Departamento Técnico, de acuerdo con los términos de referencia adjuntos",
+   "direccion_entrega": "18 DE SEPTIEMBRE N° 122",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Capacitación a empleados — se requiere desarrollar una capacitación teórico-práctica orientada al uso adecuado de drones para fines fotogramétricos y al procesamiento de la información obtenida, considerando criterios de planificación, captura, procesamiento, control de calidad y generación de productos técnicos"
+   ],
+   "adjuntos": [
+    "26-11-25 - Solicitud_Compra_Agil FOTOMETRIA_ - f.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Fotogrametría / ortomosaico"
+   ],
+   "categorias": [
+    "derivado",
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-26T18:05:12+00:00",
+   "detalle_actualizado": "2026-11-26T18:05:12+00:00",
+   "primera_deteccion": "2026-11-25T15:05:14+00:00",
+   "area": "capacitacion",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-26T18:05:12+00:00"
   }
  ]
 }
