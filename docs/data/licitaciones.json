@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-26T20:05:20+00:00",
- "proxima_actualizacion": "2026-11-26T21:05:20+00:00",
+ "generado": "2026-11-26T21:05:11+00:00",
+ "proxima_actualizacion": "2026-11-26T22:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T20:05:20+00:00",
+   "ultima_ok": "2026-11-26T21:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4845,
-   "detalles_consultados": 72,
+   "revisadas": 4875,
+   "detalles_consultados": 55,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T20:05:20+00:00",
+   "ultima_ok": "2026-11-26T21:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 17,
-   "detalles_consultados": 25,
+   "revisadas": 19,
+   "detalles_consultados": 20,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -77,27 +77,10 @@
   }
  ],
  "nuevas_en_esta_ejecucion": [
-  "CA:2483-607-COT26"
+  "CA:660-29-COT26",
+  "CA:2297-1584-COT26"
  ],
  "por_revisar": [
-  {
-   "id": "CA:3206-286-COT26",
-   "codigo": "3206-286-COT26",
-   "nombre": "CONTRATACION CURSO DE JABONES NATURALES",
-   "organismo": "I MUNICIPALIDAD DE SAN RAFAEL",
-   "region": "Región del Maule ",
-   "fecha_publicacion": "2026-11-25T17:20:00-03:00",
-   "fecha_cierre": "2026-11-26T17:25:00-03:00",
-   "monto": 550000.0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=3206-286-COT26",
-   "adjuntos": [
-    "Decreto Llamado.pdf",
-    "Programa Integridad.docx",
-    "Términos de Referencia.pdf",
-    "Anexo Nº 1 Identificación del Oferente.doc",
-    "Anexo Nº 2 Económica.doc"
-   ]
-  },
   {
    "id": "CA:3880-595-COT26",
    "codigo": "3880-595-COT26",
@@ -163,8 +146,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -204,8 +187,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -244,8 +227,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-25T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -286,7 +269,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T14:05:13+00:00",
    "area": "tienda",
@@ -328,7 +311,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
@@ -368,10 +351,50 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-26T20:05:20+00:00",
    "area": "capacitacion",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:2297-1584-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "2297-1584-COT26",
+   "nombre": "ADQUISICION DRONE.",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-26T17:22:00-03:00",
+   "fecha_cierre": "2026-11-27T17:45:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-26 17:25",
+   "organismo": "I MUNICIPALIDAD DE OSORNO",
+   "unidad": "IMUNI_OSORNO DIRECCION DE ADM Y FINANZAS",
+   "region": "Región de los Lagos ",
+   "monto": 2500000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=2297-1584-COT26",
+   "descripcion": "ADQUISICION DRONE.",
+   "direccion_entrega": "CATALINA KEIM N°880, BODEGA MUNICIPAL.",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — ADQUISICION DRONE, SEGUN EETT ADJUNTAS."
+   ],
+   "adjuntos": [
+    "EETT dron.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
+   "primera_deteccion": "2026-11-26T21:05:11+00:00",
+   "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
   },
@@ -660,8 +683,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -701,10 +724,52 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "CA:660-29-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "660-29-COT26",
+   "nombre": "SERVICIO DE CAPACITACIÓN EN OPERACIÓN DE DRON (RPAS) PARA FUNCIONARIOS DE LA SEREMI DE VIVIENDA Y URBANISMO, REGIÓN DE LA ARAUCANÍA",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-26T17:37:00-03:00",
+   "fecha_cierre": "2026-11-30T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-26 17:40",
+   "organismo": "Ministerio de Vivienda y Urbanismo",
+   "unidad": "SEREMI IX REGION",
+   "region": "Región de la Araucanía ",
+   "monto": 960000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=660-29-COT26",
+   "descripcion": "La Secretaría Regional Ministerial (SEREMI) de Vivienda y Urbanismo Región de La Araucanía requiere contratar el servicio de capacitación teórico-práctico en operación de aeronaves pilotadas a distancia (RPAS / Dron), dirigido a seis (6) funcionarios de la institución, con el propósito de fortalecer sus competencias técnicas en levantamiento visual, inspección en terreno y apoyo a labores institucionales en la región.",
+   "direccion_entrega": "MANUEL BULNES 853",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Formación, capacitación y entrenamiento de personal — SE DETALLA EN EL DOCUMENTO ADJUNTO, LOS DETALLES DEL CURSO DE CAPACITACION."
+   ],
+   "adjuntos": [
+    "TDR_ BASE_capacitación de DRON.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS",
+    "Aeronave no tripulada"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
+   "primera_deteccion": "2026-11-26T21:05:11+00:00",
+   "area": "capacitacion",
    "relevancia": "alta",
    "coincide_en": "titulo"
   },
@@ -736,7 +801,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -781,7 +846,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -870,7 +935,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -913,8 +978,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-26T16:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -953,8 +1018,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -994,7 +1059,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T17:05:14+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
@@ -1028,7 +1093,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1062,7 +1127,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T19:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1098,7 +1163,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1141,7 +1206,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T19:05:12+00:00",
    "primera_deteccion": "2026-11-26T19:05:12+00:00",
    "area": "tienda",
@@ -1177,7 +1242,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T18:05:12+00:00",
    "primera_deteccion": "2026-11-26T18:05:12+00:00",
    "area": "otros",
@@ -1212,7 +1277,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -1246,7 +1311,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
    "detalle_actualizado": "2026-11-26T19:05:12+00:00",
    "primera_deteccion": "2026-11-26T19:05:12+00:00",
    "area": "servicios",
@@ -17658,8 +17723,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17702,8 +17767,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17744,8 +17809,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -17860,8 +17925,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17905,8 +17970,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-24T14:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -17989,8 +18054,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -18032,8 +18097,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T20:05:20+00:00",
-   "detalle_actualizado": "2026-11-26T20:05:20+00:00",
+   "ultima_actualizacion": "2026-11-26T21:05:11+00:00",
+   "detalle_actualizado": "2026-11-26T21:05:11+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
