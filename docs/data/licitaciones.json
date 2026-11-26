@@ -1,25 +1,25 @@
 {
- "generado": "2026-11-26T13:05:12+00:00",
- "proxima_actualizacion": "2026-11-26T14:05:12+00:00",
+ "generado": "2026-11-26T14:05:13+00:00",
+ "proxima_actualizacion": "2026-11-26T15:05:13+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T13:05:12+00:00",
+   "ultima_ok": "2026-11-26T14:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4887,
-   "detalles_consultados": 38,
+   "revisadas": 4909,
+   "detalles_consultados": 43,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T13:05:12+00:00",
+   "ultima_ok": "2026-11-26T14:05:13+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 17,
+   "revisadas": 16,
    "detalles_consultados": 22,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
@@ -113,47 +113,6 @@
  ],
  "items": [
   {
-   "id": "CA:1515304-355-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1515304-355-COT26",
-   "nombre": "CONTRATACIÓN DE CURSO MANTENIMIENTO OVERHAUL MOTORES TURBINA GAS PT6A-28, PARA MECÁNICOS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-23T17:26:00-03:00",
-   "fecha_cierre": "2026-11-26T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-23 17:30",
-   "organismo": "Carabineros de Chile",
-   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 4890200.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-355-COT26",
-   "descripcion": "EL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).EL CURSO CONSIDERA LA PARTICIPACIÓN DE 05 ALUMNOS. PROCESO EDUCACIONAL EXCLUÍDO DE IVA DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 28 HORAS DE INSTRUCCIÓN.",
-   "direccion_entrega": " AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 INTERIOR AERÓDROMO TOBALABA",
-   "plazo_entrega_dias": 20,
-   "productos": [
-    "Capacitación a empleados — EL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).EL CURSO CONSIDERA LA PARTICIPACIÓN DE 05 ALUMNOS. PROCESO EDUCACIONAL EXCLUÍDO DE IVA DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 28 HORAS DE INSTRUCCIÓN."
-   ],
-   "adjuntos": [
-    "REQUERIMIENTOS TÉCNICOS CARP. 273.docx"
-   ],
-   "via": "segunda pasada",
-   "terminos": [
-    "Credencial / piloto"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-23T21:05:10+00:00",
-   "detalle_actualizado": "2026-11-23T21:05:10+00:00",
-   "primera_deteccion": "2026-11-23T21:05:10+00:00",
-   "area": "capacitacion",
-   "relevancia": "alta",
-   "coincide_en": "detalle"
-  },
-  {
    "id": "CA:4482-29-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -186,8 +145,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-24T14:05:13+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -227,8 +186,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -269,7 +228,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "gestion",
@@ -311,7 +270,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "capacitacion",
@@ -353,8 +312,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -394,8 +353,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -434,8 +393,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-25T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -476,7 +435,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T14:05:13+00:00",
    "area": "tienda",
@@ -518,7 +477,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
@@ -613,6 +572,47 @@
    "coincide_en": "titulo"
   },
   {
+   "id": "CA:1515304-355-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1515304-355-COT26",
+   "nombre": "CONTRATACIÓN DE CURSO MANTENIMIENTO OVERHAUL MOTORES TURBINA GAS PT6A-28, PARA MECÁNICOS DE LA PREFECTURA AÉREA DE CARABINEROS DE CHILE",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-23T17:26:00-03:00",
+   "fecha_cierre": "2026-11-29T04:33:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-26 11:10",
+   "organismo": "Carabineros de Chile",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 4890200.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1515304-355-COT26",
+   "descripcion": "EL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).EL CURSO CONSIDERA LA PARTICIPACIÓN DE 05 ALUMNOS. PROCESO EDUCACIONAL EXCLUÍDO DE IVA DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 28 HORAS DE INSTRUCCIÓN.",
+   "direccion_entrega": " AVENIDA ALCALDE FERNANDO CASTILLO VELACO N°7941 INTERIOR AERÓDROMO TOBALABA",
+   "plazo_entrega_dias": 20,
+   "productos": [
+    "Capacitación a empleados — EL CURSO DEBERÁ CONTAR CON APROBACIÓN Y CERTIFICACIÓN VIGENTE CONFORME A NORMATIVA FAA Y/O ESTÁNDARES OACI, DEBIENDO ASIMISMO SER RECONOCIDO, VALIDADO O ACEPTADO POR LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL DE CHILE (DGAC).EL CURSO CONSIDERA LA PARTICIPACIÓN DE 05 ALUMNOS. PROCESO EDUCACIONAL EXCLUÍDO DE IVA DURACIÓN: EL CURSO DEBERÁ CONTEMPLAR UNA DURACIÓN TOTAL DE 28 HORAS DE INSTRUCCIÓN."
+   ],
+   "adjuntos": [
+    "REQUERIMIENTOS TÉCNICOS CARP. 273.docx"
+   ],
+   "via": "segunda pasada",
+   "terminos": [
+    "Credencial / piloto"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
+   "primera_deteccion": "2026-11-23T21:05:10+00:00",
+   "area": "capacitacion",
+   "relevancia": "alta",
+   "coincide_en": "detalle"
+  },
+  {
    "id": "CA:1404452-75-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -686,8 +686,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -727,8 +727,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -762,7 +762,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -807,7 +807,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -896,7 +896,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -936,8 +936,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -977,7 +977,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-26T10:05:17+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
@@ -1011,7 +1011,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1045,7 +1045,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1081,7 +1081,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1116,7 +1116,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
    "detalle_actualizado": "2026-11-26T09:05:12+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -16452,8 +16452,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T06:05:11+00:00",
-   "detalle_actualizado": "2026-11-26T06:05:11+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
@@ -16542,8 +16542,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T06:05:11+00:00",
-   "detalle_actualizado": "2026-11-26T06:05:11+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
@@ -17567,8 +17567,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17611,8 +17611,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17653,8 +17653,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -17769,8 +17769,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T13:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T13:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T14:05:13+00:00",
+   "detalle_actualizado": "2026-11-26T14:05:13+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
