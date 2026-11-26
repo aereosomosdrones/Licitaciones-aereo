@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-26T14:57:06+00:00",
- "proxima_actualizacion": "2026-11-26T15:57:06+00:00",
+ "generado": "2026-11-26T16:05:10+00:00",
+ "proxima_actualizacion": "2026-11-26T17:05:10+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T14:57:06+00:00",
+   "ultima_ok": "2026-11-26T16:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4940,
-   "detalles_consultados": 39,
+   "revisadas": 4957,
+   "detalles_consultados": 83,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-26T14:57:06+00:00",
+   "ultima_ok": "2026-11-26T16:05:10+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 16,
-   "detalles_consultados": 19,
+   "revisadas": 17,
+   "detalles_consultados": 27,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "CA:3920-33-COT26"
+ ],
  "por_revisar": [
   {
    "id": "CA:3206-286-COT26",
@@ -113,46 +115,6 @@
  ],
  "items": [
   {
-   "id": "CA:4482-29-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "4482-29-COT26",
-   "nombre": "ADQUISICIÓN SEGURO DE RESPONSABILIDAD CIVIL (DAÑO A TERCEROS) PARA DRON ILUSTRE MUNICIPALIDAD DE DALCAHUE",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-24T10:08:00-03:00",
-   "fecha_cierre": "2026-11-26T12:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-24 10:10",
-   "organismo": "I MUNICIPALIDAD DE DALCAHUE",
-   "unidad": "Alcaldia",
-   "region": "Región de los Lagos ",
-   "monto": 500000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=4482-29-COT26",
-   "descripcion": "ADQUISICIÓN SEGURO DE RESPONSABILIDAD CIVIL (DAÑO A TERCEROS) PARA DRON ILUSTRE MUNICIPALIDAD DE DALCAHUE.",
-   "direccion_entrega": "Manuel Rodriguez N°110. ",
-   "plazo_entrega_dias": 3,
-   "productos": [
-    "Seguro de equipo electrónico — SEGURO DE RESPONSABILIDAD CIVIL (DAÑO A TERCEROS) PARA DRON ILUSTRE MUNICIPALIDAD DE DALCAHUE.\nSEGÚN ESPECIFICACIONES ADJUNTAS"
-   ],
-   "adjuntos": [
-    "ESPECIFICACIONES TECNICAS COMPRA AGIL SEGURO A TERCEROS DRON.pdf"
-   ],
-   "terminos": [
-    "Dron"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
-   "primera_deteccion": "2026-11-24T14:05:13+00:00",
-   "area": "otros",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
-  {
    "id": "CA:4629-67-COT26",
    "fuente": "compra_agil",
    "origen": "api",
@@ -186,8 +148,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -228,7 +190,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "gestion",
@@ -270,7 +232,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "capacitacion",
@@ -312,8 +274,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -353,8 +315,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -393,8 +355,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-25T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -435,7 +397,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T14:05:13+00:00",
    "area": "tienda",
@@ -477,7 +439,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
@@ -686,8 +648,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -727,8 +689,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -762,8 +724,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -807,8 +769,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -896,12 +858,55 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
    "relevancia": "baja",
    "coincide_en": "mencion"
+  },
+  {
+   "id": "CA:3920-33-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "3920-33-COT26",
+   "nombre": "Adquisición de DRONE para Dirección de SECPLAN, Municipalidad de Villarrica",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-26T12:13:00-03:00",
+   "fecha_cierre": "2026-12-01T09:05:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-26 12:15",
+   "organismo": "I MUNICIPALIDAD DE VILLARRICA",
+   "unidad": "secplan",
+   "region": "Región de la Araucanía ",
+   "monto": 1000000.0,
+   "moneda": "CLP",
+   "ofertas": 0,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=3920-33-COT26",
+   "descripcion": "Se requiere la compra de DRONE y sus accesorios complementarios para la Dirección de SECPLAN, Municipalidad de Villarrica, según antecedentes adjuntos. Considerar despacho a dirección indicada.",
+   "direccion_entrega": "Av. Pedro de Valdivia N°810, piso 2, SECPLAN",
+   "plazo_entrega_dias": 5,
+   "productos": [
+    "Aviones objetivo o de reconocimiento — Se requiere la compra de DRONE y sus accesorios complementarios para la Dirección de SECPLAN, Municipalidad de Villarrica. Según antecedentes adjuntos, considerar envío a dirección indicada."
+   ],
+   "adjuntos": [
+    "Términos de referencia DRONE.pdf",
+    "SP 072897.pdf",
+    "Reglamento_N°6_Factoring.pdf",
+    "Ficha presupuestaria.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
+   "primera_deteccion": "2026-11-26T16:05:10+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
   },
   {
    "id": "CA:3325-44-COT26",
@@ -936,8 +941,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -977,7 +982,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
    "detalle_actualizado": "2026-11-26T10:05:17+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
@@ -1011,8 +1016,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1045,7 +1050,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
    "detalle_actualizado": "2026-11-26T13:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1066,7 +1071,7 @@
    "unidad": "I MUNICIPALIDAD DE RENCA",
    "region": "Región Metropolitana de Santiago",
    "comuna": "Renca",
-   "fecha_publicacion": "2026-11-13T12:22:49-03:00",
+   "fecha_publicacion": "2026-11-13T12:22:00-03:00",
    "fecha_adjudicacion": "2027-01-25T15:05:00-03:00",
    "monto": 60000000.0,
    "moneda": "CLP",
@@ -1081,8 +1086,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -1116,8 +1121,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -6752,8 +6757,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-10-06T23:05:12+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -11455,8 +11460,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-10-20T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -11820,8 +11825,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-10-05T18:28:09+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -12137,8 +12142,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-10-15T14:05:14+00:00",
    "cambio_estado": "2026-11-04T18:05:16+00:00",
    "area": "tienda",
@@ -12438,8 +12443,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-10-22T15:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -12559,8 +12564,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-10-26T21:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -13012,8 +13017,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-10-27T14:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -13850,8 +13855,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-10-29T20:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -13973,8 +13978,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-05T20:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15000,8 +15005,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-11T15:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15092,8 +15097,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-04T19:05:12+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -15323,8 +15328,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-02T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15359,8 +15364,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-05T18:39:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -15546,8 +15551,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-07T20:05:09+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -15671,8 +15676,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-03T21:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -16325,8 +16330,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "otros",
    "relevancia": "baja",
@@ -16368,8 +16373,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-02T21:05:10+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -17135,8 +17140,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T15:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17168,8 +17173,8 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-13T14:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -17300,8 +17305,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T20:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17439,8 +17444,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-05T15:05:11+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -17567,8 +17572,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17611,8 +17616,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17653,8 +17658,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -17688,8 +17693,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-12T17:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17731,8 +17736,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T09:05:12+00:00",
-   "detalle_actualizado": "2026-11-26T09:05:12+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-20T22:05:10+00:00",
    "area": "tienda",
    "relevancia": "baja",
@@ -17769,8 +17774,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-26T14:57:06+00:00",
-   "detalle_actualizado": "2026-11-26T14:57:06+00:00",
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17780,6 +17785,47 @@
     "ofertas": 4,
     "oferta_minima": 1756502.0
    }
+  },
+  {
+   "id": "CA:4482-29-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "4482-29-COT26",
+   "nombre": "ADQUISICIÓN SEGURO DE RESPONSABILIDAD CIVIL (DAÑO A TERCEROS) PARA DRON ILUSTRE MUNICIPALIDAD DE DALCAHUE",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-24T10:08:00-03:00",
+   "fecha_cierre": "2026-11-26T12:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-26 12:10",
+   "organismo": "I MUNICIPALIDAD DE DALCAHUE",
+   "unidad": "Alcaldia",
+   "region": "Región de los Lagos ",
+   "monto": 500000.0,
+   "moneda": "CLP",
+   "ofertas": 4,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=4482-29-COT26",
+   "descripcion": "ADQUISICIÓN SEGURO DE RESPONSABILIDAD CIVIL (DAÑO A TERCEROS) PARA DRON ILUSTRE MUNICIPALIDAD DE DALCAHUE.",
+   "direccion_entrega": "Manuel Rodriguez N°110. ",
+   "plazo_entrega_dias": 3,
+   "productos": [
+    "Seguro de equipo electrónico — SEGURO DE RESPONSABILIDAD CIVIL (DAÑO A TERCEROS) PARA DRON ILUSTRE MUNICIPALIDAD DE DALCAHUE.\nSEGÚN ESPECIFICACIONES ADJUNTAS"
+   ],
+   "adjuntos": [
+    "ESPECIFICACIONES TECNICAS COMPRA AGIL SEGURO A TERCEROS DRON.pdf"
+   ],
+   "terminos": [
+    "Dron"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-26T16:05:10+00:00",
+   "detalle_actualizado": "2026-11-26T16:05:10+00:00",
+   "primera_deteccion": "2026-11-24T14:05:13+00:00",
+   "area": "otros",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-26T16:05:10+00:00"
   }
  ]
 }
