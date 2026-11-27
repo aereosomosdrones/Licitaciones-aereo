@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-27T17:05:15+00:00",
- "proxima_actualizacion": "2026-11-27T18:05:15+00:00",
+ "generado": "2026-11-27T18:04:43+00:00",
+ "proxima_actualizacion": "2026-11-27T19:04:43+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-27T17:05:15+00:00",
+   "ultima_ok": "2026-11-27T18:04:43+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4951,
-   "detalles_consultados": 50,
+   "revisadas": 4870,
+   "detalles_consultados": 43,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-27T17:05:15+00:00",
+   "ultima_ok": "2026-11-27T18:04:43+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 21,
-   "detalles_consultados": 24,
+   "revisadas": 18,
+   "detalles_consultados": 20,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,10 +76,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "CA:2799-108-COT26",
-  "CA:5484-143-COT26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "por_revisar": [
   {
    "id": "CA:2207-873-COT26",
@@ -97,48 +94,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:678-26-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "678-26-COT26",
-   "nombre": "Equipamiento Terreno Unidad de Bienes",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-25T12:13:00-03:00",
-   "fecha_cierre": "2026-11-27T15:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-25T12:15:01.183Z",
-   "organismo": "SEREMI Bienes Nacionales IX Región",
-   "unidad": "SEREMI de La Araucanía",
-   "region": "Región de la Araucanía ",
-   "monto": 410000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=678-26-COT26",
-   "descripcion": "La Secretaria Regional Ministerial de la Araucanía requiere equipamiento para terreno de la unidad de bienes protector solar y Bolso para Drone.",
-   "direccion_entrega": "Arturo Prat 535 ",
-   "plazo_entrega_dias": 6,
-   "productos": [
-    "Bolsos — Mochila de transporte para Autel EVO Max\nModelo del Drone:  Autel EVO Max \n",
-    "Protector solar — Bloqueador o protector solar de Textura serum fluido, gel, ligera o ultra fluida, acabado invisible y de alta resistencia. Protección UVA/UVB y luz visible. Con filtro UV para proteger la piel de los rayos UVA más dañinos y ayudar a prevenir los daños celulares inducidos por ese tipo de radiación. Factor 50 o más Adecuado para uso en el área sensible de los ojos."
-   ],
-   "adjuntos": [
-    "Formulario Compra Agil EquipamientUnidad Bienes.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "Marcas (DJI, Autel…)"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-25T17:05:11+00:00",
-   "primera_deteccion": "2026-11-25T16:05:17+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "detalle"
-  },
   {
    "id": "CA:2483-607-COT26",
    "fuente": "compra_agil",
@@ -172,8 +127,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-26T20:05:20+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -212,8 +167,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-26T21:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -423,8 +378,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -544,8 +499,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-27T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -584,8 +539,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -625,8 +580,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -667,8 +622,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-26T21:05:11+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -702,7 +657,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -747,7 +702,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -836,7 +791,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -879,8 +834,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-26T16:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -920,8 +875,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-27T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -962,8 +917,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-27T17:05:15+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1002,8 +957,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-27T17:05:15+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -1042,8 +997,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -1083,7 +1038,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T13:05:10+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
@@ -1117,7 +1072,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1151,7 +1106,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T16:05:12+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1187,7 +1142,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1230,7 +1185,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T16:05:12+00:00",
    "primera_deteccion": "2026-11-26T19:05:12+00:00",
    "area": "tienda",
@@ -1266,7 +1221,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-26T18:05:12+00:00",
    "area": "otros",
@@ -1300,7 +1255,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-27T14:05:11+00:00",
    "area": "tienda",
@@ -1335,7 +1290,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -1369,7 +1324,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
    "detalle_actualizado": "2026-11-27T16:05:12+00:00",
    "primera_deteccion": "2026-11-26T19:05:12+00:00",
    "area": "servicios",
@@ -18194,8 +18149,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -18237,8 +18192,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -18278,8 +18233,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-25T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -18321,13 +18276,56 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T17:05:15+00:00",
-   "detalle_actualizado": "2026-11-27T17:05:15+00:00",
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
    "primera_deteccion": "2026-11-25T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo",
    "cambio_estado": "2026-11-27T14:05:11+00:00"
+  },
+  {
+   "id": "CA:678-26-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "678-26-COT26",
+   "nombre": "Equipamiento Terreno Unidad de Bienes",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-25T12:13:00-03:00",
+   "fecha_cierre": "2026-11-27T15:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-27 15:05",
+   "organismo": "SEREMI Bienes Nacionales IX Región",
+   "unidad": "SEREMI de La Araucanía",
+   "region": "Región de la Araucanía ",
+   "monto": 410000.0,
+   "moneda": "CLP",
+   "ofertas": 1,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=678-26-COT26",
+   "descripcion": "La Secretaria Regional Ministerial de la Araucanía requiere equipamiento para terreno de la unidad de bienes protector solar y Bolso para Drone.",
+   "direccion_entrega": "Arturo Prat 535 ",
+   "plazo_entrega_dias": 6,
+   "productos": [
+    "Bolsos — Mochila de transporte para Autel EVO Max\nModelo del Drone:  Autel EVO Max \n",
+    "Protector solar — Bloqueador o protector solar de Textura serum fluido, gel, ligera o ultra fluida, acabado invisible y de alta resistencia. Protección UVA/UVB y luz visible. Con filtro UV para proteger la piel de los rayos UVA más dañinos y ayudar a prevenir los daños celulares inducidos por ese tipo de radiación. Factor 50 o más Adecuado para uso en el área sensible de los ojos."
+   ],
+   "adjuntos": [
+    "Formulario Compra Agil EquipamientUnidad Bienes.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "Marcas (DJI, Autel…)"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-27T18:04:43+00:00",
+   "detalle_actualizado": "2026-11-27T18:04:43+00:00",
+   "primera_deteccion": "2026-11-25T16:05:17+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "detalle",
+   "cambio_estado": "2026-11-27T18:04:43+00:00"
   }
  ]
 }
