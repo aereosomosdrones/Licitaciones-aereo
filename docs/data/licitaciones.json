@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-27T13:05:10+00:00",
- "proxima_actualizacion": "2026-11-27T14:05:10+00:00",
+ "generado": "2026-11-27T14:05:11+00:00",
+ "proxima_actualizacion": "2026-11-27T15:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-27T13:05:10+00:00",
+   "ultima_ok": "2026-11-27T14:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4856,
-   "detalles_consultados": 31,
+   "revisadas": 4862,
+   "detalles_consultados": 33,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-27T13:05:10+00:00",
+   "ultima_ok": "2026-11-27T14:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 18,
-   "detalles_consultados": 40,
+   "revisadas": 17,
+   "detalles_consultados": 26,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,7 +76,9 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [],
+ "nuevas_en_esta_ejecucion": [
+  "LIC:1515304-252-LE26"
+ ],
  "por_revisar": [
   {
    "id": "CA:3880-595-COT26",
@@ -108,48 +110,6 @@
   }
  ],
  "items": [
-  {
-   "id": "CA:1487-67-COT26",
-   "fuente": "compra_agil",
-   "origen": "api",
-   "codigo": "1487-67-COT26",
-   "nombre": "Adquisición de equipos aéreo no tripulado (RPAS) - Departamento de aeródromos y servicios aeronáuticos",
-   "estado": "abierta",
-   "estado_glosa": "Publicada",
-   "fecha_publicacion": "2026-11-25T10:58:00-03:00",
-   "fecha_cierre": "2026-11-27T11:00:00-03:00",
-   "fecha_ultimo_cambio": "2026-11-25T11:00:00.467Z",
-   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
-   "unidad": "UNIDAD DE COMPRA CONCEPCION",
-   "region": "Región Metropolitana de Santiago",
-   "monto": 7000000.0,
-   "moneda": "CLP",
-   "ofertas": 0,
-   "url": "https://buscador.mercadopublico.cl/ficha?code=1487-67-COT26",
-   "descripcion": "Adquisición de Equipos aéreos no tripulados para la DASA, conforme a características técnicas descritas en Anexo REQUISITOS TÉCNICOS adjunto. Las ofertas deberán contener las especificaciones técnicas de los productos ofertados. Según lo indicado en el Art.37 de la Ley N°16.752, LA DGAC RETIENE UN 2% DEL TOTAL FACTURADO. Si el proveedor oferta en la compra ágil, se entiende que ACEPTA dicha retención. **INCLUIR EL DESPACHO EN EL VALOR DEL PRODUCTO, NO EN ÍTEM APARTE**",
-   "direccion_entrega": " San Pablo # 8381, Pudahuel",
-   "plazo_entrega_dias": 10,
-   "productos": [
-    "Cámaras aéreas — equipos aéreo no tripulado (RPAS Remotely Piloted Aircraft System) de características profesionales"
-   ],
-   "adjuntos": [
-    "BASES TECNICAS TECNICAS - DRONES SECCION FAPA_v2FIRMADAS.pdf",
-    "Ley N° 16752 del 17.FEB.1968.pdf"
-   ],
-   "terminos": [
-    "Dron",
-    "RPA / RPAS"
-   ],
-   "categorias": [
-    "nucleo"
-   ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-25T17:05:11+00:00",
-   "primera_deteccion": "2026-11-25T14:05:13+00:00",
-   "area": "tienda",
-   "relevancia": "alta",
-   "coincide_en": "titulo"
-  },
   {
    "id": "CA:678-26-COT26",
    "fuente": "compra_agil",
@@ -185,7 +145,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
@@ -225,8 +185,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-26T20:05:20+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -265,8 +225,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-26T21:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -476,8 +436,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -599,8 +559,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -640,8 +600,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -682,8 +642,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-26T21:05:11+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -717,7 +677,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -762,7 +722,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -851,7 +811,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -894,8 +854,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-26T16:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -934,8 +894,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -975,7 +935,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T13:05:10+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
@@ -1009,7 +969,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1043,7 +1003,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T09:05:14+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1079,7 +1039,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1122,7 +1082,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T09:05:14+00:00",
    "primera_deteccion": "2026-11-26T19:05:12+00:00",
    "area": "tienda",
@@ -1158,10 +1118,44 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T07:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-26T18:05:12+00:00",
    "area": "otros",
+   "relevancia": "alta",
+   "coincide_en": "titulo"
+  },
+  {
+   "id": "LIC:1515304-252-LE26",
+   "fuente": "licitacion",
+   "codigo": "1515304-252-LE26",
+   "nombre": "ADQ. DE REPUESTOS PARA SIST. UAV CAMPCOPTER S-100",
+   "estado": "abierta",
+   "estado_glosa": "Publicada",
+   "fecha_cierre": "2026-12-07T15:30:00-03:00",
+   "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1515304-252-LE26",
+   "descripcion": "ADQUISICIÓN DE REPUESTOS PARA SISTEMA UAV CAMPCOPTER S-100 DE LA PREFECTURA AEREA DE CARABINEROS",
+   "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+   "unidad": "Sec Compras Zona Frontera y Servicios Especiales",
+   "region": "Región Metropolitana de Santiago",
+   "comuna": "Santiago",
+   "fecha_publicacion": "2026-11-27T10:18:50-03:00",
+   "fecha_adjudicacion": "2027-02-08T12:00:00-03:00",
+   "moneda": "USD",
+   "tipo": "LE",
+   "productos": [
+    "Helicóptero de transporte militar — ADQUISICIÓN DE REPUESTOS PARA SISTEMA UAV CAMPCOPTER S-100 PARA LA PREFECTURA AEREA"
+   ],
+   "terminos": [
+    "UAV / UAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "primera_deteccion": "2026-11-27T14:05:11+00:00",
+   "area": "tienda",
    "relevancia": "alta",
    "coincide_en": "titulo"
   },
@@ -1193,7 +1187,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -1227,7 +1221,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
    "detalle_actualizado": "2026-11-27T09:05:14+00:00",
    "primera_deteccion": "2026-11-26T19:05:12+00:00",
    "area": "servicios",
@@ -17678,8 +17672,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17722,8 +17716,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17764,8 +17758,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -17880,8 +17874,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T05:05:20+00:00",
-   "detalle_actualizado": "2026-11-27T05:05:20+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-23T22:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -18009,8 +18003,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -18052,8 +18046,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -18095,8 +18089,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -18136,13 +18130,56 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T13:05:10+00:00",
-   "detalle_actualizado": "2026-11-27T13:05:10+00:00",
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-25T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
    "coincide_en": "titulo",
    "cambio_estado": "2026-11-27T13:05:10+00:00"
+  },
+  {
+   "id": "CA:1487-67-COT26",
+   "fuente": "compra_agil",
+   "origen": "api",
+   "codigo": "1487-67-COT26",
+   "nombre": "Adquisición de equipos aéreo no tripulado (RPAS) - Departamento de aeródromos y servicios aeronáuticos",
+   "estado": "cerrada",
+   "estado_glosa": "Cerrada",
+   "fecha_publicacion": "2026-11-25T10:58:00-03:00",
+   "fecha_cierre": "2026-11-27T11:00:00-03:00",
+   "fecha_ultimo_cambio": "2026-11-27 11:05",
+   "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+   "unidad": "UNIDAD DE COMPRA CONCEPCION",
+   "region": "Región Metropolitana de Santiago",
+   "monto": 7000000.0,
+   "moneda": "CLP",
+   "ofertas": 7,
+   "url": "https://buscador.mercadopublico.cl/ficha?code=1487-67-COT26",
+   "descripcion": "Adquisición de Equipos aéreos no tripulados para la DASA, conforme a características técnicas descritas en Anexo REQUISITOS TÉCNICOS adjunto. Las ofertas deberán contener las especificaciones técnicas de los productos ofertados. Según lo indicado en el Art.37 de la Ley N°16.752, LA DGAC RETIENE UN 2% DEL TOTAL FACTURADO. Si el proveedor oferta en la compra ágil, se entiende que ACEPTA dicha retención. **INCLUIR EL DESPACHO EN EL VALOR DEL PRODUCTO, NO EN ÍTEM APARTE**",
+   "direccion_entrega": " San Pablo # 8381, Pudahuel",
+   "plazo_entrega_dias": 10,
+   "productos": [
+    "Cámaras aéreas — equipos aéreo no tripulado (RPAS Remotely Piloted Aircraft System) de características profesionales"
+   ],
+   "adjuntos": [
+    "BASES TECNICAS TECNICAS - DRONES SECCION FAPA_v2FIRMADAS.pdf",
+    "Ley N° 16752 del 17.FEB.1968.pdf"
+   ],
+   "terminos": [
+    "Dron",
+    "RPA / RPAS"
+   ],
+   "categorias": [
+    "nucleo"
+   ],
+   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "primera_deteccion": "2026-11-25T14:05:13+00:00",
+   "area": "tienda",
+   "relevancia": "alta",
+   "coincide_en": "titulo",
+   "cambio_estado": "2026-11-27T14:05:11+00:00"
   }
  ]
 }
