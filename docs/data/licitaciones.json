@@ -1,26 +1,26 @@
 {
- "generado": "2026-11-27T14:05:11+00:00",
- "proxima_actualizacion": "2026-11-27T15:05:11+00:00",
+ "generado": "2026-11-27T15:05:11+00:00",
+ "proxima_actualizacion": "2026-11-27T16:05:11+00:00",
  "intervalo_minutos": 60,
  "fuentes": {
   "licitaciones": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-27T14:05:11+00:00",
+   "ultima_ok": "2026-11-27T15:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
-   "revisadas": 4862,
-   "detalles_consultados": 33,
+   "revisadas": 4880,
+   "detalles_consultados": 50,
    "pendientes_por_revisar": 0
   },
   "compra_agil": {
    "ok": true,
    "mensaje": "OK",
-   "ultima_ok": "2026-11-27T14:05:11+00:00",
+   "ultima_ok": "2026-11-27T15:05:11+00:00",
    "errores_detalle": 0,
    "advertencias": [],
    "revisadas": 17,
-   "detalles_consultados": 26,
+   "detalles_consultados": 22,
    "segunda_pasada": 0,
    "pendientes_segunda_pasada": 0,
    "modo": "recientes"
@@ -76,9 +76,7 @@
    "categoria": "derivado"
   }
  ],
- "nuevas_en_esta_ejecucion": [
-  "LIC:1515304-252-LE26"
- ],
+ "nuevas_en_esta_ejecucion": [],
  "por_revisar": [
   {
    "id": "CA:3880-595-COT26",
@@ -145,7 +143,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-25T17:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
@@ -185,8 +183,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-26T20:05:20+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -225,8 +223,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-26T21:05:11+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -436,8 +434,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -559,8 +557,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -600,8 +598,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-25T21:05:20+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -642,8 +640,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-26T21:05:11+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -677,7 +675,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T20:05:24+00:00",
    "area": "tienda",
@@ -722,7 +720,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-16T21:05:19+00:00",
    "area": "tienda",
@@ -811,7 +809,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T16:05:13+00:00",
    "area": "tienda",
@@ -854,8 +852,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-26T16:05:10+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -894,8 +892,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-25T12:33:19+00:00",
    "area": "otros",
    "relevancia": "alta",
@@ -935,7 +933,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T13:05:10+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "gestion",
@@ -969,7 +967,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-19T19:05:11+00:00",
    "area": "tienda",
@@ -1003,7 +1001,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T09:05:14+00:00",
    "primera_deteccion": "2026-11-23T19:05:11+00:00",
    "area": "tienda",
@@ -1039,7 +1037,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-13T16:05:12+00:00",
    "area": "servicios",
@@ -1082,7 +1080,7 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T09:05:14+00:00",
    "primera_deteccion": "2026-11-26T19:05:12+00:00",
    "area": "tienda",
@@ -1118,7 +1116,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-26T18:05:12+00:00",
    "area": "otros",
@@ -1152,7 +1150,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T14:05:11+00:00",
    "primera_deteccion": "2026-11-27T14:05:11+00:00",
    "area": "tienda",
@@ -1187,7 +1185,7 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T12:05:10+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "servicios",
@@ -1221,7 +1219,7 @@
    "categorias": [
     "derivado"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
    "detalle_actualizado": "2026-11-27T09:05:14+00:00",
    "primera_deteccion": "2026-11-26T19:05:12+00:00",
    "area": "servicios",
@@ -16538,8 +16536,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T07:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T07:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
@@ -16628,8 +16626,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T07:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T07:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-16T20:05:10+00:00",
    "area": "capacitacion",
    "relevancia": "baja",
@@ -17672,8 +17670,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-24T16:05:12+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17716,8 +17714,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-24T17:27:56+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -17758,8 +17756,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -18003,8 +18001,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-24T18:05:12+00:00",
    "area": "gestion",
    "relevancia": "alta",
@@ -18046,8 +18044,8 @@
     "derivado",
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-25T15:05:14+00:00",
    "area": "capacitacion",
    "relevancia": "alta",
@@ -18089,8 +18087,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-25T16:05:17+00:00",
    "area": "tienda",
    "relevancia": "alta",
@@ -18130,8 +18128,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-25T19:05:12+00:00",
    "area": "servicios",
    "relevancia": "alta",
@@ -18173,8 +18171,8 @@
    "categorias": [
     "nucleo"
    ],
-   "ultima_actualizacion": "2026-11-27T14:05:11+00:00",
-   "detalle_actualizado": "2026-11-27T14:05:11+00:00",
+   "ultima_actualizacion": "2026-11-27T15:05:11+00:00",
+   "detalle_actualizado": "2026-11-27T15:05:11+00:00",
    "primera_deteccion": "2026-11-25T14:05:13+00:00",
    "area": "tienda",
    "relevancia": "alta",
