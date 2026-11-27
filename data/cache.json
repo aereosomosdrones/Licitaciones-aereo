@@ -2106,6 +2106,7 @@
   "2446-364-LE26",
   "2446-365-LE26",
   "2446-366-LE26",
+  "2446-367-LP26",
   "2448-152-L126",
   "2448-156-LE26",
   "2448-160-LE26",
@@ -8141,7 +8142,7 @@
   }
  },
  "ca_ultimo_barrido_completo": "2026-11-26T19:05:12+00:00",
- "ca_ultima_ejecucion_ok": "2026-11-26T23:41:19+00:00",
+ "ca_ultima_ejecucion_ok": "2026-11-27T00:05:10+00:00",
  "ultimo_recordatorio": "2026-11-10 09",
  "recordatorios_abiertos": [],
  "ca_pendientes": {},
@@ -8175,7 +8176,7 @@
    ]
   }
  },
- "ca_ultima_amplia": "2026-11-26T23:41:19+00:00",
+ "ca_ultima_amplia": "2026-11-27T00:05:10+00:00",
  "avisos": {
   "LIC:4956-90-LE26": 20,
   "LIC:2952-23-LP26": 24,
