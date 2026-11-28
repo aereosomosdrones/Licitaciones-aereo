@@ -978,6 +978,7 @@
   "1350296-98-LP26",
   "1351-8-LP26",
   "1354-11-LE26",
+  "1354-12-LE26",
   "1357605-23-LE26",
   "1357605-24-LE26",
   "1359-22-LE26",
@@ -8347,12 +8348,12 @@
   }
  },
  "ca_ultimo_barrido_completo": "2026-11-27T20:05:13+00:00",
- "ca_ultima_ejecucion_ok": "2026-11-28T03:05:09+00:00",
+ "ca_ultima_ejecucion_ok": "2026-11-28T04:05:09+00:00",
  "ultimo_recordatorio": "2026-11-10 09",
  "recordatorios_abiertos": [],
  "ca_pendientes": {},
  "ca_por_revisar": {},
- "ca_ultima_amplia": "2026-11-28T03:05:09+00:00",
+ "ca_ultima_amplia": "2026-11-28T04:05:09+00:00",
  "avisos": {
   "LIC:4956-90-LE26": 20,
   "LIC:2952-23-LP26": 24,
