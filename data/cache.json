@@ -4746,6 +4746,7 @@
   "859378-15-LP26",
   "859378-16-LP26",
   "861693-2-O126",
+  "861693-3-O126",
   "867990-133-LP26",
   "867990-144-LE26",
   "867990-158-LE26",
@@ -8349,12 +8350,12 @@
   }
  },
  "ca_ultimo_barrido_completo": "2026-11-27T20:05:13+00:00",
- "ca_ultima_ejecucion_ok": "2026-11-28T09:05:12+00:00",
+ "ca_ultima_ejecucion_ok": "2026-11-28T10:05:12+00:00",
  "ultimo_recordatorio": "2026-11-10 09",
  "recordatorios_abiertos": [],
  "ca_pendientes": {},
  "ca_por_revisar": {},
- "ca_ultima_amplia": "2026-11-28T09:05:12+00:00",
+ "ca_ultima_amplia": "2026-11-28T10:05:12+00:00",
  "avisos": {
   "LIC:4956-90-LE26": 20,
   "LIC:2952-23-LP26": 24,
